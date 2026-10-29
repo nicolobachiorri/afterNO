@@ -59,7 +59,8 @@ planned before the first release, and its result will be reported here.
 
 Everything happens in your browser. The extension sends nothing anywhere: no server,
 no analytics, no network requests of its own (the cookie database ships inside it).
-What it reads, and why, is listed in [PRIVACY.md](PRIVACY.md) *(to be written)*.
+What it reads, what it keeps (only until the browser closes) and why is listed in
+[PRIVACY.md](PRIVACY.md).
 
 ## Build it yourself
 
