@@ -1,12 +1,22 @@
 // Shape and keys of what the background saves in storage.session.
 // It lives in lib/ because both the background and the popup use it: importing it
 // from an entrypoint would pull the whole background code into the popup.
+import { siteOf } from './hosts.ts';
 
 export interface TabHosts {
   pageUrl: string; // the top-level page the hosts belong to
   // Every host the tab contacted while showing that page, with the last time
   // (milliseconds) it was contacted: "after the choice" means lastSeen >= choice time.
   lastSeen: Record<string, number>;
+}
+
+// A new top-level page in the tab. On the same site (a reload, or another page of
+// the site) the list goes on: what the site's pages contacted right after the choice
+// must not be lost when the page reloads, and that is often when trackers exchange
+// identifiers. On another site the list starts again.
+export function onTopLevelPage(previous: TabHosts | undefined, url: string, host: string, now: number): TabHosts {
+  const sameSite = previous !== undefined && siteOf(new URL(previous.pageUrl).hostname) === siteOf(host);
+  return { pageUrl: url, lastSeen: { ...(sameSite ? previous.lastSeen : {}), [host]: now } };
 }
 
 export const tabKey = (tabId: number): string => `tab:${tabId}`;

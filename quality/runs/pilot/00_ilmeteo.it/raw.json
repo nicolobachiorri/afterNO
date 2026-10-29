@@ -1,0 +1,635 @@
+{
+  "url": "https://www.ilmeteo.it",
+  "final_url": "https://www.ilmeteo.it/",
+  "click_at_s": 11.7,
+  "reload_at_s": 16.7,
+  "reject": "button: 'continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "Accedi",
+    "Scopri di pi\u00f9",
+    "Elenco dei partner",
+    "accetta",
+    "continua senza accettare",
+    "personalizza"
+  ],
+  "tcf": {
+    "cmpId": 300,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 11,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "0tjvkki0ltkqraem1mffombkfn7kx1793295571.nuid.imrworldwide.com",
+    "aax-eu.amazon-adsystem.com",
+    "acdn.ak-stream-videoplatform.sky.it",
+    "ajax.googleapis.com",
+    "amplify-imp.outbrainimg.com",
+    "assets.adobedtm.com",
+    "b1-nydc1-win.outbrainimg.com",
+    "b1t-nydc1.outbrainimg.com",
+    "c.amazon-adsystem.com",
+    "cdn-gl.imrworldwide.com",
+    "cdnb.4strokemedia.com",
+    "config.aps.amazon-adsystem.com",
+    "connect.facebook.net",
+    "dpm.demdex.net",
+    "dsp.outbrainimg.com",
+    "events.newsroom.bi",
+    "feed.4strokemedia.com",
+    "fluid.4strokemedia.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "images.outbrainimg.com",
+    "imasdk.googleapis.com",
+    "log.outbrainimg.com",
+    "mcdp-nydc1.outbrainimg.com",
+    "micro.rubiconproject.com",
+    "mv.outbrainimg.com",
+    "pagead2.googlesyndication.com",
+    "platform.twitter.com",
+    "pubads.g.doubleclick.net",
+    "region1.analytics.google.com",
+    "s0.2mdn.net",
+    "s2.adform.net",
+    "sb.scorecardresearch.com",
+    "sdk.mrf.io",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "smetrics.sky.it",
+    "syndication.twitter.com",
+    "track.adform.net",
+    "videoplatform.sky.it",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "widget-pixels.outbrainimg.com",
+    "widgets.outbrain.com",
+    "widgets.outbrainimg.com",
+    "widgets.teads-xo.com",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "www.youtube.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "0tjvkki0ltkqraem1mffombkfn7kx1793295571.nuid.imrworldwide.com",
+    "aax-eu.amazon-adsystem.com",
+    "acdn.ak-stream-videoplatform.sky.it",
+    "ajax.googleapis.com",
+    "amplify-imp.outbrainimg.com",
+    "assets.adobedtm.com",
+    "b1-nydc1-win.outbrainimg.com",
+    "b1t-nydc1.outbrainimg.com",
+    "c.amazon-adsystem.com",
+    "cdn-gl.imrworldwide.com",
+    "cdnb.4strokemedia.com",
+    "config.aps.amazon-adsystem.com",
+    "connect.facebook.net",
+    "dsp.outbrainimg.com",
+    "events.newsroom.bi",
+    "feed.4strokemedia.com",
+    "fluid.4strokemedia.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "images.outbrainimg.com",
+    "imasdk.googleapis.com",
+    "log.outbrainimg.com",
+    "mcdp-nydc1.outbrainimg.com",
+    "micro.rubiconproject.com",
+    "mv.outbrainimg.com",
+    "pagead2.googlesyndication.com",
+    "platform.twitter.com",
+    "pubads.g.doubleclick.net",
+    "region1.analytics.google.com",
+    "s0.2mdn.net",
+    "s2.adform.net",
+    "sb.scorecardresearch.com",
+    "sdk.mrf.io",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "syndication.twitter.com",
+    "track.adform.net",
+    "videoplatform.sky.it",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "widget-pixels.outbrainimg.com",
+    "widgets.outbrain.com",
+    "widgets.outbrainimg.com",
+    "widgets.teads-xo.com",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "www.youtube.com"
+  ],
+  "third_party_timeline": {
+    "0tjvkki0ltkqraem1mffombkfn7kx1793295571.nuid.imrworldwide.com": {
+      "first_s": 17.09,
+      "last_s": 17.09
+    },
+    "aax-eu.amazon-adsystem.com": {
+      "first_s": 11.94,
+      "last_s": 17.65
+    },
+    "acdn.ak-stream-videoplatform.sky.it": {
+      "first_s": 11.61,
+      "last_s": 17.34
+    },
+    "ajax.googleapis.com": {
+      "first_s": 3.51,
+      "last_s": 17.19
+    },
+    "amplify-imp.outbrainimg.com": {
+      "first_s": 12.92,
+      "last_s": 19.18
+    },
+    "assets.adobedtm.com": {
+      "first_s": 11.82,
+      "last_s": 17.32
+    },
+    "b1-nydc1-win.outbrainimg.com": {
+      "first_s": 12.92,
+      "last_s": 19.18
+    },
+    "b1t-nydc1.outbrainimg.com": {
+      "first_s": 12.92,
+      "last_s": 19.18
+    },
+    "bqxcokon8uwr67kzamez7af66mm7d1793295557.nuid.imrworldwide.com": {
+      "first_s": 3.7,
+      "last_s": 3.7
+    },
+    "c.amazon-adsystem.com": {
+      "first_s": 3.51,
+      "last_s": 17.22
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 2.81,
+      "last_s": 17.05
+    },
+    "cdnb.4strokemedia.com": {
+      "first_s": 3.24,
+      "last_s": 17.3
+    },
+    "config.aps.amazon-adsystem.com": {
+      "first_s": 3.78,
+      "last_s": 17.22
+    },
+    "connect.facebook.net": {
+      "first_s": 2.74,
+      "last_s": 16.96
+    },
+    "dpm.demdex.net": {
+      "first_s": 12.22,
+      "last_s": 12.44
+    },
+    "dsp.outbrainimg.com": {
+      "first_s": 12.92,
+      "last_s": 18.17
+    },
+    "events.newsroom.bi": {
+      "first_s": 3.12,
+      "last_s": 22.08
+    },
+    "feed.4strokemedia.com": {
+      "first_s": 3.51,
+      "last_s": 17.29
+    },
+    "fluid.4strokemedia.com": {
+      "first_s": 2.62,
+      "last_s": 17.19
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.51,
+      "last_s": 17.19
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.01,
+      "last_s": 17.22
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 3.4,
+      "last_s": 17.4
+    },
+    "images.outbrainimg.com": {
+      "first_s": 12.28,
+      "last_s": 19.47
+    },
+    "imasdk.googleapis.com": {
+      "first_s": 3.51,
+      "last_s": 17.4
+    },
+    "lh3.googleusercontent.com": {
+      "first_s": 3.99,
+      "last_s": 3.99
+    },
+    "log.outbrainimg.com": {
+      "first_s": 14.48,
+      "last_s": 20.9
+    },
+    "mcdp-nydc1.outbrainimg.com": {
+      "first_s": 12.27,
+      "last_s": 19.47
+    },
+    "micro.rubiconproject.com": {
+      "first_s": 2.58,
+      "last_s": 16.89
+    },
+    "mv.outbrainimg.com": {
+      "first_s": 11.87,
+      "last_s": 19.18
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 11.65,
+      "last_s": 18.63
+    },
+    "platform.twitter.com": {
+      "first_s": 2.74,
+      "last_s": 17.28
+    },
+    "pubads.g.doubleclick.net": {
+      "first_s": 12.17,
+      "last_s": 17.53
+    },
+    "region1.analytics.google.com": {
+      "first_s": 3.47,
+      "last_s": 21.95
+    },
+    "s0.2mdn.net": {
+      "first_s": 11.65,
+      "last_s": 17.42
+    },
+    "s2.adform.net": {
+      "first_s": 12.46,
+      "last_s": 17.32
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 11.65,
+      "last_s": 22.25
+    },
+    "sdk.mrf.io": {
+      "first_s": 2.74,
+      "last_s": 17.08
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 3.7,
+      "last_s": 19.08
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.58,
+      "last_s": 17.1
+    },
+    "smetrics.sky.it": {
+      "first_s": 12.52,
+      "last_s": 12.52
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.47,
+      "last_s": 3.47
+    },
+    "syndication.twitter.com": {
+      "first_s": 3.49,
+      "last_s": 17.28
+    },
+    "track.adform.net": {
+      "first_s": 12.22,
+      "last_s": 17.32
+    },
+    "videoplatform.sky.it": {
+      "first_s": 4.13,
+      "last_s": 17.34
+    },
+    "web-video.ads.aps.amazon-adsystem.com": {
+      "first_s": 11.65,
+      "last_s": 17.43
+    },
+    "widget-pixels.outbrainimg.com": {
+      "first_s": 11.69,
+      "last_s": 17.08
+    },
+    "widgets.outbrain.com": {
+      "first_s": 2.59,
+      "last_s": 16.9
+    },
+    "widgets.outbrainimg.com": {
+      "first_s": 12.27,
+      "last_s": 18.17
+    },
+    "widgets.teads-xo.com": {
+      "first_s": 12.27,
+      "last_s": 18.17
+    },
+    "www.facebook.com": {
+      "first_s": 4.4,
+      "last_s": 19.48
+    },
+    "www.google.it": {
+      "first_s": 3.47,
+      "last_s": 3.47
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.59,
+      "last_s": 16.9
+    },
+    "www.youtube.com": {
+      "first_s": 7.41,
+      "last_s": 22.62
+    }
+  },
+  "cookies": [
+    {
+      "name": "tracking_user_id",
+      "domain": ".ilmeteo.it",
+      "path": "/",
+      "expires": 1824831556,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "compass_uid",
+      "domain": ".ilmeteo.it",
+      "path": "/",
+      "expires": 1808843971,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "2115_u",
+      "domain": ".newsroom.bi",
+      "path": "/",
+      "expires": 1808847576.205966,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "2115_s",
+      "domain": ".newsroom.bi",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "2115_lv",
+      "domain": ".newsroom.bi",
+      "path": "/",
+      "expires": 1795887576.20614,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "2115_ut",
+      "domain": ".newsroom.bi",
+      "path": "/",
+      "expires": 1795887576.206179,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OAGEO",
+      "domain": "fluid.4strokemedia.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OAID",
+      "domain": "fluid.4strokemedia.com",
+      "path": "/",
+      "expires": 1824831571.316223,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "___nrbi",
+      "domain": ".ilmeteo.it",
+      "path": "/",
+      "expires": 1808843971,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".ilmeteo.it",
+      "path": "/",
+      "expires": 1801071557,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".ilmeteo.it",
+      "path": "/",
+      "expires": 1827855571.002492,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1793297357.821114,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "path": "/",
+      "expires": 1826991558.122477,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ilmeteo.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1808847561.759599,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ilmeteo.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1808847561.759652,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ilmeteo.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".ilmeteo.it",
+      "path": "/",
+      "expires": 1826991565,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "DRUPALSESF",
+      "domain": "www.ilmeteo.it",
+      "path": "/",
+      "expires": 1793641165,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1808847566.584786,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCVS_1A124673527853290A490D45%40AdobeOrg",
+      "domain": ".4strokemedia.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "s_ecid",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": 1827855567.00015,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCV_1A124673527853290A490D45%40AdobeOrg",
+      "domain": ".4strokemedia.com",
+      "path": "/",
+      "expires": 1827855567.00132,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tracking_user_visits",
+      "domain": ".ilmeteo.it",
+      "path": "/",
+      "expires": 1824831570,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_WGKCLFMW2J",
+      "domain": ".ilmeteo.it",
+      "path": "/",
+      "expires": 1827855571.002253,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "___nrbic",
+      "domain": ".ilmeteo.it",
+      "path": "/",
+      "expires": 1808843971,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pageDay",
+      "domain": "www.ilmeteo.it",
+      "path": "/",
+      "expires": 1795887571,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1808847561.672656,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ilmeteo.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1808847576.672862,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ilmeteo.it",
+        "hasCrossSiteAncestor": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "host": "www.ilmeteo.it",
+  "choice": {
+    "at": 1793295565711,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "purposesTotal": 11,
+    "site": "ilmeteo.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecorded",
+      "subs": [
+        0,
+        11
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 5,
+      "names": [
+        "Nielsen (imrworldwide.com)",
+        "Adobe Analytics (sky.it)",
+        "Adobe Audience Manager (4strokemedia.com)",
+        "Adobe Audience Manager (demdex.net)",
+        "newsroom.bi"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyPartitioned",
+      "count": 1,
+      "names": [
+        "Youtube (youtube.com)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Google"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Marfeel",
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.ilmeteo.it/",
+    "lastSeen": {
+      "0tjvkki0ltkqraem1mffombkfn7kx1793295571.nuid.imrworldwide.com": 1793295571152,
+      "aax-eu.amazon-adsystem.com": 1793295571714,
+      "acdn.ak-stream-videoplatform.sky.it": 1793295571401,
+      "ajax.googleapis.com": 1793295557570,
+      "amplify-imp.outbrainimg.com": 1793295573239,
+      "assets.adobedtm.com": 1793295571380,
+      "b1-nydc1-win.outbrainimg.com": 1793295573240,
+      "b1t-nydc1.outbrainimg.com": 1793295573240,
+      "bqxcokon8uwr67kzamez7af66mm7d1793295557.nuid.imrworldwide.com": 1793295557759,
+      "c.amazon-adsystem.com": 1793295571277,
+      "cdn-gl.imrworldwide.com": 1793295571110,
+      "cdnb.4strokemedia.com": 1793295571360,
+      "config.aps.amazon-adsystem.com": 1793295557843,
+      "connect.facebook.net": 1793295556968,
+      "dpm.demdex.net": 1793295566505,
+      "dsp.outbrainimg.com": 1793295572212,
+      "events.newsroom.bi": 1793295576142,
+      "feed.4strokemedia.com": 1793295571350,
+      "fluid.4strokemedia.com": 1793295571248,
+      "fonts.googleapis.com": 1793295558052,
+      "fonts.gstatic.com": 1793295565723,
+      "fundingchoicesmessages.google.com": 1793295571465,
+      "ilmeteo.it": 1793295556801,
+      "images.outbrainimg.com": 1793295573533,
+      "imasdk.googleapis.com": 1793295571468,
+      "lh3.googleusercontent.com": 1793295558056,
+      "log.outbrainimg.com": 1793295574966,
+      "mcdp-nydc1.outbrainimg.com": 1793295573531,
+      "micro.rubiconproject.com": 1793295570972,
+      "mv.outbrainimg.com": 1793295573239,
+      "pagead2.googlesyndication.com": 1793295572689,
+      "platform.twitter.com": 1793295571345,
+      "pubads.g.doubleclick.net": 1793295566232,
+      "region1.analytics.google.com": 1793295576007,
+      "region1.google-analytics.com": 1793295570903,
+      "s0.2mdn.net": 1793295565676,
+      "s2.adform.net": 1793295571383,
+      "sb.scorecardresearch.com": 1793295576308,
+      "sdk.mrf.io": 1793295557298,
+      "secure-it.imrworldwide.com": 1793295573141,
+      "securepubads.g.doubleclick.net": 1793295571165,
+      "smetrics.sky.it": 1793295566587,
+      "stats.g.doubleclick.net": 1793295557526,
+      "syndication.twitter.com": 1793295571345,
+      "track.adform.net": 1793295571382,
+      "videoplatform.sky.it": 1793295571399,
+      "web-video.ads.aps.amazon-adsystem.com": 1793295571482,
+      "widget-pixels.outbrainimg.com": 1793295571131,
+      "widgets.outbrain.com": 1793295556641,
+      "widgets.outbrainimg.com": 1793295572212,
+      "widgets.teads-xo.com": 1793295571459,
+      "www.facebook.com": 1793295573544,
+      "www.google.it": 1793295557527,
+      "www.googletagmanager.com": 1793295556801,
+      "www.ilmeteo.it": 1793295573739,
+      "www.youtube.com": 1793295576550
+    }
+  },
+  "hostsConsidered": [
+    "0tjvkki0ltkqraem1mffombkfn7kx1793295571.nuid.imrworldwide.com",
+    "aax-eu.amazon-adsystem.com",
+    "acdn.ak-stream-videoplatform.sky.it",
+    "amplify-imp.outbrainimg.com",
+    "assets.adobedtm.com",
+    "b1-nydc1-win.outbrainimg.com",
+    "b1t-nydc1.outbrainimg.com",
+    "c.amazon-adsystem.com",
+    "cdn-gl.imrworldwide.com",
+    "cdnb.4strokemedia.com",
+    "dpm.demdex.net",
+    "dsp.outbrainimg.com",
+    "events.newsroom.bi",
+    "feed.4strokemedia.com",
+    "fluid.4strokemedia.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "images.outbrainimg.com",
+    "imasdk.googleapis.com",
+    "log.outbrainimg.com",
+    "mcdp-nydc1.outbrainimg.com",
+    "micro.rubiconproject.com",
+    "mv.outbrainimg.com",
+    "pagead2.googlesyndication.com",
+    "platform.twitter.com",
+    "pubads.g.doubleclick.net",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "s2.adform.net",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "smetrics.sky.it",
+    "syndication.twitter.com",
+    "track.adform.net",
+    "videoplatform.sky.it",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "widget-pixels.outbrainimg.com",
+    "widgets.outbrainimg.com",
+    "widgets.teads-xo.com",
+    "www.facebook.com",
+    "www.ilmeteo.it",
+    "www.youtube.com"
+  ]
+}

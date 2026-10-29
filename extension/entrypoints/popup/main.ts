@@ -80,8 +80,12 @@ let descDb: DescriptionDb = { exact: {}, prefixes: [] };
 // The text is what someone declared (often copied from a privacy policy, sometimes
 // in the first person: "our website", "we do not..."). So it is shown as a quote with
 // its source, never as our own statement. First sentence only; the rest on request.
-function description(name: string): HTMLElement[] {
-  const text = describe(name, descDb);
+// Only for a cookie the classification recognised: an "unknown" or "likely identifier"
+// cookie may share its name with a known one (a generic name off the platform's site,
+// see isGenericName), and the known one's description would then be wrong.
+function description(r: Classified): HTMLElement[] {
+  if (r.group === 'Unknown' || r.group === 'Identifier') return [];
+  const text = describe(r.name, descDb);
   if (!text) return [];
   const { first, rest } = firstSentence(text);
   const quote = h('q', { text: first });
@@ -107,7 +111,7 @@ function groupBlock(group: Group, rows: Classified[], side: Side, nowMs: number)
     .map((r) => h('li', {},
       h('span', { class: 'name', text: r.name }),
       h('span', { class: 'meta', text: [r.platform, r.domain, formatExpiry(r)].filter(Boolean).join(' · ') }),
-      ...description(r.name),
+      ...description(r),
       ...partitionNote(r, side),
       ...[softNote(r, side, nowMs)].filter((n): n is string => !!n).map((n) => h('span', { class: 'soft', text: n })),
     ));
@@ -181,7 +185,7 @@ function checkItem(item: Item): HTMLElement {
 function summaryBlock(host: string, own: Classified[], trackers: Classified[] | null,
   choice: ChoiceRecord | undefined, snapshot: Snapshot | undefined): HTMLElement {
   const verdict = buildVerdict(choice, own, trackers, Date.now());
-  if (MEASURING) report({ host, choice: choice ?? null, items: verdict.items, conclusion: verdict.conclusion ?? null });
+  if (MEASURING) report({ host, choice: choice ?? null, items: verdict.items, conclusion: verdict.conclusion ?? null, ...diagnostics });
   const heading = choice ? t(`verdictHeading_${choice.choice}`, clock(choice.at)) : t('verdictHeadingNone');
   const parts: HTMLElement[] = [
     h('h1', { text: host }),
@@ -228,6 +232,8 @@ async function databaseLine(): Promise<HTMLElement[]> {
 //     its own would otherwise analyse that tab;
 //   - the verdict is also written, as data, on <body data-verdict>, for the robot.
 const MEASURING = import.meta.env.MODE === 'test';
+// What the background recorded for the tab, to compare with the robot's raw data.
+let diagnostics: Record<string, unknown> = {};
 
 function report(data: unknown): void {
   document.body.dataset.verdict = JSON.stringify(data);
@@ -264,6 +270,7 @@ async function main(): Promise<void> {
     const recorded = saved && new URL(saved.pageUrl).hostname === host ? saved : undefined;
     // After a choice, "now" means the trackers contacted after it.
     const hosts = recorded ? (choice ? hostsSince(recorded.lastSeen, choice.at) : Object.keys(recorded.lastSeen)) : [];
+    if (MEASURING) diagnostics = { tabRecorded: saved ?? null, hostsConsidered: hosts };
     // Without descriptions the popup still works: they are an extra.
     const [{ own, trackers }] = await Promise.all([
       observe(url, hosts, Date.now()),

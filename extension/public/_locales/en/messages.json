@@ -196,10 +196,10 @@
     }
   },
   "itemNoThirdParty": {
-    "message": "We see no cookies a third-party site could use to recognise you from this page."
+    "message": "We see no cookies a third-party site could use to recognise you here."
   },
   "itemThirdPartyStill_one": {
-    "message": "$COUNT$ third-party site can still recognise you from this page:",
+    "message": "$COUNT$ third-party site can still recognise you on this site:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -207,7 +207,7 @@
     }
   },
   "itemThirdPartyStill_other": {
-    "message": "$COUNT$ third-party sites can still recognise you from this page:",
+    "message": "$COUNT$ third-party sites can still recognise you on this site:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -231,7 +231,7 @@
     }
   },
   "itemThirdParty_one": {
-    "message": "$COUNT$ third-party site can recognise you from this page:",
+    "message": "$COUNT$ third-party site can recognise you on this site:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -239,7 +239,7 @@
     }
   },
   "itemThirdParty_other": {
-    "message": "$COUNT$ third-party sites can recognise you from this page:",
+    "message": "$COUNT$ third-party sites can recognise you on this site:",
     "placeholders": {
       "count": {
         "content": "$1"

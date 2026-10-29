@@ -196,10 +196,10 @@
     }
   },
   "itemNoThirdParty": {
-    "message": "Non vediamo cookie con cui un sito terzo possa riconoscerti da questa pagina."
+    "message": "Non vediamo cookie con cui un sito terzo possa riconoscerti qui."
   },
   "itemThirdPartyStill_one": {
-    "message": "$COUNT$ sito terzo può ancora riconoscerti da questa pagina:",
+    "message": "$COUNT$ sito terzo può ancora riconoscerti su questo sito:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -207,7 +207,7 @@
     }
   },
   "itemThirdPartyStill_other": {
-    "message": "$COUNT$ siti terzi possono ancora riconoscerti da questa pagina:",
+    "message": "$COUNT$ siti terzi possono ancora riconoscerti su questo sito:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -231,7 +231,7 @@
     }
   },
   "itemThirdParty_one": {
-    "message": "$COUNT$ sito terzo può riconoscerti da questa pagina:",
+    "message": "$COUNT$ sito terzo può riconoscerti su questo sito:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -239,7 +239,7 @@
     }
   },
   "itemThirdParty_other": {
-    "message": "$COUNT$ siti terzi possono riconoscerti da questa pagina:",
+    "message": "$COUNT$ siti terzi possono riconoscerti su questo sito:",
     "placeholders": {
       "count": {
         "content": "$1"

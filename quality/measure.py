@@ -32,6 +32,7 @@ import sys
 import tempfile
 import time
 from pathlib import Path
+from urllib.parse import urlparse
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
@@ -48,17 +49,22 @@ BANNER_TIMEOUT_S = 15
 
 # Read the TCF signal in the page itself, without the extension: the raw data must
 # not depend on the code being measured.
+# 'addEventListener', not 'getTCData': getTCData is deprecated in TCF 2.2 and many
+# consent platforms answer it with "not available". The first answer is the current
+# state; the listener is then removed.
 TCF_JS = """
 () => new Promise((resolve) => {
   if (typeof window.__tcfapi !== 'function') return resolve(null);
-  const timer = setTimeout(() => resolve({ timeout: true }), 3000);
+  const timer = setTimeout(() => resolve({ timeout: true }), 5000);
   try {
-    window.__tcfapi('getTCData', 2, (d, ok) => {
+    window.__tcfapi('addEventListener', 2, (d, ok) => {
+      if (!ok || !d) return;
       clearTimeout(timer);
-      if (!ok || !d) return resolve({ ok: false });
+      try { window.__tcfapi('removeEventListener', 2, () => {}, d.listenerId); } catch (e) {}
       const count = (o) => Object.values(o || {}).filter(Boolean).length;
       resolve({
         cmpId: d.cmpId, eventStatus: d.eventStatus, gdprApplies: d.gdprApplies,
+        purposesListed: Object.keys((d.purpose && d.purpose.consents) || {}).length,
         purposeConsents: count(d.purpose && d.purpose.consents),
         purposeLegitimateInterests: count(d.purpose && d.purpose.legitimateInterests),
         vendorConsents: count(d.vendor && d.vendor.consents),
@@ -101,8 +107,10 @@ def read_verdict(context, ext_id, tab_id, shot_path):
     pop.set_viewport_size({"width": 420, "height": 900})
     try:
         pop.goto(f"chrome-extension://{ext_id}/popup.html?tab={tab_id}")
-        pop.wait_for_function("document.body.dataset.ready === '1'", timeout=20000)
-        raw = pop.evaluate("document.body.dataset.verdict || null")
+        # The popup's security policy forbids evaluating code passed as text, so wait
+        # for an attribute and read it, without running anything in the page.
+        pop.wait_for_selector("body[data-ready='1']", state="attached", timeout=20000)
+        raw = pop.get_attribute("body", "data-verdict")
         pop.screenshot(path=str(shot_path), full_page=True)
         return json.loads(raw) if raw else {"error": "no verdict reported"}
     except Exception as e:
@@ -126,7 +134,8 @@ def measure_site(p, row, out_dir, headless):
             profile, channel="chromium", headless=headless,
             args=[f"--disable-extensions-except={EXTENSION_BUILD}",
                   f"--load-extension={EXTENSION_BUILD}",
-                  "--disable-blink-features=AutomationControlled"],
+                  "--disable-blink-features=AutomationControlled",
+                  "--lang=it-IT"],  # the popup in Italian, as the judge reads it
             locale="it-IT", timezone_id="Europe/Rome",
             viewport={"width": 1366, "height": 900},
         )
@@ -134,9 +143,18 @@ def measure_site(p, row, out_dir, headless):
         sw = context.service_workers[0] if context.service_workers else \
             context.wait_for_event("serviceworker", timeout=15000)
         ext_id = sw.url.split("/")[2]
+        # Let the extension finish starting before the site opens, as for a user whose
+        # browser has been open for a while: a round trip to it, then a short pause.
+        sw.evaluate("async () => chrome.storage.session.get(null)")
+        time.sleep(1.5)
 
-        context.on("request", lambda r: requests.append(
-            (round(time.time() - t_start, 2), r.url.split("/")[2] if "://" in r.url else "", r.resource_type)))
+        def on_request(r):
+            # Web requests only: the extension's own (chrome-extension://) are not
+            # sites the page contacted. Host name without the port.
+            u = urlparse(r.url)
+            if u.scheme in ("http", "https") and u.hostname:
+                requests.append((round(time.time() - t_start, 2), u.hostname, r.resource_type))
+        context.on("request", on_request)
         page = context.pages[0] if context.pages else context.new_page()
 
         try:
@@ -162,7 +180,9 @@ def measure_site(p, row, out_dir, headless):
                       visible_buttons=" | ".join(labels))
 
         page.wait_for_timeout(WAIT_AFTER_CLICK_S * 1000)
+        t_reload = None
         if clicked:
+            t_reload = round(time.time() - t_start, 2)
             try:
                 page.reload(wait_until="domcontentloaded", timeout=45000)
             except PWTimeout:
@@ -179,11 +199,20 @@ def measure_site(p, row, out_dir, headless):
         except Exception as e:
             tcf = {"error": repr(e)[:200]}
         home = site_domain(page.url)
-        after = sorted({h for t, h, _ in requests if t >= t_click and h and site_domain("https://" + h) != home})
+        third = [(t, h) for t, h, _ in requests if h and site_domain("https://" + h) != home]
+        after = sorted({h for t, h in third if t >= t_click})
+        # When each third-party host was contacted (first and last time, seconds from
+        # the start), so the judge can tell "after the click" from "after the reload".
+        timeline = {}
+        for t, h in third:
+            first, last = timeline.get(h, (t, t))
+            timeline[h] = (min(first, t), max(last, t))
         raw = {
-            "url": url, "final_url": page.url, "click_at_s": t_click, "reject": how,
-            "visible_buttons": labels, "tcf": tcf,
+            "url": url, "final_url": page.url, "click_at_s": t_click, "reload_at_s": t_reload,
+            "reject": how, "visible_buttons": labels, "tcf": tcf,
             "third_party_hosts_after_click": after,
+            "third_party_hosts_after_reload": sorted({h for t, h in third if t_reload is not None and t >= t_reload}),
+            "third_party_timeline": {h: {"first_s": a, "last_s": b} for h, (a, b) in sorted(timeline.items())},
             "cookies": all_cookies(context, page),
         }
         (out_dir / "raw.json").write_text(json.dumps(raw, indent=2), encoding="utf-8")

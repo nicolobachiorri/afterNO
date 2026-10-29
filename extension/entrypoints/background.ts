@@ -11,7 +11,7 @@ import { isChoiceMessage, mergeChoice, type ChoiceRecord } from '@/lib/choice';
 import { observe } from '@/lib/cookies';
 import { siteOf } from '@/lib/hosts';
 import { buildSnapshot, shouldTakeSnapshot, type Snapshot } from '@/lib/snapshot';
-import { choiceKey, readTabHosts, snapshotKey, tabKey, type TabHosts } from '@/lib/tabstore';
+import { choiceKey, onTopLevelPage, readTabHosts, snapshotKey, tabKey, type TabHosts } from '@/lib/tabstore';
 
 export default defineBackground(() => {
   const memory = new Map<number, TabHosts>();
@@ -36,6 +36,21 @@ export default defineBackground(() => {
     }, 300));
   }
 
+  // A request from a tab whose page opened before the extension was running (the
+  // browser restoring tabs at start-up, or the extension just installed): instead of
+  // ignoring it until the next reload, start the list from the tab's current address.
+  // What the page contacted before this moment is not known, and is not claimed.
+  async function entryFromTab(tabId: number): Promise<TabHosts | undefined> {
+    const tab = await browser.tabs.get(tabId).catch(() => undefined);
+    if (!tab?.url || !/^https?:/.test(tab.url)) return undefined;
+    // Another request may have created it while we were asking.
+    const existing = memory.get(tabId);
+    if (existing) return existing;
+    const entry: TabHosts = { pageUrl: tab.url, lastSeen: {} };
+    memory.set(tabId, entry);
+    return entry;
+  }
+
   // Listeners must be registered synchronously, at the top level of this function,
   // otherwise the events that wake the worker up are missed.
   // The return type undefined says "observe only": a value here could block the request.
@@ -49,13 +64,13 @@ export default defineBackground(() => {
         return;
       }
       const now = Date.now();
-      void ready.then(() => {
-        // A new top-level page starts a new list.
+      void ready.then(async () => {
+        // A new top-level page: the list goes on within the same site, restarts on another.
         if (details.type === 'main_frame') {
-          memory.set(details.tabId, { pageUrl: details.url, lastSeen: { [host]: now } });
+          memory.set(details.tabId, onTopLevelPage(memory.get(details.tabId), details.url, host, now));
         } else {
-          const entry = memory.get(details.tabId);
-          if (!entry) return; // page loaded before the extension: reload it to see the trackers
+          const entry = memory.get(details.tabId) ?? await entryFromTab(details.tabId);
+          if (!entry) return;
           entry.lastSeen[host] = now;
         }
         persist(details.tabId);
