@@ -11,6 +11,7 @@ import { MIN_IDENTIFIER_DAYS } from '@/lib/identifiers';
 import { pluralKey } from '@/lib/plural';
 import { hostsSince, type Classified, type Snapshot } from '@/lib/snapshot';
 import { RECOGNISING, summarise, type Group, type Summary } from '@/lib/summary';
+import { buildVerdict, type Item } from '@/lib/verdict';
 import { choiceKey, readTabHosts, snapshotKey, tabKey } from '@/lib/tabstore';
 
 // Every text comes from public/_locales/<language>/messages.json, chosen by the browser
@@ -79,21 +80,6 @@ function groups(rows: Classified[]): HTMLElement[] {
 
 // ------------------------------------------------------------------ summary
 
-function choiceLines(choice: ChoiceRecord | undefined): HTMLElement[] {
-  if (!choice) return [h('p', { class: 'choice', text: t('choiceNone') })];
-  const lines = [h('p', { class: 'choice strong', text: t(`choice_${choice.choice}`, clock(choice.at)) })];
-  if (choice.source === 'tcf') {
-    lines.push(h('p', { class: 'choice', text: t('choiceSourceTcf') }));
-    if (choice.purposesTotal) {
-      lines.push(h('p', { class: 'choice', text: t('choiceTcfDetail',
-        choice.purposesConsented ?? 0, choice.purposesTotal, choice.legitimateInterests ?? 0) }));
-    }
-  } else {
-    lines.push(h('p', { class: 'choice', text: t('choiceSourceClick', choice.label ?? '') }));
-  }
-  return lines;
-}
-
 // Two columns: at the moment of the choice (everything there appeared before consent
 // or refusal) and now (only trackers contacted after the choice).
 function comparison(before: Summary, now: Summary, at: number): HTMLElement {
@@ -115,34 +101,50 @@ function comparison(before: Summary, now: Summary, at: number): HTMLElement {
   );
 }
 
+// "Adobe Audience Manager (demdex.net), Adobe Analytics (sky.it), newsroom.bi and 2 more"
+function formatNames(names: string[]): string {
+  const shown = names.slice(0, 3).join(', ');
+  return names.length > 3 ? `${shown}, ${t('namesMore', names.length - 3)}` : shown;
+}
+
+const MARK: Record<Item['mark'], { icon: string; label: string }> = {
+  ok: { icon: '\u2713', label: 'markOk' },
+  bad: { icon: '\u2717', label: 'markBad' },
+  info: { icon: '\u2139', label: 'markInfo' },
+};
+
+function checkItem(item: Item): HTMLElement {
+  const text = item.count !== undefined ? tn(item.key, item.count, ...(item.subs ?? [])) : t(item.key, ...(item.subs ?? []));
+  const mark = h('span', { class: 'mark', text: MARK[item.mark].icon });
+  // The symbol alone means nothing to a screen reader: say it in words.
+  mark.setAttribute('aria-label', t(MARK[item.mark].label));
+  mark.setAttribute('role', 'img');
+  return h('li', { class: `item ${item.mark}` },
+    mark,
+    h('span', { text: item.names?.length ? `${text} ${formatNames(item.names)}` : text }),
+  );
+}
+
+// What the user asked, what happened, a cautious conclusion and the disclaimer.
 function summaryBlock(host: string, own: Classified[], trackers: Classified[] | null,
   choice: ChoiceRecord | undefined, snapshot: Snapshot | undefined): HTMLElement {
-  const s = summarise(own, trackers ?? []);
-  // "After your rejection" only when a rejection was actually recorded.
-  const rejected = choice?.choice === 'rejected';
-  const headline = trackers === null
-    ? t('reloadToSee')
-    : s.recognisingSites === 0
-      ? t(rejected ? 'afterRejectNone' : 'noRecognising')
-      : tn(rejected ? 'afterRejectRecognising' : 'recognising', s.recognisingSites);
-  const showCompare = choice && snapshot && trackers !== null;
-  // Text and colour must say the same thing: red when third parties can recognise
-  // the user, amber when only the site itself has marketing cookies, green otherwise.
-  const siteOnly = s.recognisingSites === 0 && s.marketing.site > 0;
-  const tone = s.recognisingSites > 0 ? 'alert' : siteOnly ? 'warn' : 'ok';
-  return h('section', { class: 'summary' },
+  const verdict = buildVerdict(choice, own, trackers);
+  const heading = choice ? t(`verdictHeading_${choice.choice}`, clock(choice.at)) : t('verdictHeadingNone');
+  const parts: HTMLElement[] = [
     h('h1', { text: host }),
-    ...choiceLines(choice),
-    h('p', { class: tone, text: headline }),
-    ...(siteOnly && trackers !== null ? [h('p', { class: tone, text: tn('siteMarketingNote', s.marketing.site) })] : []),
-    ...(showCompare
-      ? [comparison(snapshot.summary, s, snapshot.at)]
-      : [h('ul', { class: 'stats' },
-        h('li', { text: t('statMarketing', s.marketing.site + s.marketing.trackers, s.marketing.site, s.marketing.trackers) }),
-        h('li', { text: t('statAnalytics', s.analytics.site + s.analytics.trackers, s.analytics.site, s.analytics.trackers) }),
-        h('li', { text: t('statIdentifiers', s.identifiers) }),
-      )]),
-  );
+    h('p', { class: 'verdict-heading', text: heading }),
+    h('ul', { class: 'checklist' }, ...verdict.items.map(checkItem)),
+  ];
+  if (verdict.conclusion) {
+    parts.push(h('p', { class: `conclusion ${verdict.conclusion.tone}`, text: t(verdict.conclusion.key) }));
+  }
+  parts.push(h('p', { class: 'disclaimer', text: t('disclaimer') }));
+  if (choice && snapshot && trackers !== null) {
+    parts.push(h('details', { class: 'compare-wrap' },
+      h('summary', { text: t('compareDetails') }),
+      comparison(snapshot.summary, summarise(own, trackers), snapshot.at)));
+  }
+  return h('section', { class: 'summary' }, ...parts);
 }
 
 // ------------------------------------------------------------------ page

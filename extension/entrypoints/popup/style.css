@@ -174,3 +174,50 @@ li:last-child { border-bottom: none; }
 .compare .note {
   margin-top: 6px;
 }
+
+.verdict-heading {
+  margin: 6px 0 4px;
+  font-weight: 600;
+}
+
+.checklist {
+  margin: 0;
+}
+
+.checklist li.item {
+  flex-direction: row;
+  gap: 8px;
+  align-items: baseline;
+  border-bottom: none;
+  padding: 3px 0;
+  font-size: 12px;
+}
+
+.checklist .mark {
+  flex: 0 0 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.item.ok .mark { color: var(--ok); }
+.item.bad .mark { color: var(--alert); }
+.item.info .mark { color: var(--muted); }
+
+.summary p.conclusion {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.conclusion.muted { color: var(--text); font-weight: 400; }
+
+.summary p.disclaimer {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.compare-wrap > summary {
+  text-transform: none;
+  letter-spacing: 0;
+}

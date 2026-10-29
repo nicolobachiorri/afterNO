@@ -50,3 +50,32 @@ test('plural messages come in pairs', () => {
     assert.ok(keys.includes(k.replace(/_one$/, '_other')), `${k} has no _other`);
   }
 });
+
+// A message no code uses is dead text that translators would keep maintaining.
+// A key counts as used when the code names it, or names its plural base (key_one,
+// key_other), or builds it from a known prefix (group_, verdictHeading_).
+test('every message is used by the code', async () => {
+  const { readdirSync: list, statSync } = await import('node:fs');
+  // Only the folders that hold the extension's code: anything else in the project
+  // (a stray virtual environment, build output) is none of this test's business.
+  const sources: string[] = [];
+  const walk = (dir: URL) => {
+    for (const name of list(dir)) {
+      const child = new URL(name, dir);
+      if (statSync(child).isDirectory()) {
+        if (name !== 'fixtures') walk(new URL(`${name}/`, dir));
+      } else if (/\.ts$/.test(name) && !name.endsWith('.test.ts')) {
+        sources.push(readFileSync(child, 'utf8'));
+      }
+    }
+  };
+  for (const folder of ['../entrypoints/', '../lib/']) walk(new URL(folder, import.meta.url));
+  const code = sources.join('\n');
+  const dynamicPrefixes = ['group_', 'verdictHeading_', 'extName', 'extDescription'];
+  const unused = Object.keys(load('en')).filter((key) => {
+    const base = key.replace(/_(one|other)$/, '');
+    return !code.includes(`'${key}'`) && !code.includes(`'${base}'`)
+      && !dynamicPrefixes.some((p) => key.startsWith(p));
+  });
+  assert.deepEqual(unused, []);
+});

@@ -19,64 +19,6 @@
       }
     }
   },
-  "reloadToSee": {
-    "message": "Reload the page to see the trackers it contacts."
-  },
-  "noRecognising": {
-    "message": "No third-party site can recognise you from this page."
-  },
-  "recognising_one": {
-    "message": "$COUNT$ third-party site can recognise you from this page",
-    "placeholders": {
-      "count": {
-        "content": "$1"
-      }
-    }
-  },
-  "recognising_other": {
-    "message": "$COUNT$ third-party sites can recognise you from this page",
-    "placeholders": {
-      "count": {
-        "content": "$1"
-      }
-    }
-  },
-  "statMarketing": {
-    "message": "Marketing: $TOTAL$ ($SITE$ from the site, $TRACKERS$ from trackers)",
-    "placeholders": {
-      "total": {
-        "content": "$1"
-      },
-      "site": {
-        "content": "$2"
-      },
-      "trackers": {
-        "content": "$3"
-      }
-    }
-  },
-  "statAnalytics": {
-    "message": "Analytics: $TOTAL$ ($SITE$ from the site, $TRACKERS$ from trackers)",
-    "placeholders": {
-      "total": {
-        "content": "$1"
-      },
-      "site": {
-        "content": "$2"
-      },
-      "trackers": {
-        "content": "$3"
-      }
-    }
-  },
-  "statIdentifiers": {
-    "message": "Likely tracker identifiers: $COUNT$",
-    "placeholders": {
-      "count": {
-        "content": "$1"
-      }
-    }
-  },
   "headingTrackers": {
     "message": "Cookies trackers can read"
   },
@@ -165,77 +107,6 @@
       }
     }
   },
-  "choice_rejected": {
-    "message": "You rejected cookies on this site at $TIME$.",
-    "placeholders": {
-      "time": {
-        "content": "$1"
-      }
-    }
-  },
-  "choice_accepted": {
-    "message": "You accepted cookies on this site at $TIME$.",
-    "placeholders": {
-      "time": {
-        "content": "$1"
-      }
-    }
-  },
-  "choice_partial": {
-    "message": "You made a partial choice on this site at $TIME$.",
-    "placeholders": {
-      "time": {
-        "content": "$1"
-      }
-    }
-  },
-  "choiceNone": {
-    "message": "No choice recorded on this site in this session."
-  },
-  "choiceSourceTcf": {
-    "message": "Read from the site's consent platform (TCF standard)."
-  },
-  "choiceSourceClick": {
-    "message": "Detected from the button you clicked, “$LABEL$”: a less reliable method.",
-    "placeholders": {
-      "label": {
-        "content": "$1"
-      }
-    }
-  },
-  "choiceTcfDetail": {
-    "message": "Purposes with consent: $CONSENTED$ of $TOTAL$. Still active on legitimate interest: $LEGITIMATE$.",
-    "placeholders": {
-      "consented": {
-        "content": "$1"
-      },
-      "total": {
-        "content": "$2"
-      },
-      "legitimate": {
-        "content": "$3"
-      }
-    }
-  },
-  "afterRejectRecognising_one": {
-    "message": "After your rejection, $COUNT$ third-party site can recognise you from this page",
-    "placeholders": {
-      "count": {
-        "content": "$1"
-      }
-    }
-  },
-  "afterRejectRecognising_other": {
-    "message": "After your rejection, $COUNT$ third-party sites can recognise you from this page",
-    "placeholders": {
-      "count": {
-        "content": "$1"
-      }
-    }
-  },
-  "afterRejectNone": {
-    "message": "After your rejection, no third-party site can recognise you from this page."
-  },
   "compareAtChoice": {
     "message": "At your choice ($TIME$)",
     "placeholders": {
@@ -262,20 +133,190 @@
   "compareNote": {
     "message": "“At your choice” counts everything already there when you chose, so before your consent or refusal. “Now” only counts trackers contacted afterwards: reload the page for a complete measure."
   },
-  "siteMarketingNote_one": {
-    "message": "However, the site itself has $COUNT$ marketing cookie.",
+  "verdictHeading_rejected": {
+    "message": "You rejected at $TIME$. What happened next:",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "verdictHeading_accepted": {
+    "message": "You accepted at $TIME$. This is what is active:",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "verdictHeading_partial": {
+    "message": "You made a partial choice at $TIME$. This is what is active:",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "verdictHeadingNone": {
+    "message": "No choice recorded in this session. If you have not chosen yet, this is what is already active:"
+  },
+  "itemTcfRecorded": {
+    "message": "The site recorded your rejection and passes it on to its partners: $CONSENTED$ of $TOTAL$ purposes with consent.",
+    "placeholders": {
+      "consented": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "itemClickOnly": {
+    "message": "You clicked “$LABEL$”. We cannot check how the site recorded the choice.",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemLegitimate_one": {
+    "message": "$COUNT$ purpose remains active on “legitimate interest”, which does not ask for consent.",
     "placeholders": {
       "count": {
         "content": "$1"
       }
     }
   },
-  "siteMarketingNote_other": {
-    "message": "However, the site itself has $COUNT$ marketing cookies.",
+  "itemLegitimate_other": {
+    "message": "$COUNT$ purposes remain active on “legitimate interest”, which does not ask for consent.",
     "placeholders": {
       "count": {
         "content": "$1"
       }
     }
+  },
+  "itemNoThirdParty": {
+    "message": "No third-party site can recognise you from this page."
+  },
+  "itemThirdPartyStill_one": {
+    "message": "$COUNT$ third-party site can still recognise you from this page:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemThirdPartyStill_other": {
+    "message": "$COUNT$ third-party sites can still recognise you from this page:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemThirdPartyNoChoice_one": {
+    "message": "With no consent recorded, $COUNT$ third-party site can already recognise you:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemThirdPartyNoChoice_other": {
+    "message": "With no consent recorded, $COUNT$ third-party sites can already recognise you:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemThirdParty_one": {
+    "message": "$COUNT$ third-party site can recognise you from this page:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemThirdParty_other": {
+    "message": "$COUNT$ third-party sites can recognise you from this page:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemNoSiteMarketing": {
+    "message": "The site uses no marketing cookies of its own."
+  },
+  "itemSiteMarketing_one": {
+    "message": "The site itself uses $COUNT$ marketing cookie:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemSiteMarketing_other": {
+    "message": "The site itself uses $COUNT$ marketing cookies:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemSiteAnalytics_one": {
+    "message": "The site uses $COUNT$ analytics cookie, which in some cases may be used without consent:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemSiteAnalytics_other": {
+    "message": "The site uses $COUNT$ analytics cookies, which in some cases may be used without consent:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "namesMore": {
+    "message": "and $COUNT$ more",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "verdictRespected": {
+    "message": "Your rejection seems to be respected."
+  },
+  "verdictPartly": {
+    "message": "Your rejection seems to be only partly respected."
+  },
+  "verdictNeedReload": {
+    "message": "Reload the page for a complete check."
+  },
+  "verdictAccepted": {
+    "message": "You consented: the above falls within what you accepted."
+  },
+  "verdictPartialChoice": {
+    "message": "With a partial choice we cannot tell which of these cookies fall within what you accepted."
+  },
+  "disclaimer": {
+    "message": "Automatic indication based on what your browser observes. It may be incomplete or wrong and is not a legal assessment."
+  },
+  "compareDetails": {
+    "message": "Details: at your choice and now"
+  },
+  "markOk": {
+    "message": "in favour"
+  },
+  "markBad": {
+    "message": "against"
+  },
+  "markInfo": {
+    "message": "information"
   }
 }
