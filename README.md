@@ -99,6 +99,32 @@ step-by-step collaboration: each change was explained, reviewed and tested on re
 sites before being kept. This is stated so that anyone reusing the code knows how it
 came about.
 
+## Related work
+
+Others have worked on parts of this problem. This project builds on the same ideas and
+differs mainly in who it is for and in putting the pieces together.
+
+- **[Cookie Glasses](https://chrome.google.com/webstore/detail/cookie-glasses/gncnjghkclkhpkfhghcbobednpchjifk)**
+  (Matte, Santos, Bielova, Inria) shows the consent a banner registered in the IAB TCF,
+  to reveal a "yes" stored where the user said "no". It comes from the study
+  [*Do Cookie Banners Respect my Choice?*](https://arxiv.org/abs/1911.09964). It reads
+  the TCF signal only.
+- **[ConsentScope](https://chromewebstore.google.com/detail/bckfbligemognhkpoojinnlemmiaifmj)**
+  is an auditing tool for developers and privacy professionals: it records cookies,
+  storage and requests on a timeline before and after the consent choice.
+- **[CookieBlock](https://usenix.org/conference/usenixsecurity22/presentation/bollinger)**
+  (ETH Zurich, USENIX Security 2022) classifies cookies with a machine-learning model
+  and deletes those the user did not consent to.
+- **Ghostery Never-Consent, Consent-O-Matic, uBlock Origin** reject banners or block
+  trackers on the user's behalf. They act; this extension explains, and can be used
+  alongside them.
+
+What this extension adds: a check made **after** your choice, in your own session,
+that combines what the site declares (TCF) with what the browser observes (cookies and
+contacted sites), also works on sites without TCF, states how certain each statement
+is, and speaks to people who are not technical, in Italian and English, with nothing
+leaving the browser.
+
 ## Credits
 
 Cookie categories, platforms and descriptions come from the
