@@ -12,6 +12,9 @@ export interface ChoiceRecord {
   source: 'tcf' | 'click';
   choice: Choice;
   at: number; // milliseconds since the epoch
+  // 'action': the user just chose (a click, or TCF "useractioncomplete").
+  // 'stored': a choice made earlier, reported again on page load (TCF "tcloaded").
+  trigger: 'action' | 'stored';
   label?: string; // click only: the button text, at most 50 characters
   purposesConsented?: number; // TCF only
   purposesTotal?: number;
@@ -36,6 +39,7 @@ export function isChoiceMessage(x: unknown): x is ChoiceMessage {
     && (r.source === 'tcf' || r.source === 'click')
     && (r.choice === 'rejected' || r.choice === 'accepted' || r.choice === 'partial')
     && typeof r.at === 'number'
+    && (r.trigger === 'action' || r.trigger === 'stored')
     && (r.label === undefined || (typeof r.label === 'string' && r.label.length <= 50));
 }
 
@@ -152,6 +156,7 @@ export function choiceFromTcf(data: TcData, site: string, at: number): ChoiceRec
   const choice: Choice = given === 0 ? 'rejected' : given === total ? 'accepted' : 'partial';
   return {
     site, source: 'tcf', choice, at,
+    trigger: data.eventStatus === 'useractioncomplete' ? 'action' : 'stored',
     purposesConsented: given,
     purposesTotal: total,
     legitimateInterests: countTrue(data.purpose?.legitimateInterests),
@@ -167,6 +172,10 @@ export const TCF_PRIORITY_MS = 60_000;
 
 export function mergeChoice(existing: ChoiceRecord | undefined, incoming: ChoiceRecord): ChoiceRecord {
   if (!existing || existing.site !== incoming.site) return incoming;
+  // A stored choice reported again on reload keeps the time of the real choice.
+  if (incoming.trigger === 'stored' && existing.choice === incoming.choice) {
+    return { ...incoming, at: existing.at, trigger: existing.trigger };
+  }
   if (incoming.source === 'tcf') return incoming;
   if (existing.source === 'tcf' && incoming.at - existing.at < TCF_PRIORITY_MS) return existing;
   return incoming;

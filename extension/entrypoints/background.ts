@@ -1,25 +1,28 @@
-// Background: records which hosts each tab contacts, so the popup can look up the
-// cookies of the trackers on the page. It only observes requests, never blocks or
-// changes them, and stores nothing outside the browser.
+// Background: records which hosts each tab contacts (and when), stores the choice
+// made in the banner, and takes a snapshot at the moment of that choice. It only
+// observes requests, never blocks or changes them, and stores nothing outside the
+// browser.
 //
 // In Manifest V3 the background is a service worker: Chrome stops it after some
 // seconds of inactivity and its variables are lost. So the data also goes to
 // storage.session, which survives the restarts and is wiped when the browser closes.
 import { browser } from 'wxt/browser';
 import { isChoiceMessage, mergeChoice, type ChoiceRecord } from '@/lib/choice';
+import { observe } from '@/lib/cookies';
 import { siteOf } from '@/lib/hosts';
-import { choiceKey, tabKey, type TabHosts } from '@/lib/tabstore';
+import { buildSnapshot, shouldTakeSnapshot, type Snapshot } from '@/lib/snapshot';
+import { choiceKey, readTabHosts, snapshotKey, tabKey, type TabHosts } from '@/lib/tabstore';
 
 export default defineBackground(() => {
-  const memory = new Map<number, { pageUrl: string; hosts: Set<string> }>();
+  const memory = new Map<number, TabHosts>();
   const pending = new Map<number, ReturnType<typeof setTimeout>>();
 
   // After a restart, reload what was saved before the worker stopped.
   const ready = browser.storage.session.get(null).then((all) => {
     for (const [key, value] of Object.entries(all)) {
       if (!key.startsWith('tab:')) continue;
-      const v = value as TabHosts;
-      memory.set(Number(key.slice(4)), { pageUrl: v.pageUrl, hosts: new Set(v.hosts) });
+      const saved = readTabHosts(value);
+      if (saved) memory.set(Number(key.slice(4)), saved);
     }
   });
 
@@ -29,9 +32,7 @@ export default defineBackground(() => {
     pending.set(tabId, setTimeout(() => {
       pending.delete(tabId);
       const entry = memory.get(tabId);
-      if (!entry) return;
-      const value: TabHosts = { pageUrl: entry.pageUrl, hosts: [...entry.hosts].sort() };
-      void browser.storage.session.set({ [tabKey(tabId)]: value });
+      if (entry) void browser.storage.session.set({ [tabKey(tabId)]: entry });
     }, 300));
   }
 
@@ -47,14 +48,15 @@ export default defineBackground(() => {
       } catch {
         return;
       }
+      const now = Date.now();
       void ready.then(() => {
         // A new top-level page starts a new list.
         if (details.type === 'main_frame') {
-          memory.set(details.tabId, { pageUrl: details.url, hosts: new Set([host]) });
+          memory.set(details.tabId, { pageUrl: details.url, lastSeen: { [host]: now } });
         } else {
           const entry = memory.get(details.tabId);
           if (!entry) return; // page loaded before the extension: reload it to see the trackers
-          entry.hosts.add(host);
+          entry.lastSeen[host] = now;
         }
         persist(details.tabId);
       });
@@ -62,22 +64,40 @@ export default defineBackground(() => {
     { urls: ['<all_urls>'] },
   );
 
+  // Snapshot of what can recognise the user at this moment, with every host the tab
+  // contacted so far: at the moment of a choice, all of it appeared before consent
+  // or refusal. A second report of the same choice (click, then TCF) keeps the first.
+  async function takeSnapshot(tabId: number, pageUrl: string, site: string, at: number): Promise<void> {
+    const key = snapshotKey(site);
+    const existing = (await browser.storage.session.get(key))[key] as Snapshot | undefined;
+    if (!shouldTakeSnapshot(existing, at)) return;
+    await ready;
+    const hosts = Object.keys(memory.get(tabId)?.lastSeen ?? {});
+    const { own, trackers } = await observe(pageUrl, hosts, at);
+    await browser.storage.session.set({ [key]: buildSnapshot(site, at, own, trackers) });
+  }
+
   // Choices noticed by the content script. The site comes from the tab's address,
   // not from the frame that sent the message: a banner may be an iframe of another
-  // domain. Writes are queued one after the other, so that two messages arriving
-  // together (TCF and a click) cannot overwrite each other.
+  // domain. Work is queued one message after the other, so that two messages
+  // arriving together (TCF and a click) cannot overwrite each other.
   let queue: Promise<void> = Promise.resolve();
   browser.runtime.onMessage.addListener((message: unknown, sender): undefined => {
-    if (!isChoiceMessage(message) || !sender.tab?.url) return;
+    const tab = sender.tab;
+    if (!isChoiceMessage(message) || !tab?.url || tab.id === undefined) return;
     let site: string;
     try {
-      site = siteOf(new URL(sender.tab.url).hostname);
+      site = siteOf(new URL(tab.url).hostname);
     } catch {
       return;
     }
+    const tabId = tab.id;
+    const pageUrl = tab.url;
     const incoming: ChoiceRecord = { ...message.record, site };
     const key = choiceKey(site);
     queue = queue.then(async () => {
+      // The snapshot first: the sooner, the closer to the state before the choice.
+      if (incoming.trigger === 'action') await takeSnapshot(tabId, pageUrl, site, incoming.at);
       const saved = (await browser.storage.session.get(key))[key] as ChoiceRecord | undefined;
       await browser.storage.session.set({ [key]: mergeChoice(saved, incoming) });
     }).catch(() => {});

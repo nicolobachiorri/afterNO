@@ -235,5 +235,47 @@
   },
   "afterRejectNone": {
     "message": "Dopo il tuo rifiuto, nessun sito terzo può riconoscerti da questa pagina."
+  },
+  "compareAtChoice": {
+    "message": "Alla scelta ($TIME$)",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "compareNow": {
+    "message": "Adesso"
+  },
+  "compareSites": {
+    "message": "Siti terzi che possono riconoscerti"
+  },
+  "compareMarketing": {
+    "message": "Cookie di marketing"
+  },
+  "compareAnalytics": {
+    "message": "Cookie di statistica"
+  },
+  "compareIdentifiers": {
+    "message": "Identificativi probabili"
+  },
+  "compareNote": {
+    "message": "«Alla scelta» conta tutto ciò che c'era già quando hai scelto, quindi prima del tuo consenso o rifiuto. «Adesso» conta solo i tracker contattati dopo: ricarica la pagina per una misura completa."
+  },
+  "siteMarketingNote_one": {
+    "message": "Il sito stesso ha però $COUNT$ cookie di marketing.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteMarketingNote_other": {
+    "message": "Il sito stesso ha però $COUNT$ cookie di marketing.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   }
 }

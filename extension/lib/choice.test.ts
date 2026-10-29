@@ -76,7 +76,7 @@ test('TCF: nothing when GDPR does not apply or purposes are missing', () => {
 });
 
 const rec = (source: 'tcf' | 'click', at: number, site = 's.it'): ChoiceRecord =>
-  ({ site, source, choice: source === 'tcf' ? 'rejected' : 'accepted', at });
+  ({ site, source, choice: source === 'tcf' ? 'rejected' : 'accepted', at, trigger: 'action' });
 
 test('merge: TCF always wins over a click', () => {
   assert.equal(mergeChoice(rec('click', 0), rec('tcf', 10)).source, 'tcf');
@@ -95,7 +95,7 @@ test('merge: records of another site are replaced', () => {
 });
 
 test('message check: valid messages pass, odd ones do not', () => {
-  const ok = { type: 'choice', record: { source: 'click', choice: 'rejected', at: 1, label: 'Rifiuta' } };
+  const ok = { type: 'choice', record: { source: 'click', choice: 'rejected', at: 1, trigger: 'action', label: 'Rifiuta' } };
   assert.equal(isChoiceMessage(ok), true);
   assert.equal(isChoiceMessage({ ...ok, type: 'other' }), false);
   assert.equal(isChoiceMessage({ type: 'choice', record: { ...ok.record, choice: 'maybe' } }), false);
@@ -161,4 +161,27 @@ test('text and attributes: either alone is enough, a disagreement claims nothing
 
 test('a paying label wins over a reject attribute', () => {
   assert.equal(classifyControl('Rifiuta e abbonati', 'cmp-reject-btn'), null);
+});
+
+test('TCF trigger: a user action vs a choice stored earlier', () => {
+  assert.equal(choiceFromTcf(tcf({ 1: false }), 's.it', 0)?.trigger, 'action');
+  assert.equal(choiceFromTcf(tcf({ 1: false }, 'tcloaded'), 's.it', 0)?.trigger, 'stored');
+});
+
+test('merge: a stored choice reported on reload keeps the time of the real choice', () => {
+  const real: ChoiceRecord = { site: 's.it', source: 'tcf', choice: 'rejected', at: 1000, trigger: 'action' };
+  const reload: ChoiceRecord = { ...real, at: 99_000, trigger: 'stored' };
+  const merged = mergeChoice(real, reload);
+  assert.equal(merged.at, 1000);
+  assert.equal(merged.trigger, 'action');
+});
+
+test('merge: a different stored choice replaces the old one', () => {
+  const old: ChoiceRecord = { site: 's.it', source: 'tcf', choice: 'rejected', at: 1000, trigger: 'action' };
+  const changed: ChoiceRecord = { ...old, choice: 'accepted', at: 99_000, trigger: 'stored' };
+  assert.equal(mergeChoice(old, changed).choice, 'accepted');
+});
+
+test('message check: the trigger is required', () => {
+  assert.equal(isChoiceMessage({ type: 'choice', record: { source: 'click', choice: 'rejected', at: 1 } }), false);
 });

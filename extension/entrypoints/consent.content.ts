@@ -88,6 +88,7 @@ export default defineContentScript({
         source: 'click',
         choice: kind === 'reject' ? 'rejected' : 'accepted',
         at: Date.now(),
+        trigger: 'action',
         // Shown in the popup; for a button recognised only by its attributes, its id.
         label: (label || control.id || '?').replace(/\s+/g, ' ').trim().slice(0, 50),
       });

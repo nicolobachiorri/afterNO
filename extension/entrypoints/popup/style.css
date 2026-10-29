@@ -4,6 +4,7 @@
   --muted: #6e6e73;
   --line: #e5e5ea;
   --alert: #b3261e;
+  --warn: #9a5b00;
   --ok: #1e7b34;
   --accent-bg: #fdf1f0;
   font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -19,6 +20,7 @@
     --muted: #98989f;
     --line: #38383a;
     --alert: #ff8a80;
+    --warn: #f2b25c;
     --ok: #7ed492;
     --accent-bg: #2c1f1e;
   }
@@ -104,6 +106,7 @@ details > summary {
 }
 
 .alert { color: var(--alert); }
+.warn { color: var(--warn); }
 .ok { color: var(--ok); }
 .muted { color: var(--muted); font-size: 12px; margin-top: 14px; }
 
@@ -138,4 +141,36 @@ li:last-child { border-bottom: none; }
 .meta {
   color: var(--muted);
   font-size: 11px;
+}
+
+.compare {
+  margin-top: 10px;
+}
+
+.compare table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.compare th,
+.compare td {
+  padding: 3px 4px;
+  border-bottom: 1px solid var(--line);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.compare th:first-child {
+  text-align: left;
+  font-weight: 400;
+}
+
+.compare thead th {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.compare .note {
+  margin-top: 6px;
 }

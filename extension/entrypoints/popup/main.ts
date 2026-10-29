@@ -1,18 +1,17 @@
-// Popup: a summary first, then the cookies the trackers can read, then the site's own.
-// This is the thin, browser-facing layer: read data, call the pure functions in
-// lib/, display the result. All the rules live in lib/ and are unit-tested.
+// Popup: the choice made in the banner, a summary and the comparison with the moment
+// of the choice, then the cookies the trackers can read, then the site's own.
+// This is the thin, browser-facing layer: read data, call the functions in lib/,
+// display the result. The rules live in lib/ and are unit-tested.
 import './style.css';
-import { browser, type Browser } from 'wxt/browser';
+import { browser } from 'wxt/browser';
 import { type ChoiceRecord } from '@/lib/choice';
-import { classify, type CookieDb } from '@/lib/classify';
-import { isThirdParty, siteOf } from '@/lib/hosts';
-import { isLikelyIdentifier, MIN_IDENTIFIER_DAYS } from '@/lib/identifiers';
+import { observe } from '@/lib/cookies';
+import { siteOf } from '@/lib/hosts';
+import { MIN_IDENTIFIER_DAYS } from '@/lib/identifiers';
 import { pluralKey } from '@/lib/plural';
-import { RECOGNISING, summarise, type Group } from '@/lib/summary';
-import { thirdPartyCookies } from '@/lib/thirdparty';
-import { choiceKey, tabKey, type TabHosts } from '@/lib/tabstore';
-
-type Cookie = Browser.cookies.Cookie;
+import { hostsSince, type Classified, type Snapshot } from '@/lib/snapshot';
+import { RECOGNISING, summarise, type Group, type Summary } from '@/lib/summary';
+import { choiceKey, readTabHosts, snapshotKey, tabKey } from '@/lib/tabstore';
 
 // Every text comes from public/_locales/<language>/messages.json, chosen by the browser
 // from the user's language. The cast keeps this file independent of the message-key
@@ -21,20 +20,14 @@ const getMessage = browser.i18n.getMessage as (key: string, substitutions?: stri
 const t = (key: string, ...subs: (string | number)[]): string => getMessage(key, subs.map(String)) || key;
 const tn = (base: string, n: number, ...subs: (string | number)[]): string =>
   t(pluralKey(base, n, browser.i18n.getUILanguage()), n, ...subs);
+const clock = (ms: number) =>
+  new Date(ms).toLocaleTimeString(browser.i18n.getUILanguage(), { hour: '2-digit', minute: '2-digit' });
 
 // Order of the groups: what can recognise the user first.
 const ORDER: Group[] = [
   'Marketing', 'Analytics', 'Identifier', 'Unknown', 'Personalization',
   'Preferences', 'Functional', 'Necessary', 'Security',
 ];
-
-interface Row {
-  name: string;
-  domain: string;
-  group: Group;
-  platform: string;
-  expires: string;
-}
 
 // Small helper to build DOM nodes. Cookie names come from websites, so they are
 // untrusted: they are always inserted as text (textContent), never as HTML.
@@ -46,7 +39,7 @@ function h(tag: string, props: { class?: string; text?: string } = {}, ...childr
   return el;
 }
 
-function formatExpiry(c: Cookie): string {
+function formatExpiry(c: Classified): string {
   if (c.session || c.expirationDate === undefined) return t('expirySession');
   const days = Math.round((c.expirationDate * 1000 - Date.now()) / 86_400_000);
   if (days < 1) return t('expiryUnderDay');
@@ -54,42 +47,19 @@ function formatExpiry(c: Cookie): string {
   return tn('expiryMonths', Math.round(days / 30));
 }
 
-function toRow(c: Cookie, db: CookieDb, thirdParty: boolean): Row {
-  const { category, platform } = classify(c.name, db);
-  // The identifier hint only applies to tracker cookies: on the site's own domain,
-  // "unknown" really means "we do not know".
-  const group: Group = thirdParty && isLikelyIdentifier(c, category, Date.now()) ? 'Identifier' : category;
-  return { name: c.name, domain: c.domain, group, platform, expires: formatExpiry(c) };
+async function fromSession<T>(key: string): Promise<T | undefined> {
+  return (await browser.storage.session.get(key))[key] as T | undefined;
 }
 
-async function loadDb(): Promise<CookieDb> {
-  // The database ships inside the extension (public/cookie-db.json): no network request.
-  const res = await fetch(browser.runtime.getURL('/cookie-db.json'));
-  return (await res.json()) as CookieDb;
-}
-
-// Cookies the trackers contacted by this page can read, using the hosts the
-// background recorded. Returns null when there is no record for this page.
-async function trackerCookies(tabId: number, pageUrl: string, firstParty: Cookie[]): Promise<Cookie[] | null> {
-  const saved = (await browser.storage.session.get(tabKey(tabId)))[tabKey(tabId)] as TabHosts | undefined;
-  const pageHost = new URL(pageUrl).hostname;
-  if (!saved || new URL(saved.pageUrl).hostname !== pageHost) return null;
-
-  const hosts = saved.hosts.filter((host) => isThirdParty(host, pageHost));
-  const byHost: Record<string, Cookie[]> = {};
-  await Promise.all(hosts.map(async (host) => {
-    byHost[host] = await browser.cookies.getAll({ url: `https://${host}/` });
-  }));
-  return thirdPartyCookies(firstParty, byHost).map((f) => f.cookie);
-}
+// ------------------------------------------------------------------ cookie lists
 
 // One collapsible group. Groups that can recognise the user start open.
-function groupBlock(group: Group, rows: Row[]): HTMLElement {
+function groupBlock(group: Group, rows: Classified[]): HTMLElement {
   const items = rows
     .sort((a, b) => a.domain.localeCompare(b.domain) || a.name.localeCompare(b.name))
     .map((r) => h('li', {},
       h('span', { class: 'name', text: r.name }),
-      h('span', { class: 'meta', text: [r.platform, r.domain, r.expires].filter(Boolean).join(' · ') }),
+      h('span', { class: 'meta', text: [r.platform, r.domain, formatExpiry(r)].filter(Boolean).join(' · ') }),
     ));
   const details = h('details', { class: `group ${RECOGNISING.has(group) ? 'tracking' : ''}` },
     h('summary', { text: `${t(`group_${group}`)} (${rows.length})` }),
@@ -100,23 +70,18 @@ function groupBlock(group: Group, rows: Row[]): HTMLElement {
   return details;
 }
 
-function groups(rows: Row[]): HTMLElement[] {
+function groups(rows: Classified[]): HTMLElement[] {
   return ORDER
     .map((g) => [g, rows.filter((r) => r.group === g)] as const)
     .filter(([, rs]) => rs.length > 0)
     .map(([g, rs]) => groupBlock(g, [...rs]));
 }
 
-// The choice made in the banner, as recorded by the content script and the background.
-async function loadChoice(site: string): Promise<ChoiceRecord | undefined> {
-  const key = choiceKey(site);
-  return (await browser.storage.session.get(key))[key] as ChoiceRecord | undefined;
-}
+// ------------------------------------------------------------------ summary
 
 function choiceLines(choice: ChoiceRecord | undefined): HTMLElement[] {
   if (!choice) return [h('p', { class: 'choice', text: t('choiceNone') })];
-  const time = new Date(choice.at).toLocaleTimeString(browser.i18n.getUILanguage(), { hour: '2-digit', minute: '2-digit' });
-  const lines = [h('p', { class: 'choice strong', text: t(`choice_${choice.choice}`, time) })];
+  const lines = [h('p', { class: 'choice strong', text: t(`choice_${choice.choice}`, clock(choice.at)) })];
   if (choice.source === 'tcf') {
     lines.push(h('p', { class: 'choice', text: t('choiceSourceTcf') }));
     if (choice.purposesTotal) {
@@ -129,7 +94,29 @@ function choiceLines(choice: ChoiceRecord | undefined): HTMLElement[] {
   return lines;
 }
 
-function summaryBlock(host: string, own: Row[], trackers: Row[] | null, choice: ChoiceRecord | undefined): HTMLElement {
+// Two columns: at the moment of the choice (everything there appeared before consent
+// or refusal) and now (only trackers contacted after the choice).
+function comparison(before: Summary, now: Summary, at: number): HTMLElement {
+  const row = (label: string, a: number, b: number) =>
+    h('tr', {}, h('th', { text: label }), h('td', { text: String(a) }), h('td', { text: String(b) }));
+  const total = (s: Summary, k: 'marketing' | 'analytics') => s[k].site + s[k].trackers;
+  return h('section', { class: 'compare' },
+    h('table', {},
+      h('thead', {}, h('tr', {}, h('th', {}),
+        h('th', { text: t('compareAtChoice', clock(at)) }), h('th', { text: t('compareNow') }))),
+      h('tbody', {},
+        row(t('compareSites'), before.recognisingSites, now.recognisingSites),
+        row(t('compareMarketing'), total(before, 'marketing'), total(now, 'marketing')),
+        row(t('compareAnalytics'), total(before, 'analytics'), total(now, 'analytics')),
+        row(t('compareIdentifiers'), before.identifiers, now.identifiers),
+      ),
+    ),
+    h('p', { class: 'note', text: t('compareNote') }),
+  );
+}
+
+function summaryBlock(host: string, own: Classified[], trackers: Classified[] | null,
+  choice: ChoiceRecord | undefined, snapshot: Snapshot | undefined): HTMLElement {
   const s = summarise(own, trackers ?? []);
   // "After your rejection" only when a rejection was actually recorded.
   const rejected = choice?.choice === 'rejected';
@@ -138,34 +125,27 @@ function summaryBlock(host: string, own: Row[], trackers: Row[] | null, choice: 
     : s.recognisingSites === 0
       ? t(rejected ? 'afterRejectNone' : 'noRecognising')
       : tn(rejected ? 'afterRejectRecognising' : 'recognising', s.recognisingSites);
-  const lines = [
-    t('statMarketing', s.marketing.site + s.marketing.trackers, s.marketing.site, s.marketing.trackers),
-    t('statAnalytics', s.analytics.site + s.analytics.trackers, s.analytics.site, s.analytics.trackers),
-    t('statIdentifiers', s.identifiers),
-  ];
+  const showCompare = choice && snapshot && trackers !== null;
+  // Text and colour must say the same thing: red when third parties can recognise
+  // the user, amber when only the site itself has marketing cookies, green otherwise.
+  const siteOnly = s.recognisingSites === 0 && s.marketing.site > 0;
+  const tone = s.recognisingSites > 0 ? 'alert' : siteOnly ? 'warn' : 'ok';
   return h('section', { class: 'summary' },
     h('h1', { text: host }),
     ...choiceLines(choice),
-    h('p', { class: s.recognisingSites > 0 || s.marketing.site > 0 ? 'alert' : 'ok', text: headline }),
-    h('ul', { class: 'stats' }, ...lines.map((t) => h('li', { text: t }))),
+    h('p', { class: tone, text: headline }),
+    ...(siteOnly && trackers !== null ? [h('p', { class: tone, text: tn('siteMarketingNote', s.marketing.site) })] : []),
+    ...(showCompare
+      ? [comparison(snapshot.summary, s, snapshot.at)]
+      : [h('ul', { class: 'stats' },
+        h('li', { text: t('statMarketing', s.marketing.site + s.marketing.trackers, s.marketing.site, s.marketing.trackers) }),
+        h('li', { text: t('statAnalytics', s.analytics.site + s.analytics.trackers, s.analytics.site, s.analytics.trackers) }),
+        h('li', { text: t('statIdentifiers', s.identifiers) }),
+      )]),
   );
 }
 
-function render(app: HTMLElement, host: string, own: Row[], trackers: Row[] | null,
-  choice: ChoiceRecord | undefined): void {
-  app.replaceChildren(
-    summaryBlock(host, own, trackers, choice),
-    h('h2', { text: t('headingTrackers') }),
-    ...(trackers === null
-      ? [h('p', { class: 'sub', text: t('noRequestData') })]
-      : trackers.length === 0
-        ? [h('p', { class: 'sub', text: t('none') })]
-        : groups(trackers)),
-    h('h2', { text: t('headingSite') }),
-    ...(own.length === 0 ? [h('p', { class: 'sub', text: t('none') })] : groups(own)),
-    h('p', { class: 'muted', text: t('footerNote') }),
-  );
-}
+// ------------------------------------------------------------------ page
 
 async function main(): Promise<void> {
   const app = document.querySelector<HTMLElement>('#app')!;
@@ -178,16 +158,28 @@ async function main(): Promise<void> {
       app.replaceChildren(h('p', { class: 'muted', text: t('openSite') }));
       return;
     }
-    const db = await loadDb();
-    const firstParty = await browser.cookies.getAll({ url });
-    const tracker = await trackerCookies(tab.id, url, firstParty);
     const host = new URL(url).hostname;
-    render(
-      app,
-      host,
-      firstParty.map((c) => toRow(c, db, false)),
-      tracker ? tracker.map((c) => toRow(c, db, true)) : null,
-      await loadChoice(siteOf(host)),
+    const site = siteOf(host);
+    const choice = await fromSession<ChoiceRecord>(choiceKey(site));
+    const snapshot = await fromSession<Snapshot>(snapshotKey(site));
+    const saved = readTabHosts(await fromSession(tabKey(tab.id)));
+    // The background's list belongs to this page only if it was recorded for this host.
+    const recorded = saved && new URL(saved.pageUrl).hostname === host ? saved : undefined;
+    // After a choice, "now" means the trackers contacted after it.
+    const hosts = recorded ? (choice ? hostsSince(recorded.lastSeen, choice.at) : Object.keys(recorded.lastSeen)) : [];
+    const { own, trackers } = await observe(url, hosts, Date.now());
+
+    app.replaceChildren(
+      summaryBlock(host, own, recorded ? trackers : null, choice, snapshot),
+      h('h2', { text: t('headingTrackers') }),
+      ...(!recorded
+        ? [h('p', { class: 'sub', text: t('noRequestData') })]
+        : trackers.length === 0
+          ? [h('p', { class: 'sub', text: t('none') })]
+          : groups(trackers)),
+      h('h2', { text: t('headingSite') }),
+      ...(own.length === 0 ? [h('p', { class: 'sub', text: t('none') })] : groups(own)),
+      h('p', { class: 'muted', text: t('footerNote') }),
     );
   } catch (err) {
     app.replaceChildren(h('p', { class: 'alert', text: t('error', String(err)) }));

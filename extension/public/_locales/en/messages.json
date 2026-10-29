@@ -235,5 +235,47 @@
   },
   "afterRejectNone": {
     "message": "After your rejection, no third-party site can recognise you from this page."
+  },
+  "compareAtChoice": {
+    "message": "At your choice ($TIME$)",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "compareNow": {
+    "message": "Now"
+  },
+  "compareSites": {
+    "message": "Third-party sites that can recognise you"
+  },
+  "compareMarketing": {
+    "message": "Marketing cookies"
+  },
+  "compareAnalytics": {
+    "message": "Analytics cookies"
+  },
+  "compareIdentifiers": {
+    "message": "Likely identifiers"
+  },
+  "compareNote": {
+    "message": "“At your choice” counts everything already there when you chose, so before your consent or refusal. “Now” only counts trackers contacted afterwards: reload the page for a complete measure."
+  },
+  "siteMarketingNote_one": {
+    "message": "However, the site itself has $COUNT$ marketing cookie.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteMarketingNote_other": {
+    "message": "However, the site itself has $COUNT$ marketing cookies.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   }
 }

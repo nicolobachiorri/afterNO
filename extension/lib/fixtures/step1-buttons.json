@@ -1,5 +1,5 @@
 {
- "source": "Visible button texts recorded by the divergence test (step 1, 30 Italian sites, 3 runs, 29 October 2026), classified by hand. 'Rifiutare' was seen on IKEA with the extension the same day.",
+ "source": "Visible button texts recorded by the divergence test (step 1, 30 Italian sites, 3 runs, 29 October 2026), classified by hand, plus texts met later on real sites with the extension: 'Rifiutare' (IKEA) and 'Rifiuta i cookie opzionali' (Zara), 29 October 2026.",
  "cases": [
   {
    "label": "1 Adulto",
@@ -676,6 +676,10 @@
   {
    "label": "Rifiuta e abbonati",
    "expected": null
+  },
+  {
+   "label": "Rifiuta i cookie opzionali",
+   "expected": "reject"
   },
   {
    "label": "Rifiuta tutti",
