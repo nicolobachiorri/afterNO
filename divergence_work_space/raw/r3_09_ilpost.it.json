@@ -1,0 +1,179 @@
+{
+  "site": "https://www.ilpost.it",
+  "reject": "button: 'Continua senza accettare' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "52 min",
+    "Opzioni cookie",
+    "Continua senza accettare",
+    "Accetta e chiudi"
+  ],
+  "cookies_pre": [
+    {
+      "name": "~DL.i",
+      "domain": ".citynews.ovh",
+      "category": "Unknown"
+    },
+    {
+      "name": "~DL.s",
+      "domain": ".citynews.ovh",
+      "category": "Unknown"
+    },
+    {
+      "name": "~DL.c",
+      "domain": ".citynews.ovh",
+      "category": "Unknown"
+    },
+    {
+      "name": "theme",
+      "domain": "www.ilpost.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ilpost-token",
+      "domain": ".ilpost.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga_2T31DE0K8K",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "cebs",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ce.s",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPID",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPLC",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "~DL.i",
+      "domain": ".citynews.ovh",
+      "category": "Unknown"
+    },
+    {
+      "name": "~DL.c",
+      "domain": ".citynews.ovh",
+      "category": "Unknown"
+    },
+    {
+      "name": "~DL.s",
+      "domain": ".citynews.ovh",
+      "category": "Unknown"
+    },
+    {
+      "name": "theme",
+      "domain": "www.ilpost.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ilpost-token",
+      "domain": ".ilpost.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "cebs",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPID",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPLC",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ce.clock_data",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ce.s",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "cebsp_",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga_2T31DE0K8K",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "_ce.clock_data",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "cebsp_",
+      "domain": ".ilpost.it",
+      "category": "Analytics"
+    }
+  ],
+  "third_party_pre": [
+    "cdnilpost.com",
+    "city-news.it",
+    "citynews.ovh",
+    "crazyegg.com",
+    "doubleclick.net",
+    "eventbrite.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "gstatic.com",
+    "iubenda.com",
+    "jsdelivr.net",
+    "scorecardresearch.com",
+    "stgy.ovh"
+  ],
+  "third_party_post": [
+    "cdnilpost.com",
+    "city-news.it",
+    "citynews.ovh",
+    "crazyegg.com",
+    "doubleclick.net",
+    "eventbrite.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "gstatic.com",
+    "iubenda.com",
+    "jsdelivr.net",
+    "scorecardresearch.com",
+    "stgy.ovh"
+  ]
+}

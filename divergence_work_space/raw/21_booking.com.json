@@ -1,0 +1,169 @@
+{
+  "site": "https://www.booking.com",
+  "reject": "button: 'Rifiuto' in main",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "EUR",
+    "Seleziona date Data check-in \u2014 Data check-out",
+    "2 adulti \u00b7 0 bambini \u00b7 1 camera",
+    "Cerca",
+    "Vedi di pi\u00f9",
+    "Gestisci le impostazioni",
+    "Rifiuto",
+    "Accetto"
+  ],
+  "cookies_pre": [
+    {
+      "name": "bkng_sso_auth",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "pcm_consent",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "bkng_sso_session",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "bkng_sso_ses",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "bkng_ap_sso_session",
+      "domain": ".account.booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "persisted_lang",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".www.booking.com",
+      "category": "Functional"
+    },
+    {
+      "name": "bk_nav_search",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "pcm_pac",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "bkng",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "aws-waf-token",
+      "domain": ".booking.com",
+      "category": "Functional"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "bkng_sso_session",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "bkng_sso_ses",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "persisted_lang",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "pcm_pac",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".www.booking.com",
+      "category": "Functional"
+    },
+    {
+      "name": "bkng_ap_sso_session",
+      "domain": ".account.booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "pcm_consent",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "bkng_sso_auth",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "bkng_sso_auth_1793201433",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cflb",
+      "domain": "booking-privacy.my.onetrust.com",
+      "category": "Functional"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".www.booking.com",
+      "category": "Functional"
+    },
+    {
+      "name": "bk_nav_search",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "g_state",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "bkng",
+      "domain": ".booking.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "aws-waf-token",
+      "domain": ".booking.com",
+      "category": "Functional"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "adtrafficquality.google",
+    "awswaf.com",
+    "bstatic.com",
+    "cookielaw.org",
+    "googleapis.com",
+    "googlesyndication.com",
+    "moatads.com",
+    "onetrust.com"
+  ],
+  "third_party_post": [
+    "adtrafficquality.google",
+    "awswaf.com",
+    "bstatic.com",
+    "cookielaw.org",
+    "google.com",
+    "googlesyndication.com",
+    "onetrust.com"
+  ]
+}

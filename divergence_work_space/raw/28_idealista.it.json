@@ -1,0 +1,433 @@
+{
+  "site": "https://www.idealista.it",
+  "reject": "button: 'Continua senza accettare \u2192' in main",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Continua senza accettare \u2192",
+    "Pi\u00f9 informazioni",
+    "Accetta e chiudi",
+    "Proprietari",
+    "Cerchi casa",
+    "Mutui",
+    "Case e appartamenti Nuove costruzioni Case e appar",
+    "Cerca",
+    "Seleziona sulla mappa Puoi cercare contemporaneame",
+    "Inizia a selezionare le zone"
+  ],
+  "cookies_pre": [
+    {
+      "name": "PARAGLIDE_LOCALE",
+      "domain": ".www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "userUUID",
+      "domain": "www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "SESSION",
+      "domain": "www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "datadome",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "lang",
+      "domain": "www.idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "utag_main__sn",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main_ses_id",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__pn",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__se",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__ss",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__st",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsUrl",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsReferrer",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsSource",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsCampaign",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsProvider",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsNotificationId",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsProviderClickId",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevEventView",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevLevel2",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevEventLink",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pcid",
+      "domain": ".www.idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_pctx",
+      "domain": ".www.idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_pprv",
+      "domain": ".www.idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__rtbh.uid",
+      "domain": "www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__rtbh.lid",
+      "domain": "www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ts",
+      "domain": ".creativecdn.com",
+      "category": "Functional"
+    },
+    {
+      "name": "g",
+      "domain": ".creativecdn.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "c",
+      "domain": ".creativecdn.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "IDE",
+      "domain": ".doubleclick.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "XANDR_PANID",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "uuid2",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "anj",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "PARAGLIDE_LOCALE",
+      "domain": ".www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "userUUID",
+      "domain": "www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "SESSION",
+      "domain": "www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__sn",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main_ses_id",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__ss",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsUrl",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsReferrer",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsSource",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsCampaign",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsProvider",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsNotificationId",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevTsProviderClickId",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevEventView",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevLevel2",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__prevEventLink",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pcid",
+      "domain": ".www.idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_pctx",
+      "domain": ".www.idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "ts",
+      "domain": ".creativecdn.com",
+      "category": "Functional"
+    },
+    {
+      "name": "g",
+      "domain": ".creativecdn.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "c",
+      "domain": ".creativecdn.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "IDE",
+      "domain": ".doubleclick.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "XANDR_PANID",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "uuid2",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "anj",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "utag_main__pn",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "datadome",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "lang",
+      "domain": "www.idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "g_state",
+      "domain": "www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__se",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main__st",
+      "domain": ".idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pprv",
+      "domain": ".www.idealista.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__rtbh.uid",
+      "domain": "www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__rtbh.lid",
+      "domain": "www.idealista.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "udmts",
+      "domain": ".udmserve.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "dt",
+      "domain": ".udmserve.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "rtbh",
+      "domain": ".udmserve.net",
+      "category": "Marketing"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "udmts",
+      "domain": ".udmserve.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "dt",
+      "domain": ".udmserve.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "rtbh",
+      "domain": ".udmserve.net",
+      "category": "Marketing"
+    }
+  ],
+  "third_party_pre": [
+    "adnxs.com",
+    "aticdn.net",
+    "creativecdn.com",
+    "criteo.com",
+    "doubleclick.net",
+    "google.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "idealista.com",
+    "newrelic.com",
+    "nr-data.net",
+    "outbrain.com",
+    "privacy-center.org",
+    "taboola.com"
+  ],
+  "third_party_post": [
+    "aticdn.net",
+    "creativecdn.com",
+    "criteo.com",
+    "google.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "idealista.com",
+    "outbrain.com",
+    "privacy-center.org",
+    "rubiconproject.com",
+    "taboola.com",
+    "udmserve.net"
+  ]
+}

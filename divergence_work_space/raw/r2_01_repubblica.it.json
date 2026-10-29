@@ -1,0 +1,149 @@
+{
+  "site": "https://www.repubblica.it",
+  "reject": "paywall label found",
+  "banner_type": "pay_or_accept",
+  "visible_buttons": [
+    "Menu",
+    "Ricerca",
+    "pannello delle preferenze pubblicitarie",
+    "RIFIUTA E ABBONATI",
+    "ACCETTA",
+    "terze parti"
+  ],
+  "cookies_pre": [
+    {
+      "name": "kw_wtu",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_1pc_enableds",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_sntseg",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_inc",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "gig_canary",
+      "domain": "cdns.eu1.gigya.com",
+      "category": "Functional"
+    },
+    {
+      "name": "gmid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ucid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "gig_bootstrap_3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ",
+      "domain": ".repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_ga_CJNJE8FY4S",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "kw_wtu",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_1pc_enableds",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_sntseg",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_inc",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "gig_canary",
+      "domain": "cdns.eu1.gigya.com",
+      "category": "Functional"
+    },
+    {
+      "name": "gmid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ucid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "gig_bootstrap_3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ",
+      "domain": ".repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_ga_CJNJE8FY4S",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "doubleclick.net",
+    "facebook.com",
+    "facebook.net",
+    "gedi.it",
+    "gedidigital.it",
+    "gedistatic.it",
+    "gigya.com",
+    "google-analytics.com",
+    "google.com",
+    "googletagmanager.com",
+    "imrworldwide.com",
+    "iubenda.com",
+    "kataweb.it",
+    "mrf.io",
+    "newsroom.bi",
+    "repstatic.it"
+  ],
+  "third_party_post": [
+    "newsroom.bi"
+  ]
+}

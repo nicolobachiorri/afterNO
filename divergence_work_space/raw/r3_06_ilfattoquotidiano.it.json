@@ -1,0 +1,205 @@
+{
+  "site": "https://www.ilfattoquotidiano.it",
+  "reject": "button: 'Continua senza accettare' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "MENU",
+    "ABBONATI",
+    "CONSULTA L'ARCHIVIO",
+    "Nascondi",
+    "NASCONDI",
+    "Continua senza accettare"
+  ],
+  "cookies_pre": [
+    {
+      "name": "ifq-ab-regwall-v4",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "wtstp_rla",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "ifq-ab-regwall-v4",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "G_ENABLED_IDPS",
+      "domain": ".www.ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__lxG__consent__v2",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__lxG__consent__v2_daisybit",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__lxG__consent__v2_gdaisybit",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_sharedID",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_sharedID",
+      "domain": ".fluxtech.ai",
+      "category": "Analytics"
+    },
+    {
+      "name": "_conv_sptest",
+      "domain": "www.ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "wtstp_rla",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_sharedID_cst",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__eoi",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Security"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "_sharedID",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_sharedID",
+      "domain": ".fluxtech.ai",
+      "category": "Analytics"
+    },
+    {
+      "name": "_sharedID_cst",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Analytics"
+    }
+  ],
+  "third_party_pre": [
+    "clickiocmp.com",
+    "doubleclick.net",
+    "ebxcdn.com",
+    "fluxtech.ai",
+    "google-analytics.com",
+    "google.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "wt-safetag.com",
+    "youtube.com"
+  ],
+  "third_party_post": [
+    "adnxs-simple.com",
+    "adsrvr.org",
+    "adtrafficquality.google",
+    "akamaihd.net",
+    "casalemedia.com",
+    "clickiocdn.com",
+    "clickiocmp.com",
+    "criteo.com",
+    "doubleclick.net",
+    "ebxcdn.com",
+    "fluxtech.ai",
+    "google-analytics.com",
+    "google.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "googlevideo.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "jsdelivr.net",
+    "linkedin.com",
+    "media.net",
+    "pubmatic.com",
+    "rubiconproject.com",
+    "smartadserver.com",
+    "withgoogle.com",
+    "wt-safetag.com",
+    "youtube.com",
+    "ytimg.com"
+  ]
+}

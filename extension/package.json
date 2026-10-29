@@ -1,0 +1,25 @@
+{
+  "name": "wxt-starter",
+  "description": "manifest.json description",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare",
+    "test": "node --test \"lib/**/*.test.ts\"",
+    "db": "python3 ../tools/build_cookie_db.py"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^8.1.5",
+    "web-ext": "^10.5.0",
+    "wxt": "^0.21.3"
+  }
+}

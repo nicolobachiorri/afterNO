@@ -1,0 +1,277 @@
+{
+  "site": "https://www.ilfattoquotidiano.it",
+  "reject": "button: 'Continua senza accettare' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "MENU",
+    "ABBONATI",
+    "CONSULTA L'ARCHIVIO",
+    "Nascondi",
+    "NASCONDI",
+    "Continua senza accettare"
+  ],
+  "cookies_pre": [
+    {
+      "name": "ifq-ab-regwall-v4",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_conv_sptest",
+      "domain": "www.ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "wtstp_rla",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "G_ENABLED_IDPS",
+      "domain": ".www.ilfattoquotidiano.it",
+      "category": "Unknown"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "ifq-ab-regwall-v4",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "G_ENABLED_IDPS",
+      "domain": ".www.ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__lxG__consent__v2",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__lxG__consent__v2_daisybit",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__lxG__consent__v2_gdaisybit",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_sharedID",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_sharedID",
+      "domain": ".fluxtech.ai",
+      "category": "Analytics"
+    },
+    {
+      "name": "__eoi",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Security"
+    },
+    {
+      "name": "__mggpc__",
+      "domain": "www.ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "category": "Functional"
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".linkedin.com",
+      "category": "Functional"
+    },
+    {
+      "name": "NID",
+      "domain": ".google.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "_conv_sptest",
+      "domain": "www.ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "wtstp_rla",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_sharedID_cst",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "APC",
+      "domain": ".doubleclick.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "category": "Functional"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "_sharedID",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_sharedID",
+      "domain": ".fluxtech.ai",
+      "category": "Analytics"
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "NID",
+      "domain": ".google.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "_sharedID_cst",
+      "domain": ".ilfattoquotidiano.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "APC",
+      "domain": ".doubleclick.net",
+      "category": "Marketing"
+    }
+  ],
+  "third_party_pre": [
+    "clickiocmp.com",
+    "doubleclick.net",
+    "ebxcdn.com",
+    "fluxtech.ai",
+    "google-analytics.com",
+    "google.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "googlevideo.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "withgoogle.com",
+    "wt-safetag.com",
+    "youtube.com",
+    "ytimg.com"
+  ],
+  "third_party_post": [
+    "adnxs-simple.com",
+    "adsrvr.org",
+    "adtrafficquality.google",
+    "ampproject.org",
+    "casalemedia.com",
+    "clickiocmp.com",
+    "criteo.com",
+    "doubleclick.net",
+    "ebxcdn.com",
+    "fluxtech.ai",
+    "google-analytics.com",
+    "google.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "googlevideo.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "jsdelivr.net",
+    "linkedin.com",
+    "mediagotechnology.com",
+    "pubmatic.com",
+    "rubiconproject.com",
+    "smartadserver.com",
+    "withgoogle.com",
+    "wt-safetag.com",
+    "youtube.com",
+    "ytimg.com"
+  ]
+}

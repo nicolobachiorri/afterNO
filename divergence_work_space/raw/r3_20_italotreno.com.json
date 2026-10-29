@@ -1,0 +1,256 @@
+{
+  "site": "https://www.italotreno.com",
+  "reject": "no reject button found",
+  "banner_type": "accept_only",
+  "visible_buttons": [
+    "Configura",
+    "Accetta",
+    "Hai un codice promo?",
+    "CERCA",
+    "Maggiori informazioni - Offerte dedicate, viaggi g",
+    "LE NOSTRE STAZIONI",
+    "LE NOSTRE TRATTE",
+    "CONNESSIONI TRENO AV + REGIONALI + BUS",
+    "PARTNER MARITTIMI"
+  ],
+  "cookies_pre": [
+    {
+      "name": "AKA_A2",
+      "domain": ".italotreno.com",
+      "category": "Functional"
+    },
+    {
+      "name": "italotreno#lang",
+      "domain": "www.italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "Culture",
+      "domain": ".italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "dtCookiev09j7bqb",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "rxVisitorv09j7bqb",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "dtSav09j7bqb",
+      "domain": ".italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "didomi_dcs",
+      "domain": ".italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "AcceptCookie",
+      "domain": "www.italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "_abck",
+      "domain": ".italotreno.com",
+      "category": "Functional"
+    },
+    {
+      "name": "RT",
+      "domain": ".italotreno.com",
+      "category": "Functional"
+    },
+    {
+      "name": "_abck",
+      "domain": ".italoimpresa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".italoimpresa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".italoimpresa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga_KGDSYWDJH0",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "rxvtv09j7bqb",
+      "domain": ".italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "FPID",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPLC",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "dtPCv09j7bqb",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "RT",
+      "domain": ".italoimpresa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".italotreno.com",
+      "category": "Functional"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "AKA_A2",
+      "domain": ".italotreno.com",
+      "category": "Functional"
+    },
+    {
+      "name": "italotreno#lang",
+      "domain": "www.italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "Culture",
+      "domain": ".italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "rxVisitorv09j7bqb",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "dtSav09j7bqb",
+      "domain": ".italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "didomi_dcs",
+      "domain": ".italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "AcceptCookie",
+      "domain": "www.italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "_abck",
+      "domain": ".italotreno.com",
+      "category": "Functional"
+    },
+    {
+      "name": "_abck",
+      "domain": ".italoimpresa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".italoimpresa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".italoimpresa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPID",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPLC",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "RT",
+      "domain": ".italoimpresa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".italotreno.com",
+      "category": "Functional"
+    },
+    {
+      "name": "dtCookiev09j7bqb",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "RT",
+      "domain": ".italotreno.com",
+      "category": "Functional"
+    },
+    {
+      "name": "rxvtv09j7bqb",
+      "domain": ".italotreno.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "dtPCv09j7bqb",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".italotreno.com",
+      "category": "Functional"
+    },
+    {
+      "name": "_ga_KGDSYWDJH0",
+      "domain": ".italotreno.com",
+      "category": "Analytics"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "akamaihd.net",
+    "akstat.io",
+    "go-mpulse.net",
+    "googletagmanager.com",
+    "italoimpresa.it",
+    "privacy-center.org",
+    "skeepers.io"
+  ],
+  "third_party_post": []
+}

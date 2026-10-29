@@ -1,0 +1,146 @@
+{
+  "site": "https://www.giallozafferano.it",
+  "reject": "button: 'Continua senza accettare' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Iscriviti",
+    "Continua senza accettare",
+    "Accetta e chiudi",
+    "Opzioni cookie"
+  ],
+  "cookies_pre": [
+    {
+      "name": "wteid_769396664005295",
+      "domain": "mediasetitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "wtsid_769396664005295",
+      "domain": "mediasetitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".stbm.it",
+      "category": "Functional"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".giallozafferano.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".giallozafferano.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".giallozafferano.it",
+      "category": "Functional"
+    },
+    {
+      "name": "wt_rla",
+      "domain": ".giallozafferano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".giallozafferano.it",
+      "category": "Analytics"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "wteid_769396664005295",
+      "domain": "mediasetitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "wtsid_769396664005295",
+      "domain": "mediasetitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".stbm.it",
+      "category": "Functional"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".giallozafferano.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_iub_cs-81919939",
+      "domain": ".giallozafferano.it",
+      "category": "Functional"
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".giallozafferano.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_iub_cs-81919939-granular",
+      "domain": ".giallozafferano.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".giallozafferano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "wt_rla",
+      "domain": ".giallozafferano.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".giallozafferano.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".giallozafferano.it",
+      "category": "Functional"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "cloudflareinsights.com",
+    "google-analytics.com",
+    "google.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "iubenda.com",
+    "permutive.app",
+    "stbm.it",
+    "wt-eu02.net",
+    "wt-safetag.com"
+  ],
+  "third_party_post": [
+    "adkaora.space",
+    "adsafeprotected.com",
+    "adtrafficquality.google",
+    "cloudflareinsights.com",
+    "doubleclick.net",
+    "google-analytics.com",
+    "google.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "iubenda.com",
+    "permutive.app",
+    "scorecardresearch.com",
+    "stbm.it",
+    "wt-eu02.net",
+    "wt-safetag.com"
+  ]
+}

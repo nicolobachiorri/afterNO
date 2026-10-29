@@ -1,0 +1,187 @@
+{
+  "site": "https://www.ilsole24ore.com",
+  "reject": "paywall label found",
+  "banner_type": "pay_or_accept",
+  "visible_buttons": [
+    "Diretta Salone della Giustizia 2026",
+    "Diretta Forum Sostenibilit\u00e0 2026 - Focus Giovani",
+    "Sezioni",
+    "Accedi",
+    "partner",
+    "Preferenze",
+    "Accetto",
+    "Rifiuta e abbonati",
+    "Pause",
+    "Unmute",
+    "Seek to live, currently playing live LIVE",
+    "Fullscreen"
+  ],
+  "cookies_pre": [
+    {
+      "name": "wtsid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "wteid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".ilsole24ore.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "nohupMeteo",
+      "domain": "www.ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".ilsole24ore.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "utag_main",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "wt_rla",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".ilsole24ore.com",
+      "category": "Functional"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "wt_cookiecontrol",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "_OptanonConsentOld",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "SoleCookieAccept",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "JSESSIONID",
+      "domain": ".nr-data.net",
+      "category": "Functional"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "wtsid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "wteid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".ilsole24ore.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "nohupMeteo",
+      "domain": "www.ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".ilsole24ore.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "utag_main",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "wt_rla",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".ilsole24ore.com",
+      "category": "Functional"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "wt_cookiecontrol",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "_OptanonConsentOld",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "SoleCookieAccept",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "JSESSIONID",
+      "domain": ".nr-data.net",
+      "category": "Functional"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "24o.it",
+    "akamaized.net",
+    "boltdns.net",
+    "brightcove.com",
+    "brightcove.net",
+    "cookielaw.org",
+    "doubleclick.net",
+    "google.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "imrworldwide.com",
+    "jsdelivr.net",
+    "mrf.io",
+    "newrelic.com",
+    "nr-data.net",
+    "onetrust.com",
+    "outbrain.com",
+    "outbrainimg.com",
+    "qiota.com",
+    "rubiconproject.com",
+    "scorecardresearch.com",
+    "tiqcdn.com",
+    "wt-eu02.net",
+    "zencdn.net"
+  ],
+  "third_party_post": [
+    "akamaized.net",
+    "brightcove.com",
+    "newsroom.bi",
+    "nr-data.net",
+    "wt-eu02.net"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "site": "https://www.poste.it",
+  "reject": "button: 'Non accetto' in main",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Accetto",
+    "Non accetto",
+    "Apri la barra di assistenza",
+    "Business",
+    "Assistenza",
+    "Menu",
+    "Precedente",
+    "Successiva",
+    "Metti in pausa il carosello",
+    "Vai alla slide 1 - Conto BancoPosta",
+    "Vai alla slide 2 - Buono Premium",
+    "Vai alla slide 3 - Poste Formula Bonus",
+    "Vai alla slide 4 - Postepay Everyday",
+    "Vai alla slide 1",
+    "Vai alla slide 2"
+  ],
+  "cookies_pre": [
+    {
+      "name": "_cs_mk_aa",
+      "domain": ".poste.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "TAsessionID",
+      "domain": ".poste.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "notice_behavior",
+      "domain": ".poste.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_fid",
+      "domain": ".poste.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_cc",
+      "domain": ".poste.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_vi_oplkzx7Eoo1pizmx7Ess1oplkz1vkx7Esvx7Eqz",
+      "domain": ".omtrdc.net",
+      "category": "Analytics"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "_cs_mk_aa",
+      "domain": ".poste.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "TAsessionID",
+      "domain": ".poste.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_fid",
+      "domain": ".poste.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_cc",
+      "domain": ".poste.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "Launch_plugin",
+      "domain": ".poste.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "notice_preferences",
+      "domain": ".poste.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "notice_gdpr_prefs",
+      "domain": ".poste.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cmapi_gtm_bl",
+      "domain": ".poste.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cmapi_cookie_privacy",
+      "domain": ".poste.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "notice_behavior",
+      "domain": ".poste.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_sq",
+      "domain": ".poste.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_vi_oplkzx7Eoo1pizmx7Ess1oplkz1vkx7Esvx7Eqz",
+      "domain": ".omtrdc.net",
+      "category": "Analytics"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "s_sq",
+      "domain": ".poste.it",
+      "category": "Analytics"
+    }
+  ],
+  "third_party_pre": [
+    "adobedtm.com",
+    "demdex.net",
+    "omtrdc.net",
+    "trustarc.com"
+  ],
+  "third_party_post": [
+    "adobedtm.com",
+    "demdex.net",
+    "omtrdc.net",
+    "trustarc.com"
+  ]
+}

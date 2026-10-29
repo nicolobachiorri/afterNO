@@ -1,0 +1,359 @@
+{
+  "site": "https://www.gazzetta.it",
+  "reject": "paywall label found",
+  "banner_type": "pay_or_accept",
+  "visible_buttons": [
+    "ACCETTA E CONTINUA",
+    "RIFIUTA E ABBONATI"
+  ],
+  "cookies_pre": [
+    {
+      "name": "apw_cache",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "TSstop",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "uuidv4",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__ABTgazzetta_ct",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__chkVLST",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__GDPRgazzetta_ct",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__CPgazzetta_ct",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pc_cpwall",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "PermutiveRandomInt",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "IpTech",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCVS_AA5673AE52E15B730A490D4C%40AdobeOrg",
+      "domain": ".gazzetta.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "s_fid",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_fid_old",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_ips",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_tp",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_ppv",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_fbsr",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_nr",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "gpv_page",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_cc",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "cacheid",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "g_state",
+      "domain": "www.gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "everest_g_v2",
+      "domain": ".everesttech.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "dpm",
+      "domain": ".dpm.demdex.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCV_AA5673AE52E15B730A490D4C%40AdobeOrg",
+      "domain": ".gazzetta.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "googleAdBlock",
+      "domain": "www.gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "googleAdBlock",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "3pc_test",
+      "domain": "static.anonm.io",
+      "category": "Unknown"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "apw_cache",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "TSstop",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "uuidv4",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__ABTgazzetta_ct",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__chkVLST",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__GDPRgazzetta_ct",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__CPgazzetta_ct",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pc_cpwall",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "PermutiveRandomInt",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "IpTech",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCVS_AA5673AE52E15B730A490D4C%40AdobeOrg",
+      "domain": ".gazzetta.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "s_fid",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_fid_old",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_ips",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_tp",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_ppv",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_fbsr",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_nr",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "gpv_page",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_cc",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "cacheid",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "g_state",
+      "domain": "www.gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "everest_g_v2",
+      "domain": ".everesttech.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "dpm",
+      "domain": ".dpm.demdex.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCV_AA5673AE52E15B730A490D4C%40AdobeOrg",
+      "domain": ".gazzetta.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".gazzetta.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "googleAdBlock",
+      "domain": "www.gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "googleAdBlock",
+      "domain": ".gazzetta.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "3pc_test",
+      "domain": "static.anonm.io",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "anonm.io",
+    "anonymised.io",
+    "cdn-apple.com",
+    "chartbeat.com",
+    "demdex.net",
+    "doubleclick.net",
+    "everesttech.net",
+    "facebook.net",
+    "gazzettaobjects.it",
+    "google.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "ipify.org",
+    "permutive.app",
+    "rcsmetrics.it",
+    "rcsobjects.it",
+    "tncid.app",
+    "tradedoubler.com",
+    "unidadeditorial.es"
+  ],
+  "third_party_post": []
+}

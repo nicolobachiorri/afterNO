@@ -1,0 +1,128 @@
+{
+  "site": "https://www.tgcom24.mediaset.it",
+  "reject": "button: 'CONTINUA SENZA ACCETTARE' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Guerra Iran",
+    "Elezioni USA Midterm",
+    "Elezioni",
+    "Crans Montana",
+    "Famiglia nel bosco",
+    "Garlasco",
+    "Emergenza Clima",
+    "Tutti i dossier",
+    "Tutte le notizie del giorno",
+    "Cronaca",
+    "Mondo",
+    "Politica",
+    "Economia",
+    "Sport",
+    "Meteo"
+  ],
+  "cookies_pre": [
+    {
+      "name": "gig_canary",
+      "domain": "cdns.gigya.com",
+      "category": "Functional"
+    },
+    {
+      "name": "gmid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ucid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "gig_bootstrap_3_Q2YR3-An4K_pslqTk0mxn7NXhotIqAGEa4K9oWWuhB8terc3cQk5GVAX3AIeVTlt",
+      "domain": ".mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "gig_canary",
+      "domain": "cdns.gigya.com",
+      "category": "Functional"
+    },
+    {
+      "name": "gmid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ucid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "gig_bootstrap_3_Q2YR3-An4K_pslqTk0mxn7NXhotIqAGEa4K9oWWuhB8terc3cQk5GVAX3AIeVTlt",
+      "domain": ".mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "wtstp_sid",
+      "domain": ".mediaset.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "wtstp_eid",
+      "domain": ".mediaset.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "userContext",
+      "domain": "www.tgcom24.mediaset.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "wtstp_rla",
+      "domain": ".mediaset.it",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "facebook.com",
+    "facebook.net",
+    "gigya.com",
+    "googleapis.com",
+    "googletagmanager.com",
+    "imrworldwide.com",
+    "iubenda.com",
+    "mediamond.it",
+    "mediaset.net"
+  ],
+  "third_party_post": [
+    "facebook.com",
+    "facebook.net",
+    "gigya.com",
+    "googletagmanager.com",
+    "imrworldwide.com",
+    "iubenda.com",
+    "mediamond.it",
+    "mediaset.net"
+  ]
+}

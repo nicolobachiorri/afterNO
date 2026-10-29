@@ -1,0 +1,261 @@
+{
+  "site": "https://www.ilsole24ore.com",
+  "reject": "button: 'Rifiuta e abbonati' in main",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Diretta",
+    "Come andremo in pensione dal 2027",
+    "Sezioni",
+    "Accedi",
+    "partner",
+    "Preferenze",
+    "Accetto",
+    "Rifiuta e abbonati"
+  ],
+  "cookies_pre": [
+    {
+      "name": "wtsid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "wteid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".ilsole24ore.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "nohupMeteo",
+      "domain": "www.ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".ilsole24ore.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "wt_cookiecontrol",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "utag_main",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "wt_rla",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".ilsole24ore.com",
+      "category": "Functional"
+    },
+    {
+      "name": "_OptanonConsentOld",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "SoleCookieAccept",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "JSESSIONID",
+      "domain": ".nr-data.net",
+      "category": "Functional"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "wtsid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "wteid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".ilsole24ore.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "nohupMeteo",
+      "domain": "www.ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".ilsole24ore.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "wt_cookiecontrol",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "_OptanonConsentOld",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "SoleCookieAccept",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "JSESSIONID",
+      "domain": ".nr-data.net",
+      "category": "Functional"
+    },
+    {
+      "name": "wt_rla",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "SoleUserAbb",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "vsf-store",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "vsf-locale",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "vsf-currency",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "utag_main",
+      "domain": ".ilsole24ore.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".ilsole24ore.com",
+      "category": "Functional"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "24o.it",
+    "cookielaw.org",
+    "doubleclick.net",
+    "ggpht.com",
+    "google.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "googlevideo.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "jsdelivr.net",
+    "mrf.io",
+    "newrelic.com",
+    "newsroom.bi",
+    "nr-data.net",
+    "onetrust.com",
+    "outbrain.com",
+    "outbrainimg.com",
+    "qiota.com",
+    "rubiconproject.com",
+    "scorecardresearch.com",
+    "tiqcdn.com",
+    "wt-eu02.net",
+    "youtube.com",
+    "ytimg.com"
+  ],
+  "third_party_post": [
+    "24o.it",
+    "cookielaw.org",
+    "googleoptimize.com",
+    "jsdelivr.net",
+    "onetrust.com",
+    "salesforce-scrt.com",
+    "scalapay.com",
+    "site.com",
+    "tailwindcss.com",
+    "tiqcdn.com",
+    "visualwebsiteoptimizer.com"
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "site": "https://www.fanpage.it",
+  "reject": "button: 'CONTINUA SENZA ACCETTARE' in main",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "CONTINUA SENZA ACCETTARE",
+    "ACCETTA",
+    "PERSONALIZZA LE OPZIONI"
+  ],
+  "cookies_pre": [
+    {
+      "name": "fp_npv",
+      "domain": ".fanpage.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga",
+      "domain": ".fanpage.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_pctx",
+      "domain": ".fanpage.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_pcid",
+      "domain": ".fanpage.it",
+      "category": "Functional"
+    },
+    {
+      "name": "cX_P",
+      "domain": ".fanpage.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "cX_G",
+      "domain": ".fanpage.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_pubcid",
+      "domain": ".fanpage.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pubcid_cst",
+      "domain": ".fanpage.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "gckp",
+      "domain": ".cxense.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "_ga_QE4WQDQJ7S",
+      "domain": ".fanpage.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "category": "Functional"
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".linkedin.com",
+      "category": "Functional"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "cee",
+      "domain": ".capig.stape.host",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga",
+      "domain": ".fanpage.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_pctx",
+      "domain": ".fanpage.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_pcid",
+      "domain": ".fanpage.it",
+      "category": "Functional"
+    },
+    {
+      "name": "cX_P",
+      "domain": ".fanpage.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "cX_G",
+      "domain": ".fanpage.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_pubcid",
+      "domain": ".fanpage.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "category": "Functional"
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".linkedin.com",
+      "category": "Functional"
+    },
+    {
+      "name": "_pubcid_cst",
+      "domain": ".fanpage.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__eoi",
+      "domain": ".fanpage.it",
+      "category": "Security"
+    },
+    {
+      "name": "_fbp",
+      "domain": ".fanpage.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "fp_lpsnu",
+      "domain": ".fanpage.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "devid",
+      "domain": ".fanpage.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "gckp",
+      "domain": ".cxense.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "fp_npv",
+      "domain": ".fanpage.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "_ga_QE4WQDQJ7S",
+      "domain": ".fanpage.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "bldid",
+      "domain": ".blendee.com",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "_fbp",
+      "domain": ".fanpage.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    }
+  ],
+  "third_party_pre": [
+    "a-mo.net",
+    "adnxs-simple.com",
+    "adsafeprotected.com",
+    "adsrvr.org",
+    "akamaized.net",
+    "casalemedia.com",
+    "ciaopeople.it",
+    "clickiocdn.com",
+    "cloudflareinsights.com",
+    "cloudfront.net",
+    "connectad.io",
+    "cxense.com",
+    "doubleclick.net",
+    "google-analytics.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "id5-sync.com",
+    "imrworldwide.com",
+    "indexww.com",
+    "jsdelivr.net",
+    "linkedin.com",
+    "missena.io",
+    "mobkoi.com",
+    "privacymanager.io",
+    "pubmatic.com",
+    "rubiconproject.com",
+    "seedtag.com",
+    "smartadserver.com",
+    "taboola.com",
+    "the-ozone-project.com",
+    "youmedia.it"
+  ],
+  "third_party_post": [
+    "a-mo.net",
+    "adnxs-simple.com",
+    "adsafeprotected.com",
+    "adsrvr.org",
+    "adtrafficquality.google",
+    "akamaized.net",
+    "blendee.com",
+    "brandmetrics.com",
+    "casalemedia.com",
+    "ciaopeople.it",
+    "clickiocdn.com",
+    "cloudflareinsights.com",
+    "cloudfront.net",
+    "connectad.io",
+    "creativecdn.com",
+    "criteo.com",
+    "criteo.net",
+    "crwdcntrl.net",
+    "cxense.com",
+    "doubleclick.net",
+    "facebook.com",
+    "facebook.net",
+    "google-analytics.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "id5-sync.com",
+    "imrworldwide.com",
+    "indexww.com",
+    "jsdelivr.net",
+    "linkedin.com",
+    "missena.io",
+    "mobkoi.com",
+    "neodatagroup.com",
+    "privacymanager.io",
+    "pubmatic.com",
+    "rubiconproject.com",
+    "scorecardresearch.com",
+    "seedtag.com",
+    "smartadserver.com",
+    "stape.host",
+    "taboola.com",
+    "the-ozone-project.com",
+    "youmedia.it"
+  ]
+}

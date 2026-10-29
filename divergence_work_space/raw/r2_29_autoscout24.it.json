@@ -1,0 +1,213 @@
+{
+  "site": "https://www.autoscout24.it",
+  "reject": "no reject button found",
+  "banner_type": "no_banner_detected",
+  "visible_buttons": [
+    "Ricerca",
+    "Vendi",
+    "Magazine & Informazioni",
+    "Login",
+    "Auto",
+    "Moto",
+    "Camper",
+    "Camion",
+    "Rimorchi",
+    "Marca e modello",
+    "Vendi a un rivenditore",
+    "Pubblica annuncio",
+    "Audi Q3 45 1.4 tfsi e Business Plus s-tronic \u20ac 26.",
+    "BMW X3 xDrive20d 48V \u20ac 28.9001 04/2022 78.600 km E",
+    "BMW 320 d xDrive Touring Msport Automatico \u20ac 27.90"
+  ],
+  "cookies_pre": [
+    {
+      "name": "culture",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "as24Visitor",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "disable-cmp",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "disable-cmp-ca",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_cq_duid",
+      "domain": ".autoscout24.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_cq_suid",
+      "domain": ".autoscout24.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_cq_session",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cg_uuid",
+      "domain": "obseu.seroundprince.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "_cq_s",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_cq_pxg",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "category": "Functional"
+    },
+    {
+      "name": "_fbp",
+      "domain": ".autoscout24.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_uetsid",
+      "domain": ".autoscout24.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_uetvid",
+      "domain": ".autoscout24.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "MUID",
+      "domain": ".bing.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "TDID",
+      "domain": ".adsrvr.org",
+      "category": "Marketing"
+    },
+    {
+      "name": "TDCPM",
+      "domain": ".adsrvr.org",
+      "category": "Marketing"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "culture",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "as24Visitor",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "disable-cmp",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "disable-cmp-ca",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_cq_duid",
+      "domain": ".autoscout24.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_cq_suid",
+      "domain": ".autoscout24.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_cq_session",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cg_uuid",
+      "domain": "obseu.seroundprince.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "_cq_s",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_cq_pxg",
+      "domain": ".autoscout24.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "category": "Functional"
+    },
+    {
+      "name": "_fbp",
+      "domain": ".autoscout24.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_uetsid",
+      "domain": ".autoscout24.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_uetvid",
+      "domain": ".autoscout24.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "MUID",
+      "domain": ".bing.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "TDID",
+      "domain": ".adsrvr.org",
+      "category": "Marketing"
+    },
+    {
+      "name": "TDCPM",
+      "domain": ".adsrvr.org",
+      "category": "Marketing"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "adsrvr.org",
+    "autoscout24.com",
+    "autoscout24.de",
+    "autoscout24.net",
+    "bing.com",
+    "clarity.ms",
+    "doubleclick.net",
+    "facebook.com",
+    "facebook.net",
+    "google.com",
+    "google.it",
+    "googleadservices.com",
+    "seroundprince.com"
+  ],
+  "third_party_post": []
+}

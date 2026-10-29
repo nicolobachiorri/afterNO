@@ -1,0 +1,120 @@
+{
+  "site": "https://www.ikea.com/it/it/",
+  "reject": "button: 'Rifiuta tutti' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "ITitaliano",
+    "Inserisci il codice postale",
+    "Seleziona il negozio",
+    "Prodotti",
+    "Ambienti",
+    "Offerte",
+    "Idee e progetti",
+    "Servizi",
+    "Metti in pausa il video",
+    "Visualizza trascrizione",
+    "Recensione: 4.7 fuori da 5 stelle. Totale recensio",
+    "Recensione: 4.9 fuori da 5 stelle. Totale recensio",
+    "Recensione: 4.5 fuori da 5 stelle. Totale recensio",
+    "Recensione: 3.7 fuori da 5 stelle. Totale recensio",
+    "Recensione: 4.6 fuori da 5 stelle. Totale recensio"
+  ],
+  "cookies_pre": [
+    {
+      "name": "guest",
+      "domain": ".ikea.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".ikea.com",
+      "category": "Functional"
+    },
+    {
+      "name": "ikexp_id",
+      "domain": ".ikea.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "ikea_geo",
+      "domain": ".ikea.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".www.ikea.com",
+      "category": "Functional"
+    },
+    {
+      "name": "ikea_cookieconsent_it",
+      "domain": ".ikea.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".accounts.ikea.com",
+      "category": "Functional"
+    },
+    {
+      "name": "IRMW_CART_COUNT_IT",
+      "domain": ".ikea.com",
+      "category": "Unknown"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "guest",
+      "domain": ".ikea.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".ikea.com",
+      "category": "Functional"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".ikea.com",
+      "category": "Functional"
+    },
+    {
+      "name": "ikexp_id",
+      "domain": ".ikea.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "ikea_geo",
+      "domain": ".ikea.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".www.ikea.com",
+      "category": "Functional"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".accounts.ikea.com",
+      "category": "Functional"
+    },
+    {
+      "name": "IRMW_CART_COUNT_IT",
+      "domain": ".ikea.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "ikea_cookieconsent_it",
+      "domain": ".ikea.com",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "cookielaw.org",
+    "ingka.com",
+    "onetrust.com"
+  ],
+  "third_party_post": [
+    "onetrust.com"
+  ]
+}

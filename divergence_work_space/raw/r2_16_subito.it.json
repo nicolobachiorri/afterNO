@@ -1,0 +1,146 @@
+{
+  "site": "https://www.subito.it",
+  "reject": "button: 'Continua senza accettare \u2192' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Continua senza accettare \u2192",
+    "Vedi i nostri 144 partner",
+    "Personalizza",
+    "Accetta",
+    "Motori",
+    "Market",
+    "Immobili",
+    "Lavoro",
+    "Pi\u00f9 filtri",
+    "Vedi 548.682 annunci",
+    "Auto",
+    "Moto e Scooter",
+    "Accessori Auto",
+    "Accessori Moto",
+    "Caravan e Camper"
+  ],
+  "cookies_pre": [
+    {
+      "name": "kppid",
+      "domain": ".subito.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "akacd_orodha",
+      "domain": "www.subito.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "didomi_dcs",
+      "domain": ".subito.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cis-jwe",
+      "domain": ".subito.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pulse2data",
+      "domain": ".subito.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga_D72SGH4DYJ",
+      "domain": ".subito.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga",
+      "domain": ".subito.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPID",
+      "domain": ".subito.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPLC",
+      "domain": ".subito.it",
+      "category": "Analytics"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "kppid",
+      "domain": ".subito.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "akacd_orodha",
+      "domain": "www.subito.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cis-jwe",
+      "domain": ".subito.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pulse2data",
+      "domain": ".subito.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga_D72SGH4DYJ",
+      "domain": ".subito.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga",
+      "domain": ".subito.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPID",
+      "domain": ".subito.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPLC",
+      "domain": ".subito.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "didomi_dcs",
+      "domain": ".subito.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".subito.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__eoi",
+      "domain": ".subito.it",
+      "category": "Security"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "appsflyersdk.com",
+    "doubleclick.net",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "jsdelivr.net",
+    "privacy-center.org",
+    "sbito.it"
+  ],
+  "third_party_post": [
+    "adtrafficquality.google",
+    "appsflyersdk.com",
+    "doubleclick.net",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "jsdelivr.net",
+    "privacy-center.org",
+    "sbito.it"
+  ]
+}

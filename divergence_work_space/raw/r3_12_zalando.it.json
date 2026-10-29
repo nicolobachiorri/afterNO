@@ -1,0 +1,149 @@
+{
+  "site": "https://www.zalando.it",
+  "reject": "no reject button found",
+  "banner_type": "accept_only",
+  "visible_buttons": [
+    "Opzioni di contenuto",
+    "Iscrivimi",
+    "Impostazioni dati",
+    "Imposta preferenze",
+    "Solo gli essenziali",
+    "Accetta tutti"
+  ],
+  "cookies_pre": [
+    {
+      "name": "frsx",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "zcid",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "Zalando-Client-Id",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "mpulseinject",
+      "domain": ".www.zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_so",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "language-preference",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".www.zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".zalando.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_abck",
+      "domain": ".zalando.it",
+      "category": "Functional"
+    },
+    {
+      "name": "bm_s",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ztci",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "frsx",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "zcid",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "Zalando-Client-Id",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "mpulseinject",
+      "domain": ".www.zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_so",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "language-preference",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".www.zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".zalando.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_abck",
+      "domain": ".zalando.it",
+      "category": "Functional"
+    },
+    {
+      "name": "bm_s",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ztci",
+      "domain": ".zalando.it",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "google-analytics.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "sentry-cdn.com",
+    "usercentrics.eu",
+    "ztat.net"
+  ],
+  "third_party_post": [
+    "google-analytics.com"
+  ]
+}

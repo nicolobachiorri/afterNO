@@ -1,0 +1,282 @@
+{
+  "site": "https://www.ebay.it",
+  "reject": "button: 'Rifiuta tutto' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Accetta tutto",
+    "Rifiuta tutto"
+  ],
+  "cookies_pre": [
+    {
+      "name": "s",
+      "domain": ".ebay.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ds2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzma",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmb",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzme",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_so",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__ssds",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__ssuzjsr2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmaj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmbj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmcj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmdj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmlj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmfj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmc",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmd",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmf",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".www.ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_s",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ds2",
+      "domain": ".ebay.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".ebay.it",
+      "category": "Functional"
+    },
+    {
+      "name": "ebay",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "dp1",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "nonsession",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "s",
+      "domain": ".ebay.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "__uzma",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmb",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzme",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_so",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__ssds",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__ssuzjsr2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmaj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmbj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmlj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".www.ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ds2",
+      "domain": ".ebay.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".ebay.it",
+      "category": "Functional"
+    },
+    {
+      "name": "ds2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmc",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmd",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmf",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_s",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmcj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmdj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__uzmfj2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ds2",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".ebay.it",
+      "category": "Functional"
+    },
+    {
+      "name": "ebay",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "dp1",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "nonsession",
+      "domain": ".ebay.it",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "ebay.com",
+    "ebayimg.com",
+    "ebaystatic.com",
+    "gstatic.com",
+    "perfdrive.com",
+    "shoplive.cloud",
+    "unpkg.com"
+  ],
+  "third_party_post": [
+    "ebay.com",
+    "ebayimg.com",
+    "ebaystatic.com",
+    "gstatic.com",
+    "perfdrive.com",
+    "shoplive.cloud",
+    "unpkg.com"
+  ]
+}

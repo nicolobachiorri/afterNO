@@ -1,0 +1,208 @@
+{
+  "site": "https://www.unieuro.it",
+  "reject": "button: 'Consenti solo i cookie tecnici' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "vai al contenuto principale",
+    "Configura i Cookie",
+    "Consenti solo i cookie tecnici",
+    "Accetta tutti i cookie"
+  ],
+  "cookies_pre": [
+    {
+      "name": "dtCookiejxdl3r8w",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "TS01dc4fc6",
+      "domain": "www.unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "TS01b644a3",
+      "domain": ".unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "OClmoOot",
+      "domain": "www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".feefo.com",
+      "category": "Functional"
+    },
+    {
+      "name": "citrusId",
+      "domain": ".www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "YWNjZXNzX3Rva2Vu",
+      "domain": ".www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "expires_in",
+      "domain": ".www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "preLoginVisitedUrl",
+      "domain": ".www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga_JVK52D6MBH",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "cart_guid",
+      "domain": ".www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FPID",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPLC",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga_9ME2EJF5E6",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "dtCookiejxdl3r8w",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "TS01dc4fc6",
+      "domain": "www.unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "TS01b644a3",
+      "domain": ".unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".feefo.com",
+      "category": "Functional"
+    },
+    {
+      "name": "citrusId",
+      "domain": ".www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "YWNjZXNzX3Rva2Vu",
+      "domain": ".www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "expires_in",
+      "domain": ".www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "preLoginVisitedUrl",
+      "domain": ".www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "cart_guid",
+      "domain": ".www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FPID",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FPLC",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "OClmoOot",
+      "domain": "www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_ga_JVK52D6MBH",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga_9ME2EJF5E6",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "abtasty.com",
+    "cdn-apple.com",
+    "contentstack.com",
+    "cookielaw.org",
+    "facebook.net",
+    "feefo.com",
+    "google-analytics.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "onetrust.com",
+    "unpkg.com"
+  ],
+  "third_party_post": [
+    "abtasty.com",
+    "cdn-apple.com",
+    "contentstack.com",
+    "cookielaw.org",
+    "facebook.net",
+    "feefo.com",
+    "google-analytics.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "unpkg.com"
+  ]
+}

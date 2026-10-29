@@ -1,0 +1,193 @@
+{
+  "site": "https://www.ansa.it",
+  "reject": "paywall label found",
+  "banner_type": "pay_or_accept",
+  "visible_buttons": [
+    "Siti Internazionali",
+    "Menu",
+    "Sezioni",
+    "Canali",
+    "Regioni",
+    "Economia",
+    "Mondo",
+    "Cultura",
+    "Sport",
+    "Native ADV",
+    "Torna su",
+    "RIFIUTA E ABBONATI",
+    "Leggi tutto",
+    "PREFERENZE COOKIES",
+    "ACCETTA E CONTINUA"
+  ],
+  "cookies_pre": [
+    {
+      "name": "ptechsdepth",
+      "domain": ".ansa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "pt1-ppid-v2",
+      "domain": ".ansa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".piano.io",
+      "category": "Functional"
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "_pprv",
+      "domain": ".ansa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_pctx",
+      "domain": ".ansa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__pid",
+      "domain": ".ansa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__tbc",
+      "domain": ".ansa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "xbc",
+      "domain": ".ansa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_TA_TRACKING",
+      "domain": "confcommercioroma-cdn.thron.com",
+      "category": "Unknown"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "ptechsdepth",
+      "domain": ".ansa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "pt1-ppid-v2",
+      "domain": ".ansa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".piano.io",
+      "category": "Functional"
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "_pprv",
+      "domain": ".ansa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_pctx",
+      "domain": ".ansa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__pid",
+      "domain": ".ansa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__tbc",
+      "domain": ".ansa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "xbc",
+      "domain": ".ansa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_TA_TRACKING",
+      "domain": "confcommercioroma-cdn.thron.com",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "adplay.it",
+    "confcommercio.it",
+    "confiant-integrations.net",
+    "doubleclick.net",
+    "google-analytics.com",
+    "google.com",
+    "googleapis.com",
+    "googletagmanager.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "iubenda.com",
+    "opta.net",
+    "pbstck.com",
+    "piano.io",
+    "pubtech.ai",
+    "scorecardresearch.com",
+    "talkscreativity.com",
+    "thron.com",
+    "youtube.com",
+    "ytimg.com"
+  ],
+  "third_party_post": [
+    "google-analytics.com",
+    "thron.com"
+  ]
+}

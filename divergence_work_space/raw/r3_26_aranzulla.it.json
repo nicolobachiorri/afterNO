@@ -1,0 +1,25 @@
+{
+  "site": "https://www.aranzulla.it",
+  "reject": "no reject button found",
+  "banner_type": "accept_only",
+  "visible_buttons": [
+    "\u00d7",
+    "cookie policy",
+    "terze parti",
+    "finalit\u00e0 pubblicitarie",
+    "Scopri di pi\u00f9 e personalizza",
+    "Accetta"
+  ],
+  "cookies_pre": [],
+  "cookies_post": [],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "confiant-integrations.net",
+    "doubleclick.net",
+    "google-analytics.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "iubenda.com"
+  ],
+  "third_party_post": []
+}

@@ -1,0 +1,144 @@
+{
+  "site": "https://www.mediaworld.it",
+  "reject": "button: 'Rifiuta tutti' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Il tuo negozio Nessun negozio selezionato",
+    "Tutte le categorie",
+    "Maggiori informazioni",
+    "Accetta",
+    "CATALOGO",
+    "COMPRARE ONLINE",
+    "MARKETPLACE",
+    "SERVIZI PER I CLIENTI E LE AZIENDE PER PRODOTTI VE",
+    "AZIENDA e LAVORA CON NOI",
+    "CAMPAGNE E INIZIATIVE PER PRODOTTI VENDUTI E SPEDI",
+    "RECESSO E GARANZIA",
+    "PRIVACY",
+    "Preferenze Cookie",
+    "Cookie tecnici",
+    "Cookie di funzionalit\u00e0"
+  ],
+  "cookies_pre": [
+    {
+      "name": "optid",
+      "domain": ".mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ts_id",
+      "domain": ".mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "mm_country_pref",
+      "domain": "www.mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "lux_uid",
+      "domain": "www.mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".mediaworld.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".mediaworld.it",
+      "category": "Functional"
+    },
+    {
+      "name": "t_fpd",
+      "domain": ".mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_msbps",
+      "domain": ".mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "r",
+      "domain": "www.mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "a",
+      "domain": "www.mediaworld.it",
+      "category": "Unknown"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "optid",
+      "domain": ".mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ts_id",
+      "domain": ".mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "mm_country_pref",
+      "domain": "www.mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "lux_uid",
+      "domain": "www.mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".mediaworld.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".mediaworld.it",
+      "category": "Functional"
+    },
+    {
+      "name": "t_fpd",
+      "domain": ".mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "r",
+      "domain": "www.mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "a",
+      "domain": "www.mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "pwaconsent",
+      "domain": ".mediaworld.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_msbps",
+      "domain": ".mediaworld.it",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "googletagmanager.com",
+    "mmsrg.com",
+    "mmst.eu",
+    "speedcurve.com"
+  ],
+  "third_party_post": [
+    "googletagmanager.com",
+    "mmsrg.com",
+    "mmst.eu",
+    "speedcurve.com"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "extName": {
+    "message": "Riepilogo cookie (dev)"
+  },
+  "extDescription": {
+    "message": "Mostra quali cookie usano un sito e i suoi tracker. Nulla esce dal tuo browser."
+  },
+  "loading": {
+    "message": "Lettura dei cookie…"
+  },
+  "openSite": {
+    "message": "Apri un sito web (http o https) e riprova."
+  },
+  "error": {
+    "message": "Errore: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "reloadToSee": {
+    "message": "Ricarica la pagina per vedere i tracker che contatta."
+  },
+  "noRecognising": {
+    "message": "Nessun sito terzo può riconoscerti da questa pagina."
+  },
+  "recognising_one": {
+    "message": "$COUNT$ sito terzo può riconoscerti da questa pagina",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "recognising_other": {
+    "message": "$COUNT$ siti terzi possono riconoscerti da questa pagina",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statMarketing": {
+    "message": "Marketing: $TOTAL$ ($SITE$ del sito, $TRACKERS$ dei tracker)",
+    "placeholders": {
+      "total": {
+        "content": "$1"
+      },
+      "site": {
+        "content": "$2"
+      },
+      "trackers": {
+        "content": "$3"
+      }
+    }
+  },
+  "statAnalytics": {
+    "message": "Statistica: $TOTAL$ ($SITE$ del sito, $TRACKERS$ dei tracker)",
+    "placeholders": {
+      "total": {
+        "content": "$1"
+      },
+      "site": {
+        "content": "$2"
+      },
+      "trackers": {
+        "content": "$3"
+      }
+    }
+  },
+  "statIdentifiers": {
+    "message": "Identificativi probabili dei tracker: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "headingTrackers": {
+    "message": "Cookie che i tracker possono leggere"
+  },
+  "headingSite": {
+    "message": "Cookie del sito"
+  },
+  "noRequestData": {
+    "message": "Nessun dato sulle richieste di questa pagina."
+  },
+  "none": {
+    "message": "Nessuno."
+  },
+  "footerNote": {
+    "message": "I cookie dei tracker sono quelli che il browser invia quando la pagina li contatta. Possono essere stati salvati visitando altri siti: è così che un tracker riconosce la stessa persona ovunque."
+  },
+  "group_Marketing": {
+    "message": "Marketing"
+  },
+  "group_Analytics": {
+    "message": "Statistica"
+  },
+  "group_Identifier": {
+    "message": "Identificativi probabili"
+  },
+  "group_Unknown": {
+    "message": "Non classificati"
+  },
+  "group_Personalization": {
+    "message": "Personalizzazione"
+  },
+  "group_Preferences": {
+    "message": "Preferenze"
+  },
+  "group_Functional": {
+    "message": "Funzionali"
+  },
+  "group_Necessary": {
+    "message": "Necessari"
+  },
+  "group_Security": {
+    "message": "Sicurezza"
+  },
+  "groupNote_Identifier": {
+    "message": "Sconosciuti al database, ma salvati sul dominio di un altro sito, inviati a qualsiasi sito che lo contatta (SameSite=None) e validi almeno $DAYS$ giorni: è la forma tipica di un identificativo che segue la persona tra siti. È un indizio, non una classificazione.",
+    "placeholders": {
+      "days": {
+        "content": "$1"
+      }
+    }
+  },
+  "expirySession": {
+    "message": "sessione"
+  },
+  "expiryUnderDay": {
+    "message": "meno di un giorno"
+  },
+  "expiryDays_one": {
+    "message": "$COUNT$ giorno",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiryDays_other": {
+    "message": "$COUNT$ giorni",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiryMonths_one": {
+    "message": "$COUNT$ mese",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiryMonths_other": {
+    "message": "$COUNT$ mesi",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

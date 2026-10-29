@@ -1,0 +1,70 @@
+{
+  "site": "https://www.unieuro.it",
+  "reject": "no reject button found",
+  "banner_type": "no_banner_detected",
+  "visible_buttons": [
+    "vai al contenuto principale"
+  ],
+  "cookies_pre": [
+    {
+      "name": "dtCookiejxdl3r8w",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "TS01dc4fc6",
+      "domain": "www.unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "TS01b644a3",
+      "domain": ".unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "OClmoOot",
+      "domain": "www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".feefo.com",
+      "category": "Functional"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "dtCookiejxdl3r8w",
+      "domain": ".unieuro.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "TS01dc4fc6",
+      "domain": "www.unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "TS01b644a3",
+      "domain": ".unieuro.it",
+      "category": "Functional"
+    },
+    {
+      "name": "OClmoOot",
+      "domain": "www.unieuro.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".feefo.com",
+      "category": "Functional"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "cdn-apple.com",
+    "contentstack.com",
+    "feefo.com",
+    "googleapis.com"
+  ],
+  "third_party_post": []
+}

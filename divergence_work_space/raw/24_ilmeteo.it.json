@@ -1,0 +1,362 @@
+{
+  "site": "https://www.ilmeteo.it",
+  "reject": "button: 'continua senza accettare' in main",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Accedi",
+    "Scopri di pi\u00f9",
+    "Elenco dei partner",
+    "accetta",
+    "continua senza accettare",
+    "personalizza"
+  ],
+  "cookies_pre": [
+    {
+      "name": "tracking_user_id",
+      "domain": ".ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "tracking_user_visits",
+      "domain": ".ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "___nrbic",
+      "domain": ".ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "compass_uid",
+      "domain": ".ilmeteo.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "pageDay",
+      "domain": "www.ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "OAGEO",
+      "domain": "fluid.4strokemedia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "OAID",
+      "domain": "fluid.4strokemedia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "2115_u",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "2115_s",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "2115_lv",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "2115_ut",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "___nrbi",
+      "domain": ".ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".ilmeteo.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_ga_WGKCLFMW2J",
+      "domain": ".ilmeteo.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga",
+      "domain": ".ilmeteo.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".ilmeteo.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".twitter.com",
+      "category": "Functional"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "tracking_user_id",
+      "domain": ".ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "compass_uid",
+      "domain": ".ilmeteo.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "OAGEO",
+      "domain": "fluid.4strokemedia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "OAID",
+      "domain": "fluid.4strokemedia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "2115_u",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "2115_s",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "2115_lv",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "2115_ut",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "___nrbi",
+      "domain": ".ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".ilmeteo.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_ga",
+      "domain": ".ilmeteo.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".twitter.com",
+      "category": "Functional"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".ilmeteo.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCVS_1A124673527853290A490D45%40AdobeOrg",
+      "domain": ".4strokemedia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "s_ecid",
+      "domain": ".sky.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCV_1A124673527853290A490D45%40AdobeOrg",
+      "domain": ".4strokemedia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "tracking_user_visits",
+      "domain": ".ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga_WGKCLFMW2J",
+      "domain": ".ilmeteo.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "___nrbic",
+      "domain": ".ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "pageDay",
+      "domain": "www.ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "DRUPALSESF",
+      "domain": "www.ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_cq_duid",
+      "domain": ".ilmeteo.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_cq_suid",
+      "domain": ".ilmeteo.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_cq_session",
+      "domain": ".ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cg_uuid",
+      "domain": "obs.brilliantchap.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "_cq_s",
+      "domain": ".ilmeteo.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "category": "Functional"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCVS_1A124673527853290A490D45%40AdobeOrg",
+      "domain": ".4strokemedia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "s_ecid",
+      "domain": ".sky.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCV_1A124673527853290A490D45%40AdobeOrg",
+      "domain": ".4strokemedia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "category": "Marketing"
+    }
+  ],
+  "third_party_pre": [
+    "2mdn.net",
+    "4strokemedia.com",
+    "amazon-adsystem.com",
+    "doubleclick.net",
+    "facebook.com",
+    "facebook.net",
+    "google.com",
+    "google.it",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "googleusercontent.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "mrf.io",
+    "newsroom.bi",
+    "outbrain.com",
+    "rubiconproject.com",
+    "scorecardresearch.com",
+    "sky.it",
+    "twitter.com",
+    "youtube.com"
+  ],
+  "third_party_post": [
+    "2mdn.net",
+    "4strokemedia.com",
+    "adform.net",
+    "adobedtm.com",
+    "amazon-adsystem.com",
+    "brilliantchap.com",
+    "demdex.net",
+    "doubleclick.net",
+    "facebook.com",
+    "facebook.net",
+    "google.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "jsdelivr.net",
+    "mrf.io",
+    "newsroom.bi",
+    "outbrain.com",
+    "outbrainimg.com",
+    "rubiconproject.com",
+    "scorecardresearch.com",
+    "sky.it",
+    "teads-xo.com",
+    "twitter.com",
+    "youtube.com"
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "site": "https://www.corriere.it",
+  "reject": "paywall label found",
+  "banner_type": "pay_or_accept",
+  "visible_buttons": [
+    "SALVA",
+    "Personalizza",
+    "Iscriviti"
+  ],
+  "cookies_pre": [
+    {
+      "name": "uuidv4",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "TSstop",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__ABTcorriere_ct",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__GDPRcorriere_ct",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__CPcorriere_ct",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "browserBloccoPub",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_t_tests",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "PermutiveRandomInt",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__chkVLST",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pc_cpwall",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCVS_AA5673AE52E15B730A490D4C%40AdobeOrg",
+      "domain": ".corriere.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "s_fid",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_fid_old",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_ips",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_ppv",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_fbsr",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_nr",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "gpv_page",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_cc",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".tinypass.com",
+      "category": "Functional"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "rcsMeteo",
+      "domain": "www.corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "everest_g_v2",
+      "domain": ".everesttech.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "dpm",
+      "domain": ".dpm.demdex.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCV_AA5673AE52E15B730A490D4C%40AdobeOrg",
+      "domain": ".corriere.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "googleAdBlock",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_tp",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_pctx",
+      "domain": ".corriere.it",
+      "category": "Functional"
+    },
+    {
+      "name": "FP_PRVT_USER",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FP_PRVT_USER_LSTLGN",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pcid",
+      "domain": ".corriere.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".piano.io",
+      "category": "Functional"
+    },
+    {
+      "name": "__tbc",
+      "domain": ".corriere.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__pat",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "__pvi",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "xbc",
+      "domain": ".corriere.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_pcus",
+      "domain": ".corriere.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_pc_dynamicscore",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pc_ltsscore",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pc_rcsad_abbonato",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cX_P",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "gckp",
+      "domain": ".cxense.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "cX_G",
+      "domain": ".corriere.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "pnespsdk_ssn",
+      "domain": "www.corriere.it",
+      "category": "Functional"
+    },
+    {
+      "name": "pnespsdk_visitor",
+      "domain": "www.corriere.it",
+      "category": "Analytics"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "uuidv4",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "TSstop",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__ABTcorriere_ct",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__GDPRcorriere_ct",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__CPcorriere_ct",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "browserBloccoPub",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_t_tests",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "PermutiveRandomInt",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__chkVLST",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pc_cpwall",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCVS_AA5673AE52E15B730A490D4C%40AdobeOrg",
+      "domain": ".corriere.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "s_fid",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_fid_old",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_ips",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_ppv",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "s_fbsr",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_nr",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "gpv_page",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_cc",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".tinypass.com",
+      "category": "Functional"
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "rcsMeteo",
+      "domain": "www.corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "everest_g_v2",
+      "domain": ".everesttech.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "dpm",
+      "domain": ".dpm.demdex.net",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCV_AA5673AE52E15B730A490D4C%40AdobeOrg",
+      "domain": ".corriere.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "googleAdBlock",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_tp",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_pctx",
+      "domain": ".corriere.it",
+      "category": "Functional"
+    },
+    {
+      "name": "FP_PRVT_USER",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FP_PRVT_USER_LSTLGN",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pcid",
+      "domain": ".corriere.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".piano.io",
+      "category": "Functional"
+    },
+    {
+      "name": "__tbc",
+      "domain": ".corriere.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__pat",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "__pvi",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "xbc",
+      "domain": ".corriere.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_pcus",
+      "domain": ".corriere.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_pc_dynamicscore",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pc_ltsscore",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_pc_rcsad_abbonato",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "cX_P",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "gckp",
+      "domain": ".cxense.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "cX_G",
+      "domain": ".corriere.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "pnespsdk_ssn",
+      "domain": "www.corriere.it",
+      "category": "Functional"
+    },
+    {
+      "name": "pnespsdk_visitor",
+      "domain": "www.corriere.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_cb",
+      "domain": ".corriere.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_chartbeat2",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "_chartbeat2",
+      "domain": ".corriere.it",
+      "category": "Analytics"
+    }
+  ],
+  "third_party_pre": [
+    "anonymised.io",
+    "appsflyer.com",
+    "chartbeat.com",
+    "cloudflare.com",
+    "cloudfront.net",
+    "corriereobjects.it",
+    "cxense.com",
+    "cxpublic.com",
+    "demdex.net",
+    "doubleclick.net",
+    "everesttech.net",
+    "google.com",
+    "googleapis.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "ipify.org",
+    "jsdelivr.net",
+    "mrf.io",
+    "newsroom.bi",
+    "permutive.app",
+    "piano.io",
+    "rcs.it",
+    "rcsmetrics.it",
+    "rcsobjects.it",
+    "tinypass.com"
+  ],
+  "third_party_post": [
+    "chartbeat.net",
+    "cloudflare.com",
+    "corriereobjects.it",
+    "googleapis.com",
+    "gstatic.com",
+    "piano.io",
+    "rcsmetrics.it",
+    "taboola.com",
+    "tinypass.com"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "site": "https://www.amazon.it",
+  "reject": "no reject button found",
+  "banner_type": "accept_only",
+  "visible_buttons": [
+    "Continua con gli acquisti"
+  ],
+  "cookies_pre": [
+    {
+      "name": "ak_bmsc",
+      "domain": ".amazon.it",
+      "category": "Functional"
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".amazon.it",
+      "category": "Functional"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "ak_bmsc",
+      "domain": ".amazon.it",
+      "category": "Functional"
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".amazon.it",
+      "category": "Functional"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "media-amazon.com",
+    "ssl-images-amazon.com"
+  ],
+  "third_party_post": []
+}

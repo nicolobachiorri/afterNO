@@ -1,0 +1,227 @@
+{
+  "site": "https://www.lastampa.it",
+  "reject": "text: 'Continua senza accettare' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "MENU",
+    "ACCEDI",
+    "CERCA",
+    "Continua senza accettare",
+    "cookie policy",
+    "terze parti",
+    "finalit\u00e0 pubblicitarie",
+    "Scegli e personalizza",
+    "Accetta"
+  ],
+  "cookies_pre": [
+    {
+      "name": "kw_wtu",
+      "domain": ".lastampa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_1pc_enableds",
+      "domain": ".lastampa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_sntseg",
+      "domain": ".lastampa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_inc",
+      "domain": ".lastampa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "gig_canary",
+      "domain": "cdns.eu1.gigya.com",
+      "category": "Functional"
+    },
+    {
+      "name": "gmid",
+      "domain": ".eulogin.lastampa.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ucid",
+      "domain": ".eulogin.lastampa.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".eulogin.lastampa.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "gig_bootstrap_4_2uHezT994jAHtT8Q6-3UEw",
+      "domain": ".lastampa.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_ga_LFL81Q76LQ",
+      "domain": ".lastampa.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga",
+      "domain": ".lastampa.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga_C8JFY7ZLC1",
+      "domain": ".lastampa.it",
+      "category": "Analytics"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "kw_wtu",
+      "domain": ".lastampa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_1pc_enableds",
+      "domain": ".lastampa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_sntseg",
+      "domain": ".lastampa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_inc",
+      "domain": ".lastampa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "gig_canary",
+      "domain": "cdns.eu1.gigya.com",
+      "category": "Functional"
+    },
+    {
+      "name": "gmid",
+      "domain": ".eulogin.lastampa.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ucid",
+      "domain": ".eulogin.lastampa.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".eulogin.lastampa.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "gig_bootstrap_4_2uHezT994jAHtT8Q6-3UEw",
+      "domain": ".lastampa.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "_ga",
+      "domain": ".lastampa.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "bldid",
+      "domain": ".blendee.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "cP",
+      "domain": "www.lastampa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".lastampa.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga_LFL81Q76LQ",
+      "domain": ".lastampa.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_iub_cs-83234397",
+      "domain": ".lastampa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".lastampa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_iub_cs-83234397-granular",
+      "domain": ".lastampa.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".lastampa.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga_C8JFY7ZLC1",
+      "domain": ".lastampa.it",
+      "category": "Analytics"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "FCCDCF",
+      "domain": ".lastampa.it",
+      "category": "Analytics"
+    }
+  ],
+  "third_party_pre": [
+    "doubleclick.net",
+    "facebook.com",
+    "facebook.net",
+    "gedi.it",
+    "gedidigital.it",
+    "gedistatic.it",
+    "gigya.com",
+    "google-analytics.com",
+    "google.com",
+    "google.it",
+    "googletagmanager.com",
+    "imrworldwide.com",
+    "iubenda.com",
+    "kataweb.it",
+    "lastampastatic.it",
+    "mrf.io",
+    "newsroom.bi",
+    "repstatic.it",
+    "vaticannews.va",
+    "ytimg.com"
+  ],
+  "third_party_post": [
+    "blendee.com",
+    "doubleclick.net",
+    "facebook.com",
+    "facebook.net",
+    "gedi.it",
+    "gedidigital.it",
+    "gedistatic.it",
+    "gigya.com",
+    "google-analytics.com",
+    "google.com",
+    "googletagmanager.com",
+    "imrworldwide.com",
+    "iubenda.com",
+    "kataweb.it",
+    "lastampastatic.it",
+    "mrf.io",
+    "neodatagroup.com",
+    "newsroom.bi",
+    "repstatic.it",
+    "vaticannews.va",
+    "ytimg.com"
+  ]
+}

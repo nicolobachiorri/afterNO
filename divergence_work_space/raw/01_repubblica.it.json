@@ -1,0 +1,268 @@
+{
+  "site": "https://www.repubblica.it",
+  "reject": "button: 'RIFIUTA E ABBONATI' in main",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Menu",
+    "Ricerca",
+    "pannello delle preferenze pubblicitarie",
+    "RIFIUTA E ABBONATI",
+    "ACCETTA",
+    "terze parti"
+  ],
+  "cookies_pre": [
+    {
+      "name": "kw_wtu",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_1pc_enableds",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_sntseg",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_inc",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "___nrbic",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "___nrbi",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "compass_uid",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "gig_canary",
+      "domain": "cdns.eu1.gigya.com",
+      "category": "Functional"
+    },
+    {
+      "name": "6517_u",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "6517_s",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "6517_lv",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "6517_ut",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga_CJNJE8FY4S",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_ga",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "gmid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ucid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "gig_bootstrap_3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ",
+      "domain": ".repubblica.it",
+      "category": "Marketing"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "kw_wtu",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_1pc_enableds",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_sntseg",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "kw_inc",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "compass_uid",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "gig_canary",
+      "domain": "cdns.eu1.gigya.com",
+      "category": "Functional"
+    },
+    {
+      "name": "6517_s",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "6517_lv",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "6517_ut",
+      "domain": ".newsroom.bi",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "gmid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ucid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".eulogin.repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "gig_bootstrap_3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ",
+      "domain": ".repubblica.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".onesignal.com",
+      "category": "Functional"
+    },
+    {
+      "name": "bldid",
+      "domain": ".blendee.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "cP",
+      "domain": "www.repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "_iub_cs-23960187",
+      "domain": ".repubblica.it",
+      "category": "Functional"
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".repubblica.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_iub_cs-23960187-granular",
+      "domain": ".repubblica.it",
+      "category": "Functional"
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".repubblica.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "_ga_CJNJE8FY4S",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "FCCDCF",
+      "domain": ".repubblica.it",
+      "category": "Analytics"
+    }
+  ],
+  "third_party_pre": [
+    "doubleclick.net",
+    "facebook.com",
+    "facebook.net",
+    "gedi.it",
+    "gedidigital.it",
+    "gedistatic.it",
+    "gigya.com",
+    "google-analytics.com",
+    "google.com",
+    "googletagmanager.com",
+    "imrworldwide.com",
+    "iubenda.com",
+    "kataweb.it",
+    "mrf.io",
+    "newsroom.bi",
+    "repstatic.it"
+  ],
+  "third_party_post": [
+    "blendee.com",
+    "doubleclick.net",
+    "facebook.com",
+    "facebook.net",
+    "gedi.it",
+    "gedidigital.it",
+    "gedistatic.it",
+    "gigya.com",
+    "google-analytics.com",
+    "google.com",
+    "googletagmanager.com",
+    "imrworldwide.com",
+    "iubenda.com",
+    "kataweb.it",
+    "mrf.io",
+    "neodatagroup.com",
+    "newsroom.bi",
+    "onesignal.com",
+    "repstatic.it"
+  ]
+}

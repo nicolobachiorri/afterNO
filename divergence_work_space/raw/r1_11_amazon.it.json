@@ -1,0 +1,116 @@
+{
+  "site": "https://www.amazon.it",
+  "reject": "button: '' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Mostra/nascondi scorciatoie maiusc + opz + Z",
+    "In consegna a Resana 31023 Aggiorna posizione",
+    "Tutte",
+    "Pausa",
+    "Audio",
+    "Torna su",
+    "Italia"
+  ],
+  "cookies_pre": [
+    {
+      "name": "aws-waf-token",
+      "domain": ".www.amazon.it",
+      "category": "Functional"
+    },
+    {
+      "name": "session-id",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "session-id-time",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "sst-acbit",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "i18n-prefs",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "lc-acbit",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "csm-hit",
+      "domain": "www.amazon.it",
+      "category": "Unknown"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "aws-waf-token",
+      "domain": ".www.amazon.it",
+      "category": "Functional"
+    },
+    {
+      "name": "session-id",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "session-id-time",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "sst-acbit",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "i18n-prefs",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "lc-acbit",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ubid-acbit",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "session-token",
+      "domain": ".amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "csm-hit",
+      "domain": "www.amazon.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "rxc",
+      "domain": "www.amazon.it",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "awswaf.com",
+    "media-amazon.com"
+  ],
+  "third_party_post": [
+    "a2z.com",
+    "amazon-adsystem.com",
+    "amazon.com",
+    "cloudfront.net",
+    "media-amazon.com",
+    "ssl-images-amazon.com"
+  ]
+}

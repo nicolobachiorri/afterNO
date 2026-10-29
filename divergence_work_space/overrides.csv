@@ -1,0 +1,5 @@
+name,match,category,source
+_pubcid,exact,Marketing,Prebid SharedID (PubCommon ID): shared advertising identifier
+cto_bundle,exact,Marketing,Criteo: retargeting identifier
+FCCDCF,exact,Functional,Google Funding Choices: stores the visitor's consent choice (database lists it as Analytics; its own description says consent storage)
+FCNEC,exact,Functional,Google Funding Choices: consent-related (database lists it as Analytics; its own description says consent storage)

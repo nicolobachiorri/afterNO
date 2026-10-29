@@ -1,0 +1,17 @@
+# What git must NOT track in this project.
+# A line is a pattern; a folder pattern also excludes everything inside it.
+
+# Python virtual environments: rebuilt from requirements.txt, never shared
+.venv/
+
+# Screenshots of the divergence test: large, regenerable. The JSON files in raw/ stay,
+# because they are the raw data behind the step 1 results.
+divergence_work_space/raw/*.png
+
+# Temporary and personal files
+_to_delete/
+__pycache__/
+.DS_Store
+*.pdf
+
+# extension/ has its own .gitignore (node_modules, .output, .wxt), which git applies too

@@ -1,0 +1,89 @@
+{
+  "site": "https://www.libero.it",
+  "reject": "button: 'Continua senza accettare' in main",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "terze parti",
+    "cookie policy",
+    "finalit\u00e0 pubblicitarie",
+    "Preferenze sui cookie",
+    "Continua senza accettare",
+    "Personalizza",
+    "Accetta e Chiudi"
+  ],
+  "cookies_pre": [
+    {
+      "name": "wteid_215973748390194",
+      "domain": "italiaonline01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "wtsid_215973748390194",
+      "domain": "italiaonline01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "iolcmp-exp",
+      "domain": ".libero.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "evntuid",
+      "domain": ".evnt.iol.it",
+      "category": "Unknown"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "wteid_215973748390194",
+      "domain": "italiaonline01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "wtsid_215973748390194",
+      "domain": "italiaonline01.wt-eu02.net",
+      "category": "Unknown"
+    },
+    {
+      "name": "iolcmp-exp",
+      "domain": ".libero.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "evntuid",
+      "domain": ".evnt.iol.it",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "amazon-adsystem.com",
+    "doubleclick.net",
+    "google.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "iol.it",
+    "iolam.it",
+    "iubenda.com",
+    "permutive.app",
+    "permutive.com",
+    "plug.it",
+    "qwtag.com",
+    "wt-eu02.net"
+  ],
+  "third_party_post": [
+    "amazon-adsystem.com",
+    "doubleclick.net",
+    "google.com",
+    "gstatic.com",
+    "imrworldwide.com",
+    "iol.it",
+    "iolam.it",
+    "iubenda.com",
+    "permutive.app",
+    "permutive.com",
+    "plug.it",
+    "qwtag.com",
+    "wt-eu02.net"
+  ]
+}

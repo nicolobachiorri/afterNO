@@ -1,0 +1,172 @@
+{
+  "site": "https://www.trenitalia.com",
+  "reject": "button: 'Rifiuta tutti' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Vai al contenuto principale",
+    "Siti del Gruppo",
+    "Supporto",
+    "ITA",
+    "Seleziona orario 12:00",
+    "1 Adulto",
+    "Soluzioni Principali",
+    "Aggiungi buono sconto",
+    "CERCA",
+    "Accetta",
+    "Rifiuta tutti",
+    "Gestisci preferenza"
+  ],
+  "cookies_pre": [
+    {
+      "name": "ak_bmsc",
+      "domain": ".trenitalia.com",
+      "category": "Functional"
+    },
+    {
+      "name": "AMCVS_0D5215F354E6C24C0A4C98A4%40AdobeOrg",
+      "domain": ".trenitalia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCV_0D5215F354E6C24C0A4C98A4%40AdobeOrg",
+      "domain": ".trenitalia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "s_nr",
+      "domain": ".trenitalia.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "gds",
+      "domain": ".trenitalia.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "gds_s",
+      "domain": ".trenitalia.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_ppn",
+      "domain": ".trenitalia.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_vs",
+      "domain": "www.trenitalia.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_cc",
+      "domain": ".trenitalia.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".www.trenitalia.com",
+      "category": "Functional"
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".trenitalia.com",
+      "category": "Functional"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "ak_bmsc",
+      "domain": ".trenitalia.com",
+      "category": "Functional"
+    },
+    {
+      "name": "AMCVS_0D5215F354E6C24C0A4C98A4%40AdobeOrg",
+      "domain": ".trenitalia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "AMCV_0D5215F354E6C24C0A4C98A4%40AdobeOrg",
+      "domain": ".trenitalia.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "gds_s",
+      "domain": ".trenitalia.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_ppn",
+      "domain": ".trenitalia.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_vs",
+      "domain": "www.trenitalia.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_cc",
+      "domain": ".trenitalia.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".www.trenitalia.com",
+      "category": "Functional"
+    },
+    {
+      "name": "eupubconsent-v2",
+      "domain": ".www.trenitalia.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "s_sq",
+      "domain": ".trenitalia.com",
+      "category": "Analytics"
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".trenitalia.com",
+      "category": "Functional"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".www.trenitalia.com",
+      "category": "Functional"
+    },
+    {
+      "name": "s_nr",
+      "domain": ".trenitalia.com",
+      "category": "Unknown"
+    },
+    {
+      "name": "gds",
+      "domain": ".trenitalia.com",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "s_sq",
+      "domain": ".trenitalia.com",
+      "category": "Analytics"
+    }
+  ],
+  "third_party_pre": [
+    "adobedtm.com",
+    "cookielaw.org",
+    "demdex.net",
+    "hlx.page",
+    "omtrdc.net",
+    "onetrust.com",
+    "raffle.ai"
+  ],
+  "third_party_post": [
+    "adobedtm.com",
+    "cookielaw.org",
+    "hlx.page",
+    "omtrdc.net",
+    "onetrust.com",
+    "raffle.ai"
+  ]
+}

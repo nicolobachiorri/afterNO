@@ -1,0 +1,260 @@
+{
+  "site": "https://www.immobiliare.it",
+  "reject": "button: 'Continua senza accettare \u2192' in main (normal click)",
+  "banner_type": "reject_found",
+  "visible_buttons": [
+    "Continua senza accettare \u2192",
+    "Vedi i nostri 22 partner",
+    "PI\u00d9 INFORMAZIONI",
+    "ACCETTA",
+    "Italia | Italiano",
+    "Italia",
+    "Italiano",
+    "PUBBLICA",
+    "Accedi",
+    "Case - Appartamenti",
+    "N.1 Immobiliare.it \u00e8 il N.1 in Italia",
+    "Ricerca AI",
+    "Case in vendita a Roma RomaResidenziale",
+    "Case in vendita a Milano MilanoResidenziale",
+    "Case in vendita a Torino TorinoResidenziale"
+  ],
+  "cookies_pre": [
+    {
+      "name": "ab.storage.deviceId.fe67ee0d-3b20-47d7-95bc-dbbe2778b467",
+      "domain": ".immobiliare.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "ab.storage.sessionId.fe67ee0d-3b20-47d7-95bc-dbbe2778b467",
+      "domain": ".immobiliare.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".immobiliare.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__rtbh.ssgtm.aid",
+      "domain": ".immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__rtbh.aid",
+      "domain": "www.immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__rtbh.lid",
+      "domain": "www.immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "uid",
+      "domain": ".criteo.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "cto_bundle",
+      "domain": ".criteo.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "crto_is_user_optout",
+      "domain": ".immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "crto_mapped_user_id",
+      "domain": ".immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ajs_anonymous_id",
+      "domain": ".immobiliare.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "g",
+      "domain": ".creativecdn.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "c",
+      "domain": ".creativecdn.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "ts",
+      "domain": ".creativecdn.com",
+      "category": "Functional"
+    },
+    {
+      "name": "g_state",
+      "domain": "www.immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "XANDR_PANID",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "uuid2",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "datadome",
+      "domain": ".immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "anj",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "ab.storage.deviceId.fe67ee0d-3b20-47d7-95bc-dbbe2778b467",
+      "domain": ".immobiliare.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "__rtbh.ssgtm.aid",
+      "domain": ".immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "uid",
+      "domain": ".criteo.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "cto_bundle",
+      "domain": ".criteo.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "crto_is_user_optout",
+      "domain": ".immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "crto_mapped_user_id",
+      "domain": ".immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "ajs_anonymous_id",
+      "domain": ".immobiliare.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "g",
+      "domain": ".creativecdn.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "c",
+      "domain": ".creativecdn.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "ts",
+      "domain": ".creativecdn.com",
+      "category": "Functional"
+    },
+    {
+      "name": "XANDR_PANID",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "uuid2",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "anj",
+      "domain": ".adnxs.com",
+      "category": "Marketing"
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".immobiliare.it",
+      "category": "Functional"
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".immobiliare.it",
+      "category": "Functional"
+    },
+    {
+      "name": "ab.storage.sessionId.fe67ee0d-3b20-47d7-95bc-dbbe2778b467",
+      "domain": ".immobiliare.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "g_state",
+      "domain": "www.immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__rtbh.aid",
+      "domain": "www.immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "__rtbh.lid",
+      "domain": "www.immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "datadome",
+      "domain": ".immobiliare.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "IDE",
+      "domain": ".doubleclick.net",
+      "category": "Marketing"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "IDE",
+      "domain": ".doubleclick.net",
+      "category": "Marketing"
+    }
+  ],
+  "third_party_pre": [
+    "adnxs.com",
+    "braze.eu",
+    "creativecdn.com",
+    "criteo.com",
+    "datadome.co",
+    "debugbear.com",
+    "google.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "im-cdn.it",
+    "privacy-center.org",
+    "segment.com"
+  ],
+  "third_party_post": [
+    "braze.eu",
+    "creativecdn.com",
+    "datadome.co",
+    "debugbear.com",
+    "doubleclick.net",
+    "google.com",
+    "googlesyndication.com",
+    "googletagmanager.com",
+    "im-cdn.it",
+    "privacy-center.org",
+    "segment.com"
+  ]
+}

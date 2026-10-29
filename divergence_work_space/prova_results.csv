@@ -1,0 +1,2 @@
+site,banner_type,banner_wait_s,new_tracking_after_reject,post_analytics,post_functional,post_marketing,post_preferences,post_security,post_unknown,pre_analytics,pre_functional,pre_marketing,pre_preferences,pre_security,pre_unknown,reject_clicked,reject_how,seconds,tcf,third_party_post,third_party_pre,visible_buttons
+https://www.ilpost.it,reject_found,0.3,8,8,0,1,0,1,12,0,0,1,0,1,6,True,button: 'Continua senza accettare' in main,34.2,True,15,26,46 min | Opzioni cookie | Continua senza accettare | Accetta e chiudi

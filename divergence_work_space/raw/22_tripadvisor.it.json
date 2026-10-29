@@ -1,0 +1,166 @@
+{
+  "site": "https://www.tripadvisor.it",
+  "reject": "no reject button found",
+  "banner_type": "accept_only",
+  "visible_buttons": [
+    "Vai al contenuto principale",
+    "Scopri",
+    "Recensioni",
+    "Altro",
+    "EUR",
+    "Ricerca",
+    "Prenota ora",
+    "Consenti i cookie",
+    "Scopri di pi\u00f9",
+    "\u20ac EUR",
+    "Italia",
+    "Elenco dei partner (fornitori)",
+    "Accetto",
+    "Mostra finalit\u00e0"
+  ],
+  "cookies_pre": [
+    {
+      "name": "TAUnique",
+      "domain": "www.tripadvisor.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "TASID",
+      "domain": ".www.tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "TAUnique",
+      "domain": ".tripadvisor.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "TADCID",
+      "domain": ".www.tripadvisor.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "TASession",
+      "domain": ".tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "TASSK",
+      "domain": ".www.tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "PAC",
+      "domain": ".www.tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "SRT",
+      "domain": ".www.tripadvisor.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "TART",
+      "domain": ".www.tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "datadome",
+      "domain": ".tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "g_state",
+      "domain": "www.tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".tripadvisor.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__vt",
+      "domain": ".www.tripadvisor.it",
+      "category": "Unknown"
+    }
+  ],
+  "cookies_post": [
+    {
+      "name": "TAUnique",
+      "domain": "www.tripadvisor.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "TASID",
+      "domain": ".www.tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "TAUnique",
+      "domain": ".tripadvisor.it",
+      "category": "Analytics"
+    },
+    {
+      "name": "TADCID",
+      "domain": ".www.tripadvisor.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "TASession",
+      "domain": ".tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "TASSK",
+      "domain": ".www.tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "PAC",
+      "domain": ".www.tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "SRT",
+      "domain": ".www.tripadvisor.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "TART",
+      "domain": ".www.tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "datadome",
+      "domain": ".tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "g_state",
+      "domain": "www.tripadvisor.it",
+      "category": "Unknown"
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".tripadvisor.it",
+      "category": "Functional"
+    },
+    {
+      "name": "__vt",
+      "domain": ".www.tripadvisor.it",
+      "category": "Unknown"
+    }
+  ],
+  "new_tracking_after_reject": [],
+  "third_party_pre": [
+    "captcha-delivery.com",
+    "cookielaw.org",
+    "datadome.co",
+    "google.com",
+    "onetrust.com",
+    "tacdn.com",
+    "tripadvisor.com"
+  ],
+  "third_party_post": []
+}

@@ -1,0 +1,82 @@
+{
+  "site": "https://www.tgcom24.mediaset.it",
+  "reject": "no reject button found",
+  "banner_type": "no_banner_detected",
+  "visible_buttons": [
+    "Guerra Iran",
+    "Elezioni USA Midterm",
+    "Elezioni",
+    "Crans Montana",
+    "Famiglia nel bosco",
+    "Garlasco",
+    "Emergenza Clima",
+    "Tutti i dossier",
+    "Tutte le notizie del giorno",
+    "Cronaca",
+    "Mondo",
+    "Politica",
+    "Economia",
+    "Sport",
+    "Meteo"
+  ],
+  "cookies_pre": [],
+  "cookies_post": [
+    {
+      "name": "gig_canary",
+      "domain": "cdns.gigya.com",
+      "category": "Functional"
+    },
+    {
+      "name": "gmid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ucid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "gig_bootstrap_3_Q2YR3-An4K_pslqTk0mxn7NXhotIqAGEa4K9oWWuhB8terc3cQk5GVAX3AIeVTlt",
+      "domain": ".mediaset.it",
+      "category": "Marketing"
+    }
+  ],
+  "new_tracking_after_reject": [
+    {
+      "name": "gmid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "ucid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".login.mediaset.it",
+      "category": "Marketing"
+    },
+    {
+      "name": "gig_bootstrap_3_Q2YR3-An4K_pslqTk0mxn7NXhotIqAGEa4K9oWWuhB8terc3cQk5GVAX3AIeVTlt",
+      "domain": ".mediaset.it",
+      "category": "Marketing"
+    }
+  ],
+  "third_party_pre": [
+    "facebook.net",
+    "gigya.com",
+    "googleapis.com",
+    "mediaset.net"
+  ],
+  "third_party_post": [
+    "facebook.net",
+    "googletagmanager.com"
+  ]
+}
