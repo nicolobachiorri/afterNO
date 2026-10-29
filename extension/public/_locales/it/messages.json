@@ -265,6 +265,38 @@
       }
     }
   },
+  "itemSiteMarketingOwn_one": {
+    "message": "Il sito usa $COUNT$ suo cookie che, sugli altri siti, serve al marketing. Qui non possiamo dire a cosa serva.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemSiteMarketingOwn_other": {
+    "message": "Il sito usa $COUNT$ suoi cookie che, sugli altri siti, servono al marketing. Qui non possiamo dire a cosa servano.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemSiteMarketingShort_one": {
+    "message": "Il sito usa $COUNT$ cookie di marketing che scade entro un giorno o alla chiusura del browser: da solo non basta a riconoscerti nei giorni successivi.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemSiteMarketingShort_other": {
+    "message": "Il sito usa $COUNT$ cookie di marketing che scadono entro un giorno o alla chiusura del browser: da soli non bastano a riconoscerti nei giorni successivi.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
   "itemSiteAnalytics_one": {
     "message": "Il sito usa $COUNT$ cookie di statistica, che in alcuni casi possono essere usati senza consenso:",
     "placeholders": {

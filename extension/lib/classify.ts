@@ -6,14 +6,17 @@ export type Category =
   | 'Functional' | 'Necessary' | 'Preferences' | 'Personalization'
   | 'Analytics' | 'Marketing' | 'Security' | 'Unknown';
 
+// Owners: the domains the database says the cookie belongs to ("pinterest.com"),
+// present only when the database states them.
 export interface CookieDb {
-  exact: Record<string, [string, string]>; // name -> [category, platform]
-  prefixes: [string, string, string][]; // [prefix, category, platform], longest first
+  exact: Record<string, [string, string, string[]?]>; // name -> [category, platform, owners?]
+  prefixes: [string, string, string, string[]?][]; // [prefix, category, platform, owners?], longest first
 }
 
 export interface Classification {
   category: Category;
   platform: string;
+  owners?: string[];
 }
 
 export const TRACKING: ReadonlySet<Category> = new Set(['Analytics', 'Marketing']);
@@ -27,12 +30,16 @@ function toCategory(raw: string): Category {
   return KNOWN.has(raw) ? (raw as Category) : 'Unknown';
 }
 
+function result(category: string, platform: string, owners?: string[]): Classification {
+  return owners?.length ? { category: toCategory(category), platform, owners } : { category: toCategory(category), platform };
+}
+
 export function classify(name: string, db: CookieDb): Classification {
   const hit = db.exact[name];
-  if (hit) return { category: toCategory(hit[0]), platform: hit[1] };
+  if (hit) return result(hit[0], hit[1], hit[2]);
   // The prefixes are already sorted longest first, so the first match is the most specific.
-  for (const [prefix, category, platform] of db.prefixes) {
-    if (name.startsWith(prefix)) return { category: toCategory(category), platform };
+  for (const [prefix, category, platform, owners] of db.prefixes) {
+    if (name.startsWith(prefix)) return result(category, platform, owners);
   }
   return { category: 'Unknown', platform: '' };
 }

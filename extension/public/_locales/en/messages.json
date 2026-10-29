@@ -265,6 +265,38 @@
       }
     }
   },
+  "itemSiteMarketingOwn_one": {
+    "message": "The site uses $COUNT$ cookie of its own that serves marketing on other sites. Here we cannot tell what it is for.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemSiteMarketingOwn_other": {
+    "message": "The site uses $COUNT$ cookies of its own that serve marketing on other sites. Here we cannot tell what they are for.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemSiteMarketingShort_one": {
+    "message": "The site uses $COUNT$ marketing cookie that expires within a day or when the browser closes: on its own it is not enough to recognise you on later days.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemSiteMarketingShort_other": {
+    "message": "The site uses $COUNT$ marketing cookies that expire within a day or when the browser closes: on their own they are not enough to recognise you on later days.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
   "itemSiteAnalytics_one": {
     "message": "The site uses $COUNT$ analytics cookie, which in some cases may be used without consent:",
     "placeholders": {

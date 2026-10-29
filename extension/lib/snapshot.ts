@@ -19,6 +19,7 @@ export interface Classified {
   domain: string;
   group: Group;
   platform: string;
+  owners?: string[]; // domains the database says the cookie belongs to
   session?: boolean;
   expirationDate?: number;
 }
@@ -26,9 +27,12 @@ export interface Classified {
 // Category from the database; for a tracker's unknown cookie, the "likely identifier"
 // hint. On the site's own domain, "unknown" really means "we do not know".
 export function classifyCookie(c: CookieInfo, db: CookieDb, thirdParty: boolean, nowMs: number): Classified {
-  const { category, platform } = classify(c.name, db);
+  const { category, platform, owners } = classify(c.name, db);
   const group: Group = thirdParty && isLikelyIdentifier(c, category, nowMs) ? 'Identifier' : category;
-  return { name: c.name, domain: c.domain, group, platform, session: c.session, expirationDate: c.expirationDate };
+  return {
+    name: c.name, domain: c.domain, group, platform,
+    ...(owners ? { owners } : {}), session: c.session, expirationDate: c.expirationDate,
+  };
 }
 
 // Hosts contacted at or after `since`, from a map host -> last time it was contacted.

@@ -8,6 +8,7 @@ const db: CookieDb = {
   exact: {
     _ga: ['Analytics', 'Google Analytics'],
     _fbp: ['Marketing', 'Meta'],
+    _routing_id: ['Marketing', 'Pinterest', ['pinterest.com']],
     cto_bundle: ['Marketing', 'Criteo'],
     weird: ['SomethingNew', 'X'],
   },
@@ -44,4 +45,9 @@ test('counts include every category, also the empty ones', () => {
   assert.equal(counts.Analytics, 1);
   assert.equal(counts.Functional, 0);
   assert.equal(Object.keys(counts).length, 8);
+});
+
+test('owner domains are passed on when the database has them, absent otherwise', () => {
+  assert.deepEqual(classify('_routing_id', db), { category: 'Marketing', platform: 'Pinterest', owners: ['pinterest.com'] });
+  assert.equal('owners' in classify('_ga', db), false);
 });

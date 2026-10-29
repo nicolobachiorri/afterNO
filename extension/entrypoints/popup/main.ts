@@ -128,7 +128,7 @@ function checkItem(item: Item): HTMLElement {
 // What the user asked, what happened, a cautious conclusion and the disclaimer.
 function summaryBlock(host: string, own: Classified[], trackers: Classified[] | null,
   choice: ChoiceRecord | undefined, snapshot: Snapshot | undefined): HTMLElement {
-  const verdict = buildVerdict(choice, own, trackers);
+  const verdict = buildVerdict(choice, own, trackers, Date.now());
   const heading = choice ? t(`verdictHeading_${choice.choice}`, clock(choice.at)) : t('verdictHeadingNone');
   const parts: HTMLElement[] = [
     h('h1', { text: host }),
