@@ -1,0 +1,130 @@
+{
+  "url": "https://www.momax.it",
+  "final_url": "https://www.momax.it/",
+  "click_at_s": 11.14,
+  "reload_at_s": 16.14,
+  "reject": "button: 'Rifiuta tutto' in main (normal click)",
+  "visible_buttons": [
+    "\u00d7",
+    "cookie policy",
+    "terze parti",
+    "finalit\u00e0 pubblicitarie",
+    "Scopri di pi\u00f9",
+    "Rifiuta tutto",
+    "Accetta tutto"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "cdn.iubenda.com",
+    "cpl.iubenda.com",
+    "embeds.iubenda.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.iubenda.com",
+    "embeds.iubenda.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "cdn.iubenda.com": {
+      "first_s": 2.64,
+      "last_s": 16.43
+    },
+    "cpl.iubenda.com": {
+      "first_s": 11.17,
+      "last_s": 11.17
+    },
+    "embeds.iubenda.com": {
+      "first_s": 2.4,
+      "last_s": 16.36
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.73,
+      "last_s": 16.37
+    },
+    "idb.iubenda.com": {
+      "first_s": 4.42,
+      "last_s": 16.5
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.2,
+      "last_s": 16.41
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.2,
+      "last_s": 16.41
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.4,
+      "last_s": 16.36
+    }
+  },
+  "cookies": [
+    {
+      "name": "_iub_cs-94958395",
+      "domain": ".iubenda.com",
+      "path": "/",
+      "expires": 1824832514,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-94958395",
+      "domain": ".momax.it",
+      "path": "/",
+      "expires": 1824832509,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".momax.it",
+      "path": "/",
+      "expires": 1824768000,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-94958395-granular",
+      "domain": ".momax.it",
+      "path": "/",
+      "expires": 1824832514,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".momax.it",
+      "path": "/",
+      "expires": 1824832514,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

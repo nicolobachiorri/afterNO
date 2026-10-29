@@ -1,0 +1,590 @@
+{
+  "url": "https://www.idealista.it",
+  "final_url": "https://www.idealista.it/",
+  "click_at_s": 11.43,
+  "reload_at_s": 16.43,
+  "reject": "button: 'Continua senza accettare \u2192' in main (normal click)",
+  "visible_buttons": [
+    "Continua senza accettare \u2192",
+    "Pi\u00f9 informazioni",
+    "Accetta e chiudi",
+    "Proprietari",
+    "Cerchi casa",
+    "Mutui",
+    "Case e appartamenti Nuove costruzioni Case e appar",
+    "Cerca",
+    "Seleziona sulla mappa Puoi cercare contemporaneame",
+    "Inizia a selezionare le zone"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "accounts.google.com",
+    "amplify.outbrain.com",
+    "ams.creativecdn.com",
+    "api.privacy-center.org",
+    "cdn.taboola.com",
+    "dsum-sec.casalemedia.com",
+    "pagead2.googlesyndication.com",
+    "sdk.privacy-center.org",
+    "st1.idealista.com",
+    "st3.idealista.com",
+    "sync.teads.tv",
+    "tag.aticdn.net",
+    "tags.creativecdn.com",
+    "trc.taboola.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "accounts.google.com",
+    "amplify.outbrain.com",
+    "ams.creativecdn.com",
+    "cdn.taboola.com",
+    "dsum-sec.casalemedia.com",
+    "pagead2.googlesyndication.com",
+    "sdk.privacy-center.org",
+    "st1.idealista.com",
+    "st3.idealista.com",
+    "sync.teads.tv",
+    "tag.aticdn.net",
+    "tags.creativecdn.com",
+    "trc.taboola.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 3.07,
+      "last_s": 16.76
+    },
+    "amplify.outbrain.com": {
+      "first_s": 4.89,
+      "last_s": 16.8
+    },
+    "ams.creativecdn.com": {
+      "first_s": 5.17,
+      "last_s": 16.85
+    },
+    "ams46.creativecdn.com": {
+      "first_s": 5.8,
+      "last_s": 5.8
+    },
+    "api.privacy-center.org": {
+      "first_s": 11.47,
+      "last_s": 11.47
+    },
+    "cdn.taboola.com": {
+      "first_s": 4.89,
+      "last_s": 16.8
+    },
+    "cm.creativecdn.com": {
+      "first_s": 6.05,
+      "last_s": 6.05
+    },
+    "cm.g.doubleclick.net": {
+      "first_s": 5.8,
+      "last_s": 5.99
+    },
+    "ct.captcha-delivery.com": {
+      "first_s": 3.95,
+      "last_s": 3.95
+    },
+    "dsum-sec.casalemedia.com": {
+      "first_s": 16.93,
+      "last_s": 17.14
+    },
+    "geo.captcha-delivery.com": {
+      "first_s": 3.18,
+      "last_s": 6.11
+    },
+    "ib.adnxs.com": {
+      "first_s": 5.8,
+      "last_s": 6.09
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 5.47,
+      "last_s": 16.83
+    },
+    "pixel.rubiconproject.com": {
+      "first_s": 8.07,
+      "last_s": 8.07
+    },
+    "rt.udmserve.net": {
+      "first_s": 8.07,
+      "last_s": 8.07
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 3.04,
+      "last_s": 16.62
+    },
+    "st1.idealista.com": {
+      "first_s": 2.4,
+      "last_s": 16.56
+    },
+    "st3.idealista.com": {
+      "first_s": 4.1,
+      "last_s": 16.68
+    },
+    "static.captcha-delivery.com": {
+      "first_s": 3.95,
+      "last_s": 4.3
+    },
+    "sync.teads.tv": {
+      "first_s": 16.92,
+      "last_s": 16.92
+    },
+    "tag.aticdn.net": {
+      "first_s": 4.89,
+      "last_s": 16.8
+    },
+    "tags.creativecdn.com": {
+      "first_s": 4.89,
+      "last_s": 16.8
+    },
+    "trc.taboola.com": {
+      "first_s": 5.18,
+      "last_s": 16.81
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.89,
+      "last_s": 16.8
+    }
+  },
+  "cookies": [
+    {
+      "name": "PARAGLIDE_LOCALE",
+      "domain": ".www.idealista.it",
+      "path": "/",
+      "expires": 1827856255.856783,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "userUUID",
+      "domain": "www.idealista.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "SESSION",
+      "domain": "www.idealista.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__sn",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1824832256,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main_ses_id",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__ss",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__prevTsUrl",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__prevTsReferrer",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__prevTsSource",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__prevTsCampaign",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__prevTsProvider",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__prevTsNotificationId",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__prevTsProviderClickId",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__prevEventView",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__prevLevel2",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__prevEventLink",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1824832256,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pcid",
+      "domain": ".www.idealista.it",
+      "path": "/",
+      "expires": 1827424244,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pctx",
+      "domain": ".www.idealista.it",
+      "path": "/",
+      "expires": 1827424244,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ts",
+      "domain": ".creativecdn.com",
+      "path": "/",
+      "expires": 1824832244.944212,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://idealista.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "g",
+      "domain": ".creativecdn.com",
+      "path": "/",
+      "expires": 1824832244.944188,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "c",
+      "domain": ".creativecdn.com",
+      "path": "/",
+      "expires": 1824832244.944202,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://idealista.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "IDE",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1826992245.317422,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "XANDR_PANID",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1801072245.432515,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://idealista.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "uuid2",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1801072245.43263,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "anj",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1801072245.432607,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "udmts",
+      "domain": ".udmserve.net",
+      "path": "/",
+      "expires": 1824832248.260071,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dt",
+      "domain": ".udmserve.net",
+      "path": "/",
+      "expires": 1824832248.260231,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rtbh",
+      "domain": ".udmserve.net",
+      "path": "/",
+      "expires": 1801072248.260288,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1824915050,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1824915050,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__pn",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "datadome",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1824832256.024999,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "g_state",
+      "domain": "www.idealista.it",
+      "path": "/",
+      "expires": 1808848256,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "lang",
+      "domain": "www.idealista.it",
+      "path": "/",
+      "expires": 1824832256.065074,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__se",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main__st",
+      "domain": ".idealista.it",
+      "path": "/",
+      "expires": 1793298056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pprv",
+      "domain": ".www.idealista.it",
+      "path": "/",
+      "expires": 1827424244,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__rtbh.uid",
+      "domain": "www.idealista.it",
+      "path": "/",
+      "expires": 1824832256,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__rtbh.lid",
+      "domain": "www.idealista.it",
+      "path": "/",
+      "expires": 1824832256,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CMID",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1824832256.50981,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CMPS",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1801072256.407112,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CMPRO",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1801072256.509858,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.aranzulla.it",
+  "final_url": "https://www.aranzulla.it/",
+  "click_at_s": 25.85,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "\u00d7",
+    "cookie policy",
+    "terze parti",
+    "finalit\u00e0 pubblicitarie",
+    "Scopri di pi\u00f9 e personalizza",
+    "Accetta"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.confiant-integrations.net": {
+      "first_s": 2.17,
+      "last_s": 2.64
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.2,
+      "last_s": 3.67
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.35,
+      "last_s": 3.35
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.76,
+      "last_s": 3.76
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.25,
+      "last_s": 3.25
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.25,
+      "last_s": 3.25
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.17,
+      "last_s": 2.41
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.2,
+      "last_s": 2.2
+    }
+  },
+  "cookies": []
+}

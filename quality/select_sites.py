@@ -39,6 +39,8 @@ N_STEP1, N_TRANCO, TRANCO_POOL = 20, 20, 2000
 REPLACED = {
     "sunbet.it": "adults only (gambling)",
     "resmush.it": "technical service (image API)",
+    # Found at the first visit (visit A): the home page redirects to a site already in the sample.
+    "italotreno.it": "redirects to italotreno.com, already in the sample",
 }
 
 

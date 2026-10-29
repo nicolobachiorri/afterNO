@@ -1,0 +1,76 @@
+{
+  "host": "www.libero.it",
+  "choice": {
+    "at": 1793296135661,
+    "choice": "rejected",
+    "label": "Continua senza accettare",
+    "site": "libero.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Continua senza accettare"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.libero.it/",
+    "lastSeen": {
+      "api.permutive.com": 1793296140894,
+      "c.amazon-adsystem.com": 1793296140910,
+      "c76babb4-dc97-48b8-9b12-80b8b7deba04.edge.permutive.app": 1793296128112,
+      "cdn-gl.imrworldwide.com": 1793296145814,
+      "cdn.iubenda.com": 1793296140814,
+      "cdn.qwtag.com": 1793296128112,
+      "cs.iubenda.com": 1793296128102,
+      "evnt.iol.it": 1793296148008,
+      "i4.plug.it": 1793296140805,
+      "i5.plug.it": 1793296128498,
+      "idb.iubenda.com": 1793296140926,
+      "italiaonline01.wt-eu02.net": 1793296140794,
+      "l3o0ylhdenzsvjf8qof0rxnhakucb1793296132.nuid.imrworldwide.com": 1793296132897,
+      "pagead2.googlesyndication.com": 1793296141902,
+      "r0nu8xlnpp7r4gpxk46u2ioxo1wk61793296145.nuid.imrworldwide.com": 1793296145828,
+      "secure-it.imrworldwide.com": 1793296147835,
+      "securepubads.g.doubleclick.net": 1793296140929,
+      "wips.plug.it": 1793296147006,
+      "www.google.com": 1793296127730,
+      "www.gstatic.com": 1793296127492,
+      "www.iolam.it": 1793296128112,
+      "www.libero.it": 1793296140894,
+      "www.virgilio.it": 1793296128165
+    }
+  },
+  "hostsConsidered": [
+    "api.permutive.com",
+    "c.amazon-adsystem.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "evnt.iol.it",
+    "i4.plug.it",
+    "idb.iubenda.com",
+    "italiaonline01.wt-eu02.net",
+    "pagead2.googlesyndication.com",
+    "r0nu8xlnpp7r4gpxk46u2ioxo1wk61793296145.nuid.imrworldwide.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "wips.plug.it",
+    "www.libero.it"
+  ]
+}

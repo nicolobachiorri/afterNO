@@ -1,0 +1,369 @@
+{
+  "url": "https://www.ilsole24ore.com",
+  "final_url": "https://www.ilsole24ore.com/",
+  "click_at_s": 13.17,
+  "reload_at_s": null,
+  "reject": "paywall label found",
+  "visible_buttons": [
+    "Diretta",
+    "Diretta Salone della Giustizia 2026",
+    "Sezioni",
+    "Accedi",
+    "partner",
+    "Preferenze",
+    "Accetto",
+    "Rifiuta e abbonati",
+    "Pause",
+    "Unmute",
+    "Fullscreen"
+  ],
+  "tcf": {
+    "cmpId": 28,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "dt.adsafeprotected.com",
+    "experiences.newsroom.bi",
+    "track.adform.net"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "bam.nr-data.net": {
+      "first_s": 9.36,
+      "last_s": 10.11
+    },
+    "c2.res.24o.it": {
+      "first_s": 6.96,
+      "last_s": 6.96
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 4.7,
+      "last_s": 7.03
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 2.42,
+      "last_s": 6.51
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 6.75,
+      "last_s": 6.75
+    },
+    "cf-images.eu-west-1.prod.boltdns.net": {
+      "first_s": 7.81,
+      "last_s": 7.81
+    },
+    "data.qiota.com": {
+      "first_s": 6.96,
+      "last_s": 6.96
+    },
+    "dt.adsafeprotected.com": {
+      "first_s": 11.61,
+      "last_s": 16.63
+    },
+    "edge.api.brightcove.com": {
+      "first_s": 7.54,
+      "last_s": 7.54
+    },
+    "events.newsroom.bi": {
+      "first_s": 12.02,
+      "last_s": 12.02
+    },
+    "experiences.newsroom.bi": {
+      "first_s": 15.03,
+      "last_s": 15.03
+    },
+    "fastly-signed-eu-west-1-prod.brightcovecdn.com": {
+      "first_s": 7.96,
+      "last_s": 9.89
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 2.5,
+      "last_s": 7.36
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.85,
+      "last_s": 3.85
+    },
+    "i2.res.24o.it": {
+      "first_s": 3.02,
+      "last_s": 6.96
+    },
+    "icu.newsroom.bi": {
+      "first_s": 13.04,
+      "last_s": 13.04
+    },
+    "ilsole24oreitalia01.wt-eu02.net": {
+      "first_s": 7.19,
+      "last_s": 11.02
+    },
+    "imasdk.googleapis.com": {
+      "first_s": 7.54,
+      "last_s": 10.3
+    },
+    "j2.res.24o.it": {
+      "first_s": 2.42,
+      "last_s": 6.96
+    },
+    "js-agent.newrelic.com": {
+      "first_s": 8.86,
+      "last_s": 8.87
+    },
+    "jsconfig.adsafeprotected.com": {
+      "first_s": 11.46,
+      "last_s": 11.61
+    },
+    "manifest.prod.boltdns.net": {
+      "first_s": 7.81,
+      "last_s": 7.96
+    },
+    "marfeelexperimentsexperienceengine.mrf.io": {
+      "first_s": 10.06,
+      "last_s": 10.06
+    },
+    "metrics.brightcove.com": {
+      "first_s": 7.54,
+      "last_s": 8.95
+    },
+    "micro.rubiconproject.com": {
+      "first_s": 4.69,
+      "last_s": 4.69
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 5.98,
+      "last_s": 13.01
+    },
+    "pixel.adsafeprotected.com": {
+      "first_s": 11.01,
+      "last_s": 11.01
+    },
+    "players.brightcove.net": {
+      "first_s": 6.96,
+      "last_s": 6.96
+    },
+    "pubads.g.doubleclick.net": {
+      "first_s": 8.87,
+      "last_s": 8.87
+    },
+    "q47nch9edhdegzy0t1obhgsazwtpp1793296057.nuid.imrworldwide.com": {
+      "first_s": 7.03,
+      "last_s": 7.03
+    },
+    "q4mda9zlgmblwoihpfp0upgkhx4xb1793296056.nuid.imrworldwide.com": {
+      "first_s": 6.86,
+      "last_s": 6.86
+    },
+    "s0.2mdn.net": {
+      "first_s": 8.01,
+      "last_s": 8.01
+    },
+    "s1.adform.net": {
+      "first_s": 10.43,
+      "last_s": 11.63
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 6.47,
+      "last_s": 11.02
+    },
+    "sdk.mrf.io": {
+      "first_s": 6.46,
+      "last_s": 10.06
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 6.86,
+      "last_s": 8.56
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 4.41,
+      "last_s": 6.93
+    },
+    "static.adsafeprotected.com": {
+      "first_s": 11.61,
+      "last_s": 11.61
+    },
+    "static2.qiota.com": {
+      "first_s": 3.04,
+      "last_s": 6.83
+    },
+    "tags.tiqcdn.com": {
+      "first_s": 4.41,
+      "last_s": 6.46
+    },
+    "track.adform.net": {
+      "first_s": 9.9,
+      "last_s": 16.41
+    },
+    "vjs.zencdn.net": {
+      "first_s": 7.54,
+      "last_s": 7.54
+    },
+    "widget-pixels.outbrainimg.com": {
+      "first_s": 5.39,
+      "last_s": 5.39
+    },
+    "widgets.outbrain.com": {
+      "first_s": 2.51,
+      "last_s": 2.51
+    },
+    "www.googletagmanager.com": {
+      "first_s": 6.83,
+      "last_s": 6.83
+    }
+  },
+  "cookies": [
+    {
+      "name": "wtsid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "path": "/988195797407130",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wteid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "path": "/988195797407130",
+      "expires": 1808848061.446704,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1826992055,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "nohupMeteo",
+      "domain": "www.ilsole24ore.com",
+      "path": "/",
+      "expires": 1824828456,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1808848057,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1824832057,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "wt_rla",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1798480057,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "path": "/",
+      "expires": 1826992057.612923,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1824832057,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_OptanonConsentOld",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1824828458,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "SoleCookieAccept",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1824828458,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "wt_cookiecontrol",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "JSESSIONID",
+      "domain": ".nr-data.net",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "C",
+      "domain": ".adform.net",
+      "path": "/",
+      "expires": 1795974461.451098,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uid",
+      "domain": ".adform.net",
+      "path": "/",
+      "expires": 1798480061.537886,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

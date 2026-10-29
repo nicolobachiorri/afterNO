@@ -1,0 +1,245 @@
+{
+  "url": "https://www.italotreno.com",
+  "final_url": "https://www.italotreno.com/it",
+  "click_at_s": 28.1,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Configura",
+    "Accetta",
+    "Hai un codice promo?",
+    "CERCA",
+    "Maggiori informazioni - Offerte dedicate, viaggi g",
+    "LE NOSTRE STAZIONI",
+    "LE NOSTRE TRATTE",
+    "CONNESSIONI TRENO AV + REGIONALI + BUS",
+    "PARTNER MARITTIMI"
+  ],
+  "tcf": {
+    "timeout": true
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "api.privacy-center.org": {
+      "first_s": 5.4,
+      "last_s": 5.4
+    },
+    "c.go-mpulse.net": {
+      "first_s": 4.19,
+      "last_s": 4.19
+    },
+    "cl-pbr.cxr.skeepers.io": {
+      "first_s": 4.06,
+      "last_s": 4.26
+    },
+    "s.go-mpulse.net": {
+      "first_s": 3.17,
+      "last_s": 3.17
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 3.17,
+      "last_s": 5.3
+    },
+    "widgets.rr.skeepers.io": {
+      "first_s": 3.31,
+      "last_s": 3.31
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.17,
+      "last_s": 4.17
+    }
+  },
+  "cookies": [
+    {
+      "name": "AKA_A2",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1793299357.64569,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "italotreno#lang",
+      "domain": "www.italotreno.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "Culture",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1793310157.816659,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rxVisitorv09j7bqb",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1827855764.448398,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "dtSav09j7bqb",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AcceptCookie",
+      "domain": "www.italotreno.com",
+      "path": "/",
+      "expires": 1824831783,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1793302957.808817,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_dcs",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1809103360,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_abck",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1824831760.51502,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "RT",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1793900560,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "dtCookiev09j7bqb",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1827855760.857051,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "rxvtv09j7bqb",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FPID",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1827855783.359239,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FPLC",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1793367761.20931,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dtPCv09j7bqb",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1793302960.593387,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_KGDSYWDJH0",
+      "domain": ".italotreno.com",
+      "path": "/",
+      "expires": 1827855783.275543,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

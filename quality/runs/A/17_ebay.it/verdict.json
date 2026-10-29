@@ -1,0 +1,71 @@
+{
+  "host": "www.ebay.it",
+  "choice": {
+    "at": 1793296190332,
+    "choice": "rejected",
+    "label": "Rifiuta tutto",
+    "site": "ebay.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta tutto"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.ebay.it/",
+    "lastSeen": {
+      "backstory.ebay.it": 1793296196621,
+      "cas.avalon.perfdrive.com": 1793296195847,
+      "devicebind.ebay.it": 1793296197045,
+      "edgetrksvc.ebay.it": 1793296195362,
+      "fonts.gstatic.com": 1793296182702,
+      "i.ebayimg.com": 1793296181646,
+      "ir.ebaystatic.com": 1793296197367,
+      "live.us.shoplive.cloud": 1793296205947,
+      "monitor.ebay.com": 1793296196576,
+      "pulsar.ebay.it": 1793296195350,
+      "rover.ebay.com": 1793296196589,
+      "sherlock-events-sampler.ebay.com": 1793296197430,
+      "sofe.ebay.it": 1793296195819,
+      "svcs.ebay.com": 1793296200845,
+      "unpkg.com": 1793296196576,
+      "www.ebay.com": 1793296196621,
+      "www.ebay.it": 1793296202048
+    }
+  },
+  "hostsConsidered": [
+    "backstory.ebay.it",
+    "cas.avalon.perfdrive.com",
+    "devicebind.ebay.it",
+    "edgetrksvc.ebay.it",
+    "ir.ebaystatic.com",
+    "live.us.shoplive.cloud",
+    "monitor.ebay.com",
+    "pulsar.ebay.it",
+    "rover.ebay.com",
+    "sherlock-events-sampler.ebay.com",
+    "sofe.ebay.it",
+    "svcs.ebay.com",
+    "unpkg.com",
+    "www.ebay.com",
+    "www.ebay.it"
+  ]
+}

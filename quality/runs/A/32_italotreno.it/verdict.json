@@ -1,0 +1,49 @@
+{
+  "host": "www.italotreno.com",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 7,
+      "names": [
+        "Dynatrace",
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.italotreno.com/it",
+    "lastSeen": {
+      "analytics.italotreno.com": 1793296562035,
+      "api-biglietti.italotreno.com": 1793296561735,
+      "c.go-mpulse.net": 1793296560930,
+      "cl-pbr.cxr.skeepers.io": 1793296561012,
+      "s.go-mpulse.net": 1793296559735,
+      "sdk.privacy-center.org": 1793296561167,
+      "widgets.rr.skeepers.io": 1793296559736,
+      "www.googletagmanager.com": 1793296561146,
+      "www.italotreno.com": 1793296565595
+    }
+  },
+  "hostsConsidered": [
+    "analytics.italotreno.com",
+    "api-biglietti.italotreno.com",
+    "c.go-mpulse.net",
+    "cl-pbr.cxr.skeepers.io",
+    "s.go-mpulse.net",
+    "sdk.privacy-center.org",
+    "widgets.rr.skeepers.io",
+    "www.googletagmanager.com",
+    "www.italotreno.com"
+  ]
+}

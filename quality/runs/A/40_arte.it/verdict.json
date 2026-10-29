@@ -1,0 +1,59 @@
+{
+  "host": "www.arte.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 7,
+      "names": [
+        "Google Analytics",
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.arte.it/",
+    "lastSeen": {
+      "apis.google.com": 1793296800220,
+      "app.legalblink.it": 1793296800610,
+      "assets.pinterest.com": 1793296800221,
+      "cdn.jsdelivr.net": 1793296800517,
+      "fonts.googleapis.com": 1793296801433,
+      "fonts.gstatic.com": 1793296801579,
+      "log.pinterest.com": 1793296801434,
+      "matomo.arte.it": 1793296801204,
+      "media.arte.it": 1793296801773,
+      "region1.google-analytics.com": 1793296800764,
+      "ssl.google-analytics.com": 1793296800769,
+      "static.addtoany.com": 1793296800511,
+      "www.arte.it": 1793296801206,
+      "www.googletagmanager.com": 1793296800177
+    }
+  },
+  "hostsConsidered": [
+    "apis.google.com",
+    "app.legalblink.it",
+    "assets.pinterest.com",
+    "cdn.jsdelivr.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "log.pinterest.com",
+    "matomo.arte.it",
+    "media.arte.it",
+    "region1.google-analytics.com",
+    "ssl.google-analytics.com",
+    "static.addtoany.com",
+    "www.arte.it",
+    "www.googletagmanager.com"
+  ]
+}

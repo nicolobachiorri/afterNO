@@ -1,0 +1,87 @@
+{
+  "host": "www.sky.it",
+  "choice": {
+    "at": 1793296754603,
+    "choice": "rejected",
+    "label": "Continua senza accettare",
+    "site": "sky.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Continua senza accettare"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 3,
+      "names": [
+        "Awin",
+        "Adobe Analytics",
+        "Adobe Audience Manager"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShort",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 1,
+      "names": [
+        "Adobe Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.sky.it/",
+    "lastSeen": {
+      "adservice.google.com": 1793296762542,
+      "apid.sky.it": 1793296759901,
+      "assets.adobedtm.com": 1793296759760,
+      "browser-intake-datadoghq.eu": 1793296762631,
+      "cache.sky.it": 1793296759701,
+      "cdn.privacy-mgmt.com": 1793296744846,
+      "cerebro-platform.sky.it": 1793296759861,
+      "cmp.sky.it": 1793296759888,
+      "dpm.demdex.net": 1793296746216,
+      "images.contentstack.io": 1793296760006,
+      "sgtm.sky.it": 1793296762444,
+      "smetrics.sky.it": 1793296760029,
+      "www.datadoghq-browser-agent.com": 1793296746542,
+      "www.googletagmanager.com": 1793296746568,
+      "www.sky.it": 1793296759621
+    }
+  },
+  "hostsConsidered": [
+    "adservice.google.com",
+    "apid.sky.it",
+    "assets.adobedtm.com",
+    "browser-intake-datadoghq.eu",
+    "cache.sky.it",
+    "cerebro-platform.sky.it",
+    "cmp.sky.it",
+    "images.contentstack.io",
+    "sgtm.sky.it",
+    "smetrics.sky.it",
+    "www.sky.it"
+  ]
+}

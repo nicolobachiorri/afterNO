@@ -1,0 +1,267 @@
+{
+  "url": "https://www.sky.it",
+  "final_url": "https://www.sky.it/",
+  "click_at_s": 12.31,
+  "reload_at_s": 17.31,
+  "reject": "button: 'Continua senza accettare' in https://cmp.sky.it/index.html?message_id=1336597&consentUUID=undefined&preload_m (normal click)",
+  "visible_buttons": [
+    "Cosa vedere",
+    "Come vederlo",
+    "Sky Wifi",
+    "Assistenza",
+    "Accedi al Fai da te",
+    "Scopri di pi\u00f9",
+    "Condizioni generali offerta TV",
+    "Note legali Sky Glass",
+    "Dettagli e costi dell'offerta Sky Wifi",
+    "Condizioni generali offerta Sky Mobile",
+    "Come riciclare il packaging dei prodotti Sky",
+    "Offerte Sky Business",
+    "Continua senza accettare",
+    "Dati di geolocalizzazione precisi e identificazion",
+    "Archiviare informazioni su dispositivo e/o acceder"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "adservice.google.com",
+    "assets.adobedtm.com",
+    "browser-intake-datadoghq.eu",
+    "cdn.privacy-mgmt.com",
+    "images.contentstack.io",
+    "www.datadoghq-browser-agent.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "adservice.google.com",
+    "assets.adobedtm.com",
+    "browser-intake-datadoghq.eu",
+    "cdn.privacy-mgmt.com",
+    "images.contentstack.io",
+    "www.datadoghq-browser-agent.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "adservice.google.com": {
+      "first_s": 11.52,
+      "last_s": 20.25
+    },
+    "assets.adobedtm.com": {
+      "first_s": 2.55,
+      "last_s": 19.65
+    },
+    "browser-intake-datadoghq.eu": {
+      "first_s": 5.03,
+      "last_s": 20.34
+    },
+    "cdn.privacy-mgmt.com": {
+      "first_s": 2.55,
+      "last_s": 17.41
+    },
+    "dpm.demdex.net": {
+      "first_s": 3.25,
+      "last_s": 3.92
+    },
+    "images.contentstack.io": {
+      "first_s": 2.56,
+      "last_s": 17.64
+    },
+    "www.datadoghq-browser-agent.com": {
+      "first_s": 4.25,
+      "last_s": 17.62
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.27,
+      "last_s": 17.63
+    }
+  },
+  "cookies": [
+    {
+      "name": "google_consent",
+      "domain": "www.sky.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AwinChannelCookie",
+      "domain": "www.sky.it",
+      "path": "/",
+      "expires": 1795888745,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1808848746.294304,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCVS_1A124673527853290A490D45%40AdobeOrg",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FG3bOQJ5",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": 1827856759.95258,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_v1_p",
+      "domain": "www.sky.it",
+      "path": "/",
+      "expires": 1795888760.03214,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_v1_data",
+      "domain": "www.sky.it",
+      "path": "/",
+      "expires": 1795888760.032161,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_su",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": 1824832746.478958,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "gpv_pn",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": 1793298559,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_ecid",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": 1827856760.289831,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCV_1A124673527853290A490D45%40AdobeOrg",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": 1827856746.601501,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_cc",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ServerAwinChannelCookie",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": 1795888748.272546,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "consentUUID",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": 1808848755.128034,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "consentDate",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": 1808848755.128203,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "consentCategory",
+      "domain": "www.sky.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_dd_s_v2",
+      "domain": "www.sky.it",
+      "path": "/",
+      "expires": 1824832759.956,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_v1_ss",
+      "domain": "www.sky.it",
+      "path": "/",
+      "expires": 1795888760.032092,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

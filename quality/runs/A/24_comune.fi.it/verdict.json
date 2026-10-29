@@ -1,0 +1,28 @@
+{
+  "host": "www.comune.firenze.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.comune.firenze.it/",
+    "lastSeen": {
+      "analytics.comune.fi.it": 1793296378998,
+      "cdnjs.cloudflare.com": 1793296380208,
+      "www.comune.firenze.it": 1793296380177
+    }
+  },
+  "hostsConsidered": [
+    "analytics.comune.fi.it",
+    "cdnjs.cloudflare.com",
+    "www.comune.firenze.it"
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "url": "https://www.tgcom24.mediaset.it",
+  "final_url": "https://www.tgcom24.mediaset.it/",
+  "click_at_s": 12.89,
+  "reload_at_s": 17.89,
+  "reject": "button: 'CONTINUA SENZA ACCETTARE' in main (normal click)",
+  "visible_buttons": [
+    "Guerra Iran",
+    "Elezioni USA Midterm",
+    "Elezioni",
+    "Crans Montana",
+    "Famiglia nel bosco",
+    "Garlasco",
+    "Emergenza Clima",
+    "Tutti i dossier",
+    "Tutte le notizie del giorno",
+    "Cronaca",
+    "Mondo",
+    "Politica",
+    "Economia",
+    "Sport",
+    "Meteo"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "adv.mediamond.it",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cdns.gigya.com",
+    "connect.facebook.net",
+    "cs.iubenda.com",
+    "ft5ph5kjvlp0ggpvhiez7qesectcc1793296115.nuid.imrworldwide.com",
+    "idb.iubenda.com",
+    "img-api.cloud.mediaset.net",
+    "secure-it.imrworldwide.com",
+    "secure.omo.akamai.opta.net",
+    "services.cloud.mediaset.net",
+    "static-cloud.mediaset.net",
+    "www.facebook.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "adv.mediamond.it",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cdns.gigya.com",
+    "connect.facebook.net",
+    "cs.iubenda.com",
+    "ft5ph5kjvlp0ggpvhiez7qesectcc1793296115.nuid.imrworldwide.com",
+    "idb.iubenda.com",
+    "img-api.cloud.mediaset.net",
+    "secure-it.imrworldwide.com",
+    "secure.omo.akamai.opta.net",
+    "services.cloud.mediaset.net",
+    "static-cloud.mediaset.net",
+    "www.facebook.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "adv.mediamond.it": {
+      "first_s": 7.93,
+      "last_s": 18.52
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 6.98,
+      "last_s": 18.4
+    },
+    "cdn.iubenda.com": {
+      "first_s": 6.88,
+      "last_s": 18.18
+    },
+    "cdns.gigya.com": {
+      "first_s": 6.37,
+      "last_s": 18.24
+    },
+    "connect.facebook.net": {
+      "first_s": 7.58,
+      "last_s": 18.52
+    },
+    "cs.iubenda.com": {
+      "first_s": 7.32,
+      "last_s": 18.17
+    },
+    "firebaseinstallations.googleapis.com": {
+      "first_s": 5.45,
+      "last_s": 5.45
+    },
+    "firebaseremoteconfig.googleapis.com": {
+      "first_s": 6.16,
+      "last_s": 6.16
+    },
+    "ft5ph5kjvlp0ggpvhiez7qesectcc1793296115.nuid.imrworldwide.com": {
+      "first_s": 18.4,
+      "last_s": 18.4
+    },
+    "idb.iubenda.com": {
+      "first_s": 7.68,
+      "last_s": 18.28
+    },
+    "img-api.cloud.mediaset.net": {
+      "first_s": 3.12,
+      "last_s": 18.01
+    },
+    "kplirq2afylnfmtdkab8nn1n6wa3m1793296103.nuid.imrworldwide.com": {
+      "first_s": 7.43,
+      "last_s": 7.43
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 7.43,
+      "last_s": 20.42
+    },
+    "secure.omo.akamai.opta.net": {
+      "first_s": 6.16,
+      "last_s": 18.19
+    },
+    "services-ott-prod-fe.mediaset.net": {
+      "first_s": 7.58,
+      "last_s": 7.58
+    },
+    "services.cloud.mediaset.net": {
+      "first_s": 5.84,
+      "last_s": 18.14
+    },
+    "static-cloud.mediaset.net": {
+      "first_s": 3.07,
+      "last_s": 18.16
+    },
+    "www.facebook.com": {
+      "first_s": 8.15,
+      "last_s": 18.53
+    },
+    "www.googletagmanager.com": {
+      "first_s": 6.66,
+      "last_s": 18.17
+    }
+  },
+  "cookies": [
+    {
+      "name": "gig_canary",
+      "domain": "cdns.gigya.com",
+      "path": "/",
+      "expires": 1793296703.363811,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://mediaset.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "gmid",
+      "domain": ".login.mediaset.it",
+      "path": "/",
+      "expires": 1824832105.06593,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ucid",
+      "domain": ".login.mediaset.it",
+      "path": "/",
+      "expires": 1824832105.065976,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".login.mediaset.it",
+      "path": "/",
+      "expires": 1809020905.065989,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "gig_bootstrap_3_Q2YR3-An4K_pslqTk0mxn7NXhotIqAGEa4K9oWWuhB8terc3cQk5GVAX3AIeVTlt",
+      "domain": ".mediaset.it",
+      "path": "/",
+      "expires": 1824832104,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "path": "/",
+      "expires": 1826992104.36064,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wtstp_sid",
+      "domain": ".mediaset.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "wtstp_eid",
+      "domain": ".mediaset.it",
+      "path": "/",
+      "expires": 1808848115,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "userContext",
+      "domain": "www.tgcom24.mediaset.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wtstp_rla",
+      "domain": ".mediaset.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

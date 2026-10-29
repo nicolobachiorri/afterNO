@@ -1,0 +1,66 @@
+{
+  "host": "www.subito.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 4,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.subito.it/",
+    "lastSeen": {
+      "016ab45ca1239c0bd0b9be27d6d3d049.safeframe.googlesyndication.com": 1793295837635,
+      "726e0883618cf809dfba61913fc94fc5.safeframe.googlesyndication.com": 1793295832299,
+      "api.privacy-center.org": 1793295832253,
+      "assets.subito.it": 1793295837406,
+      "cdn.jsdelivr.net": 1793295837435,
+      "cis.subito.it": 1793295824207,
+      "collector.subito.it": 1793295838415,
+      "ep1.adtrafficquality.google": 1793295838285,
+      "ep2.adtrafficquality.google": 1793295837749,
+      "hades.subito.it": 1793295837498,
+      "images.sbito.it": 1793295824570,
+      "pagead2.googlesyndication.com": 1793295837628,
+      "sdk.privacy-center.org": 1793295824620,
+      "securepubads.g.doubleclick.net": 1793295837613,
+      "tags.subito.it": 1793295837572,
+      "websdk.appsflyersdk.com": 1793295824723,
+      "www.googletagmanager.com": 1793295824869,
+      "www.subito.it": 1793295837367
+    }
+  },
+  "hostsConsidered": [
+    "016ab45ca1239c0bd0b9be27d6d3d049.safeframe.googlesyndication.com",
+    "726e0883618cf809dfba61913fc94fc5.safeframe.googlesyndication.com",
+    "api.privacy-center.org",
+    "assets.subito.it",
+    "cdn.jsdelivr.net",
+    "cis.subito.it",
+    "collector.subito.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "hades.subito.it",
+    "images.sbito.it",
+    "pagead2.googlesyndication.com",
+    "sdk.privacy-center.org",
+    "securepubads.g.doubleclick.net",
+    "tags.subito.it",
+    "websdk.appsflyersdk.com",
+    "www.googletagmanager.com",
+    "www.subito.it"
+  ]
+}

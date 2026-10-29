@@ -1,0 +1,47 @@
+{
+  "host": "www.mediaworld.it",
+  "choice": {
+    "at": 1793295738885,
+    "choice": "rejected",
+    "label": "Rifiuta tutti",
+    "site": "mediaworld.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta tutti"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.mediaworld.it/",
+    "lastSeen": {
+      "assets.mmsrg.com": 1793295744566,
+      "cdn.speedcurve.com": 1793295730025,
+      "cms-images.mmst.eu": 1793295744697,
+      "www.googletagmanager.com": 1793295731769,
+      "www.mediaworld.it": 1793295747560
+    }
+  },
+  "hostsConsidered": [
+    "assets.mmsrg.com",
+    "cms-images.mmst.eu",
+    "www.mediaworld.it"
+  ]
+}

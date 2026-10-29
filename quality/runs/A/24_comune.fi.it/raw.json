@@ -1,0 +1,33 @@
+{
+  "url": "https://comune.fi.it",
+  "final_url": "https://www.comune.firenze.it/",
+  "click_at_s": 27.59,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Rivedi le tue scelte sui cookie",
+    "Close",
+    "Pi\u00f9 informazioni",
+    "Accetta solo i selezionati",
+    "Accetta tutti",
+    "Impostazioni cookie"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "analytics.comune.fi.it": {
+      "first_s": 2.87,
+      "last_s": 2.87
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 2.87,
+      "last_s": 4.52
+    },
+    "comune.fi.it": {
+      "first_s": 2.02,
+      "last_s": 2.02
+    }
+  },
+  "cookies": []
+}

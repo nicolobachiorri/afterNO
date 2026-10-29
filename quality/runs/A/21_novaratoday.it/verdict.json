@@ -1,0 +1,68 @@
+{
+  "host": "www.novaratoday.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 5,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.novaratoday.it/",
+    "lastSeen": {
+      "abacus.jasoncameron.dev": 1793296301251,
+      "cdn.brandmetrics.com": 1793296301248,
+      "cdn.iubenda.com": 1793296304571,
+      "cdn.jsdelivr.net": 1793296301436,
+      "citynews-novaratoday.stgy.ovh": 1793296304920,
+      "citynews-today.stgy.ovh": 1793296301218,
+      "citynews.stgy.ovh": 1793296304920,
+      "cs.iubenda.com": 1793296302704,
+      "dl.dmp.citynews.ovh": 1793296303967,
+      "external.citynews.it": 1793296301250,
+      "idb.iubenda.com": 1793296304667,
+      "pagead2.googlesyndication.com": 1793296304601,
+      "region1.google-analytics.com": 1793296311856,
+      "sb.scorecardresearch.com": 1793296304700,
+      "securepubads.g.doubleclick.net": 1793296301762,
+      "www.citynews.it": 1793296304601,
+      "www.googletagmanager.com": 1793296304920,
+      "www.novaratoday.it": 1793296300715,
+      "www.today.it": 1793296301217
+    }
+  },
+  "hostsConsidered": [
+    "abacus.jasoncameron.dev",
+    "cdn.brandmetrics.com",
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "citynews-novaratoday.stgy.ovh",
+    "citynews-today.stgy.ovh",
+    "citynews.stgy.ovh",
+    "cs.iubenda.com",
+    "dl.dmp.citynews.ovh",
+    "external.citynews.it",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "www.citynews.it",
+    "www.googletagmanager.com",
+    "www.novaratoday.it",
+    "www.today.it"
+  ]
+}

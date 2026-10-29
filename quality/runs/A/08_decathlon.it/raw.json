@@ -1,0 +1,132 @@
+{
+  "url": "https://www.decathlon.it",
+  "final_url": "https://www.decathlon.it/",
+  "click_at_s": 11.88,
+  "reload_at_s": 16.88,
+  "reject": "button: 'Continua senza accettare \u2192' in main (normal click)",
+  "visible_buttons": [
+    "Continua senza accettare \u2192",
+    "i nostri 31 partner",
+    "Preferenze",
+    "Accetta tutto",
+    "Tutti gli sport",
+    "Uomo",
+    "Donna",
+    "Kids",
+    "Accessori",
+    "Alimentazione e cura",
+    "Servizi",
+    "Offerte",
+    "Club Aziende PA"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 1,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "api.privacy-center.org",
+    "contents.mediadecathlon.com",
+    "prod.transcript.decathlon.net",
+    "sdk.privacy-center.org",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "contents.mediadecathlon.com",
+    "prod.transcript.decathlon.net",
+    "sdk.privacy-center.org",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "api.privacy-center.org": {
+      "first_s": 11.93,
+      "last_s": 11.93
+    },
+    "contents.mediadecathlon.com": {
+      "first_s": 3.0,
+      "last_s": 17.47
+    },
+    "insights.v3.decathlon.net": {
+      "first_s": 4.77,
+      "last_s": 4.77
+    },
+    "prod.transcript.decathlon.net": {
+      "first_s": 3.0,
+      "last_s": 17.68
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 4.76,
+      "last_s": 17.64
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.71,
+      "last_s": 17.58
+    }
+  },
+  "cookies": [
+    {
+      "name": "AUTH_STATE",
+      "domain": "www.decathlon.it",
+      "path": "/",
+      "expires": 1794591937.57366,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dkt_ecom_user_temporary_id",
+      "domain": "www.decathlon.it",
+      "path": "/",
+      "expires": 1793382337.573855,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".www.decathlon.it",
+      "path": "/",
+      "expires": 1793297737.573892,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".www.decathlon.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".decathlon.it",
+      "path": "/",
+      "expires": 1809103546,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".decathlon.it",
+      "path": "/",
+      "expires": 1809103546,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "host": "www.comune.milano.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 2,
+      "names": [
+        "Adobe Audience Manager (demdex.net)",
+        "Adobe Advertising (everesttech.net)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShort",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 1,
+      "names": [
+        "Adobe Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.comune.milano.it/",
+    "lastSeen": {
+      "a0e0d4.emailsp.com": 1793296598626,
+      "adobedc.demdex.net": 1793296597872,
+      "assets.adobedtm.com": 1793296599215,
+      "cdn.cookielaw.org": 1793296599570,
+      "cdn.eu.pendo.io": 1793296598624,
+      "cm.everesttech.net": 1793296597871,
+      "comune.milano.it": 1793296596155,
+      "comunedimilano.demdex.net": 1793296597869,
+      "data.eu.pendo.io": 1793296600394,
+      "dpm.demdex.net": 1793296598810,
+      "fonts.gstatic.com": 1793296607362,
+      "geolocation.onetrust.com": 1793296597768,
+      "ingestion.webanalytics.italia.it": 1793296597543,
+      "www.comune.milano.it": 1793296601615,
+      "www.google.com": 1793296600562,
+      "www.gstatic.com": 1793296607362
+    }
+  },
+  "hostsConsidered": [
+    "a0e0d4.emailsp.com",
+    "adobedc.demdex.net",
+    "assets.adobedtm.com",
+    "cdn.cookielaw.org",
+    "cdn.eu.pendo.io",
+    "cm.everesttech.net",
+    "comune.milano.it",
+    "comunedimilano.demdex.net",
+    "data.eu.pendo.io",
+    "dpm.demdex.net",
+    "fonts.gstatic.com",
+    "geolocation.onetrust.com",
+    "ingestion.webanalytics.italia.it",
+    "www.comune.milano.it",
+    "www.google.com",
+    "www.gstatic.com"
+  ]
+}

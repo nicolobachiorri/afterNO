@@ -1,0 +1,84 @@
+{
+  "host": "www.unieuro.it",
+  "choice": {
+    "at": 1793295889918,
+    "choice": "rejected",
+    "label": "Consenti solo i cookie tecnici",
+    "site": "unieuro.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Consenti solo i cookie tecnici"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 6,
+      "names": [
+        "Dynatrace",
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.unieuro.it/online/",
+    "lastSeen": {
+      "api.feefo.com": 1793295881305,
+      "appleid.cdn-apple.com": 1793295880485,
+      "bff.unieuro.it": 1793295896099,
+      "cdn.cookielaw.org": 1793295895785,
+      "connect.facebook.net": 1793295882985,
+      "dcinfos-cache.abtasty.com": 1793295895606,
+      "firebase.googleapis.com": 1793295895362,
+      "firebaseinstallations.googleapis.com": 1793295882735,
+      "fonts.feefo.com": 1793295882743,
+      "fonts.googleapis.com": 1793295882323,
+      "gcp-eu-images.contentstack.com": 1793295900826,
+      "gtm.unieuro.it": 1793295895634,
+      "mediasgcp.unieuro.it": 1793295896105,
+      "pagead2.googlesyndication.com": 1793295895487,
+      "privacyportal-eu.onetrust.com": 1793295889936,
+      "region1.google-analytics.com": 1793295900823,
+      "register.feefo.com": 1793295882392,
+      "retail.googleapis.com": 1793295896261,
+      "try.abtasty.com": 1793295895606,
+      "unpkg.com": 1793295883788,
+      "www.googletagmanager.com": 1793295900994,
+      "www.unieuro.it": 1793295896510
+    }
+  },
+  "hostsConsidered": [
+    "bff.unieuro.it",
+    "cdn.cookielaw.org",
+    "dcinfos-cache.abtasty.com",
+    "firebase.googleapis.com",
+    "gcp-eu-images.contentstack.com",
+    "gtm.unieuro.it",
+    "mediasgcp.unieuro.it",
+    "pagead2.googlesyndication.com",
+    "privacyportal-eu.onetrust.com",
+    "region1.google-analytics.com",
+    "retail.googleapis.com",
+    "try.abtasty.com",
+    "www.googletagmanager.com",
+    "www.unieuro.it"
+  ]
+}

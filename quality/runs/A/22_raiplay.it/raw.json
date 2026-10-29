@@ -1,0 +1,111 @@
+{
+  "url": "https://www.raiplay.it",
+  "final_url": "https://www.raiplay.it/",
+  "click_at_s": 11.54,
+  "reload_at_s": 16.54,
+  "reject": "button: 'Continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "Continua senza accettare",
+    "Preferenze",
+    "Acconsento",
+    "ACCEDI",
+    "VAI ALLA DIRETTA",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "tcf": {
+    "cmpId": 297,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "ad.sxp.smartclip.net",
+    "analyticsehnwe.servicebus.windows.net",
+    "cdn-gl.imrworldwide.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "imasdk.googleapis.com",
+    "pbsuxsqgqucplzsfohnc3bdxaahwm1793296331.nuid.imrworldwide.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "stats.sxp.smartclip.net",
+    "wobcvnpm5extmvzbxijzz4thte3uq1793296326.nuid.imrworldwide.com",
+    "www.rai.it"
+  ],
+  "third_party_hosts_after_reload": [
+    "ad.sxp.smartclip.net",
+    "analyticsehnwe.servicebus.windows.net",
+    "cdn-gl.imrworldwide.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "imasdk.googleapis.com",
+    "pbsuxsqgqucplzsfohnc3bdxaahwm1793296331.nuid.imrworldwide.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "stats.sxp.smartclip.net",
+    "www.rai.it"
+  ],
+  "third_party_timeline": {
+    "ad.sxp.smartclip.net": {
+      "first_s": 13.74,
+      "last_s": 18.89
+    },
+    "analyticsehnwe.servicebus.windows.net": {
+      "first_s": 4.92,
+      "last_s": 16.97
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 11.52,
+      "last_s": 16.95
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.48,
+      "last_s": 16.8
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.48,
+      "last_s": 16.79
+    },
+    "imasdk.googleapis.com": {
+      "first_s": 2.32,
+      "last_s": 16.76
+    },
+    "pbsuxsqgqucplzsfohnc3bdxaahwm1793296331.nuid.imrworldwide.com": {
+      "first_s": 16.97,
+      "last_s": 16.97
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 11.44,
+      "last_s": 17.12
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 12.49,
+      "last_s": 18.96
+    },
+    "stats.sxp.smartclip.net": {
+      "first_s": 13.99,
+      "last_s": 18.99
+    },
+    "wobcvnpm5extmvzbxijzz4thte3uq1793296326.nuid.imrworldwide.com": {
+      "first_s": 12.49,
+      "last_s": 12.49
+    },
+    "www.rai.it": {
+      "first_s": 3.53,
+      "last_s": 16.81
+    }
+  },
+  "cookies": []
+}

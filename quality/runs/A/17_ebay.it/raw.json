@@ -1,0 +1,346 @@
+{
+  "url": "https://www.ebay.it",
+  "final_url": "https://www.ebay.it/",
+  "click_at_s": 12.15,
+  "reload_at_s": 17.16,
+  "reject": "button: 'Rifiuta tutto' in main (normal click)",
+  "visible_buttons": [
+    "Accetta tutto",
+    "Rifiuta tutto"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cas.avalon.perfdrive.com",
+    "fonts.gstatic.com",
+    "i.ebayimg.com",
+    "ir.ebaystatic.com",
+    "live.us.shoplive.cloud",
+    "monitor.ebay.com",
+    "rover.ebay.com",
+    "sherlock-events-sampler.ebay.com",
+    "svcs.ebay.com",
+    "unpkg.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cas.avalon.perfdrive.com",
+    "fonts.gstatic.com",
+    "i.ebayimg.com",
+    "ir.ebaystatic.com",
+    "live.us.shoplive.cloud",
+    "monitor.ebay.com",
+    "rover.ebay.com",
+    "sherlock-events-sampler.ebay.com",
+    "svcs.ebay.com",
+    "unpkg.com"
+  ],
+  "third_party_timeline": {
+    "cas.avalon.perfdrive.com": {
+      "first_s": 3.17,
+      "last_s": 17.67
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.52,
+      "last_s": 17.67
+    },
+    "i.ebayimg.com": {
+      "first_s": 3.38,
+      "last_s": 18.28
+    },
+    "ir.ebaystatic.com": {
+      "first_s": 2.66,
+      "last_s": 19.18
+    },
+    "live.us.shoplive.cloud": {
+      "first_s": 4.45,
+      "last_s": 28.25
+    },
+    "monitor.ebay.com": {
+      "first_s": 3.77,
+      "last_s": 18.39
+    },
+    "rover.ebay.com": {
+      "first_s": 4.07,
+      "last_s": 18.41
+    },
+    "sherlock-events-sampler.ebay.com": {
+      "first_s": 3.19,
+      "last_s": 19.25
+    },
+    "svcs.ebay.com": {
+      "first_s": 8.2,
+      "last_s": 22.66
+    },
+    "unpkg.com": {
+      "first_s": 3.77,
+      "last_s": 18.39
+    }
+  },
+  "cookies": [
+    {
+      "name": "s",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzma",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808848196.769086,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmb",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808848196.769103,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzme",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808848196.769145,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_so",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1793382580.813818,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__ssds",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808844595,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__ssuzjsr2",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808844595,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmaj2",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808844595,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmbj2",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808844595,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmlj2",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808844595,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".www.ebay.it",
+      "path": "/",
+      "expires": 1795888182,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ds2",
+      "domain": ".ebay.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ebay.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1793303383.594446,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ds2",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmcj2",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808844595,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmdj2",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808844595,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmfj2",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808844595,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ds2",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ebay.it",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "__uzmc",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808848196.769117,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmd",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808848196.769132,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmf",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1808848196.76916,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_s",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1795974597.011859,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1793303397.348296,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ebay",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dp1",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1827856202.355592,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "nonsession",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1827856202.355636,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "host": "www.giallozafferano.it",
+  "choice": {
+    "at": 1793295918077,
+    "choice": "rejected",
+    "label": "Continua senza accettare",
+    "site": "giallozafferano.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Continua senza accettare"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.giallozafferano.it/",
+    "lastSeen": {
+      "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app": 1793295909211,
+      "28e93d7072e831bb57a835e94238c9dd.safeframe.googlesyndication.com": 1793295926555,
+      "ads.eu.criteo.com": 1793295926568,
+      "b48a4a30fff659e89c9d1cecfbaa3ec9.safeframe.googlesyndication.com": 1793295919849,
+      "cat.nl3.eu.criteo.com": 1793295926936,
+      "cdn-gl.imrworldwide.com": 1793295923999,
+      "cdn.adkaora.space": 1793295924719,
+      "cdn.ampproject.org": 1793295920698,
+      "cdn.iubenda.com": 1793295910932,
+      "cdnjs.cloudflare.com": 1793295926982,
+      "client-side-metrics.nl3.eu.criteo.net": 1793295928037,
+      "cpl.iubenda.com": 1793295918144,
+      "cs.iubenda.com": 1793295910383,
+      "dafne.sirio.stbm.it": 1793295923659,
+      "ep1.adtrafficquality.google": 1793295926401,
+      "ep2.adtrafficquality.google": 1793295925873,
+      "fonts.googleapis.com": 1793295920698,
+      "fonts.gstatic.com": 1793295920795,
+      "fundingchoicesmessages.google.com": 1793295924073,
+      "idb.iubenda.com": 1793295924147,
+      "imageproxy.eu.criteo.net": 1793295927031,
+      "klzgfqqef38muvukhl0pdvkeuoaoq1793295923.nuid.imrworldwide.com": 1793295924106,
+      "mediasetitalia01.wt-eu02.net": 1793295924076,
+      "pagead2.googlesyndication.com": 1793295927819,
+      "pixel.adsafeprotected.com": 1793295925622,
+      "region1.google-analytics.com": 1793295929567,
+      "responder.wt-safetag.com": 1793295923858,
+      "rtb.fr3.eu.criteo.com": 1793295926565,
+      "sb.scorecardresearch.com": 1793295924149,
+      "secure-it.imrworldwide.com": 1793295926019,
+      "securepubads.g.doubleclick.net": 1793295925678,
+      "static.adsafeprotected.com": 1793295919257,
+      "static.cloudflareinsights.com": 1793295908911,
+      "static.criteo.net": 1793295927032,
+      "t0.gstatic.com": 1793295911208,
+      "tpc.googlesyndication.com": 1793295926569,
+      "voriveb2vbtjcl7hqxnrpddfzhizi1793295912.nuid.imrworldwide.com": 1793295912457,
+      "www.giallozafferano.it": 1793295928667,
+      "www.google.com": 1793295910973,
+      "www.googletagmanager.com": 1793295918762,
+      "www.gstatic.com": 1793295914484
+    }
+  },
+  "hostsConsidered": [
+    "28e93d7072e831bb57a835e94238c9dd.safeframe.googlesyndication.com",
+    "ads.eu.criteo.com",
+    "b48a4a30fff659e89c9d1cecfbaa3ec9.safeframe.googlesyndication.com",
+    "cat.nl3.eu.criteo.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.adkaora.space",
+    "cdn.ampproject.org",
+    "cdnjs.cloudflare.com",
+    "client-side-metrics.nl3.eu.criteo.net",
+    "cpl.iubenda.com",
+    "dafne.sirio.stbm.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "idb.iubenda.com",
+    "imageproxy.eu.criteo.net",
+    "klzgfqqef38muvukhl0pdvkeuoaoq1793295923.nuid.imrworldwide.com",
+    "mediasetitalia01.wt-eu02.net",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "region1.google-analytics.com",
+    "responder.wt-safetag.com",
+    "rtb.fr3.eu.criteo.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "static.criteo.net",
+    "tpc.googlesyndication.com",
+    "www.giallozafferano.it",
+    "www.googletagmanager.com"
+  ]
+}

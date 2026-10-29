@@ -1,0 +1,50 @@
+{
+  "host": "www.raiplay.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.raiplay.it/",
+    "lastSeen": {
+      "ad.sxp.smartclip.net": 1793296333610,
+      "analyticsehnwe.servicebus.windows.net": 1793296331693,
+      "cdn-gl.imrworldwide.com": 1793296331670,
+      "fonts.googleapis.com": 1793296318203,
+      "fonts.gstatic.com": 1793296318204,
+      "imasdk.googleapis.com": 1793296326288,
+      "pbsuxsqgqucplzsfohnc3bdxaahwm1793296331.nuid.imrworldwide.com": 1793296331692,
+      "prod.rai.harperfabric.com": 1793296331591,
+      "sb.scorecardresearch.com": 1793296331839,
+      "secure-it.imrworldwide.com": 1793296333687,
+      "stats.sxp.smartclip.net": 1793296333709,
+      "wobcvnpm5extmvzbxijzz4thte3uq1793296326.nuid.imrworldwide.com": 1793296327214,
+      "www.rai.it": 1793296318242,
+      "www.raiplay.it": 1793296331662
+    }
+  },
+  "hostsConsidered": [
+    "ad.sxp.smartclip.net",
+    "analyticsehnwe.servicebus.windows.net",
+    "cdn-gl.imrworldwide.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "imasdk.googleapis.com",
+    "pbsuxsqgqucplzsfohnc3bdxaahwm1793296331.nuid.imrworldwide.com",
+    "prod.rai.harperfabric.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "stats.sxp.smartclip.net",
+    "wobcvnpm5extmvzbxijzz4thte3uq1793296326.nuid.imrworldwide.com",
+    "www.rai.it",
+    "www.raiplay.it"
+  ]
+}

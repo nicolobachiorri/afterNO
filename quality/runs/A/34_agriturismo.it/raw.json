@@ -1,0 +1,228 @@
+{
+  "url": "https://www.agriturismo.it",
+  "final_url": "https://www.agriturismo.it/",
+  "click_at_s": 11.67,
+  "reload_at_s": 16.67,
+  "reject": "text: 'Continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "Il mio account",
+    "Scegli le date",
+    "Ospiti",
+    "Cerca",
+    "Impostazioni dei cookie",
+    "Ok"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn.hometogo.net",
+    "ev.hometogo.net",
+    "usage.trackjs.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.hometogo.net",
+    "ev.hometogo.net",
+    "usage.trackjs.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "cdn.hometogo.net": {
+      "first_s": 2.54,
+      "last_s": 17.31
+    },
+    "ev.hometogo.net": {
+      "first_s": 5.65,
+      "last_s": 17.62
+    },
+    "usage.trackjs.com": {
+      "first_s": 6.8,
+      "last_s": 17.45
+    },
+    "www.googletagmanager.com": {
+      "first_s": 7.29,
+      "last_s": 17.49
+    }
+  },
+  "cookies": [
+    {
+      "name": "wowref",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1809076630.574952,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sc",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1793298430.575047,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "c",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1824829030.575072,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "abr",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1824829030.575088,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "abhs",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1824829030.575105,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "abh",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1824829030.57512,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "abv",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1801072630.575137,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "abs",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1793298445.484547,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "meas",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1824829045.484562,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sid",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1793298445.484593,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".agriturismo.it",
+      "path": "/",
+      "expires": 1793298430.5752,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hometogo.net",
+      "path": "/",
+      "expires": 1793298431.333778,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "is_cookie_consent_enabled",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "isOldHTG",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_ses.e836",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1793298445,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sp",
+      "domain": "ev.hometogo.net",
+      "path": "/",
+      "expires": 1824832645.772553,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookie_consent",
+      "domain": ".agriturismo.it",
+      "path": "/",
+      "expires": 1824829039,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_id.e836",
+      "domain": "www.agriturismo.it",
+      "path": "/",
+      "expires": 1827856645.570364,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

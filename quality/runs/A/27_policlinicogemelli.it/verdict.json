@@ -1,0 +1,59 @@
+{
+  "host": "www.policlinicogemelli.it",
+  "choice": {
+    "at": 1793296455014,
+    "choice": "rejected",
+    "label": "Rifiuta tutto",
+    "site": "policlinicogemelli.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta tutto"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.policlinicogemelli.it/",
+    "lastSeen": {
+      "cdn.iubenda.com": 1793296444559,
+      "cpl.iubenda.com": 1793296455020,
+      "cs.iubenda.com": 1793296444719,
+      "csp.withgoogle.com": 1793296444843,
+      "fonts.googleapis.com": 1793296443487,
+      "fonts.gstatic.com": 1793296444850,
+      "idb.iubenda.com": 1793296460331,
+      "pagead2.googlesyndication.com": 1793296460215,
+      "region1.google-analytics.com": 1793296460228,
+      "www.google.com": 1793296460692,
+      "www.googletagmanager.com": 1793296444236,
+      "www.gstatic.com": 1793296460396,
+      "www.policlinicogemelli.it": 1793296460401
+    }
+  },
+  "hostsConsidered": [
+    "cpl.iubenda.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.policlinicogemelli.it"
+  ]
+}

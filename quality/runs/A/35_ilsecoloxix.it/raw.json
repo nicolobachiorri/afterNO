@@ -1,0 +1,143 @@
+{
+  "url": "https://www.ilsecoloxix.it",
+  "final_url": "https://www.ilsecoloxix.it/",
+  "click_at_s": 11.96,
+  "reload_at_s": 16.97,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "SEZIONI",
+    "Condividi",
+    "Preferenze cookie",
+    "Guarda questo video",
+    "Preferenze Cookie",
+    "\u00d7",
+    "terze parti",
+    "Scopri di pi\u00f9 e personalizza",
+    "Rifiuta",
+    "Accetta"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "djjxllwcjqhl56xadqajftrhqlcec1793296672.nuid.imrworldwide.com",
+    "idb.iubenda.com",
+    "region1.google-analytics.com",
+    "secure-it.imrworldwide.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "djjxllwcjqhl56xadqajftrhqlcec1793296672.nuid.imrworldwide.com",
+    "idb.iubenda.com",
+    "region1.google-analytics.com",
+    "secure-it.imrworldwide.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "afiqumsd7l3zjtf3gqfhjbfu7vofu1793296663.nuid.imrworldwide.com": {
+      "first_s": 7.73,
+      "last_s": 7.73
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 5.75,
+      "last_s": 17.32
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.53,
+      "last_s": 17.3
+    },
+    "cpl.iubenda.com": {
+      "first_s": 12.0,
+      "last_s": 12.0
+    },
+    "cs.iubenda.com": {
+      "first_s": 2.53,
+      "last_s": 17.27
+    },
+    "djjxllwcjqhl56xadqajftrhqlcec1793296672.nuid.imrworldwide.com": {
+      "first_s": 17.33,
+      "last_s": 17.33
+    },
+    "idb.iubenda.com": {
+      "first_s": 5.84,
+      "last_s": 17.4
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.64,
+      "last_s": 17.29
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 7.73,
+      "last_s": 19.34
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.53,
+      "last_s": 17.27
+    }
+  },
+  "cookies": [
+    {
+      "name": "_iub_cs-60881173",
+      "domain": ".iubenda.com",
+      "path": "/",
+      "expires": 1824832672,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-60881173",
+      "domain": ".ilsecoloxix.it",
+      "path": "/",
+      "expires": 1824832667,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".ilsecoloxix.it",
+      "path": "/",
+      "expires": 1824768000,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-60881173-granular",
+      "domain": ".ilsecoloxix.it",
+      "path": "/",
+      "expires": 1824832672,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".ilsecoloxix.it",
+      "path": "/",
+      "expires": 1824832672,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

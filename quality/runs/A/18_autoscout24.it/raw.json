@@ -1,0 +1,289 @@
+{
+  "url": "https://www.autoscout24.it",
+  "final_url": "https://www.autoscout24.it/",
+  "click_at_s": 26.91,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Ricerca",
+    "Vendi",
+    "Magazine & Informazioni",
+    "Login",
+    "qui",
+    "Impostazioni di privacy",
+    "Accetta tutto",
+    "Auto",
+    "Moto",
+    "Camper",
+    "Camion",
+    "Rimorchi",
+    "Marca e modello",
+    "Vendi a un rivenditore",
+    "Pubblica annuncio"
+  ],
+  "tcf": {
+    "cmpId": 397,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "bat.bing.com": {
+      "first_s": 3.86,
+      "last_s": 4.41
+    },
+    "cms-assets.autoscout24.com": {
+      "first_s": 2.37,
+      "last_s": 2.38
+    },
+    "connect.facebook.net": {
+      "first_s": 3.86,
+      "last_s": 4.22
+    },
+    "e.clarity.ms": {
+      "first_s": 5.24,
+      "last_s": 5.24
+    },
+    "euob.seroundprince.com": {
+      "first_s": 3.11,
+      "last_s": 3.11
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 4.08,
+      "last_s": 4.08
+    },
+    "insight.adsrvr.org": {
+      "first_s": 4.08,
+      "last_s": 5.09
+    },
+    "js.adsrvr.org": {
+      "first_s": 3.86,
+      "last_s": 4.49
+    },
+    "listing-search.api.autoscout24.com": {
+      "first_s": 3.15,
+      "last_s": 3.15
+    },
+    "match.adsrvr.org": {
+      "first_s": 4.38,
+      "last_s": 4.38
+    },
+    "obseu.seroundprince.com": {
+      "first_s": 3.47,
+      "last_s": 3.86
+    },
+    "prod.pictures.autoscout24.net": {
+      "first_s": 3.04,
+      "last_s": 3.04
+    },
+    "scripts.clarity.ms": {
+      "first_s": 4.77,
+      "last_s": 4.77
+    },
+    "showcar-assets-bucket.s3-eu-west-1.amazonaws.com": {
+      "first_s": 2.36,
+      "last_s": 2.36
+    },
+    "www.autoscout24.de": {
+      "first_s": 3.11,
+      "last_s": 3.11
+    },
+    "www.clarity.ms": {
+      "first_s": 4.41,
+      "last_s": 4.41
+    },
+    "www.facebook.com": {
+      "first_s": 4.4,
+      "last_s": 4.4
+    },
+    "www.google.com": {
+      "first_s": 4.38,
+      "last_s": 4.38
+    },
+    "www.google.it": {
+      "first_s": 4.64,
+      "last_s": 4.64
+    },
+    "www.googleadservices.com": {
+      "first_s": 3.86,
+      "last_s": 3.86
+    }
+  },
+  "cookies": [
+    {
+      "name": "culture",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1824832209.282302,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "as24Visitor",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1824832209.711907,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "disable-cmp",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1824832209.282659,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "disable-cmp-ca",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1824832209.282711,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_cq_duid",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1801180210,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cq_suid",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cq_session",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1827856210.416718,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cg_uuid",
+      "domain": "obseu.seroundprince.com",
+      "path": "/",
+      "expires": 1822326610.805271,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cq_s",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1793901010,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cq_pxg",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1793382610,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TDID",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1824832211.430019,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1793297111.323042,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1801072211,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_uetsid",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1793382611,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_uetvid",
+      "domain": ".autoscout24.it",
+      "path": "/",
+      "expires": 1826992211,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TDCPM",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1824832211.430081,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "MUID",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1826992211.49824,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

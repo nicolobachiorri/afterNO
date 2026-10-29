@@ -1,0 +1,297 @@
+{
+  "url": "https://www.unieuro.it",
+  "final_url": "https://www.unieuro.it/online/",
+  "click_at_s": 12.89,
+  "reload_at_s": 17.9,
+  "reject": "button: 'Consenti solo i cookie tecnici' in main (normal click)",
+  "visible_buttons": [
+    "vai al contenuto principale",
+    "Configura i Cookie",
+    "Consenti solo i cookie tecnici",
+    "Accetta tutti i cookie"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "api.feefo.com",
+    "appleid.cdn-apple.com",
+    "cdn.cookielaw.org",
+    "connect.facebook.net",
+    "dcinfos-cache.abtasty.com",
+    "firebase.googleapis.com",
+    "fonts.feefo.com",
+    "fonts.googleapis.com",
+    "gcp-eu-images.contentstack.com",
+    "pagead2.googlesyndication.com",
+    "privacyportal-eu.onetrust.com",
+    "region1.google-analytics.com",
+    "register.feefo.com",
+    "retail.googleapis.com",
+    "try.abtasty.com",
+    "unpkg.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "api.feefo.com",
+    "appleid.cdn-apple.com",
+    "cdn.cookielaw.org",
+    "connect.facebook.net",
+    "dcinfos-cache.abtasty.com",
+    "firebase.googleapis.com",
+    "fonts.feefo.com",
+    "fonts.googleapis.com",
+    "gcp-eu-images.contentstack.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "register.feefo.com",
+    "retail.googleapis.com",
+    "try.abtasty.com",
+    "unpkg.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "api.feefo.com": {
+      "first_s": 3.81,
+      "last_s": 18.08
+    },
+    "appleid.cdn-apple.com": {
+      "first_s": 3.43,
+      "last_s": 18.06
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 5.56,
+      "last_s": 18.72
+    },
+    "connect.facebook.net": {
+      "first_s": 5.37,
+      "last_s": 18.32
+    },
+    "dcinfos-cache.abtasty.com": {
+      "first_s": 6.05,
+      "last_s": 18.55
+    },
+    "firebase.googleapis.com": {
+      "first_s": 5.46,
+      "last_s": 18.3
+    },
+    "firebaseinstallations.googleapis.com": {
+      "first_s": 5.67,
+      "last_s": 5.67
+    },
+    "fonts.feefo.com": {
+      "first_s": 5.68,
+      "last_s": 18.14
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.43,
+      "last_s": 18.26
+    },
+    "gcp-eu-images.contentstack.com": {
+      "first_s": 3.43,
+      "last_s": 23.77
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 6.76,
+      "last_s": 18.43
+    },
+    "privacyportal-eu.onetrust.com": {
+      "first_s": 12.89,
+      "last_s": 12.89
+    },
+    "region1.google-analytics.com": {
+      "first_s": 6.29,
+      "last_s": 23.76
+    },
+    "register.feefo.com": {
+      "first_s": 4.25,
+      "last_s": 18.1
+    },
+    "retail.googleapis.com": {
+      "first_s": 6.76,
+      "last_s": 19.2
+    },
+    "try.abtasty.com": {
+      "first_s": 5.56,
+      "last_s": 18.55
+    },
+    "unpkg.com": {
+      "first_s": 6.76,
+      "last_s": 18.36
+    },
+    "www.googletagmanager.com": {
+      "first_s": 5.82,
+      "last_s": 23.93
+    }
+  },
+  "cookies": [
+    {
+      "name": "dtCookiejxdl3r8w",
+      "domain": ".unieuro.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TS01dc4fc6",
+      "domain": "www.unieuro.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TS01b644a3",
+      "domain": ".unieuro.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".feefo.com",
+      "path": "/",
+      "expires": 1793297681.104542,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "citrusId",
+      "domain": ".www.unieuro.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "YWNjZXNzX3Rva2Vu",
+      "domain": ".www.unieuro.it",
+      "path": "/",
+      "expires": 1793378997,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "expires_in",
+      "domain": ".www.unieuro.it",
+      "path": "/",
+      "expires": 1793378997,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "preLoginVisitedUrl",
+      "domain": ".www.unieuro.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".unieuro.it",
+      "path": "/",
+      "expires": 1827855895.818452,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cart_guid",
+      "domain": ".www.unieuro.it",
+      "path": "/",
+      "expires": 1827855883.488316,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FPID",
+      "domain": ".unieuro.it",
+      "path": "/",
+      "expires": 1827855901.012198,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FPLC",
+      "domain": ".unieuro.it",
+      "path": "/",
+      "expires": 1793367884.62917,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".unieuro.it",
+      "path": "/",
+      "expires": 1808847889,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OClmoOot",
+      "domain": "www.unieuro.it",
+      "path": "/",
+      "expires": 1827855895.208644,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".unieuro.it",
+      "path": "/",
+      "expires": 1808847895,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_JVK52D6MBH",
+      "domain": ".unieuro.it",
+      "path": "/",
+      "expires": 1827855895.818232,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_9ME2EJF5E6",
+      "domain": ".unieuro.it",
+      "path": "/",
+      "expires": 1827855900.489921,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

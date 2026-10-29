@@ -1,0 +1,40 @@
+{
+  "host": "www.aranzulla.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.aranzulla.it/",
+    "lastSeen": {
+      "cdn.confiant-integrations.net": 1793296021785,
+      "cdn.iubenda.com": 1793296022804,
+      "cs.iubenda.com": 1793296022488,
+      "idb.iubenda.com": 1793296022900,
+      "pagead2.googlesyndication.com": 1793296022387,
+      "region1.google-analytics.com": 1793296022383,
+      "securepubads.g.doubleclick.net": 1793296021551,
+      "www.aranzulla.it": 1793296022876,
+      "www.googletagmanager.com": 1793296021340
+    }
+  },
+  "hostsConsidered": [
+    "cdn.confiant-integrations.net",
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "securepubads.g.doubleclick.net",
+    "www.aranzulla.it",
+    "www.googletagmanager.com"
+  ]
+}

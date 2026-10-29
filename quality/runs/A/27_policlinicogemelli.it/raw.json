@@ -1,0 +1,133 @@
+{
+  "url": "https://www.policlinicogemelli.it",
+  "final_url": "https://www.policlinicogemelli.it/",
+  "click_at_s": 14.02,
+  "reload_at_s": 19.02,
+  "reject": "button: 'Rifiuta tutto' in main (js click)",
+  "visible_buttons": [
+    "Avvia la ricerca",
+    "X",
+    "cookie policy",
+    "Scopri di pi\u00f9",
+    "Rifiuta tutto",
+    "Accetta tutto"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn.iubenda.com",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ],
+  "third_party_timeline": {
+    "cdn.iubenda.com": {
+      "first_s": 3.25,
+      "last_s": 19.22
+    },
+    "cpl.iubenda.com": {
+      "first_s": 14.03,
+      "last_s": 14.03
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.72,
+      "last_s": 19.23
+    },
+    "csp.withgoogle.com": {
+      "first_s": 3.84,
+      "last_s": 3.85
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.35,
+      "last_s": 19.21
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.7,
+      "last_s": 19.39
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.93,
+      "last_s": 19.34
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.25,
+      "last_s": 19.22
+    },
+    "region1.google-analytics.com": {
+      "first_s": 19.23,
+      "last_s": 19.23
+    },
+    "www.google.com": {
+      "first_s": 2.37,
+      "last_s": 19.7
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.67,
+      "last_s": 19.22
+    },
+    "www.gstatic.com": {
+      "first_s": 2.88,
+      "last_s": 19.4
+    }
+  },
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1808848460.680577,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pum-66055",
+      "domain": "www.policlinicogemelli.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-19638392",
+      "domain": ".policlinicogemelli.it",
+      "path": "/",
+      "expires": 1824832455,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".policlinicogemelli.it",
+      "path": "/",
+      "expires": 1824832460,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

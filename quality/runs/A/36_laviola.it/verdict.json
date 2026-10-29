@@ -1,0 +1,105 @@
+{
+  "host": "www.laviola.it",
+  "choice": {
+    "at": 1793296698033,
+    "choice": "rejected",
+    "label": "NON ACCETTO",
+    "site": "laviola.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "NON ACCETTO"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyPartitioned",
+      "count": 1,
+      "names": [
+        "Youtube (youtube.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 1,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.laviola.it/",
+    "lastSeen": {
+      "4b04e501e387af8bc305ab0ba04372e7.safeframe.googlesyndication.com": 1793296691111,
+      "api.cmp.inmobi.com": 1793296698088,
+      "cabc624726c05fb8ef01ebe2c3fdadd4.safeframe.googlesyndication.com": 1793296703891,
+      "cdn.ampproject.org": 1793296703917,
+      "cdn.laviola.it": 1793296704255,
+      "cmp.inmobi.com": 1793296703306,
+      "code.jquery.com": 1793296703225,
+      "crests.football-data.org": 1793296703225,
+      "ep1.adtrafficquality.google": 1793296704991,
+      "ep2.adtrafficquality.google": 1793296704470,
+      "fonts.googleapis.com": 1793296703217,
+      "fonts.gstatic.com": 1793296690630,
+      "googleads.g.doubleclick.net": 1793296704163,
+      "i.ytimg.com": 1793296705142,
+      "jnn-pa.googleapis.com": 1793296703940,
+      "pagead2.googlesyndication.com": 1793296709377,
+      "region1.google-analytics.com": 1793296704627,
+      "rr2---sn-fpoq-ca9l.googlevideo.com": 1793296712158,
+      "securepubads.g.doubleclick.net": 1793296703463,
+      "stackpath.bootstrapcdn.com": 1793296703261,
+      "static.doubleclick.net": 1793296689677,
+      "tpc.googlesyndication.com": 1793296709314,
+      "visit-server.inmobi-choice.io": 1793296687987,
+      "www.flashscore.com": 1793296703219,
+      "www.google.com": 1793296689711,
+      "www.googletagmanager.com": 1793296703291,
+      "www.gstatic.com": 1793296690153,
+      "www.laviola.it": 1793296703294,
+      "www.youtube.com": 1793296707633,
+      "yt3.ggpht.com": 1793296705142
+    }
+  },
+  "hostsConsidered": [
+    "api.cmp.inmobi.com",
+    "cabc624726c05fb8ef01ebe2c3fdadd4.safeframe.googlesyndication.com",
+    "cdn.ampproject.org",
+    "cdn.laviola.it",
+    "cmp.inmobi.com",
+    "code.jquery.com",
+    "crests.football-data.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "googleads.g.doubleclick.net",
+    "i.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "rr2---sn-fpoq-ca9l.googlevideo.com",
+    "securepubads.g.doubleclick.net",
+    "stackpath.bootstrapcdn.com",
+    "tpc.googlesyndication.com",
+    "www.flashscore.com",
+    "www.googletagmanager.com",
+    "www.laviola.it",
+    "www.youtube.com",
+    "yt3.ggpht.com"
+  ]
+}

@@ -1,0 +1,668 @@
+{
+  "url": "https://www.fanpage.it",
+  "final_url": "https://www.fanpage.it/",
+  "click_at_s": 10.97,
+  "reload_at_s": 15.97,
+  "reject": "button: 'CONTINUA SENZA ACCETTARE' in main (normal click)",
+  "visible_buttons": [
+    "CONTINUA SENZA ACCETTARE",
+    "ACCETTA",
+    "PERSONALIZZA LE OPZIONI"
+  ],
+  "tcf": {
+    "cmpId": 58,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "5eedbbf8650b3ff910f8b1cf5561d5db.safeframe.googlesyndication.com",
+    "7c9181c29c67f64a530af36a4b84623d.safeframe.googlesyndication.com",
+    "abtest.ciaopeople.it",
+    "ads.pubmatic.com",
+    "api.cxense.com",
+    "api.id5-sync.com",
+    "apps.smartadserver.com",
+    "bid.missena.io",
+    "c.blendee.com",
+    "capig.stape.host",
+    "cdn-gl.imrworldwide.com",
+    "cdn.adsafeprotected.com",
+    "cdn.brandmetrics.com",
+    "cdn.cxense.com",
+    "cdn.jsdelivr.net",
+    "cdn.taboola.com",
+    "cmp22.ciaopeople.it",
+    "comcluster.cxense.com",
+    "connect.facebook.net",
+    "csync-global.smartadserver.com",
+    "d1vvp9ihshjy3m.cloudfront.net",
+    "dayjlzv1ljqs2.cloudfront.net",
+    "did.blendee.com",
+    "direct.adsrvr.org",
+    "display.bidder.taboola.com",
+    "elb.the-ozone-project.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "eus.rubiconproject.com",
+    "fastlane.rubiconproject.com",
+    "geo.privacymanager.io",
+    "gum.criteo.com",
+    "hbopenbid.pubmatic.com",
+    "htlb.casalemedia.com",
+    "i.connectad.io",
+    "ib.adnxs-simple.com",
+    "image6.pubmatic.com",
+    "invstatic101.creativecdn.com",
+    "js-sec.indexww.com",
+    "launchpad-wrapper.privacymanager.io",
+    "launchpad.privacymanager.io",
+    "match.adsrvr.org",
+    "o.clickiocdn.com",
+    "pagead2.googlesyndication.com",
+    "pajhn4bld5alyae5uppfibkmjtxvr1793295810.nuid.imrworldwide.com",
+    "pbjs.mobkoi.com",
+    "pixel.adsafeprotected.com",
+    "prebid.a-mo.net",
+    "px.ads.linkedin.com",
+    "region1.google-analytics.com",
+    "s.seedtag.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "ssb-global.smartadserver.com",
+    "ssum-sec.casalemedia.com",
+    "static-cmp22.ciaopeople.it",
+    "static.cloudflareinsights.com",
+    "static.criteo.net",
+    "staticfanpage.akamaized.net",
+    "sync.connectad.io",
+    "sync.missena.io",
+    "tags.crwdcntrl.net",
+    "token.rubiconproject.com",
+    "tpc.googlesyndication.com",
+    "trc.taboola.com",
+    "trz.neodatagroup.com",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "youmedia.it"
+  ],
+  "third_party_hosts_after_reload": [
+    "5eedbbf8650b3ff910f8b1cf5561d5db.safeframe.googlesyndication.com",
+    "abtest.ciaopeople.it",
+    "ads.pubmatic.com",
+    "api.cxense.com",
+    "api.id5-sync.com",
+    "apps.smartadserver.com",
+    "bid.missena.io",
+    "c.blendee.com",
+    "capig.stape.host",
+    "cdn-gl.imrworldwide.com",
+    "cdn.adsafeprotected.com",
+    "cdn.brandmetrics.com",
+    "cdn.cxense.com",
+    "cdn.jsdelivr.net",
+    "cdn.taboola.com",
+    "comcluster.cxense.com",
+    "connect.facebook.net",
+    "csync-global.smartadserver.com",
+    "d1vvp9ihshjy3m.cloudfront.net",
+    "dayjlzv1ljqs2.cloudfront.net",
+    "did.blendee.com",
+    "direct.adsrvr.org",
+    "display.bidder.taboola.com",
+    "elb.the-ozone-project.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "eus.rubiconproject.com",
+    "fastlane.rubiconproject.com",
+    "geo.privacymanager.io",
+    "hbopenbid.pubmatic.com",
+    "htlb.casalemedia.com",
+    "i.connectad.io",
+    "ib.adnxs-simple.com",
+    "js-sec.indexww.com",
+    "launchpad-wrapper.privacymanager.io",
+    "launchpad.privacymanager.io",
+    "match.adsrvr.org",
+    "o.clickiocdn.com",
+    "pagead2.googlesyndication.com",
+    "pajhn4bld5alyae5uppfibkmjtxvr1793295810.nuid.imrworldwide.com",
+    "pbjs.mobkoi.com",
+    "pixel.adsafeprotected.com",
+    "prebid.a-mo.net",
+    "px.ads.linkedin.com",
+    "region1.google-analytics.com",
+    "s.seedtag.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "ssb-global.smartadserver.com",
+    "ssum-sec.casalemedia.com",
+    "static-cmp22.ciaopeople.it",
+    "static.cloudflareinsights.com",
+    "staticfanpage.akamaized.net",
+    "sync.connectad.io",
+    "sync.missena.io",
+    "token.rubiconproject.com",
+    "tpc.googlesyndication.com",
+    "trc.taboola.com",
+    "trz.neodatagroup.com",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "youmedia.it"
+  ],
+  "third_party_timeline": {
+    "5eedbbf8650b3ff910f8b1cf5561d5db.safeframe.googlesyndication.com": {
+      "first_s": 16.92,
+      "last_s": 16.92
+    },
+    "7c9181c29c67f64a530af36a4b84623d.safeframe.googlesyndication.com": {
+      "first_s": 11.07,
+      "last_s": 11.07
+    },
+    "abtest.ciaopeople.it": {
+      "first_s": 2.62,
+      "last_s": 16.12
+    },
+    "ads.pubmatic.com": {
+      "first_s": 7.73,
+      "last_s": 19.93
+    },
+    "api.cxense.com": {
+      "first_s": 3.44,
+      "last_s": 16.3
+    },
+    "api.id5-sync.com": {
+      "first_s": 4.07,
+      "last_s": 16.9
+    },
+    "apps.smartadserver.com": {
+      "first_s": 7.74,
+      "last_s": 19.94
+    },
+    "bid.missena.io": {
+      "first_s": 4.07,
+      "last_s": 16.41
+    },
+    "c.blendee.com": {
+      "first_s": 16.5,
+      "last_s": 17.32
+    },
+    "capig.stape.host": {
+      "first_s": 11.51,
+      "last_s": 16.33
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 3.13,
+      "last_s": 16.35
+    },
+    "cdn.adsafeprotected.com": {
+      "first_s": 2.62,
+      "last_s": 16.13
+    },
+    "cdn.brandmetrics.com": {
+      "first_s": 11.03,
+      "last_s": 16.37
+    },
+    "cdn.cxense.com": {
+      "first_s": 3.13,
+      "last_s": 16.23
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.53,
+      "last_s": 16.4
+    },
+    "cdn.taboola.com": {
+      "first_s": 7.73,
+      "last_s": 20.01
+    },
+    "cmp22.ciaopeople.it": {
+      "first_s": 11.02,
+      "last_s": 11.02
+    },
+    "comcluster.cxense.com": {
+      "first_s": 3.44,
+      "last_s": 16.3
+    },
+    "connect.facebook.net": {
+      "first_s": 11.03,
+      "last_s": 16.45
+    },
+    "csync-eu.smartadserver.com": {
+      "first_s": 8.24,
+      "last_s": 8.24
+    },
+    "csync-global.smartadserver.com": {
+      "first_s": 8.04,
+      "last_s": 19.95
+    },
+    "d1vvp9ihshjy3m.cloudfront.net": {
+      "first_s": 3.89,
+      "last_s": 16.37
+    },
+    "dayjlzv1ljqs2.cloudfront.net": {
+      "first_s": 3.4,
+      "last_s": 16.35
+    },
+    "did.blendee.com": {
+      "first_s": 16.82,
+      "last_s": 17.13
+    },
+    "direct.adsrvr.org": {
+      "first_s": 4.07,
+      "last_s": 16.41
+    },
+    "display.bidder.taboola.com": {
+      "first_s": 4.08,
+      "last_s": 16.41
+    },
+    "elb.the-ozone-project.com": {
+      "first_s": 4.08,
+      "last_s": 20.04
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 11.04,
+      "last_s": 17.58
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 11.27,
+      "last_s": 17.05
+    },
+    "eus.rubiconproject.com": {
+      "first_s": 7.75,
+      "last_s": 20.0
+    },
+    "fastlane.rubiconproject.com": {
+      "first_s": 4.07,
+      "last_s": 16.4
+    },
+    "geo.privacymanager.io": {
+      "first_s": 3.34,
+      "last_s": 16.27
+    },
+    "gum.criteo.com": {
+      "first_s": 11.35,
+      "last_s": 11.35
+    },
+    "hbopenbid.pubmatic.com": {
+      "first_s": 4.08,
+      "last_s": 16.41
+    },
+    "htlb.casalemedia.com": {
+      "first_s": 4.08,
+      "last_s": 16.41
+    },
+    "i.connectad.io": {
+      "first_s": 4.08,
+      "last_s": 16.41
+    },
+    "ib.adnxs-simple.com": {
+      "first_s": 4.07,
+      "last_s": 16.4
+    },
+    "id.cxense.com": {
+      "first_s": 3.44,
+      "last_s": 3.44
+    },
+    "image6.pubmatic.com": {
+      "first_s": 11.69,
+      "last_s": 11.69
+    },
+    "invstatic101.creativecdn.com": {
+      "first_s": 11.03,
+      "last_s": 11.03
+    },
+    "js-sec.indexww.com": {
+      "first_s": 7.75,
+      "last_s": 19.92
+    },
+    "launchpad-wrapper.privacymanager.io": {
+      "first_s": 3.13,
+      "last_s": 16.16
+    },
+    "launchpad.privacymanager.io": {
+      "first_s": 3.13,
+      "last_s": 16.16
+    },
+    "lf51toghzz4voemdopbq4reyrc9ua1793295797.nuid.imrworldwide.com": {
+      "first_s": 3.54,
+      "last_s": 3.54
+    },
+    "match.adsrvr.org": {
+      "first_s": 7.76,
+      "last_s": 19.94
+    },
+    "o.clickiocdn.com": {
+      "first_s": 4.08,
+      "last_s": 19.91
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.92,
+      "last_s": 17.35
+    },
+    "pajhn4bld5alyae5uppfibkmjtxvr1793295810.nuid.imrworldwide.com": {
+      "first_s": 16.36,
+      "last_s": 16.36
+    },
+    "pbjs.mobkoi.com": {
+      "first_s": 4.08,
+      "last_s": 16.41
+    },
+    "pixel.adsafeprotected.com": {
+      "first_s": 4.72,
+      "last_s": 18.9
+    },
+    "prebid.a-mo.net": {
+      "first_s": 4.08,
+      "last_s": 19.93
+    },
+    "px.ads.linkedin.com": {
+      "first_s": 7.76,
+      "last_s": 19.94
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.26,
+      "last_s": 21.27
+    },
+    "s.seedtag.com": {
+      "first_s": 4.07,
+      "last_s": 16.4
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 11.03,
+      "last_s": 16.42
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 3.54,
+      "last_s": 18.37
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.62,
+      "last_s": 16.37
+    },
+    "ssb-global.smartadserver.com": {
+      "first_s": 4.07,
+      "last_s": 16.41
+    },
+    "ssum-sec.casalemedia.com": {
+      "first_s": 7.96,
+      "last_s": 19.95
+    },
+    "static-cmp22.ciaopeople.it": {
+      "first_s": 2.62,
+      "last_s": 16.27
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 7.94,
+      "last_s": 20.04
+    },
+    "static.criteo.net": {
+      "first_s": 11.03,
+      "last_s": 11.03
+    },
+    "staticfanpage.akamaized.net": {
+      "first_s": 2.65,
+      "last_s": 16.13
+    },
+    "storage-fanpage.ciaopeople.it": {
+      "first_s": 3.05,
+      "last_s": 3.23
+    },
+    "sync.connectad.io": {
+      "first_s": 7.74,
+      "last_s": 19.93
+    },
+    "sync.missena.io": {
+      "first_s": 7.74,
+      "last_s": 19.91
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 11.03,
+      "last_s": 11.03
+    },
+    "token.rubiconproject.com": {
+      "first_s": 8.04,
+      "last_s": 20.01
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 11.77,
+      "last_s": 17.34
+    },
+    "trc.taboola.com": {
+      "first_s": 7.93,
+      "last_s": 20.01
+    },
+    "trz.neodatagroup.com": {
+      "first_s": 17.44,
+      "last_s": 17.71
+    },
+    "www.facebook.com": {
+      "first_s": 11.51,
+      "last_s": 16.46
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.91,
+      "last_s": 16.13
+    },
+    "youmedia.it": {
+      "first_s": 3.12,
+      "last_s": 16.15
+    }
+  },
+  "cookies": [
+    {
+      "name": "cee",
+      "domain": ".capig.stape.host",
+      "path": "/events/f3653e1219dae288fbc8df3943799ac2b51af505dd2c081ae23c4583f649b1d0",
+      "expires": 1801071805.614696,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1827855809.978566,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pctx",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1827423809,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pcid",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1827423809,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cX_P",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1827423810,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cX_G",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1827423810,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pubcid",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1824831804,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1824831800.917315,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1808847800.917362,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793382200.917382,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793297601.917405,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pubcid_cst",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1824831804,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1801071810,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1808847804,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "fp_lpsnu",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1827855805.662977,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "devid",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1827855805.66556,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "gckp",
+      "domain": ".cxense.com",
+      "path": "/",
+      "expires": 1824831810.101129,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "fp_npv",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1793297009,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "path": "/",
+      "expires": 1826991810.158049,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_QE4WQDQJ7S",
+      "domain": ".fanpage.it",
+      "path": "/",
+      "expires": 1827855810.219884,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bldid",
+      "domain": ".blendee.com",
+      "path": "/",
+      "expires": 1824768000,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

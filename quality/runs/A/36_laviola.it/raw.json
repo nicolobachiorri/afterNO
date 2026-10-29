@@ -1,0 +1,328 @@
+{
+  "url": "https://www.laviola.it",
+  "final_url": "https://www.laviola.it/",
+  "click_at_s": 14.84,
+  "reload_at_s": 19.84,
+  "reject": "button: '' in main (normal click)",
+  "visible_buttons": [
+    "PI\u00d9 OPZIONI",
+    "ACCETTO",
+    "\u2715",
+    "\u25c0",
+    "\u25b6",
+    "ALLOW COOKIES"
+  ],
+  "tcf": {
+    "cmpId": 10,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "api.cmp.inmobi.com",
+    "cabc624726c05fb8ef01ebe2c3fdadd4.safeframe.googlesyndication.com",
+    "cdn.ampproject.org",
+    "cmp.inmobi.com",
+    "code.jquery.com",
+    "crests.football-data.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "googleads.g.doubleclick.net",
+    "i.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "rr2---sn-fpoq-ca9l.googlevideo.com",
+    "securepubads.g.doubleclick.net",
+    "stackpath.bootstrapcdn.com",
+    "static.doubleclick.net",
+    "tpc.googlesyndication.com",
+    "www.flashscore.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.youtube.com",
+    "yt3.ggpht.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cabc624726c05fb8ef01ebe2c3fdadd4.safeframe.googlesyndication.com",
+    "cdn.ampproject.org",
+    "cmp.inmobi.com",
+    "code.jquery.com",
+    "crests.football-data.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "googleads.g.doubleclick.net",
+    "i.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "rr2---sn-fpoq-ca9l.googlevideo.com",
+    "securepubads.g.doubleclick.net",
+    "stackpath.bootstrapcdn.com",
+    "static.doubleclick.net",
+    "tpc.googlesyndication.com",
+    "www.flashscore.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.youtube.com",
+    "yt3.ggpht.com"
+  ],
+  "third_party_timeline": {
+    "4b04e501e387af8bc305ab0ba04372e7.safeframe.googlesyndication.com": {
+      "first_s": 7.91,
+      "last_s": 7.91
+    },
+    "api.cmp.inmobi.com": {
+      "first_s": 5.04,
+      "last_s": 14.89
+    },
+    "cabc624726c05fb8ef01ebe2c3fdadd4.safeframe.googlesyndication.com": {
+      "first_s": 20.7,
+      "last_s": 20.7
+    },
+    "cdn.ampproject.org": {
+      "first_s": 2.94,
+      "last_s": 20.72
+    },
+    "cmp.inmobi.com": {
+      "first_s": 2.83,
+      "last_s": 20.11
+    },
+    "code.jquery.com": {
+      "first_s": 3.23,
+      "last_s": 20.04
+    },
+    "crests.football-data.org": {
+      "first_s": 3.23,
+      "last_s": 20.04
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 14.9,
+      "last_s": 21.79
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 15.17,
+      "last_s": 21.27
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.64,
+      "last_s": 20.02
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.26,
+      "last_s": 20.52
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 6.48,
+      "last_s": 20.97
+    },
+    "i.ytimg.com": {
+      "first_s": 6.95,
+      "last_s": 21.95
+    },
+    "jnn-pa.googleapis.com": {
+      "first_s": 6.78,
+      "last_s": 20.74
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.94,
+      "last_s": 26.18
+    },
+    "region1.google-analytics.com": {
+      "first_s": 7.04,
+      "last_s": 21.43
+    },
+    "rr2---sn-fpoq-ca9l.googlevideo.com": {
+      "first_s": 6.69,
+      "last_s": 28.96
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 7.7,
+      "last_s": 20.27
+    },
+    "stackpath.bootstrapcdn.com": {
+      "first_s": 4.34,
+      "last_s": 20.09
+    },
+    "static.doubleclick.net": {
+      "first_s": 6.48,
+      "last_s": 20.64
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 7.95,
+      "last_s": 26.12
+    },
+    "visit-server.inmobi-choice.io": {
+      "first_s": 4.79,
+      "last_s": 4.79
+    },
+    "www.flashscore.com": {
+      "first_s": 3.23,
+      "last_s": 20.03
+    },
+    "www.google.com": {
+      "first_s": 6.51,
+      "last_s": 20.69
+    },
+    "www.googletagmanager.com": {
+      "first_s": 6.55,
+      "last_s": 20.09
+    },
+    "www.gstatic.com": {
+      "first_s": 6.96,
+      "last_s": 6.96
+    },
+    "www.youtube.com": {
+      "first_s": 3.23,
+      "last_s": 24.44
+    },
+    "yt3.ggpht.com": {
+      "first_s": 6.96,
+      "last_s": 21.95
+    }
+  },
+  "cookies": [
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://laviola.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1808848703.694759,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://laviola.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1808848703.694807,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://laviola.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "usprivacy",
+      "domain": ".www.laviola.it",
+      "path": "/",
+      "expires": 1826992703.316403,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1808848687.028429,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://laviola.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1808848688.028562,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://laviola.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_ga",
+      "domain": ".laviola.it",
+      "path": "/",
+      "expires": 1824832703,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".www.laviola.it",
+      "path": "/",
+      "expires": 1826992703.318987,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "addtl_consent",
+      "domain": ".www.laviola.it",
+      "path": "/",
+      "expires": 1826992703.319062,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IABGPP_HDR_GppString",
+      "domain": ".www.laviola.it",
+      "path": "/",
+      "expires": 1826992703.319102,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "domain": "www.laviola.it",
+      "path": "/",
+      "expires": 1793311103.741085,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "botble_session",
+      "domain": "www.laviola.it",
+      "path": "/",
+      "expires": 1793311103.741134,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

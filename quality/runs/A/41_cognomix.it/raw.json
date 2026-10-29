@@ -1,0 +1,151 @@
+{
+  "url": "https://www.cognomix.it",
+  "final_url": "https://www.cognomix.it/",
+  "click_at_s": 26.93,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Iscrivimi",
+    "Vota!",
+    "Scopri di pi\u00f9",
+    "Elenco dei partner",
+    "OK",
+    "non sostenerci",
+    "opzioni"
+  ],
+  "tcf": {
+    "cmpId": 300,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.exmarketplace.com": {
+      "first_s": 2.55,
+      "last_s": 3.44
+    },
+    "cdn.nomix.eu": {
+      "first_s": 2.55,
+      "last_s": 3.37
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 2.55,
+      "last_s": 3.16
+    },
+    "clients1.google.com": {
+      "first_s": 5.28,
+      "last_s": 5.28
+    },
+    "cse.google.com": {
+      "first_s": 3.53,
+      "last_s": 3.53
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.55,
+      "last_s": 5.87
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.37,
+      "last_s": 3.37
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 3.41,
+      "last_s": 5.88
+    },
+    "lh3.googleusercontent.com": {
+      "first_s": 5.87,
+      "last_s": 5.87
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.55,
+      "last_s": 2.81
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.82,
+      "last_s": 3.82
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.55,
+      "last_s": 3.39
+    },
+    "static.polldaddy.com": {
+      "first_s": 3.37,
+      "last_s": 3.37
+    },
+    "www.google.com": {
+      "first_s": 3.32,
+      "last_s": 5.28
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.56,
+      "last_s": 3.39
+    }
+  },
+  "cookies": [
+    {
+      "name": "cognomix_csrf",
+      "domain": "www.cognomix.it",
+      "path": "/",
+      "expires": 1793304032.29286,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cognomix_session",
+      "domain": "www.cognomix.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cognomix_cookiepolicy",
+      "domain": "www.cognomix.it",
+      "path": "/",
+      "expires": 1824832832.292986,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_3NDWVZQH32",
+      "domain": ".cognomix.it",
+      "path": "/",
+      "expires": 1827856833.570078,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".cognomix.it",
+      "path": "/",
+      "expires": 1827856833.57026,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".cognomix.it",
+      "path": "/",
+      "expires": 1826992834,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

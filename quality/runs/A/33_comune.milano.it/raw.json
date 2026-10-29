@@ -1,0 +1,309 @@
+{
+  "url": "https://comune.milano.it",
+  "final_url": "https://www.comune.milano.it/",
+  "click_at_s": 28.52,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "SELEZIONE LINGUA: LINGUA SELEZIONATA ITALIANO",
+    "Cerca",
+    "Argomenti",
+    "Impostazioni cookie",
+    "Accetta tutti i cookie",
+    "Iscriviti",
+    "VERIFICA"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "a0e0d4.emailsp.com": {
+      "first_s": 3.4,
+      "last_s": 4.48
+    },
+    "adobedc.demdex.net": {
+      "first_s": 3.73,
+      "last_s": 3.73
+    },
+    "assets.adobedtm.com": {
+      "first_s": 2.39,
+      "last_s": 5.08
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 2.39,
+      "last_s": 5.42
+    },
+    "cdn.eu.pendo.io": {
+      "first_s": 4.48,
+      "last_s": 4.48
+    },
+    "cm.everesttech.net": {
+      "first_s": 3.73,
+      "last_s": 3.73
+    },
+    "comunedimilano.demdex.net": {
+      "first_s": 3.72,
+      "last_s": 3.72
+    },
+    "data.eu.pendo.io": {
+      "first_s": 6.05,
+      "last_s": 6.25
+    },
+    "dpm.demdex.net": {
+      "first_s": 3.4,
+      "last_s": 4.66
+    },
+    "fonts.gstatic.com": {
+      "first_s": 6.03,
+      "last_s": 13.22
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.62,
+      "last_s": 3.62
+    },
+    "ingestion.webanalytics.italia.it": {
+      "first_s": 3.4,
+      "last_s": 3.4
+    },
+    "www.google.com": {
+      "first_s": 3.75,
+      "last_s": 6.42
+    },
+    "www.gstatic.com": {
+      "first_s": 4.76,
+      "last_s": 13.22
+    }
+  },
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1808848600.729436,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "vcpsess",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "s_vnc365",
+      "domain": "www.comune.milano.it",
+      "path": "/",
+      "expires": 1824847199,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_ivc",
+      "domain": "www.comune.milano.it",
+      "path": "/",
+      "expires": 1795888597,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_nr30",
+      "domain": "www.comune.milano.it",
+      "path": "/",
+      "expires": 1795888597,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_tslv",
+      "domain": "www.comune.milano.it",
+      "path": "/",
+      "expires": 1827856597.723549,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_inv",
+      "domain": "www.comune.milano.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1808848598.933276,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCVS_F88BD4415486C8EE0A4C98A2%40AdobeOrg",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "gvsC",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": 1793298397,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "channel",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "channel_Stack",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": 1827856597.87073,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "h_home_clicked",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ApplicationGatewayAffinityCORS",
+      "domain": "a0e0d4.emailsp.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "kndctr_F88BD4415486C8EE0A4C98A2_AdobeOrg_identity",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": 1827424598,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "kndctr_F88BD4415486C8EE0A4C98A2_AdobeOrg_cluster",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": 1793298398,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "everest_g_v2",
+      "domain": ".everesttech.net",
+      "path": "/",
+      "expires": 1824832598.797493,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "prevp_aep",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "dpm",
+      "domain": ".dpm.demdex.net",
+      "path": "/",
+      "expires": 1808848598.933346,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCV_F88BD4415486C8EE0A4C98A2%40AdobeOrg",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": 1827856598.934241,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": 1824832599,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_ppv",
+      "domain": ".comune.milano.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ROUTEID",
+      "domain": "www.comune.milano.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

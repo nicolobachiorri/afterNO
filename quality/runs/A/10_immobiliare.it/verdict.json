@@ -1,0 +1,90 @@
+{
+  "host": "www.immobiliare.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 4,
+      "names": [
+        "CreativeCDN (creativecdn.com)",
+        "DoubleClick/Google Marketing (doubleclick.net)",
+        "Criteo (criteo.com)",
+        "Xandr (adnxs.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Braze",
+        "Trustpilot"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.immobiliare.it/",
+    "lastSeen": {
+      "accounts.google.com": 1793295997031,
+      "ams.creativecdn.com": 1793296008700,
+      "ams46.creativecdn.com": 1793295996872,
+      "api-js.datadome.co": 1793296008726,
+      "api.privacy-center.org": 1793296003425,
+      "catcher.immobiliare.it": 1793296008687,
+      "cdn.debugbear.com": 1793295994175,
+      "cdn.segment.com": 1793296008677,
+      "cgapigw.immobiliare.it": 1793296013708,
+      "cm.creativecdn.com": 1793296008971,
+      "cm.g.doubleclick.net": 1793296008907,
+      "crt.im-cdn.it": 1793295994292,
+      "data.debugbear.com": 1793296008485,
+      "dust2.fra-01.braze.eu": 1793295996223,
+      "gum.criteo.com": 1793295996230,
+      "ib.adnxs.com": 1793295997190,
+      "js.datadome.co": 1793295996642,
+      "pagead2.googlesyndication.com": 1793296008670,
+      "polymarket.com": 1793296008485,
+      "pwm.im-cdn.it": 1793296008681,
+      "s1.immobiliare.it": 1793296008705,
+      "sdk.fra-01.braze.eu": 1793296006010,
+      "sdk.privacy-center.org": 1793295995806,
+      "tags.creativecdn.com": 1793296008643,
+      "www.googletagmanager.com": 1793295995924,
+      "www.immobiliare.it": 1793296008595
+    }
+  },
+  "hostsConsidered": [
+    "accounts.google.com",
+    "ams.creativecdn.com",
+    "ams46.creativecdn.com",
+    "api-js.datadome.co",
+    "api.privacy-center.org",
+    "catcher.immobiliare.it",
+    "cdn.debugbear.com",
+    "cdn.segment.com",
+    "cgapigw.immobiliare.it",
+    "cm.creativecdn.com",
+    "cm.g.doubleclick.net",
+    "crt.im-cdn.it",
+    "data.debugbear.com",
+    "dust2.fra-01.braze.eu",
+    "gum.criteo.com",
+    "ib.adnxs.com",
+    "js.datadome.co",
+    "pagead2.googlesyndication.com",
+    "polymarket.com",
+    "pwm.im-cdn.it",
+    "s1.immobiliare.it",
+    "sdk.fra-01.braze.eu",
+    "sdk.privacy-center.org",
+    "tags.creativecdn.com",
+    "www.googletagmanager.com",
+    "www.immobiliare.it"
+  ]
+}

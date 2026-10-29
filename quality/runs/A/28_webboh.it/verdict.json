@@ -1,0 +1,123 @@
+{
+  "host": "www.webboh.it",
+  "choice": {
+    "at": 1793296482163,
+    "choice": "rejected",
+    "label": "Continua senza accettare",
+    "site": "webboh.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Continua senza accettare"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 13,
+      "names": [
+        "WooCommerce",
+        "Google Analytics",
+        "Crazy Egg"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.webboh.it/",
+    "lastSeen": {
+      "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app": 1793296473219,
+      "29006b29ea5ff4d8ef2869c9551bac7c.safeframe.googlesyndication.com": 1793296484365,
+      "99850bc29faf811679e2606dbf864f3b.safeframe.googlesyndication.com": 1793296487901,
+      "ads.eu.criteo.com": 1793296484375,
+      "cat.nl3.eu.criteo.com": 1793296484730,
+      "cdn-gl.imrworldwide.com": 1793296487346,
+      "cdn.adkaora.space": 1793296487495,
+      "cdn.ampproject.org": 1793296483992,
+      "cdn.iubenda.com": 1793296475424,
+      "cdnjs.cloudflare.com": 1793296484805,
+      "client-side-metrics.nl3.eu.criteo.net": 1793296487146,
+      "cpl.iubenda.com": 1793296482192,
+      "cs.iubenda.com": 1793296475199,
+      "dafne.sirio.stbm.it": 1793296487295,
+      "ep1.adtrafficquality.google": 1793296488553,
+      "ep2.adtrafficquality.google": 1793296488027,
+      "fonts.googleapis.com": 1793296483992,
+      "fonts.gstatic.com": 1793296484202,
+      "fundingchoicesmessages.google.com": 1793296487307,
+      "idb.iubenda.com": 1793296487499,
+      "imageproxy.eu.criteo.net": 1793296484842,
+      "jo4h2hfzvytkpotbwvbmnaownpiaa1793296476.nuid.imrworldwide.com": 1793296477030,
+      "pagead2.googlesyndication.com": 1793296489738,
+      "pixel.adsafeprotected.com": 1793296489776,
+      "qd6ralplca5uzlpaa84a1hvemfacd1793296487.nuid.imrworldwide.com": 1793296487353,
+      "region1.google-analytics.com": 1793296492339,
+      "rtb.fr3.eu.criteo.com": 1793296484373,
+      "sb.scorecardresearch.com": 1793296487545,
+      "script.crazyegg.com": 1793296487551,
+      "secure-it.imrworldwide.com": 1793296489361,
+      "securepubads.g.doubleclick.net": 1793296482214,
+      "static.adsafeprotected.com": 1793296482200,
+      "static.cloudflareinsights.com": 1793296473009,
+      "static.criteo.net": 1793296485173,
+      "t3.gstatic.com": 1793296475487,
+      "tpc.googlesyndication.com": 1793296484376,
+      "tracking.crazyegg.com": 1793296475686,
+      "www.google.com": 1793296487548,
+      "www.googletagmanager.com": 1793296473230,
+      "www.gstatic.com": 1793296487554,
+      "www.webboh.it": 1793296487773
+    }
+  },
+  "hostsConsidered": [
+    "29006b29ea5ff4d8ef2869c9551bac7c.safeframe.googlesyndication.com",
+    "99850bc29faf811679e2606dbf864f3b.safeframe.googlesyndication.com",
+    "ads.eu.criteo.com",
+    "cat.nl3.eu.criteo.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.adkaora.space",
+    "cdn.ampproject.org",
+    "cdnjs.cloudflare.com",
+    "client-side-metrics.nl3.eu.criteo.net",
+    "cpl.iubenda.com",
+    "dafne.sirio.stbm.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "idb.iubenda.com",
+    "imageproxy.eu.criteo.net",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "qd6ralplca5uzlpaa84a1hvemfacd1793296487.nuid.imrworldwide.com",
+    "region1.google-analytics.com",
+    "rtb.fr3.eu.criteo.com",
+    "sb.scorecardresearch.com",
+    "script.crazyegg.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "static.criteo.net",
+    "tpc.googlesyndication.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.webboh.it"
+  ]
+}
