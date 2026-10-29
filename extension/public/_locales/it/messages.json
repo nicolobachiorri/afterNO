@@ -357,9 +357,6 @@
   "noteShortLived": {
     "message": "Durata breve: da solo non basta a riconoscerti nei giorni successivi."
   },
-  "localeCode": {
-    "message": "it"
-  },
   "groupExplain_Marketing": {
     "message": "Servono alla pubblicità: a mostrarti annunci e a misurarne l'effetto, spesso seguendoti tra siti diversi."
   },
@@ -383,5 +380,11 @@
   },
   "groupExplain_Security": {
     "message": "Proteggono il sito e il tuo account, per esempio dagli accessi fraudolenti."
+  },
+  "descSource": {
+    "message": "ENG, descrizione dal database:"
+  },
+  "descMore": {
+    "message": "altro"
   }
 }

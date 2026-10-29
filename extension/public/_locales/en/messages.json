@@ -357,9 +357,6 @@
   "noteShortLived": {
     "message": "Short-lived: on its own it cannot recognise you on later days."
   },
-  "localeCode": {
-    "message": "en"
-  },
   "groupExplain_Marketing": {
     "message": "Used for advertising: to show you ads and measure their effect, often by following you across sites."
   },
@@ -383,5 +380,11 @@
   },
   "groupExplain_Security": {
     "message": "Protect the site and your account, for example against fraudulent logins."
+  },
+  "descSource": {
+    "message": "Description from the database:"
+  },
+  "descMore": {
+    "message": "more"
   }
 }

@@ -6,7 +6,7 @@ import './style.css';
 import { browser } from 'wxt/browser';
 import { type ChoiceRecord } from '@/lib/choice';
 import { loadDescriptions, observe } from '@/lib/cookies';
-import { describe, type DescriptionDb } from '@/lib/describe';
+import { describe, firstSentence, type DescriptionDb } from '@/lib/describe';
 import { siteOf } from '@/lib/hosts';
 import { MIN_IDENTIFIER_DAYS } from '@/lib/identifiers';
 import { pluralKey } from '@/lib/plural';
@@ -71,13 +71,26 @@ function softNote(r: Classified, side: Side, nowMs: number): string | undefined 
 // are, marked "ENG:", rather than hidden or machine-translated.
 let descDb: DescriptionDb = { exact: {}, prefixes: [] };
 
+// The text is what someone declared (often copied from a privacy policy, sometimes
+// in the first person: "our website", "we do not..."). So it is shown as a quote with
+// its source, never as our own statement. First sentence only; the rest on request.
 function description(name: string): HTMLElement[] {
   const text = describe(name, descDb);
   if (!text) return [];
-  const english = t('localeCode') === 'en';
-  const el = h('span', { class: 'desc', text: english ? text : `ENG: ${text}` });
-  el.lang = 'en'; // screen readers pronounce it as English
-  return [el];
+  const { first, rest } = firstSentence(text);
+  const quote = h('q', { text: first });
+  quote.lang = 'en'; // screen readers pronounce it as English
+  const box = h('span', { class: 'desc' }, h('span', { class: 'source', text: `${t('descSource')} ` }), quote);
+  if (rest) {
+    const more = h('button', { class: 'more', text: t('descMore') }) as HTMLButtonElement;
+    more.type = 'button';
+    more.addEventListener('click', () => {
+      quote.textContent = text;
+      more.remove();
+    });
+    box.append(' ', more);
+  }
+  return [box];
 }
 
 // One collapsible group. Groups that can recognise the user start open, unless every

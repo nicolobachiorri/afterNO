@@ -150,6 +150,21 @@ li:last-child { border-bottom: none; }
   margin-top: 2px;
 }
 
+.desc .source {
+  color: var(--muted);
+}
+
+/* "more": looks like a link, is a button (works with the keyboard). */
+.desc .more {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--muted);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* A short note under a cookie the checklist does not count against the choice. */
 .soft {
   color: var(--muted);
