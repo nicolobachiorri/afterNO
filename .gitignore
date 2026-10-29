@@ -15,3 +15,7 @@ __pycache__/
 *.pdf
 
 # extension/ has its own .gitignore (node_modules, .output, .wxt), which git applies too
+
+# Tranco list: large and downloadable again from its permanent ID (see quality/sites.csv)
+quality/top-1m.csv
+quality/*.zip
