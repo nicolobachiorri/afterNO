@@ -32,7 +32,7 @@
     "message": "Nessuno."
   },
   "footerNote": {
-    "message": "I cookie dei tracker sono quelli che il browser invia quando la pagina li contatta. Possono essere stati salvati visitando altri siti: è così che un tracker riconosce la stessa persona ovunque."
+    "message": "I cookie dei tracker sono quelli che il browser invia quando la pagina li contatta. Possono essere stati salvati visitando altri siti: è così che un tracker può riconoscere la stessa persona su siti diversi."
   },
   "group_Marketing": {
     "message": "Marketing"
@@ -122,10 +122,10 @@
     "message": "Siti terzi che possono riconoscerti"
   },
   "compareMarketing": {
-    "message": "Cookie di marketing"
+    "message": "Classificati come marketing"
   },
   "compareAnalytics": {
-    "message": "Cookie di statistica"
+    "message": "Classificati come statistica"
   },
   "compareIdentifiers": {
     "message": "Identificativi probabili"
@@ -161,7 +161,7 @@
     "message": "Nessuna scelta registrata in questa sessione. Se non hai ancora scelto, ecco cosa è già attivo:"
   },
   "itemTcfRecorded": {
-    "message": "Il sito ha registrato il tuo rifiuto e lo comunica ai partner: $CONSENTED$ finalità su $TOTAL$ con consenso.",
+    "message": "Il segnale di consenso del sito (TCF), letto dai partner pubblicitari, registra il tuo rifiuto: $CONSENTED$ finalità su $TOTAL$ con consenso.",
     "placeholders": {
       "consented": {
         "content": "$1"
@@ -180,7 +180,7 @@
     }
   },
   "itemLegitimate_one": {
-    "message": "$COUNT$ finalità resta attiva per «legittimo interesse», che non chiede il consenso.",
+    "message": "Secondo lo stesso segnale, $COUNT$ finalità resta attiva per «legittimo interesse», che non chiede il consenso.",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -188,7 +188,7 @@
     }
   },
   "itemLegitimate_other": {
-    "message": "$COUNT$ finalità restano attive per «legittimo interesse», che non chiede il consenso.",
+    "message": "Secondo lo stesso segnale, $COUNT$ finalità restano attive per «legittimo interesse», che non chiede il consenso.",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -196,7 +196,7 @@
     }
   },
   "itemNoThirdParty": {
-    "message": "Nessun sito terzo può riconoscerti da questa pagina."
+    "message": "Non vediamo cookie con cui un sito terzo possa riconoscerti da questa pagina."
   },
   "itemThirdPartyStill_one": {
     "message": "$COUNT$ sito terzo può ancora riconoscerti da questa pagina:",
@@ -247,10 +247,10 @@
     }
   },
   "itemNoSiteMarketing": {
-    "message": "Il sito non usa cookie di marketing propri."
+    "message": "Nessun cookie del sito è classificato come marketing."
   },
   "itemSiteMarketing_one": {
-    "message": "Il sito stesso usa $COUNT$ cookie di marketing:",
+    "message": "$COUNT$ cookie del sito è classificato come marketing:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -258,7 +258,7 @@
     }
   },
   "itemSiteMarketing_other": {
-    "message": "Il sito stesso usa $COUNT$ cookie di marketing:",
+    "message": "$COUNT$ cookie del sito sono classificati come marketing:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -266,7 +266,7 @@
     }
   },
   "itemSiteMarketingOwn_one": {
-    "message": "Il sito usa $COUNT$ suo cookie che, sugli altri siti, serve al marketing. Qui non possiamo dire a cosa serva.",
+    "message": "$COUNT$ cookie del sito è classificato come marketing per l'uso che se ne fa su altri siti. Qui, sul sito che lo crea, non possiamo dire a cosa serva.",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -274,7 +274,7 @@
     }
   },
   "itemSiteMarketingOwn_other": {
-    "message": "Il sito usa $COUNT$ suoi cookie che, sugli altri siti, servono al marketing. Qui non possiamo dire a cosa servano.",
+    "message": "$COUNT$ cookie del sito sono classificati come marketing per l'uso che se ne fa su altri siti. Qui, sul sito che li crea, non possiamo dire a cosa servano.",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -282,7 +282,7 @@
     }
   },
   "itemSiteMarketingShort_one": {
-    "message": "Il sito usa $COUNT$ cookie di marketing che scade entro un giorno o alla chiusura del browser: da solo non basta a riconoscerti nei giorni successivi.",
+    "message": "$COUNT$ cookie del sito è classificato come marketing ma scade entro un giorno o alla chiusura del browser: da solo non basta a riconoscerti nei giorni successivi.",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -290,7 +290,7 @@
     }
   },
   "itemSiteMarketingShort_other": {
-    "message": "Il sito usa $COUNT$ cookie di marketing che scadono entro un giorno o alla chiusura del browser: da soli non bastano a riconoscerti nei giorni successivi.",
+    "message": "$COUNT$ cookie del sito sono classificati come marketing ma scadono entro un giorno o alla chiusura del browser: da soli non bastano a riconoscerti nei giorni successivi.",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -298,7 +298,7 @@
     }
   },
   "itemSiteAnalytics_one": {
-    "message": "Il sito usa $COUNT$ cookie di statistica, che in alcuni casi possono essere usati senza consenso:",
+    "message": "$COUNT$ cookie del sito è classificato come statistica, che in alcuni casi è ammessa senza consenso:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -306,7 +306,7 @@
     }
   },
   "itemSiteAnalytics_other": {
-    "message": "Il sito usa $COUNT$ cookie di statistica, che in alcuni casi possono essere usati senza consenso:",
+    "message": "$COUNT$ cookie del sito sono classificati come statistica, che in alcuni casi è ammessa senza consenso:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -331,7 +331,7 @@
     "message": "Ricarica la pagina per una verifica completa."
   },
   "verdictAccepted": {
-    "message": "Hai dato il consenso: quanto sopra rientra in ciò che hai accettato."
+    "message": "Hai accettato: quanto sopra è attivo dopo il tuo consenso."
   },
   "verdictPartialChoice": {
     "message": "Con una scelta parziale non possiamo dire quali di questi cookie rientrino in ciò che hai accettato."
@@ -352,34 +352,34 @@
     "message": "informazione"
   },
   "noteOwnPlatform": {
-    "message": "Cookie del sito stesso: altrove serve al marketing, qui non sappiamo a cosa serva."
+    "message": "Classificato come marketing per l'uso su altri siti; qui, sul sito che lo crea, non sappiamo a cosa serva."
   },
   "noteShortLived": {
     "message": "Durata breve: da solo non basta a riconoscerti nei giorni successivi."
   },
   "groupExplain_Marketing": {
-    "message": "Servono alla pubblicità: a mostrarti annunci e a misurarne l'effetto, spesso seguendoti tra siti diversi."
+    "message": "Secondo il database servono alla pubblicità: a mostrarti annunci e a misurarne l'effetto, spesso seguendoti tra siti diversi."
   },
   "groupExplain_Analytics": {
-    "message": "Servono a contare le visite e a capire come viene usato il sito."
+    "message": "Secondo il database servono a contare le visite e a capire come viene usato il sito."
   },
   "groupExplain_Unknown": {
     "message": "Il nostro database non li conosce: non possiamo dire a cosa servano."
   },
   "groupExplain_Personalization": {
-    "message": "Servono ad adattare i contenuti a te, per esempio i suggerimenti."
+    "message": "Secondo il database servono ad adattare i contenuti a te, per esempio i suggerimenti."
   },
   "groupExplain_Preferences": {
-    "message": "Ricordano le tue impostazioni, come la lingua o la valuta."
+    "message": "Secondo il database ricordano le tue impostazioni, come la lingua o la valuta."
   },
   "groupExplain_Functional": {
-    "message": "Fanno funzionare parti del sito, come il carrello o la memoria della tua scelta sui cookie."
+    "message": "Secondo il database fanno funzionare parti del sito, come il carrello o la memoria della tua scelta sui cookie."
   },
   "groupExplain_Necessary": {
-    "message": "Indispensabili al funzionamento del sito, per esempio per restare collegato."
+    "message": "Secondo il database sono indispensabili al funzionamento del sito, per esempio per restare collegato."
   },
   "groupExplain_Security": {
-    "message": "Proteggono il sito e il tuo account, per esempio dagli accessi fraudolenti."
+    "message": "Secondo il database proteggono il sito e il tuo account, per esempio dagli accessi fraudolenti."
   },
   "descSource": {
     "message": "ENG, descrizione dal database:"
