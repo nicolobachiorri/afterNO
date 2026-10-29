@@ -66,6 +66,9 @@ def main():
     ap.add_argument("--overrides", type=Path, default=DEFAULT_OVERRIDES)
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
     ap.add_argument("--desc-out", type=Path, default=DEFAULT_DESC_OUT)
+    # The CSV carries no version. By default the data date is the day the file was
+    # downloaded (its modification date); give it explicitly if the file was copied.
+    ap.add_argument("--data-date", help="date of the database data, YYYY-MM-DD")
     args = ap.parse_args()
 
     exact, prefixes = {}, {}
@@ -133,6 +136,7 @@ def main():
             "source": "Open Cookie Database, https://github.com/jkwakman/Open-Cookie-Database "
                       "(Apache-2.0), plus local overrides",
             "generated": date.today().isoformat(),
+            "data_date": args.data_date or date.fromtimestamp(args.ocd.stat().st_mtime).isoformat(),
             "entries_from_database": n_ocd,
             "entries_from_overrides": n_over,
             "entries_with_owner_domains": n_owned,
@@ -142,6 +146,7 @@ def main():
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(db, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     size_kb = args.out.stat().st_size / 1024
+    print(f"Data date: {db['meta']['data_date']}")
     print(f"{len(db['exact'])} exact names, {len(db['prefixes'])} prefixes "
           f"({n_ocd} from the database, {n_owned} with owner domains, {n_over} overrides) -> {args.out} ({size_kb:.0f} KB)")
 

@@ -11,6 +11,7 @@ export type Category =
 export interface CookieDb {
   exact: Record<string, [string, string, string[]?]>; // name -> [category, platform, owners?]
   prefixes: [string, string, string, string[]?][]; // [prefix, category, platform, owners?], longest first
+  meta?: { data_date?: string }; // data_date: YYYY-MM-DD, the day the data was taken
 }
 
 export interface Classification {

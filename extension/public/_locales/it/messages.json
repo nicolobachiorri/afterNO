@@ -386,5 +386,16 @@
   },
   "descMore": {
     "message": "altro"
+  },
+  "databaseSource": {
+    "message": "Classificazioni e descrizioni: $SOURCE$ (Apache-2.0), dati di $DATE$.",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      },
+      "date": {
+        "content": "$2"
+      }
+    }
   }
 }

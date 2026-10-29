@@ -109,6 +109,8 @@ details > summary {
 .warn { color: var(--warn); }
 .ok { color: var(--ok); }
 .muted { color: var(--muted); font-size: 12px; margin-top: 14px; }
+.source-line { font-size: 11px; margin-top: 6px; }
+.source-line a { color: inherit; text-decoration: underline; }
 
 .group.tracking {
   background: var(--accent-bg);

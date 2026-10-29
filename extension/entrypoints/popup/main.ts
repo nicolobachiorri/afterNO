@@ -5,7 +5,7 @@
 import './style.css';
 import { browser } from 'wxt/browser';
 import { type ChoiceRecord } from '@/lib/choice';
-import { loadDescriptions, observe } from '@/lib/cookies';
+import { loadDb, loadDescriptions, observe } from '@/lib/cookies';
 import { describe, firstSentence, type DescriptionDb } from '@/lib/describe';
 import { siteOf } from '@/lib/hosts';
 import { MIN_IDENTIFIER_DAYS } from '@/lib/identifiers';
@@ -192,6 +192,26 @@ function summaryBlock(host: string, own: Classified[], trackers: Classified[] | 
   return h('section', { class: 'summary' }, ...parts);
 }
 
+// Where the classifications come from and how old they are: the user can judge how
+// current they are, and the licence asks for the credit.
+const DATABASE_URL = 'https://github.com/jkwakman/Open-Cookie-Database';
+
+async function databaseLine(): Promise<HTMLElement[]> {
+  const raw = (await loadDb()).meta?.data_date;
+  const when = raw ? new Date(`${raw}T12:00:00`) : undefined;
+  if (!when || Number.isNaN(when.getTime())) return [];
+  const month = when.toLocaleDateString(browser.i18n.getUILanguage(), { month: 'long', year: 'numeric' });
+  // The sentence comes from the translations with a marker where the name goes; the
+  // name becomes a link to the database, so the user can check the source.
+  const MARK = '\u0001';
+  const [before = '', after = ''] = t('databaseSource', MARK, month).split(MARK);
+  const link = h('a', { text: 'Open Cookie Database' }) as HTMLAnchorElement;
+  link.href = DATABASE_URL;
+  link.target = '_blank'; // the popup cannot navigate itself: open a new tab
+  link.rel = 'noopener noreferrer';
+  return [h('p', { class: 'muted source-line' }, document.createTextNode(before), link, document.createTextNode(after))];
+}
+
 // ------------------------------------------------------------------ page
 
 async function main(): Promise<void> {
@@ -231,6 +251,7 @@ async function main(): Promise<void> {
       h('h2', { text: t('headingSite') }),
       ...(own.length === 0 ? [h('p', { class: 'sub', text: t('none') })] : groups(own, 'own')),
       h('p', { class: 'muted', text: t('footerNote') }),
+      ...(await databaseLine()),
     );
   } catch (err) {
     app.replaceChildren(h('p', { class: 'alert', text: t('error', String(err)) }));
