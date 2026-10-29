@@ -107,3 +107,8 @@ test('names: one per third-party site, with the platform when known', () => {
     r('obs.brilliantchap.com', 'Identifier'),
   ]), ['Google (doubleclick.net)', 'brilliantchap.com']);
 });
+
+test('names: the company comes from any cookie of the site, not only the first', () => {
+  assert.deepEqual(namesBySite([r('.criteo.com', 'Identifier'), r('.criteo.com', 'Marketing', 'Criteo')]),
+    ['Criteo (criteo.com)']);
+});

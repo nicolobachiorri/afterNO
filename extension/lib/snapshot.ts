@@ -27,7 +27,7 @@ export interface Classified {
 // Category from the database; for a tracker's unknown cookie, the "likely identifier"
 // hint. On the site's own domain, "unknown" really means "we do not know".
 export function classifyCookie(c: CookieInfo, db: CookieDb, thirdParty: boolean, nowMs: number): Classified {
-  const { category, platform, owners } = classify(c.name, db);
+  const { category, platform, owners } = classify(c.name, db, c.domain);
   const group: Group = thirdParty && isLikelyIdentifier(c, category, nowMs) ? 'Identifier' : category;
   return {
     name: c.name, domain: c.domain, group, platform,

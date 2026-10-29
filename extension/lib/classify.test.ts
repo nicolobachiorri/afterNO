@@ -2,7 +2,7 @@
 // Run from the extension folder with:  node --test lib/
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { classify, countByCategory, type CookieDb } from './classify.ts';
+import { classify, countByCategory, isGenericName, type CookieDb } from './classify.ts';
 
 const db: CookieDb = {
   exact: {
@@ -50,4 +50,40 @@ test('counts include every category, also the empty ones', () => {
 test('owner domains are passed on when the database has them, absent otherwise', () => {
   assert.deepEqual(classify('_routing_id', db), { category: 'Marketing', platform: 'Pinterest', owners: ['pinterest.com'] });
   assert.equal('owners' in classify('_ga', db), false);
+});
+
+const withOwners: CookieDb = {
+  exact: {
+    CC: ['Marketing', 'Bing / Microsoft', ['microsoft.com']],
+    t: ['Functional', 'Salesforce'],
+    _fbp: ['Marketing', 'Facebook', ['facebook.com']],
+  },
+  prefixes: [['mp_', 'Analytics', 'Mixpanel'], ['_s', 'Analytics', 'Marfeel', ['events.newsroom.bi']]],
+};
+
+test('TheFork case: a generic name off the platform\'s site is not trusted', () => {
+  assert.equal(classify('CC', withOwners, 'www.thefork.it').category, 'Unknown');
+  assert.equal(classify('CC', withOwners, '.microsoft.com').platform, 'Bing / Microsoft');
+  assert.equal(classify('t', withOwners, 'shop.it').category, 'Unknown'); // owners unknown
+});
+
+test('distinctive names are trusted anywhere: _fbp is set on other sites by design', () => {
+  assert.equal(classify('_fbp', withOwners, '.shop.it').category, 'Marketing');
+});
+
+test('short prefixes: "_s" must not swallow _session; "mp_" stays distinctive', () => {
+  assert.equal(classify('_session_id', withOwners, 'www.shop.it').category, 'Unknown');
+  assert.equal(classify('_sp_ses', withOwners, 'events.newsroom.bi').platform, 'Marfeel');
+  assert.equal(classify('mp_abc_mixpanel', withOwners, 'www.shop.it').platform, 'Mixpanel');
+});
+
+test('without a domain the name rule works as before', () => {
+  assert.equal(classify('CC', withOwners).category, 'Marketing');
+});
+
+test('generic names', () => {
+  for (const n of ['CC', 's', 'uid', 'Lang', 'session']) assert.equal(isGenericName(n, false), true, n);
+  for (const n of ['_ga', '_fbp', 'MUID', 'datr', 'IDE5']) assert.equal(isGenericName(n, false), false, n);
+  assert.equal(isGenericName('CT', true), true);
+  assert.equal(isGenericName('mp_', true), false);
 });

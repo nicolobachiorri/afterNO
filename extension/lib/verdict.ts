@@ -52,13 +52,15 @@ export function marketingKind(r: Row, nowMs: number): 'own' | 'short' | 'strong'
 }
 
 // One readable name per third-party site: "Adobe Audience Manager (demdex.net)".
+// The company is taken from any cookie of that site that has one, not only the first:
+// a site's first cookie may be an unknown identifier while another one is Criteo's.
 export function namesBySite(rows: Row[]): string[] {
-  const seen = new Map<string, string>();
+  const platformOf = new Map<string, string>();
   for (const r of rows) {
     const site = siteOf(r.domain.replace(/^\./, ''));
-    if (!seen.has(site)) seen.set(site, r.platform ? `${r.platform} (${site})` : site);
+    if (!platformOf.get(site)) platformOf.set(site, r.platform);
   }
-  return [...seen.values()];
+  return [...platformOf].map(([site, platform]) => (platform ? `${platform} (${site})` : site));
 }
 
 // One readable name per cookie platform, for the site's own cookies: "Google Ads".
