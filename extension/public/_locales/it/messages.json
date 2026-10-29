@@ -350,5 +350,38 @@
   },
   "markInfo": {
     "message": "informazione"
+  },
+  "noteOwnPlatform": {
+    "message": "Cookie del sito stesso: altrove serve al marketing, qui non sappiamo a cosa serva."
+  },
+  "noteShortLived": {
+    "message": "Durata breve: da solo non basta a riconoscerti nei giorni successivi."
+  },
+  "localeCode": {
+    "message": "it"
+  },
+  "groupExplain_Marketing": {
+    "message": "Servono alla pubblicità: a mostrarti annunci e a misurarne l'effetto, spesso seguendoti tra siti diversi."
+  },
+  "groupExplain_Analytics": {
+    "message": "Servono a contare le visite e a capire come viene usato il sito."
+  },
+  "groupExplain_Unknown": {
+    "message": "Il nostro database non li conosce: non possiamo dire a cosa servano."
+  },
+  "groupExplain_Personalization": {
+    "message": "Servono ad adattare i contenuti a te, per esempio i suggerimenti."
+  },
+  "groupExplain_Preferences": {
+    "message": "Ricordano le tue impostazioni, come la lingua o la valuta."
+  },
+  "groupExplain_Functional": {
+    "message": "Fanno funzionare parti del sito, come il carrello o la memoria della tua scelta sui cookie."
+  },
+  "groupExplain_Necessary": {
+    "message": "Indispensabili al funzionamento del sito, per esempio per restare collegato."
+  },
+  "groupExplain_Security": {
+    "message": "Proteggono il sito e il tuo account, per esempio dagli accessi fraudolenti."
   }
 }

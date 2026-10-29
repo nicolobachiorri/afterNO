@@ -4,6 +4,7 @@
 // the comparison are measured in exactly the same way.
 import { browser, type Browser } from 'wxt/browser';
 import type { CookieDb } from './classify.ts';
+import type { DescriptionDb } from './describe.ts';
 import { isThirdParty } from './hosts.ts';
 import { classifyCookie, type Classified } from './snapshot.ts';
 import { thirdPartyCookies } from './thirdparty.ts';
@@ -17,6 +18,14 @@ let db: Promise<CookieDb> | undefined;
 export function loadDb(): Promise<CookieDb> {
   db ??= fetch(browser.runtime.getURL('/cookie-db.json')).then((r) => r.json() as Promise<CookieDb>);
   return db;
+}
+
+let descriptions: Promise<DescriptionDb> | undefined;
+
+// English descriptions (public/cookie-desc.json): only the popup loads them.
+export function loadDescriptions(): Promise<DescriptionDb> {
+  descriptions ??= fetch(browser.runtime.getURL('/cookie-desc.json')).then((r) => r.json() as Promise<DescriptionDb>);
+  return descriptions;
 }
 
 export interface Observation {

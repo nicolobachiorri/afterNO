@@ -5,13 +5,14 @@
 import './style.css';
 import { browser } from 'wxt/browser';
 import { type ChoiceRecord } from '@/lib/choice';
-import { observe } from '@/lib/cookies';
+import { loadDescriptions, observe } from '@/lib/cookies';
+import { describe, type DescriptionDb } from '@/lib/describe';
 import { siteOf } from '@/lib/hosts';
 import { MIN_IDENTIFIER_DAYS } from '@/lib/identifiers';
 import { pluralKey } from '@/lib/plural';
 import { hostsSince, type Classified, type Snapshot } from '@/lib/snapshot';
 import { RECOGNISING, summarise, type Group, type Summary } from '@/lib/summary';
-import { buildVerdict, type Item } from '@/lib/verdict';
+import { buildVerdict, marketingKind, type Item } from '@/lib/verdict';
 import { choiceKey, readTabHosts, snapshotKey, tabKey } from '@/lib/tabstore';
 
 // Every text comes from public/_locales/<language>/messages.json, chosen by the browser
@@ -54,28 +55,59 @@ async function fromSession<T>(key: string): Promise<T | undefined> {
 
 // ------------------------------------------------------------------ cookie lists
 
-// One collapsible group. Groups that can recognise the user start open.
-function groupBlock(group: Group, rows: Classified[]): HTMLElement {
+// For the site's own marketing cookies, the same distinction the checklist makes
+// (lib/verdict.ts): the platform's cookie on its own site, or a short-lived one, is
+// shown with a short note and does not make the group look alarming.
+// Not for the trackers' cookies: there the owner IS the tracker, so "own" would hide it.
+type Side = 'own' | 'trackers';
+
+function softNote(r: Classified, side: Side, nowMs: number): string | undefined {
+  if (side !== 'own' || r.group !== 'Marketing') return undefined;
+  const kind = marketingKind(r, nowMs);
+  return kind === 'own' ? t('noteOwnPlatform') : kind === 'short' ? t('noteShortLived') : undefined;
+}
+
+// The descriptions exist only in English. In another language they are shown as they
+// are, marked "ENG:", rather than hidden or machine-translated.
+let descDb: DescriptionDb = { exact: {}, prefixes: [] };
+
+function description(name: string): HTMLElement[] {
+  const text = describe(name, descDb);
+  if (!text) return [];
+  const english = t('localeCode') === 'en';
+  const el = h('span', { class: 'desc', text: english ? text : `ENG: ${text}` });
+  el.lang = 'en'; // screen readers pronounce it as English
+  return [el];
+}
+
+// One collapsible group. Groups that can recognise the user start open, unless every
+// cookie in them carries one of the notes above.
+function groupBlock(group: Group, rows: Classified[], side: Side, nowMs: number): HTMLElement {
   const items = rows
     .sort((a, b) => a.domain.localeCompare(b.domain) || a.name.localeCompare(b.name))
     .map((r) => h('li', {},
       h('span', { class: 'name', text: r.name }),
       h('span', { class: 'meta', text: [r.platform, r.domain, formatExpiry(r)].filter(Boolean).join(' · ') }),
+      ...description(r.name),
+      ...[softNote(r, side, nowMs)].filter((n): n is string => !!n).map((n) => h('span', { class: 'soft', text: n })),
     ));
-  const details = h('details', { class: `group ${RECOGNISING.has(group) ? 'tracking' : ''}` },
+  const alarming = RECOGNISING.has(group) && rows.some((r) => !softNote(r, side, nowMs));
+  const details = h('details', { class: `group ${alarming ? 'tracking' : ''}` },
     h('summary', { text: `${t(`group_${group}`)} (${rows.length})` }),
-    ...(group === 'Identifier' ? [h('p', { class: 'note', text: t('groupNote_Identifier', MIN_IDENTIFIER_DAYS) })] : []),
+    // What this kind of cookie is for, in plain words.
+    h('p', { class: 'note', text: group === 'Identifier' ? t('groupNote_Identifier', MIN_IDENTIFIER_DAYS) : t(`groupExplain_${group}`) }),
     h('ul', {}, ...items),
   ) as HTMLDetailsElement;
-  details.open = RECOGNISING.has(group);
+  details.open = alarming;
   return details;
 }
 
-function groups(rows: Classified[]): HTMLElement[] {
+function groups(rows: Classified[], side: Side): HTMLElement[] {
+  const nowMs = Date.now();
   return ORDER
     .map((g) => [g, rows.filter((r) => r.group === g)] as const)
     .filter(([, rs]) => rs.length > 0)
-    .map(([g, rs]) => groupBlock(g, [...rs]));
+    .map(([g, rs]) => groupBlock(g, [...rs], side, nowMs));
 }
 
 // ------------------------------------------------------------------ summary
@@ -169,7 +201,11 @@ async function main(): Promise<void> {
     const recorded = saved && new URL(saved.pageUrl).hostname === host ? saved : undefined;
     // After a choice, "now" means the trackers contacted after it.
     const hosts = recorded ? (choice ? hostsSince(recorded.lastSeen, choice.at) : Object.keys(recorded.lastSeen)) : [];
-    const { own, trackers } = await observe(url, hosts, Date.now());
+    // Without descriptions the popup still works: they are an extra.
+    const [{ own, trackers }] = await Promise.all([
+      observe(url, hosts, Date.now()),
+      loadDescriptions().then((d) => { descDb = d; }, () => {}),
+    ]);
 
     app.replaceChildren(
       summaryBlock(host, own, recorded ? trackers : null, choice, snapshot),
@@ -178,9 +214,9 @@ async function main(): Promise<void> {
         ? [h('p', { class: 'sub', text: t('noRequestData') })]
         : trackers.length === 0
           ? [h('p', { class: 'sub', text: t('none') })]
-          : groups(trackers)),
+          : groups(trackers, 'trackers')),
       h('h2', { text: t('headingSite') }),
-      ...(own.length === 0 ? [h('p', { class: 'sub', text: t('none') })] : groups(own)),
+      ...(own.length === 0 ? [h('p', { class: 'sub', text: t('none') })] : groups(own, 'own')),
       h('p', { class: 'muted', text: t('footerNote') }),
     );
   } catch (err) {

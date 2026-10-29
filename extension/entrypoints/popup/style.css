@@ -143,6 +143,20 @@ li:last-child { border-bottom: none; }
   font-size: 11px;
 }
 
+/* What the cookie does, from the database (English). */
+.desc {
+  font-size: 11px;
+  line-height: 1.35;
+  margin-top: 2px;
+}
+
+/* A short note under a cookie the checklist does not count against the choice. */
+.soft {
+  color: var(--muted);
+  font-size: 11px;
+  font-style: italic;
+}
+
 .compare {
   margin-top: 10px;
 }

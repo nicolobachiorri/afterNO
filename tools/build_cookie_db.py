@@ -32,6 +32,9 @@ HERE = Path(__file__).resolve().parent
 DEFAULT_OCD = HERE.parent / "divergence_work_space" / "open-cookie-database.csv"
 DEFAULT_OVERRIDES = HERE.parent / "divergence_work_space" / "overrides.csv"
 DEFAULT_OUT = HERE.parent / "extension" / "public" / "cookie-db.json"
+DEFAULT_DESC_OUT = HERE.parent / "extension" / "public" / "cookie-desc.json"
+# Placeholder texts in the database that describe nothing.
+NO_DESCRIPTION = {"", "pending", "unknown", "-"}
 
 
 def pick(cols, test):
@@ -62,9 +65,13 @@ def main():
     ap.add_argument("--ocd", type=Path, default=DEFAULT_OCD)
     ap.add_argument("--overrides", type=Path, default=DEFAULT_OVERRIDES)
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    ap.add_argument("--desc-out", type=Path, default=DEFAULT_DESC_OUT)
     args = ap.parse_args()
 
     exact, prefixes = {}, {}
+    # Descriptions go to a separate file: they are large (about 240 KB) and only the
+    # popup shows them, so the background never loads them.
+    desc_exact, desc_prefixes = {}, {}
 
     with open(args.ocd, encoding="utf-8", errors="replace") as f:
         reader = csv.DictReader(f)
@@ -74,6 +81,7 @@ def main():
         wild_col = pick(cols, lambda c: "wildcard" in c)
         plat_col = pick(cols, lambda c: c.startswith("platform"))
         dom_col = pick(cols, lambda c: c == "domain")
+        desc_col = pick(cols, lambda c: c.startswith("description"))
         n_ocd = n_owned = 0
         for row in reader:
             name = (row[name_col] or "").strip()
@@ -84,8 +92,14 @@ def main():
             if hosts:  # only when known, to keep the file small
                 entry.append(hosts)
                 n_owned += 1
-            target = prefixes if (row[wild_col] or "0").strip() == "1" else exact
-            target[name] = entry
+            wildcard = (row[wild_col] or "0").strip() == "1"
+            (prefixes if wildcard else exact)[name] = entry
+            text = " ".join((row[desc_col] or "").split())
+            desc_target = desc_prefixes if wildcard else desc_exact
+            if text.lower() in NO_DESCRIPTION:
+                desc_target.pop(name, None)
+            else:
+                desc_target[name] = text
             n_ocd += 1
 
     # Overrides win over the database, exactly as in divergence_test.py.
@@ -96,9 +110,19 @@ def main():
                 name = (row.get("name") or "").strip()
                 if not name or name.startswith("#"):
                     continue
-                entry = [row["category"].strip(), (row.get("source") or "").split(":")[0].strip()]
-                target = prefixes if (row.get("match") or "exact").strip() == "prefix" else exact
-                target[name] = entry
+                source = row.get("source") or ""
+                entry = [row["category"].strip(), source.split(":")[0].strip()]
+                is_prefix = (row.get("match") or "exact").strip() == "prefix"
+                (prefixes if is_prefix else exact)[name] = entry
+                # The database's description would contradict our category: use our
+                # source ("Criteo: retargeting identifier" -> "retargeting identifier").
+                desc_target = desc_prefixes if is_prefix else desc_exact
+                ours = source.split(":", 1)[1].strip() if ":" in source else ""
+                ours = re.sub(r"\s*\([^)]*\)\s*$", "", ours)  # drop our notes in brackets
+                if ours:
+                    desc_target[name] = ours[0].upper() + ours[1:]
+                else:
+                    desc_target.pop(name, None)
                 n_over += 1
 
     db = {
@@ -120,6 +144,15 @@ def main():
     size_kb = args.out.stat().st_size / 1024
     print(f"{len(db['exact'])} exact names, {len(db['prefixes'])} prefixes "
           f"({n_ocd} from the database, {n_owned} with owner domains, {n_over} overrides) -> {args.out} ({size_kb:.0f} KB)")
+
+    desc = {
+        "exact": dict(sorted(desc_exact.items())),
+        "prefixes": [[p, d] for p, d in sorted(desc_prefixes.items(), key=lambda kv: -len(kv[0]))],
+        "meta": {"source": db["meta"]["source"], "language": "en", "generated": db["meta"]["generated"]},
+    }
+    args.desc_out.write_text(json.dumps(desc, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"{len(desc['exact']) + len(desc['prefixes'])} descriptions (English) -> {args.desc_out} "
+          f"({args.desc_out.stat().st_size / 1024:.0f} KB)")
 
 
 if __name__ == "__main__":

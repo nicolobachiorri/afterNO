@@ -350,5 +350,38 @@
   },
   "markInfo": {
     "message": "information"
+  },
+  "noteOwnPlatform": {
+    "message": "The site's own cookie: elsewhere it serves marketing, here we cannot tell what it is for."
+  },
+  "noteShortLived": {
+    "message": "Short-lived: on its own it cannot recognise you on later days."
+  },
+  "localeCode": {
+    "message": "en"
+  },
+  "groupExplain_Marketing": {
+    "message": "Used for advertising: to show you ads and measure their effect, often by following you across sites."
+  },
+  "groupExplain_Analytics": {
+    "message": "Used to count visits and understand how the site is used."
+  },
+  "groupExplain_Unknown": {
+    "message": "Our database does not know them: we cannot tell what they are for."
+  },
+  "groupExplain_Personalization": {
+    "message": "Used to tailor content to you, for example recommendations."
+  },
+  "groupExplain_Preferences": {
+    "message": "Remember your settings, such as language or currency."
+  },
+  "groupExplain_Functional": {
+    "message": "Make parts of the site work, such as the cart or remembering your cookie choice."
+  },
+  "groupExplain_Necessary": {
+    "message": "Essential for the site to work, for example to keep you logged in."
+  },
+  "groupExplain_Security": {
+    "message": "Protect the site and your account, for example against fraudulent logins."
   }
 }
