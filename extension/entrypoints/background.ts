@@ -6,7 +6,9 @@
 // seconds of inactivity and its variables are lost. So the data also goes to
 // storage.session, which survives the restarts and is wiped when the browser closes.
 import { browser } from 'wxt/browser';
-import { tabKey, type TabHosts } from '@/lib/tabstore';
+import { isChoiceMessage, mergeChoice, type ChoiceRecord } from '@/lib/choice';
+import { siteOf } from '@/lib/hosts';
+import { choiceKey, tabKey, type TabHosts } from '@/lib/tabstore';
 
 export default defineBackground(() => {
   const memory = new Map<number, { pageUrl: string; hosts: Set<string> }>();
@@ -59,6 +61,27 @@ export default defineBackground(() => {
     },
     { urls: ['<all_urls>'] },
   );
+
+  // Choices noticed by the content script. The site comes from the tab's address,
+  // not from the frame that sent the message: a banner may be an iframe of another
+  // domain. Writes are queued one after the other, so that two messages arriving
+  // together (TCF and a click) cannot overwrite each other.
+  let queue: Promise<void> = Promise.resolve();
+  browser.runtime.onMessage.addListener((message: unknown, sender): undefined => {
+    if (!isChoiceMessage(message) || !sender.tab?.url) return;
+    let site: string;
+    try {
+      site = siteOf(new URL(sender.tab.url).hostname);
+    } catch {
+      return;
+    }
+    const incoming: ChoiceRecord = { ...message.record, site };
+    const key = choiceKey(site);
+    queue = queue.then(async () => {
+      const saved = (await browser.storage.session.get(key))[key] as ChoiceRecord | undefined;
+      await browser.storage.session.set({ [key]: mergeChoice(saved, incoming) });
+    }).catch(() => {});
+  });
 
   browser.tabs.onRemoved.addListener((tabId) => {
     memory.delete(tabId);

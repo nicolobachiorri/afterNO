@@ -87,6 +87,22 @@ details > summary {
   font-weight: 600;
 }
 
+.summary p.choice {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--muted);
+  margin: 2px 0 0;
+}
+
+.summary p.choice.strong {
+  color: var(--text);
+  margin-top: 6px;
+}
+
+.summary p.choice + p:not(.choice) {
+  margin-top: 8px;
+}
+
 .alert { color: var(--alert); }
 .ok { color: var(--ok); }
 .muted { color: var(--muted); font-size: 12px; margin-top: 14px; }

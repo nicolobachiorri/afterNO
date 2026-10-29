@@ -164,5 +164,76 @@
         "content": "$1"
       }
     }
+  },
+  "choice_rejected": {
+    "message": "Hai rifiutato i cookie su questo sito alle $TIME$.",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "choice_accepted": {
+    "message": "Hai accettato i cookie su questo sito alle $TIME$.",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "choice_partial": {
+    "message": "Hai fatto una scelta parziale su questo sito alle $TIME$.",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "choiceNone": {
+    "message": "Nessuna scelta registrata su questo sito in questa sessione."
+  },
+  "choiceSourceTcf": {
+    "message": "Rilevata dalla piattaforma del consenso del sito (standard TCF)."
+  },
+  "choiceSourceClick": {
+    "message": "Rilevata dal pulsante cliccato, “$LABEL$”: metodo meno affidabile.",
+    "placeholders": {
+      "label": {
+        "content": "$1"
+      }
+    }
+  },
+  "choiceTcfDetail": {
+    "message": "Finalità con consenso: $CONSENTED$ su $TOTAL$. Ancora attive per legittimo interesse: $LEGITIMATE$.",
+    "placeholders": {
+      "consented": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "legitimate": {
+        "content": "$3"
+      }
+    }
+  },
+  "afterRejectRecognising_one": {
+    "message": "Dopo il tuo rifiuto, $COUNT$ sito terzo può riconoscerti da questa pagina",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "afterRejectRecognising_other": {
+    "message": "Dopo il tuo rifiuto, $COUNT$ siti terzi possono riconoscerti da questa pagina",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "afterRejectNone": {
+    "message": "Dopo il tuo rifiuto, nessun sito terzo può riconoscerti da questa pagina."
   }
 }

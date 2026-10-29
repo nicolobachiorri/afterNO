@@ -3,13 +3,14 @@
 // lib/, display the result. All the rules live in lib/ and are unit-tested.
 import './style.css';
 import { browser, type Browser } from 'wxt/browser';
+import { type ChoiceRecord } from '@/lib/choice';
 import { classify, type CookieDb } from '@/lib/classify';
-import { isThirdParty } from '@/lib/hosts';
+import { isThirdParty, siteOf } from '@/lib/hosts';
 import { isLikelyIdentifier, MIN_IDENTIFIER_DAYS } from '@/lib/identifiers';
 import { pluralKey } from '@/lib/plural';
 import { RECOGNISING, summarise, type Group } from '@/lib/summary';
 import { thirdPartyCookies } from '@/lib/thirdparty';
-import { tabKey, type TabHosts } from '@/lib/tabstore';
+import { choiceKey, tabKey, type TabHosts } from '@/lib/tabstore';
 
 type Cookie = Browser.cookies.Cookie;
 
@@ -106,13 +107,37 @@ function groups(rows: Row[]): HTMLElement[] {
     .map(([g, rs]) => groupBlock(g, [...rs]));
 }
 
-function summaryBlock(host: string, own: Row[], trackers: Row[] | null): HTMLElement {
+// The choice made in the banner, as recorded by the content script and the background.
+async function loadChoice(site: string): Promise<ChoiceRecord | undefined> {
+  const key = choiceKey(site);
+  return (await browser.storage.session.get(key))[key] as ChoiceRecord | undefined;
+}
+
+function choiceLines(choice: ChoiceRecord | undefined): HTMLElement[] {
+  if (!choice) return [h('p', { class: 'choice', text: t('choiceNone') })];
+  const time = new Date(choice.at).toLocaleTimeString(browser.i18n.getUILanguage(), { hour: '2-digit', minute: '2-digit' });
+  const lines = [h('p', { class: 'choice strong', text: t(`choice_${choice.choice}`, time) })];
+  if (choice.source === 'tcf') {
+    lines.push(h('p', { class: 'choice', text: t('choiceSourceTcf') }));
+    if (choice.purposesTotal) {
+      lines.push(h('p', { class: 'choice', text: t('choiceTcfDetail',
+        choice.purposesConsented ?? 0, choice.purposesTotal, choice.legitimateInterests ?? 0) }));
+    }
+  } else {
+    lines.push(h('p', { class: 'choice', text: t('choiceSourceClick', choice.label ?? '') }));
+  }
+  return lines;
+}
+
+function summaryBlock(host: string, own: Row[], trackers: Row[] | null, choice: ChoiceRecord | undefined): HTMLElement {
   const s = summarise(own, trackers ?? []);
+  // "After your rejection" only when a rejection was actually recorded.
+  const rejected = choice?.choice === 'rejected';
   const headline = trackers === null
     ? t('reloadToSee')
     : s.recognisingSites === 0
-      ? t('noRecognising')
-      : tn('recognising', s.recognisingSites);
+      ? t(rejected ? 'afterRejectNone' : 'noRecognising')
+      : tn(rejected ? 'afterRejectRecognising' : 'recognising', s.recognisingSites);
   const lines = [
     t('statMarketing', s.marketing.site + s.marketing.trackers, s.marketing.site, s.marketing.trackers),
     t('statAnalytics', s.analytics.site + s.analytics.trackers, s.analytics.site, s.analytics.trackers),
@@ -120,14 +145,16 @@ function summaryBlock(host: string, own: Row[], trackers: Row[] | null): HTMLEle
   ];
   return h('section', { class: 'summary' },
     h('h1', { text: host }),
+    ...choiceLines(choice),
     h('p', { class: s.recognisingSites > 0 || s.marketing.site > 0 ? 'alert' : 'ok', text: headline }),
     h('ul', { class: 'stats' }, ...lines.map((t) => h('li', { text: t }))),
   );
 }
 
-function render(app: HTMLElement, host: string, own: Row[], trackers: Row[] | null): void {
+function render(app: HTMLElement, host: string, own: Row[], trackers: Row[] | null,
+  choice: ChoiceRecord | undefined): void {
   app.replaceChildren(
-    summaryBlock(host, own, trackers),
+    summaryBlock(host, own, trackers, choice),
     h('h2', { text: t('headingTrackers') }),
     ...(trackers === null
       ? [h('p', { class: 'sub', text: t('noRequestData') })]
@@ -154,11 +181,13 @@ async function main(): Promise<void> {
     const db = await loadDb();
     const firstParty = await browser.cookies.getAll({ url });
     const tracker = await trackerCookies(tab.id, url, firstParty);
+    const host = new URL(url).hostname;
     render(
       app,
-      new URL(url).hostname,
+      host,
       firstParty.map((c) => toRow(c, db, false)),
       tracker ? tracker.map((c) => toRow(c, db, true)) : null,
+      await loadChoice(siteOf(host)),
     );
   } catch (err) {
     app.replaceChildren(h('p', { class: 'alert', text: t('error', String(err)) }));

@@ -1,0 +1,933 @@
+{
+ "source": "Visible button texts recorded by the divergence test (step 1, 30 Italian sites, 3 runs, 29 October 2026), classified by hand. 'Rifiutare' was seen on IKEA with the extension the same day.",
+ "cases": [
+  {
+   "label": "1 Adulto",
+   "expected": null
+  },
+  {
+   "label": "2 adulti · 0 bambini · 1 camera",
+   "expected": null
+  },
+  {
+   "label": "52 min",
+   "expected": null
+  },
+  {
+   "label": "ABBONATI",
+   "expected": null
+  },
+  {
+   "label": "ACCEDI",
+   "expected": null
+  },
+  {
+   "label": "ACCETTA",
+   "expected": "accept"
+  },
+  {
+   "label": "ACCETTA E CONTINUA",
+   "expected": "accept"
+  },
+  {
+   "label": "AZIENDA e LAVORA CON NOI",
+   "expected": null
+  },
+  {
+   "label": "Accedi",
+   "expected": null
+  },
+  {
+   "label": "Accessori",
+   "expected": null
+  },
+  {
+   "label": "Accessori Auto",
+   "expected": null
+  },
+  {
+   "label": "Accessori Moto",
+   "expected": null
+  },
+  {
+   "label": "Accetta",
+   "expected": "accept"
+  },
+  {
+   "label": "Accetta e Chiudi",
+   "expected": "accept"
+  },
+  {
+   "label": "Accetta e chiudi",
+   "expected": "accept"
+  },
+  {
+   "label": "Accetta tutti",
+   "expected": "accept"
+  },
+  {
+   "label": "Accetta tutti i cookie",
+   "expected": "accept"
+  },
+  {
+   "label": "Accetta tutto",
+   "expected": "accept"
+  },
+  {
+   "label": "Accetto",
+   "expected": "accept"
+  },
+  {
+   "label": "Aggiungi buono sconto",
+   "expected": null
+  },
+  {
+   "label": "Alimentazione e cura",
+   "expected": null
+  },
+  {
+   "label": "Altro",
+   "expected": null
+  },
+  {
+   "label": "Ambienti",
+   "expected": null
+  },
+  {
+   "label": "Apri la barra di assistenza",
+   "expected": null
+  },
+  {
+   "label": "Aree geografiche",
+   "expected": null
+  },
+  {
+   "label": "Assistenza",
+   "expected": null
+  },
+  {
+   "label": "Audi Q3 45 1.4 tfsi e Business Plus s-tronic € 26.",
+   "expected": null
+  },
+  {
+   "label": "Audi TT TT Coupe 1.8 tfsi S line s-tronic € 22.500",
+   "expected": null
+  },
+  {
+   "label": "Audio",
+   "expected": null
+  },
+  {
+   "label": "Auto",
+   "expected": null
+  },
+  {
+   "label": "BMW 320 d xDrive Touring Msport Automatico € 27.90",
+   "expected": null
+  },
+  {
+   "label": "BMW X3 xDrive20d 48V € 28.9001 04/2022 78.600 km E",
+   "expected": null
+  },
+  {
+   "label": "Business",
+   "expected": null
+  },
+  {
+   "label": "CAMPAGNE E INIZIATIVE PER PRODOTTI VENDUTI E SPEDI",
+   "expected": null
+  },
+  {
+   "label": "CATALOGO",
+   "expected": null
+  },
+  {
+   "label": "CERCA",
+   "expected": null
+  },
+  {
+   "label": "COMPRARE ONLINE",
+   "expected": null
+  },
+  {
+   "label": "CONNESSIONI TRENO AV + REGIONALI + BUS",
+   "expected": null
+  },
+  {
+   "label": "CONSULTA L'ARCHIVIO",
+   "expected": null
+  },
+  {
+   "label": "CONTINUA SENZA ACCETTARE",
+   "expected": "reject"
+  },
+  {
+   "label": "Camion",
+   "expected": null
+  },
+  {
+   "label": "Camper",
+   "expected": null
+  },
+  {
+   "label": "Canali",
+   "expected": null
+  },
+  {
+   "label": "Caravan e Camper",
+   "expected": null
+  },
+  {
+   "label": "Case - Appartamenti",
+   "expected": null
+  },
+  {
+   "label": "Case e appartamenti Nuove costruzioni Case e appar",
+   "expected": null
+  },
+  {
+   "label": "Case in vendita a Milano MilanoResidenziale",
+   "expected": null
+  },
+  {
+   "label": "Case in vendita a Roma RomaResidenziale",
+   "expected": null
+  },
+  {
+   "label": "Case in vendita a Torino TorinoResidenziale",
+   "expected": null
+  },
+  {
+   "label": "Cerca",
+   "expected": null
+  },
+  {
+   "label": "Cerca annunci",
+   "expected": null
+  },
+  {
+   "label": "Cerchi casa",
+   "expected": null
+  },
+  {
+   "label": "Città all’estero",
+   "expected": null
+  },
+  {
+   "label": "Città nel tuo Paese",
+   "expected": null
+  },
+  {
+   "label": "Club Aziende PA",
+   "expected": null
+  },
+  {
+   "label": "Configura",
+   "expected": null
+  },
+  {
+   "label": "Configura i Cookie",
+   "expected": null
+  },
+  {
+   "label": "Consenti i cookie",
+   "expected": "accept"
+  },
+  {
+   "label": "Consenti solo i cookie tecnici",
+   "expected": "reject"
+  },
+  {
+   "label": "Continua con gli acquisti",
+   "expected": null
+  },
+  {
+   "label": "Continua senza accettare",
+   "expected": "reject"
+  },
+  {
+   "label": "Continua senza accettare →",
+   "expected": "reject"
+  },
+  {
+   "label": "Cookie di funzionalità",
+   "expected": null
+  },
+  {
+   "label": "Cookie tecnici",
+   "expected": null
+  },
+  {
+   "label": "Cose da fare",
+   "expected": null
+  },
+  {
+   "label": "Crans Montana",
+   "expected": null
+  },
+  {
+   "label": "Cronaca",
+   "expected": null
+  },
+  {
+   "label": "Cultura",
+   "expected": null
+  },
+  {
+   "label": "Diretta Forum Sostenibilità 2026 - Focus Giovani",
+   "expected": null
+  },
+  {
+   "label": "Diretta Salone della Giustizia 2026",
+   "expected": null
+  },
+  {
+   "label": "Donna",
+   "expected": null
+  },
+  {
+   "label": "EUR",
+   "expected": null
+  },
+  {
+   "label": "Economia",
+   "expected": null
+  },
+  {
+   "label": "Elenco dei partner",
+   "expected": null
+  },
+  {
+   "label": "Elenco dei partner (fornitori)",
+   "expected": null
+  },
+  {
+   "label": "Elezioni",
+   "expected": null
+  },
+  {
+   "label": "Elezioni USA Midterm",
+   "expected": null
+  },
+  {
+   "label": "Emergenza Clima",
+   "expected": null
+  },
+  {
+   "label": "Famiglia nel bosco",
+   "expected": null
+  },
+  {
+   "label": "Fullscreen",
+   "expected": null
+  },
+  {
+   "label": "Garlasco",
+   "expected": null
+  },
+  {
+   "label": "Gestisci le impostazioni",
+   "expected": null
+  },
+  {
+   "label": "Gestisci preferenza",
+   "expected": null
+  },
+  {
+   "label": "Guerra Iran",
+   "expected": null
+  },
+  {
+   "label": "Hai un codice promo?",
+   "expected": null
+  },
+  {
+   "label": "ITA",
+   "expected": null
+  },
+  {
+   "label": "ITitaliano",
+   "expected": null
+  },
+  {
+   "label": "Idee e progetti",
+   "expected": null
+  },
+  {
+   "label": "Il tuo negozio Nessun negozio selezionato",
+   "expected": null
+  },
+  {
+   "label": "Immobili",
+   "expected": null
+  },
+  {
+   "label": "Imposta preferenze",
+   "expected": null
+  },
+  {
+   "label": "Impostazioni dati",
+   "expected": null
+  },
+  {
+   "label": "In consegna a Resana 31023 Aggiorna posizione",
+   "expected": null
+  },
+  {
+   "label": "Inizia a selezionare le zone",
+   "expected": null
+  },
+  {
+   "label": "Inserisci il codice postale",
+   "expected": null
+  },
+  {
+   "label": "Iscrivimi",
+   "expected": null
+  },
+  {
+   "label": "Iscriviti",
+   "expected": null
+  },
+  {
+   "label": "Italia",
+   "expected": null
+  },
+  {
+   "label": "Italia | Italiano",
+   "expected": null
+  },
+  {
+   "label": "Italiano",
+   "expected": null
+  },
+  {
+   "label": "Kids",
+   "expected": null
+  },
+  {
+   "label": "LE NOSTRE STAZIONI",
+   "expected": null
+  },
+  {
+   "label": "LE NOSTRE TRATTE",
+   "expected": null
+  },
+  {
+   "label": "Land Rover Discovery II 2.5 td5 HSE RESTAURATO A.S",
+   "expected": null
+  },
+  {
+   "label": "Lavoro",
+   "expected": null
+  },
+  {
+   "label": "Leggi tutto",
+   "expected": null
+  },
+  {
+   "label": "Login",
+   "expected": null
+  },
+  {
+   "label": "MARKETPLACE",
+   "expected": null
+  },
+  {
+   "label": "MENU",
+   "expected": null
+  },
+  {
+   "label": "Magazine & Informazioni",
+   "expected": null
+  },
+  {
+   "label": "Maggiori informazioni",
+   "expected": null
+  },
+  {
+   "label": "Maggiori informazioni - Offerte dedicate, viaggi g",
+   "expected": null
+  },
+  {
+   "label": "Marca e modello",
+   "expected": null
+  },
+  {
+   "label": "Market",
+   "expected": null
+  },
+  {
+   "label": "Menu",
+   "expected": null
+  },
+  {
+   "label": "Mercedes-Benz A 35 AMG A AMG 35 4matic auto € 26.9",
+   "expected": null
+  },
+  {
+   "label": "Meteo",
+   "expected": null
+  },
+  {
+   "label": "Metti in pausa il carosello",
+   "expected": null
+  },
+  {
+   "label": "Metti in pausa il video",
+   "expected": null
+  },
+  {
+   "label": "Mondo",
+   "expected": null
+  },
+  {
+   "label": "Mostra finalità",
+   "expected": null
+  },
+  {
+   "label": "Mostra/nascondi scorciatoie maiusc + opz + Z",
+   "expected": null
+  },
+  {
+   "label": "Moto",
+   "expected": null
+  },
+  {
+   "label": "Moto e Scooter",
+   "expected": null
+  },
+  {
+   "label": "Motori",
+   "expected": null
+  },
+  {
+   "label": "Mutui",
+   "expected": null
+  },
+  {
+   "label": "N.1 Immobiliare.it è il N.1 in Italia",
+   "expected": null
+  },
+  {
+   "label": "NASCONDI",
+   "expected": null
+  },
+  {
+   "label": "Nascondi",
+   "expected": null
+  },
+  {
+   "label": "Native ADV",
+   "expected": null
+  },
+  {
+   "label": "Non accetto",
+   "expected": "reject"
+  },
+  {
+   "label": "Offerte",
+   "expected": null
+  },
+  {
+   "label": "Opzioni cookie",
+   "expected": null
+  },
+  {
+   "label": "Opzioni di contenuto",
+   "expected": null
+  },
+  {
+   "label": "PARTNER MARITTIMI",
+   "expected": null
+  },
+  {
+   "label": "PERSONALIZZA LE OPZIONI",
+   "expected": null
+  },
+  {
+   "label": "PIÙ INFORMAZIONI",
+   "expected": null
+  },
+  {
+   "label": "PREFERENZE COOKIES",
+   "expected": null
+  },
+  {
+   "label": "PRIVACY",
+   "expected": null
+  },
+  {
+   "label": "PUBBLICA",
+   "expected": null
+  },
+  {
+   "label": "Paesi",
+   "expected": null
+  },
+  {
+   "label": "Pausa",
+   "expected": null
+  },
+  {
+   "label": "Pause",
+   "expected": null
+  },
+  {
+   "label": "Personalizza",
+   "expected": null
+  },
+  {
+   "label": "Più filtri",
+   "expected": null
+  },
+  {
+   "label": "Più informazioni",
+   "expected": null
+  },
+  {
+   "label": "Play",
+   "expected": null
+  },
+  {
+   "label": "Politica",
+   "expected": null
+  },
+  {
+   "label": "Posti dove soggiornare",
+   "expected": null
+  },
+  {
+   "label": "Precedente",
+   "expected": null
+  },
+  {
+   "label": "Preferenze",
+   "expected": null
+  },
+  {
+   "label": "Preferenze Cookie",
+   "expected": null
+  },
+  {
+   "label": "Preferenze sui cookie",
+   "expected": null
+  },
+  {
+   "label": "Prenota ora",
+   "expected": null
+  },
+  {
+   "label": "Prodotti",
+   "expected": null
+  },
+  {
+   "label": "Proprietari",
+   "expected": null
+  },
+  {
+   "label": "Pubblica annuncio",
+   "expected": null
+  },
+  {
+   "label": "RECESSO E GARANZIA",
+   "expected": null
+  },
+  {
+   "label": "RIFIUTA E ABBONATI",
+   "expected": null
+  },
+  {
+   "label": "Recensione: 3.7 fuori da 5 stelle. Totale recensio",
+   "expected": null
+  },
+  {
+   "label": "Recensione: 4.5 fuori da 5 stelle. Totale recensio",
+   "expected": null
+  },
+  {
+   "label": "Recensione: 4.6 fuori da 5 stelle. Totale recensio",
+   "expected": null
+  },
+  {
+   "label": "Recensione: 4.7 fuori da 5 stelle. Totale recensio",
+   "expected": null
+  },
+  {
+   "label": "Recensione: 4.9 fuori da 5 stelle. Totale recensio",
+   "expected": null
+  },
+  {
+   "label": "Recensioni",
+   "expected": null
+  },
+  {
+   "label": "Regioni",
+   "expected": null
+  },
+  {
+   "label": "Ricerca",
+   "expected": null
+  },
+  {
+   "label": "Ricerca AI",
+   "expected": null
+  },
+  {
+   "label": "Rifiuta e abbonati",
+   "expected": null
+  },
+  {
+   "label": "Rifiuta tutti",
+   "expected": "reject"
+  },
+  {
+   "label": "Rifiuta tutto",
+   "expected": "reject"
+  },
+  {
+   "label": "Rifiutare",
+   "expected": "reject"
+  },
+  {
+   "label": "Rifiuto",
+   "expected": "reject"
+  },
+  {
+   "label": "Rimorchi",
+   "expected": null
+  },
+  {
+   "label": "SALVA",
+   "expected": null
+  },
+  {
+   "label": "SERVIZI PER I CLIENTI E LE AZIENDE PER PRODOTTI VE",
+   "expected": null
+  },
+  {
+   "label": "Salta",
+   "expected": null
+  },
+  {
+   "label": "Scegli e personalizza",
+   "expected": null
+  },
+  {
+   "label": "Scopri",
+   "expected": null
+  },
+  {
+   "label": "Scopri di più",
+   "expected": null
+  },
+  {
+   "label": "Scopri di più e personalizza",
+   "expected": null
+  },
+  {
+   "label": "Seek to live, currently playing live LIVE",
+   "expected": null
+  },
+  {
+   "label": "Seleziona date Data check-in — Data check-out",
+   "expected": null
+  },
+  {
+   "label": "Seleziona il negozio",
+   "expected": null
+  },
+  {
+   "label": "Seleziona orario 12:00",
+   "expected": null
+  },
+  {
+   "label": "Seleziona sulla mappa Puoi cercare contemporaneame",
+   "expected": null
+  },
+  {
+   "label": "Servizi",
+   "expected": null
+  },
+  {
+   "label": "Sezioni",
+   "expected": null
+  },
+  {
+   "label": "Siti Internazionali",
+   "expected": null
+  },
+  {
+   "label": "Siti del Gruppo",
+   "expected": null
+  },
+  {
+   "label": "Solo gli essenziali",
+   "expected": "reject"
+  },
+  {
+   "label": "Soluzioni Principali",
+   "expected": null
+  },
+  {
+   "label": "Sport",
+   "expected": null
+  },
+  {
+   "label": "Successiva",
+   "expected": null
+  },
+  {
+   "label": "Supporto",
+   "expected": null
+  },
+  {
+   "label": "Torna su",
+   "expected": null
+  },
+  {
+   "label": "Tutte",
+   "expected": null
+  },
+  {
+   "label": "Tutte le categorie",
+   "expected": null
+  },
+  {
+   "label": "Tutte le notizie del giorno",
+   "expected": null
+  },
+  {
+   "label": "Tutti gli sport",
+   "expected": null
+  },
+  {
+   "label": "Tutti i dossier",
+   "expected": null
+  },
+  {
+   "label": "Unmute",
+   "expected": null
+  },
+  {
+   "label": "Uomo",
+   "expected": null
+  },
+  {
+   "label": "Vai al contenuto principale",
+   "expected": null
+  },
+  {
+   "label": "Vai alla slide 1",
+   "expected": null
+  },
+  {
+   "label": "Vai alla slide 1 - Conto BancoPosta",
+   "expected": null
+  },
+  {
+   "label": "Vai alla slide 2",
+   "expected": null
+  },
+  {
+   "label": "Vai alla slide 2 - Buono Premium",
+   "expected": null
+  },
+  {
+   "label": "Vai alla slide 3",
+   "expected": null
+  },
+  {
+   "label": "Vai alla slide 3 - Poste Formula Bonus",
+   "expected": null
+  },
+  {
+   "label": "Vai alla slide 4",
+   "expected": null
+  },
+  {
+   "label": "Vai alla slide 4 - Postepay Everyday",
+   "expected": null
+  },
+  {
+   "label": "Vedi 548.682 annunci",
+   "expected": null
+  },
+  {
+   "label": "Vedi 548.711 annunci",
+   "expected": null
+  },
+  {
+   "label": "Vedi di più",
+   "expected": null
+  },
+  {
+   "label": "Vedi i nostri 144 partner",
+   "expected": null
+  },
+  {
+   "label": "Vedi i nostri 22 partner",
+   "expected": null
+  },
+  {
+   "label": "Vendi",
+   "expected": null
+  },
+  {
+   "label": "Vendi a un rivenditore",
+   "expected": null
+  },
+  {
+   "label": "Visualizza trascrizione",
+   "expected": null
+  },
+  {
+   "label": "accetta",
+   "expected": "accept"
+  },
+  {
+   "label": "continua senza accettare",
+   "expected": "reject"
+  },
+  {
+   "label": "cookie policy",
+   "expected": null
+  },
+  {
+   "label": "finalità pubblicitarie",
+   "expected": null
+  },
+  {
+   "label": "i nostri 31 partner",
+   "expected": null
+  },
+  {
+   "label": "pannello delle preferenze pubblicitarie",
+   "expected": null
+  },
+  {
+   "label": "partner",
+   "expected": null
+  },
+  {
+   "label": "personalizza",
+   "expected": null
+  },
+  {
+   "label": "terze parti",
+   "expected": null
+  },
+  {
+   "label": "vai al contenuto principale",
+   "expected": null
+  },
+  {
+   "label": "×",
+   "expected": null
+  },
+  {
+   "label": "€ EUR",
+   "expected": null
+  }
+ ]
+}
