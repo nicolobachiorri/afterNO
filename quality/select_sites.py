@@ -10,8 +10,12 @@ Fixed in advance, before any result is seen:
     by the next one, and the replacement is recorded.
 The random seed is fixed, so anyone with the same Tranco list gets the same sample.
 
+Replacements decided by a person (see PROTOCOL.md) are listed in REPLACED below,
+with their reason, so that running this script again gives exactly the sample used.
+Replacements decided during the first visit (redirects) are added there too.
+
 Usage (from the quality folder):
-    python3 select_sites.py --tranco top-1m.csv --tranco-id XXXXX
+    python3 select_sites.py --tranco top-1m.csv --tranco-id ZJ8PG
 """
 
 import argparse
@@ -29,6 +33,13 @@ OUT = HERE / "sites.csv"
 SEEN = {"ilmeteo.it", "ikea.com", "corriere.it", "ilfattoquotidiano.it",
         "zara.com", "pinterest.com", "thefork.it"}
 N_STEP1, N_TRANCO, TRANCO_POOL = 20, 20, 2000
+
+# Tranco sites replaced under the rules of PROTOCOL.md: domain -> reason.
+# Each one is replaced by the first free reserve, in order.
+REPLACED = {
+    "sunbet.it": "adults only (gambling)",
+    "resmush.it": "technical service (image API)",
+}
 
 
 def site(host):
@@ -59,17 +70,32 @@ def main():
                     break
     rng.shuffle(it_domains)
 
+    # Roles: the first N_TRANCO are the sample, the rest reserves. A replaced site
+    # gives its place to the first reserve not yet used.
+    roles = ["sample" if i < N_TRANCO else "reserve" for i in range(len(it_domains))]
+    next_reserve = N_TRANCO
+    for i, (_, domain) in enumerate(it_domains[:N_TRANCO]):
+        if domain in REPLACED:
+            roles[i] = f"replaced: {REPLACED[domain]}"
+            while it_domains[next_reserve][1] in REPLACED:  # a reserve can be replaced too
+                roles[next_reserve] = f"replaced: {REPLACED[it_domains[next_reserve][1]]}"
+                next_reserve += 1
+            roles[next_reserve] = f"sample (replaces www.{domain})"
+            next_reserve += 1
+
+    def url(domain):
+        return f"https://www.{domain}" if domain.count(".") == 1 else f"https://{domain}"
+
     with open(OUT, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["order", "url", "source", "tranco_rank", "role"])
         for i, u in enumerate(chosen1, 1):
             w.writerow([i, u, "step1", "", "sample"])
-        for i, (rank, domain) in enumerate(it_domains, 1):
-            role = "sample" if i <= N_TRANCO else "reserve"
-            w.writerow([N_STEP1 + i, f"https://www.{domain}" if domain.count(".") == 1 else f"https://{domain}",
-                        f"tranco:{args.tranco_id}", rank, role])
-    print(f"{N_STEP1} from step 1, {N_TRANCO} from Tranco {args.tranco_id} "
-          f"(+{len(it_domains) - N_TRANCO} reserves) -> {OUT}")
+        for i, ((rank, domain), role) in enumerate(zip(it_domains, roles), 1):
+            w.writerow([N_STEP1 + i, url(domain), f"tranco:{args.tranco_id}", rank, role])
+    n_sample = sum(1 for r in roles if r.startswith("sample"))
+    print(f"{N_STEP1} from step 1, {n_sample} from Tranco {args.tranco_id}, "
+          f"{len(REPLACED)} replaced -> {OUT}")
 
 
 if __name__ == "__main__":
