@@ -46,8 +46,8 @@ the first two levels. The database only adds labels and descriptions.
 An extension sees what the browser sees. It does not see, and does not claim to see:
 
 - recognition **without cookies** (browser fingerprinting);
+- other browser storage (localStorage, IndexedDB), which sites can also use to keep an identifier;
 - data passed **between companies' servers**;
-- cookies stored in **partitioned** storage (not read yet);
 - **what a company does** with a cookie: purposes are declared, not observable;
 - cookies whose names are **not in the database**: shown as "unclassified", or as
   "likely identifiers" when they behave like one.
@@ -94,7 +94,7 @@ design/               icon source
 ## How it was made
 
 The idea, the product decisions (what to build and what to leave out, the cautious
-wording, the legal caution) and the testing on real sites are by Nicolò Bachiorri.
+wording, the legal caution) and the testing on real sites are by the author.
 Most of the code was written with Claude, an AI assistant by Anthropic, in a
 step-by-step collaboration: each change was explained, reviewed and tested on real
 sites before being kept. This is stated so that anyone reusing the code knows how it

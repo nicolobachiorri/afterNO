@@ -5,7 +5,7 @@
 import { browser, type Browser } from 'wxt/browser';
 import type { CookieDb } from './classify.ts';
 import type { DescriptionDb } from './describe.ts';
-import { isThirdParty } from './hosts.ts';
+import { isThirdParty, siteOf } from './hosts.ts';
 import { classifyCookie, type Classified } from './snapshot.ts';
 import { thirdPartyCookies } from './thirdparty.ts';
 
@@ -40,8 +40,16 @@ export async function observe(pageUrl: string, hosts: string[], nowMs: number): 
   const pageHost = new URL(pageUrl).hostname;
   const firstParty = await browser.cookies.getAll({ url: pageUrl });
   const byHost: Record<string, Cookie[]> = {};
+  // Partitioned cookies live in a separate jar per top-level site, and a plain getAll
+  // does not return them: ask for this site's jar too. Firefox puts every third-party
+  // cookie there by default; without this the extension would see none of them.
+  const topLevelSite = `https://${siteOf(pageHost)}`;
   await Promise.all(hosts.filter((h) => isThirdParty(h, pageHost)).map(async (host) => {
-    byHost[host] = await browser.cookies.getAll({ url: `https://${host}/` });
+    const url = `https://${host}/`;
+    const plain = await browser.cookies.getAll({ url });
+    // Browsers without partitioned cookies reject the unknown option: then there is none.
+    const partitioned = await browser.cookies.getAll({ url, partitionKey: { topLevelSite } }).catch(() => [] as Cookie[]);
+    byHost[host] = [...plain, ...partitioned];
   }));
   const trackers = thirdPartyCookies(firstParty, byHost).map((f) => f.cookie);
   return {

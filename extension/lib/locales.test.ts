@@ -79,3 +79,16 @@ test('every message is used by the code', async () => {
   });
   assert.deepEqual(unused, []);
 });
+
+// A checklist item followed by names ("…: Criteo, Nielsen") must end with a colon,
+// otherwise the names end up glued after a full stop.
+test('messages followed by a list of names end with a colon', () => {
+  const verdict = readFileSync(new URL('./verdict.ts', import.meta.url), 'utf8').replace(/\s+/g, ' ');
+  const named = new Set([...verdict.matchAll(/key: '(\w+)',[^}]*names:/g)].map((m) => m[1]!));
+  assert.ok(named.size > 0);
+  for (const lang of langs) {
+    for (const [key, m] of Object.entries(load(lang))) {
+      if (named.has(key.replace(/_(one|other)$/, ''))) assert.ok(m.message.endsWith(':'), `${lang}: ${key}`);
+    }
+  }
+});

@@ -14,6 +14,10 @@ export interface CookieLike {
   domain: string;
   path: string;
   sameSite?: string;
+  // Set on a partitioned cookie: one kept in a separate jar for each top-level site
+  // (Firefox's Total Cookie Protection, Chrome's CHIPS). It is sent to the tracker only
+  // on that site, so it can recognise a returning visitor there, not across sites.
+  partitionKey?: unknown;
 }
 
 export interface ThirdPartyCookie<T extends CookieLike> {
@@ -22,7 +26,7 @@ export interface ThirdPartyCookie<T extends CookieLike> {
 }
 
 export function cookieKey(c: CookieLike): string {
-  return `${c.name}|${c.domain}|${c.path}`;
+  return `${c.name}|${c.domain}|${c.path}|${c.partitionKey ? 'partitioned' : ''}`;
 }
 
 export function thirdPartyCookies<T extends CookieLike>(

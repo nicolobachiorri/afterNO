@@ -282,7 +282,7 @@
     }
   },
   "itemSiteMarketingShort_one": {
-    "message": "$COUNT$ of the site's cookies is classified as marketing but expires within a day or when the browser closes: on its own it is not enough to recognise you on later days.",
+    "message": "$COUNT$ of the site's cookies is classified as marketing but expires within a day or when the browser closes, so on its own it is not enough to recognise you on later days:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -290,7 +290,7 @@
     }
   },
   "itemSiteMarketingShort_other": {
-    "message": "$COUNT$ of the site's cookies are classified as marketing but expire within a day or when the browser closes: on their own they are not enough to recognise you on later days.",
+    "message": "$COUNT$ of the site's cookies are classified as marketing but expire within a day or when the browser closes, so on their own they are not enough to recognise you on later days:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -397,5 +397,24 @@
         "content": "$2"
       }
     }
+  },
+  "itemThirdPartyPartitioned_one": {
+    "message": "$COUNT$ third-party site has cookies kept for this site only: it can recognise you when you come back here, not on other sites:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemThirdPartyPartitioned_other": {
+    "message": "$COUNT$ third-party sites have cookies kept for this site only: they can recognise you when you come back here, not on other sites:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "notePartitioned": {
+    "message": "Kept for this site only (partitioned): it does not follow you to other sites."
   }
 }

@@ -282,7 +282,7 @@
     }
   },
   "itemSiteMarketingShort_one": {
-    "message": "$COUNT$ cookie del sito è classificato come marketing ma scade entro un giorno o alla chiusura del browser: da solo non basta a riconoscerti nei giorni successivi.",
+    "message": "$COUNT$ cookie del sito è classificato come marketing ma scade entro un giorno o alla chiusura del browser, quindi da solo non basta a riconoscerti nei giorni successivi:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -290,7 +290,7 @@
     }
   },
   "itemSiteMarketingShort_other": {
-    "message": "$COUNT$ cookie del sito sono classificati come marketing ma scadono entro un giorno o alla chiusura del browser: da soli non bastano a riconoscerti nei giorni successivi.",
+    "message": "$COUNT$ cookie del sito sono classificati come marketing ma scadono entro un giorno o alla chiusura del browser, quindi da soli non bastano a riconoscerti nei giorni successivi:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -397,5 +397,24 @@
         "content": "$2"
       }
     }
+  },
+  "itemThirdPartyPartitioned_one": {
+    "message": "$COUNT$ sito terzo ha cookie riservati a questo sito: può riconoscerti quando torni qui, non sugli altri siti:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemThirdPartyPartitioned_other": {
+    "message": "$COUNT$ siti terzi hanno cookie riservati a questo sito: possono riconoscerti quando torni qui, non sugli altri siti:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "notePartitioned": {
+    "message": "Riservato a questo sito (partizionato): non ti segue sugli altri siti."
   }
 }

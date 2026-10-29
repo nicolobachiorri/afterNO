@@ -61,6 +61,12 @@ async function fromSession<T>(key: string): Promise<T | undefined> {
 // Not for the trackers' cookies: there the owner IS the tracker, so "own" would hide it.
 type Side = 'own' | 'trackers';
 
+// A tracker's partitioned cookie: said under the cookie, but still a tracker's cookie,
+// so it does not make the group look less alarming.
+function partitionNote(r: Classified, side: Side): HTMLElement[] {
+  return side === 'trackers' && r.partitioned ? [h('span', { class: 'soft', text: t('notePartitioned') })] : [];
+}
+
 function softNote(r: Classified, side: Side, nowMs: number): string | undefined {
   if (side !== 'own' || r.group !== 'Marketing') return undefined;
   const kind = marketingKind(r, nowMs);
@@ -102,6 +108,7 @@ function groupBlock(group: Group, rows: Classified[], side: Side, nowMs: number)
       h('span', { class: 'name', text: r.name }),
       h('span', { class: 'meta', text: [r.platform, r.domain, formatExpiry(r)].filter(Boolean).join(' · ') }),
       ...description(r.name),
+      ...partitionNote(r, side),
       ...[softNote(r, side, nowMs)].filter((n): n is string => !!n).map((n) => h('span', { class: 'soft', text: n })),
     ));
   const alarming = RECOGNISING.has(group) && rows.some((r) => !softNote(r, side, nowMs));

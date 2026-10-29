@@ -112,3 +112,21 @@ test('names: the company comes from any cookie of the site, not only the first',
   assert.deepEqual(namesBySite([r('.criteo.com', 'Identifier'), r('.criteo.com', 'Marketing', 'Criteo')]),
     ['Criteo (criteo.com)']);
 });
+
+test('Firefox case: only partitioned tracker cookies: recognised here only, against a rejection, amber', () => {
+  const v = buildVerdict(tcfReject, [], [r('.demdex.net', 'Marketing', 'Adobe Audience Manager', { partitioned: true })], 0);
+  assert.deepEqual(keys(v), ['ok:itemTcfRecorded', 'bad:itemThirdPartyPartitioned', 'ok:itemNoSiteMarketing']);
+  assert.deepEqual(v.items[1]?.names, ['Adobe Audience Manager (demdex.net)']);
+  assert.deepEqual(v.conclusion, { key: 'verdictPartly', tone: 'warn' });
+});
+
+test('a site with one ordinary cookie counts across sites, even if it also has partitioned ones', () => {
+  const v = buildVerdict(tcfReject, [], [
+    r('.demdex.net', 'Marketing', 'Adobe', { partitioned: true }), r('.demdex.net', 'Marketing', 'Adobe'),
+    r('.criteo.com', 'Marketing', 'Criteo', { partitioned: true }),
+  ], 0);
+  const still = v.items.find((i) => i.key === 'itemThirdPartyStill');
+  const part = v.items.find((i) => i.key === 'itemThirdPartyPartitioned');
+  assert.deepEqual([still?.names, part?.names], [['Adobe (demdex.net)'], ['Criteo (criteo.com)']]);
+  assert.equal(v.conclusion?.tone, 'alert');
+});

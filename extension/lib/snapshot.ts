@@ -12,6 +12,7 @@ export interface CookieInfo {
   sameSite?: string;
   session?: boolean;
   expirationDate?: number; // seconds since the epoch
+  partitionKey?: unknown;
 }
 
 export interface Classified {
@@ -20,6 +21,7 @@ export interface Classified {
   group: Group;
   platform: string;
   owners?: string[]; // domains the database says the cookie belongs to
+  partitioned?: boolean; // kept for this top-level site only
   session?: boolean;
   expirationDate?: number;
 }
@@ -31,7 +33,8 @@ export function classifyCookie(c: CookieInfo, db: CookieDb, thirdParty: boolean,
   const group: Group = thirdParty && isLikelyIdentifier(c, category, nowMs) ? 'Identifier' : category;
   return {
     name: c.name, domain: c.domain, group, platform,
-    ...(owners ? { owners } : {}), session: c.session, expirationDate: c.expirationDate,
+    ...(owners ? { owners } : {}), ...(c.partitionKey ? { partitioned: true } : {}),
+    session: c.session, expirationDate: c.expirationDate,
   };
 }
 

@@ -3,7 +3,7 @@ import { defineConfig } from 'wxt';
 // The manifest is generated from this file and from the files in entrypoints/.
 // See https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html
 export default defineConfig({
-  manifest: {
+  manifest: ({ browser }) => ({
     // Texts come from public/_locales/<language>/messages.json; __MSG_key__ is replaced
     // by the browser. English is used for any language without its own folder.
     default_locale: 'en',
@@ -20,5 +20,18 @@ export default defineConfig({
     // Without host permissions cookies.getAll and webRequest see nothing, silently.
     // "<all_urls>" is broad, but the extension has to work on every site the user visits.
     host_permissions: ['<all_urls>'],
-  },
+    // Firefox only (Chrome does not know these keys).
+    ...(browser === 'firefox' ? {
+      browser_specific_settings: {
+        gecko: {
+          // Permanent once published. A random identifier (GUID form, accepted by
+          // Firefox): it names neither a person nor the product, so it survives a rename.
+          id: '{52ae60f1-8fbe-486e-a40e-911cb061c211}',
+          // Shown to the user at install time. The extension transmits nothing, so it
+          // collects no data in Firefox's sense: see PRIVACY.md.
+          data_collection_permissions: { required: ['none'] },
+        },
+      },
+    } : {}),
+  }),
 });

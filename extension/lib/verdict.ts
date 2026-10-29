@@ -30,6 +30,7 @@ export interface Row {
   group: Group;
   platform: string;
   owners?: string[];
+  partitioned?: boolean;
   session?: boolean;
   expirationDate?: number; // seconds since the epoch
 }
@@ -71,7 +72,12 @@ export function platformNames(rows: Row[]): string[] {
 export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], trackers: Row[] | null, nowMs: number): Verdict {
   const items: Item[] = [];
   const recognising = (trackers ?? []).filter((r) => RECOGNISING.has(r.group));
-  const thirdNames = namesBySite(recognising);
+  // A site with at least one ordinary cookie can recognise the user across sites;
+  // a site with only partitioned cookies, only when the user comes back here.
+  const siteKey = (r: Row) => siteOf(r.domain.replace(/^\./, ''));
+  const crossSites = new Set(recognising.filter((r) => !r.partitioned).map(siteKey));
+  const thirdNames = namesBySite(recognising.filter((r) => crossSites.has(siteKey(r))));
+  const partitionedNames = namesBySite(recognising.filter((r) => !crossSites.has(siteKey(r))));
   const siteMarketing = own.filter((r) => r.group === 'Marketing');
   const kinds = { own: [] as Row[], short: [] as Row[], strong: [] as Row[] };
   for (const r of siteMarketing) kinds[marketingKind(r, nowMs)].push(r);
@@ -90,8 +96,10 @@ export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], track
 
   // 2. Third parties that can recognise the user from this page.
   if (trackers !== null) {
-    if (thirdNames.length === 0) {
+    if (thirdNames.length === 0 && partitionedNames.length === 0) {
       items.push({ mark: rejected || !choice ? 'ok' : 'info', key: 'itemNoThirdParty' });
+    } else if (thirdNames.length === 0) {
+      // nothing across sites: the partitioned item below says the rest
     } else if (rejected) {
       items.push({ mark: 'bad', key: 'itemThirdPartyStill', count: thirdNames.length, names: thirdNames });
     } else if (!choice) {
@@ -99,6 +107,12 @@ export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], track
       items.push({ mark: 'bad', key: 'itemThirdPartyNoChoice', count: thirdNames.length, names: thirdNames });
     } else {
       items.push({ mark: 'info', key: 'itemThirdParty', count: thirdNames.length, names: thirdNames });
+    }
+    if (partitionedNames.length > 0) {
+      items.push({
+        mark: rejected || !choice ? 'bad' : 'info', key: 'itemThirdPartyPartitioned',
+        count: partitionedNames.length, names: partitionedNames,
+      });
     }
   }
 

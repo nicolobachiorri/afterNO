@@ -40,3 +40,10 @@ test('same name on different domains are different cookies', () => {
 test('no hosts contacted, no tracker cookies', () => {
   assert.deepEqual(thirdPartyCookies([c('x', '.site.it')], {}), []);
 });
+
+test('a partitioned cookie is kept apart from the ordinary one with the same name', () => {
+  const plain = { name: 'demdex', domain: '.demdex.net', path: '/', sameSite: 'no_restriction' };
+  const part = { ...plain, partitionKey: { topLevelSite: 'https://ilmeteo.it' } };
+  const found = thirdPartyCookies([], { 'dpm.demdex.net': [plain, part, part] });
+  assert.equal(found.length, 2);
+});
