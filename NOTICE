@@ -1,0 +1,11 @@
+Cookie summary (working title)
+Copyright 2026 Nicolò Bachiorri
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes data from the Open Cookie Database
+(https://github.com/jkwakman/Open-Cookie-Database), licensed under the
+Apache License, Version 2.0. The data was converted to JSON by
+tools/build_cookie_db.py (extension/public/cookie-db.json and
+extension/public/cookie-desc.json); a few classifications were corrected
+locally, see divergence_work_space/overrides.csv.

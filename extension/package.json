@@ -1,8 +1,10 @@
 {
-  "name": "wxt-starter",
-  "description": "manifest.json description",
+  "name": "cookie-summary",
+  "description": "Tells you in plain words what your cookie-banner choice changed and whether the site seems to respect it.",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "author": "Nicolò Bachiorri",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "wxt",
