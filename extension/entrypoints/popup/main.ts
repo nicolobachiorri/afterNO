@@ -181,6 +181,7 @@ function checkItem(item: Item): HTMLElement {
 function summaryBlock(host: string, own: Classified[], trackers: Classified[] | null,
   choice: ChoiceRecord | undefined, snapshot: Snapshot | undefined): HTMLElement {
   const verdict = buildVerdict(choice, own, trackers, Date.now());
+  if (MEASURING) report({ host, choice: choice ?? null, items: verdict.items, conclusion: verdict.conclusion ?? null });
   const heading = choice ? t(`verdictHeading_${choice.choice}`, clock(choice.at)) : t('verdictHeadingNone');
   const parts: HTMLElement[] = [
     h('h1', { text: host }),
@@ -219,6 +220,28 @@ async function databaseLine(): Promise<HTMLElement[]> {
   return [h('p', { class: 'muted source-line' }, document.createTextNode(before), link, document.createTextNode(after))];
 }
 
+// ------------------------------------------------------------------ measurement
+// Only in builds made for the quality measurement (`wxt build --mode test`, see
+// quality/PROTOCOL.md). In every other build MEASURING is the constant false and the
+// bundler removes this code: the published extension has none of it.
+//   - ?tab=<id> chooses the tab to analyse: a robot that opens the popup in a tab of
+//     its own would otherwise analyse that tab;
+//   - the verdict is also written, as data, on <body data-verdict>, for the robot.
+const MEASURING = import.meta.env.MODE === 'test';
+
+function report(data: unknown): void {
+  document.body.dataset.verdict = JSON.stringify(data);
+}
+
+async function targetTab() {
+  if (MEASURING) {
+    const id = Number(new URLSearchParams(location.search).get('tab'));
+    if (id) return browser.tabs.get(id);
+  }
+  const [tab] = await browser.tabs.query({ active: true, currentWindow: true });
+  return tab;
+}
+
 // ------------------------------------------------------------------ page
 
 async function main(): Promise<void> {
@@ -226,7 +249,7 @@ async function main(): Promise<void> {
   document.documentElement.lang = browser.i18n.getUILanguage();
   app.replaceChildren(h('p', { class: 'muted', text: t('loading') }));
   try {
-    const [tab] = await browser.tabs.query({ active: true, currentWindow: true });
+    const tab = await targetTab();
     const url = tab?.url;
     if (!url || tab.id === undefined || !/^https?:/.test(url)) {
       app.replaceChildren(h('p', { class: 'muted', text: t('openSite') }));
@@ -262,6 +285,9 @@ async function main(): Promise<void> {
     );
   } catch (err) {
     app.replaceChildren(h('p', { class: 'alert', text: t('error', String(err)) }));
+    if (MEASURING) report({ error: String(err) });
+  } finally {
+    if (MEASURING) document.body.dataset.ready = '1';
   }
 }
 

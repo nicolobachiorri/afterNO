@@ -19,3 +19,6 @@ __pycache__/
 # Tranco list: large and downloadable again from its permanent ID (see quality/sites.csv)
 quality/top-1m.csv
 quality/*.zip
+
+# Quality measurement: screenshots stay local (large); results and raw data are kept
+quality/runs/**/*.png
