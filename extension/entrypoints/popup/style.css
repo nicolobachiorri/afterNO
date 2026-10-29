@@ -185,6 +185,8 @@ li:last-child { border-bottom: none; }
 }
 
 .checklist li.item {
+  /* The colour goes on the mark only: "ok" is also a global class for green text. */
+  color: var(--text);
   flex-direction: row;
   gap: 8px;
   align-items: baseline;
