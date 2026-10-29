@@ -22,3 +22,6 @@ quality/*.zip
 
 # Quality measurement: screenshots stay local (large); results and raw data are kept
 quality/runs/**/*.png
+
+# R session history
+.Rhistory
