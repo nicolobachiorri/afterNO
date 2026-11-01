@@ -86,7 +86,10 @@ export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], track
 
   // 1. Was the choice recorded?
   if (choice?.source === 'tcf' && rejected) {
-    items.push({ mark: 'ok', key: 'itemTcfRecorded', subs: [choice.purposesConsented ?? 0, choice.purposesTotal ?? 0] });
+    // Some platforms do not list the purposes without consent: then the total is unknown.
+    items.push(choice.purposesTotal
+      ? { mark: 'ok', key: 'itemTcfRecorded', subs: [choice.purposesConsented ?? 0, choice.purposesTotal] }
+      : { mark: 'ok', key: 'itemTcfRecordedNoTotal' });
     if ((choice.legitimateInterests ?? 0) > 0) {
       items.push({ mark: 'bad', key: 'itemLegitimate', count: choice.legitimateInterests });
     }

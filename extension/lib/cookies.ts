@@ -7,7 +7,7 @@ import type { CookieDb } from './classify.ts';
 import type { DescriptionDb } from './describe.ts';
 import { isThirdParty, siteOf } from './hosts.ts';
 import { classifyCookie, type Classified } from './snapshot.ts';
-import { thirdPartyCookies } from './thirdparty.ts';
+import { cookieKey, domainMatches, thirdPartyCookies } from './thirdparty.ts';
 
 type Cookie = Browser.cookies.Cookie;
 
@@ -33,24 +33,33 @@ export interface Observation {
   trackers: Classified[];
 }
 
+// Every cookie of a site (all its subdomains, every path), plus those it keeps in this
+// page's partition. Partitioned cookies live in a separate jar per top-level site and
+// a plain getAll does not return them; Firefox puts every third-party cookie there by
+// default. Browsers without partitions reject the option: then there are none.
+async function cookiesOfSite(site: string, topLevelSite: string): Promise<Cookie[]> {
+  const plain = await browser.cookies.getAll({ domain: site });
+  const partitioned = await browser.cookies.getAll({ domain: site, partitionKey: { topLevelSite } })
+    .catch(() => [] as Cookie[]);
+  const seen = new Set<string>();
+  return [...plain, ...partitioned].filter((c) => !seen.has(cookieKey(c)) && seen.add(cookieKey(c)));
+}
+
 // The site's own cookies, and the cookies the given hosts (those the page contacted)
 // can read. Hosts of the same site as the page are skipped.
+// Read by domain, not by address: asking for the cookies of "https://host/" returns
+// only those of the root path, and missed trackers that keep their identifier under
+// a path (measurement, visit A: ilpost, giallozafferano, libero).
 export async function observe(pageUrl: string, hosts: string[], nowMs: number): Promise<Observation> {
   const cookieDb = await loadDb();
   const pageHost = new URL(pageUrl).hostname;
-  const firstParty = await browser.cookies.getAll({ url: pageUrl });
-  const byHost: Record<string, Cookie[]> = {};
-  // Partitioned cookies live in a separate jar per top-level site, and a plain getAll
-  // does not return them: ask for this site's jar too. Firefox puts every third-party
-  // cookie there by default; without this the extension would see none of them.
   const topLevelSite = `https://${siteOf(pageHost)}`;
-  await Promise.all(hosts.filter((h) => isThirdParty(h, pageHost)).map(async (host) => {
-    const url = `https://${host}/`;
-    const plain = await browser.cookies.getAll({ url });
-    // Browsers without partitioned cookies reject the unknown option: then there is none.
-    const partitioned = await browser.cookies.getAll({ url, partitionKey: { topLevelSite } }).catch(() => [] as Cookie[]);
-    byHost[host] = [...plain, ...partitioned];
-  }));
+  const firstParty = await cookiesOfSite(siteOf(pageHost), topLevelSite);
+  const third = hosts.filter((h) => isThirdParty(h, pageHost));
+  const sites = [...new Set(third.map(siteOf))];
+  const bySite = Object.fromEntries(await Promise.all(sites.map(async (s) => [s, await cookiesOfSite(s, topLevelSite)] as const)));
+  const byHost: Record<string, Cookie[]> = {};
+  for (const host of third) byHost[host] = (bySite[siteOf(host)] ?? []).filter((c) => domainMatches(c, host));
   const trackers = thirdPartyCookies(firstParty, byHost).map((f) => f.cookie);
   return {
     own: firstParty.map((c) => classifyCookie(c, cookieDb, false, nowMs)),

@@ -171,6 +171,9 @@
       }
     }
   },
+  "itemTcfRecordedNoTotal": {
+    "message": "The site's consent signal (TCF), read by its advertising partners, records your rejection: no purpose with consent."
+  },
   "itemClickOnly": {
     "message": "You clicked “$LABEL$”. We cannot check how the site recorded the choice.",
     "placeholders": {

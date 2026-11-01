@@ -130,3 +130,9 @@ test('a site with one ordinary cookie counts across sites, even if it also has p
   assert.deepEqual([still?.names, part?.names], [['Adobe (demdex.net)'], ['Criteo (criteo.com)']]);
   assert.equal(v.conclusion?.tone, 'alert');
 });
+
+test('TCF rejection without the total: the item says "no purpose with consent"', () => {
+  const v = buildVerdict({ ...tcfReject, purposesTotal: undefined }, [], [], 0);
+  assert.equal(v.items[0]?.key, 'itemTcfRecordedNoTotal');
+  assert.equal(v.conclusion?.key, 'verdictRespected');
+});

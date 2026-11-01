@@ -25,6 +25,17 @@ export interface ThirdPartyCookie<T extends CookieLike> {
   hosts: string[]; // the contacted hosts this cookie is sent to, sorted
 }
 
+// Would the browser send this cookie to this host? Domain only: the path is left out
+// on purpose. A tracker often keeps its identifier under a path of its own
+// (/~dl, /769396664005295...), and we record the hosts a page contacts, not the paths:
+// a cookie its tracker stored under a path is one it reads when it calls that path.
+export function domainMatches(c: { domain: string; hostOnly?: boolean }, host: string): boolean {
+  const d = c.domain.replace(/^\./, '').toLowerCase();
+  const h = host.toLowerCase();
+  if (c.hostOnly) return h === d;
+  return h === d || h.endsWith(`.${d}`);
+}
+
 export function cookieKey(c: CookieLike): string {
   return `${c.name}|${c.domain}|${c.path}|${c.partitionKey ? 'partitioned' : ''}`;
 }

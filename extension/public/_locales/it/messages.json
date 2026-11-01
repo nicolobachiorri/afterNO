@@ -171,6 +171,9 @@
       }
     }
   },
+  "itemTcfRecordedNoTotal": {
+    "message": "Il segnale di consenso del sito (TCF), letto dai partner pubblicitari, registra il tuo rifiuto: nessuna finalità con consenso."
+  },
   "itemClickOnly": {
     "message": "Hai cliccato «$LABEL$». Non possiamo verificare come il sito abbia registrato la scelta.",
     "placeholders": {

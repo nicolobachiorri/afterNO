@@ -47,3 +47,11 @@ test('a partitioned cookie is kept apart from the ordinary one with the same nam
   const found = thirdPartyCookies([], { 'dpm.demdex.net': [plain, part, part] });
   assert.equal(found.length, 2);
 });
+
+test('domain matching: parent domains match, host-only cookies only their host; the path is ignored', async () => {
+  const { domainMatches } = await import('./thirdparty.ts');
+  assert.equal(domainMatches({ domain: '.citynews.ovh' }, 'dl.dmp.citynews.ovh'), true);
+  assert.equal(domainMatches({ domain: 'mediasetitalia01.wt-eu02.net', hostOnly: true }, 'mediasetitalia01.wt-eu02.net'), true);
+  assert.equal(domainMatches({ domain: 'a.wt-eu02.net', hostOnly: true }, 'b.wt-eu02.net'), false);
+  assert.equal(domainMatches({ domain: '.evil-citynews.ovh' }, 'citynews.ovh'), false);
+});

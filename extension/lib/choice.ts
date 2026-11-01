@@ -92,7 +92,8 @@ export function classifyLabel(label: string): LabelKind | null {
 // (Didomi), iubenda-cs-reject-btn (iubenda), uc-deny-all-button (Usercentrics).
 // Sourcepoint uses numbered classes: sp_choice_type_11 is "accept all", 13 "reject all".
 // "disagree" contains "agree", so the reject words are checked first.
-const ATTR_REJECT = /reject|decline|deny|disagree|refuse|opt-?out|necessary-?only|only-?necessary|sp_choice_type_13\b/i;
+// Checked before ATTR_ACCEPT: "continue-without-agreeing" (Didomi) contains "agree" but means the opposite.
+const ATTR_REJECT = /reject|decline|deny|disagree|refuse|opt-?out|necessary-?only|only-?necessary|continue-?without|without-?(agree|accept|consent)|sp_choice_type_13\b/i;
 const ATTR_ACCEPT = /accept|agree|allow-?all|opt-?in|sp_choice_type_11\b/i;
 
 export function classifyAttributes(attrs: string): LabelKind | null {
@@ -134,6 +135,7 @@ export function inConsentBanner(ancestorTexts: string[]): boolean {
 // The parts of the TCF "tcData" object we read (see the IAB TCF v2 specification).
 export interface TcData {
   gdprApplies?: boolean;
+  tcString?: string; // present once a choice has been stored
   eventStatus?: string; // 'tcloaded' | 'cmpuishown' | 'useractioncomplete'
   purpose?: {
     consents?: Record<string, boolean>;
@@ -150,13 +152,25 @@ export function choiceFromTcf(data: TcData, site: string, at: number): ChoiceRec
   if (data.gdprApplies === false) return null;
   if (data.eventStatus !== 'tcloaded' && data.eventStatus !== 'useractioncomplete') return null;
   const consents = data.purpose?.consents;
-  if (!consents || Object.keys(consents).length === 0) return null;
+  const trigger = data.eventStatus === 'useractioncomplete' ? 'action' : 'stored';
+  if (!consents || Object.keys(consents).length === 0) {
+    // The standard lets a platform list every purpose (true or false) or only those
+    // WITH consent. In the second form, an empty list once a choice exists (the user
+    // just acted, or a stored choice is loaded) means: no consent at all. The total
+    // is then unknown, and left out rather than guessed.
+    if (trigger === 'stored' && !data.tcString) return null;
+    return {
+      site, source: 'tcf', choice: 'rejected', at, trigger, purposesConsented: 0,
+      legitimateInterests: countTrue(data.purpose?.legitimateInterests),
+      vendorsConsented: countTrue(data.vendor?.consents),
+    };
+  }
   const total = Object.keys(consents).length;
   const given = countTrue(consents);
   const choice: Choice = given === 0 ? 'rejected' : given === total ? 'accepted' : 'partial';
   return {
     site, source: 'tcf', choice, at,
-    trigger: data.eventStatus === 'useractioncomplete' ? 'action' : 'stored',
+    trigger,
     purposesConsented: given,
     purposesTotal: total,
     legitimateInterests: countTrue(data.purpose?.legitimateInterests),

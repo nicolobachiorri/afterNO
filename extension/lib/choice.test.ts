@@ -185,3 +185,21 @@ test('merge: a different stored choice replaces the old one', () => {
 test('message check: the trigger is required', () => {
   assert.equal(isChoiceMessage({ type: 'choice', record: { source: 'click', choice: 'rejected', at: 1 } }), false);
 });
+
+test('TCF listing only the purposes with consent: empty after an action is a rejection, total unknown', () => {
+  const r = choiceFromTcf({ gdprApplies: true, eventStatus: 'useractioncomplete', purpose: { consents: {} } }, 'subito.it', 5);
+  assert.equal(r?.choice, 'rejected');
+  assert.equal(r?.purposesTotal, undefined);
+  assert.equal(r?.trigger, 'action');
+});
+
+test('TCF empty list on load: a rejection only if a choice is stored (tcString), otherwise nothing', () => {
+  assert.equal(choiceFromTcf({ eventStatus: 'tcloaded', purpose: { consents: {} }, tcString: 'CP...' }, 's.it', 1)?.choice, 'rejected');
+  assert.equal(choiceFromTcf({ eventStatus: 'tcloaded', purpose: { consents: {} } }, 's.it', 1), null);
+  assert.equal(choiceFromTcf({ eventStatus: 'cmpuishown', purpose: { consents: {} } }, 's.it', 1), null);
+});
+
+test('Didomi "continue without agreeing": text and attributes agree on a rejection', () => {
+  assert.equal(classifyControl('Continua senza accettare →', 'didomi-continue-without-agreeing'), 'reject');
+  assert.equal(classifyControl('Accetta', 'didomi-notice-agree-button'), 'accept');
+});
