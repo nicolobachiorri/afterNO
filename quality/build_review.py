@@ -12,8 +12,11 @@ sites, not partitioned, valid at least 30 days, marketing or unknown in the
 database). It is an aid: the judge decides.
 
 Usage (from the quality folder):
-    python3 build_review.py --visit A      # writes runs/A/review.html
+    python3 build_review.py --visit A                       # writes runs/A/review.html
+    python3 build_review.py --visit A --only 4,8 --round 2  # some sites, a new round:
+        writes runs/A/review_round2.html, answers exported as judgments_A_round2.csv
 """
+import re
 
 import argparse
 import csv
@@ -126,6 +129,34 @@ def site_card(order, row, folder, msgs, db, now):
             body += "</tr>"
         return f"<table>{head}{body}</table>"
 
+    # What the robot did, said plainly next to question 1: the page screenshot is taken
+    # AFTER the click and the reload, so a missing banner means the click worked.
+    bt = row.get("banner_type", "")
+    if bt == "reject_found":
+        guide = (f"Il robot ha trovato e cliccato «{esc(str(row.get('reject_how', '')).split(chr(39))[1] if chr(39) in str(row.get('reject_how', '')) else row.get('reject_how', ''))}». "
+                 "Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, "
+                 "il clic ha funzionato e il sito è misurabile («sì»).")
+        if not choice:
+            guide += " <b class='warn'>L'estensione non ha registrato la scelta</b>: se il clic ha funzionato, la conclusione è «errore: scelta non registrata»."
+    elif bt == "pay_or_accept":
+        guide = "Il robot ha visto solo un rifiuto a pagamento («rifiuta e abbonati»): di solito «no: banner senza rifiuto»."
+    elif bt == "accept_only":
+        guide = "Il robot non ha trovato un pulsante di rifiuto tra quelli visti (elenco sopra). Se dallo screenshot il rifiuto c'era, rispondi «altro» e scrivi una nota."
+    else:
+        guide = "Il robot non ha visto nessun banner."
+    # How many third-party sites meet the criteria, against how many the extension names.
+    crit_sites = sorted({site_of(r["domain"]) for r in third if r.get("criteria")})
+    named = []
+    for it in verdict.get("items", []):
+        if it["key"] in ("itemThirdPartyStill", "itemThirdPartyNoChoice", "itemThirdParty"):
+            for n in it.get("names") or []:
+                m = re.search(r"\(([^)]+)\)$", n)
+                named.append(m.group(1) if m else n)
+    missing = [x for x in crit_sites if x not in named]
+    compare = (f"La tabella ha <b>{len(crit_sites)}</b> siti terzi che soddisfano i criteri «non visto»; "
+               f"l'estensione ne nomina <b>{len(named)}</b> come capaci di riconoscerti tra siti."
+               + (f" <span class='warn'>Nella tabella ma non nominati: {esc(', '.join(missing))}.</span>" if missing else ""))
+
     tcf = raw.get("tcf")
     tcf_txt = "assente" if not tcf else esc(json.dumps(tcf, ensure_ascii=False))
     q = f"q{order}"
@@ -151,16 +182,20 @@ def site_card(order, row, folder, msgs, db, now):
       <h3>Dati grezzi (robot)</h3>
       <p>TCF: {tcf_txt}<br>Clic al secondo {esc(raw.get('click_at_s', '-'))}, ricaricamento al {esc(raw.get('reload_at_s', '-'))}.
        Siti terzi contattati dopo il clic: {len(raw.get('third_party_hosts_after_click', []))}.</p>
+      <p class="compare">{compare}</p>
       <details open><summary>Cookie di siti terzi ({len(third)}; in evidenza quelli che soddisfano i criteri)</summary>{table(third, True)}</details>
       <details><summary>Cookie del sito ({len(own)})</summary>{table(own, False)}</details>
     </div>
   </div>
   <div class="form">
+    <p class="guide">{guide}</p>
     <p><b>1. Misurabile?</b> {radios('measurable', [('si', 'sì'), ('no_banner', 'no: nessun banner'), ('no_reject', 'no: banner senza rifiuto'), ('no_click', 'no: il clic non ha chiuso il banner'), ('no_blocked', 'no: robot bloccato'), ('other', 'altro')])}</p>
+    <div class="if-measurable">
     <p><b>2. Punti della lista</b> {radios('items', [('ok', 'tutti corretti'), ('imprecise', 'almeno uno impreciso'), ('wrong', 'almeno uno sbagliato')])}</p>
     <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="{q}_labels" style="width:4em"></p>
     <p><b>4. Conclusione</b> {radios('conclusion', [('correct', 'corretta'), ('debatable', 'discutibile'), ('false_alarm', 'sbagliata: falso allarme'), ('missed', 'sbagliata: problema non visto'), ('not_recorded', 'errore: scelta non registrata')])}</p>
-    <p><b>Note</b><br><textarea name="{q}_notes" rows="2"></textarea></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="{q}_notes" rows="2"></textarea></p>
   </div>
 </section>"""
 
@@ -181,15 +216,17 @@ table {{ border-collapse:collapse; font-size:12px; width:100%; }} td, th {{ bord
 tr.crit {{ background:var(--crit); }} code {{ word-break:break-all; }} .warn {{ color:var(--warn); }}
 .items li.bad b {{ color:var(--warn); }} .form {{ border-top:1px solid var(--line); margin-top:10px; padding-top:6px; }}
 .form label {{ margin-right:12px; white-space:nowrap; }} textarea {{ width:100%; }}
-.done {{ outline:2px solid #3a8f3a; }}
+.done {{ outline:2px solid #3a8f3a; }} .guide {{ background:var(--crit); padding:6px 8px; border-radius:6px; }}
+.compare {{ font-size:13px; }} .if-measurable {{ display:none; }} .measurable .if-measurable {{ display:block; }}
+.need-note {{ display:none; }} .note-missing .need-note {{ display:inline; }}
 </style></head><body>
-<header><b>Giudizio, visita {visit}</b> · {n} siti · <span id="progress"></span>
- · <button id="export">Esporta judgments_{visit}.csv</button>
+<header><b>Giudizio, visita {visit}{round_label}</b> · {n} siti · <span id="progress"></span>
+ · <button id="export">Esporta {export_name}</button>
  <span class="muted">Le risposte restano in questo browser finché non esporti.</span></header>
 <p class="muted">Regole: quality/PROTOCOL.md, sezione «Giudizio». Generato il {when}.</p>
 {cards}
 <script>
-const KEY = 'cookie-review-{visit}';
+const KEY = 'cookie-review-{key}';
 const load = () => {{ try {{ return JSON.parse(localStorage.getItem(KEY) || '{{}}'); }} catch (e) {{ return {{}}; }} }};
 const save = (d) => {{ try {{ localStorage.setItem(KEY, JSON.stringify(d)); }} catch (e) {{}} }};
 let data = load();
@@ -204,8 +241,11 @@ function restore() {{
 function progress() {{
   let done = 0;
   document.querySelectorAll('.site').forEach((s) => {{
-    const o = s.dataset.order, m = data[`q${{o}}_measurable`];
-    const complete = m && (m !== 'si' || data[`q${{o}}_conclusion`]);
+    const o = s.dataset.order, m = data[`q${{o}}_measurable`], c = data[`q${{o}}_conclusion`];
+    const noteNeeded = (m === 'other' || (m === 'si' && c === 'debatable')) && !(data[`q${{o}}_notes`] || '').trim();
+    s.classList.toggle('measurable', m === 'si');
+    s.classList.toggle('note-missing', noteNeeded);
+    const complete = m && (m !== 'si' || c) && !noteNeeded;
     s.classList.toggle('done', !!complete); if (complete) done++;
   }});
   document.getElementById('progress').textContent = `${{done}} giudicati`;
@@ -218,12 +258,14 @@ document.getElementById('export').addEventListener('click', () => {{
   const rows = [['visit', 'order', ...fields]];
   document.querySelectorAll('.site').forEach((s) => {{
     const o = s.dataset.order;
-    rows.push(['{visit}', o, ...fields.map((f) => data[`q${{o}}_${{f}}`] ?? '')]);
+    const m = data[`q${{o}}_measurable`];
+    // Questions 2-4 only count for measurable sites: not exported otherwise.
+    rows.push(['{visit}', o, ...fields.map((f) => (m !== 'si' && ['items', 'labels', 'conclusion'].includes(f)) ? '' : (data[`q${{o}}_${{f}}`] ?? ''))]);
   }});
   const csv = rows.map((r) => r.map((x) => `"${{String(x).replaceAll('"', '""')}}"`).join(',')).join('\\n');
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([csv], {{ type: 'text/csv' }}));
-  a.download = 'judgments_{visit}.csv'; a.click();
+  a.download = '{export_name}'; a.click();
 }});
 restore(); progress();
 </script></body></html>"""
@@ -232,7 +274,10 @@ restore(); progress();
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--visit", required=True)
+    ap.add_argument("--only", help="comma-separated order numbers")
+    ap.add_argument("--round", type=int, default=1, help="judging round (2, 3...): separate page and export")
     args = ap.parse_args()
+    only = {x.strip() for x in args.only.split(",")} if args.only else None
     run_dir = HERE / "runs" / args.visit
     msgs = json.loads(MESSAGES.read_text(encoding="utf-8"))
     db = json.loads(COOKIE_DB.read_text(encoding="utf-8"))
@@ -243,6 +288,8 @@ def main():
     now = time.time()
     cards = []
     for order in sorted(sample, key=int):
+        if only and order not in only:
+            continue
         row = {**sample[order], **results.get(order, {})}
         folders = list(run_dir.glob(f"{int(order):02d}_*"))
         if not folders or order not in results:
@@ -250,10 +297,13 @@ def main():
                          f"<p class='warn'>Non ancora misurato in questa visita.</p></section>")
             continue
         cards.append(site_card(order, row, folders[0], msgs, db, now))
-    out = run_dir / "review.html"
-    out.write_text(PAGE.format(visit=args.visit, n=len(sample), when=time.strftime("%d/%m/%Y %H:%M"),
+    suffix = "" if args.round == 1 else f"_round{args.round}"
+    out = run_dir / f"review{suffix}.html"
+    out.write_text(PAGE.format(visit=args.visit, n=len(cards), when=time.strftime("%d/%m/%Y %H:%M"),
+                               key=f"{args.visit}{suffix}", export_name=f"judgments_{args.visit}{suffix}.csv",
+                               round_label="" if args.round == 1 else f", tornata {args.round}",
                                cards="".join(cards)), encoding="utf-8")
-    print(f"{len(sample)} sites -> {out}")
+    print(f"{len(cards)} sites -> {out}")
 
 
 if __name__ == "__main__":

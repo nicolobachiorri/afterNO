@@ -142,3 +142,38 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
    - le due visite si fanno in momenti diversi, perché due visite consecutive
      sottostimerebbero la variabilità della pubblicità;
    - aggiunta la sezione dei limiti dichiarati.
+
+**1 novembre 2026, dopo la visita A e prima del giudizio definitivo.**
+
+5. iue.it non si carica (certificato non valido): sostituito da feltrinellieditore.it
+   secondo la regola «non risponde». italotreno.it reindirizza a italotreno.com:
+   sostituito come previsto dalla modifica 3. Registrati in `select_sites.py`.
+6. *Giudizio, prima tornata.* La pagina di giudizio mostrava solo lo screenshot fatto
+   dopo il clic e il ricaricamento, senza spiegarlo: un banner assente, che indica un
+   clic riuscito, poteva essere letto come «nessun banner». Inoltre permetteva risposte
+   alle domande 2-4 anche per i siti non misurabili e «discutibile» senza nota.
+7. *Giudizio, seconda tornata.* La pagina è stata corretta (indicazione accanto alla
+   domanda 1 su cosa ha fatto il robot e cosa significa lo screenshot; domande 2-4
+   solo per i siti misurabili; nota obbligatoria per «discutibile» e «altro»;
+   confronto tra i siti terzi che soddisfano i criteri e quelli nominati
+   dall'estensione). Il giudice umano rigiudica i siti toccati da questi problemi:
+   4, 8, 10, 19, 22, 27, 34 (misurabilità), 9, 16, 17, 21, 37 («discutibile» senza nota),
+   5, 7, 15, più feltrinellieditore.it. Per 5, 7 e 15 lo sviluppatore ha segnalato
+   prima della seconda tornata un fatto verificabile nei dati grezzi (cookie di un
+   tracker legati a un percorso, non letti dall'estensione): il giudizio su questi tre
+   non è quindi cieco, e lo si dichiara.
+8. *Secondo giudice.* Un modello di IA (Gemini) ha compilato la pagina della prima
+   tornata leggendone solo il testo, senza vedere gli screenshot. Il suo giudizio non
+   sostituisce quello umano: si usa come secondo giudice per misurare l'accordo, con
+   questo limite dichiarato.
+9. *Giudici definitivi della visita A.* Il giudice umano ha completato due tornate,
+   ma in sei casi le risposte contraddicevano regole scritte (per esempio
+   «corretta» dove i dati mostrano un tracker non visto dall'estensione). Su
+   decisione del responsabile del progetto, il giudizio umano è stato messo da parte
+   e il giudizio principale è stato affidato a **Claude, il modello di IA che ha
+   scritto il codice dell'estensione**: un conflitto di interessi che si dichiara.
+   Per controllarlo, **Gemini** (modello di un'altra azienda, che non ha scritto il
+   codice) è il secondo giudice: ha giudicato prima e in modo indipendente, sul solo
+   testo della pagina. L'accordo tra i due si riporta con i risultati (`summary.md`).
+   I file del giudizio umano non fanno parte dei risultati.
+

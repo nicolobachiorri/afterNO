@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+A,1,gemini,si,ok,0,correct,
+A,2,gemini,no_reject,ok,0,,"Banner solo con Configura | Accetta. Nel DB il cookie RT è Akamai Boomerang, non Tripadvisor."
+A,3,gemini,si,imprecise,0,correct,"Nella lista vengono citati 4 siti terzi ma nella tabella sono 5 a soddisfare i criteri 'non visto' (manca .capig.stape.host, cookie cee 90gg)."
+A,4,gemini,si,ok,0,not_recorded,Il robot ha cliccato 'Continua senza accettare' ma l'estensione non ha registrato la scelta.
+A,5,gemini,si,wrong,0,missed,Non visti i cookie di terza parte ~DL.c (90gg) e ~DL.i (399gg) di .citynews.ovh contattati dopo il clic. Inoltre _ce.seg.targeting (Crazy Egg) è Unknown.
+A,6,gemini,si,ok,0,correct,"Nota DB: i cookie TS01... sono F5 BIG-IP, non Wix.com."
+A,7,gemini,si,wrong,0,missed,"Non visto il cookie terzo tracciante wteid_769396664005295 (Webtrekk / mediasetitalia01.wt-eu02.net, 180gg)."
+A,8,gemini,si,ok,0,not_recorded,Il robot ha cliccato 'Continua senza accettare' ma l'estensione non ha registrato la scelta.
+A,9,gemini,si,ok,0,correct,
+A,10,gemini,si,ok,0,not_recorded,Il robot ha cliccato 'Continua senza accettare' ma l'estensione non ha registrato la scelta.
+A,11,gemini,no_reject,ok,0,,"Il robot non ha trovato il tasto rifiuta, ma era presente la '×' di chiusura."
+A,12,gemini,no_reject,imprecise,0,,Paywall (Rifiuta e abbonati). Non visto anche wteid di Webtrekk (180gg).
+A,13,gemini,si,ok,0,correct,
+A,14,gemini,si,imprecise,0,correct,"Il verdetto indica 1 cookie marketing (SAP), ma nella tabella sono 4 (gig_bootstrap, gmid, hasGmid, ucid). Inoltre SAP Gigya è principalmente funzionale/autenticazione."
+A,15,gemini,si,wrong,0,missed,"Non visto il cookie terzo wteid_215973748390194 su italiaonline01.wt-eu02.net (Webtrekk, 180gg)."
+A,16,gemini,si,imprecise,0,correct,"Il verdetto indica 1 cookie marketing (SAP), ma nella tabella sono 4."
+A,17,gemini,si,ok,0,correct,"Nel DB il cookie 's' di eBay è classificato erroneamente come Facebook Marketing, ma essendo di sessione viene ignorato dal verdetto."
+A,18,gemini,no_reject,ok,0,,"Il link di rifiuto era probabilmente 'qui', non riconosciuto dal robot."
+A,19,gemini,si,ok,0,not_recorded,Il robot ha cliccato 'Continua senza accettare' ma l'estensione non ha registrato la scelta.
+A,20,gemini,no_reject,ok,0,,
+A,21,gemini,no_reject,imprecise,0,,"Paywall (Rifiuta e abbonati). Cookie .citynews.ovh (~DL.c, ~DL.i) non segnalati."
+A,22,gemini,si,ok,0,not_recorded,Il robot ha cliccato 'Continua senza accettare' ma l'estensione non ha registrato la scelta.
+A,23,gemini,no_reject,imprecise,1,,"Presente tasto '×' non cliccato. Nel DB i cookie Shopify/Shogun (_shopify_*, _shg_*, _shop_app_essential) sono etichettati erroneamente come Marfeel."
+A,24,gemini,no_reject,ok,0,,
+A,25,gemini,no_banner,ok,0,,Nessun banner rilevato.
+A,27,gemini,si,ok,0,correct,
+A,28,gemini,si,imprecise,1,correct,I cookie sbjs_* (Sourcebuster) sono etichettati come WooCommerce su un sito editoriale.
+A,29,gemini,si,ok,0,correct,
+A,31,gemini,no_reject,imprecise,1,,I cookie sbjs_* sono etichettati come WooCommerce.
+A,33,gemini,no_reject,ok,0,,
+A,34,gemini,si,wrong,0,not_recorded,"Scelta non registrata. Inoltre il verdetto dice 'Nessun cookie del sito è classificato come marketing', ma in tabella c'è il cookie 'c' (365gg, Marketing, CreativeCDN)."
+A,35,gemini,si,ok,0,correct,
+A,36,gemini,si,ok,0,correct,
+A,37,gemini,si,ok,0,not_recorded,Il robot ha cliccato 'Rifiuta' ma l'estensione non ha registrato la scelta.
+A,38,gemini,si,imprecise,1,correct,s_ecid è etichettato come Marketing sotto 'Adobe Analytics'. I 4 cookie _sp_* (Sourcepoint CMP) sono etichettati nel DB come Analytics (Marfeel) e non contati nel punto statistica.
+A,39,gemini,si,ok,0,correct,
+A,40,gemini,no_reject,wrong,0,,"Presente tasto 'x'. Il verdetto dice 'Nessun cookie del sito è classificato come marketing', ma in tabella c'è OAID (media.arte.it, 365gg, Marketing, openx.net)."
+A,41,gemini,no_reject,ok,0,,Pulsante 'non sostenerci' non riconosciuto dal robot.
+A,42,gemini,no_reject,imprecise,0,,"Paywall (Rifiuta e abbonati). Cookie .citynews.ovh (~DL.c, ~DL.i) non segnalati."
+A,43,gemini,other,,0,,"Errore del robot/estensione: no verdict.json, pagina non caricata."

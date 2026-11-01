@@ -41,6 +41,7 @@ REPLACED = {
     "resmush.it": "technical service (image API)",
     # Found at the first visit (visit A): the home page redirects to a site already in the sample.
     "italotreno.it": "redirects to italotreno.com, already in the sample",
+    "iue.it": "does not load (invalid certificate)",
 }
 
 

@@ -1,0 +1,613 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giudizio visita A</title>
+<style>
+:root { --bg:#fff; --fg:#1d1d1f; --muted:#6b6b6b; --line:#ddd; --crit:#fdecea; --warn:#b3261e; --card:#fafafa; }
+@media (prefers-color-scheme: dark) { :root { --bg:#1c1c1e; --fg:#eee; --muted:#9a9a9a; --line:#3a3a3a; --crit:#4a2422; --warn:#ff8a80; --card:#242426; } }
+body { background:var(--bg); color:var(--fg); font:14px/1.45 system-ui, sans-serif; margin:0 16px 80px; }
+header { position:sticky; top:0; background:var(--bg); border-bottom:1px solid var(--line); padding:10px 0; z-index:2; }
+.site { border:1px solid var(--line); border-radius:10px; padding:12px 16px; margin:18px 0; background:var(--card); }
+.site h2 { font-size:17px; margin:0 0 4px; } .meta, .muted { color:var(--muted); }
+.cols { display:flex; gap:16px; flex-wrap:wrap; } .shots { flex:0 0 340px; display:flex; flex-direction:column; gap:8px; }
+.shots img { width:100%; border:1px solid var(--line); border-radius:6px; } .facts { flex:1 1 480px; min-width:0; }
+table { border-collapse:collapse; font-size:12px; width:100%; } td, th { border-bottom:1px solid var(--line); padding:3px 5px; text-align:left; vertical-align:top; }
+tr.crit { background:var(--crit); } code { word-break:break-all; } .warn { color:var(--warn); }
+.items li.bad b { color:var(--warn); } .form { border-top:1px solid var(--line); margin-top:10px; padding-top:6px; }
+.form label { margin-right:12px; white-space:nowrap; } textarea { width:100%; }
+.done { outline:2px solid #3a8f3a; } .guide { background:var(--crit); padding:6px 8px; border-radius:6px; }
+.compare { font-size:13px; } .if-measurable { display:none; } .measurable .if-measurable { display:block; }
+.need-note { display:none; } .note-missing .need-note { display:inline; }
+</style></head><body>
+<header><b>Giudizio, visita A, tornata 2</b> · 16 siti · <span id="progress"></span>
+ · <button id="export">Esporta judgments_A_round2.csv</button>
+ <span class="muted">Le risposte restano in questo browser finché non esporti.</span></header>
+<p class="muted">Regole: quality/PROTOCOL.md, sezione «Giudizio». Generato il 01/11/2026 15:50.</p>
+
+<section class="site" id="s4" data-order="4">
+  <h2>4. https://www.subito.it <small>(step1)</small></h2>
+  <p class="meta">Pagina finale: https://www.subito.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Continua senza accettare →&#x27; in main (normal click)<br>Pulsanti visti: Continua senza accettare → | Vedi i nostri 144 partner | Personalizza | Accetta | Motori | Market | Immobili | Lavoro | Più filtri | Vedi 549.133 annunci | Auto | Moto e Scooter | Accessori Auto | Accessori Moto | Caravan e Camper</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="04_subito.it/page.png" target="_blank"><img src="04_subito.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="04_subito.it/popup.png" target="_blank"><img src="04_subito.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: <b class='warn'>nessuna scelta registrata dall'estensione</b></p>
+      <ul class="items"><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li><li class='info'><b>ℹ</b> 4 cookie del sito sono classificati come statistica, che in alcuni casi è ammessa senza consenso: Google Analytics</li></ul>
+      <p>Conclusione: <b>— nessuna</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 7, &quot;eventStatus&quot;: &quot;tcloaded&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 0, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 11.38, ricaricamento al 16.38.
+       Siti terzi contattati dopo il clic: 12.</p>
+      <p class="compare">La tabella ha <b>0</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (0; in evidenza quelli che soddisfano i criteri)</summary><p class='muted'>Nessuno.</p></details>
+      <details><summary>Cookie del sito (11)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>FPID</code></td><td>.subito.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>FPLC</code></td><td>.subito.it</td><td>-</td><td>-2</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>_ga</code></td><td>.subito.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>_ga_D72SGH4DYJ</code></td><td>.subito.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>__eoi</code></td><td>.subito.it</td><td>None</td><td>177</td><td></td><td>Security</td><td>Google AdSense</td></tr><tr class=''><td><code>_pulse2data</code></td><td>.subito.it</td><td>None</td><td>397</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>akacd_orodha</code></td><td>www.subito.it</td><td>None</td><td>397</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>cis-jwe</code></td><td>.subito.it</td><td>None</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>didomi_dcs</code></td><td>.subito.it</td><td>Lax</td><td>363</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>euconsent-v2</code></td><td>.subito.it</td><td>Lax</td><td>363</td><td></td><td>Functional</td><td>PrivacyPillar</td></tr><tr class=''><td><code>kppid</code></td><td>.subito.it</td><td>-</td><td>207</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Continua senza accettare →». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»). <b class='warn'>L'estensione non ha registrato la scelta</b>: se il clic ha funzionato, la conclusione è «errore: scelta non registrata».</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q4_measurable' value='si'> sì</label><label><input type='radio' name='q4_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q4_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q4_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q4_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q4_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q4_items' value='ok'> tutti corretti</label><label><input type='radio' name='q4_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q4_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q4_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q4_conclusion' value='correct'> corretta</label><label><input type='radio' name='q4_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q4_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q4_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q4_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q4_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s5" data-order="5">
+  <h2>5. https://www.ilpost.it <small>(step1)</small></h2>
+  <p class="meta">Pagina finale: https://www.ilpost.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Continua senza accettare&#x27; in main (normal click)<br>Pulsanti visti: 35 min | 52 min | Opzioni cookie | Continua senza accettare | Accetta e chiudi</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="05_ilpost.it/page.png" target="_blank"><img src="05_ilpost.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="05_ilpost.it/popup.png" target="_blank"><img src="05_ilpost.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: rejected (fonte: click, pulsante «Continua senza accettare»)</p>
+      <ul class="items"><li class='info'><b>ℹ</b> Hai cliccato «Continua senza accettare». Non possiamo verificare come il sito abbia registrato la scelta. </li><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li><li class='info'><b>ℹ</b> 8 cookie del sito sono classificati come statistica, che in alcuni casi è ammessa senza consenso: Google Analytics, Crazy Egg</li></ul>
+      <p>Conclusione: <b>Il tuo rifiuto sembra rispettato.</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 123, &quot;eventStatus&quot;: &quot;cmpuishown&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 0, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 12.64, ricaricamento al 17.65.
+       Siti terzi contattati dopo il clic: 17.</p>
+      <p class="compare">La tabella ha <b>1</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti. <span class='warn'>Nella tabella ma non nominati: citynews.ovh.</span></p>
+      <details open><summary>Cookie di siti terzi (3; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class='crit'><td><code>~DL.c</code></td><td>.citynews.ovh</td><td>None</td><td>87</td><td></td><td>Unknown</td><td></td><td>sì</td><td>✔</td></tr><tr class='crit'><td><code>~DL.i</code></td><td>.citynews.ovh</td><td>None</td><td>396</td><td></td><td>Unknown</td><td></td><td>sì</td><td>✔</td></tr><tr class=''><td><code>~DL.s</code></td><td>.citynews.ovh</td><td>None</td><td>-3</td><td></td><td>Unknown</td><td></td><td>sì</td><td></td></tr></table></details>
+      <details><summary>Cookie del sito (11)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>FPID</code></td><td>.ilpost.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>FPLC</code></td><td>.ilpost.it</td><td>-</td><td>-2</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>_ce.clock_data</code></td><td>.ilpost.it</td><td>Strict</td><td>-2</td><td></td><td>Analytics</td><td>Crazy Egg</td></tr><tr class=''><td><code>_ce.s</code></td><td>.ilpost.it</td><td>Strict</td><td>362</td><td></td><td>Analytics</td><td>Crazy Egg</td></tr><tr class=''><td><code>_ga</code></td><td>.ilpost.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>_ga_2T31DE0K8K</code></td><td>.ilpost.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>cebs</code></td><td>.ilpost.it</td><td>Strict</td><td>sessione</td><td></td><td>Analytics</td><td>Crazy Egg (crazyegg.com)</td></tr><tr class=''><td><code>cebsp_</code></td><td>.ilpost.it</td><td>Strict</td><td>sessione</td><td></td><td>Analytics</td><td>Crazy Egg (crazyegg.com)</td></tr><tr class=''><td><code>_ce.seg.targeting</code></td><td>.ilpost.it</td><td>Strict</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>ilpost-token</code></td><td>.ilpost.it</td><td>-</td><td>87</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>theme</code></td><td>www.ilpost.it</td><td>-</td><td>362</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Continua senza accettare». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»).</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q5_measurable' value='si'> sì</label><label><input type='radio' name='q5_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q5_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q5_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q5_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q5_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q5_items' value='ok'> tutti corretti</label><label><input type='radio' name='q5_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q5_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q5_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q5_conclusion' value='correct'> corretta</label><label><input type='radio' name='q5_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q5_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q5_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q5_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q5_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s7" data-order="7">
+  <h2>7. https://www.giallozafferano.it <small>(step1)</small></h2>
+  <p class="meta">Pagina finale: https://www.giallozafferano.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Continua senza accettare&#x27; in main (normal click)<br>Pulsanti visti: Iscriviti | Continua senza accettare | Accetta e chiudi | Opzioni cookie</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="07_giallozafferano.it/page.png" target="_blank"><img src="07_giallozafferano.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="07_giallozafferano.it/popup.png" target="_blank"><img src="07_giallozafferano.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: rejected (fonte: click, pulsante «Continua senza accettare»)</p>
+      <ul class="items"><li class='info'><b>ℹ</b> Hai cliccato «Continua senza accettare». Non possiamo verificare come il sito abbia registrato la scelta. </li><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li></ul>
+      <p>Conclusione: <b>Il tuo rifiuto sembra rispettato.</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 123, &quot;eventStatus&quot;: &quot;tcloaded&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 0, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 11.86, ricaricamento al 16.86.
+       Siti terzi contattati dopo il clic: 37.</p>
+      <p class="compare">La tabella ha <b>1</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti. <span class='warn'>Nella tabella ma non nominati: wt-eu02.net.</span></p>
+      <details open><summary>Cookie di siti terzi (3; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class='crit'><td><code>wteid_769396664005295</code></td><td>mediasetitalia01.wt-eu02.net</td><td>None</td><td>177</td><td></td><td>Unknown</td><td></td><td>sì</td><td>✔</td></tr><tr class=''><td><code>__cf_bm</code></td><td>.stbm.it</td><td>None</td><td>-3</td><td></td><td>Functional</td><td>Cloudflare</td><td>sì</td><td></td></tr><tr class=''><td><code>wtsid_769396664005295</code></td><td>mediasetitalia01.wt-eu02.net</td><td>None</td><td>sessione</td><td></td><td>Unknown</td><td></td><td>sì</td><td></td></tr></table></details>
+      <details><summary>Cookie del sito (8)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>FCCDCF</code></td><td>.giallozafferano.it</td><td>-</td><td>387</td><td></td><td>Functional</td><td>Google Funding Choices</td></tr><tr class=''><td><code>__cf_bm</code></td><td>.giallozafferano.it</td><td>None</td><td>-3</td><td></td><td>Functional</td><td>Cloudflare</td></tr><tr class=''><td><code>_iub_cs-81919939</code></td><td>.giallozafferano.it</td><td>None</td><td>362</td><td></td><td>Functional</td><td>Iubenda</td></tr><tr class=''><td><code>_iub_cs-81919939-granular</code></td><td>.giallozafferano.it</td><td>None</td><td>362</td><td></td><td>Functional</td><td>Iubenda</td></tr><tr class=''><td><code>_iub_previous_preference_id</code></td><td>.giallozafferano.it</td><td>None</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>cf_clearance</code></td><td>.giallozafferano.it</td><td>None</td><td>362</td><td>sì</td><td>Functional</td><td>Cloudflare</td></tr><tr class=''><td><code>euconsent-v2</code></td><td>.giallozafferano.it</td><td>None</td><td>361</td><td></td><td>Functional</td><td>PrivacyPillar</td></tr><tr class=''><td><code>wt_rla</code></td><td>.giallozafferano.it</td><td>-</td><td>57</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Continua senza accettare». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»).</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q7_measurable' value='si'> sì</label><label><input type='radio' name='q7_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q7_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q7_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q7_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q7_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q7_items' value='ok'> tutti corretti</label><label><input type='radio' name='q7_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q7_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q7_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q7_conclusion' value='correct'> corretta</label><label><input type='radio' name='q7_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q7_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q7_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q7_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q7_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s8" data-order="8">
+  <h2>8. https://www.decathlon.it <small>(step1)</small></h2>
+  <p class="meta">Pagina finale: https://www.decathlon.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Continua senza accettare →&#x27; in main (normal click)<br>Pulsanti visti: Continua senza accettare → | i nostri 31 partner | Preferenze | Accetta tutto | Tutti gli sport | Uomo | Donna | Kids | Accessori | Alimentazione e cura | Servizi | Offerte | Club Aziende PA</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="08_decathlon.it/page.png" target="_blank"><img src="08_decathlon.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="08_decathlon.it/popup.png" target="_blank"><img src="08_decathlon.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: <b class='warn'>nessuna scelta registrata dall'estensione</b></p>
+      <ul class="items"><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li></ul>
+      <p>Conclusione: <b>— nessuna</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 7, &quot;eventStatus&quot;: &quot;tcloaded&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 1, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 11.88, ricaricamento al 16.88.
+       Siti terzi contattati dopo il clic: 5.</p>
+      <p class="compare">La tabella ha <b>0</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (0; in evidenza quelli che soddisfano i criteri)</summary><p class='muted'>Nessuno.</p></details>
+      <details><summary>Cookie del sito (6)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>AUTH_STATE</code></td><td>www.decathlon.it</td><td>Lax</td><td>12</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__cf_bm</code></td><td>.www.decathlon.it</td><td>None</td><td>-3</td><td></td><td>Functional</td><td>Cloudflare</td></tr><tr class=''><td><code>_cfuvid</code></td><td>.www.decathlon.it</td><td>None</td><td>sessione</td><td></td><td>Functional</td><td>Cloudflare</td></tr><tr class=''><td><code>didomi_token</code></td><td>.decathlon.it</td><td>Lax</td><td>180</td><td></td><td>Functional</td><td>Didomi</td></tr><tr class=''><td><code>dkt_ecom_user_temporary_id</code></td><td>www.decathlon.it</td><td>-</td><td>-2</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>euconsent-v2</code></td><td>.decathlon.it</td><td>Lax</td><td>180</td><td></td><td>Functional</td><td>PrivacyPillar</td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Continua senza accettare →». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»). <b class='warn'>L'estensione non ha registrato la scelta</b>: se il clic ha funzionato, la conclusione è «errore: scelta non registrata».</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q8_measurable' value='si'> sì</label><label><input type='radio' name='q8_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q8_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q8_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q8_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q8_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q8_items' value='ok'> tutti corretti</label><label><input type='radio' name='q8_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q8_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q8_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q8_conclusion' value='correct'> corretta</label><label><input type='radio' name='q8_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q8_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q8_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q8_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q8_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s9" data-order="9">
+  <h2>9. https://www.trenitalia.com <small>(step1)</small></h2>
+  <p class="meta">Pagina finale: https://www.trenitalia.com/it.html · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Rifiuta tutti&#x27; in main (normal click)<br>Pulsanti visti: Vai al contenuto principale | Siti del Gruppo | Supporto | ITA | Seleziona orario 18:00 | 1 Adulto | Soluzioni Principali | Aggiungi buono sconto | CERCA | Accetta | Rifiuta tutti | Gestisci preferenza</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="09_trenitalia.com/page.png" target="_blank"><img src="09_trenitalia.com/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="09_trenitalia.com/popup.png" target="_blank"><img src="09_trenitalia.com/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: rejected (fonte: click, pulsante «Rifiuta tutti»)</p>
+      <ul class="items"><li class='info'><b>ℹ</b> Hai cliccato «Rifiuta tutti». Non possiamo verificare come il sito abbia registrato la scelta. </li><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='bad'><b>✗</b> 1 cookie del sito è classificato come marketing: Adobe Audience Manager</li><li class='info'><b>ℹ</b> 1 cookie del sito è classificato come marketing ma scade entro un giorno o alla chiusura del browser, quindi da solo non basta a riconoscerti nei giorni successivi: Adobe Audience Manager</li><li class='info'><b>ℹ</b> 2 cookie del sito sono classificati come statistica, che in alcuni casi è ammessa senza consenso: Adobe Analytics</li></ul>
+      <p>Conclusione: <b>Il tuo rifiuto sembra rispettato solo in parte.</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 28, &quot;eventStatus&quot;: &quot;tcloaded&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 0, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 12.56, ricaricamento al 17.56.
+       Siti terzi contattati dopo il clic: 8.</p>
+      <p class="compare">La tabella ha <b>0</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (0; in evidenza quelli che soddisfano i criteri)</summary><p class='muted'>Nessuno.</p></details>
+      <details><summary>Cookie del sito (14)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>AMCVS_0D5215F354E6C24C0A4C98A4%40AdobeOrg</code></td><td>.trenitalia.com</td><td>-</td><td>sessione</td><td></td><td>Marketing</td><td>Adobe Audience Manager</td></tr><tr class=''><td><code>AMCV_0D5215F354E6C24C0A4C98A4%40AdobeOrg</code></td><td>.trenitalia.com</td><td>-</td><td>397</td><td></td><td>Marketing</td><td>Adobe Audience Manager</td></tr><tr class=''><td><code>s_cc</code></td><td>.trenitalia.com</td><td>-</td><td>sessione</td><td></td><td>Analytics</td><td>Adobe Analytics</td></tr><tr class=''><td><code>s_sq</code></td><td>.trenitalia.com</td><td>-</td><td>sessione</td><td></td><td>Analytics</td><td>Adobe Analytics</td></tr><tr class=''><td><code>OptanonAlertBoxClosed</code></td><td>.www.trenitalia.com</td><td>Lax</td><td>177</td><td></td><td>Functional</td><td>OneTrust</td></tr><tr class=''><td><code>OptanonConsent</code></td><td>.www.trenitalia.com</td><td>Lax</td><td>177</td><td></td><td>Functional</td><td>OneTrust</td></tr><tr class=''><td><code>ak_bmsc</code></td><td>.trenitalia.com</td><td>-</td><td>-3</td><td></td><td>Functional</td><td>Akamai</td></tr><tr class=''><td><code>bm_sv</code></td><td>.trenitalia.com</td><td>-</td><td>-3</td><td></td><td>Functional</td><td>Akamai</td></tr><tr class=''><td><code>eupubconsent-v2</code></td><td>.www.trenitalia.com</td><td>Lax</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>gds</code></td><td>.trenitalia.com</td><td>-</td><td>397</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>gds_s</code></td><td>.trenitalia.com</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>s_nr</code></td><td>.trenitalia.com</td><td>-</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>s_ppn</code></td><td>.trenitalia.com</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>s_vs</code></td><td>www.trenitalia.com</td><td>-</td><td>sessione</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Rifiuta tutti». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»).</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q9_measurable' value='si'> sì</label><label><input type='radio' name='q9_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q9_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q9_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q9_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q9_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q9_items' value='ok'> tutti corretti</label><label><input type='radio' name='q9_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q9_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q9_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q9_conclusion' value='correct'> corretta</label><label><input type='radio' name='q9_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q9_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q9_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q9_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q9_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s10" data-order="10">
+  <h2>10. https://www.immobiliare.it <small>(step1)</small></h2>
+  <p class="meta">Pagina finale: https://www.immobiliare.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Continua senza accettare →&#x27; in main (normal click)<br>Pulsanti visti: Continua senza accettare → | Vedi i nostri 22 partner | PIÙ INFORMAZIONI | ACCETTA | Italia | Italiano | Italia | Italiano | PUBBLICA | Accedi | Case - Appartamenti | N.1 Immobiliare.it è il N.1 in Italia | Ricerca AI | Case in vendita a Roma RomaResidenziale | Case in vendita a Milano MilanoResidenziale | Case in vendita a Torino TorinoResidenziale</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="10_immobiliare.it/page.png" target="_blank"><img src="10_immobiliare.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="10_immobiliare.it/popup.png" target="_blank"><img src="10_immobiliare.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: <b class='warn'>nessuna scelta registrata dall'estensione</b></p>
+      <ul class="items"><li class='bad'><b>✗</b> Senza alcun consenso registrato, 4 siti terzi possono già riconoscerti: CreativeCDN (creativecdn.com), DoubleClick/Google Marketing (doubleclick.net), Criteo (criteo.com), Xandr (adnxs.com)</li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li><li class='info'><b>ℹ</b> 3 cookie del sito sono classificati come statistica, che in alcuni casi è ammessa senza consenso: Braze, Trustpilot</li></ul>
+      <p>Conclusione: <b>— nessuna</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 7, &quot;eventStatus&quot;: &quot;tcloaded&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 0, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 11.79, ricaricamento al 16.8.
+       Siti terzi contattati dopo il clic: 18.</p>
+      <p class="compare">La tabella ha <b>2</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>4</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (10; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class='crit'><td><code>g</code></td><td>.creativecdn.com</td><td>None</td><td>362</td><td></td><td>Marketing</td><td>CreativeCDN (creativecdn.com)</td><td>sì</td><td>✔</td></tr><tr class='crit'><td><code>IDE</code></td><td>.doubleclick.net</td><td>None</td><td>387</td><td></td><td>Marketing</td><td>DoubleClick/Google Marketing (doubleclick.net)</td><td>sì</td><td>✔</td></tr><tr class=''><td><code>XANDR_PANID</code></td><td>.adnxs.com</td><td>None</td><td>87</td><td>sì</td><td>Marketing</td><td>Xandr (adnxs.com)</td><td></td><td></td></tr><tr class=''><td><code>anj</code></td><td>.adnxs.com</td><td>None</td><td>87</td><td></td><td>Marketing</td><td>Xandr (adnxs.com)</td><td></td><td></td></tr><tr class=''><td><code>uuid2</code></td><td>.adnxs.com</td><td>None</td><td>87</td><td></td><td>Marketing</td><td>Xandr (adnxs.com)</td><td></td><td></td></tr><tr class=''><td><code>c</code></td><td>.creativecdn.com</td><td>None</td><td>362</td><td>sì</td><td>Marketing</td><td>CreativeCDN (creativecdn.com)</td><td>sì</td><td></td></tr><tr class=''><td><code>ts</code></td><td>.creativecdn.com</td><td>None</td><td>362</td><td>sì</td><td>Functional</td><td>CreativeCDN (creativecdn.com)</td><td>sì</td><td></td></tr><tr class=''><td><code>cto_bundle</code></td><td>.criteo.com</td><td>None</td><td>387</td><td>sì</td><td>Marketing</td><td>Criteo</td><td></td><td></td></tr><tr class=''><td><code>uid</code></td><td>.criteo.com</td><td>None</td><td>387</td><td></td><td>Marketing</td><td>Adform (adform.net)</td><td></td><td></td></tr><tr class=''><td><code>__cf_bm</code></td><td>.polymarket.com</td><td>None</td><td>-3</td><td></td><td>Functional</td><td>Cloudflare</td><td>sì</td><td></td></tr></table></details>
+      <details><summary>Cookie del sito (12)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>ab.storage.deviceId.fe67ee0d-3b20-47d7-95bc-dbbe2778b467</code></td><td>.immobiliare.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Braze</td></tr><tr class=''><td><code>ab.storage.sessionId.fe67ee0d-3b20-47d7-95bc-dbbe2778b467</code></td><td>.immobiliare.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Braze</td></tr><tr class=''><td><code>ajs_anonymous_id</code></td><td>.immobiliare.it</td><td>Lax</td><td>362</td><td></td><td>Analytics</td><td>Trustpilot (trustpilot.com)</td></tr><tr class=''><td><code>__rtbh.aid</code></td><td>www.immobiliare.it</td><td>None</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__rtbh.lid</code></td><td>www.immobiliare.it</td><td>None</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__rtbh.ssgtm.aid</code></td><td>.immobiliare.it</td><td>-</td><td>397</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>crto_is_user_optout</code></td><td>.immobiliare.it</td><td>-</td><td>0</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>crto_mapped_user_id</code></td><td>.immobiliare.it</td><td>-</td><td>0</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>datadome</code></td><td>.immobiliare.it</td><td>Lax</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>didomi_token</code></td><td>.immobiliare.it</td><td>Lax</td><td>180</td><td></td><td>Functional</td><td>Didomi</td></tr><tr class=''><td><code>euconsent-v2</code></td><td>.immobiliare.it</td><td>Lax</td><td>180</td><td></td><td>Functional</td><td>PrivacyPillar</td></tr><tr class=''><td><code>g_state</code></td><td>www.immobiliare.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Continua senza accettare →». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»). <b class='warn'>L'estensione non ha registrato la scelta</b>: se il clic ha funzionato, la conclusione è «errore: scelta non registrata».</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q10_measurable' value='si'> sì</label><label><input type='radio' name='q10_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q10_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q10_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q10_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q10_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q10_items' value='ok'> tutti corretti</label><label><input type='radio' name='q10_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q10_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q10_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q10_conclusion' value='correct'> corretta</label><label><input type='radio' name='q10_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q10_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q10_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q10_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q10_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s15" data-order="15">
+  <h2>15. https://www.libero.it <small>(step1)</small></h2>
+  <p class="meta">Pagina finale: https://www.libero.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Continua senza accettare&#x27; in main (normal click)<br>Pulsanti visti: terze parti | cookie policy | finalità pubblicitarie | Preferenze sui cookie | Continua senza accettare | Personalizza | Accetta e Chiudi</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="15_libero.it/page.png" target="_blank"><img src="15_libero.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="15_libero.it/popup.png" target="_blank"><img src="15_libero.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: rejected (fonte: click, pulsante «Continua senza accettare»)</p>
+      <ul class="items"><li class='info'><b>ℹ</b> Hai cliccato «Continua senza accettare». Non possiamo verificare come il sito abbia registrato la scelta. </li><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li></ul>
+      <p>Conclusione: <b>Il tuo rifiuto sembra rispettato.</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 123, &quot;eventStatus&quot;: &quot;cmpuishown&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 0, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 10.49, ricaricamento al 15.5.
+       Siti terzi contattati dopo il clic: 21.</p>
+      <p class="compare">La tabella ha <b>1</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti. <span class='warn'>Nella tabella ma non nominati: wt-eu02.net.</span></p>
+      <details open><summary>Cookie di siti terzi (3; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class='crit'><td><code>wteid_215973748390194</code></td><td>italiaonline01.wt-eu02.net</td><td>None</td><td>177</td><td></td><td>Unknown</td><td></td><td>sì</td><td>✔</td></tr><tr class=''><td><code>evntuid</code></td><td>.evnt.iol.it</td><td>None</td><td>sessione</td><td></td><td>Unknown</td><td></td><td>sì</td><td></td></tr><tr class=''><td><code>wtsid_215973748390194</code></td><td>italiaonline01.wt-eu02.net</td><td>None</td><td>sessione</td><td></td><td>Unknown</td><td></td><td>sì</td><td></td></tr></table></details>
+      <details><summary>Cookie del sito (1)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>iolcmp-exp</code></td><td>.libero.it</td><td>-</td><td>362</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Continua senza accettare». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»).</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q15_measurable' value='si'> sì</label><label><input type='radio' name='q15_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q15_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q15_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q15_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q15_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q15_items' value='ok'> tutti corretti</label><label><input type='radio' name='q15_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q15_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q15_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q15_conclusion' value='correct'> corretta</label><label><input type='radio' name='q15_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q15_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q15_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q15_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q15_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s16" data-order="16">
+  <h2>16. https://www.lastampa.it <small>(step1)</small></h2>
+  <p class="meta">Pagina finale: https://www.lastampa.it/ · banner (robot): <b>reject_found</b>
+   · clic: text: &#x27;Continua senza accettare&#x27; in main (normal click)<br>Pulsanti visti: MENU | ACCEDI | CERCA | Continua senza accettare | cookie policy | terze parti | finalità pubblicitarie | Scegli e personalizza | Accetta</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="16_lastampa.it/page.png" target="_blank"><img src="16_lastampa.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="16_lastampa.it/popup.png" target="_blank"><img src="16_lastampa.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: rejected (fonte: click, pulsante «Continua senza accettare»)</p>
+      <ul class="items"><li class='info'><b>ℹ</b> Hai cliccato «Continua senza accettare». Non possiamo verificare come il sito abbia registrato la scelta. </li><li class='bad'><b>✗</b> 1 sito terzo può ancora riconoscerti su questo sito: blendee.com</li><li class='bad'><b>✗</b> 1 cookie del sito è classificato come marketing: SAP</li><li class='info'><b>ℹ</b> 3 cookie del sito sono classificati come statistica, che in alcuni casi è ammessa senza consenso: Google Analytics</li></ul>
+      <p>Conclusione: <b>Il tuo rifiuto sembra rispettato solo in parte.</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 123, &quot;eventStatus&quot;: &quot;tcloaded&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 0, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 11.34, ricaricamento al 16.34.
+       Siti terzi contattati dopo il clic: 34.</p>
+      <p class="compare">La tabella ha <b>1</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>1</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (2; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class='crit'><td><code>bldid</code></td><td>.blendee.com</td><td>None</td><td>361</td><td></td><td>Unknown</td><td></td><td>sì</td><td>✔</td></tr><tr class=''><td><code>gig_canary</code></td><td>cdns.eu1.gigya.com</td><td>None</td><td>-3</td><td>sì</td><td>Functional</td><td>SAP</td><td>sì</td><td></td></tr></table></details>
+      <details><summary>Cookie del sito (17)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>_ga</code></td><td>.lastampa.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>_ga_C8JFY7ZLC1</code></td><td>.lastampa.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>_ga_LFL81Q76LQ</code></td><td>.lastampa.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>gig_bootstrap_4_2uHezT994jAHtT8Q6-3UEw</code></td><td>.lastampa.it</td><td>None</td><td>362</td><td></td><td>Marketing</td><td>SAP (gigya.com)</td></tr><tr class=''><td><code>gmid</code></td><td>.eulogin.lastampa.it</td><td>None</td><td>362</td><td></td><td>Marketing</td><td>SAP</td></tr><tr class=''><td><code>hasGmid</code></td><td>.eulogin.lastampa.it</td><td>None</td><td>179</td><td></td><td>Marketing</td><td>SAP (gigya.com)</td></tr><tr class=''><td><code>ucid</code></td><td>.eulogin.lastampa.it</td><td>None</td><td>362</td><td></td><td>Marketing</td><td>SAP</td></tr><tr class=''><td><code>FCCDCF</code></td><td>.lastampa.it</td><td>-</td><td>387</td><td></td><td>Functional</td><td>Google Funding Choices</td></tr><tr class=''><td><code>_iub_cs-83234397</code></td><td>.lastampa.it</td><td>None</td><td>179</td><td></td><td>Functional</td><td>Iubenda</td></tr><tr class=''><td><code>_iub_cs-83234397-granular</code></td><td>.lastampa.it</td><td>None</td><td>179</td><td></td><td>Functional</td><td>Iubenda</td></tr><tr class=''><td><code>_iub_previous_preference_id</code></td><td>.lastampa.it</td><td>None</td><td>179</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>cP</code></td><td>www.lastampa.it</td><td>None</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>euconsent-v2</code></td><td>.lastampa.it</td><td>None</td><td>361</td><td></td><td>Functional</td><td>PrivacyPillar</td></tr><tr class=''><td><code>kw_1pc_enableds</code></td><td>.lastampa.it</td><td>-</td><td>397</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>kw_inc</code></td><td>.lastampa.it</td><td>-</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>kw_sntseg</code></td><td>.lastampa.it</td><td>-</td><td>-2</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>kw_wtu</code></td><td>.lastampa.it</td><td>-</td><td>-2</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Continua senza accettare». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»).</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q16_measurable' value='si'> sì</label><label><input type='radio' name='q16_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q16_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q16_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q16_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q16_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q16_items' value='ok'> tutti corretti</label><label><input type='radio' name='q16_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q16_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q16_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q16_conclusion' value='correct'> corretta</label><label><input type='radio' name='q16_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q16_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q16_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q16_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q16_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s17" data-order="17">
+  <h2>17. https://www.ebay.it <small>(step1)</small></h2>
+  <p class="meta">Pagina finale: https://www.ebay.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Rifiuta tutto&#x27; in main (normal click)<br>Pulsanti visti: Accetta tutto | Rifiuta tutto</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="17_ebay.it/page.png" target="_blank"><img src="17_ebay.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="17_ebay.it/popup.png" target="_blank"><img src="17_ebay.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: rejected (fonte: click, pulsante «Rifiuta tutto»)</p>
+      <ul class="items"><li class='info'><b>ℹ</b> Hai cliccato «Rifiuta tutto». Non possiamo verificare come il sito abbia registrato la scelta. </li><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li></ul>
+      <p>Conclusione: <b>Il tuo rifiuto sembra rispettato.</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: assente<br>Clic al secondo 12.15, ricaricamento al 17.16.
+       Siti terzi contattati dopo il clic: 10.</p>
+      <p class="compare">La tabella ha <b>0</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (1; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class=''><td><code>ds2</code></td><td>.ebay.com</td><td>None</td><td>sessione</td><td>sì</td><td>Unknown</td><td></td><td>sì</td><td></td></tr></table></details>
+      <details><summary>Cookie del sito (25)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>s</code></td><td>.ebay.it</td><td>-</td><td>sessione</td><td></td><td>Marketing</td><td>Facebook (facebook.com)</td></tr><tr class=''><td><code>__ssds</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__ssuzjsr2</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzma</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzmaj2</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzmb</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzmbj2</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzmc</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzmcj2</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzmd</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzmdj2</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzme</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzmf</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzmfj2</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__uzmlj2</code></td><td>.ebay.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>ak_bmsc</code></td><td>.ebay.it</td><td>-</td><td>-3</td><td></td><td>Functional</td><td>Akamai</td></tr><tr class=''><td><code>bm_lso</code></td><td>.www.ebay.it</td><td>-</td><td>27</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>bm_s</code></td><td>.ebay.it</td><td>-</td><td>28</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>bm_so</code></td><td>.ebay.it</td><td>-</td><td>-2</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>bm_sv</code></td><td>.ebay.it</td><td>-</td><td>-3</td><td></td><td>Functional</td><td>Akamai</td></tr><tr class=''><td><code>dp1</code></td><td>.ebay.it</td><td>-</td><td>397</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>ds2</code></td><td>.ebay.it</td><td>-</td><td>sessione</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>ds2</code></td><td>.ebay.it</td><td>None</td><td>sessione</td><td>sì</td><td>Unknown</td><td></td></tr><tr class=''><td><code>ebay</code></td><td>.ebay.it</td><td>-</td><td>sessione</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>nonsession</code></td><td>.ebay.it</td><td>-</td><td>397</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Rifiuta tutto». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»).</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q17_measurable' value='si'> sì</label><label><input type='radio' name='q17_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q17_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q17_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q17_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q17_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q17_items' value='ok'> tutti corretti</label><label><input type='radio' name='q17_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q17_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q17_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q17_conclusion' value='correct'> corretta</label><label><input type='radio' name='q17_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q17_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q17_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q17_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q17_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s19" data-order="19">
+  <h2>19. https://www.idealista.it <small>(step1)</small></h2>
+  <p class="meta">Pagina finale: https://www.idealista.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Continua senza accettare →&#x27; in main (normal click)<br>Pulsanti visti: Continua senza accettare → | Più informazioni | Accetta e chiudi | Proprietari | Cerchi casa | Mutui | Case e appartamenti Nuove costruzioni Case e appar | Cerca | Seleziona sulla mappa Puoi cercare contemporaneame | Inizia a selezionare le zone</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="19_idealista.it/page.png" target="_blank"><img src="19_idealista.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="19_idealista.it/popup.png" target="_blank"><img src="19_idealista.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: <b class='warn'>nessuna scelta registrata dall'estensione</b></p>
+      <ul class="items"><li class='bad'><b>✗</b> Senza alcun consenso registrato, 5 siti terzi possono già riconoscerti: CreativeCDN (creativecdn.com), DoubleClick/Google Marketing (doubleclick.net), Casale Media (casalemedia.com), Xandr (adnxs.com), Underdog Media (udmserve.net)</li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li></ul>
+      <p>Conclusione: <b>— nessuna</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 7, &quot;eventStatus&quot;: &quot;tcloaded&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 0, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 11.43, ricaricamento al 16.43.
+       Siti terzi contattati dopo il clic: 15.</p>
+      <p class="compare">La tabella ha <b>2</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>5</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (13; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class='crit'><td><code>CMID</code></td><td>.casalemedia.com</td><td>None</td><td>362</td><td></td><td>Marketing</td><td>Casale Media (casalemedia.com)</td><td>sì</td><td>✔</td></tr><tr class='crit'><td><code>CMPRO</code></td><td>.casalemedia.com</td><td>None</td><td>87</td><td></td><td>Marketing</td><td>Casale Media (casalemedia.com)</td><td>sì</td><td>✔</td></tr><tr class='crit'><td><code>CMPS</code></td><td>.casalemedia.com</td><td>None</td><td>87</td><td></td><td>Marketing</td><td>Casale Media (casalemedia.com)</td><td>sì</td><td>✔</td></tr><tr class='crit'><td><code>g</code></td><td>.creativecdn.com</td><td>None</td><td>362</td><td></td><td>Marketing</td><td>CreativeCDN (creativecdn.com)</td><td>sì</td><td>✔</td></tr><tr class=''><td><code>XANDR_PANID</code></td><td>.adnxs.com</td><td>None</td><td>87</td><td>sì</td><td>Marketing</td><td>Xandr (adnxs.com)</td><td></td><td></td></tr><tr class=''><td><code>anj</code></td><td>.adnxs.com</td><td>None</td><td>87</td><td></td><td>Marketing</td><td>Xandr (adnxs.com)</td><td></td><td></td></tr><tr class=''><td><code>uuid2</code></td><td>.adnxs.com</td><td>None</td><td>87</td><td></td><td>Marketing</td><td>Xandr (adnxs.com)</td><td></td><td></td></tr><tr class=''><td><code>c</code></td><td>.creativecdn.com</td><td>None</td><td>362</td><td>sì</td><td>Marketing</td><td>CreativeCDN (creativecdn.com)</td><td>sì</td><td></td></tr><tr class=''><td><code>ts</code></td><td>.creativecdn.com</td><td>None</td><td>362</td><td>sì</td><td>Functional</td><td>CreativeCDN (creativecdn.com)</td><td>sì</td><td></td></tr><tr class=''><td><code>IDE</code></td><td>.doubleclick.net</td><td>None</td><td>387</td><td></td><td>Marketing</td><td>DoubleClick/Google Marketing (doubleclick.net)</td><td></td><td></td></tr><tr class=''><td><code>dt</code></td><td>.udmserve.net</td><td>None</td><td>362</td><td></td><td>Marketing</td><td>Underdog Media (udmserve.net)</td><td></td><td></td></tr><tr class=''><td><code>rtbh</code></td><td>.udmserve.net</td><td>None</td><td>87</td><td></td><td>Marketing</td><td>Underdog Media (udmserve.net)</td><td></td><td></td></tr><tr class=''><td><code>udmts</code></td><td>.udmserve.net</td><td>None</td><td>362</td><td></td><td>Marketing</td><td>Underdog Media (udmserve.net)</td><td></td><td></td></tr></table></details>
+      <details><summary>Cookie del sito (29)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>PARAGLIDE_LOCALE</code></td><td>.www.idealista.it</td><td>-</td><td>397</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>SESSION</code></td><td>www.idealista.it</td><td>-</td><td>sessione</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__rtbh.lid</code></td><td>www.idealista.it</td><td>None</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>__rtbh.uid</code></td><td>www.idealista.it</td><td>None</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>_pcid</code></td><td>.www.idealista.it</td><td>Lax</td><td>392</td><td></td><td>Functional</td><td>Piano</td></tr><tr class=''><td><code>_pctx</code></td><td>.www.idealista.it</td><td>Lax</td><td>392</td><td></td><td>Functional</td><td>Piano</td></tr><tr class=''><td><code>_pprv</code></td><td>.www.idealista.it</td><td>Lax</td><td>392</td><td></td><td>Functional</td><td>Piano</td></tr><tr class=''><td><code>datadome</code></td><td>.idealista.it</td><td>Lax</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>didomi_token</code></td><td>.idealista.it</td><td>Lax</td><td>363</td><td></td><td>Functional</td><td>Didomi</td></tr><tr class=''><td><code>euconsent-v2</code></td><td>.idealista.it</td><td>Lax</td><td>363</td><td></td><td>Functional</td><td>PrivacyPillar</td></tr><tr class=''><td><code>g_state</code></td><td>www.idealista.it</td><td>-</td><td>177</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>lang</code></td><td>www.idealista.it</td><td>-</td><td>362</td><td></td><td>Functional</td><td>LinkedIn (linkedin.com)</td></tr><tr class=''><td><code>userUUID</code></td><td>www.idealista.it</td><td>-</td><td>sessione</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__pn</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__prevEventLink</code></td><td>.idealista.it</td><td>-</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__prevEventView</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__prevLevel2</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__prevTsCampaign</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__prevTsNotificationId</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__prevTsProvider</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__prevTsProviderClickId</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__prevTsReferrer</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__prevTsSource</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__prevTsUrl</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__se</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__sn</code></td><td>.idealista.it</td><td>-</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__ss</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main__st</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>utag_main_ses_id</code></td><td>.idealista.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Continua senza accettare →». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»). <b class='warn'>L'estensione non ha registrato la scelta</b>: se il clic ha funzionato, la conclusione è «errore: scelta non registrata».</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q19_measurable' value='si'> sì</label><label><input type='radio' name='q19_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q19_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q19_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q19_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q19_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q19_items' value='ok'> tutti corretti</label><label><input type='radio' name='q19_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q19_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q19_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q19_conclusion' value='correct'> corretta</label><label><input type='radio' name='q19_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q19_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q19_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q19_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q19_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s21" data-order="21">
+  <h2>21. https://www.novaratoday.it <small>(tranco:ZJ8PG)</small></h2>
+  <p class="meta">Pagina finale: https://www.novaratoday.it/ · banner (robot): <b>pay_or_accept</b>
+   · clic: paywall label found<br>Pulsanti visti: RIFIUTA E ABBONATI | ACCETTA</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="21_novaratoday.it/page.png" target="_blank"><img src="21_novaratoday.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="21_novaratoday.it/popup.png" target="_blank"><img src="21_novaratoday.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: <b class='warn'>nessuna scelta registrata dall'estensione</b></p>
+      <ul class="items"><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li><li class='info'><b>ℹ</b> 5 cookie del sito sono classificati come statistica, che in alcuni casi è ammessa senza consenso: Google Analytics</li></ul>
+      <p>Conclusione: <b>— nessuna</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 123, &quot;eventStatus&quot;: &quot;cmpuishown&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 0, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 10.63, ricaricamento al None.
+       Siti terzi contattati dopo il clic: 1.</p>
+      <p class="compare">La tabella ha <b>0</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (3; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class=''><td><code>~DL.c</code></td><td>.citynews.ovh</td><td>None</td><td>87</td><td></td><td>Unknown</td><td></td><td></td><td></td></tr><tr class=''><td><code>~DL.i</code></td><td>.citynews.ovh</td><td>None</td><td>396</td><td></td><td>Unknown</td><td></td><td></td><td></td></tr><tr class=''><td><code>~DL.s</code></td><td>.citynews.ovh</td><td>None</td><td>-3</td><td></td><td>Unknown</td><td></td><td></td><td></td></tr></table></details>
+      <details><summary>Cookie del sito (6)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>_ga</code></td><td>.novaratoday.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>_ga_2T00RWGCM6</code></td><td>.novaratoday.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>_ga_5GGZNJB729</code></td><td>.novaratoday.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>_ga_8P40MYBCXW</code></td><td>.novaratoday.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>_ga_ENB4XX7M0M</code></td><td>.novaratoday.it</td><td>-</td><td>397</td><td></td><td>Analytics</td><td>Google Analytics</td></tr><tr class=''><td><code>__uid</code></td><td>www.novaratoday.it</td><td>-</td><td>397</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha visto solo un rifiuto a pagamento («rifiuta e abbonati»): di solito «no: banner senza rifiuto».</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q21_measurable' value='si'> sì</label><label><input type='radio' name='q21_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q21_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q21_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q21_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q21_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q21_items' value='ok'> tutti corretti</label><label><input type='radio' name='q21_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q21_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q21_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q21_conclusion' value='correct'> corretta</label><label><input type='radio' name='q21_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q21_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q21_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q21_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q21_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s22" data-order="22">
+  <h2>22. https://www.raiplay.it <small>(tranco:ZJ8PG)</small></h2>
+  <p class="meta">Pagina finale: https://www.raiplay.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Continua senza accettare&#x27; in main (normal click)<br>Pulsanti visti: Continua senza accettare | Preferenze | Acconsento | ACCEDI | VAI ALLA DIRETTA | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="22_raiplay.it/page.png" target="_blank"><img src="22_raiplay.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="22_raiplay.it/popup.png" target="_blank"><img src="22_raiplay.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: <b class='warn'>nessuna scelta registrata dall'estensione</b></p>
+      <ul class="items"><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li></ul>
+      <p>Conclusione: <b>— nessuna</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 297, &quot;eventStatus&quot;: &quot;tcloaded&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 0, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 11.54, ricaricamento al 16.54.
+       Siti terzi contattati dopo il clic: 12.</p>
+      <p class="compare">La tabella ha <b>0</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (0; in evidenza quelli che soddisfano i criteri)</summary><p class='muted'>Nessuno.</p></details>
+      <details><summary>Cookie del sito (0)</summary><p class='muted'>Nessuno.</p></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Continua senza accettare». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»). <b class='warn'>L'estensione non ha registrato la scelta</b>: se il clic ha funzionato, la conclusione è «errore: scelta non registrata».</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q22_measurable' value='si'> sì</label><label><input type='radio' name='q22_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q22_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q22_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q22_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q22_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q22_items' value='ok'> tutti corretti</label><label><input type='radio' name='q22_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q22_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q22_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q22_conclusion' value='correct'> corretta</label><label><input type='radio' name='q22_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q22_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q22_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q22_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q22_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s27" data-order="27">
+  <h2>27. https://www.policlinicogemelli.it <small>(tranco:ZJ8PG)</small></h2>
+  <p class="meta">Pagina finale: https://www.policlinicogemelli.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Rifiuta tutto&#x27; in main (js click)<br>Pulsanti visti: Avvia la ricerca | X | cookie policy | Scopri di più | Rifiuta tutto | Accetta tutto</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="27_policlinicogemelli.it/page.png" target="_blank"><img src="27_policlinicogemelli.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="27_policlinicogemelli.it/popup.png" target="_blank"><img src="27_policlinicogemelli.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: rejected (fonte: click, pulsante «Rifiuta tutto»)</p>
+      <ul class="items"><li class='info'><b>ℹ</b> Hai cliccato «Rifiuta tutto». Non possiamo verificare come il sito abbia registrato la scelta. </li><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li></ul>
+      <p>Conclusione: <b>Il tuo rifiuto sembra rispettato.</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: assente<br>Clic al secondo 14.02, ricaricamento al 19.02.
+       Siti terzi contattati dopo il clic: 11.</p>
+      <p class="compare">La tabella ha <b>0</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (1; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class=''><td><code>_GRECAPTCHA</code></td><td>www.google.com</td><td>None</td><td>177</td><td></td><td>Functional</td><td>Google reCAPTCHA (google.com)</td><td>sì</td><td></td></tr></table></details>
+      <details><summary>Cookie del sito (3)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>_iub_cs-19638392</code></td><td>.policlinicogemelli.it</td><td>None</td><td>362</td><td></td><td>Functional</td><td>Iubenda</td></tr><tr class=''><td><code>_iub_previous_preference_id</code></td><td>.policlinicogemelli.it</td><td>None</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>pum-66055</code></td><td>www.policlinicogemelli.it</td><td>-</td><td>sessione</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Rifiuta tutto». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»).</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q27_measurable' value='si'> sì</label><label><input type='radio' name='q27_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q27_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q27_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q27_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q27_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q27_items' value='ok'> tutti corretti</label><label><input type='radio' name='q27_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q27_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q27_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q27_conclusion' value='correct'> corretta</label><label><input type='radio' name='q27_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q27_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q27_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q27_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q27_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s34" data-order="34">
+  <h2>34. https://www.agriturismo.it <small>(tranco:ZJ8PG)</small></h2>
+  <p class="meta">Pagina finale: https://www.agriturismo.it/ · banner (robot): <b>reject_found</b>
+   · clic: text: &#x27;Continua senza accettare&#x27; in main (normal click)<br>Pulsanti visti: Il mio account | Scegli le date | Ospiti | Cerca | Impostazioni dei cookie | Ok</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="34_agriturismo.it/page.png" target="_blank"><img src="34_agriturismo.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="34_agriturismo.it/popup.png" target="_blank"><img src="34_agriturismo.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: <b class='warn'>nessuna scelta registrata dall'estensione</b></p>
+      <ul class="items"><li class='bad'><b>✗</b> Senza alcun consenso registrato, 1 sito terzo può già riconoscerti: hometogo.net</li><li class='ok'><b>✓</b> Nessun cookie del sito è classificato come marketing. </li><li class='info'><b>ℹ</b> 2 cookie del sito sono classificati come statistica, che in alcuni casi è ammessa senza consenso: Snowplow</li></ul>
+      <p>Conclusione: <b>— nessuna</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: assente<br>Clic al secondo 11.67, ricaricamento al 16.67.
+       Siti terzi contattati dopo il clic: 4.</p>
+      <p class="compare">La tabella ha <b>0</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>1</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (2; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class=''><td><code>__cf_bm</code></td><td>.hometogo.net</td><td>None</td><td>-3</td><td></td><td>Functional</td><td>Cloudflare</td><td>sì</td><td></td></tr><tr class=''><td><code>sp</code></td><td>ev.hometogo.net</td><td>None</td><td>362</td><td></td><td>Analytics</td><td>Snowplow</td><td>sì</td><td></td></tr></table></details>
+      <details><summary>Cookie del sito (16)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>_sp_id.e836</code></td><td>www.agriturismo.it</td><td>Lax</td><td>397</td><td></td><td>Analytics</td><td>Snowplow</td></tr><tr class=''><td><code>_sp_ses.e836</code></td><td>www.agriturismo.it</td><td>Lax</td><td>-3</td><td></td><td>Analytics</td><td>Snowplow</td></tr><tr class=''><td><code>c</code></td><td>www.agriturismo.it</td><td>Lax</td><td>362</td><td></td><td>Marketing</td><td>CreativeCDN (creativecdn.com)</td></tr><tr class=''><td><code>__cf_bm</code></td><td>.agriturismo.it</td><td>None</td><td>-3</td><td></td><td>Functional</td><td>Cloudflare</td></tr><tr class=''><td><code>abh</code></td><td>www.agriturismo.it</td><td>Lax</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>abhs</code></td><td>www.agriturismo.it</td><td>Lax</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>abr</code></td><td>www.agriturismo.it</td><td>Lax</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>abs</code></td><td>www.agriturismo.it</td><td>Lax</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>abv</code></td><td>www.agriturismo.it</td><td>Lax</td><td>87</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>cookie_consent</code></td><td>.agriturismo.it</td><td>-</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>isOldHTG</code></td><td>www.agriturismo.it</td><td>-</td><td>sessione</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>is_cookie_consent_enabled</code></td><td>www.agriturismo.it</td><td>-</td><td>sessione</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>meas</code></td><td>www.agriturismo.it</td><td>Lax</td><td>362</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>sc</code></td><td>www.agriturismo.it</td><td>Lax</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>sid</code></td><td>www.agriturismo.it</td><td>Lax</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>wowref</code></td><td>www.agriturismo.it</td><td>Lax</td><td>180</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Continua senza accettare». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»). <b class='warn'>L'estensione non ha registrato la scelta</b>: se il clic ha funzionato, la conclusione è «errore: scelta non registrata».</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q34_measurable' value='si'> sì</label><label><input type='radio' name='q34_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q34_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q34_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q34_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q34_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q34_items' value='ok'> tutti corretti</label><label><input type='radio' name='q34_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q34_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q34_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q34_conclusion' value='correct'> corretta</label><label><input type='radio' name='q34_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q34_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q34_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q34_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q34_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s37" data-order="37">
+  <h2>37. https://www.liberta.it <small>(tranco:ZJ8PG)</small></h2>
+  <p class="meta">Pagina finale: https://www.liberta.it/ · banner (robot): <b>reject_found</b>
+   · clic: button: &#x27;Rifiuta&#x27; in main (normal click)<br>Pulsanti visti: Accetta | Personalizza | Rifiuta | Cerca | ... | Piacenza | Comuni</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="37_liberta.it/page.png" target="_blank"><img src="37_liberta.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="37_liberta.it/popup.png" target="_blank"><img src="37_liberta.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: <b class='warn'>nessuna scelta registrata dall'estensione</b></p>
+      <ul class="items"><li class='bad'><b>✗</b> Senza alcun consenso registrato, 2 siti terzi possono già riconoscerti: googlesyndication.com, ID5 (id5-sync.com)</li><li class='bad'><b>✗</b> 1 cookie del sito è classificato come marketing: Prebid SharedID (PubCommon ID)</li><li class='info'><b>ℹ</b> 2 cookie del sito sono classificati come statistica, che in alcuni casi è ammessa senza consenso: Piwik</li></ul>
+      <p>Conclusione: <b>— nessuna</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: {&quot;cmpId&quot;: 134, &quot;eventStatus&quot;: &quot;tcloaded&quot;, &quot;gdprApplies&quot;: true, &quot;purposesListed&quot;: 0, &quot;purposeConsents&quot;: 0, &quot;purposeLegitimateInterests&quot;: 6, &quot;vendorConsents&quot;: 0}<br>Clic al secondo 12.69, ricaricamento al 17.69.
+       Siti terzi contattati dopo il clic: 36.</p>
+      <p class="compare">La tabella ha <b>2</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>2</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (3; in evidenza quelli che soddisfano i criteri)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th><th>contattato dopo il clic</th><th>criteri «non visto»</th></tr><tr class='crit'><td><code>__mggpc__</code></td><td>.googlesyndication.com</td><td>None</td><td>362</td><td></td><td>Unknown</td><td></td><td>sì</td><td>✔</td></tr><tr class='crit'><td><code>id5</code></td><td>.id5-sync.com</td><td>None</td><td>87</td><td></td><td>Marketing</td><td>ID5 (id5-sync.com)</td><td>sì</td><td>✔</td></tr><tr class='crit'><td><code>__mggpc__</code></td><td>6ea5920d36fa32e6284c4103d57cd73b.safeframe.googlesyndication.com</td><td>None</td><td>362</td><td></td><td>Unknown</td><td></td><td>sì</td><td>✔</td></tr></table></details>
+      <details><summary>Cookie del sito (9)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>_pk_id.2.49cc</code></td><td>www.liberta.it</td><td>Lax</td><td>390</td><td></td><td>Analytics</td><td>Piwik</td></tr><tr class=''><td><code>_pk_ses.2.49cc</code></td><td>www.liberta.it</td><td>Lax</td><td>-3</td><td></td><td>Analytics</td><td>Piwik</td></tr><tr class=''><td><code>_pubcid</code></td><td>www.liberta.it</td><td>-</td><td>357</td><td></td><td>Marketing</td><td>Prebid SharedID (PubCommon ID)</td></tr><tr class=''><td><code>1025667989</code></td><td>www.liberta.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>CookieConsent</code></td><td>www.liberta.it</td><td>-</td><td>362</td><td></td><td>Functional</td><td>Cookiebot</td></tr><tr class=''><td><code>__cf_bm</code></td><td>.www.liberta.it</td><td>None</td><td>-3</td><td></td><td>Functional</td><td>Cloudflare</td></tr><tr class=''><td><code>__eoi</code></td><td>.liberta.it</td><td>None</td><td>177</td><td></td><td>Security</td><td>Google AdSense</td></tr><tr class=''><td><code>nvq_hid</code></td><td>www.liberta.it</td><td>Lax</td><td>-3</td><td></td><td>Unknown</td><td></td></tr><tr class=''><td><code>scrollPositions</code></td><td>www.liberta.it</td><td>-</td><td>-3</td><td></td><td>Unknown</td><td></td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot ha trovato e cliccato «Rifiuta». Lo screenshot della pagina è fatto <b>dopo</b> il clic e il ricaricamento: se il banner non c'è, il clic ha funzionato e il sito è misurabile («sì»). <b class='warn'>L'estensione non ha registrato la scelta</b>: se il clic ha funzionato, la conclusione è «errore: scelta non registrata».</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q37_measurable' value='si'> sì</label><label><input type='radio' name='q37_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q37_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q37_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q37_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q37_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q37_items' value='ok'> tutti corretti</label><label><input type='radio' name='q37_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q37_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q37_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q37_conclusion' value='correct'> corretta</label><label><input type='radio' name='q37_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q37_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q37_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q37_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q37_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<section class="site" id="s44" data-order="44">
+  <h2>44. https://www.feltrinellieditore.it <small>(tranco:ZJ8PG)</small></h2>
+  <p class="meta">Pagina finale: https://www.feltrinellieditore.it/ · banner (robot): <b>accept_only</b>
+   · clic: no reject button found<br>Pulsanti visti: Accetto i cookie | Impostazioni cookie</p>
+  <div class="cols">
+    <div class="shots">
+      <a href="44_feltrinellieditore.it/page.png" target="_blank"><img src="44_feltrinellieditore.it/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
+      <a href="44_feltrinellieditore.it/popup.png" target="_blank"><img src="44_feltrinellieditore.it/popup.png" alt="popup dell'estensione"></a>
+    </div>
+    <div class="facts">
+      <h3>Verdetto dell'estensione</h3>
+      <p>Scelta: <b class='warn'>nessuna scelta registrata dall'estensione</b></p>
+      <ul class="items"><li class='ok'><b>✓</b> Non vediamo cookie con cui un sito terzo possa riconoscerti qui. </li><li class='bad'><b>✗</b> 2 cookie del sito sono classificati come marketing: Instagram, Facebook</li></ul>
+      <p>Conclusione: <b>— nessuna</b>
+       </p>
+      <h3>Dati grezzi (robot)</h3>
+      <p>TCF: assente<br>Clic al secondo 28.81, ricaricamento al None.
+       Siti terzi contattati dopo il clic: 0.</p>
+      <p class="compare">La tabella ha <b>0</b> siti terzi che soddisfano i criteri «non visto»; l'estensione ne nomina <b>0</b> come capaci di riconoscerti tra siti.</p>
+      <details open><summary>Cookie di siti terzi (0; in evidenza quelli che soddisfano i criteri)</summary><p class='muted'>Nessuno.</p></details>
+      <details><summary>Cookie del sito (3)</summary><table><tr><th>cookie</th><th>dominio</th><th>SameSite</th><th>giorni</th><th>part.</th><th>categoria DB</th><th>piattaforma DB (domini)</th></tr><tr class=''><td><code>_fbp</code></td><td>.feltrinellieditore.it</td><td>Lax</td><td>90</td><td></td><td>Marketing</td><td>Facebook (facebook.com)</td></tr><tr class=''><td><code>sessionid</code></td><td>www.feltrinellieditore.it</td><td>Lax</td><td>14</td><td></td><td>Marketing</td><td>Instagram (instagram.com)</td></tr><tr class=''><td><code>django_language</code></td><td>www.feltrinellieditore.it</td><td>-</td><td>365</td><td></td><td>Functional</td><td>Django</td></tr></table></details>
+    </div>
+  </div>
+  <div class="form">
+    <p class="guide">Il robot non ha trovato un pulsante di rifiuto tra quelli visti (elenco sopra). Se dallo screenshot il rifiuto c'era, rispondi «altro» e scrivi una nota.</p>
+    <p><b>1. Misurabile?</b> <label><input type='radio' name='q44_measurable' value='si'> sì</label><label><input type='radio' name='q44_measurable' value='no_banner'> no: nessun banner</label><label><input type='radio' name='q44_measurable' value='no_reject'> no: banner senza rifiuto</label><label><input type='radio' name='q44_measurable' value='no_click'> no: il clic non ha chiuso il banner</label><label><input type='radio' name='q44_measurable' value='no_blocked'> no: robot bloccato</label><label><input type='radio' name='q44_measurable' value='other'> altro</label></p>
+    <div class="if-measurable">
+    <p><b>2. Punti della lista</b> <label><input type='radio' name='q44_items' value='ok'> tutti corretti</label><label><input type='radio' name='q44_items' value='imprecise'> almeno uno impreciso</label><label><input type='radio' name='q44_items' value='wrong'> almeno uno sbagliato</label></p>
+    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="q44_labels" style="width:4em"></p>
+    <p><b>4. Conclusione</b> <label><input type='radio' name='q44_conclusion' value='correct'> corretta</label><label><input type='radio' name='q44_conclusion' value='debatable'> discutibile</label><label><input type='radio' name='q44_conclusion' value='false_alarm'> sbagliata: falso allarme</label><label><input type='radio' name='q44_conclusion' value='missed'> sbagliata: problema non visto</label><label><input type='radio' name='q44_conclusion' value='not_recorded'> errore: scelta non registrata</label></p>
+    </div>
+    <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="q44_notes" rows="2"></textarea></p>
+  </div>
+</section>
+<script>
+const KEY = 'cookie-review-A_round2';
+const load = () => { try { return JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { return {}; } };
+const save = (d) => { try { localStorage.setItem(KEY, JSON.stringify(d)); } catch (e) {} };
+let data = load();
+const fields = ['measurable', 'items', 'labels', 'conclusion', 'notes'];
+function restore() {
+  for (const [name, value] of Object.entries(data)) {
+    document.querySelectorAll(`[name="${name}"]`).forEach((el) => {
+      if (el.type === 'radio') el.checked = el.value === value; else el.value = value;
+    });
+  }
+}
+function progress() {
+  let done = 0;
+  document.querySelectorAll('.site').forEach((s) => {
+    const o = s.dataset.order, m = data[`q${o}_measurable`], c = data[`q${o}_conclusion`];
+    const noteNeeded = (m === 'other' || (m === 'si' && c === 'debatable')) && !(data[`q${o}_notes`] || '').trim();
+    s.classList.toggle('measurable', m === 'si');
+    s.classList.toggle('note-missing', noteNeeded);
+    const complete = m && (m !== 'si' || c) && !noteNeeded;
+    s.classList.toggle('done', !!complete); if (complete) done++;
+  });
+  document.getElementById('progress').textContent = `${done} giudicati`;
+}
+document.addEventListener('input', (e) => {
+  if (!e.target.name) return;
+  data[e.target.name] = e.target.value; save(data); progress();
+});
+document.getElementById('export').addEventListener('click', () => {
+  const rows = [['visit', 'order', ...fields]];
+  document.querySelectorAll('.site').forEach((s) => {
+    const o = s.dataset.order;
+    const m = data[`q${o}_measurable`];
+    // Questions 2-4 only count for measurable sites: not exported otherwise.
+    rows.push(['A', o, ...fields.map((f) => (m !== 'si' && ['items', 'labels', 'conclusion'].includes(f)) ? '' : (data[`q${o}_${f}`] ?? ''))]);
+  });
+  const csv = rows.map((r) => r.map((x) => `"${String(x).replaceAll('"', '""')}"`).join(',')).join('\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv' }));
+  a.download = 'judgments_A_round2.csv'; a.click();
+});
+restore(); progress();
+</script></body></html>

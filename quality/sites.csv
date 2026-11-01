@@ -41,8 +41,8 @@ order,url,source,tranco_rank,role
 40,https://www.arte.it,tranco:ZJ8PG,79384,sample
 41,https://www.cognomix.it,tranco:ZJ8PG,184491,sample (replaces www.resmush.it)
 42,https://www.milanotoday.it,tranco:ZJ8PG,18979,sample (replaces www.sunbet.it)
-43,https://www.iue.it,tranco:ZJ8PG,135262,sample (replaces www.italotreno.it)
-44,https://www.feltrinellieditore.it,tranco:ZJ8PG,166130,reserve
+43,https://www.iue.it,tranco:ZJ8PG,135262,replaced: does not load (invalid certificate)
+44,https://www.feltrinellieditore.it,tranco:ZJ8PG,166130,sample (replaces www.italotreno.it)
 45,https://www.polymoon.it,tranco:ZJ8PG,127646,reserve
 46,https://www.torinocronaca.it,tranco:ZJ8PG,71922,reserve
 47,https://www.upprovider.it,tranco:ZJ8PG,152339,reserve

@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+A,1,claude (autore del codice),si,ok,0,correct,
+A,2,claude (autore del codice),no_reject,,,,Pulsanti: Configura | Accetta.
+A,3,claude (autore del codice),si,imprecise,0,correct,"La lista nomina 4 siti terzi, i dati ne mostrano 5: manca stape.host (cookie cee legato al percorso /events/..., non letto dall'estensione). La conclusione regge sugli altri 4."
+A,4,claude (autore del codice),si,ok,0,not_recorded,"Il robot ha cliccato il rifiuto e il banner è sparito (screenshot), ma l'estensione non ha registrato la scelta. TCF presente con 0 finalità elencate dove indicato."
+A,5,claude (autore del codice),si,wrong,0,missed,"citynews.ovh contattato dopo il clic, cookie ~DL.i (396 gg) e ~DL.c (87 gg), SameSite=None, non partizionati: non letti perché legati al percorso /~dl. Il punto «non vediamo cookie» è contraddetto dai dati."
+A,6,claude (autore del codice),si,ok,0,correct,
+A,7,claude (autore del codice),si,wrong,0,missed,"wt-eu02.net (Webtrekk) contattato dopo il clic, cookie wteid_ (177 gg) legato al percorso /769396664005295, non letto."
+A,8,claude (autore del codice),si,ok,0,not_recorded,"Il robot ha cliccato il rifiuto e il banner è sparito (screenshot), ma l'estensione non ha registrato la scelta. TCF presente con 0 finalità elencate dove indicato."
+A,9,claude (autore del codice),si,ok,0,debatable,"«Solo in parte» si regge solo su AMCV_ (Adobe Experience Cloud ID, 397 gg), che il database classifica come marketing ma che serve anche alle statistiche Adobe: etichetta su cui persone ragionevoli possono non essere d'accordo."
+A,10,claude (autore del codice),si,ok,0,not_recorded,"Il robot ha cliccato il rifiuto e il banner è sparito (screenshot), ma l'estensione non ha registrato la scelta. TCF presente con 0 finalità elencate dove indicato."
+A,11,claude (autore del codice),no_reject,,,,Solo «×» di chiusura e «Accetta»: per le regole dello step 1 la chiusura non è un rifiuto.
+A,12,claude (autore del codice),no_reject,,,,Rifiuto solo a pagamento («Rifiuta e abbonati»).
+A,13,claude (autore del codice),si,ok,0,correct,
+A,14,claude (autore del codice),si,imprecise,0,correct,"Nielsen confermato dai dati. «1 cookie del sito classificato come marketing (SAP)»: nei dati sono 4 (gmid, ucid, hasGmid, gig_bootstrap), l'estensione conta solo quelli inviati a questa pagina. SAP Gigya come marketing è discutibile ma non decide la conclusione."
+A,15,claude (autore del codice),si,wrong,0,missed,"wt-eu02.net (Webtrekk) contattato dopo il clic, cookie wteid_ (177 gg) legato al percorso, non letto."
+A,16,claude (autore del codice),si,imprecise,0,correct,"blendee.com confermato dai dati. Cookie SAP: 1 nominato, 4 nei dati (stessa causa del sito 14)."
+A,17,claude (autore del codice),si,ok,0,correct,
+A,18,claude (autore del codice),other,,,,"Il rifiuto è probabilmente nel link «qui» del banner, che il robot non riconosce: non misurabile per il robot."
+A,19,claude (autore del codice),si,ok,0,not_recorded,"Il robot ha cliccato il rifiuto e il banner è sparito (screenshot), ma l'estensione non ha registrato la scelta. TCF presente con 0 finalità elencate dove indicato."
+A,20,claude (autore del codice),no_reject,,,,Pulsanti: Consenti i cookie | Scopri di più.
+A,21,claude (autore del codice),no_reject,,,,Rifiuto solo a pagamento («Rifiuta e abbonati»).
+A,22,claude (autore del codice),si,ok,0,not_recorded,"Il robot ha cliccato il rifiuto e il banner è sparito (screenshot), ma l'estensione non ha registrato la scelta. TCF presente con 0 finalità elencate dove indicato."
+A,23,claude (autore del codice),no_reject,,,,Solo «×» di chiusura e «Accetta».
+A,24,claude (autore del codice),other,,,,"Reindirizza a comune.firenze.it (non nel campione). «Accetta solo i selezionati» equivale forse a un rifiuto, ma non rientra nelle regole di rifiuto dello step 1."
+A,25,claude (autore del codice),no_banner,,,,Nessun banner.
+A,27,claude (autore del codice),si,ok,0,correct,Clic via JavaScript.
+A,28,claude (autore del codice),si,ok,0,correct,sbjs_* attribuiti a WooCommerce: plausibile (attribuzione degli ordini di WooCommerce usa Sourcebuster).
+A,29,claude (autore del codice),si,ok,0,correct,
+A,31,claude (autore del codice),no_reject,,,,Pulsanti: gestire le impostazioni | accetta tutto e continua.
+A,33,claude (autore del codice),no_reject,,,,Pulsanti: Impostazioni cookie | Accetta tutti i cookie.
+A,34,claude (autore del codice),si,ok,0,not_recorded,"Il robot ha cliccato il rifiuto e il banner è sparito (screenshot), ma l'estensione non ha registrato la scelta. TCF presente con 0 finalità elencate dove indicato."
+A,35,claude (autore del codice),si,ok,0,correct,
+A,36,claude (autore del codice),si,ok,0,correct,"Solo cookie YouTube partizionati dopo il rifiuto: «solo in parte» in arancione, coerente."
+A,37,claude (autore del codice),si,ok,0,not_recorded,"Il robot ha cliccato il rifiuto e il banner è sparito (screenshot), ma l'estensione non ha registrato la scelta. TCF presente con 0 finalità elencate dove indicato."
+A,38,claude (autore del codice),si,ok,0,correct,«Solo in parte» per i cookie del sito: Awin (27 gg) è marketing; s_ecid (Adobe) classificato marketing è discutibile ma non decide la conclusione.
+A,39,claude (autore del codice),si,ok,0,correct,"4 siti terzi nominati, 4 nei dati."
+A,40,claude (autore del codice),no_reject,,,,"Solo «x» di chiusura, Impostazioni, Accetto."
+A,41,claude (autore del codice),other,,,,"«non sostenerci» potrebbe essere un rifiuto, ma non rientra nelle regole dello step 1."
+A,42,claude (autore del codice),no_reject,,,,Rifiuto solo a pagamento («Rifiuta e abbonati»).
+A,44,claude (autore del codice),no_reject,,,,Pulsanti: Accetto i cookie | Impostazioni cookie.
