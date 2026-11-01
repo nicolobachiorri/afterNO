@@ -1,0 +1,58 @@
+{
+  "host": "www.casa.it",
+  "choice": {
+    "at": 1793548979159,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "site": "casa.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.casa.it/",
+    "lastSeen": {
+      "accounts.google.com": 1793548984393,
+      "api-js.datadome.co": 1793548984410,
+      "api.privacy-center.org": 1793548979151,
+      "col.casa.it": 1793548984389,
+      "ct.captcha-delivery.com": 1793548971250,
+      "geo.captcha-delivery.com": 1793548973522,
+      "js.datadome.co": 1793548974731,
+      "pagead2.googlesyndication.com": 1793548984377,
+      "region1.google-analytics.com": 1793548984384,
+      "sdk.privacy-center.org": 1793548975893,
+      "static.captcha-delivery.com": 1793548971694,
+      "tag.aticdn.net": 1793548974714,
+      "www.casa.it": 1793548984396,
+      "www.googletagmanager.com": 1793548976038
+    }
+  },
+  "hostsConsidered": [
+    "accounts.google.com",
+    "api-js.datadome.co",
+    "col.casa.it",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.casa.it"
+  ]
+}

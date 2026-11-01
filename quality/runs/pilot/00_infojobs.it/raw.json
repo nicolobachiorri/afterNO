@@ -1,0 +1,26 @@
+{
+  "url": "https://www.infojobs.it",
+  "final_url": "https://www.infojobs.it/",
+  "click_at_s": 25.72,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "components.infojobs.com": {
+      "first_s": 2.53,
+      "last_s": 2.53
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.53,
+      "last_s": 2.53
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.78,
+      "last_s": 2.78
+    }
+  },
+  "cookies": []
+}

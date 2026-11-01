@@ -1,0 +1,58 @@
+{
+  "host": "www.leboncoin.fr",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.leboncoin.fr/",
+    "lastSeen": {
+      "api.leboncoin.fr": 1793548729795,
+      "auth.leboncoin.fr": 1793548729419,
+      "cdn.hubvisor.io": 1793548723173,
+      "ct.captcha-delivery.com": 1793548724252,
+      "dd.leboncoin.fr": 1793548723471,
+      "geo.captcha-delivery.com": 1793548724643,
+      "html-load.cc": 1793548723173,
+      "img.leboncoin.fr": 1793548730030,
+      "lbc.edi5on.com": 1793548729752,
+      "logws1360.ati-host.net": 1793548729435,
+      "pagead2.googlesyndication.com": 1793548724419,
+      "sdk.privacy-center.org": 1793548724451,
+      "securepubads.g.doubleclick.net": 1793548724619,
+      "server.sgtm.leboncoin.fr": 1793548724679,
+      "static.captcha-delivery.com": 1793548724877,
+      "static.criteo.net": 1793548724418,
+      "www.googletagmanager.com": 1793548724679,
+      "www.leboncoin.fr": 1793548729930
+    }
+  },
+  "hostsConsidered": [
+    "api.leboncoin.fr",
+    "auth.leboncoin.fr",
+    "cdn.hubvisor.io",
+    "ct.captcha-delivery.com",
+    "dd.leboncoin.fr",
+    "geo.captcha-delivery.com",
+    "html-load.cc",
+    "img.leboncoin.fr",
+    "lbc.edi5on.com",
+    "logws1360.ati-host.net",
+    "pagead2.googlesyndication.com",
+    "sdk.privacy-center.org",
+    "securepubads.g.doubleclick.net",
+    "server.sgtm.leboncoin.fr",
+    "static.captcha-delivery.com",
+    "static.criteo.net",
+    "www.googletagmanager.com",
+    "www.leboncoin.fr"
+  ]
+}

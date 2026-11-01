@@ -1,0 +1,155 @@
+{
+  "url": "https://www.automobile.it",
+  "final_url": "https://www.automobile.it/",
+  "click_at_s": 10.83,
+  "reload_at_s": 15.83,
+  "reject": "button: 'Continua senza accettare \u2192' in main (normal click)",
+  "visible_buttons": [
+    "Continua senza accettare \u2192",
+    "Maggiori informazioni \u2192",
+    "Accetta e chiudi",
+    "Cerca",
+    "Preferiti",
+    "Scegli citt\u00e0",
+    "264.258 RISULTATI",
+    "RICERCA AVANZATA",
+    "ALTRI MODELLI",
+    "MOSTRA ALTRI",
+    "NO, CERCA IN TUTTA ITALIA",
+    "USA LA MIA POSIZIONE"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "ade.googlesyndication.com",
+    "api.houston.advgo.net",
+    "api.privacy-center.org",
+    "pagead2.googlesyndication.com",
+    "script.hotjar.com",
+    "sdk.privacy-center.org",
+    "static.hotjar.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "ade.googlesyndication.com",
+    "api.houston.advgo.net",
+    "pagead2.googlesyndication.com",
+    "script.hotjar.com",
+    "sdk.privacy-center.org",
+    "static.hotjar.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "ade.googlesyndication.com": {
+      "first_s": 4.3,
+      "last_s": 16.28
+    },
+    "api.houston.advgo.net": {
+      "first_s": 2.7,
+      "last_s": 16.03
+    },
+    "api.privacy-center.org": {
+      "first_s": 10.87,
+      "last_s": 10.87
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.53,
+      "last_s": 16.1
+    },
+    "script.hotjar.com": {
+      "first_s": 3.65,
+      "last_s": 16.1
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 2.39,
+      "last_s": 16.06
+    },
+    "static.hotjar.com": {
+      "first_s": 3.29,
+      "last_s": 16.1
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.74,
+      "last_s": 16.12
+    }
+  },
+  "cookies": [
+    {
+      "name": "did",
+      "domain": "www.automobile.it",
+      "path": "/",
+      "expires": 1801438944.111059,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "SESSION",
+      "domain": "www.automobile.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rate_app",
+      "domain": "www.automobile.it",
+      "path": "/",
+      "expires": 1825084957,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_hjSession_216213",
+      "domain": ".automobile.it",
+      "path": "/",
+      "expires": 1793550745,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".automobile.it",
+      "path": "/",
+      "expires": 1825171352,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".automobile.it",
+      "path": "/",
+      "expires": 1825171352,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_hjSessionUser_216213",
+      "domain": ".automobile.it",
+      "path": "/",
+      "expires": 1825084957,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

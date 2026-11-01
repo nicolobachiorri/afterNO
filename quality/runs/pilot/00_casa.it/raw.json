@@ -1,0 +1,186 @@
+{
+  "url": "https://www.casa.it",
+  "final_url": "https://www.casa.it/",
+  "click_at_s": 10.73,
+  "reload_at_s": 15.73,
+  "reject": "button: 'Continua senza accettare \u2192' in main (normal click)",
+  "visible_buttons": [
+    "Continua senza accettare \u2192",
+    "Pi\u00f9 informazioni",
+    "ACCETTA",
+    "Valuta la tua casa",
+    "Vendi casa",
+    "Trova agenzia",
+    "Blog",
+    "Servizi",
+    "Pubblica annuncio GRATIS",
+    "Accedi",
+    "Casa",
+    "Vendita",
+    "Scegli dove",
+    "Vedi risultati",
+    "Scoprilo subito"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "accounts.google.com",
+    "api-js.datadome.co",
+    "api.privacy-center.org",
+    "js.datadome.co",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sdk.privacy-center.org",
+    "tag.aticdn.net",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "accounts.google.com",
+    "api-js.datadome.co",
+    "js.datadome.co",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sdk.privacy-center.org",
+    "tag.aticdn.net",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 10.77,
+      "last_s": 16.0
+    },
+    "api-js.datadome.co": {
+      "first_s": 7.55,
+      "last_s": 16.02
+    },
+    "api.privacy-center.org": {
+      "first_s": 10.76,
+      "last_s": 10.76
+    },
+    "ct.captcha-delivery.com": {
+      "first_s": 2.37,
+      "last_s": 2.87
+    },
+    "geo.captcha-delivery.com": {
+      "first_s": 2.62,
+      "last_s": 5.13
+    },
+    "js.datadome.co": {
+      "first_s": 6.34,
+      "last_s": 15.9
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 7.78,
+      "last_s": 15.99
+    },
+    "region1.google-analytics.com": {
+      "first_s": 7.97,
+      "last_s": 16.0
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 6.27,
+      "last_s": 15.97
+    },
+    "static.captcha-delivery.com": {
+      "first_s": 2.87,
+      "last_s": 3.3
+    },
+    "tag.aticdn.net": {
+      "first_s": 6.32,
+      "last_s": 15.9
+    },
+    "www.googletagmanager.com": {
+      "first_s": 6.32,
+      "last_s": 15.98
+    }
+  },
+  "cookies": [
+    {
+      "name": "pa_privacy",
+      "domain": "www.casa.it",
+      "path": "/",
+      "expires": 1827676975,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pcid",
+      "domain": ".casa.it",
+      "path": "/",
+      "expires": 1827676976,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pctx",
+      "domain": ".casa.it",
+      "path": "/",
+      "expires": 1827676976,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".casa.it",
+      "path": "/",
+      "expires": 1825171379,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".casa.it",
+      "path": "/",
+      "expires": 1825171379,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "pa_vid",
+      "domain": "www.casa.it",
+      "path": "/",
+      "expires": 1827676984,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "g_state",
+      "domain": ".casa.it",
+      "path": "/",
+      "expires": 1809100984,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "datadome",
+      "domain": ".casa.it",
+      "path": "/",
+      "expires": 1825084984.486404,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

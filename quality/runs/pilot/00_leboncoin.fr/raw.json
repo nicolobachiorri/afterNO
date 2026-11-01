@@ -1,0 +1,151 @@
+{
+  "url": "https://www.leboncoin.fr",
+  "final_url": "https://www.leboncoin.fr/",
+  "click_at_s": 26.56,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Se connecter",
+    "Continuer sans accepter",
+    "194 partenaires",
+    "En savoir plus",
+    "Accepter & Fermer \u2192"
+  ],
+  "tcf": {
+    "timeout": true
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.hubvisor.io": {
+      "first_s": 3.35,
+      "last_s": 3.35
+    },
+    "ct.captcha-delivery.com": {
+      "first_s": 4.39,
+      "last_s": 4.39
+    },
+    "geo.captcha-delivery.com": {
+      "first_s": 4.78,
+      "last_s": 4.78
+    },
+    "html-load.cc": {
+      "first_s": 3.35,
+      "last_s": 3.35
+    },
+    "lbc.edi5on.com": {
+      "first_s": 9.57,
+      "last_s": 9.89
+    },
+    "logws1360.ati-host.net": {
+      "first_s": 9.57,
+      "last_s": 9.57
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.35,
+      "last_s": 4.56
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 3.35,
+      "last_s": 4.59
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 3.35,
+      "last_s": 4.77
+    },
+    "static.captcha-delivery.com": {
+      "first_s": 5.02,
+      "last_s": 5.02
+    },
+    "static.criteo.net": {
+      "first_s": 4.56,
+      "last_s": 4.56
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.82,
+      "last_s": 4.82
+    }
+  },
+  "cookies": [
+    {
+      "name": "cnfdVisitorId",
+      "domain": ".leboncoin.fr",
+      "path": "/",
+      "expires": 1828108722.611627,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-Install",
+      "domain": ".leboncoin.fr",
+      "path": "/",
+      "expires": 1828108722.611832,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".leboncoin.fr",
+      "path": "/",
+      "expires": 1809356324,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "pa_privacy",
+      "domain": "www.leboncoin.fr",
+      "path": "/",
+      "expires": 1827676724,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pcid",
+      "domain": ".leboncoin.fr",
+      "path": "/",
+      "expires": 1827676729,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pctx",
+      "domain": ".leboncoin.fr",
+      "path": "/",
+      "expires": 1827676729,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_crcl3b62c763",
+      "domain": ".leboncoin.fr",
+      "path": "/",
+      "expires": 1825084729,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "datadome",
+      "domain": ".leboncoin.fr",
+      "path": "/",
+      "expires": 1825084729.949147,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

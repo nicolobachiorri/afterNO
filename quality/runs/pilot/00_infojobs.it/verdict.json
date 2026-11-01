@@ -1,0 +1,30 @@
+{
+  "host": "www.infojobs.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.infojobs.it/",
+    "lastSeen": {
+      "components.infojobs.com": 1793548870297,
+      "fonts.googleapis.com": 1793548870297,
+      "fonts.gstatic.com": 1793548870545,
+      "www.infojobs.it": 1793548870762
+    }
+  },
+  "hostsConsidered": [
+    "components.infojobs.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.infojobs.it"
+  ]
+}

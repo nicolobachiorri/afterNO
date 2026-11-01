@@ -177,3 +177,22 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
    testo della pagina. L'accordo tra i due si riporta con i risultati (`summary.md`).
    I file del giudizio umano non fanno parte dei risultati.
 
+**1 novembre 2026, dopo il giudizio della visita A.**
+
+10. *Correzioni e nuove visite.* Dalla visita A sono emersi tre difetti, corretti
+    nell'estensione: segnale TCF che elenca solo le finalità con consenso (elenco
+    vuoto dopo un rifiuto); nome interno del pulsante Didomi
+    («continue-without-agreeing») letto come accettazione; cookie dei tracker
+    legati a un percorso, non letti. Verifica fuori campione su automobile.it e
+    casa.it (Didomi): rifiuto ora registrato.
+    Cambia quindi il significato delle visite successive:
+    - **visita B**: versione corretta, stessi 40 siti. Serve a verificare che le
+      correzioni funzionino dove servivano. Il miglioramento rispetto alla visita A
+      è **ottimistico**, perché le correzioni sono state ricavate da questi siti, e
+      non si pubblica come accuratezza;
+    - **visite C1 e C2**: versione corretta su un campione nuovo di 40 siti (le
+      riserve Tranco successive, con le stesse regole di sostituzione), visitato due
+      volte in momenti diversi. L'accuratezza da pubblicare e la stabilità vengono da
+      queste visite. La stabilità prevista per le visite A e B si misura quindi tra
+      C1 e C2.
+
