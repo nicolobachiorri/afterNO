@@ -1,0 +1,36 @@
+{
+  "host": "www.unioncamere.gov.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.unioncamere.gov.it/sistema-camerale",
+    "lastSeen": {
+      "cdn.printfriendly.com": 1793554962115,
+      "ingestion.webanalytics.italia.it": 1793554963541,
+      "www.unioncamere.gov.it": 1793554963769
+    }
+  },
+  "hostsConsidered": [
+    "cdn.printfriendly.com",
+    "ingestion.webanalytics.italia.it",
+    "www.unioncamere.gov.it"
+  ]
+}

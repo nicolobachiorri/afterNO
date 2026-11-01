@@ -1,0 +1,38 @@
+{
+  "host": "www.guidasicilia.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.guidasicilia.it/",
+    "lastSeen": {
+      "api2.synapp.it": 1793555706351,
+      "files.synapp.it": 1793555706306,
+      "foto.guidasicilia.it": 1793555706355,
+      "maps.google.com": 1793555717714,
+      "maps.googleapis.com": 1793555712710,
+      "region1.google-analytics.com": 1793555706568,
+      "www.googletagmanager.com": 1793555706198,
+      "www.guidasicilia.it": 1793555712711
+    }
+  },
+  "hostsConsidered": [
+    "api2.synapp.it",
+    "files.synapp.it",
+    "foto.guidasicilia.it",
+    "maps.google.com",
+    "maps.googleapis.com",
+    "region1.google-analytics.com",
+    "www.googletagmanager.com",
+    "www.guidasicilia.it"
+  ]
+}

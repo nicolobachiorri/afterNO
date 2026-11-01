@@ -1,0 +1,368 @@
+{
+  "url": "https://www.zuiki.it",
+  "final_url": "https://www.zuiki.it/",
+  "click_at_s": 14.54,
+  "reload_at_s": 19.55,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "Scopri di pi\u00f9 e personalizza",
+    "Rifiuta",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "cdn.judge.me",
+    "cdn.shopify.com",
+    "cdnjs.cloudflare.com",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "dr4qe3ddw9y32.cloudfront.net",
+    "embeds.acswapp.com",
+    "idb.iubenda.com",
+    "ideafyi.oss-us-west-1.aliyuncs.com",
+    "js.klarna.com",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "s3.eu-west-1.amazonaws.com",
+    "skosm.klarna.com",
+    "static-tracking.klaviyo.com",
+    "static.klaviyo.com",
+    "www.facebook.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "cdn.judge.me",
+    "cdn.shopify.com",
+    "cdnjs.cloudflare.com",
+    "cs.iubenda.com",
+    "dr4qe3ddw9y32.cloudfront.net",
+    "embeds.acswapp.com",
+    "idb.iubenda.com",
+    "ideafyi.oss-us-west-1.aliyuncs.com",
+    "js.klarna.com",
+    "otlp-http-production.shopifysvc.com",
+    "s3.eu-west-1.amazonaws.com",
+    "skosm.klarna.com",
+    "static-tracking.klaviyo.com",
+    "static.klaviyo.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "analytics-ipv6.tiktokw.us": {
+      "first_s": 7.8,
+      "last_s": 7.8
+    },
+    "analytics.tiktok.com": {
+      "first_s": 6.78,
+      "last_s": 7.8
+    },
+    "cdn.iubenda.com": {
+      "first_s": 3.48,
+      "last_s": 20.03
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.62,
+      "last_s": 19.8
+    },
+    "cdn.judge.me": {
+      "first_s": 3.48,
+      "last_s": 19.78
+    },
+    "cdn.shopify.com": {
+      "first_s": 3.48,
+      "last_s": 19.81
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 3.62,
+      "last_s": 19.8
+    },
+    "connect.facebook.net": {
+      "first_s": 7.18,
+      "last_s": 8.5
+    },
+    "cpl.iubenda.com": {
+      "first_s": 14.57,
+      "last_s": 14.57
+    },
+    "cs.iubenda.com": {
+      "first_s": 6.46,
+      "last_s": 19.83
+    },
+    "dr4qe3ddw9y32.cloudfront.net": {
+      "first_s": 9.77,
+      "last_s": 20.02
+    },
+    "embeds.acswapp.com": {
+      "first_s": 8.93,
+      "last_s": 20.05
+    },
+    "idb.iubenda.com": {
+      "first_s": 8.31,
+      "last_s": 19.95
+    },
+    "ideafyi.oss-us-west-1.aliyuncs.com": {
+      "first_s": 9.77,
+      "last_s": 20.03
+    },
+    "js.klarna.com": {
+      "first_s": 10.53,
+      "last_s": 20.98
+    },
+    "monorail-edge.shopifysvc.com": {
+      "first_s": 14.57,
+      "last_s": 14.57
+    },
+    "otlp-http-production.shopifysvc.com": {
+      "first_s": 4.64,
+      "last_s": 19.85
+    },
+    "region1.analytics.google.com": {
+      "first_s": 8.19,
+      "last_s": 8.19
+    },
+    "s3.eu-west-1.amazonaws.com": {
+      "first_s": 9.77,
+      "last_s": 20.03
+    },
+    "shop.app": {
+      "first_s": 4.64,
+      "last_s": 4.64
+    },
+    "skosm.klarna.com": {
+      "first_s": 10.26,
+      "last_s": 20.03
+    },
+    "static-tracking.klaviyo.com": {
+      "first_s": 4.92,
+      "last_s": 19.83
+    },
+    "static.klaviyo.com": {
+      "first_s": 3.48,
+      "last_s": 19.85
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 8.19,
+      "last_s": 8.19
+    },
+    "www.facebook.com": {
+      "first_s": 9.05,
+      "last_s": 14.57
+    },
+    "www.google.com": {
+      "first_s": 8.79,
+      "last_s": 8.79
+    },
+    "www.google.it": {
+      "first_s": 8.19,
+      "last_s": 8.19
+    },
+    "www.googleadservices.com": {
+      "first_s": 8.55,
+      "last_s": 8.55
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.48,
+      "last_s": 19.8
+    },
+    "www.merchant-center-analytics.goog": {
+      "first_s": 8.79,
+      "last_s": 8.79
+    }
+  },
+  "cookies": [
+    {
+      "name": "localization",
+      "domain": "www.zuiki.it",
+      "path": "/",
+      "expires": 1825091543.863978,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cart_currency",
+      "domain": "www.zuiki.it",
+      "path": "/",
+      "expires": 1794765145.135853,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_essential",
+      "domain": "www.zuiki.it",
+      "path": "/",
+      "expires": 1825091527.578679,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shop_app_essential",
+      "domain": ".shop.app",
+      "path": "/",
+      "expires": 1825091529.441481,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__kla_id",
+      "domain": "www.zuiki.it",
+      "path": "/",
+      "expires": 1828115530.591576,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cart",
+      "domain": "www.zuiki.it",
+      "path": "/",
+      "expires": 1801417930.882232,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".www.zuiki.it",
+      "path": "/",
+      "expires": 1793557330.882308,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "emptyCart",
+      "domain": "www.zuiki.it",
+      "path": "/",
+      "expires": 1793641930,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ttp",
+      "domain": ".www.zuiki.it",
+      "path": "/",
+      "expires": 1801331531,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ttcsid_C5A3UL7GE0M9N03H2LK0",
+      "domain": ".www.zuiki.it",
+      "path": "/",
+      "expires": 1801331531,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ttcsid",
+      "domain": ".www.zuiki.it",
+      "path": "/",
+      "expires": 1801331531,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_P8JKCH88YK",
+      "domain": ".zuiki.it",
+      "path": "/",
+      "expires": 1828115532.317738,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".zuiki.it",
+      "path": "/",
+      "expires": 1828115532.918598,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".zuiki.it",
+      "path": "/",
+      "expires": 1801331533,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_Q4V5CL4KR3",
+      "domain": ".zuiki.it",
+      "path": "/",
+      "expires": 1828115532.918377,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".zuiki.it",
+      "path": "/",
+      "expires": 1801331538,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-73652963",
+      "domain": ".zuiki.it",
+      "path": "/",
+      "expires": 1825091538,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "usprivacy",
+      "domain": ".zuiki.it",
+      "path": "/",
+      "expires": 1825091538,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".zuiki.it",
+      "path": "/",
+      "expires": 1825091543,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

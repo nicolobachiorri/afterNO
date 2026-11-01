@@ -1,0 +1,28 @@
+{
+  "url": "https://www.upprovider.it",
+  "final_url": "https://www.upprovider.it/",
+  "click_at_s": 26.51,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "More about: L'azienda",
+    "More about: Servizi",
+    "More about: Tecnologia"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {},
+  "cookies": [
+    {
+      "name": "3387d4b5415cd8a3eb4d69c8a69354c0",
+      "domain": "www.upprovider.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

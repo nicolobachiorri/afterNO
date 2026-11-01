@@ -1,0 +1,18 @@
+{
+  "url": "https://www.postecert.it",
+  "final_url": "https://www.postecert.it/",
+  "click_at_s": 25.73,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "www.poste.it": {
+      "first_s": 2.52,
+      "last_s": 2.52
+    }
+  },
+  "cookies": []
+}

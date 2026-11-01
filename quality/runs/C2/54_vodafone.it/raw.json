@@ -1,0 +1,230 @@
+{
+  "url": "https://www.vodafone.it",
+  "final_url": "https://privati.vodafone.it/",
+  "click_at_s": 11.44,
+  "reload_at_s": 16.45,
+  "reject": "button: 'Continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "SCOPRI DI PI\u00d9",
+    "SCOPRI LE OFFERTE",
+    "SOLO ONLINE 11,95\u20ac AL MESE",
+    "SOLO ONLINE 27,95\u20ac AL MESE",
+    "SOLO ONLINE 23,95\u20ac AL MESE",
+    "Impostazioni cookie",
+    "Accetto",
+    "Continua senza accettare"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "answers.yext-pixel.com",
+    "assets.sitescdn.net",
+    "b.delivery.consentmanager.net",
+    "c.delivery.consentmanager.net",
+    "cdn.appdynamics.com",
+    "cdn.consentmanager.net",
+    "embeds.acswapp.com",
+    "fra-col.eum-appdynamics.com",
+    "tags.tiqcdn.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "answers.yext-pixel.com",
+    "assets.sitescdn.net",
+    "b.delivery.consentmanager.net",
+    "c.delivery.consentmanager.net",
+    "cdn.appdynamics.com",
+    "cdn.consentmanager.net",
+    "embeds.acswapp.com",
+    "fra-col.eum-appdynamics.com",
+    "tags.tiqcdn.com"
+  ],
+  "third_party_timeline": {
+    "answers.yext-pixel.com": {
+      "first_s": 5.75,
+      "last_s": 19.9
+    },
+    "assets.sitescdn.net": {
+      "first_s": 2.6,
+      "last_s": 16.71
+    },
+    "b.delivery.consentmanager.net": {
+      "first_s": 4.65,
+      "last_s": 17.13
+    },
+    "c.delivery.consentmanager.net": {
+      "first_s": 3.92,
+      "last_s": 16.84
+    },
+    "cdn.appdynamics.com": {
+      "first_s": 3.3,
+      "last_s": 19.07
+    },
+    "cdn.consentmanager.net": {
+      "first_s": 3.92,
+      "last_s": 17.12
+    },
+    "embeds.acswapp.com": {
+      "first_s": 11.54,
+      "last_s": 17.31
+    },
+    "fra-col.eum-appdynamics.com": {
+      "first_s": 16.47,
+      "last_s": 25.94
+    },
+    "tags.tiqcdn.com": {
+      "first_s": 3.3,
+      "last_s": 17.13
+    }
+  },
+  "cookies": [
+    {
+      "name": "CLUSTERID",
+      "domain": "www.vodafone.it",
+      "path": "/",
+      "expires": 1793556569.932115,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "nlbi_2771319",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "incap_ses_1064_2771319",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "visid_incap_2918737",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": 1825152039.206037,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "nlbi_2918737",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "incap_ses_1115_2918737",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".sitescdn.net",
+      "path": "/",
+      "expires": 1793556570.510285,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpiuid",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": 1825090784,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcpcx164745",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": 1825090779,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".answers.yext-pixel.com",
+      "path": "/",
+      "expires": 1793556573.750239,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpconsentx164745",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": 1825090779,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcvcx164745",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": 1825090779,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ADRUM",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main",
+      "domain": ".vodafone.it",
+      "path": "/",
+      "expires": 1825090784,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_dd_s",
+      "domain": "privati.vodafone.it",
+      "path": "/",
+      "expires": 1793555694,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

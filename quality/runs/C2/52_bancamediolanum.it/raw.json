@@ -1,0 +1,231 @@
+{
+  "url": "https://www.bancamediolanum.it",
+  "final_url": "https://www.bancamediolanum.it/",
+  "click_at_s": 26.97,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Cerca",
+    "La Banca",
+    "Servizi Bancari",
+    "Credito",
+    "Investimenti",
+    "Protezione",
+    "Tutti i siti del Gruppo",
+    "Impostazioni cookie",
+    "Accetta tutti i cookie"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "a22527921165.cdn.optimizely.com": {
+      "first_s": 2.82,
+      "last_s": 2.82
+    },
+    "ade.googlesyndication.com": {
+      "first_s": 4.34,
+      "last_s": 4.6
+    },
+    "bat.bing.com": {
+      "first_s": 3.15,
+      "last_s": 3.5
+    },
+    "bat.bing.net": {
+      "first_s": 3.59,
+      "last_s": 4.34
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 3.15,
+      "last_s": 4.52
+    },
+    "cdn.optimizely.com": {
+      "first_s": 2.37,
+      "last_s": 2.37
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 3.15,
+      "last_s": 3.15
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.71,
+      "last_s": 3.71
+    },
+    "insight.adsrvr.org": {
+      "first_s": 4.34,
+      "last_s": 4.34
+    },
+    "js.go2sdk.com": {
+      "first_s": 3.15,
+      "last_s": 3.15
+    },
+    "logx.optimizely.com": {
+      "first_s": 3.77,
+      "last_s": 3.77
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.95,
+      "last_s": 3.95
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.94,
+      "last_s": 18.17
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.78,
+      "last_s": 3.15
+    }
+  },
+  "cookies": [
+    {
+      "name": "dtCookie",
+      "domain": ".bancamediolanum.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "visid_incap_2287459",
+      "domain": ".bancamediolanum.it",
+      "path": "/",
+      "expires": 1825004572.453956,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "incap_ses_1115_2287459",
+      "domain": ".bancamediolanum.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rxVisitor",
+      "domain": ".bancamediolanum.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "dtSa",
+      "domain": ".bancamediolanum.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "optimizelyEndUserId",
+      "domain": ".bancamediolanum.it",
+      "path": "/",
+      "expires": 1809106704,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "site_lang",
+      "domain": "www.bancamediolanum.it",
+      "path": "/",
+      "expires": 1825090705,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "https://www.bancamediolanum.it_oeu1793554704870r0.7505183375620783$$6684110643527680$$session_state",
+      "domain": "a22527921165.cdn.optimizely.com",
+      "path": "/",
+      "expires": 1809106705.221019,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bq_session",
+      "domain": "www.bancamediolanum.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bq_user_id",
+      "domain": "www.bancamediolanum.it",
+      "path": "/",
+      "expires": 1828114705.251196,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rxvt",
+      "domain": ".bancamediolanum.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "dtPC",
+      "domain": ".bancamediolanum.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".www.bancamediolanum.it",
+      "path": "/",
+      "expires": 1825090706,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TDID",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1825090706.682302,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TDCPM",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1825090706.682359,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

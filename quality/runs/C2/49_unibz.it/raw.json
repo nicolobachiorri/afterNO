@@ -1,0 +1,29 @@
+{
+  "url": "https://www.unibz.it",
+  "final_url": "https://www.unibz.it/",
+  "click_at_s": 10.7,
+  "reload_at_s": 15.7,
+  "reject": "button: 'Use necessary cookies only' in main (normal click)",
+  "visible_buttons": [
+    "Toggle the language menu. Current language: EN EN",
+    "Allow all cookies",
+    "Use necessary cookies only",
+    "Manage Individual preferences"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {},
+  "cookies": [
+    {
+      "name": "cc_cookie",
+      "domain": ".www.unibz.it",
+      "path": "/",
+      "expires": 1809279456,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

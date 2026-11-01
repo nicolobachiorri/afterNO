@@ -1,0 +1,36 @@
+{
+  "host": "www.arera.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.arera.it/",
+    "lastSeen": {
+      "fonts.googleapis.com": 1793554674862,
+      "ingestion.webanalytics.italia.it": 1793554691647,
+      "www.arera.it": 1793554692327
+    }
+  },
+  "hostsConsidered": [
+    "fonts.googleapis.com",
+    "ingestion.webanalytics.italia.it",
+    "www.arera.it"
+  ]
+}

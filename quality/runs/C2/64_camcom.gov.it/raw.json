@@ -1,0 +1,56 @@
+{
+  "url": "https://camcom.gov.it",
+  "final_url": "https://www.unioncamere.gov.it/sistema-camerale",
+  "click_at_s": 27.5,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Chiudi",
+    "MENU",
+    "Conferma le scelte",
+    "Accetta tutto"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "camcom.gov.it": {
+      "first_s": 2.01,
+      "last_s": 2.01
+    },
+    "cdn.printfriendly.com": {
+      "first_s": 2.84,
+      "last_s": 2.84
+    },
+    "ingestion.webanalytics.italia.it": {
+      "first_s": 3.98,
+      "last_s": 4.26
+    },
+    "www.camcom.it": {
+      "first_s": 2.24,
+      "last_s": 2.24
+    }
+  },
+  "cookies": [
+    {
+      "name": "_pk_id.1BmqAaZqPX.4f22",
+      "domain": "www.unioncamere.gov.it",
+      "path": "/",
+      "expires": 1827510164,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.1BmqAaZqPX.4f22",
+      "domain": "www.unioncamere.gov.it",
+      "path": "/",
+      "expires": 1793556763,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

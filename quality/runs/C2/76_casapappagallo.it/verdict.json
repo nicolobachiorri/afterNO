@@ -1,0 +1,54 @@
+{
+  "host": "www.casapappagallo.it",
+  "choice": {
+    "at": 1793555275270,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "site": "casapappagallo.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.casapappagallo.it/",
+    "lastSeen": {
+      "cdn.iubenda.com": 1793555267487,
+      "cpl.iubenda.com": 1793555275286,
+      "cs.iubenda.com": 1793555267834,
+      "fonts.googleapis.com": 1793555266882,
+      "fonts.gstatic.com": 1793555267140,
+      "idb.iubenda.com": 1793555281780,
+      "load.sumo.com": 1793555281661,
+      "region1.google-analytics.com": 1793555286685,
+      "www.casapappagallo.it": 1793555281689,
+      "www.googletagmanager.com": 1793555267224
+    }
+  },
+  "hostsConsidered": [
+    "cpl.iubenda.com",
+    "idb.iubenda.com",
+    "load.sumo.com",
+    "region1.google-analytics.com",
+    "www.casapappagallo.it"
+  ]
+}

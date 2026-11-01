@@ -1,0 +1,40 @@
+{
+  "host": "www.iit.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.iit.it/",
+    "lastSeen": {
+      "api.taggbox.com": 1793555356410,
+      "cloud.tagbox.com": 1793555356742,
+      "cookiehub.net": 1793555354976,
+      "opentalk.iit.it": 1793555355737,
+      "r.iit.it": 1793555355484,
+      "widget.taggbox.com": 1793555356754,
+      "www.google.com": 1793555353585,
+      "www.gstatic.com": 1793555354165,
+      "www.iit.it": 1793555355453
+    }
+  },
+  "hostsConsidered": [
+    "api.taggbox.com",
+    "cloud.tagbox.com",
+    "cookiehub.net",
+    "opentalk.iit.it",
+    "r.iit.it",
+    "widget.taggbox.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.iit.it"
+  ]
+}

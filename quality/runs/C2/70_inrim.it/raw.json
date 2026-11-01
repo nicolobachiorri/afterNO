@@ -1,0 +1,13 @@
+{
+  "url": "https://www.inrim.it",
+  "final_url": "https://www.inrim.it/it",
+  "click_at_s": 27.76,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {},
+  "cookies": []
+}

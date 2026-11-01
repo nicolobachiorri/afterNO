@@ -1,0 +1,46 @@
+{
+  "url": "https://www.aranagenzia.it",
+  "final_url": "https://www.aranagenzia.it/",
+  "click_at_s": 27.47,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Lingua attiva: ITA",
+    "Lascia un feedback"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdnjs.cloudflare.com": {
+      "first_s": 2.91,
+      "last_s": 2.91
+    },
+    "use.fontawesome.com": {
+      "first_s": 2.92,
+      "last_s": 2.92
+    }
+  },
+  "cookies": [
+    {
+      "name": "__wpdm_client",
+      "domain": "www.aranagenzia.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiesession1",
+      "domain": "www.aranagenzia.it",
+      "path": "/",
+      "expires": 1825091558.304847,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "host": "www.wifiweb.it",
+  "choice": {
+    "at": 1793555398694,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "site": "wifiweb.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.wifiweb.it/",
+    "lastSeen": {
+      "ajax.googleapis.com": 1793555389824,
+      "cdn.iubenda.com": 1793555390048,
+      "cs.iubenda.com": 1793555390321,
+      "fonts.googleapis.com": 1793555389495,
+      "fonts.gstatic.com": 1793555391907,
+      "idb.iubenda.com": 1793555407140,
+      "www.google.com": 1793555407548,
+      "www.gstatic.com": 1793555407207,
+      "www.wifiweb.it": 1793555408098
+    }
+  },
+  "hostsConsidered": [
+    "idb.iubenda.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.wifiweb.it"
+  ]
+}

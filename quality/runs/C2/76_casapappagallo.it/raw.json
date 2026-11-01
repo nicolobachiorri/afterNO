@@ -1,0 +1,115 @@
+{
+  "url": "https://www.casapappagallo.it",
+  "final_url": "https://www.casapappagallo.it/",
+  "click_at_s": 11.93,
+  "reload_at_s": 16.93,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "cookie policy",
+    "Scopri di pi\u00f9 e personalizza",
+    "Rifiuta",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn.iubenda.com",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "load.sumo.com",
+    "region1.google-analytics.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "load.sumo.com",
+    "region1.google-analytics.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "cdn.iubenda.com": {
+      "first_s": 3.89,
+      "last_s": 18.33
+    },
+    "cpl.iubenda.com": {
+      "first_s": 11.95,
+      "last_s": 11.95
+    },
+    "cs.iubenda.com": {
+      "first_s": 4.5,
+      "last_s": 18.34
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.57,
+      "last_s": 18.31
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.79,
+      "last_s": 18.32
+    },
+    "idb.iubenda.com": {
+      "first_s": 4.87,
+      "last_s": 18.44
+    },
+    "load.sumo.com": {
+      "first_s": 3.89,
+      "last_s": 18.32
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.07,
+      "last_s": 23.35
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.57,
+      "last_s": 18.32
+    }
+  },
+  "cookies": [
+    {
+      "name": "XSRF-TOKEN",
+      "domain": "www.casapappagallo.it",
+      "path": "/",
+      "expires": 1793584081.604251,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "casapappagallo_session",
+      "domain": "www.casapappagallo.it",
+      "path": "/",
+      "expires": 1793584081.604406,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-82783058",
+      "domain": ".casapappagallo.it",
+      "path": "/",
+      "expires": 1825091275,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".casapappagallo.it",
+      "path": "/",
+      "expires": 1825091281,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

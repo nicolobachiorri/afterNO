@@ -1,0 +1,98 @@
+{
+  "host": "www.zuiki.it",
+  "choice": {
+    "at": 1793555538662,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "site": "zuiki.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 6,
+      "names": [
+        "Klaviyo",
+        "TikTok",
+        "Google",
+        "Facebook"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.zuiki.it/",
+    "lastSeen": {
+      "analytics-ipv6.tiktokw.us": 1793555531930,
+      "analytics.tiktok.com": 1793555531929,
+      "cdn.iubenda.com": 1793555534152,
+      "cdn.jsdelivr.net": 1793555527944,
+      "cdn.judge.me": 1793555527944,
+      "cdn.shopify.com": 1793555528791,
+      "cdnjs.cloudflare.com": 1793555527943,
+      "connect.facebook.net": 1793555532626,
+      "cpl.iubenda.com": 1793555538696,
+      "cs.iubenda.com": 1793555531463,
+      "dr4qe3ddw9y32.cloudfront.net": 1793555533899,
+      "embeds.acswapp.com": 1793555544182,
+      "idb.iubenda.com": 1793555544080,
+      "ideafyi.oss-us-west-1.aliyuncs.com": 1793555544152,
+      "js.klarna.com": 1793555545063,
+      "monorail-edge.shopifysvc.com": 1793555538696,
+      "otlp-http-production.shopifysvc.com": 1793555543983,
+      "region1.analytics.google.com": 1793555532319,
+      "region1.google-analytics.com": 1793555543878,
+      "s3.eu-west-1.amazonaws.com": 1793555533899,
+      "shop.app": 1793555528773,
+      "skosm.klarna.com": 1793555544156,
+      "static-tracking.klaviyo.com": 1793555529050,
+      "static.klaviyo.com": 1793555543958,
+      "stats.g.doubleclick.net": 1793555532319,
+      "www.facebook.com": 1793555538695,
+      "www.google.com": 1793555532922,
+      "www.google.it": 1793555532320,
+      "www.googleadservices.com": 1793555532675,
+      "www.googletagmanager.com": 1793555532304,
+      "www.merchant-center-analytics.goog": 1793555532920,
+      "www.zuiki.it": 1793555553985
+    }
+  },
+  "hostsConsidered": [
+    "cpl.iubenda.com",
+    "embeds.acswapp.com",
+    "idb.iubenda.com",
+    "ideafyi.oss-us-west-1.aliyuncs.com",
+    "js.klarna.com",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "region1.google-analytics.com",
+    "skosm.klarna.com",
+    "static.klaviyo.com",
+    "www.facebook.com",
+    "www.zuiki.it"
+  ]
+}

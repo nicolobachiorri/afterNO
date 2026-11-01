@@ -1,0 +1,44 @@
+{
+  "host": "lanuovabq.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://lanuovabq.it/it",
+    "lastSeen": {
+      "buttons-config.sharethis.com": 1793554738603,
+      "fonts.googleapis.com": 1793554737213,
+      "fonts.gstatic.com": 1793554737534,
+      "i.ytimg.com": 1793554738614,
+      "jnn-pa.googleapis.com": 1793554738671,
+      "l.sharethis.com": 1793554738604,
+      "lanuovabq.it": 1793554738820,
+      "platform-api.sharethis.com": 1793554737220,
+      "www.google.com": 1793554738215,
+      "www.lanuovabq.it": 1793554736574,
+      "www.youtube-nocookie.com": 1793554740966
+    }
+  },
+  "hostsConsidered": [
+    "buttons-config.sharethis.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "i.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "l.sharethis.com",
+    "lanuovabq.it",
+    "platform-api.sharethis.com",
+    "www.google.com",
+    "www.lanuovabq.it",
+    "www.youtube-nocookie.com"
+  ]
+}

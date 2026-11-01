@@ -1,0 +1,236 @@
+{
+  "url": "https://www.borsaitaliana.it",
+  "final_url": "https://www.borsaitaliana.it/",
+  "click_at_s": 11.94,
+  "reload_at_s": 16.94,
+  "reject": "button: 'Rifiuta tutti i cookie di profilazione' in main (normal click)",
+  "visible_buttons": [
+    "Accetta tutti i cookie di profilazione",
+    "Rifiuta tutti i cookie di profilazione",
+    "Salva preferenze ed esci",
+    "Search"
+  ],
+  "tcf": {
+    "cmpId": 259,
+    "eventStatus": "useractioncomplete",
+    "gdprApplies": true,
+    "purposesListed": 24,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "ac.neodatagroup.com",
+    "ad.360yield.com",
+    "ad.doubleclick.net",
+    "ad.neodatagroup.com",
+    "adagiofe.neodatagroup.com",
+    "antenna.ayads.co",
+    "apikeys.civiccomputing.com",
+    "borsaitaliana.teleborsa.it",
+    "c.blendee.com",
+    "cc.cdn.civiccomputing.com",
+    "cdn.confiant-integrations.net",
+    "cdn.jsdelivr.net",
+    "cdn.teleborsa.it",
+    "clapi.civiccomputing.com",
+    "fonts.gstatic.com",
+    "gum.criteo.com",
+    "hb.360yield.com",
+    "ib.adnxs.com",
+    "js-ssl.neodatagroup.com",
+    "optchk.ayads.co",
+    "region1.google-analytics.com",
+    "s.adplay.it",
+    "sac.ayads.co",
+    "securepubads.g.doubleclick.net",
+    "stats.fms.azerion.com",
+    "tra.neodatagroup.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "ac.neodatagroup.com",
+    "ad.360yield.com",
+    "ad.doubleclick.net",
+    "ad.neodatagroup.com",
+    "adagiofe.neodatagroup.com",
+    "antenna.ayads.co",
+    "apikeys.civiccomputing.com",
+    "borsaitaliana.teleborsa.it",
+    "c.blendee.com",
+    "cc.cdn.civiccomputing.com",
+    "cdn.confiant-integrations.net",
+    "cdn.jsdelivr.net",
+    "cdn.teleborsa.it",
+    "clapi.civiccomputing.com",
+    "fonts.gstatic.com",
+    "gum.criteo.com",
+    "hb.360yield.com",
+    "ib.adnxs.com",
+    "js-ssl.neodatagroup.com",
+    "optchk.ayads.co",
+    "region1.google-analytics.com",
+    "s.adplay.it",
+    "sac.ayads.co",
+    "securepubads.g.doubleclick.net",
+    "stats.fms.azerion.com",
+    "tra.neodatagroup.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "ac.neodatagroup.com": {
+      "first_s": 5.49,
+      "last_s": 17.85
+    },
+    "ad.360yield.com": {
+      "first_s": 12.34,
+      "last_s": 17.78
+    },
+    "ad.doubleclick.net": {
+      "first_s": 17.85,
+      "last_s": 18.1
+    },
+    "ad.neodatagroup.com": {
+      "first_s": 5.02,
+      "last_s": 17.95
+    },
+    "adagiofe.neodatagroup.com": {
+      "first_s": 5.21,
+      "last_s": 17.8
+    },
+    "antenna.ayads.co": {
+      "first_s": 12.24,
+      "last_s": 17.88
+    },
+    "apikeys.civiccomputing.com": {
+      "first_s": 3.82,
+      "last_s": 17.22
+    },
+    "borsaitaliana.teleborsa.it": {
+      "first_s": 2.62,
+      "last_s": 17.19
+    },
+    "c.blendee.com": {
+      "first_s": 4.69,
+      "last_s": 17.79
+    },
+    "cc.cdn.civiccomputing.com": {
+      "first_s": 2.34,
+      "last_s": 17.58
+    },
+    "cdn.confiant-integrations.net": {
+      "first_s": 11.94,
+      "last_s": 17.73
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 12.11,
+      "last_s": 17.75
+    },
+    "cdn.teleborsa.it": {
+      "first_s": 3.45,
+      "last_s": 17.19
+    },
+    "clapi.civiccomputing.com": {
+      "first_s": 4.69,
+      "last_s": 17.61
+    },
+    "did.blendee.com": {
+      "first_s": 4.99,
+      "last_s": 5.3
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.6,
+      "last_s": 17.19
+    },
+    "gum.criteo.com": {
+      "first_s": 12.11,
+      "last_s": 17.75
+    },
+    "hb.360yield.com": {
+      "first_s": 12.24,
+      "last_s": 17.73
+    },
+    "ib.adnxs.com": {
+      "first_s": 12.34,
+      "last_s": 17.78
+    },
+    "js-ssl.neodatagroup.com": {
+      "first_s": 4.69,
+      "last_s": 17.79
+    },
+    "optchk.ayads.co": {
+      "first_s": 12.34,
+      "last_s": 17.78
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.08,
+      "last_s": 22.6
+    },
+    "s.adplay.it": {
+      "first_s": 2.34,
+      "last_s": 17.72
+    },
+    "sac.ayads.co": {
+      "first_s": 11.94,
+      "last_s": 17.72
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 11.94,
+      "last_s": 17.8
+    },
+    "stats.fms.azerion.com": {
+      "first_s": 11.94,
+      "last_s": 17.72
+    },
+    "tra.neodatagroup.com": {
+      "first_s": 5.56,
+      "last_s": 17.86
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.61,
+      "last_s": 17.58
+    }
+  },
+  "cookies": [
+    {
+      "name": "_ga",
+      "domain": ".borsaitaliana.it",
+      "path": "/",
+      "expires": 1828115636.928778,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bldid",
+      "domain": ".blendee.com",
+      "path": "/",
+      "expires": 1825027200,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_LVDQM0FBJC",
+      "domain": ".borsaitaliana.it",
+      "path": "/",
+      "expires": 1828115636.928573,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieControl",
+      "domain": ".borsaitaliana.it",
+      "path": "/",
+      "expires": 1825005236,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

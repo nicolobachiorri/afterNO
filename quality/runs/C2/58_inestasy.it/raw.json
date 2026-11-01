@@ -1,0 +1,323 @@
+{
+  "url": "https://www.inestasy.it",
+  "final_url": "https://www.inestasy.it/",
+  "click_at_s": 25.84,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Italian / EUR",
+    "ISCRIVITI",
+    "Protezione Acquirenti 4,58 (2,4k) Eccellente",
+    "Preferenze",
+    "Accettare"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "extensions.shopifycdn.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "5ma5p56xtyzgg6xqqy2zih7rku0teqkb.lambda-url.eu-central-1.on.aws": {
+      "first_s": 4.14,
+      "last_s": 4.14
+    },
+    "analytics.tiktok.com": {
+      "first_s": 3.68,
+      "last_s": 4.33
+    },
+    "api.transcy.io": {
+      "first_s": 3.06,
+      "last_s": 3.06
+    },
+    "app.cart-bot.net": {
+      "first_s": 5.85,
+      "last_s": 5.85
+    },
+    "app.consentmo.com": {
+      "first_s": 3.36,
+      "last_s": 3.53
+    },
+    "cdn-app.cart-bot.net": {
+      "first_s": 5.29,
+      "last_s": 6.22
+    },
+    "cdn.shopify.com": {
+      "first_s": 2.56,
+      "last_s": 4.74
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 2.76,
+      "last_s": 2.76
+    },
+    "connect.facebook.net": {
+      "first_s": 3.28,
+      "last_s": 3.7
+    },
+    "customer-data-api.trstd-login.trustedshops.com": {
+      "first_s": 5.68,
+      "last_s": 5.68
+    },
+    "error-analytics-sessions-production.shopifysvc.com": {
+      "first_s": 5.28,
+      "last_s": 5.28
+    },
+    "extensions.shopifycdn.com": {
+      "first_s": 25.95,
+      "last_s": 25.95
+    },
+    "fonts.bunny.net": {
+      "first_s": 4.19,
+      "last_s": 6.12
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.57,
+      "last_s": 2.57
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.82,
+      "last_s": 2.82
+    },
+    "forms.shopifyapps.com": {
+      "first_s": 3.27,
+      "last_s": 3.27
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 4.73,
+      "last_s": 4.73
+    },
+    "integrations.etrusted.com": {
+      "first_s": 2.56,
+      "last_s": 6.16
+    },
+    "monorail-edge.shopifysvc.com": {
+      "first_s": 3.76,
+      "last_s": 5.36
+    },
+    "otlp-http-production.shopifysvc.com": {
+      "first_s": 2.83,
+      "last_s": 5.36
+    },
+    "region1.analytics.google.com": {
+      "first_s": 3.81,
+      "last_s": 3.81
+    },
+    "s3.eu-west-1.amazonaws.com": {
+      "first_s": 5.29,
+      "last_s": 5.29
+    },
+    "shop.app": {
+      "first_s": 2.56,
+      "last_s": 4.94
+    },
+    "shopify-assets.shopifycdn.com": {
+      "first_s": 4.85,
+      "last_s": 5.32
+    },
+    "sl.storeify.app": {
+      "first_s": 5.29,
+      "last_s": 5.29
+    },
+    "static.transcy.io": {
+      "first_s": 3.7,
+      "last_s": 3.7
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.81,
+      "last_s": 3.81
+    },
+    "wekre6r5lsxxzzbnlltsbyfm6i0dcqrs.lambda-url.eu-central-1.on.aws": {
+      "first_s": 2.77,
+      "last_s": 2.77
+    },
+    "widgets.trustedshops.com": {
+      "first_s": 2.56,
+      "last_s": 6.04
+    },
+    "www.facebook.com": {
+      "first_s": 4.19,
+      "last_s": 4.19
+    },
+    "www.google.com": {
+      "first_s": 5.21,
+      "last_s": 5.21
+    },
+    "www.google.it": {
+      "first_s": 3.81,
+      "last_s": 5.21
+    },
+    "www.googleadservices.com": {
+      "first_s": 4.24,
+      "last_s": 4.24
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.28,
+      "last_s": 3.8
+    },
+    "www.merchant-center-analytics.goog": {
+      "first_s": 4.32,
+      "last_s": 4.32
+    }
+  },
+  "cookies": [
+    {
+      "name": "localization",
+      "domain": "www.inestasy.it",
+      "path": "/",
+      "expires": 1825090885.854454,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cart_currency",
+      "domain": "www.inestasy.it",
+      "path": "/",
+      "expires": 1794764490.134299,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_essential",
+      "domain": "www.inestasy.it",
+      "path": "/",
+      "expires": 1825090885.140429,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_analytics",
+      "domain": "www.inestasy.it",
+      "path": "/",
+      "expires": 1825090885.140451,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_marketing",
+      "domain": "www.inestasy.it",
+      "path": "/",
+      "expires": 1825090885.14047,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "baMet_visit",
+      "domain": "www.inestasy.it",
+      "path": "/",
+      "expires": 1793556685,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".www.inestasy.it",
+      "path": "/",
+      "expires": 1793556685.927729,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookieconsent_preferences_disabled",
+      "domain": "www.inestasy.it",
+      "path": "/",
+      "expires": 1825090886,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_C02E3ME1PZ",
+      "domain": ".inestasy.it",
+      "path": "/",
+      "expires": 1828114886.403857,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".inestasy.it",
+      "path": "/",
+      "expires": 1828114886.915827,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "baMet_baEvs",
+      "domain": "www.inestasy.it",
+      "path": "/",
+      "expires": 1793554946,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".inestasy.it",
+      "path": "/",
+      "expires": 1801330886,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".inestasy.it",
+      "path": "/",
+      "expires": 1801330886,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_66S2MKCNJ6",
+      "domain": ".inestasy.it",
+      "path": "/",
+      "expires": 1828114886.915587,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ttp",
+      "domain": ".www.inestasy.it",
+      "path": "/",
+      "expires": 1801330887,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_shop_app_essential",
+      "domain": ".shop.app",
+      "path": "/",
+      "expires": 1825090887.439446,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "url": "https://www.gazzettadireggio.it",
+  "final_url": "https://www.gazzettadireggio.it/",
+  "click_at_s": 10.7,
+  "reload_at_s": 15.7,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "Iscriviti alle Newsletter",
+    "Sfoglia il quotidiano",
+    "ACCEDI",
+    "ABBONATI",
+    "MENU",
+    "CRONACA",
+    "ITALIA MONDO",
+    "SPORT",
+    "TEMPO LIBERO",
+    "VIDEO",
+    "SCUOLA 2030",
+    "CERCA",
+    "1",
+    "2",
+    "3"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "0giwbu3vyrl7loaruhczauzdrtnuy1793555040.nuid.imrworldwide.com",
+    "4941b1d439b56a4328d2bf203aedee75.safeframe.googlesyndication.com",
+    "7c7edb78945cfdd19834a73847369623.safeframe.googlesyndication.com",
+    "aax-eu.amazon-adsystem.com",
+    "ads.pubmatic.com",
+    "ap.lijit.com",
+    "api-sites-prd.saegroup.abinsula.com",
+    "api.id5-sync.com",
+    "assets.evolutionadv.it",
+    "bid.sparteo.com",
+    "c.amazon-adsystem.com",
+    "carbon-cdn.ccgateway.net",
+    "cdn-gl.imrworldwide.com",
+    "cdn.confiant-integrations.net",
+    "cdn.evolutionadv.it",
+    "cdn.id5-sync.com",
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "cdn1.anonymised.io",
+    "client.aps.amazon-adsystem.com",
+    "config.aps.amazon-adsystem.com",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "custom-codes.prod.cloud.ogury.io",
+    "dmxleo.dailymotion.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "eus.rubiconproject.com",
+    "feed.avplayer.com",
+    "geo.dailymotion.com",
+    "go1.aniview.com",
+    "hbopenbid.pubmatic.com",
+    "htlb.casalemedia.com",
+    "i.ytimg.com",
+    "idb.iubenda.com",
+    "imasdk.googleapis.com",
+    "js-sec.indexww.com",
+    "link.rubiconproject.com",
+    "marketingplatform.google.com",
+    "match.sharethrough.com",
+    "ms-ads-monitoring-events.presage.io",
+    "ms-cookie-sync.presage.io",
+    "mweb-tag.presage.io",
+    "mwtw.presage.io",
+    "o56819.ingest.sentry.io",
+    "pagead2.googlesyndication.com",
+    "pebed.dm-event.net",
+    "player.aniview.com",
+    "player.avplayer.com",
+    "player.vimeo.com",
+    "prebid-server.rubiconproject.com",
+    "privacy-location-edge.ccgateway.net",
+    "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev",
+    "pubads.adipolo.co",
+    "pubads.g.doubleclick.net",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "s0.2mdn.net",
+    "s1.dmcdn.net",
+    "s2.dmcdn.net",
+    "s2ssc.aniview.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "ssbsync.smartadserver.com",
+    "ssum-sec.casalemedia.com",
+    "static.anonm.io",
+    "static.anonymised.io",
+    "static1.dmcdn.net",
+    "sync.richaudience.com",
+    "sync.sparteo.com",
+    "t.pubmatic.com",
+    "tags.crwdcntrl.net",
+    "tg1.aniview.com",
+    "token.rubiconproject.com",
+    "track1.avplayer.com",
+    "track4.aniview.com",
+    "tracking.adovid.com",
+    "vendorlist.dmcdn.net",
+    "web-banner.ads.aps.amazon-adsystem.com",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "widget-pixels.outbrainimg.com",
+    "widgets.outbrain.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.side-box.it",
+    "www.vaticannews.va",
+    "www3.doubleclick.net"
+  ],
+  "third_party_hosts_after_reload": [
+    "0giwbu3vyrl7loaruhczauzdrtnuy1793555040.nuid.imrworldwide.com",
+    "7c7edb78945cfdd19834a73847369623.safeframe.googlesyndication.com",
+    "aax-eu.amazon-adsystem.com",
+    "ads.pubmatic.com",
+    "api-sites-prd.saegroup.abinsula.com",
+    "api.id5-sync.com",
+    "assets.evolutionadv.it",
+    "c.amazon-adsystem.com",
+    "carbon-cdn.ccgateway.net",
+    "cdn-gl.imrworldwide.com",
+    "cdn.confiant-integrations.net",
+    "cdn.evolutionadv.it",
+    "cdn.id5-sync.com",
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "cdn1.anonymised.io",
+    "client.aps.amazon-adsystem.com",
+    "config.aps.amazon-adsystem.com",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "custom-codes.prod.cloud.ogury.io",
+    "dmxleo.dailymotion.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "eus.rubiconproject.com",
+    "feed.avplayer.com",
+    "geo.dailymotion.com",
+    "go1.aniview.com",
+    "htlb.casalemedia.com",
+    "i.ytimg.com",
+    "idb.iubenda.com",
+    "imasdk.googleapis.com",
+    "js-sec.indexww.com",
+    "link.rubiconproject.com",
+    "marketingplatform.google.com",
+    "ms-ads-monitoring-events.presage.io",
+    "ms-cookie-sync.presage.io",
+    "mweb-tag.presage.io",
+    "mwtw.presage.io",
+    "o56819.ingest.sentry.io",
+    "pagead2.googlesyndication.com",
+    "pebed.dm-event.net",
+    "player.aniview.com",
+    "player.avplayer.com",
+    "player.vimeo.com",
+    "prebid-server.rubiconproject.com",
+    "privacy-location-edge.ccgateway.net",
+    "pubads.adipolo.co",
+    "pubads.g.doubleclick.net",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "s0.2mdn.net",
+    "s1.dmcdn.net",
+    "s2.dmcdn.net",
+    "s2ssc.aniview.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "ssum-sec.casalemedia.com",
+    "static.anonm.io",
+    "static.anonymised.io",
+    "static1.dmcdn.net",
+    "tags.crwdcntrl.net",
+    "tg1.aniview.com",
+    "token.rubiconproject.com",
+    "track1.avplayer.com",
+    "track4.aniview.com",
+    "tracking.adovid.com",
+    "vendorlist.dmcdn.net",
+    "web-banner.ads.aps.amazon-adsystem.com",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "widget-pixels.outbrainimg.com",
+    "widgets.outbrain.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.side-box.it",
+    "www.vaticannews.va",
+    "www3.doubleclick.net"
+  ],
+  "third_party_timeline": {
+    "0giwbu3vyrl7loaruhczauzdrtnuy1793555040.nuid.imrworldwide.com": {
+      "first_s": 15.99,
+      "last_s": 15.99
+    },
+    "4941b1d439b56a4328d2bf203aedee75.safeframe.googlesyndication.com": {
+      "first_s": 11.42,
+      "last_s": 11.42
+    },
+    "7c7edb78945cfdd19834a73847369623.safeframe.googlesyndication.com": {
+      "first_s": 17.14,
+      "last_s": 17.14
+    },
+    "aax-eu.amazon-adsystem.com": {
+      "first_s": 12.1,
+      "last_s": 18.6
+    },
+    "ads.pubmatic.com": {
+      "first_s": 10.74,
+      "last_s": 16.57
+    },
+    "ap.lijit.com": {
+      "first_s": 13.15,
+      "last_s": 13.15
+    },
+    "api-sites-prd.saegroup.abinsula.com": {
+      "first_s": 2.28,
+      "last_s": 15.99
+    },
+    "api.id5-sync.com": {
+      "first_s": 11.54,
+      "last_s": 16.64
+    },
+    "assets.evolutionadv.it": {
+      "first_s": 3.18,
+      "last_s": 18.61
+    },
+    "bid.sparteo.com": {
+      "first_s": 13.54,
+      "last_s": 13.54
+    },
+    "c.amazon-adsystem.com": {
+      "first_s": 10.74,
+      "last_s": 18.04
+    },
+    "carbon-cdn.ccgateway.net": {
+      "first_s": 10.99,
+      "last_s": 16.6
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 2.64,
+      "last_s": 15.99
+    },
+    "cdn.confiant-integrations.net": {
+      "first_s": 10.74,
+      "last_s": 16.6
+    },
+    "cdn.evolutionadv.it": {
+      "first_s": 12.26,
+      "last_s": 20.7
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 11.21,
+      "last_s": 18.04
+    },
+    "cdn.iubenda.com": {
+      "first_s": 3.67,
+      "last_s": 16.13
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 23.29,
+      "last_s": 23.29
+    },
+    "cdn1.anonymised.io": {
+      "first_s": 11.43,
+      "last_s": 16.71
+    },
+    "client.aps.amazon-adsystem.com": {
+      "first_s": 13.17,
+      "last_s": 17.98
+    },
+    "config.aps.amazon-adsystem.com": {
+      "first_s": 11.02,
+      "last_s": 17.98
+    },
+    "cpl.iubenda.com": {
+      "first_s": 10.74,
+      "last_s": 18.09
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.44,
+      "last_s": 16.13
+    },
+    "custom-codes.prod.cloud.ogury.io": {
+      "first_s": 11.77,
+      "last_s": 17.15
+    },
+    "dmxleo.dailymotion.com": {
+      "first_s": 5.84,
+      "last_s": 18.17
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 3.86,
+      "last_s": 17.79
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 4.06,
+      "last_s": 17.26
+    },
+    "eus.rubiconproject.com": {
+      "first_s": 24.89,
+      "last_s": 25.41
+    },
+    "feed.avplayer.com": {
+      "first_s": 11.71,
+      "last_s": 17.17
+    },
+    "geo.dailymotion.com": {
+      "first_s": 2.29,
+      "last_s": 18.17
+    },
+    "go1.aniview.com": {
+      "first_s": 12.54,
+      "last_s": 17.69
+    },
+    "hbopenbid.pubmatic.com": {
+      "first_s": 13.54,
+      "last_s": 13.54
+    },
+    "htlb.casalemedia.com": {
+      "first_s": 23.29,
+      "last_s": 23.29
+    },
+    "i.ytimg.com": {
+      "first_s": 3.78,
+      "last_s": 16.15
+    },
+    "idb.iubenda.com": {
+      "first_s": 4.22,
+      "last_s": 18.09
+    },
+    "imasdk.googleapis.com": {
+      "first_s": 3.37,
+      "last_s": 24.45
+    },
+    "js-sec.indexww.com": {
+      "first_s": 24.89,
+      "last_s": 24.89
+    },
+    "link.rubiconproject.com": {
+      "first_s": 10.74,
+      "last_s": 16.57
+    },
+    "marketingplatform.google.com": {
+      "first_s": 12.3,
+      "last_s": 17.36
+    },
+    "match.sharethrough.com": {
+      "first_s": 13.16,
+      "last_s": 13.16
+    },
+    "ms-ads-monitoring-events.presage.io": {
+      "first_s": 11.96,
+      "last_s": 17.66
+    },
+    "ms-cookie-sync.presage.io": {
+      "first_s": 12.54,
+      "last_s": 20.58
+    },
+    "mweb-tag.presage.io": {
+      "first_s": 12.98,
+      "last_s": 17.57
+    },
+    "mwtw.presage.io": {
+      "first_s": 11.37,
+      "last_s": 17.09
+    },
+    "o56819.ingest.sentry.io": {
+      "first_s": 11.96,
+      "last_s": 17.17
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.83,
+      "last_s": 25.9
+    },
+    "pebed.dm-event.net": {
+      "first_s": 3.22,
+      "last_s": 23.22
+    },
+    "player.aniview.com": {
+      "first_s": 12.25,
+      "last_s": 22.98
+    },
+    "player.avplayer.com": {
+      "first_s": 11.71,
+      "last_s": 17.34
+    },
+    "player.vimeo.com": {
+      "first_s": 3.1,
+      "last_s": 15.99
+    },
+    "prebid-server.rubiconproject.com": {
+      "first_s": 23.29,
+      "last_s": 23.29
+    },
+    "privacy-location-edge.ccgateway.net": {
+      "first_s": 11.68,
+      "last_s": 16.63
+    },
+    "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev": {
+      "first_s": 11.21,
+      "last_s": 11.21
+    },
+    "pubads.adipolo.co": {
+      "first_s": 14.79,
+      "last_s": 24.69
+    },
+    "pubads.g.doubleclick.net": {
+      "first_s": 4.19,
+      "last_s": 24.69
+    },
+    "region1.analytics.google.com": {
+      "first_s": 4.56,
+      "last_s": 21.13
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.88,
+      "last_s": 18.98
+    },
+    "s0.2mdn.net": {
+      "first_s": 3.83,
+      "last_s": 18.66
+    },
+    "s1.dmcdn.net": {
+      "first_s": 5.95,
+      "last_s": 18.16
+    },
+    "s2.dmcdn.net": {
+      "first_s": 5.95,
+      "last_s": 18.28
+    },
+    "s2ssc.aniview.com": {
+      "first_s": 13.17,
+      "last_s": 17.97
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 11.4,
+      "last_s": 17.16
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 3.57,
+      "last_s": 18.04
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 3.18,
+      "last_s": 16.17
+    },
+    "ssbsync.smartadserver.com": {
+      "first_s": 13.15,
+      "last_s": 13.15
+    },
+    "ssum-sec.casalemedia.com": {
+      "first_s": 25.41,
+      "last_s": 25.41
+    },
+    "static.anonm.io": {
+      "first_s": 11.9,
+      "last_s": 16.72
+    },
+    "static.anonymised.io": {
+      "first_s": 11.21,
+      "last_s": 18.04
+    },
+    "static1.dmcdn.net": {
+      "first_s": 5.92,
+      "last_s": 16.12
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 4.56,
+      "last_s": 4.56
+    },
+    "sync.richaudience.com": {
+      "first_s": 13.16,
+      "last_s": 13.16
+    },
+    "sync.sparteo.com": {
+      "first_s": 14.59,
+      "last_s": 14.59
+    },
+    "t.pubmatic.com": {
+      "first_s": 11.2,
+      "last_s": 11.2
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 11.21,
+      "last_s": 18.04
+    },
+    "tg1.aniview.com": {
+      "first_s": 11.49,
+      "last_s": 17.17
+    },
+    "token.rubiconproject.com": {
+      "first_s": 25.55,
+      "last_s": 25.55
+    },
+    "track1.avplayer.com": {
+      "first_s": 22.46,
+      "last_s": 22.46
+    },
+    "track4.aniview.com": {
+      "first_s": 11.71,
+      "last_s": 24.79
+    },
+    "tracking.adovid.com": {
+      "first_s": 15.34,
+      "last_s": 25.9
+    },
+    "vendorlist.dmcdn.net": {
+      "first_s": 3.22,
+      "last_s": 16.16
+    },
+    "web-banner.ads.aps.amazon-adsystem.com": {
+      "first_s": 11.4,
+      "last_s": 17.13
+    },
+    "web-video.ads.aps.amazon-adsystem.com": {
+      "first_s": 13.69,
+      "last_s": 22.98
+    },
+    "widget-pixels.outbrainimg.com": {
+      "first_s": 11.2,
+      "last_s": 16.15
+    },
+    "widgets.outbrain.com": {
+      "first_s": 10.76,
+      "last_s": 16.15
+    },
+    "www.google.it": {
+      "first_s": 4.56,
+      "last_s": 4.56
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.98,
+      "last_s": 18.97
+    },
+    "www.gstatic.com": {
+      "first_s": 5.97,
+      "last_s": 18.17
+    },
+    "www.side-box.it": {
+      "first_s": 10.63,
+      "last_s": 23.97
+    },
+    "www.vaticannews.va": {
+      "first_s": 2.64,
+      "last_s": 16.16
+    },
+    "www3.doubleclick.net": {
+      "first_s": 12.06,
+      "last_s": 17.27
+    },
+    "ypeog6zctok23rm5dnf1vtjp9xmt01793555027.nuid.imrworldwide.com": {
+      "first_s": 3.57,
+      "last_s": 3.57
+    }
+  },
+  "cookies": [
+    {
+      "name": "ts",
+      "domain": ".dailymotion.com",
+      "path": "/",
+      "expires": 1827683027.050438,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "v1st",
+      "domain": ".dailymotion.com",
+      "path": "/",
+      "expires": 1827683027.050474,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".vimeo.com",
+      "path": "/",
+      "expires": 1793556827.824156,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "path": "/",
+      "expires": 1827251028.337803,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".gazzettadireggio.it",
+      "path": "/",
+      "expires": 1828115040.545102,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "usprivacy",
+      "domain": ".dailymotion.com",
+      "path": "/",
+      "expires": 1827683030.341341,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".gazzettadireggio.it",
+      "path": "/",
+      "expires": 1809107036,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "3pc_test",
+      "domain": "static.anonm.io",
+      "path": "/",
+      "expires": 1793558641,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "aniC",
+      "domain": ".aniview.com",
+      "path": "/",
+      "expires": 1795283042.377544,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "presage-ssp",
+      "domain": ".presage.io",
+      "path": "/",
+      "expires": 1809107042.082475,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".gazzettadireggio.it",
+      "path": "/",
+      "expires": 1825027200,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-42042146-granular",
+      "domain": ".gazzettadireggio.it",
+      "path": "/",
+      "expires": 1825091040,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_LFL81Q76LQ",
+      "domain": ".gazzettadireggio.it",
+      "path": "/",
+      "expires": 1828115040.544869,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".gazzettadireggio.it",
+      "path": "/",
+      "expires": 1825091042,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-42042146",
+      "domain": ".gazzettadireggio.it",
+      "path": "/",
+      "expires": 1825091042,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

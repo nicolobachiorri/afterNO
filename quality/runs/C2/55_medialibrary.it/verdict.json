@@ -1,0 +1,51 @@
+{
+  "host": "www.medialibrary.it",
+  "choice": {
+    "at": 1793554805768,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "site": "medialibrary.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.medialibrary.it/",
+    "lastSeen": {
+      "cdn.iubenda.com": 1793554797724,
+      "cpl.iubenda.com": 1793554805784,
+      "cs.iubenda.com": 1793554798180,
+      "i0.wp.com": 1793554797561,
+      "idb.iubenda.com": 1793554811004,
+      "sites.mlolcdn.net": 1793554797561,
+      "widget.freshworks.com": 1793554810959,
+      "www.medialibrary.it": 1793554810906
+    }
+  },
+  "hostsConsidered": [
+    "cpl.iubenda.com",
+    "idb.iubenda.com",
+    "widget.freshworks.com",
+    "www.medialibrary.it"
+  ]
+}

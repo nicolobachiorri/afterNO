@@ -1,0 +1,34 @@
+{
+  "host": "www.match.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.match.it/",
+    "lastSeen": {
+      "apikeys.civiccomputing.com": 1793555112362,
+      "cc.cdn.civiccomputing.com": 1793555111882,
+      "embed.tawk.to": 1793555112210,
+      "panel.match.it": 1793555111667,
+      "static.hotjar.com": 1793555111883,
+      "www.match.it": 1793555112692
+    }
+  },
+  "hostsConsidered": [
+    "apikeys.civiccomputing.com",
+    "cc.cdn.civiccomputing.com",
+    "embed.tawk.to",
+    "panel.match.it",
+    "static.hotjar.com",
+    "www.match.it"
+  ]
+}

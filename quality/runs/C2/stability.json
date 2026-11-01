@@ -1,0 +1,41 @@
+[
+  {
+    "question": "il robot ha cliccato un rifiuto",
+    "n": 40,
+    "same": 39,
+    "share": 0.975,
+    "ci95": [
+      0.8711834051199223,
+      0.9955732825922052
+    ],
+    "differences": [
+      [
+        48,
+        true,
+        false
+      ]
+    ]
+  },
+  {
+    "question": "l'estensione ha registrato la scelta (siti cliccati in entrambe)",
+    "n": 19,
+    "same": 19,
+    "share": 1.0,
+    "ci95": [
+      0.8318156346315496,
+      1.0000000000000002
+    ],
+    "differences": []
+  },
+  {
+    "question": "stessa conclusione (siti con una conclusione in entrambe)",
+    "n": 15,
+    "same": 15,
+    "share": 1.0,
+    "ci95": [
+      0.7961107336956521,
+      1.0
+    ],
+    "differences": []
+  }
+]

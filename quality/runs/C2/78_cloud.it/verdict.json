@@ -1,0 +1,36 @@
+{
+  "host": "www.cloud.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.cloud.it/",
+    "lastSeen": {
+      "aruba.tiledesk.com": 1793555340323,
+      "consent.cookiebot.eu": 1793555340028,
+      "consentcdn.cookiebot.eu": 1793555340158,
+      "fonts.googleapis.com": 1793555334799,
+      "fonts.gstatic.com": 1793555345331,
+      "www.cloud.it": 1793555340168,
+      "www.googletagmanager.com": 1793555326280
+    }
+  },
+  "hostsConsidered": [
+    "aruba.tiledesk.com",
+    "consent.cookiebot.eu",
+    "consentcdn.cookiebot.eu",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.cloud.it",
+    "www.googletagmanager.com"
+  ]
+}

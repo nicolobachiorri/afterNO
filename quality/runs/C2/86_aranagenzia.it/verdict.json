@@ -1,0 +1,28 @@
+{
+  "host": "www.aranagenzia.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.aranagenzia.it/",
+    "lastSeen": {
+      "cdnjs.cloudflare.com": 1793555557326,
+      "use.fontawesome.com": 1793555557328,
+      "www.aranagenzia.it": 1793555558454
+    }
+  },
+  "hostsConsidered": [
+    "cdnjs.cloudflare.com",
+    "use.fontawesome.com",
+    "www.aranagenzia.it"
+  ]
+}

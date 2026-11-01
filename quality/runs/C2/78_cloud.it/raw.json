@@ -1,0 +1,107 @@
+{
+  "url": "https://www.cloud.it",
+  "final_url": "https://www.cloud.it/",
+  "click_at_s": 11.12,
+  "reload_at_s": 16.12,
+  "reject": "button: 'Rifiuta tutti' in main (normal click)",
+  "visible_buttons": [
+    "Accetta tutti",
+    "Personalizza",
+    "Rifiuta tutti"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "aruba.tiledesk.com",
+    "consent.cookiebot.eu",
+    "consentcdn.cookiebot.eu",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "aruba.tiledesk.com",
+    "consent.cookiebot.eu",
+    "consentcdn.cookiebot.eu",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "aruba.tiledesk.com": {
+      "first_s": 2.56,
+      "last_s": 16.6
+    },
+    "consent.cookiebot.eu": {
+      "first_s": 4.2,
+      "last_s": 16.31
+    },
+    "consentcdn.cookiebot.eu": {
+      "first_s": 4.59,
+      "last_s": 16.49
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.32,
+      "last_s": 16.6
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.57,
+      "last_s": 21.61
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.56,
+      "last_s": 16.29
+    }
+  },
+  "cookies": [
+    {
+      "name": "csrf",
+      "domain": "www.cloud.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "JSESSIONID",
+      "domain": "www.cloud.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "WEBSRV",
+      "domain": "www.cloud.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiesession1",
+      "domain": "www.cloud.it",
+      "path": "/",
+      "expires": 1825091326.023414,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.cloud.it",
+      "path": "/",
+      "expires": 1809193735,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

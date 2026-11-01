@@ -1,0 +1,124 @@
+{
+  "url": "https://www.numerosamente.it",
+  "final_url": "https://www.numerosamente.it/",
+  "click_at_s": 25.85,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Scopri di pi\u00f9",
+    "Elenco dei partner",
+    "Acconsento",
+    "Gestisci le opzioni"
+  ],
+  "tcf": {
+    "cmpId": 300,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "fonts.googleapis.com": {
+      "first_s": 3.75,
+      "last_s": 3.75
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.75,
+      "last_s": 3.95
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 2.97,
+      "last_s": 3.77
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.32,
+      "last_s": 2.83
+    },
+    "region1.analytics.google.com": {
+      "first_s": 3.27,
+      "last_s": 3.27
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.27,
+      "last_s": 3.27
+    },
+    "www.google-analytics.com": {
+      "first_s": 2.61,
+      "last_s": 2.81
+    },
+    "www.google.it": {
+      "first_s": 3.27,
+      "last_s": 3.27
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.89,
+      "last_s": 2.89
+    }
+  },
+  "cookies": [
+    {
+      "name": "_csrf",
+      "domain": "www.numerosamente.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".numerosamente.it",
+      "path": "/",
+      "expires": 1828115436.324496,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gid",
+      "domain": ".numerosamente.it",
+      "path": "/",
+      "expires": 1793641836,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gat",
+      "domain": ".numerosamente.it",
+      "path": "/",
+      "expires": 1793555496,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_BKTXCR4T9L",
+      "domain": ".numerosamente.it",
+      "path": "/",
+      "expires": 1828115436.776146,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".numerosamente.it",
+      "path": "/",
+      "expires": 1827251436,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "url": "https://www.marlu.it",
+  "final_url": "https://www.marlu.it/it/",
+  "click_at_s": 12.91,
+  "reload_at_s": 17.91,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "Salta al contenuto principale",
+    "Abilita l'accessibilit\u00e0 per gli ipovedenti",
+    "Apri il menu di accessibilit\u00e0",
+    "Previous",
+    "Next",
+    "Componi il tuo gioiello",
+    "Iscriviti",
+    "Mostra",
+    "ACCEDI",
+    "cookie policy",
+    "Scopri di pi\u00f9 e personalizza",
+    "Rifiuta",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "api.userway.org",
+    "cdn.iubenda.com",
+    "cdn.userway.org",
+    "cdn77.api.userway.org",
+    "connect.facebook.net",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "in-automate.brevo.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sibautomation.com",
+    "www.facebook.com",
+    "www.google.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "api.userway.org",
+    "cdn.iubenda.com",
+    "cdn.userway.org",
+    "cdn77.api.userway.org",
+    "connect.facebook.net",
+    "cs.iubenda.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "in-automate.brevo.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sibautomation.com",
+    "www.facebook.com",
+    "www.google.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 4.67,
+      "last_s": 4.67
+    },
+    "api.userway.org": {
+      "first_s": 5.15,
+      "last_s": 24.93
+    },
+    "cdn.iubenda.com": {
+      "first_s": 3.49,
+      "last_s": 19.33
+    },
+    "cdn.userway.org": {
+      "first_s": 3.57,
+      "last_s": 19.93
+    },
+    "cdn77.api.userway.org": {
+      "first_s": 8.4,
+      "last_s": 28.72
+    },
+    "connect.facebook.net": {
+      "first_s": 3.75,
+      "last_s": 19.08
+    },
+    "cpl.iubenda.com": {
+      "first_s": 12.93,
+      "last_s": 12.93
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.49,
+      "last_s": 19.12
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.49,
+      "last_s": 19.07
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.78,
+      "last_s": 19.11
+    },
+    "idb.iubenda.com": {
+      "first_s": 5.19,
+      "last_s": 19.26
+    },
+    "in-automate.brevo.com": {
+      "first_s": 4.76,
+      "last_s": 19.43
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 5.19,
+      "last_s": 19.19
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.19,
+      "last_s": 19.19
+    },
+    "sibautomation.com": {
+      "first_s": 3.75,
+      "last_s": 19.07
+    },
+    "www.facebook.com": {
+      "first_s": 19.15,
+      "last_s": 19.15
+    },
+    "www.google.com": {
+      "first_s": 4.67,
+      "last_s": 19.13
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.75,
+      "last_s": 19.13
+    }
+  },
+  "cookies": [
+    {
+      "name": "bunny_shield_id_96109",
+      "domain": "www.marlu.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": "www.marlu.it",
+      "path": "/",
+      "expires": 1828114933.234279,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "PrestaShop-4c332167e00ae8d8acbec811f12656f0",
+      "domain": ".www.marlu.it",
+      "path": "/",
+      "expires": 1795282932.234421,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sib_cuid",
+      "domain": ".www.marlu.it",
+      "path": "/",
+      "expires": 1809211334,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".marlu.it",
+      "path": "/",
+      "expires": 1801330934,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bunny_shield_bd_96109",
+      "domain": "www.marlu.it",
+      "path": "/",
+      "expires": 1793556733.544458,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".marlu.it",
+      "path": "/",
+      "expires": 1801330948,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-48631264",
+      "domain": ".marlu.it",
+      "path": "/",
+      "expires": 1825090942,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".marlu.it",
+      "path": "/",
+      "expires": 1825090948,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "host": "www.bancamediolanum.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 2,
+      "names": [
+        "optimizely.com",
+        "The Tradedesk (adsrvr.org)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Optimizely"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 5,
+      "names": [
+        "Dynatrace"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.bancamediolanum.it/",
+    "lastSeen": {
+      "a22527921165.cdn.optimizely.com": 1793554704923,
+      "ade.googlesyndication.com": 1793554706711,
+      "bat.bing.com": 1793554705604,
+      "bat.bing.net": 1793554706446,
+      "cdn.cookielaw.org": 1793554706624,
+      "cdn.optimizely.com": 1793554704480,
+      "cdnjs.cloudflare.com": 1793554705262,
+      "geolocation.onetrust.com": 1793554705797,
+      "insight.adsrvr.org": 1793554706446,
+      "js.go2sdk.com": 1793554705256,
+      "logx.optimizely.com": 1793554705878,
+      "pagead2.googlesyndication.com": 1793554706055,
+      "region1.google-analytics.com": 1793554720275,
+      "www.bancamediolanum.it": 1793554709900,
+      "www.googletagmanager.com": 1793554705255
+    }
+  },
+  "hostsConsidered": [
+    "a22527921165.cdn.optimizely.com",
+    "ade.googlesyndication.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "cdn.cookielaw.org",
+    "cdn.optimizely.com",
+    "cdnjs.cloudflare.com",
+    "geolocation.onetrust.com",
+    "insight.adsrvr.org",
+    "js.go2sdk.com",
+    "logx.optimizely.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.bancamediolanum.it",
+    "www.googletagmanager.com"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "url": "https://www.wifiweb.it",
+  "final_url": "https://www.wifiweb.it/",
+  "click_at_s": 14.75,
+  "reload_at_s": 19.76,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "VERIFICA COPERTURA",
+    "\u00d7",
+    "cookie policy",
+    "Scopri di pi\u00f9",
+    "Rifiuta",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "ajax.googleapis.com",
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "www.google.com",
+    "www.gstatic.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "ajax.googleapis.com",
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "www.google.com",
+    "www.gstatic.com"
+  ],
+  "third_party_timeline": {
+    "ajax.googleapis.com": {
+      "first_s": 5.56,
+      "last_s": 23.08
+    },
+    "cdn.iubenda.com": {
+      "first_s": 5.56,
+      "last_s": 23.07
+    },
+    "cs.iubenda.com": {
+      "first_s": 6.38,
+      "last_s": 23.09
+    },
+    "fonts.googleapis.com": {
+      "first_s": 5.56,
+      "last_s": 23.07
+    },
+    "fonts.gstatic.com": {
+      "first_s": 7.97,
+      "last_s": 23.26
+    },
+    "idb.iubenda.com": {
+      "first_s": 6.67,
+      "last_s": 23.2
+    },
+    "www.google.com": {
+      "first_s": 5.57,
+      "last_s": 23.61
+    },
+    "www.gstatic.com": {
+      "first_s": 6.38,
+      "last_s": 23.27
+    }
+  },
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1809107407.531841,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-69718631",
+      "domain": ".wifiweb.it",
+      "path": "/",
+      "expires": 1825091398,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

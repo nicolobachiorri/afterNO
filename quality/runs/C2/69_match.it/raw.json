@@ -1,0 +1,51 @@
+{
+  "url": "https://www.match.it",
+  "final_url": "https://www.match.it/",
+  "click_at_s": 26.48,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "apikeys.civiccomputing.com": {
+      "first_s": 3.08,
+      "last_s": 3.08
+    },
+    "cc.cdn.civiccomputing.com": {
+      "first_s": 2.39,
+      "last_s": 2.39
+    },
+    "embed.tawk.to": {
+      "first_s": 2.92,
+      "last_s": 2.92
+    },
+    "static.hotjar.com": {
+      "first_s": 2.59,
+      "last_s": 2.59
+    }
+  },
+  "cookies": [
+    {
+      "name": "ASP.NET_SessionId",
+      "domain": "www.match.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "lang",
+      "domain": "www.match.it",
+      "path": "/",
+      "expires": 1828115111.642202,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

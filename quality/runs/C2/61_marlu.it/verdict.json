@@ -1,0 +1,75 @@
+{
+  "host": "www.marlu.it",
+  "choice": {
+    "at": 1793554942670,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "site": "marlu.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 2,
+      "names": [
+        "Google",
+        "Facebook"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.marlu.it/it/",
+    "lastSeen": {
+      "ad.doubleclick.net": 1793554934431,
+      "api.userway.org": 1793554954700,
+      "cdn.iubenda.com": 1793554934973,
+      "cdn.userway.org": 1793554949677,
+      "cdn77.api.userway.org": 1793554958489,
+      "connect.facebook.net": 1793554934265,
+      "cpl.iubenda.com": 1793554942686,
+      "cs.iubenda.com": 1793554934627,
+      "fonts.googleapis.com": 1793554933433,
+      "fonts.gstatic.com": 1793554933541,
+      "idb.iubenda.com": 1793554949029,
+      "in-automate.brevo.com": 1793554949197,
+      "pagead2.googlesyndication.com": 1793554948947,
+      "region1.google-analytics.com": 1793554948942,
+      "sibautomation.com": 1793554948829,
+      "www.facebook.com": 1793554948916,
+      "www.google.com": 1793554948900,
+      "www.googletagmanager.com": 1793554934421,
+      "www.marlu.it": 1793554949102
+    }
+  },
+  "hostsConsidered": [
+    "api.userway.org",
+    "cdn.userway.org",
+    "cdn77.api.userway.org",
+    "cpl.iubenda.com",
+    "idb.iubenda.com",
+    "in-automate.brevo.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sibautomation.com",
+    "www.facebook.com",
+    "www.google.com",
+    "www.marlu.it"
+  ]
+}

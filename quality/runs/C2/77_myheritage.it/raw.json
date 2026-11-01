@@ -1,0 +1,166 @@
+{
+  "url": "https://www.myheritage.it",
+  "final_url": "https://www.myheritage.it/",
+  "click_at_s": 26.26,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Accedi",
+    "Accessibilit\u00e0",
+    "Inizia",
+    "Continua con Apple",
+    "Continua",
+    "Termini e condizioni",
+    "Informativa sulla Privacy",
+    "Per saperne di pi\u00f9",
+    "Inizia il tuo albero",
+    "Accetta tutti",
+    "Accetta solo indispensabili",
+    "Continua con Google"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 2.58,
+      "last_s": 4.05
+    },
+    "appleid.cdn-apple.com": {
+      "first_s": 2.58,
+      "last_s": 2.58
+    },
+    "cf.mhcache.com": {
+      "first_s": 2.55,
+      "last_s": 11.26
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.84,
+      "last_s": 4.53
+    },
+    "play.google.com": {
+      "first_s": 14.48,
+      "last_s": 14.53
+    },
+    "www.google.com": {
+      "first_s": 2.57,
+      "last_s": 3.83
+    },
+    "www.gstatic.com": {
+      "first_s": 3.1,
+      "last_s": 3.9
+    }
+  },
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": ".myheritage.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "LVTS",
+      "domain": ".myheritage.it",
+      "path": "/",
+      "expires": 1825087694.588942,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "perm_id",
+      "domain": ".myheritage.it",
+      "path": "/",
+      "expires": 1825087694.588966,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "lang",
+      "domain": ".myheritage.it",
+      "path": "/",
+      "expires": 1825087694.588985,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uuid",
+      "domain": ".myheritage.it",
+      "path": "/",
+      "expires": 1825087694.589002,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "mhc_version",
+      "domain": ".myheritage.it",
+      "path": "/",
+      "expires": 1825087694.589027,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "device_id",
+      "domain": ".myheritage.it",
+      "path": "/",
+      "expires": 1825087694.589043,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "visid_incap_292987",
+      "domain": ".myheritage.it",
+      "path": "/",
+      "expires": 1825020787.589059,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "incap_ses_1064_292987",
+      "domain": ".myheritage.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "userTimezone",
+      "domain": ".myheritage.it",
+      "path": "/",
+      "expires": 1825091295,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "g_state",
+      "domain": "www.myheritage.it",
+      "path": "/",
+      "expires": 1809107296,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

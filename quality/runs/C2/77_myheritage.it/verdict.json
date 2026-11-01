@@ -1,0 +1,38 @@
+{
+  "host": "www.myheritage.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.myheritage.it/",
+    "lastSeen": {
+      "accounts.google.com": 1793555296106,
+      "appleid.cdn-apple.com": 1793555294937,
+      "cf.mhcache.com": 1793555303312,
+      "fonts.gstatic.com": 1793555296588,
+      "play.google.com": 1793555306587,
+      "www.google.com": 1793555295890,
+      "www.gstatic.com": 1793555295961,
+      "www.myheritage.it": 1793555302178
+    }
+  },
+  "hostsConsidered": [
+    "accounts.google.com",
+    "appleid.cdn-apple.com",
+    "cf.mhcache.com",
+    "fonts.gstatic.com",
+    "play.google.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.myheritage.it"
+  ]
+}

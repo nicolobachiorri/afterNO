@@ -1,0 +1,1091 @@
+{
+  "url": "https://www.turistipercaso.it",
+  "final_url": "https://turistipercaso.it/",
+  "click_at_s": 12.39,
+  "reload_at_s": 17.39,
+  "reject": "text: 'Continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "Accetta e continua a leggere",
+    "Personalizza",
+    "Continua senza accettare",
+    "Cambia Impostazioni Privacy Policy"
+  ],
+  "tcf": {
+    "cmpId": 134,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "41ca0018b26890e3b5c502d866c75903.safeframe.googlesyndication.com",
+    "5d52c0839ad4f924b07df3c7568cb251.safeframe.googlesyndication.com",
+    "a.teads.tv",
+    "aa.agkn.com",
+    "ab.dns-finder.com",
+    "ad-delivery.net",
+    "ad.doubleclick.net",
+    "ad.turn.com",
+    "ads.pubmatic.com",
+    "ads.yieldmo.com",
+    "api-sg.tingot.com",
+    "api.btloader.com",
+    "as.ck-ie.com",
+    "bh.contextweb.com",
+    "btloader.com",
+    "cdn.api.btloader.com",
+    "cdn.btloader.com",
+    "cdn.by.wonderpush.com",
+    "cdn.exmarketplace.com",
+    "cdn.fusion-platform.com",
+    "cdn.id5-sync.com",
+    "cdn.jsdelivr.net",
+    "cdn.mgaru.dev",
+    "cdn.taboola.com",
+    "cds.taboola.com",
+    "classifly.xyz",
+    "cm-mx.advolve.io",
+    "cm.g.doubleclick.net",
+    "cms.quantserve.com",
+    "connect-metrics-collector.s-onetag.com",
+    "connect.facebook.net",
+    "connectid.analytics.yahoo.com",
+    "consent.cookiebot.eu",
+    "consentcdn.cookiebot.eu",
+    "creativecdn.com",
+    "cs.media.net",
+    "csync.copper6.com",
+    "csync.loopme.me",
+    "dfp-gateway.s-onetag.com",
+    "dis.criteo.com",
+    "dmp.im-apps.net",
+    "eb2.3lift.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "get.s-onetag.com",
+    "gum.criteo.com",
+    "hbopenbid.pubmatic.com",
+    "ib.adnxs.com",
+    "id.rlcdn.com",
+    "id5-sync.com",
+    "ident.mygaru.com",
+    "idsync.rlcdn.com",
+    "image6.pubmatic.com",
+    "image8.pubmatic.com",
+    "images.taboola.com",
+    "invstatic101.creativecdn.com",
+    "jadserve.postrelease.com",
+    "loadm.exelator.com",
+    "match.adsrvr.org",
+    "match.taboola.com",
+    "ml314.com",
+    "mwzeom.zeotap.com",
+    "oa.openxcdn.net",
+    "odr.mookie1.com",
+    "onetag-geo.s-onetag.com",
+    "pagead2.googlesyndication.com",
+    "pcs.ssp.cadent.com",
+    "pixel.advertising.com",
+    "pixel.onaudience.com",
+    "pixel.rubiconproject.com",
+    "pixel.tapad.com",
+    "prebid.a-mo.net",
+    "region1.google-analytics.com",
+    "rtb.mfadsrvr.com",
+    "rtd-tm.everesttech.net",
+    "s.ad.smaato.net",
+    "s.c.appier.net",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "signal-beacon.s-onetag.com",
+    "signal-metrics-collector-beta.s-onetag.com",
+    "signal-segments.s-onetag.com",
+    "spadsync.com",
+    "ssbsync.smartadserver.com",
+    "ssp-sync.criteo.com",
+    "static.criteo.net",
+    "sync.1rx.io",
+    "sync.aniview.com",
+    "sync.bfmio.com",
+    "sync.crwdcntrl.net",
+    "sync.ingage.tech",
+    "sync.inmobi.com",
+    "sync.srv.stackadapt.com",
+    "sync.taboola.com",
+    "sync.targeting.unrulymedia.com",
+    "sync6.im-apps.net",
+    "t.adx.opera.com",
+    "tags.crwdcntrl.net",
+    "trace.mediago.io",
+    "trace.us.rtbwise.com",
+    "trc.taboola.com",
+    "u.openx.net",
+    "ups.analytics.yahoo.com",
+    "user-sync.fwmrm.net",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "www.temu.com",
+    "x.bidswitch.net"
+  ],
+  "third_party_hosts_after_reload": [
+    "5d52c0839ad4f924b07df3c7568cb251.safeframe.googlesyndication.com",
+    "a.teads.tv",
+    "aa.agkn.com",
+    "ab.dns-finder.com",
+    "ad-delivery.net",
+    "ad.doubleclick.net",
+    "ad.turn.com",
+    "ads.yieldmo.com",
+    "api-sg.tingot.com",
+    "api.btloader.com",
+    "as.ck-ie.com",
+    "bh.contextweb.com",
+    "btloader.com",
+    "cdn.by.wonderpush.com",
+    "cdn.exmarketplace.com",
+    "cdn.taboola.com",
+    "cds.taboola.com",
+    "classifly.xyz",
+    "cm-mx.advolve.io",
+    "cm.g.doubleclick.net",
+    "cms.quantserve.com",
+    "connect-metrics-collector.s-onetag.com",
+    "connect.facebook.net",
+    "consent.cookiebot.eu",
+    "consentcdn.cookiebot.eu",
+    "creativecdn.com",
+    "cs.media.net",
+    "csync.copper6.com",
+    "csync.loopme.me",
+    "dis.criteo.com",
+    "eb2.3lift.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "get.s-onetag.com",
+    "gum.criteo.com",
+    "hbopenbid.pubmatic.com",
+    "ib.adnxs.com",
+    "id.rlcdn.com",
+    "id5-sync.com",
+    "idsync.rlcdn.com",
+    "image8.pubmatic.com",
+    "images.taboola.com",
+    "jadserve.postrelease.com",
+    "loadm.exelator.com",
+    "match.adsrvr.org",
+    "match.taboola.com",
+    "ml314.com",
+    "mwzeom.zeotap.com",
+    "odr.mookie1.com",
+    "pagead2.googlesyndication.com",
+    "pcs.ssp.cadent.com",
+    "pixel.advertising.com",
+    "pixel.onaudience.com",
+    "pixel.rubiconproject.com",
+    "pixel.tapad.com",
+    "prebid.a-mo.net",
+    "region1.google-analytics.com",
+    "rtb.mfadsrvr.com",
+    "rtd-tm.everesttech.net",
+    "s.ad.smaato.net",
+    "s.c.appier.net",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "signal-beacon.s-onetag.com",
+    "signal-metrics-collector-beta.s-onetag.com",
+    "signal-segments.s-onetag.com",
+    "ssbsync.smartadserver.com",
+    "ssp-sync.criteo.com",
+    "sync.1rx.io",
+    "sync.aniview.com",
+    "sync.bfmio.com",
+    "sync.crwdcntrl.net",
+    "sync.ingage.tech",
+    "sync.inmobi.com",
+    "sync.srv.stackadapt.com",
+    "sync.taboola.com",
+    "sync.targeting.unrulymedia.com",
+    "t.adx.opera.com",
+    "trace.mediago.io",
+    "trace.us.rtbwise.com",
+    "trc.taboola.com",
+    "u.openx.net",
+    "ups.analytics.yahoo.com",
+    "user-sync.fwmrm.net",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "www.temu.com",
+    "x.bidswitch.net"
+  ],
+  "third_party_timeline": {
+    "41ca0018b26890e3b5c502d866c75903.safeframe.googlesyndication.com": {
+      "first_s": 13.17,
+      "last_s": 13.17
+    },
+    "5d52c0839ad4f924b07df3c7568cb251.safeframe.googlesyndication.com": {
+      "first_s": 21.66,
+      "last_s": 21.66
+    },
+    "a.teads.tv": {
+      "first_s": 12.45,
+      "last_s": 23.36
+    },
+    "aa.agkn.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "ab.dns-finder.com": {
+      "first_s": 13.1,
+      "last_s": 22.54
+    },
+    "ad-delivery.net": {
+      "first_s": 13.08,
+      "last_s": 24.44
+    },
+    "ad.doubleclick.net": {
+      "first_s": 13.1,
+      "last_s": 24.42
+    },
+    "ad.turn.com": {
+      "first_s": 26.68,
+      "last_s": 26.68
+    },
+    "ads.pubmatic.com": {
+      "first_s": 12.46,
+      "last_s": 12.46
+    },
+    "ads.yieldmo.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "api-sg.tingot.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "api.btloader.com": {
+      "first_s": 13.79,
+      "last_s": 24.91
+    },
+    "as.ck-ie.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "bh.contextweb.com": {
+      "first_s": 23.6,
+      "last_s": 23.6
+    },
+    "btloader.com": {
+      "first_s": 12.45,
+      "last_s": 21.49
+    },
+    "cdn.api.btloader.com": {
+      "first_s": 13.1,
+      "last_s": 13.1
+    },
+    "cdn.btloader.com": {
+      "first_s": 13.08,
+      "last_s": 13.08
+    },
+    "cdn.by.wonderpush.com": {
+      "first_s": 5.69,
+      "last_s": 23.63
+    },
+    "cdn.exmarketplace.com": {
+      "first_s": 2.69,
+      "last_s": 21.36
+    },
+    "cdn.fusion-platform.com": {
+      "first_s": 12.46,
+      "last_s": 12.46
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 12.45,
+      "last_s": 12.45
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 12.46,
+      "last_s": 12.46
+    },
+    "cdn.mgaru.dev": {
+      "first_s": 12.46,
+      "last_s": 12.46
+    },
+    "cdn.taboola.com": {
+      "first_s": 14.66,
+      "last_s": 25.64
+    },
+    "cds.taboola.com": {
+      "first_s": 23.53,
+      "last_s": 24.64
+    },
+    "classifly.xyz": {
+      "first_s": 12.45,
+      "last_s": 21.36
+    },
+    "cm-mx.advolve.io": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "cm.g.doubleclick.net": {
+      "first_s": 23.42,
+      "last_s": 24.99
+    },
+    "cms.quantserve.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "connect-metrics-collector.s-onetag.com": {
+      "first_s": 17.41,
+      "last_s": 17.41
+    },
+    "connect.facebook.net": {
+      "first_s": 2.7,
+      "last_s": 17.83
+    },
+    "connectid.analytics.yahoo.com": {
+      "first_s": 12.46,
+      "last_s": 12.46
+    },
+    "consent.cookiebot.eu": {
+      "first_s": 6.16,
+      "last_s": 21.09
+    },
+    "consentcdn.cookiebot.eu": {
+      "first_s": 6.64,
+      "last_s": 21.37
+    },
+    "creativecdn.com": {
+      "first_s": 23.63,
+      "last_s": 25.92
+    },
+    "cs.media.net": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "csync.copper6.com": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "csync.loopme.me": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "dfp-gateway.s-onetag.com": {
+      "first_s": 15.67,
+      "last_s": 15.67
+    },
+    "dis.criteo.com": {
+      "first_s": 23.62,
+      "last_s": 24.24
+    },
+    "dmp.im-apps.net": {
+      "first_s": 12.46,
+      "last_s": 12.46
+    },
+    "eb2.3lift.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 13.14,
+      "last_s": 22.31
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 13.59,
+      "last_s": 21.79
+    },
+    "get.s-onetag.com": {
+      "first_s": 12.45,
+      "last_s": 21.36
+    },
+    "gum.criteo.com": {
+      "first_s": 13.34,
+      "last_s": 24.63
+    },
+    "hbopenbid.pubmatic.com": {
+      "first_s": 12.46,
+      "last_s": 23.36
+    },
+    "ib.adnxs.com": {
+      "first_s": 23.42,
+      "last_s": 23.63
+    },
+    "id.rlcdn.com": {
+      "first_s": 23.64,
+      "last_s": 23.64
+    },
+    "id5-sync.com": {
+      "first_s": 13.1,
+      "last_s": 23.62
+    },
+    "ident.mygaru.com": {
+      "first_s": 13.26,
+      "last_s": 13.26
+    },
+    "idsync.rlcdn.com": {
+      "first_s": 23.93,
+      "last_s": 24.03
+    },
+    "image6.pubmatic.com": {
+      "first_s": 13.36,
+      "last_s": 13.36
+    },
+    "image8.pubmatic.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "images.taboola.com": {
+      "first_s": 23.4,
+      "last_s": 24.64
+    },
+    "invstatic101.creativecdn.com": {
+      "first_s": 12.46,
+      "last_s": 12.46
+    },
+    "jadserve.postrelease.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "loadm.exelator.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "match.adsrvr.org": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "match.taboola.com": {
+      "first_s": 25.76,
+      "last_s": 25.76
+    },
+    "measurements-api.wonderpush.com": {
+      "first_s": 9.14,
+      "last_s": 9.14
+    },
+    "ml314.com": {
+      "first_s": 23.62,
+      "last_s": 24.12
+    },
+    "mwzeom.zeotap.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "oa.openxcdn.net": {
+      "first_s": 12.46,
+      "last_s": 12.46
+    },
+    "odr.mookie1.com": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "onetag-geo.s-onetag.com": {
+      "first_s": 12.86,
+      "last_s": 12.86
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 12.6,
+      "last_s": 25.34
+    },
+    "pcs.ssp.cadent.com": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "pixel.advertising.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "pixel.onaudience.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "pixel.rubiconproject.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "pixel.tapad.com": {
+      "first_s": 23.62,
+      "last_s": 24.6
+    },
+    "prebid.a-mo.net": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "region1.google-analytics.com": {
+      "first_s": 6.39,
+      "last_s": 20.9
+    },
+    "rtb.mfadsrvr.com": {
+      "first_s": 23.63,
+      "last_s": 25.39
+    },
+    "rtd-tm.everesttech.net": {
+      "first_s": 23.62,
+      "last_s": 24.01
+    },
+    "s.ad.smaato.net": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "s.c.appier.net": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 12.51,
+      "last_s": 21.46
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 5.69,
+      "last_s": 20.9
+    },
+    "signal-beacon.s-onetag.com": {
+      "first_s": 12.86,
+      "last_s": 21.37
+    },
+    "signal-metrics-collector-beta.s-onetag.com": {
+      "first_s": 17.41,
+      "last_s": 17.41
+    },
+    "signal-segments.s-onetag.com": {
+      "first_s": 12.86,
+      "last_s": 21.37
+    },
+    "spadsync.com": {
+      "first_s": 12.8,
+      "last_s": 12.8
+    },
+    "ssbsync.smartadserver.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "ssp-sync.criteo.com": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "static.criteo.net": {
+      "first_s": 12.46,
+      "last_s": 12.46
+    },
+    "sync.1rx.io": {
+      "first_s": 23.63,
+      "last_s": 26.95
+    },
+    "sync.aniview.com": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "sync.bfmio.com": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "sync.crwdcntrl.net": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "sync.ingage.tech": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "sync.inmobi.com": {
+      "first_s": 23.62,
+      "last_s": 25.52
+    },
+    "sync.srv.stackadapt.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "sync.taboola.com": {
+      "first_s": 23.62,
+      "last_s": 27.24
+    },
+    "sync.targeting.unrulymedia.com": {
+      "first_s": 27.01,
+      "last_s": 27.01
+    },
+    "sync6.im-apps.net": {
+      "first_s": 13.25,
+      "last_s": 13.25
+    },
+    "t.adx.opera.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 12.46,
+      "last_s": 12.46
+    },
+    "trace.mediago.io": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "trace.us.rtbwise.com": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "trc.taboola.com": {
+      "first_s": 16.97,
+      "last_s": 25.64
+    },
+    "u.openx.net": {
+      "first_s": 23.63,
+      "last_s": 23.63
+    },
+    "ups.analytics.yahoo.com": {
+      "first_s": 13.23,
+      "last_s": 23.63
+    },
+    "user-sync.fwmrm.net": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    },
+    "www.facebook.com": {
+      "first_s": 12.6,
+      "last_s": 21.09
+    },
+    "www.googletagmanager.com": {
+      "first_s": 5.77,
+      "last_s": 21.09
+    },
+    "www.temu.com": {
+      "first_s": 26.21,
+      "last_s": 26.21
+    },
+    "x.bidswitch.net": {
+      "first_s": 23.62,
+      "last_s": 23.62
+    }
+  },
+  "cookies": [
+    {
+      "name": "CookieConsent",
+      "domain": "turistipercaso.it",
+      "path": "/",
+      "expires": 1825091687,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "nvq_hid",
+      "domain": "turistipercaso.it",
+      "path": "/",
+      "expires": 1793555747,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pubcid",
+      "domain": "turistipercaso.it",
+      "path": "/",
+      "expires": 1824659687,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "connectId",
+      "domain": ".turistipercaso.it",
+      "path": "/",
+      "expires": 1825091689.178313,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".turistipercaso.it",
+      "path": "/",
+      "expires": 1809107688,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".turistipercaso.it",
+      "path": "/",
+      "expires": 1801331695,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "VP",
+      "domain": ".contextweb.com",
+      "path": "/",
+      "expires": 1824659698.83052,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://turistipercaso.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "pb_rtb_ev_part",
+      "domain": ".contextweb.com",
+      "path": "/",
+      "expires": 1825091698.830555,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://turistipercaso.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "INGRESSCOOKIE",
+      "domain": "bh.contextweb.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "everest_g_v2",
+      "domain": ".everesttech.net",
+      "path": "/",
+      "expires": 1825091699.053828,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "aniC",
+      "domain": ".aniview.com",
+      "path": "/",
+      "expires": 1796147698.927473,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "aniC",
+      "domain": "sync.aniview.com",
+      "path": "/",
+      "expires": 1796147698.927538,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rlas3",
+      "domain": ".rlcdn.com",
+      "path": "/",
+      "expires": 1825091698.991054,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pxrc",
+      "domain": ".rlcdn.com",
+      "path": "/",
+      "expires": 1798739698.991187,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "x",
+      "domain": ".advolve.io",
+      "path": "/",
+      "expires": 1825091699.157209,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_auid",
+      "domain": ".c.appier.net",
+      "path": "/",
+      "expires": 1825091699.414252,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TapAd_TS",
+      "domain": ".tapad.com",
+      "path": "/",
+      "expires": 1798739699.543249,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TapAd_DID",
+      "domain": ".tapad.com",
+      "path": "/",
+      "expires": 1798739699.543321,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TapAd_3WAY_SYNCS",
+      "domain": ".tapad.com",
+      "path": "/",
+      "expires": 1798739699.543352,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_uid",
+      "domain": ".fwmrm.net",
+      "path": "/",
+      "expires": 1809107699.646931,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "viewer_token",
+      "domain": ".csync.loopme.me",
+      "path": "/",
+      "expires": 1801331700.187752,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tuuid",
+      "domain": ".mfadsrvr.com",
+      "path": "/",
+      "expires": 1825091700.346835,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "c",
+      "domain": ".mfadsrvr.com",
+      "path": "/",
+      "expires": 1825091700.265912,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tuuid_lu",
+      "domain": ".mfadsrvr.com",
+      "path": "/",
+      "expires": 1825091700.346971,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ssh",
+      "domain": ".mfadsrvr.com",
+      "path": "/",
+      "expires": 1825091700.347033,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TEST-COOKIE",
+      "domain": ".inmobi.com",
+      "path": "/",
+      "expires": 1825091700.391909,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "opt_out",
+      "domain": ".postrelease.com",
+      "path": "/",
+      "expires": 1825091700.559989,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OAU",
+      "domain": ".opera.com",
+      "path": "/",
+      "expires": 1825091700.749896,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "g",
+      "domain": ".creativecdn.com",
+      "path": "/",
+      "expires": 1825091700.792386,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ts",
+      "domain": ".creativecdn.com",
+      "path": "/",
+      "expires": 1825091700.792464,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://turistipercaso.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "novauid",
+      "domain": ".rtbwise.com",
+      "path": "/",
+      "expires": 1825091701.282088,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "novasig",
+      "domain": ".rtbwise.com",
+      "path": "/",
+      "expires": 1825091701.282178,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "novaexp",
+      "domain": ".rtbwise.com",
+      "path": "/",
+      "expires": 1825091701.282209,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "novasyncts",
+      "domain": ".rtbwise.com",
+      "path": "/",
+      "expires": 1825091701.282237,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".temu.com",
+      "path": "/",
+      "expires": 1793557501.387507,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sa-user-id",
+      "domain": "sync.srv.stackadapt.com",
+      "path": "/",
+      "expires": 1825091701.48178,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sa-user-id",
+      "domain": ".srv.stackadapt.com",
+      "path": "/",
+      "expires": 1825091701.481835,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sa-user-id-v2",
+      "domain": "sync.srv.stackadapt.com",
+      "path": "/",
+      "expires": 1825091701.4819,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sa-user-id-v2",
+      "domain": ".srv.stackadapt.com",
+      "path": "/",
+      "expires": 1825091701.48193,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uid",
+      "domain": ".turn.com",
+      "path": "/",
+      "expires": 1809107701.822938,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_rxuuid",
+      "domain": ".1rx.io",
+      "path": "/",
+      "expires": 1825088101.878005,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_rxuuid",
+      "domain": ".targeting.unrulymedia.com",
+      "path": "/",
+      "expires": 1825088102.110328,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}
