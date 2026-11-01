@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+B,1,gemini,si,ok,0,correct,
+B,2,gemini,no_reject,,,,"Banner solo con Configura | Accetta. Nota DB: il cookie RT è Akamai Boomerang, non Tripadvisor."
+B,3,gemini,si,ok,0,correct,
+B,4,gemini,si,ok,0,correct,
+B,5,gemini,si,ok,0,correct,Nota DB: _ce.seg.targeting (Crazy Egg) è classificato come Unknown.
+B,6,gemini,si,ok,0,correct,"Nota DB: i cookie TS01... sono F5 BIG-IP, non Wix.com."
+B,7,gemini,si,ok,0,correct,
+B,8,gemini,si,ok,0,correct,
+B,9,gemini,si,ok,0,correct,
+B,10,gemini,si,ok,0,correct,
+B,11,gemini,no_reject,,,,Presente pulsante '×' di chiusura non cliccato dal robot.
+B,12,gemini,no_reject,,,,Paywall (Rifiuta e abbonati).
+B,13,gemini,si,ok,0,correct,
+B,14,gemini,si,ok,0,correct,Nota DB: i 4 cookie SAP (Gigya) sono classificati come Marketing ma servono principalmente per autenticazione/SSO.
+B,15,gemini,si,ok,0,correct,
+B,16,gemini,si,ok,0,correct,Nota DB: i 4 cookie SAP (Gigya) sono classificati come Marketing ma servono principalmente per autenticazione/SSO.
+B,17,gemini,no_banner,,,,Nessun banner rilevato in questa visita.
+B,18,gemini,no_reject,,,,"Il link di rifiuto era probabilmente 'qui', non riconosciuto dal robot."
+B,19,gemini,si,ok,0,correct,
+B,20,gemini,no_reject,,,,
+B,21,gemini,no_reject,,,,Paywall (Rifiuta e abbonati).
+B,22,gemini,si,ok,0,correct,
+B,23,gemini,no_reject,,,,"Presente pulsante '×' non cliccato. Nota DB: i cookie Shopify/Shogun (_shopify_*, _shg_*, _shop_app_essential) sono etichettati erroneamente come Marfeel."
+B,24,gemini,no_reject,,,,
+B,25,gemini,no_banner,,,,Nessun banner rilevato.
+B,27,gemini,si,ok,0,correct,
+B,28,gemini,si,imprecise,1,correct,I 7 cookie sbjs_* (Sourcebuster.js) sono etichettati nel DB come WooCommerce su un sito editoriale.
+B,29,gemini,si,ok,0,correct,
+B,31,gemini,no_reject,,,,Nota DB: i cookie sbjs_* sono etichettati come WooCommerce.
+B,33,gemini,no_banner,,,,Nessun banner rilevato in questa visita.
+B,34,gemini,si,wrong,0,not_recorded,"Scelta non registrata nonostante il clic su 'Continua senza accettare'. Inoltre il verdetto dice 'Nessun cookie del sito è classificato come marketing', ma in tabella c'è il cookie 'c' (365gg, Marketing, CreativeCDN)."
+B,35,gemini,si,ok,0,correct,
+B,36,gemini,si,ok,0,correct,
+B,37,gemini,si,ok,0,correct,
+B,38,gemini,si,imprecise,1,correct,s_ecid è classificato come Marketing sotto l'etichetta 'Adobe Analytics'. Inoltre i 4 cookie _sp_* (Sourcepoint CMP) sono etichettati nel DB come Analytics (Marfeel) e non contati nel punto statistica.
+B,39,gemini,si,ok,0,correct,
+B,40,gemini,no_reject,,,,Presente pulsante 'x' non cliccato dal robot.
+B,41,gemini,no_reject,,,,Pulsante 'non sostenerci' non riconosciuto dal robot.
+B,42,gemini,no_reject,,,,Paywall (Rifiuta e abbonati).
+B,44,gemini,no_reject,,,,Nota DB: il cookie tecnico 'sessionid' (Django) è classificato erroneamente come Marketing - Instagram.

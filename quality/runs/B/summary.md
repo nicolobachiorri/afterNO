@@ -17,3 +17,12 @@ Non misurabili, per motivo: banner senza rifiuto 10, nessun banner 3, altro 3.
 | errore: scelta non registrata | 1 | 4% | 1%–20% |
 
 Punti della lista, nei 23 siti in cui la scelta è stata registrata: tutti corretti 23.
+
+## Accordo con il secondo giudice (gemini)
+
+| Domanda | Siti | Accordo osservato | Kappa di Cohen |
+| --- | --- | --- | --- |
+| Misurabile sì/no | 40 | 100% | 1.00 |
+| Conclusione (siti misurabili per entrambi) | 24 | 96% | 0.65 |
+
+- sito 9 (https://www.trenitalia.com): claude «discutibile», gemini «corretta»
