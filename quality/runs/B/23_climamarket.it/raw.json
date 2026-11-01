@@ -1,0 +1,387 @@
+{
+  "url": "https://www.climamarket.it",
+  "final_url": "https://www.climamarket.it/",
+  "click_at_s": 28.28,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Precedente",
+    "Successivo",
+    "Aggiungi al carrello",
+    "\u00d7",
+    "cookie policy",
+    "Scopri di pi\u00f9 e personalizza",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ab.shoguninsights.com": {
+      "first_s": 5.47,
+      "last_s": 5.47
+    },
+    "ad.doubleclick.net": {
+      "first_s": 4.91,
+      "last_s": 4.91
+    },
+    "analyticskips.lovable.app": {
+      "first_s": 5.42,
+      "last_s": 5.42
+    },
+    "cdn.doofinder.com": {
+      "first_s": 4.66,
+      "last_s": 5.53
+    },
+    "cdn.iubenda.com": {
+      "first_s": 4.16,
+      "last_s": 4.16
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.8,
+      "last_s": 5.54
+    },
+    "cdn.scalapay.com": {
+      "first_s": 4.68,
+      "last_s": 5.37
+    },
+    "cdn.shopify.com": {
+      "first_s": 3.8,
+      "last_s": 6.47
+    },
+    "climamarket-it.precis-shopify-companion.workers.dev": {
+      "first_s": 5.43,
+      "last_s": 5.43
+    },
+    "climamarket-italia.myshopify.com": {
+      "first_s": 5.11,
+      "last_s": 6.38
+    },
+    "connect.facebook.net": {
+      "first_s": 4.92,
+      "last_s": 4.92
+    },
+    "embeds.iubenda.com": {
+      "first_s": 3.81,
+      "last_s": 3.81
+    },
+    "eu1-api.doofinder.com": {
+      "first_s": 5.53,
+      "last_s": 5.53
+    },
+    "eu1-config.doofinder.com": {
+      "first_s": 4.16,
+      "last_s": 5.62
+    },
+    "extensions.shopifycdn.com": {
+      "first_s": 26.73,
+      "last_s": 26.73
+    },
+    "forms.shopifyapps.com": {
+      "first_s": 5.24,
+      "last_s": 5.24
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 5.58,
+      "last_s": 5.58
+    },
+    "gum.criteo.com": {
+      "first_s": 5.47,
+      "last_s": 5.47
+    },
+    "gum.eu.criteo.com": {
+      "first_s": 6.23,
+      "last_s": 6.23
+    },
+    "idb.iubenda.com": {
+      "first_s": 4.65,
+      "last_s": 4.65
+    },
+    "js.klarna.com": {
+      "first_s": 7.65,
+      "last_s": 8.68
+    },
+    "mug.criteo.com": {
+      "first_s": 6.68,
+      "last_s": 6.68
+    },
+    "otlp-http-production.shopifysvc.com": {
+      "first_s": 4.33,
+      "last_s": 6.6
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 7.22,
+      "last_s": 7.87
+    },
+    "region1.analytics.google.com": {
+      "first_s": 6.48,
+      "last_s": 6.48
+    },
+    "region1.google-analytics.com": {
+      "first_s": 7.88,
+      "last_s": 12.89
+    },
+    "s3.eu-west-1.amazonaws.com": {
+      "first_s": 6.47,
+      "last_s": 6.47
+    },
+    "salesiq.zohopublic.eu": {
+      "first_s": 3.81,
+      "last_s": 7.95
+    },
+    "shogun-abc-production.global.ssl.fastly.net": {
+      "first_s": 2.71,
+      "last_s": 5.47
+    },
+    "shop.app": {
+      "first_s": 3.8,
+      "last_s": 4.55
+    },
+    "skosm.klarna.com": {
+      "first_s": 6.91,
+      "last_s": 6.91
+    },
+    "sslwidget.criteo.com": {
+      "first_s": 12.47,
+      "last_s": 12.47
+    },
+    "static.zohocdn.com": {
+      "first_s": 5.05,
+      "last_s": 6.8
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 6.49,
+      "last_s": 6.49
+    },
+    "tps.trovaprezzi.it": {
+      "first_s": 5.6,
+      "last_s": 5.6
+    },
+    "unpkg.com": {
+      "first_s": 5.02,
+      "last_s": 5.02
+    },
+    "widget.feedaty.com": {
+      "first_s": 3.81,
+      "last_s": 5.19
+    },
+    "www.clarity.ms": {
+      "first_s": 5.45,
+      "last_s": 5.45
+    },
+    "www.google.com": {
+      "first_s": 4.91,
+      "last_s": 6.49
+    },
+    "www.google.it": {
+      "first_s": 6.49,
+      "last_s": 6.5
+    },
+    "www.googleadservices.com": {
+      "first_s": 4.92,
+      "last_s": 4.92
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.71,
+      "last_s": 6.72
+    }
+  },
+  "cookies": [
+    {
+      "name": "localization",
+      "domain": "www.climamarket.it",
+      "path": "/",
+      "expires": 1825085801.362616,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cart_currency",
+      "domain": "www.climamarket.it",
+      "path": "/",
+      "expires": 1794759401.362731,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_essential",
+      "domain": "www.climamarket.it",
+      "path": "/",
+      "expires": 1825085801.362764,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_analytics",
+      "domain": "www.climamarket.it",
+      "path": "/",
+      "expires": 1825085801.36279,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_marketing",
+      "domain": "www.climamarket.it",
+      "path": "/",
+      "expires": 1825085801.362811,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shg_ab_session_id",
+      "domain": "www.climamarket.it",
+      "path": "/",
+      "expires": 1793551604.308138,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".climamarket.it",
+      "path": "/",
+      "expires": 1801325804,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "LS_CSRF_TOKEN",
+      "domain": "salesiq.zohopublic.eu",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://climamarket.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_shop_app_essential",
+      "domain": ".shop.app",
+      "path": "/",
+      "expires": 1825085803.916918,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".www.climamarket.it",
+      "path": "/",
+      "expires": 1793551604.195997,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shg_ab_visitor_id",
+      "domain": "www.climamarket.it",
+      "path": "/",
+      "expires": 1825085804.31916,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_shg_ab_traffic_source",
+      "domain": "www.climamarket.it",
+      "path": "/",
+      "expires": 1793551604.319269,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "uid",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1827245805.077319,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_2SLZZ0JQZ4",
+      "domain": ".climamarket.it",
+      "path": "/",
+      "expires": 1828109805.330428,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".climamarket.it",
+      "path": "/",
+      "expires": 1828109805.330567,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "uesign",
+      "domain": "salesiq.zohopublic.eu",
+      "path": "/",
+      "expires": 1796141805.616793,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cto_bundle",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1827245806.307395,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://climamarket.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "eglobe-_zldp",
+      "domain": "www.climamarket.it",
+      "path": "/",
+      "expires": 1828109806.490126,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "eglobe-_zldt",
+      "domain": "www.climamarket.it",
+      "path": "/",
+      "expires": 1828109806.490275,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

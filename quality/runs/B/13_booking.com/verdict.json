@@ -1,0 +1,73 @@
+{
+  "host": "www.booking.com",
+  "choice": {
+    "at": 1793549537637,
+    "choice": "rejected",
+    "label": "Rifiuto",
+    "site": "booking.com",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuto"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.booking.com/index.it.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaHGIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4AtnJndcGwAIB0gIkZTE0MTc5NWItMDhlNC00NWFkLWFmNTYtODMxNzk4Nzc2ZjY32AIB4AIB&chal_t=1793549529137&force_referer=",
+    "lastSeen": {
+      "account.booking.com": 1793549537669,
+      "accounts.google.com": 1793549545599,
+      "booking-privacy.my.onetrust.com": 1793549542646,
+      "bstatic.com": 1793549531466,
+      "c360.booking.com": 1793549545262,
+      "cdn.cookielaw.org": 1793549543988,
+      "cf.bstatic.com": 1793549544873,
+      "cf2.bstatic.com": 1793549543897,
+      "d8c14d4960ca.edge.sdk.awswaf.com": 1793549552083,
+      "geolocation.onetrust.com": 1793549543896,
+      "otel-gw.booking.com": 1793549552265,
+      "pagead2.googlesyndication.com": 1793549543897,
+      "q-xx.bstatic.com": 1793549544503,
+      "r-xx.bstatic.com": 1793549544503,
+      "sink.gw.booking.com": 1793549545634,
+      "t-cf.bstatic.com": 1793549530859,
+      "web-perf.booking.com": 1793549543586,
+      "www.booking.com": 1793549545271
+    }
+  },
+  "hostsConsidered": [
+    "account.booking.com",
+    "accounts.google.com",
+    "booking-privacy.my.onetrust.com",
+    "c360.booking.com",
+    "cdn.cookielaw.org",
+    "cf.bstatic.com",
+    "cf2.bstatic.com",
+    "d8c14d4960ca.edge.sdk.awswaf.com",
+    "geolocation.onetrust.com",
+    "otel-gw.booking.com",
+    "pagead2.googlesyndication.com",
+    "q-xx.bstatic.com",
+    "r-xx.bstatic.com",
+    "sink.gw.booking.com",
+    "web-perf.booking.com",
+    "www.booking.com"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "url": "https://www.mediaworld.it",
+  "final_url": "https://www.mediaworld.it/",
+  "click_at_s": 11.02,
+  "reload_at_s": 16.02,
+  "reject": "button: 'Rifiuta tutti' in main (normal click)",
+  "visible_buttons": [
+    "Il tuo negozio Nessun negozio selezionato",
+    "Tutte le categorie",
+    "Maggiori informazioni",
+    "Accetta",
+    "CATALOGO",
+    "COMPRARE ONLINE",
+    "MARKETPLACE",
+    "SERVIZI PER I CLIENTI E LE AZIENDE PER PRODOTTI VE",
+    "AZIENDA e LAVORA CON NOI",
+    "CAMPAGNE E INIZIATIVE PER PRODOTTI VENDUTI E SPEDI",
+    "RECESSO E GARANZIA",
+    "PRIVACY",
+    "Preferenze Cookie",
+    "Cookie tecnici",
+    "Cookie di funzionalit\u00e0"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "assets.mmsrg.com",
+    "cdn.speedcurve.com",
+    "cms-images.mmst.eu",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "assets.mmsrg.com",
+    "cdn.speedcurve.com",
+    "cms-images.mmst.eu",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "assets.mmsrg.com": {
+      "first_s": 3.41,
+      "last_s": 39.66
+    },
+    "cdn.speedcurve.com": {
+      "first_s": 2.41,
+      "last_s": 16.17
+    },
+    "cms-images.mmst.eu": {
+      "first_s": 2.41,
+      "last_s": 39.66
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.26,
+      "last_s": 36.66
+    }
+  },
+  "cookies": [
+    {
+      "name": "optid",
+      "domain": ".mediaworld.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "lux_uid",
+      "domain": "www.mediaworld.it",
+      "path": "/",
+      "expires": 1793551012.22233,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".mediaworld.it",
+      "path": "/",
+      "expires": 1825085178.861992,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://mediaworld.it",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".mediaworld.it",
+      "path": "/",
+      "expires": 1793550978.862033,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ts_id",
+      "domain": ".mediaworld.it",
+      "path": "/",
+      "expires": 1793552812.567838,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "mm_country_pref",
+      "domain": "www.mediaworld.it",
+      "path": "/",
+      "expires": 1825085179.680053,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "t_fpd",
+      "domain": ".mediaworld.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "r",
+      "domain": "www.mediaworld.it",
+      "path": "/",
+      "expires": 1793549779.803728,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "a",
+      "domain": "www.mediaworld.it",
+      "path": "/",
+      "expires": 1794758779.803784,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pwaconsent",
+      "domain": ".mediaworld.it",
+      "path": "/",
+      "expires": 1825085187.185333,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_msbps",
+      "domain": ".mediaworld.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

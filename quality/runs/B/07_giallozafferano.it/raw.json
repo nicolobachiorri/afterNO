@@ -1,0 +1,333 @@
+{
+  "url": "https://www.giallozafferano.it",
+  "final_url": "https://www.giallozafferano.it/",
+  "click_at_s": 11.07,
+  "reload_at_s": 16.08,
+  "reject": "button: 'Continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "Iscriviti",
+    "Continua senza accettare",
+    "Accetta e chiudi",
+    "Opzioni cookie"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app",
+    "6da7fd90741bf29ed4e0ca1e2cc06017.safeframe.googlesyndication.com",
+    "85aac2d9d5234a062b1f1d8fc4dd0e2c.safeframe.googlesyndication.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.adkaora.space",
+    "cdn.ampproject.org",
+    "cdn.iubenda.com",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "dafne.sirio.stbm.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "idb.iubenda.com",
+    "mediasetitalia01.wt-eu02.net",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "region1.google-analytics.com",
+    "responder.wt-safetag.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "static.cloudflareinsights.com",
+    "tpc.googlesyndication.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "xzvc3orjq08n1cime3n8bmnf0xwp91793549387.nuid.imrworldwide.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app",
+    "85aac2d9d5234a062b1f1d8fc4dd0e2c.safeframe.googlesyndication.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.adkaora.space",
+    "cdn.ampproject.org",
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "dafne.sirio.stbm.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "idb.iubenda.com",
+    "mediasetitalia01.wt-eu02.net",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "region1.google-analytics.com",
+    "responder.wt-safetag.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "static.cloudflareinsights.com",
+    "tpc.googlesyndication.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "xzvc3orjq08n1cime3n8bmnf0xwp91793549387.nuid.imrworldwide.com"
+  ],
+  "third_party_timeline": {
+    "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app": {
+      "first_s": 2.4,
+      "last_s": 16.36
+    },
+    "6da7fd90741bf29ed4e0ca1e2cc06017.safeframe.googlesyndication.com": {
+      "first_s": 12.7,
+      "last_s": 12.7
+    },
+    "85aac2d9d5234a062b1f1d8fc4dd0e2c.safeframe.googlesyndication.com": {
+      "first_s": 17.46,
+      "last_s": 17.46
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 4.7,
+      "last_s": 16.6
+    },
+    "cdn.adkaora.space": {
+      "first_s": 11.66,
+      "last_s": 17.2
+    },
+    "cdn.ampproject.org": {
+      "first_s": 13.35,
+      "last_s": 18.68
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.79,
+      "last_s": 16.61
+    },
+    "cpl.iubenda.com": {
+      "first_s": 11.14,
+      "last_s": 11.15
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.56,
+      "last_s": 16.59
+    },
+    "dafne.sirio.stbm.it": {
+      "first_s": 2.36,
+      "last_s": 16.49
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 12.68,
+      "last_s": 18.09
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 12.89,
+      "last_s": 17.56
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.36,
+      "last_s": 16.26
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.7,
+      "last_s": 16.35
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 2.78,
+      "last_s": 16.64
+    },
+    "idb.iubenda.com": {
+      "first_s": 4.02,
+      "last_s": 16.73
+    },
+    "mediasetitalia01.wt-eu02.net": {
+      "first_s": 3.86,
+      "last_s": 16.66
+    },
+    "ourvyhugco2ojher7ik2tkbm44pum1793549375.nuid.imrworldwide.com": {
+      "first_s": 5.22,
+      "last_s": 5.22
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 12.7,
+      "last_s": 19.71
+    },
+    "pixel.adsafeprotected.com": {
+      "first_s": 12.26,
+      "last_s": 17.34
+    },
+    "region1.google-analytics.com": {
+      "first_s": 2.95,
+      "last_s": 22.18
+    },
+    "responder.wt-safetag.com": {
+      "first_s": 3.46,
+      "last_s": 16.54
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 11.15,
+      "last_s": 16.71
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 5.22,
+      "last_s": 18.65
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 12.07,
+      "last_s": 17.28
+    },
+    "static.adsafeprotected.com": {
+      "first_s": 12.07,
+      "last_s": 17.26
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.41,
+      "last_s": 16.36
+    },
+    "t3.gstatic.com": {
+      "first_s": 4.08,
+      "last_s": 4.08
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 13.35,
+      "last_s": 18.68
+    },
+    "www.google.com": {
+      "first_s": 3.93,
+      "last_s": 3.93
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.36,
+      "last_s": 17.16
+    },
+    "www.gstatic.com": {
+      "first_s": 7.78,
+      "last_s": 21.37
+    },
+    "xzvc3orjq08n1cime3n8bmnf0xwp91793549387.nuid.imrworldwide.com": {
+      "first_s": 16.65,
+      "last_s": 16.65
+    }
+  },
+  "cookies": [
+    {
+      "name": "wteid_769396664005295",
+      "domain": "mediasetitalia01.wt-eu02.net",
+      "path": "/769396664005295",
+      "expires": 1809101387.615589,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wtsid_769396664005295",
+      "domain": "mediasetitalia01.wt-eu02.net",
+      "path": "/769396664005295",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".stbm.it",
+      "path": "/",
+      "expires": 1793551173.493898,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".giallozafferano.it",
+      "path": "/",
+      "expires": 1827245374,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".giallozafferano.it",
+      "path": "/",
+      "expires": 1825085387.479125,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://giallozafferano.it",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".giallozafferano.it",
+      "path": "/",
+      "expires": 1793551187.479193,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-81919939",
+      "domain": ".giallozafferano.it",
+      "path": "/",
+      "expires": 1825085382,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".giallozafferano.it",
+      "path": "/",
+      "expires": 1825027200,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-81919939-granular",
+      "domain": ".giallozafferano.it",
+      "path": "/",
+      "expires": 1825085387,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".giallozafferano.it",
+      "path": "/",
+      "expires": 1825085387,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wt_rla",
+      "domain": ".giallozafferano.it",
+      "path": "/",
+      "expires": 1798733387,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

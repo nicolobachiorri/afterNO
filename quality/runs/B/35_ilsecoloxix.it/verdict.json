@@ -1,0 +1,58 @@
+{
+  "host": "www.ilsecoloxix.it",
+  "choice": {
+    "at": 1793550084969,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "site": "ilsecoloxix.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.ilsecoloxix.it/",
+    "lastSeen": {
+      "0zoqw61ep7gqyvn8usvyngowtpses1793550077.nuid.imrworldwide.com": 1793550078099,
+      "blxv4v8p296fpifu684jxfchvgtua1793550090.nuid.imrworldwide.com": 1793550090269,
+      "cdn-gl.imrworldwide.com": 1793550090263,
+      "cdn.iubenda.com": 1793550090239,
+      "cpl.iubenda.com": 1793550084948,
+      "cs.iubenda.com": 1793550076469,
+      "idb.iubenda.com": 1793550090340,
+      "images.ilsecoloxix.it": 1793550075922,
+      "meteo.ilsecoloxix.it": 1793550076334,
+      "region1.google-analytics.com": 1793550090229,
+      "secure-it.imrworldwide.com": 1793550092277,
+      "www.googletagmanager.com": 1793550076254,
+      "www.ilsecoloxix.it": 1793550090264
+    }
+  },
+  "hostsConsidered": [
+    "blxv4v8p296fpifu684jxfchvgtua1793550090.nuid.imrworldwide.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "idb.iubenda.com",
+    "region1.google-analytics.com",
+    "secure-it.imrworldwide.com",
+    "www.ilsecoloxix.it"
+  ]
+}

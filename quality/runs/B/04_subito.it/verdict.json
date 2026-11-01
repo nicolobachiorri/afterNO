@@ -1,0 +1,76 @@
+{
+  "host": "www.subito.it",
+  "choice": {
+    "at": 1793549300478,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "site": "subito.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 4,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.subito.it/",
+    "lastSeen": {
+      "82eec1130edb918676c96536675b4286.safeframe.googlesyndication.com": 1793549305883,
+      "ac0de05588934cd8dad04aa898a7806f.safeframe.googlesyndication.com": 1793549300480,
+      "api.privacy-center.org": 1793549300457,
+      "assets.subito.it": 1793549305618,
+      "cdn.jsdelivr.net": 1793549305628,
+      "cis.subito.it": 1793549292451,
+      "collector.subito.it": 1793549306618,
+      "ep1.adtrafficquality.google": 1793549306519,
+      "ep2.adtrafficquality.google": 1793549305997,
+      "hades.subito.it": 1793549305663,
+      "images.sbito.it": 1793549292739,
+      "pagead2.googlesyndication.com": 1793549305877,
+      "sdk.privacy-center.org": 1793549292615,
+      "securepubads.g.doubleclick.net": 1793549305726,
+      "tags.subito.it": 1793549305703,
+      "websdk.appsflyersdk.com": 1793549292707,
+      "www.googletagmanager.com": 1793549292912,
+      "www.subito.it": 1793549305586
+    }
+  },
+  "hostsConsidered": [
+    "82eec1130edb918676c96536675b4286.safeframe.googlesyndication.com",
+    "ac0de05588934cd8dad04aa898a7806f.safeframe.googlesyndication.com",
+    "assets.subito.it",
+    "cdn.jsdelivr.net",
+    "collector.subito.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "hades.subito.it",
+    "pagead2.googlesyndication.com",
+    "securepubads.g.doubleclick.net",
+    "tags.subito.it",
+    "www.subito.it"
+  ]
+}

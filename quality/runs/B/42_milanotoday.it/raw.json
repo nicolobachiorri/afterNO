@@ -1,0 +1,208 @@
+{
+  "url": "https://www.milanotoday.it",
+  "final_url": "https://www.milanotoday.it/",
+  "click_at_s": 10.63,
+  "reload_at_s": null,
+  "reject": "paywall label found",
+  "visible_buttons": [
+    "RIFIUTA E ABBONATI",
+    "ACCETTA"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "abacus.jasoncameron.dev": {
+      "first_s": 2.52,
+      "last_s": 2.52
+    },
+    "cdn.brandmetrics.com": {
+      "first_s": 2.52,
+      "last_s": 2.52
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.46,
+      "last_s": 3.25
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.59,
+      "last_s": 2.59
+    },
+    "city-news.it": {
+      "first_s": 3.28,
+      "last_s": 3.54
+    },
+    "citynews-milanotoday.stgy.ovh": {
+      "first_s": 2.47,
+      "last_s": 5.91
+    },
+    "citynews-today.stgy.ovh": {
+      "first_s": 2.55,
+      "last_s": 2.55
+    },
+    "citynews-veneziatoday.stgy.ovh": {
+      "first_s": 2.55,
+      "last_s": 2.55
+    },
+    "citynews.stgy.ovh": {
+      "first_s": 2.34,
+      "last_s": 5.91
+    },
+    "cs.iubenda.com": {
+      "first_s": 2.88,
+      "last_s": 2.88
+    },
+    "dl.dmp.citynews.ovh": {
+      "first_s": 2.43,
+      "last_s": 3.3
+    },
+    "dmp.citynews.ovh": {
+      "first_s": 3.97,
+      "last_s": 3.97
+    },
+    "external.citynews.it": {
+      "first_s": 2.52,
+      "last_s": 2.52
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.36,
+      "last_s": 3.36
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.52,
+      "last_s": 3.35
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.39,
+      "last_s": 10.38
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 5.78,
+      "last_s": 5.84
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.52,
+      "last_s": 2.76
+    },
+    "www.advertb.indevs.in": {
+      "first_s": 3.3,
+      "last_s": 3.3
+    },
+    "www.citynews.it": {
+      "first_s": 3.28,
+      "last_s": 3.28
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.52,
+      "last_s": 2.96
+    },
+    "www.romatoday.it": {
+      "first_s": 2.55,
+      "last_s": 2.55
+    },
+    "www.today.it": {
+      "first_s": 2.55,
+      "last_s": 2.55
+    }
+  },
+  "cookies": [
+    {
+      "name": "~DL.i",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1828023879,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.s",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1793552079,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.c",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1801326279,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__uid",
+      "domain": "www.milanotoday.it",
+      "path": "/",
+      "expires": 1828110278.608303,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".milanotoday.it",
+      "path": "/",
+      "expires": 1828110281.470903,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_ENB4XX7M0M",
+      "domain": ".milanotoday.it",
+      "path": "/",
+      "expires": 1828110281.454533,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_2T00RWGCM6",
+      "domain": ".milanotoday.it",
+      "path": "/",
+      "expires": 1828110281.456874,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_HC4FTLFM8X",
+      "domain": ".milanotoday.it",
+      "path": "/",
+      "expires": 1828110281.465286,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_5GGZNJB729",
+      "domain": ".milanotoday.it",
+      "path": "/",
+      "expires": 1828110281.470739,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

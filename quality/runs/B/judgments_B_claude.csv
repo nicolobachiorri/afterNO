@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+B,1,claude (autore del codice),si,ok,0,correct,
+B,2,claude (autore del codice),no_reject,,,,Pulsanti: Configura | Accetta.
+B,3,claude (autore del codice),si,ok,0,correct,"4 siti terzi nominati, 4 nei dati. Scelta letta dal TCF."
+B,4,claude (autore del codice),si,ok,0,correct,Scelta ora registrata dal TCF (elenco vuoto). Nessun sito terzo nei dati.
+B,5,claude (autore del codice),si,ok,0,correct,citynews.ovh ora nominato (cookie legati al percorso letti).
+B,6,claude (autore del codice),si,ok,0,correct,
+B,7,claude (autore del codice),si,ok,0,correct,wt-eu02.net (Webtrekk) ora nominato.
+B,8,claude (autore del codice),si,ok,0,correct,"Scelta registrata dal TCF. «Solo in parte» per 1 finalità a legittimo interesse, confermata dal segnale TCF grezzo."
+B,9,claude (autore del codice),si,ok,0,debatable,"Come nella visita A: «solo in parte» si regge solo su AMCV_ (Adobe Experience Cloud ID), classificato marketing ma usato anche per le statistiche."
+B,10,claude (autore del codice),si,ok,0,correct,"Scelta registrata dal TCF; 2 siti terzi nominati, 2 nei dati."
+B,11,claude (autore del codice),no_reject,,,,Solo «×» di chiusura e «Accetta»: per le regole dello step 1 la chiusura non è un rifiuto.
+B,12,claude (autore del codice),no_reject,,,,Rifiuto solo a pagamento («Rifiuta e abbonati»).
+B,13,claude (autore del codice),si,ok,0,correct,
+B,14,claude (autore del codice),si,ok,0,correct,"Nielsen confermato; ora 4 cookie SAP del sito, come nei dati."
+B,15,claude (autore del codice),si,ok,0,correct,wt-eu02.net (Webtrekk) ora nominato.
+B,16,claude (autore del codice),si,ok,0,correct,blendee.com confermato; 4 cookie SAP come nei dati.
+B,17,claude (autore del codice),no_banner,,,,Nella visita B il banner non è comparso.
+B,18,claude (autore del codice),other,,,,"Il rifiuto è probabilmente nel link «qui» del banner, che il robot non riconosce: non misurabile per il robot."
+B,19,claude (autore del codice),si,ok,0,correct,"Scelta registrata dal TCF; 2 siti terzi nominati, 2 nei dati."
+B,20,claude (autore del codice),no_reject,,,,Pulsanti: Consenti i cookie | Scopri di più.
+B,21,claude (autore del codice),no_reject,,,,Rifiuto solo a pagamento («Rifiuta e abbonati»).
+B,22,claude (autore del codice),si,ok,0,correct,Scelta registrata dal TCF; nessun sito terzo nei dati.
+B,23,claude (autore del codice),no_reject,,,,Solo «×» di chiusura e «Accetta».
+B,24,claude (autore del codice),other,,,,"Reindirizza a comune.firenze.it (non nel campione). «Accetta solo i selezionati» equivale forse a un rifiuto, ma non rientra nelle regole di rifiuto dello step 1."
+B,25,claude (autore del codice),no_banner,,,,Nessun banner.
+B,27,claude (autore del codice),si,ok,0,correct,Clic via JavaScript.
+B,28,claude (autore del codice),si,ok,0,correct,
+B,29,claude (autore del codice),si,ok,0,correct,
+B,31,claude (autore del codice),no_reject,,,,Pulsanti: gestire le impostazioni | accetta tutto e continua.
+B,33,claude (autore del codice),no_banner,,,,Nella visita B il robot non ha visto nessun banner.
+B,34,claude (autore del codice),si,ok,0,not_recorded,"Il clic ha chiuso il banner (screenshot), ma l'estensione non ha registrato la scelta: niente TCF e pulsante senza attributi riconoscibili."
+B,35,claude (autore del codice),si,ok,0,correct,
+B,36,claude (autore del codice),si,ok,0,correct,6 finalità a legittimo interesse (confermate dal TCF grezzo) e cookie YouTube partizionati.
+B,37,claude (autore del codice),si,ok,0,correct,"Scelta registrata dal TCF; legittimo interesse 6 confermato; 2 siti terzi nominati, 2 nei dati."
+B,38,claude (autore del codice),si,ok,0,correct,Come nella visita A: «solo in parte» per i cookie del sito (Awin).
+B,39,claude (autore del codice),si,ok,0,correct,"4 siti terzi nominati, 4 nei dati."
+B,40,claude (autore del codice),no_reject,,,,"Solo «x» di chiusura, Impostazioni, Accetto."
+B,41,claude (autore del codice),other,,,,"«non sostenerci» potrebbe essere un rifiuto, ma non rientra nelle regole dello step 1."
+B,42,claude (autore del codice),no_reject,,,,Rifiuto solo a pagamento («Rifiuta e abbonati»).
+B,44,claude (autore del codice),no_reject,,,,Pulsanti: Accetto i cookie | Impostazioni cookie.

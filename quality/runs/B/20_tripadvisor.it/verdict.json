@@ -1,0 +1,54 @@
+{
+  "host": "www.tripadvisor.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Tripadvisor"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Tripadvisor"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.tripadvisor.it/",
+    "lastSeen": {
+      "accounts.google.com": 1793549730323,
+      "api-js.datadome.co": 1793549729782,
+      "cdn.cookielaw.org": 1793549731062,
+      "ct.captcha-delivery.com": 1793549727432,
+      "dynamic-media-cdn.tripadvisor.com": 1793549729175,
+      "geo.captcha-delivery.com": 1793549727933,
+      "geolocation.onetrust.com": 1793549730104,
+      "js.datadome.co": 1793549729575,
+      "static.tacdn.com": 1793549729586,
+      "www.tripadvisor.it": 1793549739558
+    }
+  },
+  "hostsConsidered": [
+    "accounts.google.com",
+    "api-js.datadome.co",
+    "cdn.cookielaw.org",
+    "ct.captcha-delivery.com",
+    "dynamic-media-cdn.tripadvisor.com",
+    "geo.captcha-delivery.com",
+    "geolocation.onetrust.com",
+    "js.datadome.co",
+    "static.tacdn.com",
+    "www.tripadvisor.it"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "host": "www.immobiliare.it",
+  "choice": {
+    "at": 1793549463128,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "site": "immobiliare.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 2,
+      "names": [
+        "CreativeCDN (creativecdn.com)",
+        "DoubleClick/Google Marketing (doubleclick.net)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Braze",
+        "Trustpilot"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.immobiliare.it/",
+    "lastSeen": {
+      "accounts.google.com": 1793549468403,
+      "ams.creativecdn.com": 1793549468389,
+      "ams46.creativecdn.com": 1793549456403,
+      "api-js.datadome.co": 1793549468417,
+      "api.privacy-center.org": 1793549463119,
+      "catcher.immobiliare.it": 1793549468360,
+      "cdn.debugbear.com": 1793549468213,
+      "cdn.segment.com": 1793549468353,
+      "cgapigw.immobiliare.it": 1793549473397,
+      "cm.creativecdn.com": 1793549468837,
+      "cm.g.doubleclick.net": 1793549468733,
+      "crt.im-cdn.it": 1793549454607,
+      "dust2.fra-01.braze.eu": 1793549455905,
+      "gum.criteo.com": 1793549455901,
+      "ib.adnxs.com": 1793549456717,
+      "js.datadome.co": 1793549456214,
+      "pagead2.googlesyndication.com": 1793549468346,
+      "pwm.im-cdn.it": 1793549455084,
+      "s1.immobiliare.it": 1793549468393,
+      "sdk.fra-01.braze.eu": 1793549465635,
+      "sdk.privacy-center.org": 1793549455418,
+      "tags.creativecdn.com": 1793549468328,
+      "www.googletagmanager.com": 1793549455458,
+      "www.immobiliare.it": 1793549468284
+    }
+  },
+  "hostsConsidered": [
+    "accounts.google.com",
+    "ams.creativecdn.com",
+    "api-js.datadome.co",
+    "catcher.immobiliare.it",
+    "cdn.debugbear.com",
+    "cdn.segment.com",
+    "cgapigw.immobiliare.it",
+    "cm.creativecdn.com",
+    "cm.g.doubleclick.net",
+    "pagead2.googlesyndication.com",
+    "s1.immobiliare.it",
+    "sdk.fra-01.braze.eu",
+    "tags.creativecdn.com",
+    "www.immobiliare.it"
+  ]
+}

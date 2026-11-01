@@ -1,0 +1,26 @@
+{
+  "host": "www.ebay.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.ebay.it/",
+    "lastSeen": {
+      "secureir.ebaystatic.com": 1793549636739,
+      "www.ebay.it": 1793549637880
+    }
+  },
+  "hostsConsidered": [
+    "secureir.ebaystatic.com",
+    "www.ebay.it"
+  ]
+}

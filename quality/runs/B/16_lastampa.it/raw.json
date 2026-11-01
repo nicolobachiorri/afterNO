@@ -1,0 +1,442 @@
+{
+  "url": "https://www.lastampa.it",
+  "final_url": "https://www.lastampa.it/",
+  "click_at_s": 11.5,
+  "reload_at_s": 16.5,
+  "reject": "text: 'Continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "MENU",
+    "ACCEDI",
+    "CERCA",
+    "Continua senza accettare",
+    "cookie policy",
+    "terze parti",
+    "finalit\u00e0 pubblicitarie",
+    "Scegli e personalizza",
+    "Accetta"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "6pnzfdywj2vvhwqz7xzyv5jw0yqgs1793549623.nuid.imrworldwide.com",
+    "apis.google.com",
+    "c.blendee.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cdns.eu1.gigya.com",
+    "connect.facebook.net",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "did.blendee.com",
+    "eulogin.gedi.it",
+    "events.newsroom.bi",
+    "experiences.newsroom.bi",
+    "fundingchoicesmessages.google.com",
+    "i.ytimg.com",
+    "idb.iubenda.com",
+    "marfeelexperimentsexperienceengine.mrf.io",
+    "oasjs.kataweb.it",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "rt.gedidigital.it",
+    "scripts.kataweb.it",
+    "sdk.mrf.io",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "tlh.gedidigital.it",
+    "tra.neodatagroup.com",
+    "webcomponent.gedidigital.it",
+    "www.facebook.com",
+    "www.gedistatic.it",
+    "www.googletagmanager.com",
+    "www.lastampastatic.it",
+    "www.repstatic.it",
+    "www.vaticannews.va"
+  ],
+  "third_party_hosts_after_reload": [
+    "6pnzfdywj2vvhwqz7xzyv5jw0yqgs1793549623.nuid.imrworldwide.com",
+    "apis.google.com",
+    "c.blendee.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cdns.eu1.gigya.com",
+    "connect.facebook.net",
+    "cs.iubenda.com",
+    "eulogin.gedi.it",
+    "events.newsroom.bi",
+    "experiences.newsroom.bi",
+    "fundingchoicesmessages.google.com",
+    "i.ytimg.com",
+    "idb.iubenda.com",
+    "marfeelexperimentsexperienceengine.mrf.io",
+    "oasjs.kataweb.it",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "rt.gedidigital.it",
+    "scripts.kataweb.it",
+    "sdk.mrf.io",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "tlh.gedidigital.it",
+    "tra.neodatagroup.com",
+    "webcomponent.gedidigital.it",
+    "www.facebook.com",
+    "www.gedistatic.it",
+    "www.googletagmanager.com",
+    "www.lastampastatic.it",
+    "www.repstatic.it",
+    "www.vaticannews.va"
+  ],
+  "third_party_timeline": {
+    "6pnzfdywj2vvhwqz7xzyv5jw0yqgs1793549623.nuid.imrworldwide.com": {
+      "first_s": 17.06,
+      "last_s": 17.06
+    },
+    "apis.google.com": {
+      "first_s": 4.9,
+      "last_s": 17.27
+    },
+    "c.blendee.com": {
+      "first_s": 11.55,
+      "last_s": 17.08
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 4.65,
+      "last_s": 17.03
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.96,
+      "last_s": 16.99
+    },
+    "cdns.eu1.gigya.com": {
+      "first_s": 2.82,
+      "last_s": 16.98
+    },
+    "connect.facebook.net": {
+      "first_s": 4.9,
+      "last_s": 17.27
+    },
+    "cpl.iubenda.com": {
+      "first_s": 11.55,
+      "last_s": 11.55
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.87,
+      "last_s": 16.98
+    },
+    "did.blendee.com": {
+      "first_s": 11.91,
+      "last_s": 12.27
+    },
+    "eulogin.gedi.it": {
+      "first_s": 3.48,
+      "last_s": 17.28
+    },
+    "events.newsroom.bi": {
+      "first_s": 9.35,
+      "last_s": 22.11
+    },
+    "experiences.newsroom.bi": {
+      "first_s": 11.55,
+      "last_s": 17.11
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 13.12,
+      "last_s": 17.86
+    },
+    "i.ytimg.com": {
+      "first_s": 3.61,
+      "last_s": 16.99
+    },
+    "idb.iubenda.com": {
+      "first_s": 4.4,
+      "last_s": 17.09
+    },
+    "marfeelexperimentsexperienceengine.mrf.io": {
+      "first_s": 7.37,
+      "last_s": 17.02
+    },
+    "oasjs.kataweb.it": {
+      "first_s": 12.89,
+      "last_s": 17.3
+    },
+    "oeibv0sfkatgudpskmna5y6dgw16w1793549611.nuid.imrworldwide.com": {
+      "first_s": 5.24,
+      "last_s": 5.24
+    },
+    "region1.analytics.google.com": {
+      "first_s": 4.68,
+      "last_s": 22.04
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.1,
+      "last_s": 22.08
+    },
+    "rt.gedidigital.it": {
+      "first_s": 4.83,
+      "last_s": 17.08
+    },
+    "scripts.kataweb.it": {
+      "first_s": 2.93,
+      "last_s": 16.92
+    },
+    "sdk.mrf.io": {
+      "first_s": 3.37,
+      "last_s": 17.02
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 5.24,
+      "last_s": 19.06
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.94,
+      "last_s": 17.09
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 4.69,
+      "last_s": 4.69
+    },
+    "tlh.gedidigital.it": {
+      "first_s": 2.43,
+      "last_s": 16.68
+    },
+    "tra.neodatagroup.com": {
+      "first_s": 12.5,
+      "last_s": 17.46
+    },
+    "webcomponent.gedidigital.it": {
+      "first_s": 13.02,
+      "last_s": 17.37
+    },
+    "www.facebook.com": {
+      "first_s": 5.36,
+      "last_s": 17.28
+    },
+    "www.gedistatic.it": {
+      "first_s": 2.47,
+      "last_s": 17.0
+    },
+    "www.google.it": {
+      "first_s": 4.69,
+      "last_s": 4.69
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.86,
+      "last_s": 17.06
+    },
+    "www.lastampastatic.it": {
+      "first_s": 2.43,
+      "last_s": 16.69
+    },
+    "www.repstatic.it": {
+      "first_s": 2.43,
+      "last_s": 16.69
+    },
+    "www.vaticannews.va": {
+      "first_s": 2.48,
+      "last_s": 17.0
+    }
+  },
+  "cookies": [
+    {
+      "name": "kw_wtu",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1793636023,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "kw_1pc_enableds",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1828109609.81538,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "kw_sntseg",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1793636009,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "kw_inc",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1825085609,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "gig_canary",
+      "domain": "cdns.eu1.gigya.com",
+      "path": "/",
+      "expires": 1793550210.040901,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://lastampa.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "gmid",
+      "domain": ".eulogin.lastampa.it",
+      "path": "/",
+      "expires": 1825085612.515558,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ucid",
+      "domain": ".eulogin.lastampa.it",
+      "path": "/",
+      "expires": 1825085612.515669,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".eulogin.lastampa.it",
+      "path": "/",
+      "expires": 1809188012.515722,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "gig_bootstrap_4_2uHezT994jAHtT8Q6-3UEw",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1825085611,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1828109623.975265,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bldid",
+      "domain": ".blendee.com",
+      "path": "/",
+      "expires": 1825027200,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cP",
+      "domain": "www.lastampa.it",
+      "path": "/",
+      "expires": 1825085619,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1827245620,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-83234397",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1809274418,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1825027200,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-83234397-granular",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1809274423,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1809274423,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_LFL81Q76LQ",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1828109623.927568,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_C8JFY7ZLC1",
+      "domain": ".lastampa.it",
+      "path": "/",
+      "expires": 1828109623.975165,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

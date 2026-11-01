@@ -1,0 +1,785 @@
+{
+  "url": "https://www.altoadige.it",
+  "final_url": "https://www.altoadige.it/",
+  "click_at_s": 10.59,
+  "reload_at_s": 15.59,
+  "reject": "button: 'RIFIUTA TUTTO' in main (normal click)",
+  "visible_buttons": [
+    "partner",
+    "PI\u00d9 OPZIONI",
+    "RIFIUTA TUTTO",
+    "ACCETTO",
+    "VAI"
+  ],
+  "tcf": {
+    "cmpId": 10,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "04353d04603b7acaf88ce4a1d1c1c4b7.safeframe.googlesyndication.com",
+    "0708bba4d0872a26c2b041fc8598c2fa.safeframe.googlesyndication.com",
+    "159e896bbd785a8d58a75d2db722b968.safeframe.googlesyndication.com",
+    "1722accd6813c7f138bd52568c93375c.safeframe.googlesyndication.com",
+    "190b874aa3269f2aa6dc92895d76e115.safeframe.googlesyndication.com",
+    "383fda831d99d26948d1aac10078b409.safeframe.googlesyndication.com",
+    "3ef96274fcf56780943bb997b7e9c0b4.safeframe.googlesyndication.com",
+    "4d4fa5616ee189985dd5352e98229562.safeframe.googlesyndication.com",
+    "709c95ad804cde5f7d5a04e27d12bb52.safeframe.googlesyndication.com",
+    "720b7fc1a291f957fb5d8f7430a8d1fb.safeframe.googlesyndication.com",
+    "a1.awin1.com",
+    "ad.360yield.com",
+    "adapter.bidmatic.io",
+    "ads.rubiconproject.com",
+    "api.cmp.inmobi.com",
+    "api.id5-sync.com",
+    "api.onesignal.com",
+    "beacon-ams3.rubiconproject.com",
+    "boot.pbstck.com",
+    "c.amazon-adsystem.com",
+    "c1.adform.net",
+    "cd10245e976805ff1faee427515812c2.safeframe.googlesyndication.com",
+    "cdn-adm.pbstck.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.doubleverify.com",
+    "cdn.id5-sync.com",
+    "cdn.jsdelivr.net",
+    "cdn.onesignal.com",
+    "cdn.pbstck.com",
+    "cdn.yobee.it",
+    "cgrid.criteo.com",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "csync.smilewanted.com",
+    "d456725af3a9d486df8de10f35346068.safeframe.googlesyndication.com",
+    "d456da6930e0a171e425f34d15feb6d3.safeframe.googlesyndication.com",
+    "eb2.3lift.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "eus.rubiconproject.com",
+    "fast.nexx360.io",
+    "fastlane.rubiconproject.com",
+    "fe7754b211632dc738faa9f1bf77e3c3.safeframe.googlesyndication.com",
+    "firstavenue.rtb.yobee.it",
+    "g2.gumgum.com",
+    "gat.nl3.eu.criteo.com",
+    "go-eu.mediagotechnology.com",
+    "go.mediagotechnology.com",
+    "grid-bidder.criteo.com",
+    "grid-mercury.criteo.com",
+    "gum.criteo.com",
+    "ib.adnxs.com",
+    "id.a-mx.com",
+    "id5-sync.com",
+    "image8.pubmatic.com",
+    "images.altoadige.it",
+    "images.mediagotechnology.com",
+    "intake.pbstck.com",
+    "maestro-ew1.tps.dv.tech",
+    "ms-cookie-sync.presage.io",
+    "mweb-hb.presage.io",
+    "ndtxoxzkwo5npy2agtgafoh9wdvix1793550201.nuid.imrworldwide.com",
+    "node.pbstck.com",
+    "onesignal.com",
+    "onetag-sys.com",
+    "pagead2.googlesyndication.com",
+    "prebid-server.pbstck.com",
+    "prebid-server.rubiconproject.com",
+    "prebid.a-mo.net",
+    "prebid.media.net",
+    "region1.google-analytics.com",
+    "rtb.gumgum.com",
+    "rtb.openx.net",
+    "s0.2mdn.net",
+    "script.4dex.io",
+    "secure-it.imrworldwide.com",
+    "secure.cdn.fastclick.net",
+    "securepubads.g.doubleclick.net",
+    "shb.richaudience.com",
+    "smarttag.rubiconproject.com",
+    "ssbsync-global.smartadserver.com",
+    "ssp-service.yobee.it",
+    "ssp-sync.criteo.com",
+    "static.cdn.yobee.it",
+    "static.mediagotechnology.com",
+    "sync.richaudience.com",
+    "tags.crwdcntrl.net",
+    "tlx.3lift.com",
+    "token.rubiconproject.com",
+    "tpc.googlesyndication.com",
+    "tps.doubleverify.com",
+    "web-banner.ads.aps.amazon-adsystem.com",
+    "webstat.athesia.com",
+    "widget-pixels.outbrainimg.com",
+    "widgets.teads-xo.com",
+    "www.awin1.com",
+    "www.googletagmanager.com",
+    "www.stol.it",
+    "x.bidswitch.net"
+  ],
+  "third_party_hosts_after_reload": [
+    "04353d04603b7acaf88ce4a1d1c1c4b7.safeframe.googlesyndication.com",
+    "0708bba4d0872a26c2b041fc8598c2fa.safeframe.googlesyndication.com",
+    "159e896bbd785a8d58a75d2db722b968.safeframe.googlesyndication.com",
+    "1722accd6813c7f138bd52568c93375c.safeframe.googlesyndication.com",
+    "190b874aa3269f2aa6dc92895d76e115.safeframe.googlesyndication.com",
+    "4d4fa5616ee189985dd5352e98229562.safeframe.googlesyndication.com",
+    "709c95ad804cde5f7d5a04e27d12bb52.safeframe.googlesyndication.com",
+    "720b7fc1a291f957fb5d8f7430a8d1fb.safeframe.googlesyndication.com",
+    "a1.awin1.com",
+    "ad.360yield.com",
+    "adapter.bidmatic.io",
+    "ads.rubiconproject.com",
+    "api.id5-sync.com",
+    "api.onesignal.com",
+    "beacon-ams3.rubiconproject.com",
+    "boot.pbstck.com",
+    "c.amazon-adsystem.com",
+    "c1.adform.net",
+    "cdn-adm.pbstck.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.id5-sync.com",
+    "cdn.jsdelivr.net",
+    "cdn.onesignal.com",
+    "cdn.pbstck.com",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "csync.smilewanted.com",
+    "eb2.3lift.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "eus.rubiconproject.com",
+    "fast.nexx360.io",
+    "fastlane.rubiconproject.com",
+    "firstavenue.rtb.yobee.it",
+    "g2.gumgum.com",
+    "grid-bidder.criteo.com",
+    "gum.criteo.com",
+    "ib.adnxs.com",
+    "id.a-mx.com",
+    "id5-sync.com",
+    "image8.pubmatic.com",
+    "images.altoadige.it",
+    "intake.pbstck.com",
+    "maestro-ew1.tps.dv.tech",
+    "ms-cookie-sync.presage.io",
+    "mweb-hb.presage.io",
+    "ndtxoxzkwo5npy2agtgafoh9wdvix1793550201.nuid.imrworldwide.com",
+    "node.pbstck.com",
+    "onesignal.com",
+    "onetag-sys.com",
+    "pagead2.googlesyndication.com",
+    "prebid-server.pbstck.com",
+    "prebid-server.rubiconproject.com",
+    "prebid.a-mo.net",
+    "prebid.media.net",
+    "region1.google-analytics.com",
+    "rtb.gumgum.com",
+    "rtb.openx.net",
+    "s0.2mdn.net",
+    "script.4dex.io",
+    "secure-it.imrworldwide.com",
+    "secure.cdn.fastclick.net",
+    "securepubads.g.doubleclick.net",
+    "shb.richaudience.com",
+    "smarttag.rubiconproject.com",
+    "ssbsync-global.smartadserver.com",
+    "ssp-sync.criteo.com",
+    "static.cdn.yobee.it",
+    "sync.richaudience.com",
+    "tags.crwdcntrl.net",
+    "tlx.3lift.com",
+    "token.rubiconproject.com",
+    "tpc.googlesyndication.com",
+    "web-banner.ads.aps.amazon-adsystem.com",
+    "webstat.athesia.com",
+    "widget-pixels.outbrainimg.com",
+    "widgets.teads-xo.com",
+    "www.awin1.com",
+    "www.googletagmanager.com",
+    "www.stol.it",
+    "x.bidswitch.net"
+  ],
+  "third_party_timeline": {
+    "04353d04603b7acaf88ce4a1d1c1c4b7.safeframe.googlesyndication.com": {
+      "first_s": 17.99,
+      "last_s": 17.99
+    },
+    "0708bba4d0872a26c2b041fc8598c2fa.safeframe.googlesyndication.com": {
+      "first_s": 18.0,
+      "last_s": 18.0
+    },
+    "159e896bbd785a8d58a75d2db722b968.safeframe.googlesyndication.com": {
+      "first_s": 16.88,
+      "last_s": 17.92
+    },
+    "1722accd6813c7f138bd52568c93375c.safeframe.googlesyndication.com": {
+      "first_s": 17.99,
+      "last_s": 17.99
+    },
+    "190b874aa3269f2aa6dc92895d76e115.safeframe.googlesyndication.com": {
+      "first_s": 18.41,
+      "last_s": 18.41
+    },
+    "383fda831d99d26948d1aac10078b409.safeframe.googlesyndication.com": {
+      "first_s": 12.87,
+      "last_s": 12.87
+    },
+    "3ef96274fcf56780943bb997b7e9c0b4.safeframe.googlesyndication.com": {
+      "first_s": 12.88,
+      "last_s": 12.88
+    },
+    "4d4fa5616ee189985dd5352e98229562.safeframe.googlesyndication.com": {
+      "first_s": 18.01,
+      "last_s": 18.01
+    },
+    "709c95ad804cde5f7d5a04e27d12bb52.safeframe.googlesyndication.com": {
+      "first_s": 18.0,
+      "last_s": 18.0
+    },
+    "720b7fc1a291f957fb5d8f7430a8d1fb.safeframe.googlesyndication.com": {
+      "first_s": 18.0,
+      "last_s": 18.0
+    },
+    "a1.awin1.com": {
+      "first_s": 13.49,
+      "last_s": 18.48
+    },
+    "ad.360yield.com": {
+      "first_s": 13.91,
+      "last_s": 19.92
+    },
+    "adapter.bidmatic.io": {
+      "first_s": 15.34,
+      "last_s": 20.02
+    },
+    "ads.rubiconproject.com": {
+      "first_s": 13.05,
+      "last_s": 18.28
+    },
+    "api.cmp.inmobi.com": {
+      "first_s": 4.18,
+      "last_s": 10.64
+    },
+    "api.id5-sync.com": {
+      "first_s": 11.45,
+      "last_s": 15.99
+    },
+    "api.onesignal.com": {
+      "first_s": 11.05,
+      "last_s": 16.07
+    },
+    "beacon-ams3.rubiconproject.com": {
+      "first_s": 13.71,
+      "last_s": 18.4
+    },
+    "boot.pbstck.com": {
+      "first_s": 3.11,
+      "last_s": 16.14
+    },
+    "c.amazon-adsystem.com": {
+      "first_s": 10.64,
+      "last_s": 15.97
+    },
+    "c1.adform.net": {
+      "first_s": 15.31,
+      "last_s": 19.88
+    },
+    "cd10245e976805ff1faee427515812c2.safeframe.googlesyndication.com": {
+      "first_s": 13.72,
+      "last_s": 13.72
+    },
+    "cdn-adm.pbstck.com": {
+      "first_s": 3.82,
+      "last_s": 15.95
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 3.19,
+      "last_s": 15.91
+    },
+    "cdn.doubleverify.com": {
+      "first_s": 13.25,
+      "last_s": 13.64
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 11.18,
+      "last_s": 15.98
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 11.01,
+      "last_s": 15.95
+    },
+    "cdn.onesignal.com": {
+      "first_s": 10.64,
+      "last_s": 15.94
+    },
+    "cdn.pbstck.com": {
+      "first_s": 10.95,
+      "last_s": 19.85
+    },
+    "cdn.yobee.it": {
+      "first_s": 12.68,
+      "last_s": 12.68
+    },
+    "cgrid.criteo.com": {
+      "first_s": 13.2,
+      "last_s": 13.64
+    },
+    "cmp.inmobi.com": {
+      "first_s": 2.55,
+      "last_s": 15.93
+    },
+    "config.aps.amazon-adsystem.com": {
+      "first_s": 11.01,
+      "last_s": 15.97
+    },
+    "csync.smilewanted.com": {
+      "first_s": 15.32,
+      "last_s": 19.89
+    },
+    "d456725af3a9d486df8de10f35346068.safeframe.googlesyndication.com": {
+      "first_s": 12.89,
+      "last_s": 12.89
+    },
+    "d456da6930e0a171e425f34d15feb6d3.safeframe.googlesyndication.com": {
+      "first_s": 12.22,
+      "last_s": 12.75
+    },
+    "eb2.3lift.com": {
+      "first_s": 15.2,
+      "last_s": 19.87
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 12.21,
+      "last_s": 19.57
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 12.38,
+      "last_s": 19.05
+    },
+    "eus.rubiconproject.com": {
+      "first_s": 13.7,
+      "last_s": 19.87
+    },
+    "fast.nexx360.io": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "fastlane.rubiconproject.com": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "fe7754b211632dc738faa9f1bf77e3c3.safeframe.googlesyndication.com": {
+      "first_s": 12.86,
+      "last_s": 12.86
+    },
+    "firstavenue.rtb.yobee.it": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "g2.gumgum.com": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "gat.nl3.eu.criteo.com": {
+      "first_s": 13.15,
+      "last_s": 13.25
+    },
+    "go-eu.mediagotechnology.com": {
+      "first_s": 13.5,
+      "last_s": 13.5
+    },
+    "go.mediagotechnology.com": {
+      "first_s": 13.5,
+      "last_s": 13.71
+    },
+    "grid-bidder.criteo.com": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "grid-mercury.criteo.com": {
+      "first_s": 13.2,
+      "last_s": 13.25
+    },
+    "gum.criteo.com": {
+      "first_s": 11.01,
+      "last_s": 15.95
+    },
+    "ib.adnxs.com": {
+      "first_s": 15.32,
+      "last_s": 19.9
+    },
+    "id.a-mx.com": {
+      "first_s": 11.01,
+      "last_s": 15.95
+    },
+    "id5-sync.com": {
+      "first_s": 15.2,
+      "last_s": 19.87
+    },
+    "image8.pubmatic.com": {
+      "first_s": 15.31,
+      "last_s": 19.88
+    },
+    "images.altoadige.it": {
+      "first_s": 2.26,
+      "last_s": 15.73
+    },
+    "images.mediagotechnology.com": {
+      "first_s": 13.15,
+      "last_s": 13.25
+    },
+    "intake.pbstck.com": {
+      "first_s": 11.41,
+      "last_s": 17.93
+    },
+    "maestro-ew1.tps.dv.tech": {
+      "first_s": 15.6,
+      "last_s": 15.6
+    },
+    "ms-cookie-sync.presage.io": {
+      "first_s": 15.2,
+      "last_s": 19.92
+    },
+    "mweb-hb.presage.io": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "ndtxoxzkwo5npy2agtgafoh9wdvix1793550201.nuid.imrworldwide.com": {
+      "first_s": 15.91,
+      "last_s": 15.91
+    },
+    "node.pbstck.com": {
+      "first_s": 11.1,
+      "last_s": 19.88
+    },
+    "onesignal.com": {
+      "first_s": 11.23,
+      "last_s": 16.06
+    },
+    "onetag-sys.com": {
+      "first_s": 11.1,
+      "last_s": 19.86
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 10.64,
+      "last_s": 19.06
+    },
+    "prebid-server.pbstck.com": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "prebid-server.rubiconproject.com": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "prebid.a-mo.net": {
+      "first_s": 11.1,
+      "last_s": 19.86
+    },
+    "prebid.media.net": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.74,
+      "last_s": 20.9
+    },
+    "rtb.gumgum.com": {
+      "first_s": 15.32,
+      "last_s": 19.89
+    },
+    "rtb.openx.net": {
+      "first_s": 15.33,
+      "last_s": 19.9
+    },
+    "s0.2mdn.net": {
+      "first_s": 12.76,
+      "last_s": 17.96
+    },
+    "script.4dex.io": {
+      "first_s": 11.01,
+      "last_s": 15.95
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 4.23,
+      "last_s": 17.95
+    },
+    "secure.cdn.fastclick.net": {
+      "first_s": 11.18,
+      "last_s": 15.98
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.55,
+      "last_s": 18.48
+    },
+    "shb.richaudience.com": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "sjobnekimmljmklpbo1mq6yktvfcz1793550189.nuid.imrworldwide.com": {
+      "first_s": 4.23,
+      "last_s": 4.23
+    },
+    "smarttag.rubiconproject.com": {
+      "first_s": 13.32,
+      "last_s": 18.28
+    },
+    "ssbsync-global.smartadserver.com": {
+      "first_s": 15.32,
+      "last_s": 19.88
+    },
+    "ssp-service.yobee.it": {
+      "first_s": 13.23,
+      "last_s": 13.25
+    },
+    "ssp-sync.criteo.com": {
+      "first_s": 15.33,
+      "last_s": 19.91
+    },
+    "static.cdn.yobee.it": {
+      "first_s": 13.23,
+      "last_s": 19.87
+    },
+    "static.mediagotechnology.com": {
+      "first_s": 13.15,
+      "last_s": 13.25
+    },
+    "sync.richaudience.com": {
+      "first_s": 15.2,
+      "last_s": 19.9
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 11.18,
+      "last_s": 15.98
+    },
+    "tlx.3lift.com": {
+      "first_s": 11.1,
+      "last_s": 16.03
+    },
+    "token.rubiconproject.com": {
+      "first_s": 15.01,
+      "last_s": 18.4
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 12.71,
+      "last_s": 17.93
+    },
+    "tps.doubleverify.com": {
+      "first_s": 13.93,
+      "last_s": 13.93
+    },
+    "visit-server.inmobi-choice.io": {
+      "first_s": 4.09,
+      "last_s": 4.09
+    },
+    "web-banner.ads.aps.amazon-adsystem.com": {
+      "first_s": 11.01,
+      "last_s": 15.97
+    },
+    "webstat.athesia.com": {
+      "first_s": 2.55,
+      "last_s": 15.87
+    },
+    "widget-pixels.outbrainimg.com": {
+      "first_s": 3.21,
+      "last_s": 15.81
+    },
+    "widgets.teads-xo.com": {
+      "first_s": 2.55,
+      "last_s": 15.8
+    },
+    "www.awin1.com": {
+      "first_s": 13.04,
+      "last_s": 18.27
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.55,
+      "last_s": 15.88
+    },
+    "www.stol.it": {
+      "first_s": 2.55,
+      "last_s": 15.8
+    },
+    "x.bidswitch.net": {
+      "first_s": 15.32,
+      "last_s": 19.9
+    }
+  },
+  "cookies": [
+    {
+      "name": "_pk_id.24.32ca",
+      "domain": "www.altoadige.it",
+      "path": "/",
+      "expires": 1827505389,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.24.32ca",
+      "domain": "www.altoadige.it",
+      "path": "/",
+      "expires": 1793552001,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".www.altoadige.it",
+      "path": "/",
+      "expires": 1828110189.350612,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "usprivacy",
+      "domain": ".www.altoadige.it",
+      "path": "/",
+      "expires": 1827246201.546619,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "path": "/",
+      "expires": 1827246190.128636,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".www.altoadige.it",
+      "path": "/",
+      "expires": 1827246196.250443,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "addtl_consent",
+      "domain": ".www.altoadige.it",
+      "path": "/",
+      "expires": 1827246196.250492,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IABGPP_HDR_GppString",
+      "domain": ".www.altoadige.it",
+      "path": "/",
+      "expires": 1827246196.250504,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".onesignal.com",
+      "path": "/",
+      "expires": 1793551996.491651,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "presage-ssp",
+      "domain": ".presage.io",
+      "path": "/",
+      "expires": 1809102201.754803,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".www.altoadige.it",
+      "path": "/",
+      "expires": 1809102198,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".cdn.yobee.it",
+      "path": "/",
+      "expires": 1793551998.646612,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__mggpc__",
+      "domain": ".yobee.it",
+      "path": "/",
+      "expires": 1825086199,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_SPFD6PWY44",
+      "domain": ".www.altoadige.it",
+      "path": "/",
+      "expires": 1828110201.507843,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "awpv16259",
+      "domain": ".awin1.com",
+      "path": "/",
+      "expires": 1793723004.090136,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSESS",
+      "domain": ".awin1.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sw_marker",
+      "domain": ".smilewanted.com",
+      "path": "/",
+      "expires": 1825107157.610139,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

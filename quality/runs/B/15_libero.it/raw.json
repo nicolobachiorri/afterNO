@@ -1,0 +1,203 @@
+{
+  "url": "https://www.libero.it",
+  "final_url": "https://www.libero.it/",
+  "click_at_s": 10.85,
+  "reload_at_s": 15.85,
+  "reject": "button: 'Continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "Are - Asc",
+    "Ver - Car",
+    "Ave - Pis",
+    "Fro - Tor",
+    "Laz - Cag",
+    "Emp - Juv",
+    "terze parti",
+    "cookie policy",
+    "finalit\u00e0 pubblicitarie",
+    "Preferenze sui cookie",
+    "Continua senza accettare",
+    "Personalizza",
+    "Accetta e Chiudi"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "api.permutive.com",
+    "c.amazon-adsystem.com",
+    "c76babb4-dc97-48b8-9b12-80b8b7deba04.edge.permutive.app",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cdn.qwtag.com",
+    "cs.iubenda.com",
+    "emwm2l8ux5dx9r3ns6cyw6h1isd5l1793549601.nuid.imrworldwide.com",
+    "evnt.iol.it",
+    "i4.plug.it",
+    "i5.plug.it",
+    "idb.iubenda.com",
+    "italiaonline01.wt-eu02.net",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "wips.plug.it",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.iolam.it",
+    "www.virgilio.it"
+  ],
+  "third_party_hosts_after_reload": [
+    "api.permutive.com",
+    "c.amazon-adsystem.com",
+    "c76babb4-dc97-48b8-9b12-80b8b7deba04.edge.permutive.app",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cdn.qwtag.com",
+    "cs.iubenda.com",
+    "emwm2l8ux5dx9r3ns6cyw6h1isd5l1793549601.nuid.imrworldwide.com",
+    "evnt.iol.it",
+    "i4.plug.it",
+    "i5.plug.it",
+    "idb.iubenda.com",
+    "italiaonline01.wt-eu02.net",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "wips.plug.it",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.iolam.it",
+    "www.virgilio.it"
+  ],
+  "third_party_timeline": {
+    "api.permutive.com": {
+      "first_s": 3.23,
+      "last_s": 16.12
+    },
+    "c.amazon-adsystem.com": {
+      "first_s": 3.23,
+      "last_s": 16.14
+    },
+    "c76babb4-dc97-48b8-9b12-80b8b7deba04.edge.permutive.app": {
+      "first_s": 3.22,
+      "last_s": 16.12
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 7.61,
+      "last_s": 21.04
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.81,
+      "last_s": 16.04
+    },
+    "cdn.qwtag.com": {
+      "first_s": 3.23,
+      "last_s": 16.12
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.28,
+      "last_s": 16.03
+    },
+    "emwm2l8ux5dx9r3ns6cyw6h1isd5l1793549601.nuid.imrworldwide.com": {
+      "first_s": 21.05,
+      "last_s": 21.05
+    },
+    "evnt.iol.it": {
+      "first_s": 2.81,
+      "last_s": 23.23
+    },
+    "f7qw2i4j964via8o1nnobhxyygjkk1793549588.nuid.imrworldwide.com": {
+      "first_s": 7.96,
+      "last_s": 7.96
+    },
+    "i4.plug.it": {
+      "first_s": 2.64,
+      "last_s": 16.03
+    },
+    "i5.plug.it": {
+      "first_s": 2.3,
+      "last_s": 16.18
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.85,
+      "last_s": 16.16
+    },
+    "italiaonline01.wt-eu02.net": {
+      "first_s": 2.61,
+      "last_s": 16.02
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 7.96,
+      "last_s": 23.06
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 3.22,
+      "last_s": 16.16
+    },
+    "wips.plug.it": {
+      "first_s": 2.3,
+      "last_s": 22.23
+    },
+    "www.google.com": {
+      "first_s": 3.14,
+      "last_s": 16.02
+    },
+    "www.gstatic.com": {
+      "first_s": 2.61,
+      "last_s": 16.01
+    },
+    "www.iolam.it": {
+      "first_s": 2.3,
+      "last_s": 16.12
+    },
+    "www.virgilio.it": {
+      "first_s": 3.29,
+      "last_s": 16.13
+    }
+  },
+  "cookies": [
+    {
+      "name": "wteid_215973748390194",
+      "domain": "italiaonline01.wt-eu02.net",
+      "path": "/215973748390194",
+      "expires": 1809101596.611163,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wtsid_215973748390194",
+      "domain": "italiaonline01.wt-eu02.net",
+      "path": "/215973748390194",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "iolcmp-exp",
+      "domain": ".libero.it",
+      "path": "/",
+      "expires": 1825085582,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "evntuid",
+      "domain": ".evnt.iol.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

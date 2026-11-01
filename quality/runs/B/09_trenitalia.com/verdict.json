@@ -1,0 +1,74 @@
+{
+  "host": "www.trenitalia.com",
+  "choice": {
+    "at": 1793549436697,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "site": "trenitalia.com",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShort",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Adobe Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.trenitalia.com/it.html",
+    "lastSeen": {
+      "assets.adobedtm.com": 1793549441788,
+      "cdn.cookielaw.org": 1793549441830,
+      "cdn.raffle.ai": 1793549429699,
+      "dpm.demdex.net": 1793549428110,
+      "ferroviedellostato.d3.sc.omtrdc.net": 1793549441960,
+      "geolocation.onetrust.com": 1793549436719,
+      "privacyportal-de.onetrust.com": 1793549436696,
+      "rum.hlx.page": 1793549427249,
+      "searchcfg.raffle.ai": 1793549441890,
+      "www.trenitalia.com": 1793549441879
+    }
+  },
+  "hostsConsidered": [
+    "assets.adobedtm.com",
+    "cdn.cookielaw.org",
+    "ferroviedellostato.d3.sc.omtrdc.net",
+    "geolocation.onetrust.com",
+    "searchcfg.raffle.ai",
+    "www.trenitalia.com"
+  ]
+}

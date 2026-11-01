@@ -1,0 +1,312 @@
+{
+  "url": "https://www.ilsole24ore.com",
+  "final_url": "https://www.ilsole24ore.com/",
+  "click_at_s": 11.51,
+  "reload_at_s": null,
+  "reject": "paywall label found",
+  "visible_buttons": [
+    "Aspettando le midterm: Sherrod Brown",
+    "Germania: la serata di devastazione a Francoforte ",
+    "Sezioni",
+    "Accedi",
+    "partner",
+    "Preferenze",
+    "Accetto",
+    "Rifiuta e abbonati",
+    "Pause",
+    "Unmute",
+    "Seek to live, currently playing live LIVE",
+    "Fullscreen"
+  ],
+  "tcf": {
+    "cmpId": 28,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "bam.nr-data.net",
+    "events.newsroom.bi",
+    "experiences.newsroom.bi"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "bam.nr-data.net": {
+      "first_s": 5.6,
+      "last_s": 16.36
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 3.33,
+      "last_s": 3.91
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 2.41,
+      "last_s": 4.05
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.81,
+      "last_s": 3.81
+    },
+    "cf-images.eu-west-1.prod.boltdns.net": {
+      "first_s": 4.84,
+      "last_s": 4.84
+    },
+    "data.qiota.com": {
+      "first_s": 4.6,
+      "last_s": 4.6
+    },
+    "edge.api.brightcove.com": {
+      "first_s": 4.43,
+      "last_s": 4.43
+    },
+    "events.newsroom.bi": {
+      "first_s": 9.55,
+      "last_s": 14.9
+    },
+    "experiences.newsroom.bi": {
+      "first_s": 12.56,
+      "last_s": 12.56
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 2.47,
+      "last_s": 4.77
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.24,
+      "last_s": 3.24
+    },
+    "i2.res.24o.it": {
+      "first_s": 2.77,
+      "last_s": 3.52
+    },
+    "ilsole24ore-radiovisual.akamaized.net": {
+      "first_s": 4.85,
+      "last_s": 11.38
+    },
+    "ilsole24oreitalia01.wt-eu02.net": {
+      "first_s": 4.34,
+      "last_s": 5.86
+    },
+    "j2.res.24o.it": {
+      "first_s": 2.41,
+      "last_s": 4.26
+    },
+    "js-agent.newrelic.com": {
+      "first_s": 5.26,
+      "last_s": 5.27
+    },
+    "lm2plpdm5ywdtbpqfpf8kifj0kboc1793549513.nuid.imrworldwide.com": {
+      "first_s": 4.06,
+      "last_s": 4.06
+    },
+    "marfeelexperimentsexperienceengine.mrf.io": {
+      "first_s": 7.58,
+      "last_s": 7.58
+    },
+    "metrics.brightcove.com": {
+      "first_s": 4.43,
+      "last_s": 6.84
+    },
+    "micro.rubiconproject.com": {
+      "first_s": 3.28,
+      "last_s": 3.28
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.06,
+      "last_s": 4.57
+    },
+    "players.brightcove.net": {
+      "first_s": 3.9,
+      "last_s": 3.9
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 4.26,
+      "last_s": 4.6
+    },
+    "sdk.mrf.io": {
+      "first_s": 4.26,
+      "last_s": 7.58
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 4.06,
+      "last_s": 5.85
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 3.24,
+      "last_s": 3.85
+    },
+    "static2.qiota.com": {
+      "first_s": 2.98,
+      "last_s": 4.45
+    },
+    "tags.tiqcdn.com": {
+      "first_s": 2.91,
+      "last_s": 4.16
+    },
+    "vjs.zencdn.net": {
+      "first_s": 4.43,
+      "last_s": 4.43
+    },
+    "widget-pixels.outbrainimg.com": {
+      "first_s": 3.4,
+      "last_s": 3.4
+    },
+    "widgets.outbrain.com": {
+      "first_s": 2.47,
+      "last_s": 2.47
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.45,
+      "last_s": 4.45
+    },
+    "yuma0z9rgd5poz6hqjf0nfoddzyty1793549513.nuid.imrworldwide.com": {
+      "first_s": 4.06,
+      "last_s": 4.06
+    }
+  },
+  "cookies": [
+    {
+      "name": "wtsid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "path": "/988195797407130",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wteid_988195797407130",
+      "domain": "ilsole24oreitalia01.wt-eu02.net",
+      "path": "/988195797407130",
+      "expires": 1809101516.25892,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "nohupMeteo",
+      "domain": "www.ilsole24ore.com",
+      "path": "/",
+      "expires": 1825085513,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1827245513,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1809101514,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1825085514,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "wt_rla",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1798733514,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "path": "/",
+      "expires": 1827245514.402417,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FCNEC",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1825085514,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_OptanonConsentOld",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1825085515,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "SoleCookieAccept",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": 1825085515,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "wt_gdpr_988195797407130",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "wt_cookiecontrol",
+      "domain": ".ilsole24ore.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "JSESSIONID",
+      "domain": ".nr-data.net",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

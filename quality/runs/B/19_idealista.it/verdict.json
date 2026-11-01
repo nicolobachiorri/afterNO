@@ -1,0 +1,91 @@
+{
+  "host": "www.idealista.it",
+  "choice": {
+    "at": 1793549709070,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "site": "idealista.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 2,
+      "names": [
+        "CreativeCDN (creativecdn.com)",
+        "Casale Media (casalemedia.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.idealista.it/",
+    "lastSeen": {
+      "accounts.google.com": 1793549714331,
+      "amplify.outbrain.com": 1793549701910,
+      "ams.creativecdn.com": 1793549714429,
+      "ams46.creativecdn.com": 1793549702662,
+      "api.privacy-center.org": 1793549714207,
+      "cdn.taboola.com": 1793549714372,
+      "cm.creativecdn.com": 1793549702954,
+      "cm.g.doubleclick.net": 1793549702877,
+      "col.idealista.it": 1793549714382,
+      "ct.captcha-delivery.com": 1793549701243,
+      "dd.idealista.it": 1793549714241,
+      "dp.idealista.it": 1793549701855,
+      "dsum-sec.casalemedia.com": 1793549714720,
+      "geo.captcha-delivery.com": 1793549703145,
+      "ib.adnxs.com": 1793549702959,
+      "img4.idealista.it": 1793549700255,
+      "integration2.idealista.it": 1793549714373,
+      "pagead2.googlesyndication.com": 1793549714389,
+      "pixel.rubiconproject.com": 1793549704680,
+      "rt.udmserve.net": 1793549704679,
+      "sdk.privacy-center.org": 1793549701501,
+      "st1.idealista.com": 1793549700255,
+      "st3.idealista.com": 1793549722017,
+      "st3.idealista.it": 1793549722010,
+      "st4.idealista.it": 1793549714293,
+      "static.captcha-delivery.com": 1793549701511,
+      "sync.teads.tv": 1793549714504,
+      "tag.aticdn.net": 1793549701907,
+      "tags.creativecdn.com": 1793549714372,
+      "trc.taboola.com": 1793549714425,
+      "www.googletagmanager.com": 1793549701921,
+      "www.idealista.it": 1793549714293
+    }
+  },
+  "hostsConsidered": [
+    "accounts.google.com",
+    "ams.creativecdn.com",
+    "api.privacy-center.org",
+    "cdn.taboola.com",
+    "col.idealista.it",
+    "dd.idealista.it",
+    "dsum-sec.casalemedia.com",
+    "integration2.idealista.it",
+    "pagead2.googlesyndication.com",
+    "st3.idealista.com",
+    "st3.idealista.it",
+    "st4.idealista.it",
+    "sync.teads.tv",
+    "tags.creativecdn.com",
+    "trc.taboola.com",
+    "www.idealista.it"
+  ]
+}

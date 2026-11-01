@@ -1,0 +1,228 @@
+{
+  "url": "https://www.trenitalia.com",
+  "final_url": "https://www.trenitalia.com/it.html",
+  "click_at_s": 11.77,
+  "reload_at_s": 16.78,
+  "reject": "button: 'Rifiuta tutti' in main (normal click)",
+  "visible_buttons": [
+    "Vai al contenuto principale",
+    "Siti del Gruppo",
+    "Supporto",
+    "ITA",
+    "Seleziona orario 17:00",
+    "1 Adulto",
+    "Soluzioni Principali",
+    "Aggiungi buono sconto",
+    "CERCA",
+    "Accetta",
+    "Rifiuta tutti",
+    "Gestisci preferenza"
+  ],
+  "tcf": {
+    "cmpId": 28,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "assets.adobedtm.com",
+    "cdn.cookielaw.org",
+    "cdn.raffle.ai",
+    "ferroviedellostato.d3.sc.omtrdc.net",
+    "geolocation.onetrust.com",
+    "privacyportal-de.onetrust.com",
+    "rum.hlx.page",
+    "searchcfg.raffle.ai"
+  ],
+  "third_party_hosts_after_reload": [
+    "assets.adobedtm.com",
+    "cdn.cookielaw.org",
+    "cdn.raffle.ai",
+    "ferroviedellostato.d3.sc.omtrdc.net",
+    "rum.hlx.page",
+    "searchcfg.raffle.ai"
+  ],
+  "third_party_timeline": {
+    "assets.adobedtm.com": {
+      "first_s": 2.83,
+      "last_s": 16.98
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 2.37,
+      "last_s": 16.95
+    },
+    "cdn.raffle.ai": {
+      "first_s": 3.55,
+      "last_s": 17.07
+    },
+    "dpm.demdex.net": {
+      "first_s": 3.23,
+      "last_s": 3.23
+    },
+    "ferroviedellostato.d3.sc.omtrdc.net": {
+      "first_s": 3.84,
+      "last_s": 17.08
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.04,
+      "last_s": 11.84
+    },
+    "privacyportal-de.onetrust.com": {
+      "first_s": 11.82,
+      "last_s": 11.82
+    },
+    "rum.hlx.page": {
+      "first_s": 2.37,
+      "last_s": 16.9
+    },
+    "searchcfg.raffle.ai": {
+      "first_s": 4.34,
+      "last_s": 17.01
+    }
+  },
+  "cookies": [
+    {
+      "name": "ak_bmsc",
+      "domain": ".trenitalia.com",
+      "path": "/",
+      "expires": 1793556627.221457,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCVS_0D5215F354E6C24C0A4C98A4%40AdobeOrg",
+      "domain": ".trenitalia.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCV_0D5215F354E6C24C0A4C98A4%40AdobeOrg",
+      "domain": ".trenitalia.com",
+      "path": "/",
+      "expires": 1828109428.724838,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "gds_s",
+      "domain": ".trenitalia.com",
+      "path": "/",
+      "expires": 1793551241,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_ppn",
+      "domain": ".trenitalia.com",
+      "path": "/",
+      "expires": 1793551241,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_vs",
+      "domain": "www.trenitalia.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_cc",
+      "domain": ".trenitalia.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".www.trenitalia.com",
+      "path": "/",
+      "expires": 1809101436,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "eupubconsent-v2",
+      "domain": ".www.trenitalia.com",
+      "path": "/",
+      "expires": 1809101436,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_sq",
+      "domain": ".trenitalia.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".trenitalia.com",
+      "path": "/",
+      "expires": 1793556629.753324,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".www.trenitalia.com",
+      "path": "/",
+      "expires": 1809101441,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_nr",
+      "domain": ".trenitalia.com",
+      "path": "/",
+      "expires": 1825085441,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "gds",
+      "domain": ".trenitalia.com",
+      "path": "/",
+      "expires": 1828109441.95989,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

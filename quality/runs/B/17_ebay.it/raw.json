@@ -1,0 +1,49 @@
+{
+  "url": "https://www.ebay.it",
+  "final_url": "https://www.ebay.it/",
+  "click_at_s": 26.02,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "secureir.ebaystatic.com": {
+      "first_s": 2.46,
+      "last_s": 2.46
+    }
+  },
+  "cookies": [
+    {
+      "name": "bm_so",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1793636036.715325,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".www.ebay.it",
+      "path": "/",
+      "expires": 1796141637,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_s",
+      "domain": ".ebay.it",
+      "path": "/",
+      "expires": 1796228038.001037,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

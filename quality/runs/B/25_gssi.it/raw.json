@@ -1,0 +1,41 @@
+{
+  "url": "https://www.gssi.it",
+  "final_url": "https://www.gssi.it/",
+  "click_at_s": 27.53,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "connect.facebook.net": {
+      "first_s": 3.83,
+      "last_s": 5.18
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.96,
+      "last_s": 3.83
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.18,
+      "last_s": 4.18
+    },
+    "maxcdn.bootstrapcdn.com": {
+      "first_s": 2.96,
+      "last_s": 4.18
+    }
+  },
+  "cookies": [
+    {
+      "name": "2067c8b420353281b600c05e27ae1ca0",
+      "domain": "www.gssi.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

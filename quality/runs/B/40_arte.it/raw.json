@@ -1,0 +1,143 @@
+{
+  "url": "https://www.arte.it",
+  "final_url": "https://www.arte.it/",
+  "click_at_s": 27.18,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "x",
+    "Impostazioni",
+    "Accetto"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "apis.google.com": {
+      "first_s": 2.38,
+      "last_s": 3.42
+    },
+    "app.legalblink.it": {
+      "first_s": 2.37,
+      "last_s": 3.27
+    },
+    "assets.pinterest.com": {
+      "first_s": 2.38,
+      "last_s": 3.38
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.37,
+      "last_s": 3.44
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.37,
+      "last_s": 4.52
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.07,
+      "last_s": 4.63
+    },
+    "log.pinterest.com": {
+      "first_s": 4.45,
+      "last_s": 4.45
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.44,
+      "last_s": 3.44
+    },
+    "ssl.google-analytics.com": {
+      "first_s": 3.44,
+      "last_s": 3.57
+    },
+    "static.addtoany.com": {
+      "first_s": 2.38,
+      "last_s": 3.44
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.37,
+      "last_s": 2.37
+    }
+  },
+  "cookies": [
+    {
+      "name": "__utma",
+      "domain": ".arte.it",
+      "path": "/",
+      "expires": 1828110215.410259,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__utmc",
+      "domain": ".arte.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__utmz",
+      "domain": ".arte.it",
+      "path": "/",
+      "expires": 1809318215,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__utmt",
+      "domain": ".arte.it",
+      "path": "/",
+      "expires": 1793550815,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__utmb",
+      "domain": ".arte.it",
+      "path": "/",
+      "expires": 1793552015,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_id.2.3140",
+      "domain": "www.arte.it",
+      "path": "/",
+      "expires": 1827505416,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.2.3140",
+      "domain": "www.arte.it",
+      "path": "/",
+      "expires": 1793552016,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OAID",
+      "domain": "media.arte.it",
+      "path": "/",
+      "expires": 1825086216.881059,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

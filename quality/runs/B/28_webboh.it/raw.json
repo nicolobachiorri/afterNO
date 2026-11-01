@@ -1,0 +1,429 @@
+{
+  "url": "https://www.webboh.it",
+  "final_url": "https://www.webboh.it/",
+  "click_at_s": 10.88,
+  "reload_at_s": 15.88,
+  "reject": "button: 'Continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "Continua senza accettare",
+    "Accetta e chiudi",
+    "Opzioni cookie"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app",
+    "67414969eaa6752fb225776fb2908bc8.safeframe.googlesyndication.com",
+    "773314131e024d03d1f367b6bd7ea5df.safeframe.googlesyndication.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.adkaora.space",
+    "cdn.ampproject.org",
+    "cdn.iubenda.com",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "dafne.sirio.stbm.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "region1.google-analytics.com",
+    "sb.scorecardresearch.com",
+    "script.crazyegg.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "static.cloudflareinsights.com",
+    "tpc.googlesyndication.com",
+    "vnowr6803kkcfpdt5hayld3v1uj2g1793549944.nuid.imrworldwide.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app",
+    "773314131e024d03d1f367b6bd7ea5df.safeframe.googlesyndication.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.adkaora.space",
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "dafne.sirio.stbm.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "region1.google-analytics.com",
+    "sb.scorecardresearch.com",
+    "script.crazyegg.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "static.cloudflareinsights.com",
+    "vnowr6803kkcfpdt5hayld3v1uj2g1793549944.nuid.imrworldwide.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ],
+  "third_party_timeline": {
+    "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app": {
+      "first_s": 2.29,
+      "last_s": 16.03
+    },
+    "67414969eaa6752fb225776fb2908bc8.safeframe.googlesyndication.com": {
+      "first_s": 11.44,
+      "last_s": 11.44
+    },
+    "773314131e024d03d1f367b6bd7ea5df.safeframe.googlesyndication.com": {
+      "first_s": 16.8,
+      "last_s": 16.8
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 4.68,
+      "last_s": 16.11
+    },
+    "cdn.adkaora.space": {
+      "first_s": 2.47,
+      "last_s": 16.11
+    },
+    "cdn.ampproject.org": {
+      "first_s": 13.49,
+      "last_s": 13.49
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.74,
+      "last_s": 16.17
+    },
+    "cpl.iubenda.com": {
+      "first_s": 10.94,
+      "last_s": 10.95
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.09,
+      "last_s": 16.16
+    },
+    "dafne.sirio.stbm.it": {
+      "first_s": 2.28,
+      "last_s": 16.14
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 11.43,
+      "last_s": 17.46
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 11.65,
+      "last_s": 16.93
+    },
+    "fonts.googleapis.com": {
+      "first_s": 13.49,
+      "last_s": 13.49
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.11,
+      "last_s": 16.37
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 2.47,
+      "last_s": 16.38
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.78,
+      "last_s": 16.28
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 11.44,
+      "last_s": 17.05
+    },
+    "pixel.adsafeprotected.com": {
+      "first_s": 11.16,
+      "last_s": 16.52
+    },
+    "q5iizus5wxe6yhknkyxiezhp0fwkh1793549933.nuid.imrworldwide.com": {
+      "first_s": 5.88,
+      "last_s": 5.88
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.31,
+      "last_s": 21.09
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 10.95,
+      "last_s": 16.32
+    },
+    "script.crazyegg.com": {
+      "first_s": 3.17,
+      "last_s": 16.4
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 5.88,
+      "last_s": 18.12
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.28,
+      "last_s": 16.53
+    },
+    "static.adsafeprotected.com": {
+      "first_s": 10.95,
+      "last_s": 16.51
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.3,
+      "last_s": 16.06
+    },
+    "t1.gstatic.com": {
+      "first_s": 3.78,
+      "last_s": 3.78
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 13.5,
+      "last_s": 13.5
+    },
+    "tracking.crazyegg.com": {
+      "first_s": 4.29,
+      "last_s": 4.29
+    },
+    "vnowr6803kkcfpdt5hayld3v1uj2g1793549944.nuid.imrworldwide.com": {
+      "first_s": 16.12,
+      "last_s": 16.12
+    },
+    "www.google.com": {
+      "first_s": 2.3,
+      "last_s": 16.37
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.47,
+      "last_s": 16.06
+    },
+    "www.gstatic.com": {
+      "first_s": 2.29,
+      "last_s": 16.37
+    }
+  },
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".stbm.it",
+      "path": "/",
+      "expires": 1793551730.635176,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_migrations",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_current_add",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_first_add",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_current",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_first",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_udata",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1828109944.104642,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cebs",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ce.clock_data",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1793636333,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_session",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1793551744,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_FYBML5D8QQ",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1828109944.104535,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-81919939",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1825085938,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1825027200,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-81919939-granular",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1825085944,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1825085944,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1825085944.333187,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://webboh.it",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1793551744.333247,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1827245944,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ce.s",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": 1825085944,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cebsp_",
+      "domain": ".webboh.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

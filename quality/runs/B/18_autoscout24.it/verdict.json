@@ -1,0 +1,83 @@
+{
+  "host": "www.autoscout24.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 3,
+      "names": [
+        "Bing / Microsoft (bing.com)",
+        "The Tradedesk (adsrvr.org)",
+        "seroundprince.com"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 2,
+      "names": [
+        "Bing / Microsoft",
+        "Facebook"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShort",
+      "count": 1,
+      "names": [
+        "Bing / Microsoft"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.autoscout24.it/",
+    "lastSeen": {
+      "bat.bing.com": 1793549669902,
+      "cms-assets.autoscout24.com": 1793549668044,
+      "connect.facebook.net": 1793549669736,
+      "euob.seroundprince.com": 1793549668708,
+      "googleads.g.doubleclick.net": 1793549669902,
+      "insight.adsrvr.org": 1793549670582,
+      "js.adsrvr.org": 1793549670230,
+      "listing-search.api.autoscout24.com": 1793549668737,
+      "match.adsrvr.org": 1793549670145,
+      "obseu.seroundprince.com": 1793549669352,
+      "prod.pictures.autoscout24.net": 1793549668640,
+      "scripts.clarity.ms": 1793549670189,
+      "showcar-assets-bucket.s3-eu-west-1.amazonaws.com": 1793549668029,
+      "u.clarity.ms": 1793549670583,
+      "www.autoscout24.de": 1793549668709,
+      "www.autoscout24.it": 1793549669807,
+      "www.clarity.ms": 1793549669896,
+      "www.facebook.com": 1793549669925,
+      "www.google.com": 1793549670119,
+      "www.google.it": 1793549670308,
+      "www.googleadservices.com": 1793549669352
+    }
+  },
+  "hostsConsidered": [
+    "bat.bing.com",
+    "cms-assets.autoscout24.com",
+    "connect.facebook.net",
+    "euob.seroundprince.com",
+    "googleads.g.doubleclick.net",
+    "insight.adsrvr.org",
+    "js.adsrvr.org",
+    "listing-search.api.autoscout24.com",
+    "match.adsrvr.org",
+    "obseu.seroundprince.com",
+    "prod.pictures.autoscout24.net",
+    "scripts.clarity.ms",
+    "showcar-assets-bucket.s3-eu-west-1.amazonaws.com",
+    "u.clarity.ms",
+    "www.autoscout24.de",
+    "www.autoscout24.it",
+    "www.clarity.ms",
+    "www.facebook.com",
+    "www.google.com",
+    "www.google.it",
+    "www.googleadservices.com"
+  ]
+}

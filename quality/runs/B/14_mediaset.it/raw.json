@@ -1,0 +1,250 @@
+{
+  "url": "https://www.tgcom24.mediaset.it",
+  "final_url": "https://www.tgcom24.mediaset.it/",
+  "click_at_s": 10.82,
+  "reload_at_s": 15.82,
+  "reject": "button: 'CONTINUA SENZA ACCETTARE' in main (normal click)",
+  "visible_buttons": [
+    "Guerra Iran",
+    "Elezioni USA Midterm",
+    "Elezioni",
+    "Crans Montana",
+    "Famiglia nel bosco",
+    "Garlasco",
+    "Emergenza Clima",
+    "Tutti i dossier",
+    "Tutte le notizie del giorno",
+    "Cronaca",
+    "Mondo",
+    "Politica",
+    "Economia",
+    "Sport",
+    "Meteo"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "adv.mediamond.it",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cdns.gigya.com",
+    "connect.facebook.net",
+    "cs.iubenda.com",
+    "idb.iubenda.com",
+    "img-api.cloud.mediaset.net",
+    "lpvc8rwemysaahdr5s3ozk1gyx8f41793549570.nuid.imrworldwide.com",
+    "secure-it.imrworldwide.com",
+    "secure.omo.akamai.opta.net",
+    "services.cloud.mediaset.net",
+    "static-cloud.mediaset.net",
+    "www.facebook.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "adv.mediamond.it",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cdns.gigya.com",
+    "connect.facebook.net",
+    "cs.iubenda.com",
+    "idb.iubenda.com",
+    "img-api.cloud.mediaset.net",
+    "lpvc8rwemysaahdr5s3ozk1gyx8f41793549570.nuid.imrworldwide.com",
+    "secure-it.imrworldwide.com",
+    "secure.omo.akamai.opta.net",
+    "services.cloud.mediaset.net",
+    "static-cloud.mediaset.net",
+    "www.facebook.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "adv.mediamond.it": {
+      "first_s": 5.26,
+      "last_s": 16.35
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 4.28,
+      "last_s": 16.39
+    },
+    "cdn.iubenda.com": {
+      "first_s": 4.21,
+      "last_s": 16.19
+    },
+    "cdns.gigya.com": {
+      "first_s": 3.78,
+      "last_s": 16.16
+    },
+    "connect.facebook.net": {
+      "first_s": 4.91,
+      "last_s": 16.35
+    },
+    "cs.iubenda.com": {
+      "first_s": 4.67,
+      "last_s": 16.18
+    },
+    "firebaseinstallations.googleapis.com": {
+      "first_s": 2.87,
+      "last_s": 2.87
+    },
+    "firebaseremoteconfig.googleapis.com": {
+      "first_s": 3.49,
+      "last_s": 3.49
+    },
+    "idb.iubenda.com": {
+      "first_s": 5.03,
+      "last_s": 16.29
+    },
+    "img-api.cloud.mediaset.net": {
+      "first_s": 2.26,
+      "last_s": 15.99
+    },
+    "lpvc8rwemysaahdr5s3ozk1gyx8f41793549570.nuid.imrworldwide.com": {
+      "first_s": 16.4,
+      "last_s": 16.4
+    },
+    "me3cfxwbzcenmtkojcpg7lzojmfik1793549558.nuid.imrworldwide.com": {
+      "first_s": 4.72,
+      "last_s": 4.72
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 4.72,
+      "last_s": 18.41
+    },
+    "secure.omo.akamai.opta.net": {
+      "first_s": 3.18,
+      "last_s": 16.21
+    },
+    "services-ott-prod-fe.mediaset.net": {
+      "first_s": 4.91,
+      "last_s": 4.91
+    },
+    "services.cloud.mediaset.net": {
+      "first_s": 2.89,
+      "last_s": 16.13
+    },
+    "static-cloud.mediaset.net": {
+      "first_s": 2.25,
+      "last_s": 16.16
+    },
+    "www.facebook.com": {
+      "first_s": 5.32,
+      "last_s": 16.37
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.96,
+      "last_s": 16.17
+    }
+  },
+  "cookies": [
+    {
+      "name": "gig_canary",
+      "domain": "cdns.gigya.com",
+      "path": "/",
+      "expires": 1793550157.972929,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://mediaset.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "gmid",
+      "domain": ".login.mediaset.it",
+      "path": "/",
+      "expires": 1825085558.699698,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ucid",
+      "domain": ".login.mediaset.it",
+      "path": "/",
+      "expires": 1825085558.699731,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".login.mediaset.it",
+      "path": "/",
+      "expires": 1809187958.699745,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "gig_bootstrap_3_Q2YR3-An4K_pslqTk0mxn7NXhotIqAGEa4K9oWWuhB8terc3cQk5GVAX3AIeVTlt",
+      "domain": ".mediaset.it",
+      "path": "/",
+      "expires": 1825085558,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "path": "/",
+      "expires": 1827245558.973734,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wtstp_sid",
+      "domain": ".mediaset.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "wtstp_eid",
+      "domain": ".mediaset.it",
+      "path": "/",
+      "expires": 1809101570,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "userContext",
+      "domain": "www.tgcom24.mediaset.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wtstp_rla",
+      "domain": ".mediaset.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

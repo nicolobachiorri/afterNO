@@ -1,0 +1,194 @@
+{
+  "url": "https://www.tripadvisor.it",
+  "final_url": "https://www.tripadvisor.it/",
+  "click_at_s": 25.71,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Vai al contenuto principale",
+    "Scopri",
+    "Recensioni",
+    "Altro",
+    "EUR",
+    "Ricerca",
+    "Prenota ora",
+    "Consenti i cookie",
+    "Scopri di pi\u00f9",
+    "\u20ac EUR",
+    "Italia",
+    "Elenco dei partner (fornitori)",
+    "Accetto",
+    "Mostra finalit\u00e0"
+  ],
+  "tcf": {
+    "cmpId": 28,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 5.26,
+      "last_s": 5.7
+    },
+    "api-js.datadome.co": {
+      "first_s": 5.16,
+      "last_s": 5.16
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 4.95,
+      "last_s": 6.44
+    },
+    "ct.captcha-delivery.com": {
+      "first_s": 2.46,
+      "last_s": 2.81
+    },
+    "dynamic-media-cdn.tripadvisor.com": {
+      "first_s": 4.25,
+      "last_s": 4.55
+    },
+    "geo.captcha-delivery.com": {
+      "first_s": 2.64,
+      "last_s": 3.31
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 5.48,
+      "last_s": 5.48
+    },
+    "js.datadome.co": {
+      "first_s": 4.95,
+      "last_s": 4.95
+    },
+    "static.tacdn.com": {
+      "first_s": 4.12,
+      "last_s": 4.96
+    }
+  },
+  "cookies": [
+    {
+      "name": "TAUnique",
+      "domain": "www.tripadvisor.it",
+      "path": "/",
+      "expires": 1828109727.061328,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TASID",
+      "domain": ".www.tripadvisor.it",
+      "path": "/",
+      "expires": 1793551529.762277,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TAUnique",
+      "domain": ".tripadvisor.it",
+      "path": "/",
+      "expires": 1828109733.639213,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TADCID",
+      "domain": ".www.tripadvisor.it",
+      "path": "/",
+      "expires": 1828109729.762086,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TASession",
+      "domain": ".tripadvisor.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TASSK",
+      "domain": ".www.tripadvisor.it",
+      "path": "/",
+      "expires": 1809101729.762159,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PAC",
+      "domain": ".www.tripadvisor.it",
+      "path": "/",
+      "expires": 1828109729.762189,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "SRT",
+      "domain": ".www.tripadvisor.it",
+      "path": "/",
+      "expires": 1793551529.762217,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TART",
+      "domain": ".www.tripadvisor.it",
+      "path": "/",
+      "expires": 1793981729.76225,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "datadome",
+      "domain": ".tripadvisor.it",
+      "path": "/",
+      "expires": 1824653729.950692,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".tripadvisor.it",
+      "path": "/",
+      "expires": 1825085731,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__vt",
+      "domain": ".www.tripadvisor.it",
+      "path": "/",
+      "expires": 1793553333.63937,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

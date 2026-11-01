@@ -1,0 +1,342 @@
+{
+  "url": "https://www.liberta.it",
+  "final_url": "https://www.liberta.it/",
+  "click_at_s": 12.22,
+  "reload_at_s": 17.22,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "Accetta",
+    "Personalizza",
+    "Rifiuta",
+    "Cerca",
+    "...",
+    "Piacenza",
+    "Comuni"
+  ],
+  "tcf": {
+    "cmpId": 134,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "554c3cb73143fe9d5b73ad5c8be07e76.safeframe.googlesyndication.com",
+    "cdn.fusion-platform.com",
+    "cdn.id5-sync.com",
+    "cdn.mgaru.dev",
+    "code.jquery.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "dmp.im-apps.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fb9f722e12d1700591a95c4b6aadd1ff.safeframe.googlesyndication.com",
+    "gtrace.mediago.io",
+    "gum.criteo.com",
+    "ib.adnxs-simple.com",
+    "id5-sync.com",
+    "ident.mygaru.com",
+    "images.mediago.io",
+    "invstatic101.creativecdn.com",
+    "lb.eu-1-id5-sync.com",
+    "lbs.eu-1-id5-sync.com",
+    "liberta-cos-fra1-01.fra1.cdn.digitaloceanspaces.com",
+    "oa.openxcdn.net",
+    "pagead2.googlesyndication.com",
+    "s.clickiocdn.com",
+    "s0.2mdn.net",
+    "securepubads.g.doubleclick.net",
+    "spadsync.com",
+    "ssb-global.smartadserver.com",
+    "static.criteo.net",
+    "sync6.im-apps.net",
+    "tags.crwdcntrl.net",
+    "tpc.googlesyndication.com",
+    "trace-eu.mediago.io",
+    "up.clickiocdn.com",
+    "vms.streamup.eu"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.fusion-platform.com",
+    "cdn.id5-sync.com",
+    "code.jquery.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fb9f722e12d1700591a95c4b6aadd1ff.safeframe.googlesyndication.com",
+    "gtrace.mediago.io",
+    "gum.criteo.com",
+    "ib.adnxs-simple.com",
+    "id5-sync.com",
+    "images.mediago.io",
+    "lb.eu-1-id5-sync.com",
+    "liberta-cos-fra1-01.fra1.cdn.digitaloceanspaces.com",
+    "pagead2.googlesyndication.com",
+    "s.clickiocdn.com",
+    "securepubads.g.doubleclick.net",
+    "spadsync.com",
+    "ssb-global.smartadserver.com",
+    "tpc.googlesyndication.com",
+    "trace-eu.mediago.io",
+    "up.clickiocdn.com",
+    "vms.streamup.eu"
+  ],
+  "third_party_timeline": {
+    "554c3cb73143fe9d5b73ad5c8be07e76.safeframe.googlesyndication.com": {
+      "first_s": 12.31,
+      "last_s": 16.4
+    },
+    "cdn.fusion-platform.com": {
+      "first_s": 12.3,
+      "last_s": 17.56
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 12.3,
+      "last_s": 17.53
+    },
+    "cdn.mgaru.dev": {
+      "first_s": 12.31,
+      "last_s": 12.31
+    },
+    "code.jquery.com": {
+      "first_s": 3.42,
+      "last_s": 17.46
+    },
+    "consent.cookiebot.com": {
+      "first_s": 3.42,
+      "last_s": 17.47
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 4.62,
+      "last_s": 17.58
+    },
+    "dmp.im-apps.net": {
+      "first_s": 12.3,
+      "last_s": 12.3
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 12.3,
+      "last_s": 20.33
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 12.72,
+      "last_s": 19.81
+    },
+    "fb9f722e12d1700591a95c4b6aadd1ff.safeframe.googlesyndication.com": {
+      "first_s": 17.56,
+      "last_s": 19.65
+    },
+    "gtrace.mediago.io": {
+      "first_s": 16.63,
+      "last_s": 20.68
+    },
+    "gum.criteo.com": {
+      "first_s": 12.87,
+      "last_s": 17.53
+    },
+    "ib.adnxs-simple.com": {
+      "first_s": 14.53,
+      "last_s": 17.77
+    },
+    "id5-sync.com": {
+      "first_s": 12.89,
+      "last_s": 18.33
+    },
+    "ident.mygaru.com": {
+      "first_s": 12.76,
+      "last_s": 12.76
+    },
+    "images.mediago.io": {
+      "first_s": 16.33,
+      "last_s": 19.68
+    },
+    "invstatic101.creativecdn.com": {
+      "first_s": 12.31,
+      "last_s": 12.31
+    },
+    "lb.eu-1-id5-sync.com": {
+      "first_s": 14.99,
+      "last_s": 18.13
+    },
+    "lbs.eu-1-id5-sync.com": {
+      "first_s": 14.99,
+      "last_s": 14.99
+    },
+    "liberta-cos-fra1-01.fra1.cdn.digitaloceanspaces.com": {
+      "first_s": 2.63,
+      "last_s": 17.72
+    },
+    "oa.openxcdn.net": {
+      "first_s": 12.3,
+      "last_s": 12.3
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 12.31,
+      "last_s": 20.75
+    },
+    "s.clickiocdn.com": {
+      "first_s": 12.4,
+      "last_s": 17.5
+    },
+    "s0.2mdn.net": {
+      "first_s": 12.88,
+      "last_s": 14.6
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 4.72,
+      "last_s": 17.58
+    },
+    "spadsync.com": {
+      "first_s": 12.73,
+      "last_s": 17.58
+    },
+    "ssb-global.smartadserver.com": {
+      "first_s": 14.53,
+      "last_s": 17.77
+    },
+    "static.criteo.net": {
+      "first_s": 12.31,
+      "last_s": 12.31
+    },
+    "sync6.im-apps.net": {
+      "first_s": 12.75,
+      "last_s": 12.75
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 12.31,
+      "last_s": 12.31
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 12.84,
+      "last_s": 19.68
+    },
+    "trace-eu.mediago.io": {
+      "first_s": 16.33,
+      "last_s": 20.68
+    },
+    "up.clickiocdn.com": {
+      "first_s": 13.85,
+      "last_s": 22.01
+    },
+    "vms.streamup.eu": {
+      "first_s": 17.5,
+      "last_s": 18.06
+    }
+  },
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".www.liberta.it",
+      "path": "/",
+      "expires": 1793551933.103713,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.liberta.it",
+      "path": "/",
+      "expires": 1825086142,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pubcid",
+      "domain": "www.liberta.it",
+      "path": "/",
+      "expires": 1824654143,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".liberta.it",
+      "path": "/",
+      "expires": 1809102143,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "id5",
+      "domain": ".id5-sync.com",
+      "path": "/",
+      "expires": 1801326144.942189,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__mggpc__",
+      "domain": ".googlesyndication.com",
+      "path": "/",
+      "expires": 1825086151,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "scrollPositions",
+      "domain": "www.liberta.it",
+      "path": "/",
+      "expires": 1793551947.979346,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "nvq_hid",
+      "domain": "www.liberta.it",
+      "path": "/",
+      "expires": 1793550208,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "1025667990",
+      "domain": "www.liberta.it",
+      "path": "/",
+      "expires": 1793571748,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_id.2.49cc",
+      "domain": "www.liberta.it",
+      "path": "/",
+      "expires": 1827505349,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.2.49cc",
+      "domain": "www.liberta.it",
+      "path": "/",
+      "expires": 1793551949,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

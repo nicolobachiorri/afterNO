@@ -1,0 +1,213 @@
+{
+  "url": "https://www.accordiespartiti.it",
+  "final_url": "https://www.accordiespartiti.it/",
+  "click_at_s": 26.99,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Rigenera lista",
+    "gestire le impostazioni",
+    "accetta tutto e continua"
+  ],
+  "tcf": {
+    "cmpId": 299,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ajax.googleapis.com": {
+      "first_s": 2.29,
+      "last_s": 2.29
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.29,
+      "last_s": 2.99
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.65,
+      "last_s": 4.09
+    },
+    "go.ezodn.com": {
+      "first_s": 2.27,
+      "last_s": 9.26
+    },
+    "open.video": {
+      "first_s": 2.31,
+      "last_s": 2.31
+    },
+    "privacy.gatekeeperconsent.com": {
+      "first_s": 2.27,
+      "last_s": 2.27
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.81,
+      "last_s": 3.81
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.27,
+      "last_s": 2.27
+    },
+    "the.gatekeeperconsent.com": {
+      "first_s": 2.31,
+      "last_s": 3.44
+    },
+    "www.ezojs.com": {
+      "first_s": 2.61,
+      "last_s": 3.18
+    },
+    "www.google-analytics.com": {
+      "first_s": 2.62,
+      "last_s": 3.05
+    },
+    "www.google.com": {
+      "first_s": 2.31,
+      "last_s": 4.45
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.18,
+      "last_s": 3.18
+    },
+    "www.gstatic.com": {
+      "first_s": 2.95,
+      "last_s": 4.14
+    }
+  },
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1809101986.635075,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ezfs_470361",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": 1793557185.070776,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_migrations",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_current_add",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_first_add",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_current",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_first",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_udata",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sbjs_session",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": 1793551785,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": 1828109985.241572,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gid",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": 1793636385,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gat",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": 1793550045,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_4LPSBR3V40",
+      "domain": ".accordiespartiti.it",
+      "path": "/",
+      "expires": 1828109986.006656,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

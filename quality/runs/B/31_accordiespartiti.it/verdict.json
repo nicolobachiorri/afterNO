@@ -1,0 +1,61 @@
+{
+  "host": "www.accordiespartiti.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 11,
+      "names": [
+        "WooCommerce",
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.accordiespartiti.it/",
+    "lastSeen": {
+      "ajax.googleapis.com": 1793549984483,
+      "fonts.googleapis.com": 1793549985183,
+      "fonts.gstatic.com": 1793549986283,
+      "go.ezodn.com": 1793549991451,
+      "open.video": 1793549984817,
+      "privacy.gatekeeperconsent.com": 1793549984464,
+      "region1.google-analytics.com": 1793549986008,
+      "securepubads.g.doubleclick.net": 1793549984464,
+      "the.gatekeeperconsent.com": 1793549985636,
+      "www.accordiespartiti.it": 1793550000273,
+      "www.ezojs.com": 1793549985372,
+      "www.google-analytics.com": 1793549985243,
+      "www.google.com": 1793549986645,
+      "www.googletagmanager.com": 1793549985371,
+      "www.gstatic.com": 1793549986338
+    }
+  },
+  "hostsConsidered": [
+    "ajax.googleapis.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "go.ezodn.com",
+    "open.video",
+    "privacy.gatekeeperconsent.com",
+    "region1.google-analytics.com",
+    "securepubads.g.doubleclick.net",
+    "the.gatekeeperconsent.com",
+    "www.accordiespartiti.it",
+    "www.ezojs.com",
+    "www.google-analytics.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ]
+}

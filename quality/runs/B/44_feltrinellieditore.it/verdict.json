@@ -1,0 +1,59 @@
+{
+  "host": "www.feltrinellieditore.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 2,
+      "names": [
+        "Instagram",
+        "Facebook"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.feltrinellieditore.it/",
+    "lastSeen": {
+      "ace8d973.akstat.io": 1793550297510,
+      "c.go-mpulse.net": 1793550295588,
+      "connect.facebook.net": 1793550295512,
+      "consent.cookiebot.com": 1793550295463,
+      "consentcdn.cookiebot.com": 1793550295462,
+      "fonts.gstatic.com": 1793550295753,
+      "i.ytimg.com": 1793550297513,
+      "i3.ytimg.com": 1793550295146,
+      "jnn-pa.googleapis.com": 1793550297668,
+      "m.youtube.com": 1793550297625,
+      "s.go-mpulse.net": 1793550295190,
+      "vjs.zencdn.net": 1793550297504,
+      "www.facebook.com": 1793550298632,
+      "www.feltrinellieditore.it": 1793550298628,
+      "www.google.com": 1793550296965,
+      "www.youtube-nocookie.com": 1793550299955
+    }
+  },
+  "hostsConsidered": [
+    "ace8d973.akstat.io",
+    "c.go-mpulse.net",
+    "connect.facebook.net",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "fonts.gstatic.com",
+    "i.ytimg.com",
+    "i3.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "m.youtube.com",
+    "s.go-mpulse.net",
+    "vjs.zencdn.net",
+    "www.facebook.com",
+    "www.feltrinellieditore.it",
+    "www.google.com",
+    "www.youtube-nocookie.com"
+  ]
+}

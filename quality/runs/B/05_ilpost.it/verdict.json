@@ -1,0 +1,91 @@
+{
+  "host": "www.ilpost.it",
+  "choice": {
+    "at": 1793549327438,
+    "choice": "rejected",
+    "label": "Continua senza accettare",
+    "site": "ilpost.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Continua senza accettare"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "citynews.ovh"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 8,
+      "names": [
+        "Google Analytics",
+        "Crazy Egg"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.ilpost.it/",
+    "lastSeen": {
+      "api-prod.ilpost.it": 1793549332764,
+      "assets-tracking.crazyegg.com": 1793549321969,
+      "cdn.iubenda.com": 1793549332618,
+      "cdn.jsdelivr.net": 1793549321856,
+      "city-news.it": 1793549332671,
+      "citynews.stgy.ovh": 1793549332759,
+      "cs.iubenda.com": 1793549320737,
+      "dl.dmp.citynews.ovh": 1793549332689,
+      "dmp.citynews.ovh": 1793549332769,
+      "fonts.googleapis.com": 1793549318183,
+      "fonts.gstatic.com": 1793549318471,
+      "gtm.ilpost.it": 1793549333191,
+      "idb.iubenda.com": 1793549332718,
+      "pagead2.googlesyndication.com": 1793549333153,
+      "pagestates-tracking.crazyegg.com": 1793549321969,
+      "sb.scorecardresearch.com": 1793549332904,
+      "script.crazyegg.com": 1793549333048,
+      "securepubads.g.doubleclick.net": 1793549332816,
+      "static-prod.cdnilpost.com": 1793549332855,
+      "static-prod.ilpost.it": 1793549319306,
+      "tracking.crazyegg.com": 1793549321969,
+      "www.eventbrite.com": 1793549320108,
+      "www.googletagmanager.com": 1793549332849,
+      "www.ilpost.it": 1793549332856
+    }
+  },
+  "hostsConsidered": [
+    "api-prod.ilpost.it",
+    "cdn.iubenda.com",
+    "city-news.it",
+    "citynews.stgy.ovh",
+    "dl.dmp.citynews.ovh",
+    "dmp.citynews.ovh",
+    "gtm.ilpost.it",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "sb.scorecardresearch.com",
+    "script.crazyegg.com",
+    "securepubads.g.doubleclick.net",
+    "static-prod.cdnilpost.com",
+    "www.googletagmanager.com",
+    "www.ilpost.it"
+  ]
+}

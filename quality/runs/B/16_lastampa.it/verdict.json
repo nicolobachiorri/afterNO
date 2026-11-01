@@ -1,0 +1,118 @@
+{
+  "host": "www.lastampa.it",
+  "choice": {
+    "at": 1793549618453,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "site": "lastampa.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "blendee.com"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 4,
+      "names": [
+        "SAP"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.lastampa.it/",
+    "lastSeen": {
+      "6pnzfdywj2vvhwqz7xzyv5jw0yqgs1793549623.nuid.imrworldwide.com": 1793549623953,
+      "apis.google.com": 1793549612152,
+      "c.blendee.com": 1793549619281,
+      "cdn-gl.imrworldwide.com": 1793549623922,
+      "cdn.iubenda.com": 1793549611193,
+      "cdns.eu1.gigya.com": 1793549623868,
+      "connect.facebook.net": 1793549612255,
+      "cpl.iubenda.com": 1793549618441,
+      "cs.iubenda.com": 1793549610769,
+      "did.blendee.com": 1793549619165,
+      "eulogin.gedi.it": 1793549624171,
+      "eulogin.lastampa.it": 1793549611033,
+      "events.newsroom.bi": 1793549629009,
+      "experiences.newsroom.bi": 1793549624004,
+      "fundingchoicesmessages.google.com": 1793549624758,
+      "i.ytimg.com": 1793549610502,
+      "idb.iubenda.com": 1793549623987,
+      "marfeelexperimentsexperienceengine.mrf.io": 1793549614262,
+      "oasjs.kataweb.it": 1793549624191,
+      "oeibv0sfkatgudpskmna5y6dgw16w1793549611.nuid.imrworldwide.com": 1793549612139,
+      "region1.analytics.google.com": 1793549628933,
+      "region1.google-analytics.com": 1793549628978,
+      "rt.gedidigital.it": 1793549623976,
+      "scripts.kataweb.it": 1793549623816,
+      "sdk.mrf.io": 1793549614263,
+      "secure-it.imrworldwide.com": 1793549625958,
+      "securepubads.g.doubleclick.net": 1793549623981,
+      "stats.g.doubleclick.net": 1793549611580,
+      "tlh.gedidigital.it": 1793549623570,
+      "tra.neodatagroup.com": 1793549624350,
+      "webcomponent.gedidigital.it": 1793549620252,
+      "www.facebook.com": 1793549624170,
+      "www.gedistatic.it": 1793549611345,
+      "www.google.it": 1793549611580,
+      "www.googletagmanager.com": 1793549623557,
+      "www.lastampa.it": 1793549623409,
+      "www.lastampastatic.it": 1793549624771,
+      "www.repstatic.it": 1793549611346,
+      "www.vaticannews.va": 1793549623896
+    }
+  },
+  "hostsConsidered": [
+    "6pnzfdywj2vvhwqz7xzyv5jw0yqgs1793549623.nuid.imrworldwide.com",
+    "c.blendee.com",
+    "cdn-gl.imrworldwide.com",
+    "cdns.eu1.gigya.com",
+    "did.blendee.com",
+    "eulogin.gedi.it",
+    "events.newsroom.bi",
+    "experiences.newsroom.bi",
+    "fundingchoicesmessages.google.com",
+    "idb.iubenda.com",
+    "oasjs.kataweb.it",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "rt.gedidigital.it",
+    "scripts.kataweb.it",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "tlh.gedidigital.it",
+    "tra.neodatagroup.com",
+    "webcomponent.gedidigital.it",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "www.lastampa.it",
+    "www.lastampastatic.it",
+    "www.vaticannews.va"
+  ]
+}

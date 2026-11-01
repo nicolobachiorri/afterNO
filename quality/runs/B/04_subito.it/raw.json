@@ -1,0 +1,221 @@
+{
+  "url": "https://www.subito.it",
+  "final_url": "https://www.subito.it/",
+  "click_at_s": 11.0,
+  "reload_at_s": 16.01,
+  "reject": "button: 'Continua senza accettare \u2192' in main (normal click)",
+  "visible_buttons": [
+    "Continua senza accettare \u2192",
+    "Vedi i nostri 144 partner",
+    "Personalizza",
+    "Accetta",
+    "Motori",
+    "Market",
+    "Immobili",
+    "Lavoro",
+    "Pi\u00f9 filtri",
+    "Vedi 549.620 annunci",
+    "Auto",
+    "Moto e Scooter",
+    "Accessori Auto",
+    "Accessori Moto",
+    "Caravan e Camper"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "82eec1130edb918676c96536675b4286.safeframe.googlesyndication.com",
+    "ac0de05588934cd8dad04aa898a7806f.safeframe.googlesyndication.com",
+    "api.privacy-center.org",
+    "cdn.jsdelivr.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "images.sbito.it",
+    "pagead2.googlesyndication.com",
+    "sdk.privacy-center.org",
+    "securepubads.g.doubleclick.net",
+    "websdk.appsflyersdk.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "82eec1130edb918676c96536675b4286.safeframe.googlesyndication.com",
+    "cdn.jsdelivr.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "images.sbito.it",
+    "pagead2.googlesyndication.com",
+    "sdk.privacy-center.org",
+    "securepubads.g.doubleclick.net",
+    "websdk.appsflyersdk.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "82eec1130edb918676c96536675b4286.safeframe.googlesyndication.com": {
+      "first_s": 16.46,
+      "last_s": 16.46
+    },
+    "ac0de05588934cd8dad04aa898a7806f.safeframe.googlesyndication.com": {
+      "first_s": 11.06,
+      "last_s": 11.06
+    },
+    "api.privacy-center.org": {
+      "first_s": 11.04,
+      "last_s": 11.04
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.03,
+      "last_s": 16.21
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 11.05,
+      "last_s": 17.1
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 11.26,
+      "last_s": 16.58
+    },
+    "images.sbito.it": {
+      "first_s": 3.32,
+      "last_s": 16.26
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.5,
+      "last_s": 16.54
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 2.38,
+      "last_s": 16.22
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.38,
+      "last_s": 16.31
+    },
+    "websdk.appsflyersdk.com": {
+      "first_s": 3.29,
+      "last_s": 16.24
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.05,
+      "last_s": 16.28
+    }
+  },
+  "cookies": [
+    {
+      "name": "kppid",
+      "domain": ".subito.it",
+      "path": "/",
+      "expires": 1811693291.762797,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "akacd_orodha",
+      "domain": "www.subito.it",
+      "path": "/",
+      "expires": 1828109291.76375,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cis-jwe",
+      "domain": ".subito.it",
+      "path": "/",
+      "expires": 1825085292.791107,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pulse2data",
+      "domain": ".subito.it",
+      "path": "/",
+      "expires": 1828109292.792299,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_D72SGH4DYJ",
+      "domain": ".subito.it",
+      "path": "/",
+      "expires": 1828109293.252393,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".subito.it",
+      "path": "/",
+      "expires": 1828109293.252516,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FPID",
+      "domain": ".subito.it",
+      "path": "/",
+      "expires": 1828109293.523371,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FPLC",
+      "domain": ".subito.it",
+      "path": "/",
+      "expires": 1793621293.523454,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_dcs",
+      "domain": ".subito.it",
+      "path": "/",
+      "expires": 1825171700,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".subito.it",
+      "path": "/",
+      "expires": 1825171700,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".subito.it",
+      "path": "/",
+      "expires": 1809101300,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

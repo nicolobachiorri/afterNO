@@ -1,0 +1,99 @@
+{
+  "host": "www.giallozafferano.it",
+  "choice": {
+    "at": 1793549382043,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "site": "giallozafferano.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "wt-eu02.net"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.giallozafferano.it/",
+    "lastSeen": {
+      "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app": 1793549373527,
+      "6da7fd90741bf29ed4e0ca1e2cc06017.safeframe.googlesyndication.com": 1793549383580,
+      "85aac2d9d5234a062b1f1d8fc4dd0e2c.safeframe.googlesyndication.com": 1793549388337,
+      "cdn-gl.imrworldwide.com": 1793549387473,
+      "cdn.adkaora.space": 1793549382790,
+      "cdn.ampproject.org": 1793549384225,
+      "cdn.iubenda.com": 1793549374795,
+      "cpl.iubenda.com": 1793549382025,
+      "cs.iubenda.com": 1793549374433,
+      "dafne.sirio.stbm.it": 1793549387239,
+      "ep1.adtrafficquality.google": 1793549388963,
+      "ep2.adtrafficquality.google": 1793549388440,
+      "fonts.googleapis.com": 1793549373237,
+      "fonts.gstatic.com": 1793549373576,
+      "fundingchoicesmessages.google.com": 1793549387521,
+      "idb.iubenda.com": 1793549387607,
+      "mediasetitalia01.wt-eu02.net": 1793549387533,
+      "ourvyhugco2ojher7ik2tkbm44pum1793549375.nuid.imrworldwide.com": 1793549376094,
+      "pagead2.googlesyndication.com": 1793549390589,
+      "pixel.adsafeprotected.com": 1793549388219,
+      "region1.google-analytics.com": 1793549393055,
+      "responder.wt-safetag.com": 1793549387413,
+      "sb.scorecardresearch.com": 1793549387583,
+      "secure-it.imrworldwide.com": 1793549389531,
+      "securepubads.g.doubleclick.net": 1793549383549,
+      "static.adsafeprotected.com": 1793549382946,
+      "static.cloudflareinsights.com": 1793549373289,
+      "t3.gstatic.com": 1793549374960,
+      "tpc.googlesyndication.com": 1793549384226,
+      "www.giallozafferano.it": 1793549392249,
+      "www.google.com": 1793549374807,
+      "www.googletagmanager.com": 1793549387063,
+      "www.gstatic.com": 1793549378731,
+      "xzvc3orjq08n1cime3n8bmnf0xwp91793549387.nuid.imrworldwide.com": 1793549387524
+    }
+  },
+  "hostsConsidered": [
+    "6da7fd90741bf29ed4e0ca1e2cc06017.safeframe.googlesyndication.com",
+    "85aac2d9d5234a062b1f1d8fc4dd0e2c.safeframe.googlesyndication.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.adkaora.space",
+    "cdn.ampproject.org",
+    "dafne.sirio.stbm.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fundingchoicesmessages.google.com",
+    "idb.iubenda.com",
+    "mediasetitalia01.wt-eu02.net",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "region1.google-analytics.com",
+    "responder.wt-safetag.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "tpc.googlesyndication.com",
+    "www.giallozafferano.it",
+    "www.googletagmanager.com",
+    "xzvc3orjq08n1cime3n8bmnf0xwp91793549387.nuid.imrworldwide.com"
+  ]
+}

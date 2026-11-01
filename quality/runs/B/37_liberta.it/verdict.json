@@ -1,0 +1,127 @@
+{
+  "host": "www.liberta.it",
+  "choice": {
+    "at": 1793550142894,
+    "choice": "rejected",
+    "legitimateInterests": 6,
+    "purposesConsented": 0,
+    "site": "liberta.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "bad",
+      "key": "itemLegitimate",
+      "count": 6
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 2,
+      "names": [
+        "googlesyndication.com",
+        "ID5 (id5-sync.com)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Prebid SharedID (PubCommon ID)"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.liberta.it/",
+    "lastSeen": {
+      "554c3cb73143fe9d5b73ad5c8be07e76.safeframe.googlesyndication.com": 1793550146909,
+      "cdn.fusion-platform.com": 1793550142768,
+      "cdn.id5-sync.com": 1793550144382,
+      "cdn.mgaru.dev": 1793550142769,
+      "code.jquery.com": 1793550133923,
+      "consent.cookiebot.com": 1793550142763,
+      "consentcdn.cookiebot.com": 1793550147973,
+      "dmp.im-apps.net": 1793550142768,
+      "ep1.adtrafficquality.google": 1793550150837,
+      "ep2.adtrafficquality.google": 1793550150316,
+      "fb9f722e12d1700591a95c4b6aadd1ff.safeframe.googlesyndication.com": 1793550150157,
+      "gtrace.mediago.io": 1793550151188,
+      "gum.criteo.com": 1793550148041,
+      "ib.adnxs-simple.com": 1793550148272,
+      "id5-sync.com": 1793550148834,
+      "ident.mygaru.com": 1793550143270,
+      "images.mediago.io": 1793550150173,
+      "invstatic101.creativecdn.com": 1793550142769,
+      "lb.eu-1-id5-sync.com": 1793550148640,
+      "lbs.eu-1-id5-sync.com": 1793550145493,
+      "liberta-cos-fra1-01.fra1.cdn.digitaloceanspaces.com": 1793550148228,
+      "matomo.liberta.it": 1793550149111,
+      "oa.openxcdn.net": 1793550142768,
+      "pagead2.googlesyndication.com": 1793550151258,
+      "s.clickiocdn.com": 1793550142907,
+      "s0.2mdn.net": 1793550145103,
+      "securepubads.g.doubleclick.net": 1793550148089,
+      "spadsync.com": 1793550148084,
+      "ssb-global.smartadserver.com": 1793550148272,
+      "static.criteo.net": 1793550142769,
+      "sync6.im-apps.net": 1793550143260,
+      "tags.crwdcntrl.net": 1793550142769,
+      "tpc.googlesyndication.com": 1793550148991,
+      "trace-eu.mediago.io": 1793550151188,
+      "up.clickiocdn.com": 1793550152521,
+      "vcdn.liberta.it": 1793550147940,
+      "vms.streamup.eu": 1793550148561,
+      "www.liberta.it": 1793550149101
+    }
+  },
+  "hostsConsidered": [
+    "554c3cb73143fe9d5b73ad5c8be07e76.safeframe.googlesyndication.com",
+    "cdn.id5-sync.com",
+    "consentcdn.cookiebot.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fb9f722e12d1700591a95c4b6aadd1ff.safeframe.googlesyndication.com",
+    "gtrace.mediago.io",
+    "gum.criteo.com",
+    "ib.adnxs-simple.com",
+    "id5-sync.com",
+    "ident.mygaru.com",
+    "images.mediago.io",
+    "lb.eu-1-id5-sync.com",
+    "lbs.eu-1-id5-sync.com",
+    "liberta-cos-fra1-01.fra1.cdn.digitaloceanspaces.com",
+    "matomo.liberta.it",
+    "pagead2.googlesyndication.com",
+    "s.clickiocdn.com",
+    "s0.2mdn.net",
+    "securepubads.g.doubleclick.net",
+    "spadsync.com",
+    "ssb-global.smartadserver.com",
+    "sync6.im-apps.net",
+    "tpc.googlesyndication.com",
+    "trace-eu.mediago.io",
+    "up.clickiocdn.com",
+    "vcdn.liberta.it",
+    "vms.streamup.eu",
+    "www.liberta.it"
+  ]
+}

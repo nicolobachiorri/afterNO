@@ -1,0 +1,373 @@
+{
+  "url": "https://www.immobiliare.it",
+  "final_url": "https://www.immobiliare.it/",
+  "click_at_s": 10.85,
+  "reload_at_s": 15.86,
+  "reject": "button: 'Continua senza accettare \u2192' in main (normal click)",
+  "visible_buttons": [
+    "Continua senza accettare \u2192",
+    "Vedi i nostri 22 partner",
+    "PI\u00d9 INFORMAZIONI",
+    "ACCETTA",
+    "Italia | Italiano",
+    "Italia",
+    "Italiano",
+    "PUBBLICA",
+    "Accedi",
+    "Case - Appartamenti",
+    "N.1 Immobiliare.it \u00e8 il N.1 in Italia",
+    "Ricerca AI",
+    "Case in vendita a Roma RomaResidenziale",
+    "Case in vendita a Milano MilanoResidenziale",
+    "Case in vendita a Torino TorinoResidenziale"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "accounts.google.com",
+    "ams.creativecdn.com",
+    "api-js.datadome.co",
+    "api.privacy-center.org",
+    "cdn.debugbear.com",
+    "cdn.segment.com",
+    "cm.creativecdn.com",
+    "cm.g.doubleclick.net",
+    "crt.im-cdn.it",
+    "js.datadome.co",
+    "pagead2.googlesyndication.com",
+    "pwm.im-cdn.it",
+    "sdk.fra-01.braze.eu",
+    "sdk.privacy-center.org",
+    "tags.creativecdn.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "accounts.google.com",
+    "ams.creativecdn.com",
+    "api-js.datadome.co",
+    "cdn.debugbear.com",
+    "cdn.segment.com",
+    "cm.creativecdn.com",
+    "cm.g.doubleclick.net",
+    "crt.im-cdn.it",
+    "js.datadome.co",
+    "pagead2.googlesyndication.com",
+    "pwm.im-cdn.it",
+    "sdk.privacy-center.org",
+    "tags.creativecdn.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 3.98,
+      "last_s": 16.17
+    },
+    "ams.creativecdn.com": {
+      "first_s": 3.6,
+      "last_s": 16.16
+    },
+    "ams46.creativecdn.com": {
+      "first_s": 4.17,
+      "last_s": 4.17
+    },
+    "api-js.datadome.co": {
+      "first_s": 4.26,
+      "last_s": 16.19
+    },
+    "api.privacy-center.org": {
+      "first_s": 10.89,
+      "last_s": 10.89
+    },
+    "cdn.debugbear.com": {
+      "first_s": 2.26,
+      "last_s": 15.99
+    },
+    "cdn.segment.com": {
+      "first_s": 3.28,
+      "last_s": 16.13
+    },
+    "cm.creativecdn.com": {
+      "first_s": 16.61,
+      "last_s": 16.61
+    },
+    "cm.g.doubleclick.net": {
+      "first_s": 16.24,
+      "last_s": 16.5
+    },
+    "crt.im-cdn.it": {
+      "first_s": 2.26,
+      "last_s": 15.99
+    },
+    "dust2.fra-01.braze.eu": {
+      "first_s": 3.67,
+      "last_s": 3.67
+    },
+    "gum.criteo.com": {
+      "first_s": 3.24,
+      "last_s": 3.67
+    },
+    "ib.adnxs.com": {
+      "first_s": 4.17,
+      "last_s": 4.49
+    },
+    "js.datadome.co": {
+      "first_s": 3.98,
+      "last_s": 16.17
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.65,
+      "last_s": 16.12
+    },
+    "pwm.im-cdn.it": {
+      "first_s": 2.85,
+      "last_s": 16.13
+    },
+    "sdk.fra-01.braze.eu": {
+      "first_s": 2.9,
+      "last_s": 13.41
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 2.78,
+      "last_s": 16.08
+    },
+    "tags.creativecdn.com": {
+      "first_s": 3.24,
+      "last_s": 16.1
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.23,
+      "last_s": 16.1
+    }
+  },
+  "cookies": [
+    {
+      "name": "ab.storage.deviceId.fe67ee0d-3b20-47d7-95bc-dbbe2778b467",
+      "domain": ".immobiliare.it",
+      "path": "/",
+      "expires": 1828109468,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__rtbh.ssgtm.aid",
+      "domain": ".immobiliare.it",
+      "path": "/",
+      "expires": 1828109468.367004,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "uid",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1827245455.895191,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cto_bundle",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1827245455.97177,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://immobiliare.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "crto_is_user_optout",
+      "domain": ".immobiliare.it",
+      "path": "/",
+      "expires": 1793808655.972426,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "crto_mapped_user_id",
+      "domain": ".immobiliare.it",
+      "path": "/",
+      "expires": 1793808655.972565,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ajs_anonymous_id",
+      "domain": ".immobiliare.it",
+      "path": "/",
+      "expires": 1825085468,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "g",
+      "domain": ".creativecdn.com",
+      "path": "/",
+      "expires": 1825085456.267181,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "c",
+      "domain": ".creativecdn.com",
+      "path": "/",
+      "expires": 1825085456.267219,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://immobiliare.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "ts",
+      "domain": ".creativecdn.com",
+      "path": "/",
+      "expires": 1825085456.267243,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://immobiliare.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "XANDR_PANID",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1801325456.785055,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://immobiliare.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "uuid2",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1801325456.78509,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "anj",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1801325456.785081,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".immobiliare.it",
+      "path": "/",
+      "expires": 1809357063,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".immobiliare.it",
+      "path": "/",
+      "expires": 1809357063,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ab.storage.sessionId.fe67ee0d-3b20-47d7-95bc-dbbe2778b467",
+      "domain": ".immobiliare.it",
+      "path": "/",
+      "expires": 1828109468,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__rtbh.aid",
+      "domain": "www.immobiliare.it",
+      "path": "/",
+      "expires": 1825085468,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__rtbh.lid",
+      "domain": "www.immobiliare.it",
+      "path": "/",
+      "expires": 1825085468,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "g_state",
+      "domain": "www.immobiliare.it",
+      "path": "/",
+      "expires": 1809101468,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "datadome",
+      "domain": ".immobiliare.it",
+      "path": "/",
+      "expires": 1825085468.486889,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IDE",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1827245468.835661,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

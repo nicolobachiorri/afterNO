@@ -1,0 +1,79 @@
+{
+  "host": "www.libero.it",
+  "choice": {
+    "at": 1793549591348,
+    "choice": "rejected",
+    "label": "Continua senza accettare",
+    "site": "libero.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Continua senza accettare"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "wt-eu02.net"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.libero.it/",
+    "lastSeen": {
+      "api.permutive.com": 1793549596618,
+      "c.amazon-adsystem.com": 1793549596636,
+      "c76babb4-dc97-48b8-9b12-80b8b7deba04.edge.permutive.app": 1793549583719,
+      "cdn-gl.imrworldwide.com": 1793549601537,
+      "cdn.iubenda.com": 1793549596536,
+      "cdn.qwtag.com": 1793549583719,
+      "cs.iubenda.com": 1793549583781,
+      "emwm2l8ux5dx9r3ns6cyw6h1isd5l1793549601.nuid.imrworldwide.com": 1793549601547,
+      "evnt.iol.it": 1793549603731,
+      "f7qw2i4j964via8o1nnobhxyygjkk1793549588.nuid.imrworldwide.com": 1793549588461,
+      "i4.plug.it": 1793549596528,
+      "i5.plug.it": 1793549584392,
+      "idb.iubenda.com": 1793549596654,
+      "italiaonline01.wt-eu02.net": 1793549596519,
+      "secure-it.imrworldwide.com": 1793549603557,
+      "securepubads.g.doubleclick.net": 1793549596661,
+      "wips.plug.it": 1793549602729,
+      "www.google.com": 1793549583639,
+      "www.gstatic.com": 1793549583104,
+      "www.iolam.it": 1793549583719,
+      "www.libero.it": 1793549596651,
+      "www.virgilio.it": 1793549596621
+    }
+  },
+  "hostsConsidered": [
+    "api.permutive.com",
+    "c.amazon-adsystem.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "emwm2l8ux5dx9r3ns6cyw6h1isd5l1793549601.nuid.imrworldwide.com",
+    "evnt.iol.it",
+    "i4.plug.it",
+    "idb.iubenda.com",
+    "italiaonline01.wt-eu02.net",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "wips.plug.it",
+    "www.libero.it",
+    "www.virgilio.it"
+  ]
+}

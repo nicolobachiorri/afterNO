@@ -1,0 +1,46 @@
+{
+  "host": "www.agriturismo.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "hometogo.net"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Snowplow"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.agriturismo.it/",
+    "lastSeen": {
+      "cdn.hometogo.net": 1793550063006,
+      "ev.hometogo.net": 1793550063087,
+      "sgtm.agriturismo.it": 1793550063065,
+      "usage.trackjs.com": 1793550063022,
+      "www.agriturismo.it": 1793550063069,
+      "www.googletagmanager.com": 1793550050696
+    }
+  },
+  "hostsConsidered": [
+    "cdn.hometogo.net",
+    "ev.hometogo.net",
+    "sgtm.agriturismo.it",
+    "usage.trackjs.com",
+    "www.agriturismo.it",
+    "www.googletagmanager.com"
+  ]
+}

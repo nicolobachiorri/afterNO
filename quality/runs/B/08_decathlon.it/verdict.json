@@ -1,0 +1,51 @@
+{
+  "host": "www.decathlon.it",
+  "choice": {
+    "at": 1793549409019,
+    "choice": "rejected",
+    "legitimateInterests": 1,
+    "purposesConsented": 0,
+    "site": "decathlon.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "bad",
+      "key": "itemLegitimate",
+      "count": 1
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.decathlon.it/",
+    "lastSeen": {
+      "api.privacy-center.org": 1793549409005,
+      "contents.mediadecathlon.com": 1793549401665,
+      "insights.v3.decathlon.net": 1793549401178,
+      "prod.transcript.decathlon.net": 1793549401608,
+      "sdk.privacy-center.org": 1793549401541,
+      "www.decathlon.it": 1793549414582,
+      "www.googletagmanager.com": 1793549401150
+    }
+  },
+  "hostsConsidered": [
+    "www.decathlon.it"
+  ]
+}

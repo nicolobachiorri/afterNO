@@ -1,0 +1,32 @@
+{
+  "host": "www.gssi.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.gssi.it/",
+    "lastSeen": {
+      "connect.facebook.net": 1793549870429,
+      "fonts.googleapis.com": 1793549869079,
+      "fonts.gstatic.com": 1793549869429,
+      "maxcdn.bootstrapcdn.com": 1793549869429,
+      "www.gssi.it": 1793549873531
+    }
+  },
+  "hostsConsidered": [
+    "connect.facebook.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "maxcdn.bootstrapcdn.com",
+    "www.gssi.it"
+  ]
+}

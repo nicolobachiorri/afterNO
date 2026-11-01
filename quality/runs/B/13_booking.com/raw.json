@@ -1,0 +1,238 @@
+{
+  "url": "https://www.booking.com",
+  "final_url": "https://www.booking.com/index.it.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaHGIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4AtnJndcGwAIB0gIkZTE0MTc5NWItMDhlNC00NWFkLWFmNTYtODMxNzk4Nzc2ZjY32AIB4AIB&chal_t=1793549529137&force_referer=",
+  "click_at_s": 10.85,
+  "reload_at_s": 15.85,
+  "reject": "button: 'Rifiuto' in main (normal click)",
+  "visible_buttons": [
+    "EUR",
+    "Seleziona date Data check-in \u2014 Data check-out",
+    "2 adulti \u00b7 0 bambini \u00b7 1 camera",
+    "Cerca",
+    "Vedi di pi\u00f9",
+    "Gestisci le impostazioni",
+    "Rifiuto",
+    "Accetto"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "accounts.google.com",
+    "booking-privacy.my.onetrust.com",
+    "bstatic.com",
+    "cdn.cookielaw.org",
+    "cf.bstatic.com",
+    "cf2.bstatic.com",
+    "d8c14d4960ca.edge.sdk.awswaf.com",
+    "geolocation.onetrust.com",
+    "pagead2.googlesyndication.com",
+    "q-xx.bstatic.com",
+    "r-xx.bstatic.com",
+    "t-cf.bstatic.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "accounts.google.com",
+    "booking-privacy.my.onetrust.com",
+    "bstatic.com",
+    "cdn.cookielaw.org",
+    "cf.bstatic.com",
+    "cf2.bstatic.com",
+    "d8c14d4960ca.edge.sdk.awswaf.com",
+    "geolocation.onetrust.com",
+    "pagead2.googlesyndication.com",
+    "q-xx.bstatic.com",
+    "r-xx.bstatic.com",
+    "t-cf.bstatic.com"
+  ],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 17.71,
+      "last_s": 18.81
+    },
+    "booking-privacy.my.onetrust.com": {
+      "first_s": 10.88,
+      "last_s": 15.86
+    },
+    "bstatic.com": {
+      "first_s": 4.68,
+      "last_s": 17.51
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 3.81,
+      "last_s": 17.2
+    },
+    "cf.bstatic.com": {
+      "first_s": 3.8,
+      "last_s": 20.47
+    },
+    "cf2.bstatic.com": {
+      "first_s": 4.41,
+      "last_s": 17.11
+    },
+    "d8c14d4960ca.edge.sdk.awswaf.com": {
+      "first_s": 4.68,
+      "last_s": 25.3
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 4.45,
+      "last_s": 17.11
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.81,
+      "last_s": 17.11
+    },
+    "q-xx.bstatic.com": {
+      "first_s": 4.86,
+      "last_s": 17.71
+    },
+    "r-xx.bstatic.com": {
+      "first_s": 4.07,
+      "last_s": 17.71
+    },
+    "t-cf.bstatic.com": {
+      "first_s": 4.07,
+      "last_s": 16.83
+    }
+  },
+  "cookies": [
+    {
+      "name": "bkng_sso_ses",
+      "domain": ".booking.com",
+      "path": "/",
+      "expires": 1828109537.976056,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bkng_sso_session",
+      "domain": ".booking.com",
+      "path": "/",
+      "expires": 1828109537.976128,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pcm_pac",
+      "domain": ".booking.com",
+      "path": "/",
+      "expires": 1793553138.149955,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".www.booking.com",
+      "path": "/",
+      "expires": 1825085537,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bkng_ap_sso_session",
+      "domain": ".account.booking.com",
+      "path": "/",
+      "expires": 1828109537.975908,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pcm_consent",
+      "domain": ".booking.com",
+      "path": "/",
+      "expires": 1825085537.976184,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bkng_sso_auth",
+      "domain": ".booking.com",
+      "path": "/",
+      "expires": 1828109537.976256,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bkng_sso_auth_1793549538",
+      "domain": ".booking.com",
+      "path": "/",
+      "expires": 1828109537.976323,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cflb",
+      "domain": "booking-privacy.my.onetrust.com",
+      "path": "/",
+      "expires": 1793551342.908057,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".www.booking.com",
+      "path": "/",
+      "expires": 1809101543,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bk_nav_search",
+      "domain": ".booking.com",
+      "path": "/",
+      "expires": 1793551344.238867,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bkng",
+      "domain": ".booking.com",
+      "path": "/",
+      "expires": 1828109545.493907,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "g_state",
+      "domain": ".booking.com",
+      "path": "/",
+      "expires": 1809101545,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "aws-waf-token",
+      "domain": ".booking.com",
+      "path": "/",
+      "expires": 1793895152,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

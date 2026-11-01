@@ -1,0 +1,108 @@
+{
+  "url": "https://www.feltrinellieditore.it",
+  "final_url": "https://www.feltrinellieditore.it/",
+  "click_at_s": 27.54,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Accetto i cookie",
+    "Impostazioni cookie"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ace8d973.akstat.io": {
+      "first_s": 5.41,
+      "last_s": 5.41
+    },
+    "c.go-mpulse.net": {
+      "first_s": 3.49,
+      "last_s": 3.49
+    },
+    "connect.facebook.net": {
+      "first_s": 2.94,
+      "last_s": 3.42
+    },
+    "consent.cookiebot.com": {
+      "first_s": 2.84,
+      "last_s": 3.37
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 3.37,
+      "last_s": 3.37
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.39,
+      "last_s": 4.11
+    },
+    "i.ytimg.com": {
+      "first_s": 5.12,
+      "last_s": 5.42
+    },
+    "i3.ytimg.com": {
+      "first_s": 2.84,
+      "last_s": 2.84
+    },
+    "jnn-pa.googleapis.com": {
+      "first_s": 5.49,
+      "last_s": 5.57
+    },
+    "m.youtube.com": {
+      "first_s": 5.46,
+      "last_s": 5.53
+    },
+    "s.go-mpulse.net": {
+      "first_s": 3.1,
+      "last_s": 3.1
+    },
+    "vjs.zencdn.net": {
+      "first_s": 2.83,
+      "last_s": 5.41
+    },
+    "www.facebook.com": {
+      "first_s": 6.54,
+      "last_s": 6.54
+    },
+    "www.google.com": {
+      "first_s": 4.75,
+      "last_s": 4.87
+    },
+    "www.youtube-nocookie.com": {
+      "first_s": 3.06,
+      "last_s": 7.86
+    }
+  },
+  "cookies": [
+    {
+      "name": "django_language",
+      "domain": "www.feltrinellieditore.it",
+      "path": "/",
+      "expires": 1825086294.900605,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sessionid",
+      "domain": "www.feltrinellieditore.it",
+      "path": "/",
+      "expires": 1794759894.900807,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".feltrinellieditore.it",
+      "path": "/",
+      "expires": 1801326295,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

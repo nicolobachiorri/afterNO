@@ -1,0 +1,106 @@
+{
+  "host": "www.webboh.it",
+  "choice": {
+    "at": 1793549938968,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "site": "webboh.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 13,
+      "names": [
+        "WooCommerce",
+        "Google Analytics",
+        "Crazy Egg"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.webboh.it/",
+    "lastSeen": {
+      "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app": 1793549930476,
+      "67414969eaa6752fb225776fb2908bc8.safeframe.googlesyndication.com": 1793549939463,
+      "773314131e024d03d1f367b6bd7ea5df.safeframe.googlesyndication.com": 1793549944816,
+      "cdn-gl.imrworldwide.com": 1793549944127,
+      "cdn.adkaora.space": 1793549931281,
+      "cdn.ampproject.org": 1793549941509,
+      "cdn.iubenda.com": 1793549931703,
+      "cpl.iubenda.com": 1793549938965,
+      "cs.iubenda.com": 1793549931110,
+      "dafne.sirio.stbm.it": 1793549944063,
+      "ep1.adtrafficquality.google": 1793549945479,
+      "ep2.adtrafficquality.google": 1793549944954,
+      "fonts.googleapis.com": 1793549941510,
+      "fonts.gstatic.com": 1793549941754,
+      "fundingchoicesmessages.google.com": 1793549944396,
+      "idb.iubenda.com": 1793549944295,
+      "pagead2.googlesyndication.com": 1793549945070,
+      "pixel.adsafeprotected.com": 1793549944535,
+      "q5iizus5wxe6yhknkyxiezhp0fwkh1793549933.nuid.imrworldwide.com": 1793549933895,
+      "region1.google-analytics.com": 1793549949108,
+      "sb.scorecardresearch.com": 1793549944339,
+      "script.crazyegg.com": 1793549944417,
+      "secure-it.imrworldwide.com": 1793549946140,
+      "securepubads.g.doubleclick.net": 1793549938984,
+      "static.adsafeprotected.com": 1793549938971,
+      "static.cloudflareinsights.com": 1793549930309,
+      "t1.gstatic.com": 1793549931801,
+      "tpc.googlesyndication.com": 1793549941518,
+      "tracking.crazyegg.com": 1793549932305,
+      "vnowr6803kkcfpdt5hayld3v1uj2g1793549944.nuid.imrworldwide.com": 1793549944134,
+      "www.google.com": 1793549944388,
+      "www.googletagmanager.com": 1793549930485,
+      "www.gstatic.com": 1793549944394,
+      "www.webboh.it": 1793549944535
+    }
+  },
+  "hostsConsidered": [
+    "67414969eaa6752fb225776fb2908bc8.safeframe.googlesyndication.com",
+    "773314131e024d03d1f367b6bd7ea5df.safeframe.googlesyndication.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.ampproject.org",
+    "dafne.sirio.stbm.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "region1.google-analytics.com",
+    "sb.scorecardresearch.com",
+    "script.crazyegg.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "tpc.googlesyndication.com",
+    "vnowr6803kkcfpdt5hayld3v1uj2g1793549944.nuid.imrworldwide.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.webboh.it"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "host": "www.comune.milano.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.comune.milano.it/",
+    "lastSeen": {
+      "comune.milano.it": 1793550016610,
+      "fonts.googleapis.com": 1793550016929,
+      "fonts.gstatic.com": 1793550017172,
+      "www.comune.milano.it": 1793550017325
+    }
+  },
+  "hostsConsidered": [
+    "comune.milano.it",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.comune.milano.it"
+  ]
+}

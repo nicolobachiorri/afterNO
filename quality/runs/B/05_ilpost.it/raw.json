@@ -1,0 +1,284 @@
+{
+  "url": "https://www.ilpost.it",
+  "final_url": "https://www.ilpost.it/",
+  "click_at_s": 11.51,
+  "reload_at_s": 16.51,
+  "reject": "button: 'Continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "39 min",
+    "Opzioni cookie",
+    "Continua senza accettare",
+    "Accetta e chiudi"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "city-news.it",
+    "citynews.stgy.ovh",
+    "cs.iubenda.com",
+    "dl.dmp.citynews.ovh",
+    "dmp.citynews.ovh",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "sb.scorecardresearch.com",
+    "script.crazyegg.com",
+    "securepubads.g.doubleclick.net",
+    "static-prod.cdnilpost.com",
+    "www.eventbrite.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "city-news.it",
+    "citynews.stgy.ovh",
+    "cs.iubenda.com",
+    "dl.dmp.citynews.ovh",
+    "dmp.citynews.ovh",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "sb.scorecardresearch.com",
+    "script.crazyegg.com",
+    "securepubads.g.doubleclick.net",
+    "static-prod.cdnilpost.com",
+    "www.eventbrite.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "assets-tracking.crazyegg.com": {
+      "first_s": 6.04,
+      "last_s": 6.04
+    },
+    "cdn.iubenda.com": {
+      "first_s": 3.27,
+      "last_s": 16.69
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 5.93,
+      "last_s": 16.85
+    },
+    "city-news.it": {
+      "first_s": 3.27,
+      "last_s": 16.74
+    },
+    "citynews.stgy.ovh": {
+      "first_s": 4.5,
+      "last_s": 16.83
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.26,
+      "last_s": 16.68
+    },
+    "dl.dmp.citynews.ovh": {
+      "first_s": 4.01,
+      "last_s": 16.76
+    },
+    "dmp.citynews.ovh": {
+      "first_s": 4.99,
+      "last_s": 16.84
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.25,
+      "last_s": 16.61
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.54,
+      "last_s": 16.65
+    },
+    "idb.iubenda.com": {
+      "first_s": 5.77,
+      "last_s": 16.79
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.18,
+      "last_s": 17.23
+    },
+    "pagestates-tracking.crazyegg.com": {
+      "first_s": 6.04,
+      "last_s": 6.04
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 4.18,
+      "last_s": 16.98
+    },
+    "script.crazyegg.com": {
+      "first_s": 4.18,
+      "last_s": 17.26
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.25,
+      "last_s": 16.89
+    },
+    "static-prod.cdnilpost.com": {
+      "first_s": 2.25,
+      "last_s": 16.74
+    },
+    "tracking.crazyegg.com": {
+      "first_s": 6.04,
+      "last_s": 6.04
+    },
+    "www.eventbrite.com": {
+      "first_s": 4.18,
+      "last_s": 16.92
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.4,
+      "last_s": 16.92
+    }
+  },
+  "cookies": [
+    {
+      "name": "~DL.i",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1828022932,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.c",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1801325332,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.s",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1793551132,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "theme",
+      "domain": "www.ilpost.it",
+      "path": "/",
+      "expires": 1825085318.414188,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ilpost-token",
+      "domain": ".ilpost.it",
+      "path": "/",
+      "expires": 1801325332.758681,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".ilpost.it",
+      "path": "/",
+      "expires": 1828109333.182739,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cebs",
+      "domain": ".ilpost.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FPID",
+      "domain": ".ilpost.it",
+      "path": "/",
+      "expires": 1828109333.373733,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FPLC",
+      "domain": ".ilpost.it",
+      "path": "/",
+      "expires": 1793621322.153422,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ce.clock_data",
+      "domain": ".ilpost.it",
+      "path": "/",
+      "expires": 1793635722,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ce.seg.targeting",
+      "domain": ".ilpost.it",
+      "path": "/",
+      "expires": 1825085327,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_2T31DE0K8K",
+      "domain": ".ilpost.it",
+      "path": "/",
+      "expires": 1828109333.182575,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ce.s",
+      "domain": ".ilpost.it",
+      "path": "/",
+      "expires": 1825085333,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cebsp_",
+      "domain": ".ilpost.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

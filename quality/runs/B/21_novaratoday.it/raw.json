@@ -1,0 +1,206 @@
+{
+  "url": "https://www.novaratoday.it",
+  "final_url": "https://www.novaratoday.it/",
+  "click_at_s": 10.55,
+  "reload_at_s": null,
+  "reject": "paywall label found",
+  "visible_buttons": [
+    "RIFIUTA E ABBONATI",
+    "ACCETTA"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "region1.google-analytics.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "abacus.jasoncameron.dev": {
+      "first_s": 2.45,
+      "last_s": 2.45
+    },
+    "cdn.brandmetrics.com": {
+      "first_s": 2.45,
+      "last_s": 2.45
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.41,
+      "last_s": 4.28
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.71,
+      "last_s": 2.71
+    },
+    "city-news.it": {
+      "first_s": 4.31,
+      "last_s": 4.58
+    },
+    "citynews-novaratoday.stgy.ovh": {
+      "first_s": 2.43,
+      "last_s": 5.3
+    },
+    "citynews-today.stgy.ovh": {
+      "first_s": 2.5,
+      "last_s": 2.5
+    },
+    "citynews-veneziatoday.stgy.ovh": {
+      "first_s": 2.5,
+      "last_s": 2.5
+    },
+    "citynews.stgy.ovh": {
+      "first_s": 2.31,
+      "last_s": 5.3
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.33,
+      "last_s": 3.33
+    },
+    "dl.dmp.citynews.ovh": {
+      "first_s": 2.39,
+      "last_s": 4.44
+    },
+    "dmp.citynews.ovh": {
+      "first_s": 4.77,
+      "last_s": 4.77
+    },
+    "external.citynews.it": {
+      "first_s": 2.45,
+      "last_s": 2.45
+    },
+    "idb.iubenda.com": {
+      "first_s": 4.4,
+      "last_s": 4.4
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.45,
+      "last_s": 4.4
+    },
+    "region1.google-analytics.com": {
+      "first_s": 6.91,
+      "last_s": 11.9
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 4.33,
+      "last_s": 4.4
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.45,
+      "last_s": 2.85
+    },
+    "www.citynews.it": {
+      "first_s": 4.31,
+      "last_s": 4.31
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.45,
+      "last_s": 3.67
+    },
+    "www.romatoday.it": {
+      "first_s": 2.5,
+      "last_s": 2.5
+    },
+    "www.today.it": {
+      "first_s": 2.5,
+      "last_s": 2.5
+    }
+  },
+  "cookies": [
+    {
+      "name": "~DL.i",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1828023360,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.s",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1793551560,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.c",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1801325760,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__uid",
+      "domain": "www.novaratoday.it",
+      "path": "/",
+      "expires": 1828109758.183579,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_5GGZNJB729",
+      "domain": ".novaratoday.it",
+      "path": "/",
+      "expires": 1828109762.617459,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".novaratoday.it",
+      "path": "/",
+      "expires": 1828109762.644486,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_ENB4XX7M0M",
+      "domain": ".novaratoday.it",
+      "path": "/",
+      "expires": 1828109762.63533,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_2T00RWGCM6",
+      "domain": ".novaratoday.it",
+      "path": "/",
+      "expires": 1828109762.637924,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_8P40MYBCXW",
+      "domain": ".novaratoday.it",
+      "path": "/",
+      "expires": 1828109762.644281,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}
