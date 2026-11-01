@@ -72,7 +72,8 @@ def main():
     args = ap.parse_args()
     run = HERE / "runs" / args.visit
 
-    with open(HERE / "sites.csv", encoding="utf-8") as f:
+    # Visits A and B use sample A/B; visits C1, C2... use sample C.
+    with open(HERE / ("sites_C.csv" if args.visit.startswith("C") else "sites.csv"), encoding="utf-8") as f:
         sample = {int(r["order"]): r["url"] for r in csv.DictReader(f) if r["role"].startswith("sample")}
     primary = load(run / f"judgments_{args.visit}_{args.primary}.csv")
     orders = sorted(sample)

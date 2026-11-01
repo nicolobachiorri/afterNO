@@ -196,3 +196,13 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
       queste visite. La stabilità prevista per le visite A e B si misura quindi tra
       C1 e C2.
 
+**1 novembre 2026, prima della visita C1.**
+
+11. *Campione C* (`select_sample_c.py`, `sites_C.csv`): le prime 40 riserve libere
+    della stessa lista Tranco ZJ8PG mescolata con lo stesso seme, dalla posizione 45.
+    Sostituiti prima della visita, per nome: lottomatica.it e betflag.it (scommesse,
+    riservati agli adulti). Le altre regole di sostituzione si applicano alla visita
+    C1. Stessa versione dell'estensione della visita B. Giudizio con lo stesso metodo
+    della visita B (Claude, poi Gemini come secondo giudice), registrato prima di
+    vedere i risultati.
+

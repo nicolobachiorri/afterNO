@@ -75,6 +75,11 @@ TCF_JS = """
 """
 
 
+def sample_file(visit):
+    """Visits A and B use sample A/B (sites.csv); visits C1, C2... use sample C."""
+    return HERE / ("sites_C.csv" if visit and visit.startswith("C") else "sites.csv")
+
+
 def load_sample(path, only):
     with open(path, encoding="utf-8") as f:
         rows = [r for r in csv.DictReader(f) if r["role"].startswith("sample")]
@@ -248,11 +253,11 @@ def measure_site(p, row, out_dir, headless):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--visit", choices=["A", "B"])
+    ap.add_argument("--visit", choices=["A", "B", "C1", "C2"])
     ap.add_argument("--pilot", metavar="URL",
                     help="measure one site OUTSIDE the sample, to check the robot works "
                          "without looking at results of the sample (output in runs/pilot/)")
-    ap.add_argument("--sites", type=Path, default=HERE / "sites.csv")
+    ap.add_argument("--sites", type=Path, help="sample file (default: by visit, see sample_file)")
     ap.add_argument("--only", help="comma-separated order numbers")
     ap.add_argument("--headless", action="store_true")
     args = ap.parse_args()
@@ -267,7 +272,7 @@ def main():
         sample = [{"order": "0", "url": args.pilot, "source": "pilot", "role": "pilot"}]
         args.visit, args.only = "pilot", None
     else:
-        sample = load_sample(args.sites, args.only)
+        sample = load_sample(args.sites or sample_file(args.visit), args.only)
     run_dir = HERE / "runs" / args.visit
     results = []
     with sync_playwright() as p:
