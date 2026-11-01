@@ -215,3 +215,10 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     siti «non trovati» potrebbero rispondere senza `www.`. La regola si applica
     all'indirizzo costruito, come per tutti i siti dei campioni A e C.
 
+13. *Visita C2.* Fatta lo stesso giorno della C1, circa un'ora dopo, su decisione
+    del responsabile del progetto. Con un intervallo così breve la variabilità della
+    pubblicità è probabilmente sottostimata: la stabilità misurata è un limite
+    superiore. Stessa versione dell'estensione, stesso campione (inclusi i
+    sostituti). La stabilità si calcola sulla conclusione dell'estensione nelle due
+    visite, senza un nuovo giudizio.
+
