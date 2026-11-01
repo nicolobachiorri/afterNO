@@ -1,0 +1,82 @@
+{
+  "host": "www.udinetoday.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "citynews.ovh"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 5,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.udinetoday.it/",
+    "lastSeen": {
+      "abacus.jasoncameron.dev": 1793552285853,
+      "cdn.brandmetrics.com": 1793552285849,
+      "cdn.iubenda.com": 1793552286639,
+      "cdn.jsdelivr.net": 1793552286026,
+      "city-news.it": 1793552286880,
+      "citynews-today.stgy.ovh": 1793552285916,
+      "citynews-udinetoday.stgy.ovh": 1793552287070,
+      "citynews-veneziatoday.stgy.ovh": 1793552285916,
+      "citynews.stgy.ovh": 1793552287070,
+      "cs.iubenda.com": 1793552286444,
+      "dl.dmp.citynews.ovh": 1793552286792,
+      "dmp.citynews.ovh": 1793552287073,
+      "external.citynews.it": 1793552285852,
+      "idb.iubenda.com": 1793552286743,
+      "pagead2.googlesyndication.com": 1793552286772,
+      "region1.google-analytics.com": 1793552293795,
+      "sb.scorecardresearch.com": 1793552286738,
+      "securepubads.g.doubleclick.net": 1793552286082,
+      "www.citynews.it": 1793552286674,
+      "www.googletagmanager.com": 1793552286553,
+      "www.padovaoggi.it": 1793552285916,
+      "www.romatoday.it": 1793552285914,
+      "www.today.it": 1793552285914,
+      "www.udinetoday.it": 1793552285391
+    }
+  },
+  "hostsConsidered": [
+    "abacus.jasoncameron.dev",
+    "cdn.brandmetrics.com",
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "city-news.it",
+    "citynews-today.stgy.ovh",
+    "citynews-udinetoday.stgy.ovh",
+    "citynews-veneziatoday.stgy.ovh",
+    "citynews.stgy.ovh",
+    "cs.iubenda.com",
+    "dl.dmp.citynews.ovh",
+    "dmp.citynews.ovh",
+    "external.citynews.it",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "www.citynews.it",
+    "www.googletagmanager.com",
+    "www.padovaoggi.it",
+    "www.romatoday.it",
+    "www.today.it",
+    "www.udinetoday.it"
+  ]
+}

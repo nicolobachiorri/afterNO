@@ -1,0 +1,84 @@
+{
+  "url": "https://www.iit.it",
+  "final_url": "https://www.iit.it/",
+  "click_at_s": 29.6,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "RESEARCH expand_more",
+    "EDUCATION expand_more",
+    "Consenti tutti i cookie",
+    "Impostazioni dei cookie"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "api.taggbox.com": {
+      "first_s": 5.91,
+      "last_s": 7.25
+    },
+    "cloud.tagbox.com": {
+      "first_s": 7.58,
+      "last_s": 7.58
+    },
+    "cookiehub.net": {
+      "first_s": 5.73,
+      "last_s": 6.28
+    },
+    "widget.taggbox.com": {
+      "first_s": 2.51,
+      "last_s": 7.58
+    },
+    "www.google.com": {
+      "first_s": 2.51,
+      "last_s": 2.51
+    },
+    "www.gstatic.com": {
+      "first_s": 4.75,
+      "last_s": 4.75
+    }
+  },
+  "cookies": [
+    {
+      "name": "BNES_JSESSIONID",
+      "domain": "www.iit.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "BNES_COOKIE_SUPPORT",
+      "domain": "www.iit.it",
+      "path": "/",
+      "expires": 1825088735.352331,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "BNES_GUEST_LANGUAGE_ID",
+      "domain": "www.iit.it",
+      "path": "/",
+      "expires": 1825088735.352367,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "LFR_SESSION_STATE_20105",
+      "domain": "www.iit.it",
+      "path": "/",
+      "expires": 1825088739.571971,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

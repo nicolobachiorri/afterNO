@@ -1,0 +1,805 @@
+{
+  "url": "https://www.webnode.it",
+  "final_url": "https://www.webnode.com/it/",
+  "click_at_s": 27.63,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Accedi",
+    "Descrivi di cosa tratta il tuo sito web",
+    "Scegli e personalizza il design",
+    "Pubblica e fai crescere la tua attivit\u00e0",
+    "\u00c8 facile per un principiante creare un sito web?",
+    "Quanto tempo ci vuole per creare un sito web?",
+    "Posso creare un sito web gratuitamente e autonomam",
+    "Webnode \u00e8 adatto alle piccole imprese?",
+    "Che tipo di siti web posso creare con Webnode?",
+    "Posso usare il mio dominio con Webnode?",
+    "Mostra lingue",
+    "Cookies",
+    "Gestisci preferenze",
+    "Chiudi",
+    "Use Website In a Screen-Reader Mode"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 4.11,
+      "last_s": 4.11
+    },
+    "alb.reddit.com": {
+      "first_s": 5.33,
+      "last_s": 5.33
+    },
+    "analytics-ipv6.tiktokw.us": {
+      "first_s": 5.75,
+      "last_s": 5.75
+    },
+    "analytics.ahrefs.com": {
+      "first_s": 4.11,
+      "last_s": 5.32
+    },
+    "analytics.tiktok.com": {
+      "first_s": 4.11,
+      "last_s": 15.75
+    },
+    "bat.bing.com": {
+      "first_s": 4.11,
+      "last_s": 5.99
+    },
+    "bat.bing.net": {
+      "first_s": 5.49,
+      "last_s": 5.49
+    },
+    "bzr.openai.com": {
+      "first_s": 6.83,
+      "last_s": 6.83
+    },
+    "bzrcdn.openai.com": {
+      "first_s": 4.1,
+      "last_s": 5.32
+    },
+    "c.seznam.cz": {
+      "first_s": 4.11,
+      "last_s": 6.02
+    },
+    "capi-automation.s3.us-east-2.amazonaws.com": {
+      "first_s": 5.52,
+      "last_s": 5.52
+    },
+    "cdn-4.convertexperiments.com": {
+      "first_s": 2.68,
+      "last_s": 3.68
+    },
+    "cdn.hub-prod.team.blue": {
+      "first_s": 2.69,
+      "last_s": 5.06
+    },
+    "connect.facebook.net": {
+      "first_s": 4.1,
+      "last_s": 5.35
+    },
+    "ct.pinterest.com": {
+      "first_s": 5.49,
+      "last_s": 6.48
+    },
+    "d1rv23qj5kas56.cloudfront.net": {
+      "first_s": 2.68,
+      "last_s": 7.9
+    },
+    "embeds.acswapp.com": {
+      "first_s": 6.47,
+      "last_s": 6.67
+    },
+    "eu-cdn.acsbapp.com": {
+      "first_s": 7.35,
+      "last_s": 7.35
+    },
+    "eu.acsbapp.com": {
+      "first_s": 6.83,
+      "last_s": 6.83
+    },
+    "fonts.gstatic.com": {
+      "first_s": 7.56,
+      "last_s": 7.56
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 5.48,
+      "last_s": 5.48
+    },
+    "h.seznam.cz": {
+      "first_s": 5.44,
+      "last_s": 7.94
+    },
+    "js-eu1.hs-analytics.net": {
+      "first_s": 5.27,
+      "last_s": 5.27
+    },
+    "js-eu1.hs-banner.com": {
+      "first_s": 5.27,
+      "last_s": 5.27
+    },
+    "js-eu1.hs-scripts.com": {
+      "first_s": 2.69,
+      "last_s": 2.69
+    },
+    "motu.teamblue.services": {
+      "first_s": 6.47,
+      "last_s": 7.56
+    },
+    "q.clarity.ms": {
+      "first_s": 5.82,
+      "last_s": 24.31
+    },
+    "region1.analytics.google.com": {
+      "first_s": 5.23,
+      "last_s": 5.23
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.48,
+      "last_s": 5.48
+    },
+    "s.pinimg.com": {
+      "first_s": 4.11,
+      "last_s": 5.35
+    },
+    "scripts.clarity.ms": {
+      "first_s": 5.35,
+      "last_s": 5.35
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 5.23,
+      "last_s": 5.23
+    },
+    "track-eu1.hubspot.com": {
+      "first_s": 6.48,
+      "last_s": 6.48
+    },
+    "www.clarity.ms": {
+      "first_s": 4.11,
+      "last_s": 4.11
+    },
+    "www.facebook.com": {
+      "first_s": 5.52,
+      "last_s": 5.52
+    },
+    "www.google.com": {
+      "first_s": 4.11,
+      "last_s": 7.55
+    },
+    "www.google.it": {
+      "first_s": 5.23,
+      "last_s": 5.56
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.09,
+      "last_s": 4.09
+    },
+    "www.gstatic.com": {
+      "first_s": 6.55,
+      "last_s": 7.65
+    },
+    "www.redditstatic.com": {
+      "first_s": 4.11,
+      "last_s": 4.11
+    },
+    "www.webnode.it": {
+      "first_s": 1.96,
+      "last_s": 1.96
+    }
+  },
+  "cookies": [
+    {
+      "name": "tu",
+      "domain": "www.webnode.com",
+      "path": "/it/payload-ajax",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mfdp",
+      "domain": "www.webnode.com",
+      "path": "/it/payload-ajax",
+      "expires": 1828113293.380707,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "tu",
+      "domain": "www.webnode.com",
+      "path": "/payload-ajax",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mfdp",
+      "domain": "www.webnode.com",
+      "path": "/payload-ajax",
+      "expires": 1828113295.660606,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "tu",
+      "domain": "www.webnode.com",
+      "path": "/it/graphql",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mfdp",
+      "domain": "www.webnode.com",
+      "path": "/it/graphql",
+      "expires": 1828113295.509409,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "tu",
+      "domain": "www.webnode.com",
+      "path": "/it",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mfd",
+      "domain": "www.webnode.com",
+      "path": "/it",
+      "expires": 1793639692.731658,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mfdp",
+      "domain": "www.webnode.com",
+      "path": "/it",
+      "expires": 1828113292.731694,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": "www.webnode.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ubh",
+      "domain": ".www.webnode.it",
+      "path": "/",
+      "expires": 1828113292.359447,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "usi",
+      "domain": ".www.webnode.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "tu",
+      "domain": "www.webnode.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mfd",
+      "domain": "www.webnode.it",
+      "path": "/",
+      "expires": 1793639692.359582,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mfdp",
+      "domain": "www.webnode.it",
+      "path": "/",
+      "expires": 1828113292.359612,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": "www.webnode.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ubh",
+      "domain": ".www.webnode.com",
+      "path": "/",
+      "expires": 1828113292.731421,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "usi",
+      "domain": ".www.webnode.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1801329294,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "tc",
+      "domain": "www.webnode.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hs-scripts.com",
+      "path": "/",
+      "expires": 1793555094.346974,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": 1793555094.824478,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_WEBNODE",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1828113295.271441,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1828113295.5581,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_YSX1HV0KT8",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1828113295.30483,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__obref",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1825089295.404019,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_rdt_uuid",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1801329295,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ttp",
+      "domain": ".tiktok.com",
+      "path": "/",
+      "expires": 1801329295.507235,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tu",
+      "domain": "www.webnode.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mfd",
+      "domain": "www.webnode.com",
+      "path": "/",
+      "expires": 1793639695.53856,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mfdp",
+      "domain": "www.webnode.com",
+      "path": "/",
+      "expires": 1828113295.538593,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_ZZDDEPY6N0",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1828113295.55792,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1793554195.635241,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FPID",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1828113295.748746,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FPLC",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1793625295.748786,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "MUID",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1827249295.748987,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hs-analytics.net",
+      "path": "/",
+      "expires": 1793555095.767779,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hs-banner.com",
+      "path": "/",
+      "expires": 1793555095.780451,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_tt_enable_cookie",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1801329295,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ttp",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1801329295,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pin_unauth",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1825089296,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_uetsid",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1793639696,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_uetvid",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1827249296,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "udid",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1796145296,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pinterest_ct_ua",
+      "domain": ".ct.pinterest.com",
+      "path": "/",
+      "expires": 1825089296.145815,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1801329296,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "wizard_entry_source",
+      "domain": "www.webnode.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__hstc",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1809105296,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "hubspotutk",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1809105296,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__hssrc",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__hssc",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1793555096,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hubspot.com",
+      "path": "/",
+      "expires": 1793555096.883939,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ashkii",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_wicasa",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1801329297,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".bzr.openai.com",
+      "path": "/",
+      "expires": 1793555097.294076,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".bzr.openai.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sid",
+      "domain": ".seznam.cz",
+      "path": "/",
+      "expires": 1796145298.157152,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sid",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1796145298,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ttcsid",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1801329305,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ttcsid_D4PD58JC77UAGNI93EAG",
+      "domain": ".webnode.com",
+      "path": "/",
+      "expires": 1801329305,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

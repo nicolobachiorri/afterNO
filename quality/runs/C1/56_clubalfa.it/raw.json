@@ -1,0 +1,63 @@
+{
+  "url": "https://www.clubalfa.it",
+  "final_url": "https://www.clubalfa.it/",
+  "click_at_s": 10.46,
+  "reload_at_s": 15.46,
+  "reject": "button: '' in main (normal click)",
+  "visible_buttons": [
+    "CERCA",
+    "BLOCCA",
+    "CONSENTI"
+  ],
+  "tcf": {
+    "cmpId": 63,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "clickiocmp.com",
+    "rules.quantcount.com",
+    "sb.scorecardresearch.com",
+    "secure.quantserve.com",
+    "sub.clickiocmp.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "clickiocmp.com",
+    "rules.quantcount.com",
+    "sb.scorecardresearch.com",
+    "secure.quantserve.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "clickiocmp.com": {
+      "first_s": 2.48,
+      "last_s": 15.62
+    },
+    "rules.quantcount.com": {
+      "first_s": 3.57,
+      "last_s": 15.89
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 2.35,
+      "last_s": 15.6
+    },
+    "secure.quantserve.com": {
+      "first_s": 3.26,
+      "last_s": 15.89
+    },
+    "sub.clickiocmp.com": {
+      "first_s": 10.5,
+      "last_s": 11.64
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.48,
+      "last_s": 15.58
+    }
+  },
+  "cookies": []
+}

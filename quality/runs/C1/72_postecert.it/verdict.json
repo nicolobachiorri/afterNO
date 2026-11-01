@@ -1,0 +1,24 @@
+{
+  "host": "www.postecert.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.postecert.it/",
+    "lastSeen": {
+      "www.postecert.it": 1793552585229
+    }
+  },
+  "hostsConsidered": [
+    "www.postecert.it"
+  ]
+}

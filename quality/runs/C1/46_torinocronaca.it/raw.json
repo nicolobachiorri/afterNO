@@ -1,0 +1,727 @@
+{
+  "url": "https://www.torinocronaca.it",
+  "final_url": "https://www.torinocronaca.it/",
+  "click_at_s": 11.57,
+  "reload_at_s": 16.57,
+  "reject": "button: '' in main (normal click)",
+  "visible_buttons": [
+    "PI\u00d9 OPZIONI",
+    "ACCETTO",
+    "SFOGLIA IL GIORNALE",
+    "ABBONAMENTI"
+  ],
+  "tcf": {
+    "cmpId": 10,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "242fe7ff3f1a07be00ccdf4c7cd7ee20.safeframe.googlesyndication.com",
+    "4dcf5434ebe8b378b2c1dc157a6e4aaa.safeframe.googlesyndication.com",
+    "aax-eu.amazon-adsystem.com",
+    "accounts.google.com",
+    "ads.pubmatic.com",
+    "ajax.googleapis.com",
+    "api.ad-hub.it",
+    "api.cmp.inmobi.com",
+    "api.id5-sync.com",
+    "api.onesignal.com",
+    "api.rlcdn.com",
+    "assets.evolutionadv.it",
+    "c.amazon-adsystem.com",
+    "call.cleverwebserver.com",
+    "carbon-cdn.ccgateway.net",
+    "cdn.ad-hub.it",
+    "cdn.confiant-integrations.net",
+    "cdn.id5-sync.com",
+    "cdn.jsdelivr.net",
+    "cdn.onesignal.com",
+    "cdn1.anonymised.io",
+    "cdnjs.cloudflare.com",
+    "client.aps.amazon-adsystem.com",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "direct.adsrvr.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "go1.aniview.com",
+    "id.hadron.ad.gt",
+    "imasdk.googleapis.com",
+    "link.rubiconproject.com",
+    "match.adsrvr.org",
+    "match.sharethrough.com",
+    "pagead2.googlesyndication.com",
+    "player.aniview.com",
+    "prebid.a-mo.net",
+    "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev",
+    "pubads.adipolo.co",
+    "pubads.g.doubleclick.net",
+    "region1.google-analytics.com",
+    "s0.2mdn.net",
+    "s2ssc.aniview.com",
+    "sb.scorecardresearch.com",
+    "scripts.cleverwebserver.com",
+    "securepubads.g.doubleclick.net",
+    "ssbsync.smartadserver.com",
+    "static.anonm.io",
+    "static.anonymised.io",
+    "sync.aniview.com",
+    "t.pubmatic.com",
+    "tags.crwdcntrl.net",
+    "teamcreative.virtualcms.it",
+    "tg1.aniview.com",
+    "torinocronaca.cdn.m33cloud.com",
+    "track4.aniview.com",
+    "tracking.adovid.com",
+    "ui.cleverwebserver.com",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "www.bolognacronaca.it",
+    "www.evolution-adv.it",
+    "www.googletagmanager.com",
+    "www.instagram.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "4dcf5434ebe8b378b2c1dc157a6e4aaa.safeframe.googlesyndication.com",
+    "aax-eu.amazon-adsystem.com",
+    "accounts.google.com",
+    "ads.pubmatic.com",
+    "ajax.googleapis.com",
+    "api.ad-hub.it",
+    "api.id5-sync.com",
+    "api.onesignal.com",
+    "api.rlcdn.com",
+    "assets.evolutionadv.it",
+    "c.amazon-adsystem.com",
+    "call.cleverwebserver.com",
+    "carbon-cdn.ccgateway.net",
+    "cdn.ad-hub.it",
+    "cdn.confiant-integrations.net",
+    "cdn.id5-sync.com",
+    "cdn.jsdelivr.net",
+    "cdn.onesignal.com",
+    "cdn1.anonymised.io",
+    "cdnjs.cloudflare.com",
+    "client.aps.amazon-adsystem.com",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "direct.adsrvr.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "go1.aniview.com",
+    "id.hadron.ad.gt",
+    "imasdk.googleapis.com",
+    "link.rubiconproject.com",
+    "match.adsrvr.org",
+    "match.sharethrough.com",
+    "pagead2.googlesyndication.com",
+    "player.aniview.com",
+    "prebid.a-mo.net",
+    "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev",
+    "pubads.adipolo.co",
+    "pubads.g.doubleclick.net",
+    "region1.google-analytics.com",
+    "s0.2mdn.net",
+    "s2ssc.aniview.com",
+    "sb.scorecardresearch.com",
+    "scripts.cleverwebserver.com",
+    "securepubads.g.doubleclick.net",
+    "ssbsync.smartadserver.com",
+    "static.anonm.io",
+    "static.anonymised.io",
+    "sync.aniview.com",
+    "tags.crwdcntrl.net",
+    "teamcreative.virtualcms.it",
+    "tg1.aniview.com",
+    "torinocronaca.cdn.m33cloud.com",
+    "track4.aniview.com",
+    "tracking.adovid.com",
+    "ui.cleverwebserver.com",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "www.bolognacronaca.it",
+    "www.evolution-adv.it",
+    "www.googletagmanager.com",
+    "www.instagram.com"
+  ],
+  "third_party_timeline": {
+    "242fe7ff3f1a07be00ccdf4c7cd7ee20.safeframe.googlesyndication.com": {
+      "first_s": 12.83,
+      "last_s": 12.83
+    },
+    "4dcf5434ebe8b378b2c1dc157a6e4aaa.safeframe.googlesyndication.com": {
+      "first_s": 17.33,
+      "last_s": 17.33
+    },
+    "aax-eu.amazon-adsystem.com": {
+      "first_s": 21.61,
+      "last_s": 21.86
+    },
+    "accounts.google.com": {
+      "first_s": 3.45,
+      "last_s": 16.82
+    },
+    "adobedc.demdex.net": {
+      "first_s": 6.53,
+      "last_s": 6.53
+    },
+    "ads.pubmatic.com": {
+      "first_s": 11.6,
+      "last_s": 20.78
+    },
+    "ajax.googleapis.com": {
+      "first_s": 2.41,
+      "last_s": 16.72
+    },
+    "api.ad-hub.it": {
+      "first_s": 3.45,
+      "last_s": 17.09
+    },
+    "api.cmp.inmobi.com": {
+      "first_s": 4.44,
+      "last_s": 11.6
+    },
+    "api.id5-sync.com": {
+      "first_s": 12.76,
+      "last_s": 16.82
+    },
+    "api.onesignal.com": {
+      "first_s": 3.82,
+      "last_s": 16.83
+    },
+    "api.rlcdn.com": {
+      "first_s": 20.88,
+      "last_s": 20.88
+    },
+    "assets.adobedtm.com": {
+      "first_s": 6.15,
+      "last_s": 6.15
+    },
+    "assets.cleverwebserver.com": {
+      "first_s": 3.88,
+      "last_s": 3.88
+    },
+    "assets.evolutionadv.it": {
+      "first_s": 2.42,
+      "last_s": 20.3
+    },
+    "c.amazon-adsystem.com": {
+      "first_s": 11.6,
+      "last_s": 21.25
+    },
+    "c.clvrads.com": {
+      "first_s": 4.2,
+      "last_s": 4.8
+    },
+    "call.cleverwebserver.com": {
+      "first_s": 3.88,
+      "last_s": 16.83
+    },
+    "carbon-cdn.ccgateway.net": {
+      "first_s": 11.95,
+      "last_s": 16.79
+    },
+    "cdn.ad-hub.it": {
+      "first_s": 2.42,
+      "last_s": 17.1
+    },
+    "cdn.confiant-integrations.net": {
+      "first_s": 11.6,
+      "last_s": 16.79
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 12.47,
+      "last_s": 21.25
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.41,
+      "last_s": 16.69
+    },
+    "cdn.onesignal.com": {
+      "first_s": 2.42,
+      "last_s": 16.82
+    },
+    "cdn1.anonymised.io": {
+      "first_s": 12.73,
+      "last_s": 16.92
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 2.41,
+      "last_s": 16.72
+    },
+    "client.aps.amazon-adsystem.com": {
+      "first_s": 20.79,
+      "last_s": 20.79
+    },
+    "cmp.inmobi.com": {
+      "first_s": 3.18,
+      "last_s": 16.77
+    },
+    "config.aps.amazon-adsystem.com": {
+      "first_s": 12.04,
+      "last_s": 20.79
+    },
+    "d.clvrads.com": {
+      "first_s": 4.8,
+      "last_s": 5.13
+    },
+    "direct.adsrvr.org": {
+      "first_s": 21.19,
+      "last_s": 21.19
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 12.82,
+      "last_s": 18.13
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 13.03,
+      "last_s": 17.6
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.41,
+      "last_s": 16.7
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.06,
+      "last_s": 16.72
+    },
+    "go1.aniview.com": {
+      "first_s": 16.64,
+      "last_s": 20.57
+    },
+    "id.hadron.ad.gt": {
+      "first_s": 20.88,
+      "last_s": 20.88
+    },
+    "imasdk.googleapis.com": {
+      "first_s": 21.69,
+      "last_s": 24.43
+    },
+    "landing-partner.snai.it": {
+      "first_s": 5.04,
+      "last_s": 6.15
+    },
+    "link.rubiconproject.com": {
+      "first_s": 11.6,
+      "last_s": 16.77
+    },
+    "match.adsrvr.org": {
+      "first_s": 22.01,
+      "last_s": 22.01
+    },
+    "match.sharethrough.com": {
+      "first_s": 20.78,
+      "last_s": 20.78
+    },
+    "onlinepartner.snai.it": {
+      "first_s": 4.74,
+      "last_s": 4.74
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 12.5,
+      "last_s": 27.0
+    },
+    "player.aniview.com": {
+      "first_s": 16.11,
+      "last_s": 20.79
+    },
+    "prebid.a-mo.net": {
+      "first_s": 20.78,
+      "last_s": 20.78
+    },
+    "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev": {
+      "first_s": 16.79,
+      "last_s": 16.79
+    },
+    "pubads.adipolo.co": {
+      "first_s": 24.01,
+      "last_s": 24.95
+    },
+    "pubads.g.doubleclick.net": {
+      "first_s": 24.02,
+      "last_s": 24.48
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.87,
+      "last_s": 21.72
+    },
+    "s0.2mdn.net": {
+      "first_s": 22.29,
+      "last_s": 22.29
+    },
+    "s2ssc.aniview.com": {
+      "first_s": 20.79,
+      "last_s": 20.79
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 12.5,
+      "last_s": 17.33
+    },
+    "scripts.cleverwebserver.com": {
+      "first_s": 3.1,
+      "last_s": 16.72
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 12.12,
+      "last_s": 17.82
+    },
+    "ssbsync.smartadserver.com": {
+      "first_s": 20.77,
+      "last_s": 20.77
+    },
+    "static.anonm.io": {
+      "first_s": 13.16,
+      "last_s": 16.92
+    },
+    "static.anonymised.io": {
+      "first_s": 12.47,
+      "last_s": 21.25
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 4.47,
+      "last_s": 4.47
+    },
+    "sync.aniview.com": {
+      "first_s": 21.21,
+      "last_s": 21.21
+    },
+    "t.pubmatic.com": {
+      "first_s": 12.15,
+      "last_s": 12.15
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 12.47,
+      "last_s": 21.25
+    },
+    "teamcreative.virtualcms.it": {
+      "first_s": 3.11,
+      "last_s": 16.82
+    },
+    "tg1.aniview.com": {
+      "first_s": 15.6,
+      "last_s": 20.3
+    },
+    "torinocronaca.cdn.m33cloud.com": {
+      "first_s": 2.41,
+      "last_s": 17.05
+    },
+    "track4.aniview.com": {
+      "first_s": 16.11,
+      "last_s": 24.36
+    },
+    "tracking.adovid.com": {
+      "first_s": 24.41,
+      "last_s": 27.0
+    },
+    "ui.cleverwebserver.com": {
+      "first_s": 3.63,
+      "last_s": 16.73
+    },
+    "view.clvrads.com": {
+      "first_s": 3.88,
+      "last_s": 3.88
+    },
+    "visit-server.inmobi-choice.io": {
+      "first_s": 4.18,
+      "last_s": 4.18
+    },
+    "web-video.ads.aps.amazon-adsystem.com": {
+      "first_s": 21.25,
+      "last_s": 21.25
+    },
+    "www.bolognacronaca.it": {
+      "first_s": 3.11,
+      "last_s": 16.82
+    },
+    "www.evolution-adv.it": {
+      "first_s": 16.64,
+      "last_s": 20.57
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.42,
+      "last_s": 16.69
+    },
+    "www.instagram.com": {
+      "first_s": 2.42,
+      "last_s": 16.69
+    }
+  },
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "domain": "www.torinocronaca.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".onesignal.com",
+      "path": "/",
+      "expires": 1793553722.014512,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".cleverwebserver.com",
+      "path": "/",
+      "expires": 1793553722.191234,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".torinocronaca.it",
+      "path": "/",
+      "expires": 1828111935.289865,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "clever-counter-96085",
+      "domain": "www.torinocronaca.it",
+      "path": "/",
+      "expires": 1793623922,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "usprivacy",
+      "domain": ".www.torinocronaca.it",
+      "path": "/",
+      "expires": 1827247935.342277,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".clvrads.com",
+      "path": "/",
+      "expires": 1793553722.772592,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "akaalb_partner_snai",
+      "domain": "onlinepartner.snai.it",
+      "path": "/",
+      "expires": 1828111923.611547,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "akaalb_landing_snai",
+      "domain": "landing-partner.snai.it",
+      "path": "/",
+      "expires": 1828111923.840209,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "MPPARTNER",
+      "domain": ".snai.it",
+      "path": "/",
+      "expires": 1796143924.067039,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1809103925.467964,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "kndctr_3C5622C568FA913B0A495FD2_AdobeOrg_identity",
+      "domain": ".landing-partner.snai.it",
+      "path": "/",
+      "expires": 1827679925,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "kndctr_3C5622C568FA913B0A495FD2_AdobeOrg_cluster",
+      "domain": ".landing-partner.snai.it",
+      "path": "/",
+      "expires": 1793553725,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCV_3C5622C568FA913B0A495FD2%40AdobeOrg",
+      "domain": ".landing-partner.snai.it",
+      "path": "/",
+      "expires": 1827247925,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".www.torinocronaca.it",
+      "path": "/",
+      "expires": 1827247935.342551,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "addtl_consent",
+      "domain": ".www.torinocronaca.it",
+      "path": "/",
+      "expires": 1827247935.342624,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IABGPP_HDR_GppString",
+      "domain": ".www.torinocronaca.it",
+      "path": "/",
+      "expires": 1827247935.342646,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "3pc_test",
+      "domain": "static.anonm.io",
+      "path": "/",
+      "expires": 1793555535,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_VWK0PNCQRD",
+      "domain": ".torinocronaca.it",
+      "path": "/",
+      "expires": 1828111935.28977,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "vn_sessionid",
+      "domain": "www.torinocronaca.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "aniC",
+      "domain": ".aniview.com",
+      "path": "/",
+      "expires": 1795279939.309041,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pubcid",
+      "domain": ".torinocronaca.it",
+      "path": "/",
+      "expires": 1825087939,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pubcid_cst",
+      "domain": ".torinocronaca.it",
+      "path": "/",
+      "expires": 1825087939,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_lr_retry_request",
+      "domain": "www.torinocronaca.it",
+      "path": "/",
+      "expires": 1793555539,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_lr_env_src_ats",
+      "domain": "www.torinocronaca.it",
+      "path": "/",
+      "expires": 1796143939,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "1_C_105",
+      "domain": ".aniview.com",
+      "path": "/",
+      "expires": 1794415940.319224,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "1_C_105",
+      "domain": "sync.aniview.com",
+      "path": "/",
+      "expires": 1794415940.319263,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

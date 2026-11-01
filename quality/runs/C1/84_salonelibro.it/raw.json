@@ -1,0 +1,127 @@
+{
+  "url": "https://www.salonelibro.it",
+  "final_url": "https://www.salonelibro.it/",
+  "click_at_s": 11.36,
+  "reload_at_s": 16.36,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "Rifiuta",
+    "Accetta selezionati",
+    "Accetta tutti"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn.jsdelivr.net",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.jsdelivr.net",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "cdn.jsdelivr.net": {
+      "first_s": 2.58,
+      "last_s": 16.64
+    },
+    "consent.cookiebot.com": {
+      "first_s": 2.59,
+      "last_s": 16.78
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 3.24,
+      "last_s": 16.78
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.59,
+      "last_s": 16.6
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.25,
+      "last_s": 16.64
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.59,
+      "last_s": 16.6
+    }
+  },
+  "cookies": [
+    {
+      "name": "csrf",
+      "domain": "www.salonelibro.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.salonelibro.it",
+      "path": "/",
+      "expires": 1809191292,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "site_lang",
+      "domain": ".salonelibro.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALBTG",
+      "domain": "www.salonelibro.it",
+      "path": "/",
+      "expires": 1794157697.767988,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALBTGCORS",
+      "domain": "www.salonelibro.it",
+      "path": "/",
+      "expires": 1794157697.768045,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALB",
+      "domain": "www.salonelibro.it",
+      "path": "/",
+      "expires": 1794157697.768072,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALBCORS",
+      "domain": "www.salonelibro.it",
+      "path": "/",
+      "expires": 1794157697.768096,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

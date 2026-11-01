@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+C1,46,claude (autore del codice),si,ok,0,correct,"Scelta letta dal TCF (rifiuto, 6 finalità a legittimo interesse, confermate dal TCF grezzo). Aniview nominato: cookie leggibile da altri siti presente; non soddisfa i criteri «non visto» del protocollo ma l'affermazione «può riconoscerti» non è contraddetta. _pubcid è marketing."
+C1,47,claude (autore del codice),no_banner,,,,Nessun banner.
+C1,48,claude (autore del codice),si,ok,0,debatable,"«Solo in parte» si regge solo su AMCV_ (Adobe Experience Cloud ID), classificato marketing ma usato anche per le statistiche: stesso caso di trenitalia nelle visite A e B."
+C1,49,claude (autore del codice),si,ok,0,correct,
+C1,51,claude (autore del codice),si,ok,0,not_recorded,"Il clic ha chiuso il banner (screenshot), ma l'estensione non ha registrato la scelta. Piattaforma senza TCF, pulsante «Rifiuta» normale: difetto da indagare."
+C1,52,claude (autore del codice),no_reject,,,,Nessun pulsante di rifiuto tra quelli visti dal robot.
+C1,53,claude (autore del codice),no_reject,,,,Pulsanti: Accetta tutti | Vai alle impostazioni.
+C1,54,claude (autore del codice),si,ok,0,correct,
+C1,55,claude (autore del codice),si,ok,0,correct,
+C1,56,claude (autore del codice),no_reject,,,,"Il robot ha cliccato «BLOCCA» in una richiesta di notifiche, non nel banner dei cookie, che è rimasto (Opzioni | Accetta e chiudi): banner senza rifiuto."
+C1,57,claude (autore del codice),si,ok,0,correct,
+C1,58,claude (autore del codice),no_reject,,,,"Pulsanti: Preferenze | Accettare. Negozio online: non è un sito per adulti, resta nel campione."
+C1,59,claude (autore del codice),no_reject,,,,Rifiuto solo a pagamento («Rifiuta e abbonati»).
+C1,61,claude (autore del codice),si,ok,0,correct,"_fbp (Facebook) e _gcl_au (Google), 90 giorni, dopo il rifiuto: marketing confermato."
+C1,64,claude (autore del codice),other,,,,"Reindirizza a unioncamere.gov.it (non nel campione). «Conferma le scelte» equivale forse a un rifiuto, ma non rientra nelle regole di rifiuto dello step 1."
+C1,65,claude (autore del codice),other,,,,"Il rifiuto c'era («NO GRAZIE, SOLO COOKIE TECNICI») ma il robot non lo riconosce: non misurabile per il robot."
+C1,66,claude (autore del codice),si,ok,0,correct,"3 siti che soddisfano i criteri (dailymotion, imrworldwide, presage), tutti nominati; nominato anche Aniview."
+C1,67,claude (autore del codice),si,ok,0,correct,"2 siti che soddisfano i criteri (imrworldwide, presage), entrambi nominati; nominato anche Aniview."
+C1,68,claude (autore del codice),no_reject,,,,Pulsanti: Acconsento | Gestisci le opzioni.
+C1,69,claude (autore del codice),no_banner,,,,Nessun banner.
+C1,70,claude (autore del codice),no_banner,,,,Nessun banner.
+C1,71,claude (autore del codice),no_banner,,,,Nessun banner.
+C1,72,claude (autore del codice),no_banner,,,,Nessun banner.
+C1,75,claude (autore del codice),si,ok,0,correct,Scelta letta dal TCF.
+C1,76,claude (autore del codice),si,ok,0,correct,
+C1,77,claude (autore del codice),no_reject,,,,Nessun banner dei cookie con un rifiuto tra i pulsanti visti.
+C1,78,claude (autore del codice),si,ok,0,not_recorded,"Il clic ha chiuso il banner (screenshot), ma l'estensione non ha registrato la scelta. Piattaforma senza TCF, pulsante «Rifiuta» normale: difetto da indagare."
+C1,79,claude (autore del codice),no_reject,,,,Pulsanti: Consenti tutti i cookie | Impostazioni dei cookie.
+C1,80,claude (autore del codice),si,ok,0,correct,
+C1,81,claude (autore del codice),no_reject,,,,Rifiuto solo a pagamento («Rifiuta e abbonati»).
+C1,82,claude (autore del codice),no_reject,,,,Pulsanti: Acconsento | Gestisci le opzioni.
+C1,83,claude (autore del codice),no_reject,,,,Solo «×» di chiusura e «Scopri di più e personalizza».
+C1,84,claude (autore del codice),si,ok,0,not_recorded,"Il clic ha chiuso il banner (screenshot), ma l'estensione non ha registrato la scelta. Piattaforma senza TCF, pulsante «Rifiuta» normale: difetto da indagare."
+C1,85,claude (autore del codice),si,ok,0,correct,"Cookie di marketing del sito dopo il rifiuto (Klaviyo, TikTok, Facebook, Google): confermati."
+C1,86,claude (autore del codice),no_banner,,,,Nessun banner.
+C1,88,claude (autore del codice),no_banner,,,,"Reindirizza a webnode.com (non nel campione). Nessun banner, ma 11 cookie di marketing del sito."
+C1,89,claude (autore del codice),si,wrong,0,missed,"blendee.com contattato dopo il clic e dopo il ricaricamento (secondo 17,7), cookie bldid di 364 giorni, SameSite=None, non partizionato. L'estensione l'ha visto solo prima del rifiuto: probabilmente la richiesta non è attribuita alla scheda (per esempio parte da un service worker del sito)."
+C1,90,claude (autore del codice),si,ok,0,correct,Solo cookie YouTube partizionati dopo il rifiuto: «solo in parte» in arancione.
+C1,91,claude (autore del codice),si,ok,0,correct,"Scelta letta dal TCF, 6 finalità a legittimo interesse confermate; commander1.com (Commanders Act) nominato e confermato dai dati."
+C1,93,claude (autore del codice),no_banner,,,,Nessun banner.

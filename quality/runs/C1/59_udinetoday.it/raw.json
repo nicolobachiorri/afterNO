@@ -1,0 +1,208 @@
+{
+  "url": "https://www.udinetoday.it",
+  "final_url": "https://www.udinetoday.it/",
+  "click_at_s": 10.6,
+  "reload_at_s": null,
+  "reject": "paywall label found",
+  "visible_buttons": [
+    "RIFIUTA E ABBONATI",
+    "ACCETTA"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "abacus.jasoncameron.dev": {
+      "first_s": 2.49,
+      "last_s": 2.49
+    },
+    "cdn.brandmetrics.com": {
+      "first_s": 2.49,
+      "last_s": 2.49
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.46,
+      "last_s": 3.28
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.67,
+      "last_s": 2.67
+    },
+    "city-news.it": {
+      "first_s": 3.31,
+      "last_s": 3.52
+    },
+    "citynews-today.stgy.ovh": {
+      "first_s": 2.56,
+      "last_s": 2.56
+    },
+    "citynews-udinetoday.stgy.ovh": {
+      "first_s": 2.47,
+      "last_s": 3.71
+    },
+    "citynews-veneziatoday.stgy.ovh": {
+      "first_s": 2.56,
+      "last_s": 2.56
+    },
+    "citynews.stgy.ovh": {
+      "first_s": 2.39,
+      "last_s": 3.71
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.08,
+      "last_s": 3.08
+    },
+    "dl.dmp.citynews.ovh": {
+      "first_s": 2.45,
+      "last_s": 3.43
+    },
+    "dmp.citynews.ovh": {
+      "first_s": 3.71,
+      "last_s": 3.71
+    },
+    "external.citynews.it": {
+      "first_s": 2.49,
+      "last_s": 2.49
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.38,
+      "last_s": 3.38
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.49,
+      "last_s": 3.41
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.45,
+      "last_s": 10.44
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 3.33,
+      "last_s": 3.38
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.49,
+      "last_s": 2.72
+    },
+    "www.citynews.it": {
+      "first_s": 3.31,
+      "last_s": 3.31
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.49,
+      "last_s": 3.2
+    },
+    "www.padovaoggi.it": {
+      "first_s": 2.56,
+      "last_s": 2.56
+    },
+    "www.romatoday.it": {
+      "first_s": 2.56,
+      "last_s": 2.56
+    },
+    "www.today.it": {
+      "first_s": 2.56,
+      "last_s": 2.56
+    }
+  },
+  "cookies": [
+    {
+      "name": "~DL.i",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1828025886,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.s",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1793554086,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.c",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1801328286,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__uid",
+      "domain": "www.udinetoday.it",
+      "path": "/",
+      "expires": 1828112285.851812,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".udinetoday.it",
+      "path": "/",
+      "expires": 1828112288.803448,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_ENB4XX7M0M",
+      "domain": ".udinetoday.it",
+      "path": "/",
+      "expires": 1828112288.78942,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_2T00RWGCM6",
+      "domain": ".udinetoday.it",
+      "path": "/",
+      "expires": 1828112288.791802,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_1STC4ZSVRZ",
+      "domain": ".udinetoday.it",
+      "path": "/",
+      "expires": 1828112288.798244,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_5GGZNJB729",
+      "domain": ".udinetoday.it",
+      "path": "/",
+      "expires": 1828112288.803298,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

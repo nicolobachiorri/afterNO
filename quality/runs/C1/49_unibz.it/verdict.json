@@ -1,0 +1,41 @@
+{
+  "host": "www.unibz.it",
+  "choice": {
+    "at": 1793552016953,
+    "choice": "rejected",
+    "label": "Use necessary cookies only",
+    "site": "unibz.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Use necessary cookies only"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.unibz.it/",
+    "lastSeen": {
+      "www.unibz.it": 1793552022452
+    }
+  },
+  "hostsConsidered": [
+    "www.unibz.it"
+  ]
+}

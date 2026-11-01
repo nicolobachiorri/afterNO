@@ -1,0 +1,198 @@
+{
+  "url": "https://www.brindisireport.it",
+  "final_url": "https://www.brindisireport.it/",
+  "click_at_s": 10.92,
+  "reload_at_s": null,
+  "reject": "paywall label found",
+  "visible_buttons": [
+    "RIFIUTA E ABBONATI",
+    "ACCETTA"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "region1.google-analytics.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "abacus.jasoncameron.dev": {
+      "first_s": 2.82,
+      "last_s": 2.82
+    },
+    "cdn.brandmetrics.com": {
+      "first_s": 2.82,
+      "last_s": 2.82
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.74,
+      "last_s": 3.82
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.91,
+      "last_s": 2.91
+    },
+    "citynews-brindisireport.stgy.ovh": {
+      "first_s": 2.79,
+      "last_s": 4.3
+    },
+    "citynews-today.stgy.ovh": {
+      "first_s": 2.85,
+      "last_s": 2.86
+    },
+    "citynews-veneziatoday.stgy.ovh": {
+      "first_s": 2.86,
+      "last_s": 2.86
+    },
+    "citynews.stgy.ovh": {
+      "first_s": 2.52,
+      "last_s": 4.3
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.35,
+      "last_s": 3.35
+    },
+    "dl.dmp.citynews.ovh": {
+      "first_s": 2.73,
+      "last_s": 3.75
+    },
+    "external.citynews.it": {
+      "first_s": 2.82,
+      "last_s": 2.82
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.91,
+      "last_s": 3.91
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.82,
+      "last_s": 4.07
+    },
+    "region1.google-analytics.com": {
+      "first_s": 6.33,
+      "last_s": 11.34
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 3.87,
+      "last_s": 4.09
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.82,
+      "last_s": 3.11
+    },
+    "www.citynews.it": {
+      "first_s": 3.85,
+      "last_s": 3.85
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.82,
+      "last_s": 3.63
+    },
+    "www.romatoday.it": {
+      "first_s": 2.85,
+      "last_s": 2.85
+    },
+    "www.today.it": {
+      "first_s": 2.85,
+      "last_s": 2.85
+    }
+  },
+  "cookies": [
+    {
+      "name": "~DL.i",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1828026404,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.s",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1793554604,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.c",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1801328804,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__uid",
+      "domain": "www.brindisireport.it",
+      "path": "/",
+      "expires": 1828112803.497434,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_5GGZNJB729",
+      "domain": ".brindisireport.it",
+      "path": "/",
+      "expires": 1828112806.982602,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".brindisireport.it",
+      "path": "/",
+      "expires": 1828112807.006809,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_P2DSR621LB",
+      "domain": ".brindisireport.it",
+      "path": "/",
+      "expires": 1828112806.992329,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_ENB4XX7M0M",
+      "domain": ".brindisireport.it",
+      "path": "/",
+      "expires": 1828112807.006679,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_2T00RWGCM6",
+      "domain": ".brindisireport.it",
+      "path": "/",
+      "expires": 1828112807.009009,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

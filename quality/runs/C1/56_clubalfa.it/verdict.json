@@ -1,0 +1,38 @@
+{
+  "host": "www.clubalfa.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.clubalfa.it/",
+    "lastSeen": {
+      "clickiocmp.com": 1793552201289,
+      "logs.clubalfa.it": 1793552201204,
+      "rules.quantcount.com": 1793552189231,
+      "sb.scorecardresearch.com": 1793552201269,
+      "secure.quantserve.com": 1793552188923,
+      "sub.clickiocmp.com": 1793552197304,
+      "www.clubalfa.it": 1793552202861,
+      "www.googletagmanager.com": 1793552188148
+    }
+  },
+  "hostsConsidered": [
+    "clickiocmp.com",
+    "logs.clubalfa.it",
+    "rules.quantcount.com",
+    "sb.scorecardresearch.com",
+    "secure.quantserve.com",
+    "sub.clickiocmp.com",
+    "www.clubalfa.it",
+    "www.googletagmanager.com"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.mps.it",
+  "final_url": "https://www.mps.it/",
+  "click_at_s": 26.81,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Localizza la mia posizione",
+    "CERCA",
+    "x",
+    "ACCETTO L\u2019UTILIZZO DEI COOKIE DI PROFILAZIONE",
+    "NO GRAZIE, SOLO COOKIE TECNICI E ANALYTICS"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "embeds.acswapp.com": {
+      "first_s": 2.35,
+      "last_s": 3.56
+    },
+    "maps.googleapis.com": {
+      "first_s": 2.35,
+      "last_s": 3.17
+    },
+    "maps.gstatic.com": {
+      "first_s": 3.18,
+      "last_s": 3.18
+    },
+    "siteimproveanalytics.com": {
+      "first_s": 2.34,
+      "last_s": 2.34
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.52,
+      "last_s": 2.52
+    }
+  },
+  "cookies": [
+    {
+      "name": "TS01883e84",
+      "domain": ".www.mps.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TS4f536f4e027",
+      "domain": "www.mps.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

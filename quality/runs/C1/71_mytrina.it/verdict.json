@@ -1,0 +1,24 @@
+{
+  "host": "www.mytrina.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.mytrina.it/",
+    "lastSeen": {
+      "www.mytrina.it": 1793552553895
+    }
+  },
+  "hostsConsidered": [
+    "www.mytrina.it"
+  ]
+}

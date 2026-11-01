@@ -1,0 +1,76 @@
+{
+  "host": "www.rfi.it",
+  "choice": {
+    "at": 1793551990505,
+    "choice": "rejected",
+    "label": "Rifiuta tutti",
+    "site": "rfi.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta tutti"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShort",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Adobe Analytics",
+        "Siteimprove"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.rfi.it/",
+    "lastSeen": {
+      "6103484.global.siteimproveanalytics.io": 1793551995879,
+      "assets.adobedtm.com": 1793551995712,
+      "cdn.cookielaw.org": 1793551995849,
+      "dpm.demdex.net": 1793551981760,
+      "privacyportal-de.onetrust.com": 1793551990538,
+      "rum.hlx.page": 1793551995645,
+      "siteimproveanalytics.com": 1793551982376,
+      "smetrics.ferroviedellostato.it": 1793551995922,
+      "www.rfi.it": 1793551995855
+    }
+  },
+  "hostsConsidered": [
+    "6103484.global.siteimproveanalytics.io",
+    "assets.adobedtm.com",
+    "cdn.cookielaw.org",
+    "privacyportal-de.onetrust.com",
+    "rum.hlx.page",
+    "smetrics.ferroviedellostato.it",
+    "www.rfi.it"
+  ]
+}

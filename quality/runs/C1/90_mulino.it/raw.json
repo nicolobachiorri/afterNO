@@ -1,0 +1,233 @@
+{
+  "url": "https://www.mulino.it",
+  "final_url": "https://www.mulino.it/",
+  "click_at_s": 14.93,
+  "reload_at_s": 19.93,
+  "reject": "button: 'CONTINUA SENZA ACCETTARE' in main (normal click)",
+  "visible_buttons": [
+    "Login",
+    "Carrello 0",
+    "CERCA",
+    "Preferenze Cookies",
+    "\u00d7",
+    "CONTINUA SENZA ACCETTARE",
+    "ACCETTA TUTTI",
+    "PERSONALIZZA"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn.jsdelivr.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "googleads.g.doubleclick.net",
+    "i.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "s3-eu-west-1.amazonaws.com",
+    "static.doubleclick.net",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.youtube-nocookie.com",
+    "www.youtube.com",
+    "yt3.ggpht.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.jsdelivr.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "googleads.g.doubleclick.net",
+    "i.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "s3-eu-west-1.amazonaws.com",
+    "static.doubleclick.net",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.youtube-nocookie.com",
+    "www.youtube.com",
+    "yt3.ggpht.com"
+  ],
+  "third_party_timeline": {
+    "cdn.jsdelivr.net": {
+      "first_s": 3.3,
+      "last_s": 20.85
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.31,
+      "last_s": 20.84
+    },
+    "fonts.gstatic.com": {
+      "first_s": 6.05,
+      "last_s": 21.38
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 8.39,
+      "last_s": 21.22
+    },
+    "i.ytimg.com": {
+      "first_s": 8.78,
+      "last_s": 21.72
+    },
+    "jnn-pa.googleapis.com": {
+      "first_s": 8.62,
+      "last_s": 21.6
+    },
+    "region1.analytics.google.com": {
+      "first_s": 9.65,
+      "last_s": 25.89
+    },
+    "region1.google-analytics.com": {
+      "first_s": 9.65,
+      "last_s": 25.89
+    },
+    "s3-eu-west-1.amazonaws.com": {
+      "first_s": 3.31,
+      "last_s": 20.88
+    },
+    "static.doubleclick.net": {
+      "first_s": 8.39,
+      "last_s": 21.14
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 9.65,
+      "last_s": 9.65
+    },
+    "www.google.com": {
+      "first_s": 8.41,
+      "last_s": 21.55
+    },
+    "www.google.it": {
+      "first_s": 9.65,
+      "last_s": 9.65
+    },
+    "www.googletagmanager.com": {
+      "first_s": 6.07,
+      "last_s": 20.88
+    },
+    "www.gstatic.com": {
+      "first_s": 8.78,
+      "last_s": 8.78
+    },
+    "www.youtube-nocookie.com": {
+      "first_s": 9.9,
+      "last_s": 23.69
+    },
+    "www.youtube.com": {
+      "first_s": 6.07,
+      "last_s": 21.24
+    },
+    "yt3.ggpht.com": {
+      "first_s": 8.78,
+      "last_s": 21.22
+    }
+  },
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": "www.mulino.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://mulino.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809105371.980476,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://mulino.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809105371.980507,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://mulino.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_ga",
+      "domain": "www.mulino.it",
+      "path": "/",
+      "expires": 1828113371.799454,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_18RMDB84CC",
+      "domain": "www.mulino.it",
+      "path": "/",
+      "expires": 1828113371.798207,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_4KC2129Y73",
+      "domain": "www.mulino.it",
+      "path": "/",
+      "expires": 1828113371.799373,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809105357.980382,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://mulino.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809105371.98054,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://mulino.it",
+        "hasCrossSiteAncestor": true
+      }
+    }
+  ]
+}

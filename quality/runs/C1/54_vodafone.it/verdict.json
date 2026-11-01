@@ -1,0 +1,59 @@
+{
+  "host": "privati.vodafone.it",
+  "choice": {
+    "at": 1793552143389,
+    "choice": "rejected",
+    "label": "Continua senza accettare",
+    "site": "vodafone.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Continua senza accettare"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://privati.vodafone.it/",
+    "lastSeen": {
+      "answers.yext-pixel.com": 1793552149891,
+      "assets.sitescdn.net": 1793552134998,
+      "b.delivery.consentmanager.net": 1793552149011,
+      "c.delivery.consentmanager.net": 1793552148830,
+      "cdn.appdynamics.com": 1793552148825,
+      "cdn.consentmanager.net": 1793552135884,
+      "embeds.acswapp.com": 1793552149167,
+      "fra-col.eum-appdynamics.com": 1793552148413,
+      "privati.vodafone.it": 1793552149083,
+      "public.dxlcloud.vodafone.it": 1793552135306,
+      "tags.tiqcdn.com": 1793552143449,
+      "www.vodafone.it": 1793552133935
+    }
+  },
+  "hostsConsidered": [
+    "answers.yext-pixel.com",
+    "b.delivery.consentmanager.net",
+    "c.delivery.consentmanager.net",
+    "cdn.appdynamics.com",
+    "embeds.acswapp.com",
+    "fra-col.eum-appdynamics.com",
+    "privati.vodafone.it",
+    "tags.tiqcdn.com"
+  ]
+}

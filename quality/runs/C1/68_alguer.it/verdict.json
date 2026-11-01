@@ -1,0 +1,56 @@
+{
+  "host": "www.alguer.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.alguer.it/",
+    "lastSeen": {
+      "connect.facebook.net": 1793552459187,
+      "ep1.adtrafficquality.google": 1793552464880,
+      "ep2.adtrafficquality.google": 1793552464367,
+      "fonts.googleapis.com": 1793552462452,
+      "fonts.gstatic.com": 1793552462473,
+      "fundingchoicesmessages.google.com": 1793552462473,
+      "pagead2.googlesyndication.com": 1793552464098,
+      "region1.analytics.google.com": 1793552459498,
+      "securepubads.g.doubleclick.net": 1793552459186,
+      "stats.g.doubleclick.net": 1793552459499,
+      "www.alguer.it": 1793552462986,
+      "www.google.it": 1793552459499,
+      "www.googletagmanager.com": 1793552458885
+    }
+  },
+  "hostsConsidered": [
+    "connect.facebook.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "pagead2.googlesyndication.com",
+    "region1.analytics.google.com",
+    "securepubads.g.doubleclick.net",
+    "stats.g.doubleclick.net",
+    "www.alguer.it",
+    "www.google.it",
+    "www.googletagmanager.com"
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "url": "https://www.biollamotors.it",
+  "final_url": "https://shop.biollamotors.it/",
+  "click_at_s": 11.48,
+  "reload_at_s": 16.49,
+  "reject": "button: 'RIFIUTA TUTTO' in main (normal click)",
+  "visible_buttons": [
+    "Italiano",
+    "ACCETTA TUTTO",
+    "RIFIUTA TUTTO",
+    "MOSTRA DETTAGLI"
+  ],
+  "tcf": {
+    "cmpId": 374,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "cdn.cookie-script.com",
+    "cdn.jsdelivr.net",
+    "cdn.scalapay.com",
+    "cdnjs.cloudflare.com",
+    "connect.facebook.net",
+    "consent.cookie-script.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "www.paypal.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.cookie-script.com",
+    "cdn.jsdelivr.net",
+    "cdn.scalapay.com",
+    "cdnjs.cloudflare.com",
+    "connect.facebook.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "www.paypal.com"
+  ],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 5.93,
+      "last_s": 5.93
+    },
+    "cdn.cookie-script.com": {
+      "first_s": 3.47,
+      "last_s": 17.99
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.8,
+      "last_s": 16.72
+    },
+    "cdn.scalapay.com": {
+      "first_s": 2.79,
+      "last_s": 16.72
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 2.79,
+      "last_s": 16.72
+    },
+    "connect.facebook.net": {
+      "first_s": 3.47,
+      "last_s": 16.74
+    },
+    "consent.cookie-script.com": {
+      "first_s": 4.35,
+      "last_s": 11.48
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 4.34,
+      "last_s": 18.48
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 4.5,
+      "last_s": 17.95
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 5.93,
+      "last_s": 5.93
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.79,
+      "last_s": 17.91
+    },
+    "region1.analytics.google.com": {
+      "first_s": 5.93,
+      "last_s": 5.93
+    },
+    "region1.google-analytics.com": {
+      "first_s": 12.38,
+      "last_s": 16.74
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 5.93,
+      "last_s": 5.93
+    },
+    "www.facebook.com": {
+      "first_s": 4.15,
+      "last_s": 16.77
+    },
+    "www.google.com": {
+      "first_s": 5.93,
+      "last_s": 6.07
+    },
+    "www.google.it": {
+      "first_s": 5.93,
+      "last_s": 6.07
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.26,
+      "last_s": 16.73
+    },
+    "www.paypal.com": {
+      "first_s": 16.72,
+      "last_s": 17.84
+    }
+  },
+  "cookies": [
+    {
+      "name": "currency",
+      "domain": ".shop.biollamotors.it",
+      "path": "/",
+      "expires": 1794157422.652737,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sid",
+      "domain": ".shop.biollamotors.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "logged_in",
+      "domain": "shop.biollamotors.it",
+      "path": "/",
+      "expires": 1825088636.096619,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".biollamotors.it",
+      "path": "/",
+      "expires": 1825088622.848894,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://biollamotors.it",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "_ga_RKG24G8Z1T",
+      "domain": ".biollamotors.it",
+      "path": "/",
+      "expires": 1828112624.807031,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".biollamotors.it",
+      "path": "/",
+      "expires": 1828112624.807291,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1793553524.955175,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieScriptConsent",
+      "domain": ".biollamotors.it",
+      "path": "/",
+      "expires": 1796144631,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

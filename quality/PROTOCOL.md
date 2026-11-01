@@ -206,3 +206,12 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     della visita B (Claude, poi Gemini come secondo giudice), registrato prima di
     vedere i risultati.
 
+12. *Visita C1, sostituzioni.* Non si caricano: polymoon.it, maggiolicloud.it,
+    val.it (nome non trovato), tiristorantemipizzeria.it (errore del server),
+    mvmnet.it ed e-pal.it (certificato non valido), qcom.it (connessione
+    interrotta); sostituiti dalle riserve successive (`select_sample_c.py`).
+    *Limite:* gli indirizzi sono costruiti come `https://www.<dominio>` per i domini
+    di secondo livello, mentre la lista Tranco elenca il dominio nudo; alcuni dei
+    siti «non trovati» potrebbero rispondere senza `www.`. La regola si applica
+    all'indirizzo costruito, come per tutti i siti dei campioni A e C.
+

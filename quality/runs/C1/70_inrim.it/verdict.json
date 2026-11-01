@@ -1,0 +1,24 @@
+{
+  "host": "www.inrim.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.inrim.it/it",
+    "lastSeen": {
+      "www.inrim.it": 1793552525528
+    }
+  },
+  "hostsConsidered": [
+    "www.inrim.it"
+  ]
+}

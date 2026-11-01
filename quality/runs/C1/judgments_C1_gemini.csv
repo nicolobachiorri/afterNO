@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+C1,46,gemini,si,ok,0,correct,
+C1,47,gemini,no_banner,,,,Nessun banner rilevato.
+C1,48,gemini,si,ok,0,correct,
+C1,49,gemini,si,ok,0,correct,
+C1,51,gemini,si,ok,0,not_recorded,Il robot ha cliccato 'Rifiuta' ma l'estensione non ha registrato la scelta.
+C1,52,gemini,no_reject,,,,Banner solo con Impostazioni cookie | Accetta tutti i cookie.
+C1,53,gemini,no_reject,,,,Banner solo con Accetta tutti | Vai alle impostazioni.
+C1,54,gemini,si,ok,0,correct,
+C1,55,gemini,si,ok,0,correct,
+C1,56,gemini,si,ok,0,not_recorded,Il robot ha cliccato il pulsante ma l'estensione non ha registrato la scelta.
+C1,57,gemini,si,imprecise,0,correct,"Il cookie _sfid_f25e è classificato nel DB come Analytics (Marfeel) ma non viene contato tra i cookie statistici nel verdetto. Inoltre connect.sid è Express.js, non Zendesk."
+C1,58,gemini,no_reject,,,,Banner solo con Preferenze | Accettare. Nota DB: i cookie Shopify sono etichettati come Marfeel.
+C1,59,gemini,no_reject,,,,Paywall (Rifiuta e abbonati).
+C1,61,gemini,si,ok,0,correct,
+C1,64,gemini,no_reject,,,,Presenti solo 'Conferma le scelte | Accetta tutto' e 'Chiudi'.
+C1,65,gemini,other,,,,"Il pulsante di rifiuto era presente ('NO GRAZIE, SOLO COOKIE TECNICI E ANALYTICS', oltre alla 'x'), ma il robot non lo ha riconosciuto."
+C1,66,gemini,si,ok,0,correct,
+C1,67,gemini,si,ok,0,correct,
+C1,68,gemini,no_reject,,,,Banner solo con Acconsento | Gestisci le opzioni.
+C1,69,gemini,no_banner,,,,Nessun banner rilevato.
+C1,70,gemini,no_banner,,,,Nessun banner rilevato.
+C1,71,gemini,no_banner,,,,Nessun banner rilevato.
+C1,72,gemini,no_banner,,,,Nessun banner rilevato.
+C1,75,gemini,si,ok,0,correct,
+C1,76,gemini,si,ok,0,correct,
+C1,77,gemini,other,,,,"Il pulsante di rifiuto era presente ('Accetta solo indispensabili'), ma il robot non lo ha riconosciuto. Inoltre nella tabella c'è il cookie 'uuid' (Marketing, Mediamath) non segnalato nel verdetto."
+C1,78,gemini,si,ok,0,not_recorded,Il robot ha cliccato 'Rifiuta tutti' ma l'estensione non ha registrato la scelta.
+C1,79,gemini,no_reject,,,,Banner solo con Consenti tutti i cookie | Impostazioni dei cookie.
+C1,80,gemini,si,ok,0,correct,
+C1,81,gemini,no_reject,,,,Paywall (Rifiuta e abbonati).
+C1,82,gemini,no_reject,,,,Banner solo con Acconsento | Gestisci le opzioni.
+C1,83,gemini,no_reject,,,,Presente pulsante '×' di chiusura non cliccato dal robot.
+C1,84,gemini,si,ok,0,not_recorded,Il robot ha cliccato 'Rifiuta' ma l'estensione non ha registrato la scelta.
+C1,85,gemini,si,ok,0,correct,
+C1,86,gemini,no_banner,,,,Nessun banner rilevato.
+C1,88,gemini,no_banner,,,,Il robot non ha rilevato il banner (tra i pulsanti visti compaiono 'Gestisci preferenze | Chiudi').
+C1,89,gemini,si,wrong,0,missed,"Non visto il cookie di terza parte bldid di .blendee.com (364gg, contattato dopo il clic)."
+C1,90,gemini,si,ok,0,correct,
+C1,91,gemini,si,ok,0,correct,
+C1,93,gemini,no_banner,,,,Nessun banner rilevato.

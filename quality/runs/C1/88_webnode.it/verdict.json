@@ -1,0 +1,137 @@
+{
+  "host": "www.webnode.com",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 3,
+      "names": [
+        "TikTok (tiktok.com)",
+        "Bing / Microsoft (bing.com)",
+        "Pinterest (pinterest.com)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 11,
+      "names": [
+        "Google",
+        "Reddit",
+        "TikTok",
+        "Pinterest",
+        "Bing / Microsoft",
+        "Facebook",
+        "Hubspot"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShort",
+      "count": 3,
+      "names": [
+        "Bing / Microsoft",
+        "Hubspot"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 6,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.webnode.com/it/",
+    "lastSeen": {
+      "ad.doubleclick.net": 1793553294185,
+      "alb.reddit.com": 1793553295410,
+      "analytics-ipv6.tiktokw.us": 1793553295828,
+      "analytics.ahrefs.com": 1793553295405,
+      "analytics.tiktok.com": 1793553305834,
+      "bat.bing.com": 1793553296075,
+      "bat.bing.net": 1793553295571,
+      "bzr.openai.com": 1793553296908,
+      "bzrcdn.openai.com": 1793553295404,
+      "c.seznam.cz": 1793553296098,
+      "capi-automation.s3.us-east-2.amazonaws.com": 1793553295602,
+      "cdn-4.convertexperiments.com": 1793553293757,
+      "cdn.hub-prod.team.blue": 1793553295137,
+      "connect.facebook.net": 1793553295426,
+      "ct.pinterest.com": 1793553296563,
+      "d1rv23qj5kas56.cloudfront.net": 1793553297982,
+      "embeds.acswapp.com": 1793553296749,
+      "eu-cdn.acsbapp.com": 1793553297432,
+      "eu.acsbapp.com": 1793553296914,
+      "fonts.gstatic.com": 1793553297639,
+      "googleads.g.doubleclick.net": 1793553295560,
+      "h.seznam.cz": 1793553298022,
+      "js-eu1.hs-analytics.net": 1793553295349,
+      "js-eu1.hs-banner.com": 1793553295349,
+      "js-eu1.hs-scripts.com": 1793553293060,
+      "motu.teamblue.services": 1793553297645,
+      "q.clarity.ms": 1793553314394,
+      "region1.analytics.google.com": 1793553295306,
+      "region1.google-analytics.com": 1793553295559,
+      "s.pinimg.com": 1793553295430,
+      "scripts.clarity.ms": 1793553295427,
+      "stats.g.doubleclick.net": 1793553295307,
+      "track-eu1.hubspot.com": 1793553296561,
+      "www.clarity.ms": 1793553294184,
+      "www.facebook.com": 1793553295604,
+      "www.google.com": 1793553297630,
+      "www.google.it": 1793553295636,
+      "www.googletagmanager.com": 1793553294167,
+      "www.gstatic.com": 1793553297734,
+      "www.redditstatic.com": 1793553294183,
+      "www.webnode.com": 1793553295562
+    }
+  },
+  "hostsConsidered": [
+    "ad.doubleclick.net",
+    "alb.reddit.com",
+    "analytics-ipv6.tiktokw.us",
+    "analytics.ahrefs.com",
+    "analytics.tiktok.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "bzr.openai.com",
+    "bzrcdn.openai.com",
+    "c.seznam.cz",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "cdn-4.convertexperiments.com",
+    "cdn.hub-prod.team.blue",
+    "connect.facebook.net",
+    "ct.pinterest.com",
+    "d1rv23qj5kas56.cloudfront.net",
+    "embeds.acswapp.com",
+    "eu-cdn.acsbapp.com",
+    "eu.acsbapp.com",
+    "fonts.gstatic.com",
+    "googleads.g.doubleclick.net",
+    "h.seznam.cz",
+    "js-eu1.hs-analytics.net",
+    "js-eu1.hs-banner.com",
+    "js-eu1.hs-scripts.com",
+    "motu.teamblue.services",
+    "q.clarity.ms",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "s.pinimg.com",
+    "scripts.clarity.ms",
+    "stats.g.doubleclick.net",
+    "track-eu1.hubspot.com",
+    "www.clarity.ms",
+    "www.facebook.com",
+    "www.google.com",
+    "www.google.it",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.redditstatic.com",
+    "www.webnode.com"
+  ]
+}

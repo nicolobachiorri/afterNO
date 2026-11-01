@@ -1,0 +1,106 @@
+{
+  "url": "https://www.alguer.it",
+  "final_url": "https://www.alguer.it/",
+  "click_at_s": 27.07,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Scopri di pi\u00f9",
+    "Elenco dei partner",
+    "Acconsento",
+    "Gestisci le opzioni"
+  ],
+  "tcf": {
+    "cmpId": 300,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "connect.facebook.net": {
+      "first_s": 3.44,
+      "last_s": 3.92
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 7.71,
+      "last_s": 9.61
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 8.02,
+      "last_s": 9.1
+    },
+    "fonts.googleapis.com": {
+      "first_s": 7.19,
+      "last_s": 7.19
+    },
+    "fonts.gstatic.com": {
+      "first_s": 7.21,
+      "last_s": 7.21
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 4.21,
+      "last_s": 7.21
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.44,
+      "last_s": 8.83
+    },
+    "region1.analytics.google.com": {
+      "first_s": 4.23,
+      "last_s": 4.23
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 3.44,
+      "last_s": 3.92
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 4.23,
+      "last_s": 4.23
+    },
+    "www.google.it": {
+      "first_s": 4.23,
+      "last_s": 4.23
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.44,
+      "last_s": 3.44
+    }
+  },
+  "cookies": [
+    {
+      "name": "_ga_KXF24QVRDR",
+      "domain": ".alguer.it",
+      "path": "/",
+      "expires": 1828112459.497422,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".alguer.it",
+      "path": "/",
+      "expires": 1828112459.497522,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".alguer.it",
+      "path": "/",
+      "expires": 1827248460,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

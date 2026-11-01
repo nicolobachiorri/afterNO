@@ -1,0 +1,77 @@
+{
+  "host": "shop.biollamotors.it",
+  "choice": {
+    "at": 1793552630371,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "purposesConsented": 0,
+    "site": "biollamotors.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://shop.biollamotors.it/",
+    "lastSeen": {
+      "ad.doubleclick.net": 1793552624818,
+      "cdn.cookie-script.com": 1793552636877,
+      "cdn.jsdelivr.net": 1793552621685,
+      "cdn.scalapay.com": 1793552622152,
+      "cdnjs.cloudflare.com": 1793552635590,
+      "connect.facebook.net": 1793552622923,
+      "consent.cookie-script.com": 1793552630339,
+      "ep1.adtrafficquality.google": 1793552637364,
+      "ep2.adtrafficquality.google": 1793552636837,
+      "googleads.g.doubleclick.net": 1793552624817,
+      "media.biollamotors.it": 1793552622172,
+      "pagead2.googlesyndication.com": 1793552635631,
+      "region1.analytics.google.com": 1793552624810,
+      "region1.google-analytics.com": 1793552635630,
+      "shop.biollamotors.it": 1793552636676,
+      "stats.g.doubleclick.net": 1793552624810,
+      "www.biollamotors.it": 1793552620815,
+      "www.facebook.com": 1793552635658,
+      "www.google.com": 1793552624959,
+      "www.google.it": 1793552624959,
+      "www.googletagmanager.com": 1793552622359,
+      "www.paypal.com": 1793552636725
+    }
+  },
+  "hostsConsidered": [
+    "cdn.cookie-script.com",
+    "cdnjs.cloudflare.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "shop.biollamotors.it",
+    "www.facebook.com",
+    "www.paypal.com"
+  ]
+}

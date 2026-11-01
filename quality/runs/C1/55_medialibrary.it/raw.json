@@ -1,0 +1,84 @@
+{
+  "url": "https://www.medialibrary.it",
+  "final_url": "https://www.medialibrary.it/",
+  "click_at_s": 10.92,
+  "reload_at_s": 15.92,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "Soluzioni",
+    "cookie policy",
+    "Scopri di pi\u00f9 e personalizza",
+    "Rifiuta",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn.iubenda.com",
+    "cpl.iubenda.com",
+    "cs.iubenda.com",
+    "i0.wp.com",
+    "idb.iubenda.com",
+    "sites.mlolcdn.net",
+    "widget.freshworks.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "i0.wp.com",
+    "idb.iubenda.com",
+    "sites.mlolcdn.net",
+    "widget.freshworks.com"
+  ],
+  "third_party_timeline": {
+    "cdn.iubenda.com": {
+      "first_s": 2.39,
+      "last_s": 16.03
+    },
+    "cpl.iubenda.com": {
+      "first_s": 10.93,
+      "last_s": 10.93
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.01,
+      "last_s": 16.03
+    },
+    "i0.wp.com": {
+      "first_s": 2.6,
+      "last_s": 16.02
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.36,
+      "last_s": 16.14
+    },
+    "sites.mlolcdn.net": {
+      "first_s": 2.39,
+      "last_s": 16.02
+    },
+    "widget.freshworks.com": {
+      "first_s": 2.39,
+      "last_s": 16.08
+    }
+  },
+  "cookies": [
+    {
+      "name": "_iub_cs-76520464",
+      "domain": ".medialibrary.it",
+      "path": "/",
+      "expires": 1825088170,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".medialibrary.it",
+      "path": "/",
+      "expires": 1825088175,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

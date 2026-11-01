@@ -1,0 +1,66 @@
+{
+  "url": "https://www.guidasicilia.it",
+  "final_url": "https://www.guidasicilia.it/",
+  "click_at_s": 27.72,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "PRODOTTI",
+    "SERVIZI",
+    "IMPRESE"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "api2.synapp.it": {
+      "first_s": 4.01,
+      "last_s": 4.01
+    },
+    "files.synapp.it": {
+      "first_s": 3.24,
+      "last_s": 3.24
+    },
+    "maps.google.com": {
+      "first_s": 9.21,
+      "last_s": 15.53
+    },
+    "maps.googleapis.com": {
+      "first_s": 10.53,
+      "last_s": 10.53
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.28,
+      "last_s": 4.28
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.8,
+      "last_s": 2.8
+    }
+  },
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "domain": ".guidasicilia.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".guidasicilia.it",
+      "path": "/",
+      "expires": 1825089539.671584,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://guidasicilia.it",
+        "hasCrossSiteAncestor": false
+      }
+    }
+  ]
+}

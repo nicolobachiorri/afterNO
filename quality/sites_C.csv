@@ -1,10 +1,10 @@
 order,url,source,tranco_rank,role
-45,https://www.polymoon.it,tranco:ZJ8PG,127646,sample
+45,https://www.polymoon.it,tranco:ZJ8PG,127646,replaced: does not load (domain not found)
 46,https://www.torinocronaca.it,tranco:ZJ8PG,71922,sample
 47,https://www.upprovider.it,tranco:ZJ8PG,152339,sample
 48,https://www.rfi.it,tranco:ZJ8PG,50507,sample
 49,https://www.unibz.it,tranco:ZJ8PG,51365,sample
-50,https://www.maggiolicloud.it,tranco:ZJ8PG,53672,sample
+50,https://www.maggiolicloud.it,tranco:ZJ8PG,53672,replaced: does not load (domain not found)
 51,https://www.arera.it,tranco:ZJ8PG,84510,sample
 52,https://www.bancamediolanum.it,tranco:ZJ8PG,152809,sample
 53,https://www.lanuovabq.it,tranco:ZJ8PG,193139,sample
@@ -17,7 +17,7 @@ order,url,source,tranco_rank,role
 60,https://www.lottomatica.it,tranco:ZJ8PG,8601,replaced: adults only (gambling)
 61,https://www.marlu.it,tranco:ZJ8PG,218355,sample
 62,https://www.betflag.it,tranco:ZJ8PG,9028,replaced: adults only (gambling)
-63,https://www.tiristorantemipizzeria.it,tranco:ZJ8PG,132087,sample
+63,https://www.tiristorantemipizzeria.it,tranco:ZJ8PG,132087,replaced: does not load (server error)
 64,https://camcom.gov.it,tranco:ZJ8PG,88420,sample
 65,https://www.mps.it,tranco:ZJ8PG,51755,sample
 66,https://www.gazzettadireggio.it,tranco:ZJ8PG,118679,sample
@@ -27,8 +27,8 @@ order,url,source,tranco_rank,role
 70,https://www.inrim.it,tranco:ZJ8PG,38892,sample
 71,https://www.mytrina.it,tranco:ZJ8PG,206350,sample
 72,https://www.postecert.it,tranco:ZJ8PG,133474,sample
-73,https://www.mvmnet.it,tranco:ZJ8PG,46914,sample
-74,https://www.e-pal.it,tranco:ZJ8PG,182000,sample
+73,https://www.mvmnet.it,tranco:ZJ8PG,46914,replaced: does not load (invalid certificate)
+74,https://www.e-pal.it,tranco:ZJ8PG,182000,replaced: does not load (invalid certificate)
 75,https://www.biollamotors.it,tranco:ZJ8PG,225188,sample
 76,https://www.casapappagallo.it,tranco:ZJ8PG,92059,sample
 77,https://www.myheritage.it,tranco:ZJ8PG,166050,sample
@@ -41,13 +41,13 @@ order,url,source,tranco_rank,role
 84,https://www.salonelibro.it,tranco:ZJ8PG,192032,sample
 85,https://www.zuiki.it,tranco:ZJ8PG,188319,sample
 86,https://www.aranagenzia.it,tranco:ZJ8PG,176004,sample
-87,https://www.qcom.it,tranco:ZJ8PG,202246,reserve
-88,https://www.webnode.it,tranco:ZJ8PG,67940,reserve
-89,https://www.borsaitaliana.it,tranco:ZJ8PG,7512,reserve
-90,https://www.mulino.it,tranco:ZJ8PG,114411,reserve
-91,https://www.turistipercaso.it,tranco:ZJ8PG,74886,reserve
-92,https://www.val.it,tranco:ZJ8PG,170526,reserve
-93,https://www.guidasicilia.it,tranco:ZJ8PG,156349,reserve
+87,https://www.qcom.it,tranco:ZJ8PG,202246,replaced: does not load (connection reset)
+88,https://www.webnode.it,tranco:ZJ8PG,67940,sample
+89,https://www.borsaitaliana.it,tranco:ZJ8PG,7512,sample
+90,https://www.mulino.it,tranco:ZJ8PG,114411,sample
+91,https://www.turistipercaso.it,tranco:ZJ8PG,74886,sample
+92,https://www.val.it,tranco:ZJ8PG,170526,replaced: does not load (domain not found)
+93,https://www.guidasicilia.it,tranco:ZJ8PG,156349,sample
 94,https://www.ilcommiato.it,tranco:ZJ8PG,33496,reserve
 95,https://www.misterimprese.it,tranco:ZJ8PG,168756,reserve
 96,https://www.movieplayer.it,tranco:ZJ8PG,52737,reserve

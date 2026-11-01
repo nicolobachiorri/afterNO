@@ -1,0 +1,107 @@
+{
+  "url": "https://www.radiogold.it",
+  "final_url": "https://radiogold.it/",
+  "click_at_s": 27.35,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "CONDIVIDI",
+    "ISCRIVITI",
+    "\u00d7",
+    "cookie policy",
+    "terze parti",
+    "finalit\u00e0 pubblicitarie",
+    "SCOPRI DI PI\u00d9 E PERSONALIZZA",
+    "ACCETTA"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "buttons-config.sharethis.com": {
+      "first_s": 3.36,
+      "last_s": 3.36
+    },
+    "cdn.azotosolutions.com": {
+      "first_s": 3.16,
+      "last_s": 4.07
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.55,
+      "last_s": 3.54
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.54,
+      "last_s": 3.54
+    },
+    "cdn.nativery.com": {
+      "first_s": 3.17,
+      "last_s": 3.17
+    },
+    "cdn98-ita.azotosolutions.com": {
+      "first_s": 4.98,
+      "last_s": 27.04
+    },
+    "cs.iubenda.com": {
+      "first_s": 2.55,
+      "last_s": 3.41
+    },
+    "eu.meshify.cloud": {
+      "first_s": 8.12,
+      "last_s": 8.12
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.55,
+      "last_s": 2.55
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.15,
+      "last_s": 3.16
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.63,
+      "last_s": 3.63
+    },
+    "l.sharethis.com": {
+      "first_s": 8.36,
+      "last_s": 8.36
+    },
+    "load-balancer.azotosolutions.com": {
+      "first_s": 4.07,
+      "last_s": 4.07
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.7,
+      "last_s": 3.94
+    },
+    "platform-api.sharethis.com": {
+      "first_s": 2.55,
+      "last_s": 2.55
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.49,
+      "last_s": 8.7
+    },
+    "www.google.com": {
+      "first_s": 2.55,
+      "last_s": 2.55
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.55,
+      "last_s": 2.55
+    },
+    "www.gstatic.com": {
+      "first_s": 3.36,
+      "last_s": 3.36
+    }
+  },
+  "cookies": []
+}

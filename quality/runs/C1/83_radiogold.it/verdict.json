@@ -1,0 +1,72 @@
+{
+  "host": "radiogold.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://radiogold.it/",
+    "lastSeen": {
+      "bn.radiogold.it": 1793552851967,
+      "buttons-config.sharethis.com": 1793552851628,
+      "cdn.azotosolutions.com": 1793552852341,
+      "cdn.iubenda.com": 1793552851806,
+      "cdn.jsdelivr.net": 1793552851813,
+      "cdn.nativery.com": 1793552851441,
+      "cdn.radiogold.it": 1793552851446,
+      "cdn98-ita.azotosolutions.com": 1793552875308,
+      "cs.iubenda.com": 1793552851680,
+      "eu.meshify.cloud": 1793552856393,
+      "fonts.googleapis.com": 1793552850821,
+      "fonts.gstatic.com": 1793552851442,
+      "fr.cdnbye.com": 1793552857518,
+      "idb.iubenda.com": 1793552851905,
+      "l.sharethis.com": 1793552856635,
+      "load-balancer.azotosolutions.com": 1793552852339,
+      "pagead2.googlesyndication.com": 1793552852207,
+      "platform-api.sharethis.com": 1793552851405,
+      "radiogold.it": 1793552854033,
+      "region1.google-analytics.com": 1793552856967,
+      "signalcloud.cdnbye.com": 1793552856618,
+      "www.google.com": 1793552851405,
+      "www.googletagmanager.com": 1793552851406,
+      "www.gstatic.com": 1793552851629,
+      "www.radiogold.it": 1793552850281
+    }
+  },
+  "hostsConsidered": [
+    "bn.radiogold.it",
+    "buttons-config.sharethis.com",
+    "cdn.azotosolutions.com",
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "cdn.nativery.com",
+    "cdn.radiogold.it",
+    "cdn98-ita.azotosolutions.com",
+    "cs.iubenda.com",
+    "eu.meshify.cloud",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fr.cdnbye.com",
+    "idb.iubenda.com",
+    "l.sharethis.com",
+    "load-balancer.azotosolutions.com",
+    "pagead2.googlesyndication.com",
+    "platform-api.sharethis.com",
+    "radiogold.it",
+    "region1.google-analytics.com",
+    "signalcloud.cdnbye.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.radiogold.it"
+  ]
+}

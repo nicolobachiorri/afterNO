@@ -1,0 +1,443 @@
+{
+  "url": "https://www.turistipercaso.it",
+  "final_url": "https://turistipercaso.it/",
+  "click_at_s": 12.35,
+  "reload_at_s": 17.35,
+  "reject": "text: 'Continua senza accettare' in main (normal click)",
+  "visible_buttons": [
+    "Accetta e continua a leggere",
+    "Personalizza",
+    "Continua senza accettare",
+    "Cambia Impostazioni Privacy Policy"
+  ],
+  "tcf": {
+    "cmpId": 134,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "49c304b4190b1e823d669c1ddfc59f6f.safeframe.googlesyndication.com",
+    "77eeea670a9ebf566c718f796e56be0e.safeframe.googlesyndication.com",
+    "a.teads.tv",
+    "ab.dns-finder.com",
+    "ad-delivery.net",
+    "ad.doubleclick.net",
+    "ads.pubmatic.com",
+    "am-trc-events.taboola.com",
+    "api.btloader.com",
+    "btloader.com",
+    "cdn.api.btloader.com",
+    "cdn.btloader.com",
+    "cdn.by.wonderpush.com",
+    "cdn.exmarketplace.com",
+    "cdn.fusion-platform.com",
+    "cdn.id5-sync.com",
+    "cdn.jsdelivr.net",
+    "cdn.mgaru.dev",
+    "cdn.taboola.com",
+    "classifly.xyz",
+    "cm.g.doubleclick.net",
+    "connect-metrics-collector.s-onetag.com",
+    "connect.facebook.net",
+    "connectid.analytics.yahoo.com",
+    "consent.cookiebot.eu",
+    "consentcdn.cookiebot.eu",
+    "dfp-gateway.s-onetag.com",
+    "dmp.im-apps.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "get.s-onetag.com",
+    "gum.criteo.com",
+    "hbopenbid.pubmatic.com",
+    "ib.adnxs.com",
+    "id5-sync.com",
+    "ident.mygaru.com",
+    "image6.pubmatic.com",
+    "images.taboola.com",
+    "invstatic101.creativecdn.com",
+    "oa.openxcdn.net",
+    "onetag-geo.s-onetag.com",
+    "ovh.commander1.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "signal-beacon.s-onetag.com",
+    "signal-metrics-collector-beta.s-onetag.com",
+    "signal-segments.s-onetag.com",
+    "spadsync.com",
+    "static.criteo.net",
+    "sync6.im-apps.net",
+    "tags.crwdcntrl.net",
+    "trc.taboola.com",
+    "ups.analytics.yahoo.com",
+    "www.facebook.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "77eeea670a9ebf566c718f796e56be0e.safeframe.googlesyndication.com",
+    "a.teads.tv",
+    "ab.dns-finder.com",
+    "ad-delivery.net",
+    "ad.doubleclick.net",
+    "am-trc-events.taboola.com",
+    "api.btloader.com",
+    "btloader.com",
+    "cdn.by.wonderpush.com",
+    "cdn.exmarketplace.com",
+    "cdn.taboola.com",
+    "classifly.xyz",
+    "cm.g.doubleclick.net",
+    "connect-metrics-collector.s-onetag.com",
+    "connect.facebook.net",
+    "consent.cookiebot.eu",
+    "consentcdn.cookiebot.eu",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "get.s-onetag.com",
+    "gum.criteo.com",
+    "hbopenbid.pubmatic.com",
+    "ib.adnxs.com",
+    "images.taboola.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "signal-beacon.s-onetag.com",
+    "signal-metrics-collector-beta.s-onetag.com",
+    "signal-segments.s-onetag.com",
+    "trc.taboola.com",
+    "www.facebook.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "49c304b4190b1e823d669c1ddfc59f6f.safeframe.googlesyndication.com": {
+      "first_s": 12.86,
+      "last_s": 12.86
+    },
+    "77eeea670a9ebf566c718f796e56be0e.safeframe.googlesyndication.com": {
+      "first_s": 21.12,
+      "last_s": 21.12
+    },
+    "a.teads.tv": {
+      "first_s": 12.41,
+      "last_s": 22.92
+    },
+    "ab.dns-finder.com": {
+      "first_s": 12.71,
+      "last_s": 22.11
+    },
+    "ad-delivery.net": {
+      "first_s": 12.71,
+      "last_s": 24.04
+    },
+    "ad.doubleclick.net": {
+      "first_s": 12.71,
+      "last_s": 24.0
+    },
+    "ads.pubmatic.com": {
+      "first_s": 12.41,
+      "last_s": 12.41
+    },
+    "am-trc-events.taboola.com": {
+      "first_s": 15.61,
+      "last_s": 27.33
+    },
+    "api.btloader.com": {
+      "first_s": 13.34,
+      "last_s": 24.53
+    },
+    "btloader.com": {
+      "first_s": 12.41,
+      "last_s": 20.99
+    },
+    "cdn.api.btloader.com": {
+      "first_s": 12.71,
+      "last_s": 12.71
+    },
+    "cdn.btloader.com": {
+      "first_s": 12.71,
+      "last_s": 12.71
+    },
+    "cdn.by.wonderpush.com": {
+      "first_s": 5.67,
+      "last_s": 23.28
+    },
+    "cdn.exmarketplace.com": {
+      "first_s": 2.67,
+      "last_s": 20.92
+    },
+    "cdn.fusion-platform.com": {
+      "first_s": 12.41,
+      "last_s": 12.41
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 12.41,
+      "last_s": 12.41
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 12.41,
+      "last_s": 12.41
+    },
+    "cdn.mgaru.dev": {
+      "first_s": 12.42,
+      "last_s": 12.42
+    },
+    "cdn.taboola.com": {
+      "first_s": 13.36,
+      "last_s": 25.33
+    },
+    "classifly.xyz": {
+      "first_s": 12.41,
+      "last_s": 20.92
+    },
+    "cm.g.doubleclick.net": {
+      "first_s": 14.62,
+      "last_s": 24.33
+    },
+    "connect-metrics-collector.s-onetag.com": {
+      "first_s": 17.37,
+      "last_s": 17.37
+    },
+    "connect.facebook.net": {
+      "first_s": 2.67,
+      "last_s": 17.49
+    },
+    "connectid.analytics.yahoo.com": {
+      "first_s": 12.41,
+      "last_s": 12.41
+    },
+    "consent.cookiebot.eu": {
+      "first_s": 6.19,
+      "last_s": 20.76
+    },
+    "consentcdn.cookiebot.eu": {
+      "first_s": 6.48,
+      "last_s": 20.89
+    },
+    "dfp-gateway.s-onetag.com": {
+      "first_s": 14.36,
+      "last_s": 14.36
+    },
+    "dmp.im-apps.net": {
+      "first_s": 12.42,
+      "last_s": 12.42
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 12.83,
+      "last_s": 21.8
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 13.04,
+      "last_s": 21.27
+    },
+    "get.s-onetag.com": {
+      "first_s": 12.41,
+      "last_s": 20.92
+    },
+    "gum.criteo.com": {
+      "first_s": 12.95,
+      "last_s": 24.32
+    },
+    "hbopenbid.pubmatic.com": {
+      "first_s": 12.42,
+      "last_s": 22.92
+    },
+    "ib.adnxs.com": {
+      "first_s": 14.62,
+      "last_s": 24.33
+    },
+    "id5-sync.com": {
+      "first_s": 12.74,
+      "last_s": 12.74
+    },
+    "ident.mygaru.com": {
+      "first_s": 12.9,
+      "last_s": 12.9
+    },
+    "image6.pubmatic.com": {
+      "first_s": 13.21,
+      "last_s": 13.21
+    },
+    "images.taboola.com": {
+      "first_s": 14.61,
+      "last_s": 24.32
+    },
+    "invstatic101.creativecdn.com": {
+      "first_s": 12.41,
+      "last_s": 12.41
+    },
+    "measurements-api.wonderpush.com": {
+      "first_s": 9.13,
+      "last_s": 9.13
+    },
+    "oa.openxcdn.net": {
+      "first_s": 12.41,
+      "last_s": 12.41
+    },
+    "onetag-geo.s-onetag.com": {
+      "first_s": 12.63,
+      "last_s": 12.63
+    },
+    "ovh.commander1.com": {
+      "first_s": 16.87,
+      "last_s": 17.16
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 7.17,
+      "last_s": 25.03
+    },
+    "region1.google-analytics.com": {
+      "first_s": 6.37,
+      "last_s": 20.56
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 12.45,
+      "last_s": 20.98
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 5.67,
+      "last_s": 20.56
+    },
+    "signal-beacon.s-onetag.com": {
+      "first_s": 12.63,
+      "last_s": 20.92
+    },
+    "signal-metrics-collector-beta.s-onetag.com": {
+      "first_s": 17.37,
+      "last_s": 17.37
+    },
+    "signal-segments.s-onetag.com": {
+      "first_s": 12.63,
+      "last_s": 20.92
+    },
+    "spadsync.com": {
+      "first_s": 12.63,
+      "last_s": 12.63
+    },
+    "static.criteo.net": {
+      "first_s": 12.42,
+      "last_s": 12.42
+    },
+    "sync6.im-apps.net": {
+      "first_s": 12.87,
+      "last_s": 12.87
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 12.41,
+      "last_s": 12.41
+    },
+    "trc.taboola.com": {
+      "first_s": 14.31,
+      "last_s": 25.33
+    },
+    "ups.analytics.yahoo.com": {
+      "first_s": 12.87,
+      "last_s": 12.87
+    },
+    "www.facebook.com": {
+      "first_s": 12.55,
+      "last_s": 20.76
+    },
+    "www.googletagmanager.com": {
+      "first_s": 5.74,
+      "last_s": 20.76
+    }
+  },
+  "cookies": [
+    {
+      "name": "CookieConsent",
+      "domain": "turistipercaso.it",
+      "path": "/",
+      "expires": 1825089394,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "nvq_hid",
+      "domain": "turistipercaso.it",
+      "path": "/",
+      "expires": 1793553454,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pubcid",
+      "domain": "turistipercaso.it",
+      "path": "/",
+      "expires": 1824657394,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "connectId",
+      "domain": ".turistipercaso.it",
+      "path": "/",
+      "expires": 1825089395.35702,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".turistipercaso.it",
+      "path": "/",
+      "expires": 1809105395,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tc_cj_v2",
+      "domain": ".ovh.commander1.com",
+      "path": "/",
+      "expires": 1825089399.435557,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tc_cj_v2_cmp",
+      "domain": ".ovh.commander1.com",
+      "path": "/",
+      "expires": 1825089399.435668,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TCID",
+      "domain": ".commander1.com",
+      "path": "/",
+      "expires": 1825089399.435715,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".turistipercaso.it",
+      "path": "/",
+      "expires": 1801329402,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

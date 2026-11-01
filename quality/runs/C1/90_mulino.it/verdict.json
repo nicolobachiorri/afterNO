@@ -1,0 +1,94 @@
+{
+  "host": "www.mulino.it",
+  "choice": {
+    "at": 1793553365839,
+    "choice": "rejected",
+    "label": "continua senza accettare",
+    "site": "mulino.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "continua senza accettare"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyPartitioned",
+      "count": 1,
+      "names": [
+        "Youtube (youtube.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.mulino.it/",
+    "lastSeen": {
+      "cdn.jsdelivr.net": 1793553356980,
+      "fonts.googleapis.com": 1793553354221,
+      "fonts.gstatic.com": 1793553372122,
+      "googleads.g.doubleclick.net": 1793553372129,
+      "i.ytimg.com": 1793553372126,
+      "jnn-pa.googleapis.com": 1793553372517,
+      "region1.analytics.google.com": 1793553376802,
+      "region1.google-analytics.com": 1793553376802,
+      "s3-eu-west-1.amazonaws.com": 1793553356841,
+      "static.doubleclick.net": 1793553372052,
+      "static01.mulino.it": 1793553356838,
+      "static03.mulino.it": 1793553356839,
+      "static04.mulino.it": 1793553356839,
+      "static06.mulino.it": 1793553356839,
+      "static07.mulino.it": 1793553356839,
+      "static08.mulino.it": 1793553356839,
+      "static09.mulino.it": 1793553356838,
+      "static0a.mulino.it": 1793553356839,
+      "static0b.mulino.it": 1793553356838,
+      "static0c.mulino.it": 1793553356838,
+      "static0d.mulino.it": 1793553356839,
+      "static0f.mulino.it": 1793553356838,
+      "stats.g.doubleclick.net": 1793553360559,
+      "www.google.com": 1793553372072,
+      "www.google.it": 1793553360561,
+      "www.googletagmanager.com": 1793553356984,
+      "www.gstatic.com": 1793553359693,
+      "www.mulino.it": 1793553372132,
+      "www.youtube-nocookie.com": 1793553374603,
+      "www.youtube.com": 1793553372301,
+      "yt3.ggpht.com": 1793553372131
+    }
+  },
+  "hostsConsidered": [
+    "fonts.gstatic.com",
+    "googleads.g.doubleclick.net",
+    "i.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "static.doubleclick.net",
+    "www.google.com",
+    "www.mulino.it",
+    "www.youtube-nocookie.com",
+    "www.youtube.com",
+    "yt3.ggpht.com"
+  ]
+}

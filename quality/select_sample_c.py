@@ -22,6 +22,14 @@ REPLACED = {
     # Decided before the first visit, from the name alone (clear cases only).
     "lottomatica.it": "adults only (gambling)",
     "betflag.it": "adults only (gambling)",
+    # Found at visit C1: the home page does not load.
+    "polymoon.it": "does not load (domain not found)",
+    "maggiolicloud.it": "does not load (domain not found)",
+    "tiristorantemipizzeria.it": "does not load (server error)",
+    "mvmnet.it": "does not load (invalid certificate)",
+    "e-pal.it": "does not load (invalid certificate)",
+    "qcom.it": "does not load (connection reset)",
+    "val.it": "does not load (domain not found)",
 }
 
 

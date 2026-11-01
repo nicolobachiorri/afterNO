@@ -1,0 +1,50 @@
+{
+  "host": "www.numerosamente.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 4,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.numerosamente.it/",
+    "lastSeen": {
+      "fonts.googleapis.com": 1793552820564,
+      "fonts.gstatic.com": 1793552820783,
+      "fundingchoicesmessages.google.com": 1793552820589,
+      "pagead2.googlesyndication.com": 1793552819810,
+      "region1.analytics.google.com": 1793552820588,
+      "stats.g.doubleclick.net": 1793552820588,
+      "www.google-analytics.com": 1793552819942,
+      "www.google.it": 1793552820589,
+      "www.googletagmanager.com": 1793552820006,
+      "www.numerosamente.it": 1793552820880
+    }
+  },
+  "hostsConsidered": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "pagead2.googlesyndication.com",
+    "region1.analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google-analytics.com",
+    "www.google.it",
+    "www.googletagmanager.com",
+    "www.numerosamente.it"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "host": "www.upprovider.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.upprovider.it/",
+    "lastSeen": {
+      "www.upprovider.it": 1793551949589
+    }
+  },
+  "hostsConsidered": [
+    "www.upprovider.it"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "host": "www.inestasy.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "shop.app"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 3,
+      "names": [
+        "TikTok",
+        "Google",
+        "Facebook"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.inestasy.it/",
+    "lastSeen": {
+      "5ma5p56xtyzgg6xqqy2zih7rku0teqkb.lambda-url.eu-central-1.on.aws": 1793552257371,
+      "analytics.tiktok.com": 1793552254312,
+      "api.transcy.io": 1793552281911,
+      "app.cart-bot.net": 1793552259266,
+      "app.consentmo.com": 1793552253213,
+      "cdn-app.cart-bot.net": 1793552259825,
+      "cdn.shopify.com": 1793552282867,
+      "cdnjs.cloudflare.com": 1793552251015,
+      "connect.facebook.net": 1793552256793,
+      "customer-data-api.trstd-login.trustedshops.com": 1793552259469,
+      "error-analytics-sessions-production.shopifysvc.com": 1793552255452,
+      "extensions.shopifycdn.com": 1793552277119,
+      "fonts.bunny.net": 1793552259266,
+      "fonts.googleapis.com": 1793552247887,
+      "fonts.gstatic.com": 1793552256177,
+      "forms.shopifyapps.com": 1793552252969,
+      "googleads.g.doubleclick.net": 1793552257369,
+      "integrations.etrusted.com": 1793552259350,
+      "monorail-edge.shopifysvc.com": 1793552255534,
+      "otlp-http-production.shopifysvc.com": 1793552260856,
+      "region1.analytics.google.com": 1793552256767,
+      "s3.eu-west-1.amazonaws.com": 1793552258855,
+      "shop.app": 1793552254003,
+      "shopify-assets.shopifycdn.com": 1793552255491,
+      "sl.storeify.app": 1793552258855,
+      "static.transcy.io": 1793552281911,
+      "stats.g.doubleclick.net": 1793552256768,
+      "wekre6r5lsxxzzbnlltsbyfm6i0dcqrs.lambda-url.eu-central-1.on.aws": 1793552251733,
+      "widgets.trustedshops.com": 1793552259482,
+      "www.facebook.com": 1793552258153,
+      "www.google.com": 1793552257941,
+      "www.google.it": 1793552258381,
+      "www.googleadservices.com": 1793552257074,
+      "www.googletagmanager.com": 1793552256758,
+      "www.inestasy.it": 1793552282769,
+      "www.merchant-center-analytics.goog": 1793552257102
+    }
+  },
+  "hostsConsidered": [
+    "5ma5p56xtyzgg6xqqy2zih7rku0teqkb.lambda-url.eu-central-1.on.aws",
+    "analytics.tiktok.com",
+    "api.transcy.io",
+    "app.cart-bot.net",
+    "app.consentmo.com",
+    "cdn-app.cart-bot.net",
+    "cdn.shopify.com",
+    "cdnjs.cloudflare.com",
+    "connect.facebook.net",
+    "customer-data-api.trstd-login.trustedshops.com",
+    "error-analytics-sessions-production.shopifysvc.com",
+    "extensions.shopifycdn.com",
+    "fonts.bunny.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "forms.shopifyapps.com",
+    "googleads.g.doubleclick.net",
+    "integrations.etrusted.com",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "region1.analytics.google.com",
+    "s3.eu-west-1.amazonaws.com",
+    "shop.app",
+    "shopify-assets.shopifycdn.com",
+    "sl.storeify.app",
+    "static.transcy.io",
+    "stats.g.doubleclick.net",
+    "wekre6r5lsxxzzbnlltsbyfm6i0dcqrs.lambda-url.eu-central-1.on.aws",
+    "widgets.trustedshops.com",
+    "www.facebook.com",
+    "www.google.com",
+    "www.google.it",
+    "www.googleadservices.com",
+    "www.googletagmanager.com",
+    "www.inestasy.it",
+    "www.merchant-center-analytics.goog"
+  ]
+}

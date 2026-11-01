@@ -1,0 +1,75 @@
+{
+  "url": "https://www.lanuovabq.it",
+  "final_url": "https://lanuovabq.it/it",
+  "click_at_s": 27.01,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Cerca",
+    "Accetta tutti",
+    "Vai alle impostazioni"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "buttons-config.sharethis.com": {
+      "first_s": 3.31,
+      "last_s": 3.31
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.98,
+      "last_s": 2.98
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.2,
+      "last_s": 3.41
+    },
+    "i.ytimg.com": {
+      "first_s": 4.26,
+      "last_s": 4.26
+    },
+    "jnn-pa.googleapis.com": {
+      "first_s": 4.17,
+      "last_s": 4.17
+    },
+    "l.sharethis.com": {
+      "first_s": 3.31,
+      "last_s": 3.31
+    },
+    "platform-api.sharethis.com": {
+      "first_s": 2.99,
+      "last_s": 2.99
+    },
+    "www.google.com": {
+      "first_s": 3.96,
+      "last_s": 3.96
+    },
+    "www.youtube-nocookie.com": {
+      "first_s": 2.99,
+      "last_s": 6.49
+    }
+  },
+  "cookies": [
+    {
+      "name": "XSRF-TOKEN",
+      "domain": "lanuovabq.it",
+      "path": "/",
+      "expires": 1793559302.524489,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "laravel_session",
+      "domain": "lanuovabq.it",
+      "path": "/",
+      "expires": 1793559302.52462,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

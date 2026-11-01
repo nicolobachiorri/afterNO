@@ -1,0 +1,218 @@
+{
+  "url": "https://www.rfi.it",
+  "final_url": "https://www.rfi.it/",
+  "click_at_s": 12.87,
+  "reload_at_s": 17.87,
+  "reject": "button: 'Rifiuta tutti' in main (normal click)",
+  "visible_buttons": [
+    "IL DIBATTITO PUBBLICO",
+    "VEDI TUTTO",
+    "Impostazione cookie",
+    "Rifiuta tutti",
+    "Accetta tutti i cookie"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "6103484.global.siteimproveanalytics.io",
+    "assets.adobedtm.com",
+    "cdn.cookielaw.org",
+    "privacyportal-de.onetrust.com",
+    "rum.hlx.page",
+    "siteimproveanalytics.com",
+    "smetrics.ferroviedellostato.it"
+  ],
+  "third_party_hosts_after_reload": [
+    "6103484.global.siteimproveanalytics.io",
+    "assets.adobedtm.com",
+    "cdn.cookielaw.org",
+    "rum.hlx.page",
+    "siteimproveanalytics.com",
+    "smetrics.ferroviedellostato.it"
+  ],
+  "third_party_timeline": {
+    "6103484.global.siteimproveanalytics.io": {
+      "first_s": 5.16,
+      "last_s": 18.24
+    },
+    "assets.adobedtm.com": {
+      "first_s": 3.8,
+      "last_s": 18.08
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 2.9,
+      "last_s": 18.21
+    },
+    "dpm.demdex.net": {
+      "first_s": 4.14,
+      "last_s": 4.14
+    },
+    "privacyportal-de.onetrust.com": {
+      "first_s": 12.9,
+      "last_s": 12.9
+    },
+    "rum.hlx.page": {
+      "first_s": 2.35,
+      "last_s": 18.0
+    },
+    "siteimproveanalytics.com": {
+      "first_s": 4.74,
+      "last_s": 18.18
+    },
+    "smetrics.ferroviedellostato.it": {
+      "first_s": 4.86,
+      "last_s": 18.28
+    }
+  },
+  "cookies": [
+    {
+      "name": "ak_bmsc",
+      "domain": ".www.rfi.it",
+      "path": "/",
+      "expires": 1793559179.968557,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1809103982.221704,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCVS_0D5215F354E6C24C0A4C98A4%40AdobeOrg",
+      "domain": ".rfi.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCV_0D5215F354E6C24C0A4C98A4%40AdobeOrg",
+      "domain": ".rfi.it",
+      "path": "/",
+      "expires": 1828111982.226887,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "gds_s",
+      "domain": ".rfi.it",
+      "path": "/",
+      "expires": 1793553795,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_ppn",
+      "domain": ".rfi.it",
+      "path": "/",
+      "expires": 1793553795,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_cc",
+      "domain": ".rfi.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "nmstat",
+      "domain": ".rfi.it",
+      "path": "/",
+      "expires": 1828111982.801345,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_vs",
+      "domain": "www.rfi.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".www.rfi.it",
+      "path": "/",
+      "expires": 1809103990,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".www.rfi.it",
+      "path": "/",
+      "expires": 1793559180.614184,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".www.rfi.it",
+      "path": "/",
+      "expires": 1809103995,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_nr",
+      "domain": ".rfi.it",
+      "path": "/",
+      "expires": 1825087995,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "gds",
+      "domain": ".rfi.it",
+      "path": "/",
+      "expires": 1828111995.921713,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "s_sq",
+      "domain": ".rfi.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

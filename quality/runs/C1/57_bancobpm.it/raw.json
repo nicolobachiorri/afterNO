@@ -1,0 +1,164 @@
+{
+  "url": "https://www.bancobpm.it",
+  "final_url": "https://www.bancobpm.it/",
+  "click_at_s": 15.67,
+  "reload_at_s": 20.67,
+  "reject": "button: 'CONTINUA SENZA ACCETTARE' in main (normal click)",
+  "visible_buttons": [
+    "CERCA",
+    "AREE RISERVATE",
+    "1",
+    "2",
+    "3",
+    "Previous",
+    "Next",
+    "CONTINUA SENZA ACCETTARE",
+    "PERSONALIZZA",
+    "ACCETTA"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn.evgnet.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.evgnet.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "cdn.evgnet.com": {
+      "first_s": 7.06,
+      "last_s": 21.75
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.8,
+      "last_s": 21.67
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.48,
+      "last_s": 21.75
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 8.06,
+      "last_s": 21.68
+    },
+    "region1.google-analytics.com": {
+      "first_s": 9.45,
+      "last_s": 27.35
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.45,
+      "last_s": 22.3
+    }
+  },
+  "cookies": [
+    {
+      "name": "_evga_1805",
+      "domain": ".bancobpm.it",
+      "path": "/",
+      "expires": 1828112233.370933,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_sfid_f25e",
+      "domain": ".bancobpm.it",
+      "path": "/",
+      "expires": 1828112233.372377,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".bancobpm.it",
+      "path": "/",
+      "expires": 1828112233.940145,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "consent_glassbox",
+      "domain": ".bancobpm.it",
+      "path": "/",
+      "expires": 1809187019,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "consent_mktg",
+      "domain": ".bancobpm.it",
+      "path": "/",
+      "expires": 1809187019,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "BPM_TRACK",
+      "domain": ".bancobpm.it",
+      "path": "/",
+      "expires": 1809187019,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "BPM_TS",
+      "domain": ".bancobpm.it",
+      "path": "/",
+      "expires": 1809187019,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "connect.sid",
+      "domain": "www.bancobpm.it",
+      "path": "/",
+      "expires": 1793638633.259124,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_NM60HKNYPF",
+      "domain": ".bancobpm.it",
+      "path": "/",
+      "expires": 1828112233.960788,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_H819FG2J5P",
+      "domain": ".bancobpm.it",
+      "path": "/",
+      "expires": 1828112233.962239,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

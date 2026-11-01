@@ -1,0 +1,90 @@
+{
+  "url": "https://www.arera.it",
+  "final_url": "https://www.arera.it/",
+  "click_at_s": 14.98,
+  "reload_at_s": 19.98,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "AREA OPERATORI",
+    "Elettricit\u00e0",
+    "Gas",
+    "Acqua",
+    "Rifiuti",
+    "Teleriscaldamento",
+    "MOSTRA DI PI\u00d9",
+    "Opzioni",
+    "Rifiuta",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "fonts.googleapis.com",
+    "ingestion.webanalytics.italia.it"
+  ],
+  "third_party_hosts_after_reload": [
+    "fonts.googleapis.com",
+    "ingestion.webanalytics.italia.it"
+  ],
+  "third_party_timeline": {
+    "fonts.googleapis.com": {
+      "first_s": 3.11,
+      "last_s": 20.98
+    },
+    "ingestion.webanalytics.italia.it": {
+      "first_s": 4.93,
+      "last_s": 21.5
+    }
+  },
+  "cookies": [
+    {
+      "name": "ASLBSA",
+      "domain": "www.arera.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ASLBSACORS",
+      "domain": "www.arera.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_id.JK23z1b06X.b1d9",
+      "domain": "www.arera.it",
+      "path": "/",
+      "expires": 1827507243,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.JK23z1b06X.b1d9",
+      "domain": "www.arera.it",
+      "path": "/",
+      "expires": 1793553856,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.arera.it",
+      "path": "/",
+      "expires": 1825088050,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "host": "www.brindisireport.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "citynews.ovh"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 5,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.brindisireport.it/",
+    "lastSeen": {
+      "abacus.jasoncameron.dev": 1793552803500,
+      "cdn.brandmetrics.com": 1793552803494,
+      "cdn.iubenda.com": 1793552804492,
+      "cdn.jsdelivr.net": 1793552803590,
+      "citynews-brindisireport.stgy.ovh": 1793552804980,
+      "citynews-today.stgy.ovh": 1793552803530,
+      "citynews-veneziatoday.stgy.ovh": 1793552803530,
+      "citynews.stgy.ovh": 1793552804980,
+      "cs.iubenda.com": 1793552804029,
+      "dl.dmp.citynews.ovh": 1793552804424,
+      "external.citynews.it": 1793552803498,
+      "idb.iubenda.com": 1793552804591,
+      "pagead2.googlesyndication.com": 1793552804744,
+      "region1.google-analytics.com": 1793552812012,
+      "sb.scorecardresearch.com": 1793552804763,
+      "securepubads.g.doubleclick.net": 1793552803785,
+      "www.brindisireport.it": 1793552802721,
+      "www.citynews.it": 1793552804529,
+      "www.googletagmanager.com": 1793552804306,
+      "www.romatoday.it": 1793552803529,
+      "www.today.it": 1793552803529
+    }
+  },
+  "hostsConsidered": [
+    "abacus.jasoncameron.dev",
+    "cdn.brandmetrics.com",
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "citynews-brindisireport.stgy.ovh",
+    "citynews-today.stgy.ovh",
+    "citynews-veneziatoday.stgy.ovh",
+    "citynews.stgy.ovh",
+    "cs.iubenda.com",
+    "dl.dmp.citynews.ovh",
+    "external.citynews.it",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "www.brindisireport.it",
+    "www.citynews.it",
+    "www.googletagmanager.com",
+    "www.romatoday.it",
+    "www.today.it"
+  ]
+}

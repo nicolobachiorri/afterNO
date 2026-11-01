@@ -1,0 +1,34 @@
+{
+  "host": "www.mps.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.mps.it/",
+    "lastSeen": {
+      "embeds.acswapp.com": 1793552373457,
+      "maps.googleapis.com": 1793552373050,
+      "maps.gstatic.com": 1793552373077,
+      "siteimproveanalytics.com": 1793552372416,
+      "www.googletagmanager.com": 1793552372417,
+      "www.mps.it": 1793552373315
+    }
+  },
+  "hostsConsidered": [
+    "embeds.acswapp.com",
+    "maps.googleapis.com",
+    "maps.gstatic.com",
+    "siteimproveanalytics.com",
+    "www.googletagmanager.com",
+    "www.mps.it"
+  ]
+}
