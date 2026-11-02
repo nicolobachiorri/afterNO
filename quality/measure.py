@@ -129,7 +129,8 @@ def measure_site(p, row, out_dir, headless):
     out_dir.mkdir(parents=True, exist_ok=True)
     profile = tempfile.mkdtemp(prefix="cookie-quality-")
     result = {"order": row["order"], "url": url, "source": row["source"]}
-    requests = []  # (seconds since start, host, resource type)
+    requests = []  # (seconds since start, host, resource type, url)
+    cached = []  # (seconds since start, url) of responses served by the browser's cache
     t_start = time.time()
     context = None
     try:
@@ -158,9 +159,29 @@ def measure_site(p, row, out_dir, headless):
             # sites the page contacted. Host name without the port.
             u = urlparse(r.url)
             if u.scheme in ("http", "https") and u.hostname:
-                requests.append((round(time.time() - t_start, 2), u.hostname, r.resource_type))
+                requests.append((round(time.time() - t_start, 2), u.hostname, r.resource_type, r.url))
         context.on("request", on_request)
         page = context.pages[0] if context.pages else context.new_page()
+
+        # Requests the browser answers from its own cache never reach the third party
+        # and carry no cookies: they are not contacts (protocol, modification 14).
+        # Chrome reports them through the DevTools protocol: memory cache as
+        # requestServedFromCache, disk and prefetch cache on the response. The session
+        # covers the page and the iframes in its process; a cached request inside a
+        # cross-site iframe is still counted as a contact (a stated limit).
+        cdp = context.new_cdp_session(page)
+        cdp.send("Network.enable")
+        urls = {}
+        cdp.on("Network.requestWillBeSent", lambda e: urls.__setitem__(e["requestId"], e["request"]["url"]))
+        def from_memory(e):
+            if e["requestId"] in urls:
+                cached.append((round(time.time() - t_start, 2), urls[e["requestId"]]))
+        def from_other_cache(e):
+            resp = e["response"]
+            if resp.get("fromDiskCache") or resp.get("fromPrefetchCache"):
+                cached.append((round(time.time() - t_start, 2), resp["url"]))
+        cdp.on("Network.requestServedFromCache", from_memory)
+        cdp.on("Network.responseReceived", from_other_cache)
 
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=45000)
@@ -204,7 +225,19 @@ def measure_site(p, row, out_dir, headless):
         except Exception as e:
             tcf = {"error": repr(e)[:200]}
         home = site_domain(page.url)
-        third = [(t, h) for t, h, _ in requests if h and site_domain("https://" + h) != home]
+        # Each cached response cancels one request to the same address made shortly
+        # before it; what is left went to the network.
+        pending = list(cached)
+        network, from_cache = [], []
+        for t, h, _, u in requests:
+            hit = next((c for c in pending if c[1] == u and -1 <= c[0] - t <= 5), None)
+            if hit:
+                pending.remove(hit)
+                from_cache.append((t, h))
+            else:
+                network.append((t, h))
+        third = [(t, h) for t, h in network if h and site_domain("https://" + h) != home]
+        third_cached = sorted({h for t, h in from_cache if h and site_domain("https://" + h) != home and t >= t_click})
         after = sorted({h for t, h in third if t >= t_click})
         # When each third-party host was contacted (first and last time, seconds from
         # the start), so the judge can tell "after the click" from "after the reload".
@@ -218,6 +251,8 @@ def measure_site(p, row, out_dir, headless):
             "third_party_hosts_after_click": after,
             "third_party_hosts_after_reload": sorted({h for t, h in third if t_reload is not None and t >= t_reload}),
             "third_party_timeline": {h: {"first_s": a, "last_s": b} for h, (a, b) in sorted(timeline.items())},
+            # Not contacts: answered by the browser's cache after the click (for the judge).
+            "third_party_hosts_served_from_cache_after_click": third_cached,
             "cookies": all_cookies(context, page),
         }
         (out_dir / "raw.json").write_text(json.dumps(raw, indent=2), encoding="utf-8")

@@ -1,0 +1,97 @@
+{
+  "host": "www.borsaitaliana.it",
+  "choice": {
+    "at": 1793628780874,
+    "choice": "rejected",
+    "label": "Rifiuta tutti i cookie di profilazione",
+    "site": "borsaitaliana.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta tutti i cookie di profilazione"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.borsaitaliana.it/",
+    "lastSeen": {
+      "ac.neodatagroup.com": 1793628787051,
+      "ad.360yield.com": 1793628786751,
+      "ad.doubleclick.net": 1793628775038,
+      "ad.neodatagroup.com": 1793628787201,
+      "adagiofe.neodatagroup.com": 1793628786793,
+      "antenna.ayads.co": 1793628786880,
+      "apikeys.civiccomputing.com": 1793628786187,
+      "borsaitaliana.teleborsa.it": 1793628786119,
+      "c.blendee.com": 1793628774877,
+      "cc.cdn.civiccomputing.com": 1793628786592,
+      "cdn.confiant-integrations.net": 1793628781134,
+      "cdn.teleborsa.it": 1793628772357,
+      "charts.borsaitaliana.it": 1793628786568,
+      "clapi.civiccomputing.com": 1793628786619,
+      "did.blendee.com": 1793628774685,
+      "fonts.gstatic.com": 1793628772491,
+      "hb.360yield.com": 1793628786692,
+      "ib.adnxs.com": 1793628786752,
+      "js-ssl.neodatagroup.com": 1793628786776,
+      "optchk.ayads.co": 1793628786749,
+      "region1.google-analytics.com": 1793628791637,
+      "s.adplay.it": 1793628780889,
+      "sac.ayads.co": 1793628780888,
+      "securepubads.g.doubleclick.net": 1793628786791,
+      "stats.fms.azerion.com": 1793628786686,
+      "tra.neodatagroup.com": 1793628787034,
+      "www.borsaitaliana.it": 1793628787049,
+      "www.googletagmanager.com": 1793628773043
+    }
+  },
+  "hostsConsidered": [
+    "ac.neodatagroup.com",
+    "ad.360yield.com",
+    "ad.neodatagroup.com",
+    "adagiofe.neodatagroup.com",
+    "antenna.ayads.co",
+    "apikeys.civiccomputing.com",
+    "borsaitaliana.teleborsa.it",
+    "cc.cdn.civiccomputing.com",
+    "cdn.confiant-integrations.net",
+    "charts.borsaitaliana.it",
+    "clapi.civiccomputing.com",
+    "hb.360yield.com",
+    "ib.adnxs.com",
+    "js-ssl.neodatagroup.com",
+    "optchk.ayads.co",
+    "region1.google-analytics.com",
+    "s.adplay.it",
+    "sac.ayads.co",
+    "securepubads.g.doubleclick.net",
+    "stats.fms.azerion.com",
+    "tra.neodatagroup.com",
+    "www.borsaitaliana.it"
+  ]
+}

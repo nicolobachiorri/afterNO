@@ -104,7 +104,7 @@ def site_card(order, row, folder, msgs, db, now):
     items_html = ""
     for it in verdict.get("items", []):
         text = message(msgs, it["key"], it.get("count"), it.get("subs"))
-        names = ", ".join(it.get("names") or [])
+        names = ", ".join(it.get("names") or [message(msgs, k) for k in it.get("nameKeys") or []])
         mark = {"ok": "✓", "bad": "✗", "info": "ℹ"}[it["mark"]]
         items_html += f"<li class='{it['mark']}'><b>{mark}</b> {esc(text)} {esc(names)}</li>"
     concl = verdict.get("conclusion") or {}
@@ -181,7 +181,8 @@ def site_card(order, row, folder, msgs, db, now):
        {('<br><span class=warn>Errore: ' + esc(verdict['error']) + '</span>') if verdict.get('error') else ''}</p>
       <h3>Dati grezzi (robot)</h3>
       <p>TCF: {tcf_txt}<br>Clic al secondo {esc(raw.get('click_at_s', '-'))}, ricaricamento al {esc(raw.get('reload_at_s', '-'))}.
-       Siti terzi contattati dopo il clic: {len(raw.get('third_party_hosts_after_click', []))}.</p>
+       Siti terzi contattati dopo il clic: {len(raw.get('third_party_hosts_after_click', []))}.
+       {('<br>Serviti dalla cache del browser (non contattati): ' + esc(', '.join(raw['third_party_hosts_served_from_cache_after_click']))) if raw.get('third_party_hosts_served_from_cache_after_click') else ''}</p>
       <p class="compare">{compare}</p>
       <details open><summary>Cookie di siti terzi ({len(third)}; in evidenza quelli che soddisfano i criteri)</summary>{table(third, True)}</details>
       <details><summary>Cookie del sito ({len(own)})</summary>{table(own, False)}</details>

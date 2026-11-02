@@ -241,3 +241,17 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     della scelta per i banner che ricaricano la pagina. I risultati di C1 e C2
     valgono per la versione precedente a queste correzioni.
 
+16. *Robot corretto (modifica 14).* `measure.py` legge dal protocollo DevTools di
+    Chrome quali risposte arrivano dalla cache del browser (memoria, disco,
+    prefetch) e non conta come contatti le richieste così servite. Le elenca a parte
+    nei dati grezzi (`third_party_hosts_served_from_cache_after_click`) e nella
+    pagina di giudizio, perché chi giudica le veda. Limite: la sessione DevTools copre
+    la pagina e gli iframe nel suo processo; una richiesta servita dalla cache dentro
+    un iframe di un altro sito resta contata come contatto. L'errore che resta va
+    quindi nella direzione di più «problemi non visti», non di meno.
+17. *Correzioni del 2 novembre 2026, dopo la prova manuale.* (a) I cookie
+    dell'account dell'utente su un servizio (Google, Facebook, Instagram, LinkedIn, X)
+    non contano più contro il sito: sono mostrati come informazione. (b) Il
+    «legittimo interesse» dichiarato nel segnale TCF è un'informazione, con le
+    finalità nominate, e non cambia la conclusione. In una misura con profilo nuovo
+    (a) non ha effetto, perché il robot non è collegato a nessun account; (b) sì.
