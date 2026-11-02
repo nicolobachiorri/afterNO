@@ -63,7 +63,8 @@ User Data Policy, including the Limited Use requirements.
 ## Changes and contact
 
 Changes to this policy are recorded in the project's history on GitHub, with the date
-at the top of this page. Questions: open an issue on the project's GitHub page.
+at the top of this page. Questions: open an issue on the project's GitHub page, or
+write to afterno.extension@gmail.com.
 
 ---
 
@@ -127,4 +128,4 @@ appena fatto su quel sito.
 
 Le modifiche a questa informativa restano nella cronologia del progetto su GitHub, con
 la data in cima alla pagina. Per domande: apri una segnalazione (issue) sulla pagina
-GitHub del progetto.
+GitHub del progetto, oppure scrivi ad afterno.extension@gmail.com.

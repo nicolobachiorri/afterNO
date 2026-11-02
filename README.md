@@ -170,6 +170,10 @@ Cookie categories, platforms and descriptions come from the
 and contributors), licensed under Apache-2.0. A few entries are corrected
 locally (`divergence_work_space/overrides.csv`), each with its reason.
 
+## Contact
+
+Bugs and questions: open an issue on GitHub, or write to afterno.extension@gmail.com.
+
 ## Licence
 
 Apache License 2.0: see [LICENSE](LICENSE) and [NOTICE](NOTICE). You may use, modify
