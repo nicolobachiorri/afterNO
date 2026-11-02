@@ -1,0 +1,170 @@
+{
+  "url": "https://www.borsaitaliana.it",
+  "frame": "main",
+  "found_as": "button",
+  "button": {
+    "tag": "BUTTON",
+    "role": null,
+    "text": "Rifiuta tutti i cookie di profilazione",
+    "ariaLabel": null,
+    "attrs": {
+      "id": "ccc-reject-settings",
+      "class": "ccc-notify-button ccc-link ccc-tabbable ccc-reject-button"
+    },
+    "inShadow": false,
+    "containers": [
+      {
+        "tag": "BUTTON",
+        "id": "ccc-reject-settings",
+        "cls": "ccc-notify-button ccc-link ccc-tabbable ccc-reject-button",
+        "textLength": 38,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "ccc-button-holder",
+        "cls": "",
+        "textLength": 76,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "cc-panel",
+        "cls": "ccc-panel",
+        "textLength": 1318,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "ccc-content",
+        "cls": "ccc-content--dark   ",
+        "textLength": 1318,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "ccc-module",
+        "cls": "ccc-module--slideout ccc-module--left",
+        "textLength": 1318,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "ccc",
+        "cls": "",
+        "textLength": 1318,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "cls": "",
+        "textLength": 84773,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "HTML",
+        "id": "",
+        "cls": "no-js is--desktop",
+        "textLength": 117610,
+        "mentionsConsent": true
+      }
+    ]
+  },
+  "events_in_frame": [
+    {
+      "type": "pointerdown",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Rifiuta tutti i cookie di profilazione",
+      "t": 10500
+    },
+    {
+      "type": "mousedown",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Rifiuta tutti i cookie di profilazione",
+      "t": 10501
+    },
+    {
+      "type": "pointerup",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Rifiuta tutti i cookie di profilazione",
+      "t": 10501
+    },
+    {
+      "type": "mouseup",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Rifiuta tutti i cookie di profilazione",
+      "t": 10501
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Rifiuta tutti i cookie di profilazione",
+      "t": 10502
+    }
+  ],
+  "banner_still_visible": false,
+  "extension_choice": {
+    "choice:borsaitaliana.it": {
+      "at": 1793615957356,
+      "choice": "rejected",
+      "label": "Rifiuta tutti i cookie di profilazione",
+      "site": "borsaitaliana.it",
+      "source": "click",
+      "trigger": "action"
+    }
+  },
+  "watched_requests": [
+    {
+      "host": "c.blendee.com",
+      "type": "script",
+      "origin": "frame https://www.borsaitaliana.it/"
+    },
+    {
+      "host": "c.blendee.com",
+      "type": "document",
+      "origin": "frame "
+    },
+    {
+      "host": "did.blendee.com",
+      "type": "document",
+      "origin": "frame "
+    },
+    {
+      "host": "c.blendee.com",
+      "type": "script",
+      "origin": "frame https://c.blendee.com/if/a.html?origin=https%3A%2F%2Fwww.borsaitaliana.it"
+    },
+    {
+      "host": "did.blendee.com",
+      "type": "script",
+      "origin": "frame https://did.blendee.com/iframe/if.html"
+    },
+    {
+      "host": "c.blendee.com",
+      "type": "document",
+      "origin": "frame https://c.blendee.com/if/a.html?origin=https%3A%2F%2Fwww.borsaitaliana.it"
+    },
+    {
+      "host": "c.blendee.com",
+      "type": "script",
+      "origin": "frame https://c.blendee.com/if/b.html?origin=https%3A%2F%2Fwww.borsaitaliana.it"
+    },
+    {
+      "host": "c.blendee.com",
+      "type": "script",
+      "origin": "frame https://www.borsaitaliana.it/"
+    }
+  ],
+  "extension_tab_hosts": {
+    "tab:2018207222": [
+      "c.blendee.com",
+      "did.blendee.com"
+    ]
+  }
+}

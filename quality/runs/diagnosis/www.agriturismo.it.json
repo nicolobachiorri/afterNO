@@ -1,0 +1,133 @@
+{
+  "url": "https://www.agriturismo.it",
+  "frame": "main",
+  "found_as": "text",
+  "button": {
+    "tag": "SPAN",
+    "role": null,
+    "text": "Continua senza accettare",
+    "ariaLabel": null,
+    "attrs": {},
+    "inShadow": false,
+    "containers": [
+      {
+        "tag": "SPAN",
+        "id": "",
+        "cls": "",
+        "textLength": 24,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "txt-strong text-medium txt-faded cursor-pointer",
+        "textLength": 24,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "",
+        "textLength": 24,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "w-full flex justify-between items-center",
+        "textLength": 24,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "space-y-16",
+        "textLength": 51,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "flex flex-col space-y-16 px-8 py-8",
+        "textLength": 440,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "react-onclickoutside fixed bottom-24 right-24 ta la ios-sab-spacing bg-white fil",
+        "textLength": 440,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "htg-app",
+        "cls": "bg-canvas",
+        "textLength": 24522,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "cls": "",
+        "textLength": 263320,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "HTML",
+        "id": "",
+        "cls": "no-ios no-android macos no-ipados no-iphone no-safari imageset localstorage sess",
+        "textLength": 293957,
+        "mentionsConsent": true
+      }
+    ]
+  },
+  "events_in_frame": [
+    {
+      "type": "pointerdown",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Continua senza accettare",
+      "t": 9493
+    },
+    {
+      "type": "mousedown",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Continua senza accettare",
+      "t": 9494
+    },
+    {
+      "type": "pointerup",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Continua senza accettare",
+      "t": 9495
+    },
+    {
+      "type": "mouseup",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Continua senza accettare",
+      "t": 9495
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Continua senza accettare",
+      "t": 9495
+    }
+  ],
+  "banner_still_visible": false,
+  "extension_choice": {
+    "choice:agriturismo.it": {
+      "at": 1793616304721,
+      "choice": "rejected",
+      "label": "Continua senza accettare",
+      "site": "agriturismo.it",
+      "source": "click",
+      "trigger": "action"
+    }
+  }
+}

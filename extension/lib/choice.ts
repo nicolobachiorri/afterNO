@@ -131,6 +131,30 @@ export function inConsentBanner(ancestorTexts: string[]): boolean {
   return false;
 }
 
+// Consent platforms name their containers: CybotCookiebotDialog (Cookiebot),
+// cookieman-modal, ccc (Civic), onetrust-banner-sdk, didomi-popup, iubenda-cs-banner...
+// Such a name says "this is the banner" even when its text is long: Cookiebot puts
+// the whole list of cookies inside its dialog, far over MAX_BANNER_TEXT.
+// The caller stops before <body> and <html>: some sites mark the whole page while the
+// banner is open (body class="cookie-banner-open"), and that must not turn any button
+// of the page into a consent choice.
+const CONSENT_CONTAINER = /cookie|consent|gdpr|\bcmp|cybot|onetrust|didomi|iubenda|usercentrics|cookieyes|klaro|tarteaucitron|quantcast|sp_message|\bccc\b/i;
+
+export function isConsentContainer(idAndClass: string): boolean {
+  return CONSENT_CONTAINER.test(idAndClass);
+}
+
+// Either test is enough: a short container that talks about cookies, or a container
+// a consent platform named as its own.
+export function inConsentContext(ancestorTexts: string[], ancestorNames: string[]): boolean {
+  return inConsentBanner(ancestorTexts) || ancestorNames.some(isConsentContainer);
+}
+
+// Longest text that can still be a button label. Also used by the content script for
+// a clicked element that is not a button but a short text ("Continua senza accettare"
+// in a clickable <span>, agriturismo.it).
+export const MAX_LABEL = 60;
+
 // ------------------------------------------------------------------ TCF data
 // The parts of the TCF "tcData" object we read (see the IAB TCF v2 specification).
 export interface TcData {

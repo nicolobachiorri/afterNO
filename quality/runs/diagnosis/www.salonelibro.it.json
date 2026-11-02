@@ -1,0 +1,131 @@
+{
+  "url": "https://www.salonelibro.it",
+  "frame": "main",
+  "found_as": "button",
+  "button": {
+    "tag": "BUTTON",
+    "role": null,
+    "text": "Rifiuta",
+    "ariaLabel": null,
+    "attrs": {
+      "id": "CybotCookiebotDialogBodyButtonDecline",
+      "class": "CybotCookiebotDialogBodyButton",
+      "tabindex": "0",
+      "lang": "it"
+    },
+    "inShadow": false,
+    "containers": [
+      {
+        "tag": "BUTTON",
+        "id": "CybotCookiebotDialogBodyButtonDecline",
+        "cls": "CybotCookiebotDialogBodyButton",
+        "textLength": 7,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "CybotCookiebotDialogBodyButtonsWrapper",
+        "cls": "",
+        "textLength": 54,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "CybotCookiebotDialogBodyButtons",
+        "cls": "",
+        "textLength": 112,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "CybotCookiebotScrollArea",
+        "textLength": 112,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "CybotCookiebotDialogFooter",
+        "cls": "CybotCookiebotScrollContainer",
+        "textLength": 112,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "CybotCookiebotDialogContentWrapper",
+        "textLength": 23418,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "CybotCookiebotDialog",
+        "cls": "CybotMultilevel CybotCloseButtonEnabled CybotCookiebotDialogActive",
+        "textLength": 23418,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "cls": "home",
+        "textLength": 28286,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "HTML",
+        "id": "",
+        "cls": "",
+        "textLength": 29325,
+        "mentionsConsent": true
+      }
+    ]
+  },
+  "events_in_frame": [
+    {
+      "type": "pointerdown",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Rifiuta",
+      "t": 9110
+    },
+    {
+      "type": "mousedown",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Rifiuta",
+      "t": 9110
+    },
+    {
+      "type": "pointerup",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Rifiuta",
+      "t": 9110
+    },
+    {
+      "type": "mouseup",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Rifiuta",
+      "t": 9110
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Rifiuta",
+      "t": 9110
+    }
+  ],
+  "banner_still_visible": false,
+  "extension_choice": {
+    "choice:salonelibro.it": {
+      "at": 1793616289852,
+      "choice": "rejected",
+      "label": "Rifiuta",
+      "site": "salonelibro.it",
+      "source": "click",
+      "trigger": "action"
+    }
+  }
+}

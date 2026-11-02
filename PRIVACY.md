@@ -28,6 +28,13 @@ memory and is **deleted when the browser closes**. It holds:
 
 Nothing is written to disk storage, and nothing is synchronised with your account.
 
+One exception, for a moment: when you click a choice in a banner, the extension also
+keeps that choice (accepted or rejected, the time, the button's label) in the **session
+storage of the site you clicked on**, so that it is not lost if the banner reloads the
+page. It is removed as soon as the next page has read it, and ignored after two
+minutes. The site can technically read it, but it only contains the choice you just
+made on that site.
+
 ## What it never does
 
 - It makes **no network requests** of its own. The cookie database ships inside the
@@ -88,6 +95,13 @@ memoria e viene **cancellata alla chiusura del browser**. Contiene:
   conteggi e i nomi e domini dei cookie che allora potevano riconoscerti.
 
 Nulla viene scritto su disco e nulla viene sincronizzato con il tuo account.
+
+Un'eccezione, per un istante: quando clicchi una scelta in un banner, l'estensione
+conserva quella scelta (accettato o rifiutato, l'ora, l'etichetta del pulsante) anche
+nella **memoria di sessione del sito su cui hai cliccato**, per non perderla se il banner
+ricarica la pagina. Viene cancellata appena la pagina successiva l'ha letta, e ignorata
+dopo due minuti. Il sito può tecnicamente leggerla, ma contiene solo la scelta che hai
+appena fatto su quel sito.
 
 ## Cosa non fa mai
 

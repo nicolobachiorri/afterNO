@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import {
+  inConsentContext, isConsentContainer,
   classifyLabel, classifyAttributes, classifyControl, isConsentContext, inConsentBanner, isChoiceMessage, choiceFromTcf, mergeChoice, TCF_PRIORITY_MS, MAX_BANNER_TEXT,
   type ChoiceRecord,
 } from './choice.ts';
@@ -202,4 +203,18 @@ test('TCF empty list on load: a rejection only if a choice is stored (tcString),
 test('Didomi "continue without agreeing": text and attributes agree on a rejection', () => {
   assert.equal(classifyControl('Continua senza accettare →', 'didomi-continue-without-agreeing'), 'reject');
   assert.equal(classifyControl('Accetta', 'didomi-notice-agree-button'), 'accept');
+});
+
+test('Cookiebot: the dialog is named as such, even if its text (the list of cookies) is long', () => {
+  const texts = ['Rifiuta tutti Accetta', 'x'.repeat(68_000)];
+  const names = [' CybotCookiebotDialogBodyButtonsWrapper', ' CybotEdge CybotCookiebotDialogActive'];
+  assert.equal(inConsentContext(texts, names), true);
+  assert.equal(inConsentContext(texts, [' btn-group', ' modal-footer']), false); // no name, too long
+});
+
+test('container names: consent platforms yes, ordinary layout no', () => {
+  for (const n of ['cookieman-modal modal fade show', 'ccc ', 'onetrust-banner-sdk', 'didomi-popup', 'iubenda-cs-banner'])
+    assert.equal(isConsentContainer(n), true, n);
+  for (const n of ['newsletter-box', 'footer links', 'modal-content', 'accordion'])
+    assert.equal(isConsentContainer(n), false, n);
 });

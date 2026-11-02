@@ -1,0 +1,123 @@
+{
+  "url": "https://www.arera.it",
+  "frame": "main",
+  "found_as": "button",
+  "button": {
+    "tag": "BUTTON",
+    "role": null,
+    "text": "Rifiuta",
+    "ariaLabel": null,
+    "attrs": {
+      "data-cookieman-accept-none": "",
+      "data-cookieman-save": "",
+      "class": "btn btn-primary"
+    },
+    "inShadow": false,
+    "containers": [
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "cls": "btn btn-primary",
+        "textLength": 9,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "btn-group",
+        "textLength": 23,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "modal-footer",
+        "textLength": 23,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "modal-content",
+        "textLength": 1245,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "modal-dialog modal-lg modal-dialog-centered",
+        "textLength": 1245,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "cookieman-modal",
+        "cls": "modal fade show",
+        "textLength": 1245,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "cls": "modal-open",
+        "textLength": 13021,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "HTML",
+        "id": "",
+        "cls": "",
+        "textLength": 32342,
+        "mentionsConsent": true
+      }
+    ]
+  },
+  "events_in_frame": [
+    {
+      "type": "pointerdown",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Rifiuta",
+      "t": 16337
+    },
+    {
+      "type": "mousedown",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Rifiuta",
+      "t": 16337
+    },
+    {
+      "type": "pointerup",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Rifiuta",
+      "t": 16338
+    },
+    {
+      "type": "mouseup",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Rifiuta",
+      "t": 16338
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Rifiuta",
+      "t": 16338
+    }
+  ],
+  "banner_still_visible": false,
+  "extension_choice": {
+    "choice:arera.it": {
+      "at": 1793616260638,
+      "choice": "rejected",
+      "label": "Rifiuta",
+      "site": "arera.it",
+      "source": "click",
+      "trigger": "action"
+    }
+  }
+}
