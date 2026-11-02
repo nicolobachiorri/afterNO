@@ -25,3 +25,7 @@ quality/runs/**/*.png
 
 # R session history
 .Rhistory
+
+# Store screenshots: the raw captures show the sites' names; only the composed
+# panels (names hidden) are tracked
+store/screenshots/*/raw/
