@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Riepilogo cookie (dev)"
+    "message": "afterNO"
   },
   "extDescription": {
-    "message": "Mostra quali cookie usano un sito e i suoi tracker. Nulla esce dal tuo browser."
+    "message": "Cosa succede dopo il tuo rifiuto dei cookie: confronta la tua scelta con cookie e tracker osservati. Nulla esce dal tuo browser."
   },
   "loading": {
     "message": "Lettura dei cookie…"

@@ -21,7 +21,7 @@ function send(record: Omit<ChoiceRecord, 'site'>): void {
 // The choice is also kept for a moment in the page's own session storage (see the
 // click handler), under this key, so that it survives a reload made by the banner.
 // Removed as soon as it has been sent again; ignored when older than two minutes.
-const PENDING_KEY = '__cookie_summary_choice';
+const PENDING_KEY = '__afterno_choice';
 const PENDING_MAX_AGE_MS = 120_000;
 
 function resendPending(): void {
@@ -43,7 +43,7 @@ export default defineContentScript({
     // ---------------------------------------------------------------- 1. TCF
     // Only the top frame asks: the consent platform answers for the whole page.
     if (window === window.top) {
-      const callId = `cookie-summary-${Math.random().toString(36).slice(2)}`;
+      const callId = `afterno-${Math.random().toString(36).slice(2)}`;
       let answered = false;
 
       ctx.addEventListener(window, 'message', (event: MessageEvent) => {

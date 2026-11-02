@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Cookie summary (dev)"
+    "message": "afterNO"
   },
   "extDescription": {
-    "message": "Shows which cookies a site and its trackers use. Nothing leaves your browser."
+    "message": "What happens after you reject cookies: compares your choice with the cookies and trackers it observes. Nothing leaves your browser."
   },
   "loading": {
     "message": "Reading cookies…"

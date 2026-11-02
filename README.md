@@ -1,4 +1,6 @@
-# Cookie summary (working title)
+# afterNO
+
+*What happens after you reject cookies. / Cosa succede dopo il tuo rifiuto dei cookie.*
 
 A browser extension that tells you, in plain words, what a cookie banner's choice
 changed, and whether the site seems to respect it.

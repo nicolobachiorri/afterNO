@@ -1,7 +1,7 @@
-# Privacy policy
+# afterNO: privacy policy
 
 *Last updated: 29 October 2026. Applies to version 0.1.0 and later.*
-*[Versione italiana più sotto.](#informativa-sulla-privacy)*
+*[Versione italiana più sotto.](#afterno-informativa-sulla-privacy)*
 
 **In short: the extension sends nothing anywhere.** Everything it reads stays in your
 browser. What it keeps is deleted when you close the browser.
@@ -67,7 +67,7 @@ at the top of this page. Questions: open an issue on the project's GitHub page.
 
 ---
 
-# Informativa sulla privacy
+# afterNO: informativa sulla privacy
 
 *Ultimo aggiornamento: 29 ottobre 2026. Vale per la versione 0.1.0 e successive.*
 
