@@ -32,3 +32,6 @@ store/screenshots/*/raw/
 
 # Working notes, not published
 Spec MVP.md
+
+# Images generated with other services: kept local, not published
+design/generated/
