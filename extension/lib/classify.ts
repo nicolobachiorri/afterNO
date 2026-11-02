@@ -45,6 +45,9 @@ function result(category: string, platform: string, owners?: string[]): Classifi
 const GENERIC_WORDS = new Set([
   'id', 'uid', 'uids', 'uuid', 'auid', 'cid', 'pid', 'did', 'sid', 'ssid', 'oid',
   'lang', 'test', 'sess', 'session', 'sync', 'hash', 'cart', 'token', 'user', 'gdpr', 'cmp',
+  // Django's default session cookie (SESSION_COOKIE_NAME), used by countless sites;
+  // the database attributes it to Instagram.
+  'sessionid',
 ]);
 
 export function isGenericName(name: string, prefix: boolean): boolean {

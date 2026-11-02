@@ -3,3 +3,4 @@ _pubcid,exact,Marketing,Prebid SharedID (PubCommon ID): shared advertising ident
 cto_bundle,exact,Marketing,Criteo: retargeting identifier
 FCCDCF,exact,Functional,Google Funding Choices: stores the visitor's consent choice (database lists it as Analytics; its own description says consent storage)
 FCNEC,exact,Functional,Google Funding Choices: consent-related (database lists it as Analytics; its own description says consent storage)
+TS01,prefix,Functional,"F5 BIG-IP: security cookie of the Application Security Manager (the database attributes it to Wix.com; source: F5 bug tracker, ID 1633133, cdn.f5.com/product/bugtracker/ID1633133.html)"

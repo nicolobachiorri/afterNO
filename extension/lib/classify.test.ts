@@ -87,3 +87,9 @@ test('generic names', () => {
   assert.equal(isGenericName('CT', true), true);
   assert.equal(isGenericName('mp_', true), false);
 });
+
+test('sessionid (Django default) is generic: Instagram only on instagram.com', () => {
+  const db: CookieDb = { exact: { sessionid: ['Marketing', 'Instagram', ['instagram.com']] }, prefixes: [] };
+  assert.equal(classify('sessionid', db, 'www.feltrinellieditore.it').category, 'Unknown');
+  assert.equal(classify('sessionid', db, '.instagram.com').platform, 'Instagram');
+});
