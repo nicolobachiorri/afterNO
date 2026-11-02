@@ -31,6 +31,7 @@ export interface Row {
   platform: string;
   owners?: string[];
   partitioned?: boolean;
+  account?: string; // the user's own account cookie on this service (lib/accounts.ts)
   session?: boolean;
   expirationDate?: number; // seconds since the epoch
 }
@@ -71,7 +72,11 @@ export function platformNames(rows: Row[]): string[] {
 
 export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], trackers: Row[] | null, nowMs: number): Verdict {
   const items: Item[] = [];
-  const recognising = (trackers ?? []).filter((r) => RECOGNISING.has(r.group));
+  const recognisingAll = (trackers ?? []).filter((r) => RECOGNISING.has(r.group));
+  // The user's own account cookies (signed in to Google...) are stated apart, as
+  // information: they exist because the user is signed in, not because of this site.
+  const recognising = recognisingAll.filter((r) => !r.account);
+  const signedIn = [...new Set(recognisingAll.map((r) => r.account).filter((a): a is string => !!a))];
   // A site with at least one ordinary cookie can recognise the user across sites;
   // a site with only partitioned cookies, only when the user comes back here.
   const siteKey = (r: Row) => siteOf(r.domain.replace(/^\./, ''));
@@ -100,7 +105,7 @@ export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], track
   // 2. Third parties that can recognise the user from this page.
   if (trackers !== null) {
     if (thirdNames.length === 0 && partitionedNames.length === 0) {
-      items.push({ mark: rejected || !choice ? 'ok' : 'info', key: 'itemNoThirdParty' });
+      if (signedIn.length === 0) items.push({ mark: rejected || !choice ? 'ok' : 'info', key: 'itemNoThirdParty' });
     } else if (thirdNames.length === 0) {
       // nothing across sites: the partitioned item below says the rest
     } else if (rejected) {
@@ -117,6 +122,7 @@ export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], track
         count: partitionedNames.length, names: partitionedNames,
       });
     }
+    if (signedIn.length > 0) items.push({ mark: 'info', key: 'itemSignedIn', names: signedIn });
   }
 
   // 3. The site's own marketing and analytics cookies.

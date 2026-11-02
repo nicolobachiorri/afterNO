@@ -2,6 +2,7 @@
 // The background takes one at the moment of the choice (everything there appeared
 // before consent or refusal); the popup builds the current one. Both use the same
 // functions, so the two columns of the comparison are measured the same way.
+import { accountService } from './accounts.ts';
 import { classify, type CookieDb } from './classify.ts';
 import { isLikelyIdentifier } from './identifiers.ts';
 import { RECOGNISING, summarise, type Group, type Summary } from './summary.ts';
@@ -22,6 +23,7 @@ export interface Classified {
   platform: string;
   owners?: string[]; // domains the database says the cookie belongs to
   partitioned?: boolean; // kept for this top-level site only
+  account?: string; // a cookie of the user's own account on this service (lib/accounts.ts)
   session?: boolean;
   expirationDate?: number;
 }
@@ -31,9 +33,11 @@ export interface Classified {
 export function classifyCookie(c: CookieInfo, db: CookieDb, thirdParty: boolean, nowMs: number): Classified {
   const { category, platform, owners } = classify(c.name, db, c.domain);
   const group: Group = thirdParty && isLikelyIdentifier(c, category, nowMs) ? 'Identifier' : category;
+  const account = thirdParty ? accountService(c.name, c.domain) : undefined;
   return {
     name: c.name, domain: c.domain, group, platform,
     ...(owners ? { owners } : {}), ...(c.partitionKey ? { partitioned: true } : {}),
+    ...(account ? { account } : {}),
     session: c.session, expirationDate: c.expirationDate,
   };
 }

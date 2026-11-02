@@ -67,6 +67,12 @@ function partitionNote(r: Classified, side: Side): HTMLElement[] {
   return side === 'trackers' && r.partitioned ? [h('span', { class: 'soft', text: t('notePartitioned') })] : [];
 }
 
+// A cookie of the user's own account (signed in to Google...): it exists because the
+// user is signed in, not because of this site. Same rule as the checklist.
+function accountNote(r: Classified, side: Side): HTMLElement[] {
+  return side === 'trackers' && r.account ? [h('span', { class: 'soft', text: t('noteAccount', r.account) })] : [];
+}
+
 function softNote(r: Classified, side: Side, nowMs: number): string | undefined {
   if (side !== 'own' || r.group !== 'Marketing') return undefined;
   const kind = marketingKind(r, nowMs);
@@ -113,9 +119,10 @@ function groupBlock(group: Group, rows: Classified[], side: Side, nowMs: number)
       h('span', { class: 'meta', text: [r.platform, r.domain, formatExpiry(r)].filter(Boolean).join(' · ') }),
       ...description(r),
       ...partitionNote(r, side),
+      ...accountNote(r, side),
       ...[softNote(r, side, nowMs)].filter((n): n is string => !!n).map((n) => h('span', { class: 'soft', text: n })),
     ));
-  const alarming = RECOGNISING.has(group) && rows.some((r) => !softNote(r, side, nowMs));
+  const alarming = RECOGNISING.has(group) && rows.some((r) => !softNote(r, side, nowMs) && !(side === 'trackers' && r.account));
   const details = h('details', { class: `group ${alarming ? 'tracking' : ''}` },
     h('summary', { text: `${t(`group_${group}`)} (${rows.length})` }),
     // What this kind of cookie is for, in plain words.

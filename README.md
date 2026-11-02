@@ -43,6 +43,13 @@ Every sentence in the popup states where its information comes from:
 The main question (can third parties still recognise you after a rejection?) rests on
 the first two levels. The database only adds labels and descriptions.
 
+Cookies of **your own account** are kept apart. If you are signed in to Google (or
+Facebook, Instagram, LinkedIn, X), the browser sends your account cookies to that
+service whenever a page loads its content, whatever you chose in the banner. The popup
+says so as information and marks those cookies in the list, but does not count them
+against the site: they exist because you are signed in, not because of the site. The
+service's other cookies, set for everyone, still count.
+
 ## What it cannot see
 
 An extension sees what the browser sees. It does not see, and does not claim to see:

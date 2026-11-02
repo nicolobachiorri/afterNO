@@ -136,3 +136,24 @@ test('TCF rejection without the total: the item says "no purpose with consent"',
   assert.equal(v.items[0]?.key, 'itemTcfRecordedNoTotal');
   assert.equal(v.conclusion?.key, 'verdictRespected');
 });
+
+// Signed in to Google (screenshots, 2 November 2026): the account cookies were the only
+// "third party that can recognise you" on nvidia.com and cultura.gov.it.
+const nvClick: ChoiceRecord = { site: 'nvidia.com', source: 'click', choice: 'rejected', at: 0, trigger: 'action', label: 'Rifiuta facoltativi' };
+
+test('signed in to Google: the account cookies are information, not a fault of the site', () => {
+  const v = buildVerdict(nvClick, [],
+    [r('.google.com', 'Marketing', 'Google Ads', { account: 'Google' }),
+      r('.google.com', 'Marketing', 'Google Ads', { account: 'Google' })], 0);
+  assert.deepEqual(keys(v), ['info:itemClickOnly', 'info:itemSignedIn', 'ok:itemNoSiteMarketing']);
+  assert.deepEqual(v.items[1]?.names, ['Google']);
+  assert.deepEqual(v.conclusion, { key: 'verdictRespected', tone: 'ok' });
+});
+
+test('signed in, but the service also has a cookie set for everyone: that one still counts', () => {
+  const v = buildVerdict(nvClick, [],
+    [r('.google.com', 'Marketing', 'Google Ads', { account: 'Google' }), r('.google.com', 'Marketing', 'Google')], 0);
+  assert.deepEqual(keys(v), ['info:itemClickOnly', 'bad:itemThirdPartyStill', 'info:itemSignedIn', 'ok:itemNoSiteMarketing']);
+  assert.deepEqual(v.items[1]?.names, ['Google (google.com)']);
+  assert.deepEqual(v.conclusion, { key: 'verdictPartly', tone: 'alert' });
+});

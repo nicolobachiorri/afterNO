@@ -419,5 +419,16 @@
   },
   "notePartitioned": {
     "message": "Riservato a questo sito (partizionato): non ti segue sugli altri siti."
+  },
+  "itemSignedIn": {
+    "message": "Sei collegato al tuo account su questi servizi: ricevono i cookie del tuo account quando la pagina carica loro contenuti, qualunque scelta tu faccia nel banner:"
+  },
+  "noteAccount": {
+    "message": "Cookie del tuo account $SERVICE$: esiste perché sei collegato, non per questo sito.",
+    "placeholders": {
+      "service": {
+        "content": "$1"
+      }
+    }
   }
 }

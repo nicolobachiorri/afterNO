@@ -419,5 +419,16 @@
   },
   "notePartitioned": {
     "message": "Kept for this site only (partitioned): it does not follow you to other sites."
+  },
+  "itemSignedIn": {
+    "message": "You are signed in to these services: they receive your account cookies when the page loads their content, whatever you choose in the banner:"
+  },
+  "noteAccount": {
+    "message": "Your $SERVICE$ account cookie: it exists because you are signed in, not because of this site.",
+    "placeholders": {
+      "service": {
+        "content": "$1"
+      }
+    }
   }
 }
