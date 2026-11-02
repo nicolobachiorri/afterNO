@@ -13,6 +13,15 @@ test('two-label suffixes keep three labels', () => {
   assert.equal(siteOf('shop.example.com.au'), 'example.com.au');
 });
 
+test('Italian public administrations and provinces are suffixes, as in the Public Suffix List', () => {
+  assert.equal(siteOf('www.cultura.gov.it'), 'cultura.gov.it');
+  assert.equal(siteOf('pagopa.gov.it'), 'pagopa.gov.it');
+  assert.equal(isThirdParty('www.mit.gov.it', 'www.cultura.gov.it'), true);
+  assert.equal(siteOf('aosp.bo.it'), 'aosp.bo.it');
+  assert.equal(siteOf('www.comune.mi.it'), 'comune.mi.it');
+  assert.equal(siteOf('www.unimi.it'), 'unimi.it'); // an ordinary .it site is unchanged
+});
+
 test('IP addresses and localhost are their own site', () => {
   assert.equal(siteOf('127.0.0.1'), '127.0.0.1');
   assert.equal(siteOf('localhost'), 'localhost');
