@@ -16,7 +16,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Download the Open Cookie Database
         id: download
@@ -40,7 +40,7 @@ jobs:
                 --jq '.[0].commit.committer.date' | cut -c1-10)
           echo "date=$d" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         if: steps.download.outputs.changed == 'true'
         with:
           python-version: "3.12"
@@ -49,7 +49,7 @@ jobs:
         if: steps.download.outputs.changed == 'true'
         run: python tools/build_cookie_db.py --data-date "${{ steps.date.outputs.date }}"
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         if: steps.download.outputs.changed == 'true'
         with:
           node-version: 24
