@@ -29,3 +29,6 @@ quality/runs/**/*.png
 # Store screenshots: the raw captures show the sites' names; only the composed
 # panels (names hidden) are tracked
 store/screenshots/*/raw/
+
+# Working notes, not published
+Spec MVP.md
