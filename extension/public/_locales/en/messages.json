@@ -343,7 +343,7 @@
     "message": "Automatic indication based on what your browser observes. It may be incomplete or wrong and is not a legal assessment."
   },
   "compareDetails": {
-    "message": "Details: at your choice and now"
+    "message": "Comparison: at your choice and now"
   },
   "markOk": {
     "message": "in favour"
@@ -463,5 +463,126 @@
   },
   "tcfPurpose_11": {
     "message": "use limited data to select content"
+  },
+  "cardTitle_verdictRespected": {
+    "message": "Your rejection [seems to be respected]"
+  },
+  "cardTitle_verdictPartly": {
+    "message": "Your rejection seems [only partly respected]"
+  },
+  "cardTitle_verdictNeedReload": {
+    "message": "Reload the page for a full check"
+  },
+  "cardTitle_verdictAccepted": {
+    "message": "You accepted the cookies"
+  },
+  "cardTitle_verdictPartialChoice": {
+    "message": "You made a partial choice"
+  },
+  "cardTitle_none": {
+    "message": "No choice recorded on this site"
+  },
+  "cardWhen_rejected": {
+    "message": "You rejected at $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "cardWhen_accepted": {
+    "message": "You accepted at $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "cardWhen_partial": {
+    "message": "Partial choice at $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "cardHintNoChoice": {
+    "message": "Choose in the cookie banner, then open afterNO again to see what changed."
+  },
+  "whyDetails": {
+    "message": "Why? All the checks"
+  },
+  "cardWhen_none": {
+    "message": "Waiting for your choice"
+  },
+  "cardReasonThird_one": {
+    "message": "$COUNT$ third-party site can still recognise you here:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cardReasonThird_other": {
+    "message": "$COUNT$ third-party sites can still recognise you here:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cardReasonThirdNoChoice_one": {
+    "message": "Already now, without consent, $COUNT$ third-party site can recognise you:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cardReasonThirdNoChoice_other": {
+    "message": "Already now, without consent, $COUNT$ third-party sites can recognise you:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "namesAnd": {
+    "message": " and "
+  },
+  "cookiesDetails": {
+    "message": "See the cookies"
+  },
+  "checksCount_one": {
+    "message": "$COUNT$ check",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "checksCount_other": {
+    "message": "$COUNT$ checks",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookiesCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookiesCount_other": {
+    "message": "$COUNT$ cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   }
 }

@@ -41,6 +41,44 @@ function h(tag: string, props: { class?: string; text?: string } = {}, ...childr
   return el;
 }
 
+// Inline SVG icons (drawn here, no files): the status icon of the card and the marks
+// of the checklist. Each is a shape, not only a colour, so they differ in grey too.
+const SVG_NS = 'http://www.w3.org/2000/svg';
+type Shape = 'check' | 'cross' | 'bang' | 'info' | 'dash' | 'chevron';
+const SHAPES: Record<Shape, string> = {
+  check: 'M6 10.3l2.6 2.6 5.4-5.6',
+  cross: 'M7 7l6 6M13 7l-6 6',
+  bang: 'M10 5.5v5.5M10 14.2v.1',
+  info: 'M10 9v5M10 6.2v.1',
+  dash: 'M6.5 10h7',
+  chevron: 'M6 8l4 4 4-4',
+};
+
+function icon(shape: Shape, size: number, cls: string, label?: string): SVGSVGElement {
+  const svg = document.createElementNS(SVG_NS, 'svg');
+  svg.setAttribute('viewBox', '0 0 20 20');
+  svg.setAttribute('width', String(size));
+  svg.setAttribute('height', String(size));
+  svg.setAttribute('class', `icon ${cls}`);
+  if (label) {
+    svg.setAttribute('role', 'img');
+    svg.setAttribute('aria-label', label);
+  } else {
+    svg.setAttribute('aria-hidden', 'true');
+  }
+  if (shape !== 'chevron') {
+    const circle = document.createElementNS(SVG_NS, 'circle');
+    circle.setAttribute('cx', '10'); circle.setAttribute('cy', '10'); circle.setAttribute('r', '9.5');
+    circle.setAttribute('class', 'icon-bg');
+    svg.append(circle);
+  }
+  const path = document.createElementNS(SVG_NS, 'path');
+  path.setAttribute('d', SHAPES[shape]);
+  path.setAttribute('class', 'icon-fg');
+  svg.append(path);
+  return svg;
+}
+
 function formatExpiry(c: Classified): string {
   if (c.session || c.expirationDate === undefined) return t('expirySession');
   const days = Math.round((c.expirationDate * 1000 - Date.now()) / 86_400_000);
@@ -170,46 +208,113 @@ function formatNames(names: string[]): string {
   return names.length > 3 ? `${shown}, ${t('namesMore', names.length - 3)}` : shown;
 }
 
-const MARK: Record<Item['mark'], { icon: string; label: string }> = {
-  ok: { icon: '\u2713', label: 'markOk' },
-  bad: { icon: '\u2717', label: 'markBad' },
-  info: { icon: '\u2139', label: 'markInfo' },
+const MARK: Record<Item['mark'], { shape: Shape; label: string }> = {
+  ok: { shape: 'check', label: 'markOk' },
+  bad: { shape: 'cross', label: 'markBad' },
+  info: { shape: 'info', label: 'markInfo' },
 };
 
 function checkItem(item: Item): HTMLElement {
-  const text = item.count !== undefined ? tn(item.key, item.count, ...(item.subs ?? [])) : t(item.key, ...(item.subs ?? []));
-  const names = item.names ?? item.nameKeys?.map((k) => t(k)) ?? [];
-  const mark = h('span', { class: 'mark', text: MARK[item.mark].icon });
-  // The symbol alone means nothing to a screen reader: say it in words.
-  mark.setAttribute('aria-label', t(MARK[item.mark].label));
-  mark.setAttribute('role', 'img');
+  // The shape alone means nothing to a screen reader: the icon says it in words.
   return h('li', { class: `item ${item.mark}` },
-    mark,
-    h('span', { text: names.length ? `${text} ${formatNames(names)}` : text }),
+    icon(MARK[item.mark].shape, 20, `mark ${item.mark}`, t(MARK[item.mark].label)),
+    h('span', { text: itemText(item) }),
   );
 }
 
-// What the user asked, what happened, a cautious conclusion and the disclaimer.
+// The one sentence shown under the conclusion: the main reason for it. The first fact
+// against the choice if there is one; otherwise the one about third parties; otherwise
+// the first fact in favour. Presentation only: the verdict itself is unchanged.
+function mainReason(items: Item[]): Item | undefined {
+  return items.find((i) => i.mark === 'bad')
+    ?? items.find((i) => i.key === 'itemNoThirdParty')
+    ?? items.find((i) => i.mark === 'ok')
+    ?? items[0];
+}
+
+function itemText(item: Item): string {
+  const text = item.count !== undefined ? tn(item.key, item.count, ...(item.subs ?? [])) : t(item.key, ...(item.subs ?? []));
+  const names = item.names ?? item.nameKeys?.map((k) => t(k)) ?? [];
+  return names.length ? `${text} ${formatNames(names)}` : text;
+}
+
+// "Adobe Analytics (sky.it)" -> "Adobe Analytics": in the card, companies by name only;
+// the sites stay in "Why?". Repeated names once; "A, B and C", or "A, B, C and 2 more".
+function companies(names: string[]): string {
+  const plain = [...new Set(names.map((n) => n.replace(/\s*\([^)]*\)$/, '')))];
+  if (plain.length > 3) return `${plain.slice(0, 3).join(', ')} ${t('namesMore', plain.length - 3)}`;
+  if (plain.length === 1) return plain[0] ?? '';
+  return `${plain.slice(0, -1).join(', ')}${t('namesAnd')}${plain[plain.length - 1]}`;
+}
+
+function reasonText(item: Item): string {
+  if ((item.key === 'itemThirdPartyStill' || item.key === 'itemThirdPartyNoChoice') && item.names?.length) {
+    const base = item.key === 'itemThirdPartyStill' ? 'cardReasonThird' : 'cardReasonThirdNoChoice';
+    return `${tn(base, item.count ?? item.names.length)} ${companies(item.names)}.`;
+  }
+  return itemText(item);
+}
+
+// The card title, with the words that carry the verdict in its colour: the
+// translations mark them with [brackets].
+function cardTitle(text: string): HTMLElement {
+  const m = /^(.*)\[(.+)\](.*)$/.exec(text);
+  const title = h('h1', { class: 'card-title' });
+  if (!m) title.textContent = text;
+  else title.append(m[1] ?? '', h('span', { class: 'accent', text: m[2] ?? '' }), m[3] ?? '');
+  return title;
+}
+
+const TONE_ICON: Record<string, Shape> = { ok: 'check', warn: 'bang', alert: 'bang', muted: 'dash' };
+
+// A row that opens a section: label, a count, a chevron. A real <summary>, so the
+// keyboard and screen readers handle it; the whole row is the target (48 px).
+function toggleRow(label: string, count: string): HTMLElement {
+  return h('summary', {},
+    h('span', { class: 'toggle-label', text: label }),
+    h('span', { class: 'toggle-meta' }, document.createTextNode(count), icon('chevron', 16, 'chevron')),
+  );
+}
+
+// Three levels, so that a first-time user knows where to look (feedback on the demo,
+// 2 November 2026): always visible, a card with the conclusion and its main reason;
+// on request, "Why?" with the whole checklist; then the cookies themselves.
 function summaryBlock(host: string, own: Classified[], trackers: Classified[] | null,
-  choice: ChoiceRecord | undefined, snapshot: Snapshot | undefined): HTMLElement {
+  choice: ChoiceRecord | undefined, snapshot: Snapshot | undefined): HTMLElement[] {
   const verdict = buildVerdict(choice, own, trackers, Date.now());
   if (MEASURING) report({ host, choice: choice ?? null, items: verdict.items, conclusion: verdict.conclusion ?? null, ...diagnostics });
+
+  const tone = verdict.conclusion?.tone ?? 'muted';
+  const reason = mainReason(verdict.items);
+  const card = h('section', { class: `card tone-${tone}` },
+    h('div', { class: 'card-top' },
+      icon(TONE_ICON[tone] ?? 'dash', 28, 'status'),
+      h('p', { class: 'card-when', text: choice ? t(`cardWhen_${choice.choice}`, clock(choice.at)) : t('cardWhen_none') })),
+    cardTitle(verdict.conclusion ? t(`cardTitle_${verdict.conclusion.key}`) : t('cardTitle_none')),
+    ...(reason ? [h('p', { class: 'card-reason', text: reasonText(reason) })] : []),
+    ...(!choice ? [h('p', { class: 'card-hint', text: t('cardHintNoChoice') })] : []),
+  );
+
   const heading = choice ? t(`verdictHeading_${choice.choice}`, clock(choice.at)) : t('verdictHeadingNone');
-  const parts: HTMLElement[] = [
-    h('h1', { text: host }),
+  const why = h('details', { class: 'toggle' },
+    toggleRow(t('whyDetails'), tn('checksCount', verdict.items.length)),
     h('p', { class: 'verdict-heading', text: heading }),
     h('ul', { class: 'checklist' }, ...verdict.items.map(checkItem)),
+    ...(choice && snapshot && trackers !== null
+      ? [h('details', { class: 'compare-wrap' },
+        h('summary', { text: t('compareDetails') }),
+        comparison(snapshot.summary, summarise(own, trackers), snapshot.at))]
+      : []),
+  );
+
+  return [
+    h('header', { class: 'top' },
+      h('p', { class: 'host', text: host }),
+      h('p', { class: 'brand' }, document.createTextNode('after'), h('span', { text: 'NO' }))),
+    card,
+    h('p', { class: 'disclaimer', text: t('disclaimer') }),
+    why,
   ];
-  if (verdict.conclusion) {
-    parts.push(h('p', { class: `conclusion ${verdict.conclusion.tone}`, text: t(verdict.conclusion.key) }));
-  }
-  parts.push(h('p', { class: 'disclaimer', text: t('disclaimer') }));
-  if (choice && snapshot && trackers !== null) {
-    parts.push(h('details', { class: 'compare-wrap' },
-      h('summary', { text: t('compareDetails') }),
-      comparison(snapshot.summary, summarise(own, trackers), snapshot.at)));
-  }
-  return h('section', { class: 'summary' }, ...parts);
 }
 
 // Where the classifications come from and how old they are: the user can judge how
@@ -285,17 +390,21 @@ async function main(): Promise<void> {
       loadDescriptions().then((d) => { descDb = d; }, () => {}),
     ]);
 
+    const total = own.length + (recorded ? trackers.length : 0);
     app.replaceChildren(
-      summaryBlock(host, own, recorded ? trackers : null, choice, snapshot),
-      h('h2', { text: t('headingTrackers') }),
-      ...(!recorded
-        ? [h('p', { class: 'sub', text: t('noRequestData') })]
-        : trackers.length === 0
-          ? [h('p', { class: 'sub', text: t('none') })]
-          : groups(trackers, 'trackers')),
-      h('h2', { text: t('headingSite') }),
-      ...(own.length === 0 ? [h('p', { class: 'sub', text: t('none') })] : groups(own, 'own')),
-      h('p', { class: 'muted', text: t('footerNote') }),
+      ...summaryBlock(host, own, recorded ? trackers : null, choice, snapshot),
+      h('details', { class: 'toggle' },
+        toggleRow(t('cookiesDetails'), tn('cookiesCount', total)),
+        h('h2', { text: t('headingTrackers') }),
+        ...(!recorded
+          ? [h('p', { class: 'sub', text: t('noRequestData') })]
+          : trackers.length === 0
+            ? [h('p', { class: 'sub', text: t('none') })]
+            : groups(trackers, 'trackers')),
+        h('h2', { text: t('headingSite') }),
+        ...(own.length === 0 ? [h('p', { class: 'sub', text: t('none') })] : groups(own, 'own')),
+        h('p', { class: 'muted', text: t('footerNote') }),
+      ),
       ...(await databaseLine()),
     );
   } catch (err) {
