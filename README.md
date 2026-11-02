@@ -75,10 +75,18 @@ and saved the extension's verdict and, independently, the raw data (every cookie
 every site contacted after the click, the TCF signal). The method was written down
 before the results: [quality/PROTOCOL.md](quality/PROTOCOL.md).
 
+Two different numbers, not to be mixed up:
+
+- **Coverage**: of the 40 sites, how many offered a rejection that could be checked
+  (a free reject button the robot could click). Where there is no rejection, there is
+  nothing to check.
+- **Accuracy**: of those sites, how many conclusions were right. All the other figures
+  below are out of these sites.
+
 | | Result (95% Wilson interval) |
 | --- | --- |
-| Sites where the test could be run (a reject button the robot could click) | 22 of 40 |
-| **Conclusion correct** | **22 of 22 (100%, 85–100%)** |
+| **Coverage**: sites with a rejection to check | **22 of 40** |
+| **Accuracy**: conclusion correct | **22 of 22: at least 85%** (interval 85–100%) |
 | False alarms ("only partly respected" when the data say otherwise) | 0 of 22 |
 | Problems not seen ("seems respected" when the data show a tracker) | 0 of 22 |
 | Choice not recorded (banner closed, extension unaware) | 0 of 22 |
@@ -86,10 +94,13 @@ before the results: [quality/PROTOCOL.md](quality/PROTOCOL.md).
 
 What to keep in mind:
 
-- **Small sample.** 22 measurable sites give a wide interval: 100% here means "at
-  least 85%" with reasonable confidence, not "never wrong". The other 18 had no
-  banner, no free reject button (only "accept", or "reject and subscribe"), blocked
-  the robot, or used a reject the robot cannot click (a closing X, a German banner).
+- **Small sample.** 22 checkable sites give a wide interval: 22 of 22 means "at
+  least 85%" with reasonable confidence, not "never wrong".
+- **The 18 sites without a rejection to check**: 7 offered only "accept" or
+  "reject and subscribe", 6 showed no banner, 3 used a reject the robot cannot click
+  (a closing X, a German banner), 2 blocked the robot. The rules deciding which sites
+  are checkable were written before the results, and both judges agreed on them for
+  all 40 sites.
 - **Who judged.** The verdicts were judged against the raw data by Claude, the AI that
   wrote most of the code: a conflict of interest, stated here. Gemini (a model from
   another company) judged the same sites independently and disagreed on one: on
