@@ -52,8 +52,40 @@ An extension sees what the browser sees. It does not see, and does not claim to 
 - cookies whose names are **not in the database**: shown as "unclassified", or as
   "likely identifiers" when they behave like one.
 
-Accuracy on real sites has not been measured yet. A measurement on 30-50 sites is
-planned before the first release, and its result will be reported here.
+## How accurate is it?
+
+Measured on **40 Italian sites the extension had never been tried on**, drawn at
+random from the [Tranco](https://tranco-list.eu) list (ID ZJ8PG) with a fixed seed. For
+each site a robot opened the home page with the extension installed, clicked "Reject"
+and saved the extension's verdict and, independently, the raw data (every cookie,
+every site contacted after the click, the TCF signal). The method was written down
+before the results: [quality/PROTOCOL.md](quality/PROTOCOL.md).
+
+| | Result (95% Wilson interval) |
+| --- | --- |
+| Sites where the test could be run (a reject button the robot could click) | 19 of 40 |
+| **Conclusion correct** | **15 of 19 (79%, 57–91%)** |
+| False alarms ("only partly respected" when the data say otherwise) | 0 of 19 |
+| Problems not seen ("seems respected" when the data show a tracker) | 0 of 19 |
+| Choice not recorded (banner closed, extension unaware) | 3 of 19 |
+| Debatable (rests on a label people may disagree on) | 1 of 19 |
+| Same conclusion on a second visit, about an hour later | 15 of 15 |
+
+What to keep in mind:
+
+- **Small sample.** 19 measurable sites give a wide interval. The other 21 had no
+  banner, no reject button (only "accept", or "reject and subscribe"), or did not load.
+- **Who judged.** The verdicts were judged against the raw data by Claude, the AI that
+  wrote most of the code: a conflict of interest, stated here. As a check, Gemini (a
+  model from another company) judged the same sites independently from the text of the
+  results: agreement 17 of 19 on the conclusion (89%, Cohen's κ = 0.70).
+- **Version.** The measurement is of the version of 1 November 2026. The three "choice
+  not recorded" cases were diagnosed and fixed afterwards (Cookiebot, cookieman, and
+  text-only buttons); the fix has not been measured on new sites yet.
+- **Chromium only**, with a new browser profile for each site.
+- **Earlier rounds.** A first measurement of an earlier version on another 40 sites gave
+  14 of 25 correct (56%); its defects were fixed before the measurement above. All
+  rounds, data and judgments are in [quality/](quality/).
 
 ## Privacy
 
