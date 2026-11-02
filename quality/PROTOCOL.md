@@ -255,3 +255,11 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     «legittimo interesse» dichiarato nel segnale TCF è un'informazione, con le
     finalità nominate, e non cambia la conclusione. In una misura con profilo nuovo
     (a) non ha effetto, perché il robot non è collegato a nessun account; (b) sì.
+18. *Campione D* (`select_sample_d.py`, `sites_D.csv`). Misura la versione con le
+    correzioni delle modifiche 15 e 17, con il robot della modifica 16. Stessa
+    regola del campione C: le prime 40 riserve libere dopo il campione C, nell'ordine
+    già fissato dal seme. Sostituito prima della visita, dal solo nome: netwin.it
+    (gioco d'azzardo). Visita D1 con lo stesso procedimento di C1; giudice
+    principale Claude, secondo giudice Gemini, come per C1. I risultati pubblicati
+    nel README diventano quelli di D1; quelli di C1 restano nella cartella e nel
+    README come misura della versione precedente.

@@ -77,7 +77,8 @@ TCF_JS = """
 
 def sample_file(visit):
     """Visits A and B use sample A/B (sites.csv); visits C1, C2... use sample C."""
-    return HERE / ("sites_C.csv" if visit and visit.startswith("C") else "sites.csv")
+    letter = (visit or "")[:1]
+    return HERE / (f"sites_{letter}.csv" if letter in ("C", "D") else "sites.csv")
 
 
 def load_sample(path, only):
@@ -288,7 +289,7 @@ def measure_site(p, row, out_dir, headless):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--visit", choices=["A", "B", "C1", "C2"])
+    ap.add_argument("--visit", choices=["A", "B", "C1", "C2", "D1", "D2"])
     ap.add_argument("--pilot", metavar="URL",
                     help="measure one site OUTSIDE the sample, to check the robot works "
                          "without looking at results of the sample (output in runs/pilot/)")
