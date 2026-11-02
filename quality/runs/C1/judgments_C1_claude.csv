@@ -35,7 +35,7 @@ C1,84,claude (autore del codice),si,ok,0,not_recorded,"Il clic ha chiuso il bann
 C1,85,claude (autore del codice),si,ok,0,correct,"Cookie di marketing del sito dopo il rifiuto (Klaviyo, TikTok, Facebook, Google): confermati."
 C1,86,claude (autore del codice),no_banner,,,,Nessun banner.
 C1,88,claude (autore del codice),no_banner,,,,"Reindirizza a webnode.com (non nel campione). Nessun banner, ma 11 cookie di marketing del sito."
-C1,89,claude (autore del codice),si,wrong,0,missed,"blendee.com contattato dopo il clic e dopo il ricaricamento (secondo 17,7), cookie bldid di 364 giorni, SameSite=None, non partizionato. L'estensione l'ha visto solo prima del rifiuto: probabilmente la richiesta non è attribuita alla scheda (per esempio parte da un service worker del sito)."
+C1,89,claude (autore del codice),si,ok,0,correct,"Corretto il 2 novembre (protocollo, modifica 14): nella prima versione del giudizio «problema non visto». La diagnosi mostra che dopo il ricaricamento lo script di blendee.com arriva dalla cache del browser, senza richieste a blendee: il robot lo contava come contatto, l'estensione no. Nessun sito terzo contattato dopo la scelta con un cookie: «sembra rispettato» è corretto."
 C1,90,claude (autore del codice),si,ok,0,correct,Solo cookie YouTube partizionati dopo il rifiuto: «solo in parte» in arancione.
 C1,91,claude (autore del codice),si,ok,0,correct,"Scelta letta dal TCF, 6 finalità a legittimo interesse confermate; commander1.com (Commanders Act) nominato e confermato dai dati."
 C1,93,claude (autore del codice),no_banner,,,,Nessun banner.

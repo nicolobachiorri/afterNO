@@ -59,14 +59,14 @@
         "tag": "BODY",
         "id": "",
         "cls": "",
-        "textLength": 84773,
+        "textLength": 84758,
         "mentionsConsent": true
       },
       {
         "tag": "HTML",
         "id": "",
         "cls": "no-js is--desktop",
-        "textLength": 117610,
+        "textLength": 117595,
         "mentionsConsent": true
       }
     ]
@@ -77,41 +77,41 @@
       "trusted": true,
       "tag": "SPAN",
       "text": "Rifiuta tutti i cookie di profilazione",
-      "t": 10500
+      "t": 11088
     },
     {
       "type": "mousedown",
       "trusted": true,
       "tag": "SPAN",
       "text": "Rifiuta tutti i cookie di profilazione",
-      "t": 10501
+      "t": 11088
     },
     {
       "type": "pointerup",
       "trusted": true,
       "tag": "SPAN",
       "text": "Rifiuta tutti i cookie di profilazione",
-      "t": 10501
+      "t": 11089
     },
     {
       "type": "mouseup",
       "trusted": true,
       "tag": "SPAN",
       "text": "Rifiuta tutti i cookie di profilazione",
-      "t": 10501
+      "t": 11089
     },
     {
       "type": "click",
       "trusted": true,
       "tag": "SPAN",
       "text": "Rifiuta tutti i cookie di profilazione",
-      "t": 10502
+      "t": 11089
     }
   ],
   "banner_still_visible": false,
   "extension_choice": {
     "choice:borsaitaliana.it": {
-      "at": 1793615957356,
+      "at": 1793616619306,
       "choice": "rejected",
       "label": "Rifiuta tutti i cookie di profilazione",
       "site": "borsaitaliana.it",
@@ -119,6 +119,34 @@
       "trigger": "action"
     }
   },
+  "reload_at_s": 14.16,
+  "main_frame_cache_log": [
+    {
+      "url": "https://c.blendee.com/euronext.js",
+      "from": "network",
+      "t": 5.07
+    },
+    {
+      "url": "https://c.blendee.com/if/a.html?origin=https%3A%2F%2Fwww.borsaitaliana.it",
+      "from": "network",
+      "t": 5.32
+    },
+    {
+      "url": "https://did.blendee.com/iframe/if.html",
+      "from": "network",
+      "t": 5.45
+    },
+    {
+      "url": "https://c.blendee.com/euronext.js",
+      "from": "memory cache",
+      "t": 14.88
+    },
+    {
+      "url": "https://c.blendee.com/euronext.js",
+      "from": "network",
+      "t": 14.88
+    }
+  ],
   "watched_requests": [
     {
       "host": "c.blendee.com",
@@ -141,14 +169,14 @@
       "origin": "frame https://c.blendee.com/if/a.html?origin=https%3A%2F%2Fwww.borsaitaliana.it"
     },
     {
-      "host": "did.blendee.com",
-      "type": "script",
-      "origin": "frame https://did.blendee.com/iframe/if.html"
-    },
-    {
       "host": "c.blendee.com",
       "type": "document",
       "origin": "frame https://c.blendee.com/if/a.html?origin=https%3A%2F%2Fwww.borsaitaliana.it"
+    },
+    {
+      "host": "did.blendee.com",
+      "type": "script",
+      "origin": "frame https://did.blendee.com/iframe/if.html"
     },
     {
       "host": "c.blendee.com",
@@ -161,10 +189,10 @@
       "origin": "frame https://www.borsaitaliana.it/"
     }
   ],
-  "extension_tab_hosts": {
-    "tab:2018207222": [
-      "c.blendee.com",
-      "did.blendee.com"
-    ]
+  "extension_tab_hosts_seconds_ago": {
+    "tab:597470465": {
+      "c.blendee.com": 16.9,
+      "did.blendee.com": 17.0
+    }
   }
 }

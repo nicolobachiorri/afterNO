@@ -110,6 +110,28 @@ def diagnose(p, url, watch, out_dir):
                                     "origin": "service worker" if sw_origin else origin})
             ctx.on("request", on_request)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
+        cache_log = []
+        if watch:
+            # Whether each request to the watched host really went to the network or was
+            # served by the browser's cache: a cached script reaches no server, and the
+            # extension (webRequest) does not see it, while the robot does.
+            cdp = ctx.new_cdp_session(page)
+            cdp.send("Network.enable")
+            urls = {}
+            cdp.on("Network.requestWillBeSent", lambda e: urls.__setitem__(e["requestId"], e["request"]["url"]))
+            def served_from_cache(e):
+                u = urls.get(e["requestId"], "")
+                if watch in u:
+                    cache_log.append({"url": u[:90], "from": "memory cache", "t": round(time.time() - t0, 2)})
+            def response(e):
+                u, r = e["response"]["url"], e["response"]
+                if watch in u:
+                    src = ("disk cache" if r.get("fromDiskCache") else "prefetch cache" if r.get("fromPrefetchCache")
+                           else "service worker" if r.get("fromServiceWorker") else "network")
+                    cache_log.append({"url": u[:90], "from": src, "t": round(time.time() - t0, 2)})
+            cdp.on("Network.requestServedFromCache", served_from_cache)
+            cdp.on("Network.responseReceived", response)
+        t0 = time.time()
         page.goto(url, wait_until="domcontentloaded", timeout=45000)
         page.wait_for_timeout(8000)
 
@@ -127,10 +149,14 @@ def diagnose(p, url, watch, out_dir):
         store = sw.evaluate("async () => chrome.storage.session.get(null)")
         report["extension_choice"] = {k: v for k, v in store.items() if k.startswith("choice:")}
         if watch:
+            t_reload = round(time.time() - t0, 2)
             page.reload(wait_until="domcontentloaded")
             page.wait_for_timeout(8000)
+            report["reload_at_s"] = t_reload
+            report["main_frame_cache_log"] = cache_log
             report["watched_requests"] = watched
-            report["extension_tab_hosts"] = {k: [h for h in v.get("lastSeen", {}) if watch in h]
+            now_ms = time.time() * 1000
+            report["extension_tab_hosts_seconds_ago"] = {k: {h: round((now_ms - t) / 1000, 1) for h, t in v.get("lastSeen", {}).items() if watch in h}
                                             for k, v in sw.evaluate("async () => chrome.storage.session.get(null)").items()
                                             if k.startswith("tab:")}
     except Exception as e:

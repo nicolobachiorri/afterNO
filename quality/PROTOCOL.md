@@ -222,3 +222,22 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     sostituti). La stabilità si calcola sulla conclusione dell'estensione nelle due
     visite, senza un nuovo giudizio.
 
+**2 novembre 2026, dopo le visite C1 e C2.**
+
+14. *Errore di misura del robot.* Il robot conta come «sito contattato» anche le
+    richieste che il browser serve dalla propria cache, che non raggiungono il sito
+    terzo e non gli inviano cookie; l'estensione, che osserva solo le richieste di
+    rete, non le conta. Scoperto con `diagnose.py` su borsaitaliana.it (C1, sito 89):
+    dopo il ricaricamento lo script di blendee.com arriva dalla cache. Il giudizio di
+    Claude sul sito 89 è corretto da «sbagliata: problema non visto» a «corretta»
+    (nota nel file del giudizio). Il giudizio di Gemini resta com'è stato dato.
+    Le visite A e B non ne risentono: i tre «problemi non visti» della visita A
+    riguardano siti terzi presenti nell'elenco dell'estensione stessa, quindi
+    contattati in rete. Il robot va corretto prima di misure future.
+15. *Correzioni dopo il campione C.* Dalla diagnosi dei tre siti con scelta non
+    registrata in C1 (arera, cloud.it, salonelibro) e di agriturismo (visita B):
+    contenitori delle piattaforme di consenso riconosciuti dal nome (Cookiebot ha
+    testi oltre il limite di lunghezza), pulsanti di solo testo, copia di sicurezza
+    della scelta per i banner che ricaricano la pagina. I risultati di C1 e C2
+    valgono per la versione precedente a queste correzioni.
+
