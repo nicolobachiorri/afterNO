@@ -110,7 +110,10 @@ npm run compile    # type check
 npm run build      # production build in extension/.output/
 ```
 
-To rebuild the cookie database from a newer Open Cookie Database CSV, put the file in
+The cookie database is kept up to date by a GitHub Action
+(`.github/workflows/update-cookie-db.yml`): once a month it downloads the Open Cookie
+Database and, if it changed, rebuilds the database, runs the tests and opens a pull
+request to review. Nothing is merged automatically. To do it by hand, put a newer CSV in
 `divergence_work_space/open-cookie-database.csv` and run `npm run db`.
 
 ## Project layout

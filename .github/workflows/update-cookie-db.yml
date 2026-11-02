@@ -1,0 +1,84 @@
+# Once a month, downloads the latest Open Cookie Database and, if it changed,
+# rebuilds the extension's cookie database and opens a pull request to review.
+# Nothing is merged automatically.
+name: Update cookie database
+
+on:
+  schedule:
+    - cron: "17 4 1 * *"   # the 1st of every month, 04:17 UTC
+  workflow_dispatch:         # or by hand, from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the Open Cookie Database
+        id: download
+        run: |
+          curl -fsSL -o divergence_work_space/open-cookie-database.csv \
+            https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv
+          if git diff --quiet -- divergence_work_space/open-cookie-database.csv; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No change in the Open Cookie Database."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Date of the data (last change of the CSV upstream)
+        if: steps.download.outputs.changed == 'true'
+        id: date
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          d=$(gh api "repos/jkwakman/Open-Cookie-Database/commits?path=open-cookie-database.csv&per_page=1" \
+                --jq '.[0].commit.committer.date' | cut -c1-10)
+          echo "date=$d" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@v5
+        if: steps.download.outputs.changed == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild the extension's database
+        if: steps.download.outputs.changed == 'true'
+        run: python tools/build_cookie_db.py --data-date "${{ steps.date.outputs.date }}"
+
+      - uses: actions/setup-node@v4
+        if: steps.download.outputs.changed == 'true'
+        with:
+          node-version: 24
+
+      - name: Tests and type check
+        if: steps.download.outputs.changed == 'true'
+        working-directory: extension
+        run: |
+          npm ci
+          npm test
+          npm run compile
+
+      - name: Open a pull request
+        if: steps.download.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: update-cookie-db
+          delete-branch: true
+          add-paths: |
+            divergence_work_space/open-cookie-database.csv
+            extension/public/cookie-db.json
+            extension/public/cookie-desc.json
+          commit-message: "Database: Open Cookie Database aggiornato al ${{ steps.date.outputs.date }}"
+          author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+          title: "Database dei cookie aggiornato al ${{ steps.date.outputs.date }}"
+          body: |
+            Aggiornamento automatico dall'[Open Cookie Database](https://github.com/jkwakman/Open-Cookie-Database).
+            Test e controllo dei tipi sono passati.
+
+            Prima di unire: guarda nel diff se cambiano le categorie di cookie molto comuni
+            (`_ga`, `_fbp`, `IDE`...) e se le correzioni in `divergence_work_space/overrides.csv`
+            sono ancora necessarie.
