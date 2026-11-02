@@ -1,0 +1,149 @@
+{
+  "url": "https://www.voiptelitalia.it",
+  "final_url": "https://voiptelitalia.it/",
+  "click_at_s": 12.89,
+  "reload_at_s": 17.89,
+  "reject": "button: 'Usa solo cookie necessari' in main (normal click)",
+  "visible_buttons": [
+    "Personalizza Preferenze",
+    "Usa solo cookie necessari",
+    "Accetta tutti i cookie",
+    "Hai domande? Chatta con noi! Il servizio clienti \u00e8",
+    "Chatta con VoipTel Italia S.r.l."
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn-cookieyes.com",
+    "log.cookieyes.com",
+    "www.facebook.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn-cookieyes.com",
+    "log.cookieyes.com",
+    "www.facebook.com"
+  ],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 3.72,
+      "last_s": 4.16
+    },
+    "cdn-cookieyes.com": {
+      "first_s": 3.69,
+      "last_s": 19.73
+    },
+    "client.crisp.chat": {
+      "first_s": 3.72,
+      "last_s": 7.75
+    },
+    "connect.facebook.net": {
+      "first_s": 4.04,
+      "last_s": 4.7
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.7,
+      "last_s": 3.7
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.06,
+      "last_s": 4.06
+    },
+    "image.crisp.chat": {
+      "first_s": 5.73,
+      "last_s": 7.74
+    },
+    "log.cookieyes.com": {
+      "first_s": 4.03,
+      "last_s": 19.22
+    },
+    "www.facebook.com": {
+      "first_s": 5.08,
+      "last_s": 19.27
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.7,
+      "last_s": 3.7
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "accounts.google.com",
+    "cdn-cookieyes.com",
+    "client.crisp.chat",
+    "connect.facebook.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "image.crisp.chat",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "pll_language",
+      "domain": "www.voiptelitalia.it",
+      "path": "/",
+      "expires": 1825166847.083761,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pll_language",
+      "domain": "voiptelitalia.it",
+      "path": "/",
+      "expires": 1825166848.131131,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "googlesitekit_auth_nonce",
+      "domain": "voiptelitalia.it",
+      "path": "/",
+      "expires": 1793631763.691162,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".voiptelitalia.it",
+      "path": "/",
+      "expires": 1801406863,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "crisp-client%2Fsession%2Fd607054f-323d-4086-affe-277a88457005",
+      "domain": ".voiptelitalia.it",
+      "path": "/",
+      "expires": 1809398864,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookieyes-consent",
+      "domain": "voiptelitalia.it",
+      "path": "/",
+      "expires": 1825166857,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "g_state",
+      "domain": "voiptelitalia.it",
+      "path": "/",
+      "expires": 1809182863,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

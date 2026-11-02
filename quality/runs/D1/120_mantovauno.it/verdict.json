@@ -1,0 +1,73 @@
+{
+  "host": "mantovauno.it",
+  "choice": {
+    "at": 1793629773408,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "site": "mantovauno.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://mantovauno.it/",
+    "lastSeen": {
+      "altomantovanonews.it": 1793629778599,
+      "assets.cleverwebserver.com": 1793629767651,
+      "call.cleverwebserver.com": 1793629778747,
+      "code.jquery.com": 1793629765481,
+      "connect.facebook.net": 1793629765749,
+      "ep1.adtrafficquality.google": 1793629779533,
+      "ep2.adtrafficquality.google": 1793629779009,
+      "fonts.googleapis.com": 1793629764829,
+      "fonts.gstatic.com": 1793629765195,
+      "mantovasport24.it": 1793629778599,
+      "mantovauno.it": 1793629780653,
+      "oltrepomantovanonews.it": 1793629778598,
+      "pagead2.googlesyndication.com": 1793629778652,
+      "region1.google-analytics.com": 1793629783674,
+      "scripts.cleverwebserver.com": 1793629765163,
+      "secure.gravatar.com": 1793629765155,
+      "static.cloudflareinsights.com": 1793629765481,
+      "ui.cleverwebserver.com": 1793629778632,
+      "www.3bmeteo.com": 1793629778615,
+      "www.facebook.com": 1793629778675,
+      "www.googletagmanager.com": 1793629765155,
+      "www.mantovauno.it": 1793629764164
+    }
+  },
+  "hostsConsidered": [
+    "altomantovanonews.it",
+    "call.cleverwebserver.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "mantovasport24.it",
+    "mantovauno.it",
+    "oltrepomantovanonews.it",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "ui.cleverwebserver.com",
+    "www.3bmeteo.com",
+    "www.facebook.com"
+  ]
+}

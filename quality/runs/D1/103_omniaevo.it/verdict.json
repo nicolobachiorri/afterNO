@@ -1,0 +1,46 @@
+{
+  "host": "www.omniaevo.it",
+  "choice": {
+    "at": 1793629366477,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "site": "omniaevo.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.omniaevo.it/",
+    "lastSeen": {
+      "consent.cookiebot.com": 1793629366640,
+      "consentcdn.cookiebot.com": 1793629374472,
+      "fonts.gstatic.com": 1793629357698,
+      "www.omniaevo.it": 1793629374505
+    }
+  },
+  "hostsConsidered": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "www.omniaevo.it"
+  ]
+}

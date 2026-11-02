@@ -1,0 +1,148 @@
+{
+  "url": "https://www.dday.it",
+  "final_url": "https://www.dday.it/",
+  "click_at_s": 29.27,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "accedi o registrati"
+  ],
+  "tcf": {
+    "cmpId": 63,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "c.amazon-adsystem.com": {
+      "first_s": 4.55,
+      "last_s": 6.62
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 5.21,
+      "last_s": 6.72
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 3.9,
+      "last_s": 3.9
+    },
+    "clickiocmp.com": {
+      "first_s": 3.9,
+      "last_s": 5.47
+    },
+    "config.aps.amazon-adsystem.com": {
+      "first_s": 6.62,
+      "last_s": 6.62
+    },
+    "connect.facebook.net": {
+      "first_s": 3.93,
+      "last_s": 6.68
+    },
+    "dday-it.disqus.com": {
+      "first_s": 3.93,
+      "last_s": 6.78
+    },
+    "dvagh3p3rk8xj.cloudfront.net": {
+      "first_s": 3.9,
+      "last_s": 3.9
+    },
+    "fonts.googleapis.com": {
+      "first_s": 5.0,
+      "last_s": 5.0
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 3.9,
+      "last_s": 3.9
+    },
+    "js.datafront.co": {
+      "first_s": 4.56,
+      "last_s": 6.29
+    },
+    "p.typekit.net": {
+      "first_s": 4.75,
+      "last_s": 4.75
+    },
+    "platform.twitter.com": {
+      "first_s": 5.21,
+      "last_s": 6.77
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 7.54,
+      "last_s": 8.74
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 3.9,
+      "last_s": 5.49
+    },
+    "syndication.twitter.com": {
+      "first_s": 7.81,
+      "last_s": 7.81
+    },
+    "t34dx5sjm0izcfi92takua7rz3dsq1793630381.nuid.imrworldwide.com": {
+      "first_s": 7.54,
+      "last_s": 7.54
+    },
+    "use.typekit.net": {
+      "first_s": 3.9,
+      "last_s": 5.23
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_ga",
+      "domain": ".dday.it",
+      "path": "/",
+      "expires": 1828190379.822833,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_CDR521521E",
+      "domain": ".dday.it",
+      "path": "/",
+      "expires": 1828190379.830206,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_dday_session",
+      "domain": "www.dday.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IMRID",
+      "domain": ".imrworldwide.com",
+      "path": "/",
+      "expires": 1827326382.593607,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1793632183.051423,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

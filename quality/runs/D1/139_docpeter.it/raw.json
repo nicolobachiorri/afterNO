@@ -1,0 +1,318 @@
+{
+  "url": "https://www.docpeter.it",
+  "final_url": "https://www.docpeter.it/",
+  "click_at_s": 11.41,
+  "reload_at_s": 16.41,
+  "reject": "button: 'Continua senza accettare \u2192' in main (normal click)",
+  "visible_buttons": [
+    "Continua senza accettare \u2192",
+    "Personalizza",
+    "Accetta Tutti I Cookie",
+    "Cancella",
+    "Copia Il Coupon: 4CON49",
+    "Aggiungi Al Carrello",
+    "Iscrizione",
+    "2 SCOPRI TUTTE LE PROMO",
+    "Segui su"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "api.privacy-center.org",
+    "app.convertful.com",
+    "cdn.connectif.cloud",
+    "cdn.shopify.com",
+    "d.la1-c2-fra.salesforceliveagent.com",
+    "eu7-api.connectif.cloud",
+    "extensions.shopifycdn.com",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "service.force.com",
+    "shop.app",
+    "www.merchant-center-analytics.goog"
+  ],
+  "third_party_hosts_after_reload": [
+    "app.convertful.com",
+    "d.la1-c2-fra.salesforceliveagent.com",
+    "eu7-api.connectif.cloud",
+    "extensions.shopifycdn.com",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "service.force.com",
+    "shop.app",
+    "www.merchant-center-analytics.goog"
+  ],
+  "third_party_timeline": {
+    "api.privacy-center.org": {
+      "first_s": 11.44,
+      "last_s": 11.44
+    },
+    "app.convertful.com": {
+      "first_s": 3.11,
+      "last_s": 16.85
+    },
+    "cdn.connectif.cloud": {
+      "first_s": 2.67,
+      "last_s": 13.93
+    },
+    "cdn.shopify.com": {
+      "first_s": 2.56,
+      "last_s": 11.45
+    },
+    "d.la1-c2-fra.salesforceliveagent.com": {
+      "first_s": 4.72,
+      "last_s": 17.14
+    },
+    "d2fk970j0emtue.cloudfront.net": {
+      "first_s": 2.75,
+      "last_s": 2.75
+    },
+    "eu7-api.connectif.cloud": {
+      "first_s": 3.29,
+      "last_s": 17.13
+    },
+    "extensions.shopifycdn.com": {
+      "first_s": 20.96,
+      "last_s": 20.96
+    },
+    "monorail-edge.shopifysvc.com": {
+      "first_s": 3.12,
+      "last_s": 27.23
+    },
+    "otlp-http-production.shopifysvc.com": {
+      "first_s": 2.88,
+      "last_s": 17.84
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.36,
+      "last_s": 17.08
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.48,
+      "last_s": 16.99
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 2.77,
+      "last_s": 3.22
+    },
+    "service.force.com": {
+      "first_s": 3.11,
+      "last_s": 17.12
+    },
+    "shop.app": {
+      "first_s": 2.56,
+      "last_s": 17.03
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.43,
+      "last_s": 3.91
+    },
+    "www.merchant-center-analytics.goog": {
+      "first_s": 3.52,
+      "last_s": 16.94
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "app.convertful.com",
+    "cdn.connectif.cloud",
+    "cdn.shopify.com",
+    "d2fk970j0emtue.cloudfront.net",
+    "sdk.privacy-center.org",
+    "service.force.com",
+    "shop.app",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "localization",
+      "domain": "www.docpeter.it",
+      "path": "/",
+      "expires": 1825166454.345467,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cart_currency",
+      "domain": "www.docpeter.it",
+      "path": "/",
+      "expires": 1794840053.949738,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_essential",
+      "domain": "www.docpeter.it",
+      "path": "/",
+      "expires": 1825166440.11204,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_analytics",
+      "domain": "www.docpeter.it",
+      "path": "/",
+      "expires": 1825166440.112079,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_marketing",
+      "domain": "www.docpeter.it",
+      "path": "/",
+      "expires": 1825166440.11211,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shop_app_essential",
+      "domain": ".shop.app",
+      "path": "/",
+      "expires": 1825166441.015612,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".docpeter.it",
+      "path": "/",
+      "expires": 1828190454.620716,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_TJV8TM1BVQ",
+      "domain": ".docpeter.it",
+      "path": "/",
+      "expires": 1828190441.220877,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "BrowserId",
+      "domain": ".force.com",
+      "path": "/",
+      "expires": 1825166441.268839,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cart",
+      "domain": "www.docpeter.it",
+      "path": "/",
+      "expires": 1801492842.115389,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "session",
+      "domain": "app.convertful.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "site_75280_session_id",
+      "domain": "app.convertful.com",
+      "path": "/",
+      "expires": 1793632254.784396,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "conv_person",
+      "domain": "www.docpeter.it",
+      "path": "/",
+      "expires": 1828190454.803379,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".docpeter.it",
+      "path": "/",
+      "expires": 1809438049,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".docpeter.it",
+      "path": "/",
+      "expires": 1809438049,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "conv_session",
+      "domain": "www.docpeter.it",
+      "path": "/",
+      "expires": 1828190454.803482,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_QQ2P30P6RX",
+      "domain": ".docpeter.it",
+      "path": "/",
+      "expires": 1828190454.620615,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".www.docpeter.it",
+      "path": "/",
+      "expires": 1793632255.172934,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

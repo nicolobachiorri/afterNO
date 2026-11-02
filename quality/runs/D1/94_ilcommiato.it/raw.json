@@ -1,0 +1,77 @@
+{
+  "url": "https://www.ilcommiato.it",
+  "final_url": "https://www.ilcommiato.it/",
+  "click_at_s": 14.16,
+  "reload_at_s": 19.16,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "Scopri di pi\u00f9 e personalizza",
+    "Salva le impostazioni",
+    "Rifiuta",
+    "Accettare tutti"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "api.cookiefirst.com",
+    "consent.cookiefirst.com",
+    "region1.google-analytics.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "consent.cookiefirst.com",
+    "region1.google-analytics.com"
+  ],
+  "third_party_timeline": {
+    "api.cookiefirst.com": {
+      "first_s": 14.16,
+      "last_s": 14.16
+    },
+    "code.jquery.com": {
+      "first_s": 3.31,
+      "last_s": 3.31
+    },
+    "consent.cookiefirst.com": {
+      "first_s": 6.38,
+      "last_s": 19.49
+    },
+    "edge.cookiefirst.com": {
+      "first_s": 9.97,
+      "last_s": 9.97
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.36,
+      "last_s": 3.36
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.91,
+      "last_s": 3.91
+    },
+    "region1.google-analytics.com": {
+      "first_s": 8.88,
+      "last_s": 19.36
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.31,
+      "last_s": 6.38
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "code.jquery.com",
+    "consent.cookiefirst.com",
+    "edge.cookiefirst.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "cookiefirst-consent",
+      "domain": "www.ilcommiato.it",
+      "path": "/",
+      "expires": 1824733064,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

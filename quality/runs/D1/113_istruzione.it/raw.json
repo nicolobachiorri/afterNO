@@ -1,0 +1,158 @@
+{
+  "url": "https://www.istruzione.it",
+  "final_url": "https://www.mim.gov.it/web/guest/home",
+  "click_at_s": 26.95,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Slide precedente",
+    "Slide successiva",
+    "PROSEGUI"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "analytics1.istruzione.it": {
+      "first_s": 3.12,
+      "last_s": 3.44
+    },
+    "www.istruzione.it": {
+      "first_s": 1.95,
+      "last_s": 1.95
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "cookiefascia-01",
+      "domain": "www.mim.gov.it",
+      "path": "/web/guest",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiefascia-02",
+      "domain": "www.mim.gov.it",
+      "path": "/web/guest",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiefascia-03",
+      "domain": "www.mim.gov.it",
+      "path": "/web/guest",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiefascia-04",
+      "domain": "www.mim.gov.it",
+      "path": "/web/guest",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiefascia-05",
+      "domain": "www.mim.gov.it",
+      "path": "/web/guest",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiefascia-06",
+      "domain": "www.mim.gov.it",
+      "path": "/web/guest",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiefascia-07",
+      "domain": "www.mim.gov.it",
+      "path": "/web/guest",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiefascia-08",
+      "domain": "www.mim.gov.it",
+      "path": "/web/guest",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiefascia-09",
+      "domain": "www.mim.gov.it",
+      "path": "/web/guest",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiefascia-10",
+      "domain": "www.mim.gov.it",
+      "path": "/web/guest",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_id.1.f209",
+      "domain": "www.mim.gov.it",
+      "path": "/",
+      "expires": 1827584780,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.1.f209",
+      "domain": "www.mim.gov.it",
+      "path": "/",
+      "expires": 1793631379,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "LFR_SESSION_STATE_20159",
+      "domain": "www.mim.gov.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

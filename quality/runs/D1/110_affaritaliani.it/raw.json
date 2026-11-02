@@ -1,0 +1,450 @@
+{
+  "url": "https://www.affaritaliani.it",
+  "final_url": "https://www.affaritaliani.it/",
+  "click_at_s": 11.14,
+  "reload_at_s": 16.14,
+  "reject": "button: '' in main (normal click)",
+  "visible_buttons": [
+    "PI\u00d9 OPZIONI",
+    "ACCETTO"
+  ],
+  "tcf": {
+    "cmpId": 10,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "4e5a6a4b334a3d0d9f531df4cd71ad8c.safeframe.googlesyndication.com",
+    "a.teads.tv",
+    "aax-eu.amazon-adsystem.com",
+    "ad.doubleclick.net",
+    "ads.pubmatic.com",
+    "adx.adform.net",
+    "api.cmp.inmobi.com",
+    "api.id5-sync.com",
+    "api.onesignal.com",
+    "assets.evolutionadv.it",
+    "bid.sparteo.com",
+    "c.amazon-adsystem.com",
+    "carbon-cdn.ccgateway.net",
+    "cdn.ampproject.org",
+    "cdn.id5-sync.com",
+    "cdn1.anonymised.io",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "direct.adsrvr.org",
+    "dt.adsafeprotected.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fastlane.rubiconproject.com",
+    "fcababcd3b84bcf8d69642475e864554.safeframe.googlesyndication.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "functions.adnami.io",
+    "hbopenbid.pubmatic.com",
+    "ib.adnxs-simple.com",
+    "img.os-content.com",
+    "jsconfig.adsafeprotected.com",
+    "link.rubiconproject.com",
+    "macro.adnami.io",
+    "monitor.evolutiongroup.digital",
+    "onesignal.com",
+    "pagead2.googlesyndication.com",
+    "prod.tahoe-analytics.publishers.advertising.a2z.com",
+    "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev",
+    "region1.analytics.google.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "services.brid.tv",
+    "static.anonm.io",
+    "static.anonymised.io",
+    "t.pubmatic.com",
+    "tags.crwdcntrl.net",
+    "tpc.googlesyndication.com",
+    "web-banner.ads.aps.amazon-adsystem.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "a.teads.tv",
+    "aax-eu.amazon-adsystem.com",
+    "ad.doubleclick.net",
+    "adx.adform.net",
+    "api.id5-sync.com",
+    "api.onesignal.com",
+    "bid.sparteo.com",
+    "cdn.id5-sync.com",
+    "cdn1.anonymised.io",
+    "cmp.inmobi.com",
+    "direct.adsrvr.org",
+    "dt.adsafeprotected.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fastlane.rubiconproject.com",
+    "fcababcd3b84bcf8d69642475e864554.safeframe.googlesyndication.com",
+    "hbopenbid.pubmatic.com",
+    "ib.adnxs-simple.com",
+    "jsconfig.adsafeprotected.com",
+    "monitor.evolutiongroup.digital",
+    "pagead2.googlesyndication.com",
+    "prod.tahoe-analytics.publishers.advertising.a2z.com",
+    "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev",
+    "region1.analytics.google.com",
+    "sb.scorecardresearch.com",
+    "services.brid.tv",
+    "static.anonm.io",
+    "static.anonymised.io",
+    "tags.crwdcntrl.net",
+    "tpc.googlesyndication.com",
+    "web-banner.ads.aps.amazon-adsystem.com"
+  ],
+  "third_party_timeline": {
+    "4e5a6a4b334a3d0d9f531df4cd71ad8c.safeframe.googlesyndication.com": {
+      "first_s": 13.23,
+      "last_s": 13.23
+    },
+    "a.teads.tv": {
+      "first_s": 12.3,
+      "last_s": 17.27
+    },
+    "aax-eu.amazon-adsystem.com": {
+      "first_s": 12.55,
+      "last_s": 17.83
+    },
+    "ad.doubleclick.net": {
+      "first_s": 3.04,
+      "last_s": 16.63
+    },
+    "ads.pubmatic.com": {
+      "first_s": 11.19,
+      "last_s": 11.19
+    },
+    "adx.adform.net": {
+      "first_s": 12.3,
+      "last_s": 17.27
+    },
+    "api.cmp.inmobi.com": {
+      "first_s": 3.74,
+      "last_s": 11.19
+    },
+    "api.id5-sync.com": {
+      "first_s": 16.71,
+      "last_s": 16.71
+    },
+    "api.onesignal.com": {
+      "first_s": 3.15,
+      "last_s": 16.71
+    },
+    "assets.evolutionadv.it": {
+      "first_s": 2.4,
+      "last_s": 13.97
+    },
+    "bid.sparteo.com": {
+      "first_s": 12.3,
+      "last_s": 17.27
+    },
+    "c.amazon-adsystem.com": {
+      "first_s": 11.19,
+      "last_s": 11.54
+    },
+    "carbon-cdn.ccgateway.net": {
+      "first_s": 11.45,
+      "last_s": 11.45
+    },
+    "cdn.ampproject.org": {
+      "first_s": 13.98,
+      "last_s": 13.98
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 16.7,
+      "last_s": 16.7
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.04,
+      "last_s": 3.04
+    },
+    "cdn.onesignal.com": {
+      "first_s": 2.4,
+      "last_s": 3.03
+    },
+    "cdn1.anonymised.io": {
+      "first_s": 16.79,
+      "last_s": 16.79
+    },
+    "cmp.inmobi.com": {
+      "first_s": 3.09,
+      "last_s": 16.58
+    },
+    "config.aps.amazon-adsystem.com": {
+      "first_s": 11.54,
+      "last_s": 11.54
+    },
+    "direct.adsrvr.org": {
+      "first_s": 12.3,
+      "last_s": 17.27
+    },
+    "dt.adsafeprotected.com": {
+      "first_s": 3.01,
+      "last_s": 17.0
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 12.23,
+      "last_s": 17.93
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 12.96,
+      "last_s": 17.41
+    },
+    "fastlane.rubiconproject.com": {
+      "first_s": 12.3,
+      "last_s": 17.27
+    },
+    "fcababcd3b84bcf8d69642475e864554.safeframe.googlesyndication.com": {
+      "first_s": 18.19,
+      "last_s": 18.19
+    },
+    "fonts.googleapis.com": {
+      "first_s": 13.98,
+      "last_s": 13.98
+    },
+    "fonts.gstatic.com": {
+      "first_s": 14.19,
+      "last_s": 14.19
+    },
+    "functions.adnami.io": {
+      "first_s": 11.19,
+      "last_s": 11.19
+    },
+    "hbopenbid.pubmatic.com": {
+      "first_s": 12.3,
+      "last_s": 17.29
+    },
+    "ib.adnxs-simple.com": {
+      "first_s": 12.3,
+      "last_s": 17.27
+    },
+    "img.os-content.com": {
+      "first_s": 13.67,
+      "last_s": 13.67
+    },
+    "jsconfig.adsafeprotected.com": {
+      "first_s": 2.91,
+      "last_s": 16.51
+    },
+    "link.rubiconproject.com": {
+      "first_s": 11.19,
+      "last_s": 11.19
+    },
+    "macro.adnami.io": {
+      "first_s": 11.46,
+      "last_s": 11.46
+    },
+    "monitor.evolutiongroup.digital": {
+      "first_s": 11.91,
+      "last_s": 17.27
+    },
+    "onesignal.com": {
+      "first_s": 13.32,
+      "last_s": 13.32
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 11.84,
+      "last_s": 20.29
+    },
+    "pixel.adsafeprotected.com": {
+      "first_s": 2.4,
+      "last_s": 2.4
+    },
+    "prod.tahoe-analytics.publishers.advertising.a2z.com": {
+      "first_s": 21.69,
+      "last_s": 21.69
+    },
+    "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev": {
+      "first_s": 16.7,
+      "last_s": 16.7
+    },
+    "region1.analytics.google.com": {
+      "first_s": 2.84,
+      "last_s": 21.57
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 11.87,
+      "last_s": 17.27
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 11.7,
+      "last_s": 11.97
+    },
+    "services.brid.tv": {
+      "first_s": 17.28,
+      "last_s": 17.28
+    },
+    "static.adsafeprotected.com": {
+      "first_s": 3.0,
+      "last_s": 3.13
+    },
+    "static.anonm.io": {
+      "first_s": 16.79,
+      "last_s": 16.79
+    },
+    "static.anonymised.io": {
+      "first_s": 11.7,
+      "last_s": 16.7
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 2.84,
+      "last_s": 2.88
+    },
+    "t.pubmatic.com": {
+      "first_s": 11.69,
+      "last_s": 11.69
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 16.7,
+      "last_s": 16.7
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 13.99,
+      "last_s": 19.24
+    },
+    "visit-server.inmobi-choice.io": {
+      "first_s": 3.65,
+      "last_s": 3.65
+    },
+    "web-banner.ads.aps.amazon-adsystem.com": {
+      "first_s": 11.87,
+      "last_s": 17.23
+    },
+    "www.google.it": {
+      "first_s": 2.84,
+      "last_s": 2.88
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.4,
+      "last_s": 2.84
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "ads.pubmatic.com",
+    "api.id5-sync.com",
+    "assets.evolutionadv.it",
+    "c.amazon-adsystem.com",
+    "carbon-cdn.ccgateway.net",
+    "cdn.ampproject.org",
+    "cdn.id5-sync.com",
+    "cdn.jsdelivr.net",
+    "cdn.onesignal.com",
+    "cdn1.anonymised.io",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "functions.adnami.io",
+    "link.rubiconproject.com",
+    "macro.adnami.io",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "services.brid.tv",
+    "static.adsafeprotected.com",
+    "static.anonm.io",
+    "tags.crwdcntrl.net",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".onesignal.com",
+      "path": "/",
+      "expires": 1793631333.501768,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".affaritaliani.it",
+      "path": "/",
+      "expires": 1828189547.106409,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".www.affaritaliani.it",
+      "path": "/",
+      "expires": 1827325547.498294,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "addtl_consent",
+      "domain": ".www.affaritaliani.it",
+      "path": "/",
+      "expires": 1827325547.498366,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IABGPP_HDR_GppString",
+      "domain": ".www.affaritaliani.it",
+      "path": "/",
+      "expires": 1827325547.498395,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "3pc_test",
+      "domain": "static.anonm.io",
+      "path": "/",
+      "expires": 1793633147,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".affaritaliani.it",
+      "path": "/",
+      "expires": 1809181544,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_5M9EXSXB8Q",
+      "domain": ".affaritaliani.it",
+      "path": "/",
+      "expires": 1828189547.385105,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_6PEQCP2K9H",
+      "domain": ".affaritaliani.it",
+      "path": "/",
+      "expires": 1828189547.386012,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

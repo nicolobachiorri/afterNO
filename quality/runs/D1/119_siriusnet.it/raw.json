@@ -1,0 +1,28 @@
+{
+  "url": "https://www.siriusnet.it",
+  "final_url": "https://www.siriusnet.it/",
+  "click_at_s": 26.58,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "More info",
+    "allow cookies",
+    "Previous",
+    "Next"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "fonts.googleapis.com": {
+      "first_s": 2.77,
+      "last_s": 2.77
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.02,
+      "last_s": 3.02
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": []
+}

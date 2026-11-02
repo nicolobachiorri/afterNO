@@ -1,0 +1,56 @@
+{
+  "host": "www.giomettirealestatecinema.it",
+  "choice": {
+    "at": 1793629424161,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "site": "giomettirealestatecinema.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.giomettirealestatecinema.it/",
+    "lastSeen": {
+      "cdn.iubenda.com": 1793629418769,
+      "cdnjs.cloudflare.com": 1793629415465,
+      "code.jquery.com": 1793629415276,
+      "cpl.iubenda.com": 1793629424178,
+      "cs.iubenda.com": 1793629417281,
+      "fonts.googleapis.com": 1793629414914,
+      "idb.iubenda.com": 1793629429626,
+      "maxcdn.bootstrapcdn.com": 1793629415485,
+      "pagead2.googlesyndication.com": 1793629431527,
+      "region1.google-analytics.com": 1793629436529,
+      "www.giomettirealestatecinema.it": 1793629429794,
+      "www.googletagmanager.com": 1793629417380
+    }
+  },
+  "hostsConsidered": [
+    "cpl.iubenda.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.giomettirealestatecinema.it"
+  ]
+}

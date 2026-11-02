@@ -1,0 +1,66 @@
+{
+  "host": "movieplayer.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://movieplayer.it/",
+    "lastSeen": {
+      "0.stg.html-load.cc": 1793629115415,
+      "api.publytics.net": 1793629114260,
+      "applets.ebxcdn.com": 1793629114472,
+      "clickiocmp.com": 1793629115145,
+      "html-load.cc": 1793629114269,
+      "movieplayer.it": 1793629115159,
+      "movieplayer.net-cdn.it": 1793629116193,
+      "pagead2.googlesyndication.com": 1793629115033,
+      "pghub.io": 1793629114269,
+      "region1.analytics.google.com": 1793629115096,
+      "sirius.galada.it": 1793629114809,
+      "static.criteo.net": 1793629115031,
+      "stats.g.doubleclick.net": 1793629115097,
+      "stg.html-load.cc": 1793629114541,
+      "vega.galada.it": 1793629114808,
+      "www.google.it": 1793629115097,
+      "www.googletagmanager.com": 1793629114260,
+      "www.movieplayer.it": 1793629113501
+    }
+  },
+  "hostsConsidered": [
+    "0.stg.html-load.cc",
+    "api.publytics.net",
+    "applets.ebxcdn.com",
+    "clickiocmp.com",
+    "html-load.cc",
+    "movieplayer.it",
+    "movieplayer.net-cdn.it",
+    "pagead2.googlesyndication.com",
+    "pghub.io",
+    "region1.analytics.google.com",
+    "sirius.galada.it",
+    "static.criteo.net",
+    "stats.g.doubleclick.net",
+    "stg.html-load.cc",
+    "vega.galada.it",
+    "www.google.it",
+    "www.googletagmanager.com",
+    "www.movieplayer.it"
+  ]
+}

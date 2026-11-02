@@ -1,0 +1,56 @@
+{
+  "host": "www.pagopa.gov.it",
+  "choice": {
+    "at": 1793629336110,
+    "choice": "rejected",
+    "label": "Rifiuta tutti",
+    "site": "gov.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta tutti"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.pagopa.gov.it/",
+    "lastSeen": {
+      "cdn.cookielaw.org": 1793629341345,
+      "fonts.gstatic.com": 1793629342617,
+      "geolocation.onetrust.com": 1793629341247,
+      "pagopa.gov.it": 1793629310143,
+      "pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com": 1793629342280,
+      "privacyportal-de.onetrust.com": 1793629336112,
+      "www.gstatic.com": 1793629342621,
+      "www.pagopa.gov.it": 1793629342628,
+      "www.recaptcha.net": 1793629343362
+    }
+  },
+  "hostsConsidered": [
+    "cdn.cookielaw.org",
+    "fonts.gstatic.com",
+    "geolocation.onetrust.com",
+    "pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com",
+    "privacyportal-de.onetrust.com",
+    "www.gstatic.com",
+    "www.pagopa.gov.it",
+    "www.recaptcha.net"
+  ]
+}

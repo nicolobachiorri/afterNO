@@ -1,0 +1,69 @@
+{
+  "host": "www.infocert.it",
+  "choice": {
+    "at": 1793630034042,
+    "choice": "rejected",
+    "label": "Rifiuta cookie non necessari ✕",
+    "site": "infocert.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta cookie non necessari ✕"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 4,
+      "names": [
+        "Crazy Egg"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.infocert.it/",
+    "lastSeen": {
+      "assets-tracking.crazyegg.com": 1793630026156,
+      "bnr.elmobot.eu": 1793630025994,
+      "cns.elmobot.eu": 1793630034046,
+      "fonts.googleapis.com": 1793630025519,
+      "fonts.gstatic.com": 1793630025801,
+      "pagead2.googlesyndication.com": 1793630039229,
+      "pagestates-tracking.crazyegg.com": 1793630026156,
+      "region1.google-analytics.com": 1793630039244,
+      "script.crazyegg.com": 1793630039380,
+      "tracking.crazyegg.com": 1793630041469,
+      "widget.trustpilot.com": 1793630039251,
+      "www.googletagmanager.com": 1793630026003,
+      "www.infocert.it": 1793630039062,
+      "www.tinextainfocert.infocert.it": 1793630039263
+    }
+  },
+  "hostsConsidered": [
+    "cns.elmobot.eu",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "script.crazyegg.com",
+    "tracking.crazyegg.com",
+    "widget.trustpilot.com",
+    "www.infocert.it",
+    "www.tinextainfocert.infocert.it"
+  ]
+}

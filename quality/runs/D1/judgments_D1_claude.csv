@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+D1,94,claude (autore del codice),si,ok,0,correct,"Scelta letta dal clic. Nessun sito terzo con cookie che soddisfano i criteri, nessun cookie di marketing del sito."
+D1,95,claude (autore del codice),no_reject,,,,Banner InMobi con solo «Più opzioni» e «Accetto»; nessuna X visibile.
+D1,96,claude (autore del codice),no_reject,,,,"Solo «Rifiuta e abbonati» (a pagamento), «Gestisci» e «Accetta»."
+D1,98,claude (autore del codice),other,,,,"Banner con «Gestisci cookie», «Accetta tutti» e una X che secondo il testo chiude mantenendo le impostazioni predefinite, cioè un rifiuto. Il robot non clicca le X: limite del robot."
+D1,99,claude (autore del codice),si,ok,0,correct,"Nessun sito terzo con cookie che soddisfano i criteri, nessun marketing del sito."
+D1,100,claude (autore del codice),si,ok,0,correct,«Usa solo i cookie necessari» riconosciuto come rifiuto. Dati puliti.
+D1,101,claude (autore del codice),si,ok,0,correct,"«Solo in parte» per __hstc e hubspotutk (HubSpot, 180 giorni) sul sito dopo il rifiuto; gli altri due cookie HubSpot sono di breve durata e segnalati come tali. Etichetta marketing plausibile per il tracciamento dei visitatori di HubSpot."
+D1,102,claude (autore del codice),si,ok,0,correct,"Dati puliti (_GRECAPTCHA è funzionale). Nota fuori giudizio: la scelta è registrata per il sito «gov.it», perché la regola dei domini non conosce il suffisso gov.it; da correggere."
+D1,103,claude (autore del codice),si,ok,0,correct,Dati puliti.
+D1,104,claude (autore del codice),si,ok,0,correct,"TCF registra il rifiuto, 6 finalità a legittimo interesse nominate. I 5 siti terzi nominati coincidono con i 5 che soddisfano i criteri."
+D1,105,claude (autore del codice),si,ok,0,correct,Dati puliti.
+D1,106,claude (autore del codice),no_banner,,,,"Nessun banner. Il sito è un elenco di casinò online (gioco d'azzardo), scoperto solo alla visita: le regole ne chiederebbero la sostituzione; non è misurabile in ogni caso, quindi non cambia i risultati."
+D1,108,claude (autore del codice),si,ok,0,correct,Dati puliti.
+D1,109,claude (autore del codice),no_reject,,,,"Solo «Personalizza» e «Accetta»; la X chiude accettando, secondo il testo del banner."
+D1,110,claude (autore del codice),si,ok,0,correct,"TCF registra il rifiuto, 6 finalità a legittimo interesse nominate. Nessun cookie di sito terzo che soddisfi i criteri; molte richieste pubblicitarie dopo il clic, ma senza cookie che possano riconoscere."
+D1,112,claude (autore del codice),no_reject,,,,Citynews: «Rifiuta e abbonati» (a pagamento) o «Accetta».
+D1,113,claude (autore del codice),no_banner,,,,"Solo un'informativa su cookie tecnici e analitici, con «Prosegui»: nessuna scelta da fare."
+D1,115,claude (autore del codice),no_banner,,,,Nessun banner.
+D1,116,claude (autore del codice),no_banner,,,,"Solo un'informativa: il sito dichiara di usare solo cookie tecnici, con «OK»."
+D1,117,claude (autore del codice),si,ok,0,correct,"«Solo in parte» per _pubcid sul sito (365 giorni, marketing). Aniview nominato: cookie leggibile da altri siti, marketing, 20 giorni; sotto la soglia dei 30 giorni dei criteri, ma l'affermazione «può riconoscerti» non è contraddetta. Stesso caso del sito 46 di C1."
+D1,118,claude (autore del codice),si,ok,0,correct,"«Solo in parte» per _gcl_au (Google Ads, 90 giorni) sul sito dopo il rifiuto. Etichetta corretta."
+D1,119,claude (autore del codice),no_reject,,,,Solo «allow cookies».
+D1,120,claude (autore del codice),si,ok,0,correct,Dati puliti.
+D1,121,claude (autore del codice),no_reject,,,,Citynews: «Rifiuta e abbonati» (a pagamento) o «Accetta».
+D1,122,claude (autore del codice),other,,,,Banner in tedesco con «Nur notwendige akzeptieren» (rifiuto): il robot riconosce solo pulsanti in italiano e inglese. Limite del robot.
+D1,123,claude (autore del codice),no_blocked,,,,Pagina di blocco di Cloudflare.
+D1,124,claude (autore del codice),no_banner,,,,Nessun banner.
+D1,125,claude (autore del codice),no_blocked,,,,Verifica di sicurezza di Cloudflare.
+D1,128,claude (autore del codice),no_banner,,,,Nessun banner.
+D1,129,claude (autore del codice),si,ok,0,correct,Dati puliti. La scelta è registrata per google.com: la pagina del consenso è su un dominio Google diverso da google.it.
+D1,130,claude (autore del codice),si,ok,0,correct,"TCF registra il rifiuto, nessun legittimo interesse. Dati puliti."
+D1,131,claude (autore del codice),si,ok,0,correct,Dati puliti; 4 cookie di statistica (Crazy Egg) segnalati come informazione.
+D1,132,claude (autore del codice),other,,,,"Banner con «Scopri di più e personalizza», «Accetta» e una X che secondo il testo chiude senza cookie non tecnici, cioè un rifiuto. Il robot non clicca le X: limite del robot."
+D1,133,claude (autore del codice),si,ok,0,correct,"«Solo in parte» per _fbp (Facebook, 90 giorni) sul sito dopo il rifiuto. Etichetta corretta."
+D1,135,claude (autore del codice),si,ok,0,correct,"«Solo in parte» per _fbp (Facebook, 90 giorni) sul sito. Manca lo screenshot della pagina (navigazione durante lo scatto); l'estensione ha registrato il clic, il TCF grezzo non è leggibile per lo stesso motivo."
+D1,136,claude (autore del codice),si,ok,0,correct,"Dati puliti; statistiche (Google Analytics, Microsoft Clarity) segnalate come informazione."
+D1,137,claude (autore del codice),no_reject,,,,"Rifiuto solo a pagamento («No profilazione e banner, 1 € al mese») o «Accetta e chiudi»."
+D1,138,claude (autore del codice),si,ok,0,correct,«Accetta solo necessari» riconosciuto come rifiuto. Dati puliti.
+D1,139,claude (autore del codice),si,ok,0,correct,"«Solo in parte» per shop.app: _shop_app_essential, leggibile da altri siti, 365 giorni, non partizionato, contattato dopo il clic. La tabella mostra l'etichetta «Analytics, Marfeel» perché il prefisso «_s» del database lo cattura; l'estensione la scarta correttamente (prefisso generico, sito non proprietario) e lo tratta come identificativo probabile, che soddisfa i criteri."
+D1,140,claude (autore del codice),si,ok,0,correct,"«Solo in parte» per _fbp (Facebook, 90 giorni) sul sito dopo il rifiuto."

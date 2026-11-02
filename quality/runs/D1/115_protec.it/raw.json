@@ -1,0 +1,34 @@
+{
+  "url": "https://www.protec.it",
+  "final_url": "https://www.protec.it/",
+  "click_at_s": 26.53,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "fonts.googleapis.com": {
+      "first_s": 2.61,
+      "last_s": 2.61
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.23,
+      "last_s": 3.23
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "06ef733c96df838596e0d41db2d8b55b",
+      "domain": "www.protec.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

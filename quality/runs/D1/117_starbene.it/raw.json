@@ -1,0 +1,626 @@
+{
+  "url": "https://www.starbene.it",
+  "final_url": "https://www.starbene.it/",
+  "click_at_s": 10.82,
+  "reload_at_s": 15.83,
+  "reject": "button: '' in main (normal click)",
+  "visible_buttons": [
+    "PI\u00d9 OPZIONI",
+    "ACCETTO"
+  ],
+  "tcf": {
+    "cmpId": 10,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "572659096db484f41e836625518819d1.safeframe.googlesyndication.com",
+    "ads.pubmatic.com",
+    "adx.adform.net",
+    "ap.lijit.com",
+    "api.cmp.inmobi.com",
+    "api.id5-sync.com",
+    "api.onesignal.com",
+    "api.rlcdn.com",
+    "assets.evolutionadv.it",
+    "b05c0c7cead847ad2a7e1ae1619e2838.safeframe.googlesyndication.com",
+    "bid.sparteo.com",
+    "c.amazon-adsystem.com",
+    "carbon-cdn.ccgateway.net",
+    "cdn.ampproject.org",
+    "cdn.confiant-integrations.net",
+    "cdn.id5-sync.com",
+    "cdn1.anonymised.io",
+    "client.aps.amazon-adsystem.com",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "content1a.avplayer.com",
+    "direct.adsrvr.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fastlane.rubiconproject.com",
+    "feed.avplayer.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "go1.aniview.com",
+    "hbopenbid.pubmatic.com",
+    "htlb.casalemedia.com",
+    "ib.adnxs-simple.com",
+    "id.hadron.ad.gt",
+    "imasdk.googleapis.com",
+    "js-sec.indexww.com",
+    "link.rubiconproject.com",
+    "match.adsrvr.org",
+    "match.sharethrough.com",
+    "onesignal.com",
+    "pagead2.googlesyndication.com",
+    "player.aniview.com",
+    "player.avplayer.com",
+    "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev",
+    "region1.google-analytics.com",
+    "s2ssc.aniview.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "ssbsync.smartadserver.com",
+    "static.anonm.io",
+    "static.anonymised.io",
+    "stats.g.doubleclick.net",
+    "sync.1rx.io",
+    "sync.aniview.com",
+    "sync.sparteo.com",
+    "t.pubmatic.com",
+    "tags.crwdcntrl.net",
+    "tg1.aniview.com",
+    "tpc.googlesyndication.com",
+    "track1.avplayer.com",
+    "track4.aniview.com",
+    "web-banner.ads.aps.amazon-adsystem.com",
+    "web-video.ads.aps.amazon-adsystem.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "572659096db484f41e836625518819d1.safeframe.googlesyndication.com",
+    "ads.pubmatic.com",
+    "adx.adform.net",
+    "ap.lijit.com",
+    "api.id5-sync.com",
+    "api.onesignal.com",
+    "api.rlcdn.com",
+    "assets.evolutionadv.it",
+    "bid.sparteo.com",
+    "cdn.ampproject.org",
+    "cdn1.anonymised.io",
+    "client.aps.amazon-adsystem.com",
+    "cmp.inmobi.com",
+    "content1a.avplayer.com",
+    "direct.adsrvr.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fastlane.rubiconproject.com",
+    "feed.avplayer.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "go1.aniview.com",
+    "hbopenbid.pubmatic.com",
+    "htlb.casalemedia.com",
+    "ib.adnxs-simple.com",
+    "id.hadron.ad.gt",
+    "imasdk.googleapis.com",
+    "js-sec.indexww.com",
+    "match.adsrvr.org",
+    "match.sharethrough.com",
+    "pagead2.googlesyndication.com",
+    "player.aniview.com",
+    "player.avplayer.com",
+    "region1.google-analytics.com",
+    "s2ssc.aniview.com",
+    "sb.scorecardresearch.com",
+    "ssbsync.smartadserver.com",
+    "static.anonm.io",
+    "static.anonymised.io",
+    "stats.g.doubleclick.net",
+    "sync.1rx.io",
+    "sync.aniview.com",
+    "sync.sparteo.com",
+    "tpc.googlesyndication.com",
+    "track1.avplayer.com",
+    "track4.aniview.com",
+    "web-banner.ads.aps.amazon-adsystem.com",
+    "web-video.ads.aps.amazon-adsystem.com"
+  ],
+  "third_party_timeline": {
+    "572659096db484f41e836625518819d1.safeframe.googlesyndication.com": {
+      "first_s": 18.03,
+      "last_s": 18.03
+    },
+    "ads.pubmatic.com": {
+      "first_s": 10.87,
+      "last_s": 25.7
+    },
+    "adx.adform.net": {
+      "first_s": 12.53,
+      "last_s": 17.6
+    },
+    "ap.lijit.com": {
+      "first_s": 23.05,
+      "last_s": 23.05
+    },
+    "api.cmp.inmobi.com": {
+      "first_s": 5.88,
+      "last_s": 10.88
+    },
+    "api.id5-sync.com": {
+      "first_s": 17.1,
+      "last_s": 17.1
+    },
+    "api.onesignal.com": {
+      "first_s": 4.4,
+      "last_s": 17.37
+    },
+    "api.rlcdn.com": {
+      "first_s": 23.45,
+      "last_s": 23.45
+    },
+    "assets.evolutionadv.it": {
+      "first_s": 2.41,
+      "last_s": 19.02
+    },
+    "b05c0c7cead847ad2a7e1ae1619e2838.safeframe.googlesyndication.com": {
+      "first_s": 13.46,
+      "last_s": 13.46
+    },
+    "bid.sparteo.com": {
+      "first_s": 12.53,
+      "last_s": 23.76
+    },
+    "c.amazon-adsystem.com": {
+      "first_s": 10.87,
+      "last_s": 11.5
+    },
+    "carbon-cdn.ccgateway.net": {
+      "first_s": 11.35,
+      "last_s": 11.35
+    },
+    "cdn.ampproject.org": {
+      "first_s": 18.98,
+      "last_s": 19.07
+    },
+    "cdn.confiant-integrations.net": {
+      "first_s": 10.87,
+      "last_s": 11.47
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 11.96,
+      "last_s": 11.96
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.84,
+      "last_s": 3.84
+    },
+    "cdn.onesignal.com": {
+      "first_s": 2.68,
+      "last_s": 3.84
+    },
+    "cdn1.anonymised.io": {
+      "first_s": 17.24,
+      "last_s": 17.24
+    },
+    "client.aps.amazon-adsystem.com": {
+      "first_s": 23.07,
+      "last_s": 23.07
+    },
+    "cmp.inmobi.com": {
+      "first_s": 3.06,
+      "last_s": 16.51
+    },
+    "config.aps.amazon-adsystem.com": {
+      "first_s": 11.5,
+      "last_s": 11.5
+    },
+    "content1a.avplayer.com": {
+      "first_s": 14.5,
+      "last_s": 19.58
+    },
+    "direct.adsrvr.org": {
+      "first_s": 12.53,
+      "last_s": 23.76
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 12.82,
+      "last_s": 18.55
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 14.63,
+      "last_s": 18.02
+    },
+    "fastlane.rubiconproject.com": {
+      "first_s": 12.53,
+      "last_s": 17.6
+    },
+    "feed.avplayer.com": {
+      "first_s": 17.61,
+      "last_s": 17.61
+    },
+    "fonts.googleapis.com": {
+      "first_s": 18.98,
+      "last_s": 19.07
+    },
+    "fonts.gstatic.com": {
+      "first_s": 20.91,
+      "last_s": 20.91
+    },
+    "go1.aniview.com": {
+      "first_s": 18.23,
+      "last_s": 18.23
+    },
+    "hbopenbid.pubmatic.com": {
+      "first_s": 23.76,
+      "last_s": 23.76
+    },
+    "htlb.casalemedia.com": {
+      "first_s": 23.76,
+      "last_s": 23.76
+    },
+    "ib.adnxs-simple.com": {
+      "first_s": 12.53,
+      "last_s": 17.6
+    },
+    "id.hadron.ad.gt": {
+      "first_s": 23.45,
+      "last_s": 23.45
+    },
+    "imasdk.googleapis.com": {
+      "first_s": 25.12,
+      "last_s": 25.12
+    },
+    "js-sec.indexww.com": {
+      "first_s": 25.7,
+      "last_s": 25.7
+    },
+    "link.rubiconproject.com": {
+      "first_s": 10.88,
+      "last_s": 10.88
+    },
+    "match.adsrvr.org": {
+      "first_s": 25.71,
+      "last_s": 25.71
+    },
+    "match.sharethrough.com": {
+      "first_s": 23.05,
+      "last_s": 23.05
+    },
+    "onesignal.com": {
+      "first_s": 15.23,
+      "last_s": 15.23
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 11.87,
+      "last_s": 22.67
+    },
+    "player.aniview.com": {
+      "first_s": 14.46,
+      "last_s": 23.06
+    },
+    "player.avplayer.com": {
+      "first_s": 17.61,
+      "last_s": 17.63
+    },
+    "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev": {
+      "first_s": 11.96,
+      "last_s": 11.96
+    },
+    "region1.analytics.google.com": {
+      "first_s": 4.34,
+      "last_s": 4.34
+    },
+    "region1.google-analytics.com": {
+      "first_s": 17.03,
+      "last_s": 17.03
+    },
+    "s2ssc.aniview.com": {
+      "first_s": 23.06,
+      "last_s": 23.06
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 11.87,
+      "last_s": 17.6
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 11.39,
+      "last_s": 11.92
+    },
+    "ssbsync.smartadserver.com": {
+      "first_s": 23.04,
+      "last_s": 23.04
+    },
+    "static.anonm.io": {
+      "first_s": 17.24,
+      "last_s": 17.24
+    },
+    "static.anonymised.io": {
+      "first_s": 11.96,
+      "last_s": 24.82
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.41,
+      "last_s": 2.41
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.66,
+      "last_s": 17.25
+    },
+    "sync.1rx.io": {
+      "first_s": 23.05,
+      "last_s": 23.05
+    },
+    "sync.aniview.com": {
+      "first_s": 24.78,
+      "last_s": 24.78
+    },
+    "sync.sparteo.com": {
+      "first_s": 25.71,
+      "last_s": 25.71
+    },
+    "t.pubmatic.com": {
+      "first_s": 11.84,
+      "last_s": 11.84
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 11.96,
+      "last_s": 11.96
+    },
+    "tg1.aniview.com": {
+      "first_s": 12.04,
+      "last_s": 12.04
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 14.48,
+      "last_s": 19.06
+    },
+    "track1.avplayer.com": {
+      "first_s": 22.67,
+      "last_s": 22.67
+    },
+    "track4.aniview.com": {
+      "first_s": 12.63,
+      "last_s": 23.23
+    },
+    "visit-server.inmobi-choice.io": {
+      "first_s": 5.19,
+      "last_s": 5.19
+    },
+    "web-banner.ads.aps.amazon-adsystem.com": {
+      "first_s": 11.87,
+      "last_s": 17.57
+    },
+    "web-video.ads.aps.amazon-adsystem.com": {
+      "first_s": 24.82,
+      "last_s": 24.82
+    },
+    "www.google.com": {
+      "first_s": 3.66,
+      "last_s": 3.66
+    },
+    "www.google.it": {
+      "first_s": 4.34,
+      "last_s": 4.34
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.68,
+      "last_s": 2.68
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "ads.pubmatic.com",
+    "api.id5-sync.com",
+    "assets.evolutionadv.it",
+    "c.amazon-adsystem.com",
+    "carbon-cdn.ccgateway.net",
+    "cdn.confiant-integrations.net",
+    "cdn.id5-sync.com",
+    "cdn.jsdelivr.net",
+    "cdn.onesignal.com",
+    "cdn1.anonymised.io",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "ep2.adtrafficquality.google",
+    "feed.avplayer.com",
+    "link.rubiconproject.com",
+    "pagead2.googlesyndication.com",
+    "player.aniview.com",
+    "player.avplayer.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "static.anonm.io",
+    "static.cloudflareinsights.com",
+    "tags.crwdcntrl.net",
+    "tg1.aniview.com",
+    "tpc.googlesyndication.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "cf_zaraz_client",
+      "domain": ".starbene.it",
+      "path": "/",
+      "expires": 1825165690.677883,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cfz_facebook-pixel",
+      "domain": ".starbene.it",
+      "path": "/",
+      "expires": 1825165690.953271,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".onesignal.com",
+      "path": "/",
+      "expires": 1793631477.271893,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_03JVRXE24K",
+      "domain": ".starbene.it",
+      "path": "/",
+      "expires": 1828189678.038964,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".starbene.it",
+      "path": "/",
+      "expires": 1828189678.039332,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".www.starbene.it",
+      "path": "/",
+      "expires": 1827325690.72013,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "addtl_consent",
+      "domain": ".www.starbene.it",
+      "path": "/",
+      "expires": 1827325690.720234,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IABGPP_HDR_GppString",
+      "domain": ".www.starbene.it",
+      "path": "/",
+      "expires": 1827325690.720293,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "3pc_test",
+      "domain": "static.anonm.io",
+      "path": "/",
+      "expires": 1793633290,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".starbene.it",
+      "path": "/",
+      "expires": 1809181687,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cfzs_google-analytics_v4",
+      "domain": ".starbene.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cfz_zaraz-analytics",
+      "domain": ".starbene.it",
+      "path": "/",
+      "expires": 1825165690.953289,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cfz_google-analytics_v4",
+      "domain": ".starbene.it",
+      "path": "/",
+      "expires": 1825165690.953305,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "aniC",
+      "domain": ".aniview.com",
+      "path": "/",
+      "expires": 1795357696.709102,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pubcid",
+      "domain": ".starbene.it",
+      "path": "/",
+      "expires": 1825165697,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pubcid_cst",
+      "domain": ".starbene.it",
+      "path": "/",
+      "expires": 1825165697,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_lr_retry_request",
+      "domain": "www.starbene.it",
+      "path": "/",
+      "expires": 1793633297,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_lr_env_src_ats",
+      "domain": "www.starbene.it",
+      "path": "/",
+      "expires": 1796221697,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

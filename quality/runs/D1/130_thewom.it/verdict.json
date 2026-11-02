@@ -1,0 +1,110 @@
+{
+  "host": "www.thewom.it",
+  "choice": {
+    "at": 1793630007496,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "site": "thewom.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.thewom.it/",
+    "lastSeen": {
+      "0801f79c-c3b0-44f6-9f5a-37611e3c986d.edge.permutive.app": 1793629998968,
+      "5nueqjle3thynghqgddzkdlbhurrr1793630001.nuid.imrworldwide.com": 1793630001678,
+      "7740718bdcf803ab5d4c1719e61c262b.safeframe.googlesyndication.com": 1793630014152,
+      "a99a86296b10bbadbe4f152abd885938.safeframe.googlesyndication.com": 1793630010799,
+      "ads.eu.criteo.com": 1793630014170,
+      "api.publytics.net": 1793630012724,
+      "cat.nl3.eu.criteo.com": 1793630014294,
+      "cdn-gl.imrworldwide.com": 1793630012662,
+      "cdn.adkaora.space": 1793630008554,
+      "cdn.adsafeprotected.com": 1793630012604,
+      "cdn.iubenda.com": 1793629999800,
+      "client-side-metrics.nl3.eu.criteo.net": 1793630016876,
+      "cpl.iubenda.com": 1793630007493,
+      "cs.iubenda.com": 1793629999623,
+      "dafne.sirio.stbm.it": 1793630012632,
+      "ep1.adtrafficquality.google": 1793630014167,
+      "ep2.adtrafficquality.google": 1793630013644,
+      "fbc.wcfbc.net": 1793629999864,
+      "fundingchoicesmessages.google.com": 1793630012966,
+      "idb.iubenda.com": 1793630012838,
+      "imageproxy.eu.criteo.net": 1793630015858,
+      "mediasetitalia01.wt-eu02.net": 1793630012656,
+      "pagead2.googlesyndication.com": 1793630015198,
+      "pixel.adsafeprotected.com": 1793630013415,
+      "qavcwqvaqkmcoenqubjumm9qa1do31793630012.nuid.imrworldwide.com": 1793630012726,
+      "region1.google-analytics.com": 1793630018283,
+      "rtb.fr3.eu.criteo.com": 1793630014171,
+      "sb.scorecardresearch.com": 1793630012797,
+      "secure-it.imrworldwide.com": 1793630014676,
+      "securepubads.g.doubleclick.net": 1793630013340,
+      "static.adsafeprotected.com": 1793630008679,
+      "static.criteo.net": 1793630015864,
+      "staticassets-creator-design.criteo.net": 1793630015861,
+      "t0.gstatic.com": 1793629999941,
+      "tpc.googlesyndication.com": 1793630014172,
+      "www.google-analytics.com": 1793630012605,
+      "www.google.com": 1793629999810,
+      "www.googletagmanager.com": 1793630008261,
+      "www.gstatic.com": 1793629999012,
+      "www.thewom.it": 1793630014498
+    }
+  },
+  "hostsConsidered": [
+    "7740718bdcf803ab5d4c1719e61c262b.safeframe.googlesyndication.com",
+    "a99a86296b10bbadbe4f152abd885938.safeframe.googlesyndication.com",
+    "ads.eu.criteo.com",
+    "api.publytics.net",
+    "cat.nl3.eu.criteo.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.adkaora.space",
+    "cdn.adsafeprotected.com",
+    "client-side-metrics.nl3.eu.criteo.net",
+    "dafne.sirio.stbm.it",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fundingchoicesmessages.google.com",
+    "idb.iubenda.com",
+    "imageproxy.eu.criteo.net",
+    "mediasetitalia01.wt-eu02.net",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "qavcwqvaqkmcoenqubjumm9qa1do31793630012.nuid.imrworldwide.com",
+    "region1.google-analytics.com",
+    "rtb.fr3.eu.criteo.com",
+    "sb.scorecardresearch.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "static.criteo.net",
+    "staticassets-creator-design.criteo.net",
+    "tpc.googlesyndication.com",
+    "www.google-analytics.com",
+    "www.googletagmanager.com",
+    "www.thewom.it"
+  ]
+}

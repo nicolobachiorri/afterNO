@@ -1,0 +1,74 @@
+{
+  "host": "www.dday.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "Nielsen (imrworldwide.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.dday.it/",
+    "lastSeen": {
+      "c.amazon-adsystem.com": 1793630381342,
+      "cdn-gl.imrworldwide.com": 1793630381443,
+      "cdnjs.cloudflare.com": 1793630378623,
+      "clickiocmp.com": 1793630380194,
+      "config.aps.amazon-adsystem.com": 1793630381342,
+      "connect.facebook.net": 1793630381408,
+      "dday-it.disqus.com": 1793630381502,
+      "dvagh3p3rk8xj.cloudfront.net": 1793630378623,
+      "fonts.googleapis.com": 1793630379724,
+      "fundingchoicesmessages.google.com": 1793630379725,
+      "images.dday.it": 1793630380293,
+      "js.datafront.co": 1793630381013,
+      "p.typekit.net": 1793630379479,
+      "platform.twitter.com": 1793630381498,
+      "secure-it.imrworldwide.com": 1793630383464,
+      "securepubads.g.doubleclick.net": 1793630380222,
+      "syndication.twitter.com": 1793630382535,
+      "t34dx5sjm0izcfi92takua7rz3dsq1793630381.nuid.imrworldwide.com": 1793630382269,
+      "use.typekit.net": 1793630380028,
+      "www.dday.it": 1793630384839
+    }
+  },
+  "hostsConsidered": [
+    "c.amazon-adsystem.com",
+    "cdn-gl.imrworldwide.com",
+    "cdnjs.cloudflare.com",
+    "clickiocmp.com",
+    "config.aps.amazon-adsystem.com",
+    "connect.facebook.net",
+    "dday-it.disqus.com",
+    "dvagh3p3rk8xj.cloudfront.net",
+    "fonts.googleapis.com",
+    "fundingchoicesmessages.google.com",
+    "images.dday.it",
+    "js.datafront.co",
+    "p.typekit.net",
+    "platform.twitter.com",
+    "secure-it.imrworldwide.com",
+    "securepubads.g.doubleclick.net",
+    "syndication.twitter.com",
+    "t34dx5sjm0izcfi92takua7rz3dsq1793630381.nuid.imrworldwide.com",
+    "use.typekit.net",
+    "www.dday.it"
+  ]
+}

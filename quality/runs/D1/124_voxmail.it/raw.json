@@ -1,0 +1,91 @@
+{
+  "url": "https://www.voxmail.it",
+  "final_url": "https://www.voxmail.it/",
+  "click_at_s": 29.01,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Iscriviti ora!",
+    "Scrivici",
+    "Supporto commerciale dal vivo!",
+    "Chiudi"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "embed.tawk.to": {
+      "first_s": 5.29,
+      "last_s": 12.53
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.47,
+      "last_s": 2.47
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.12,
+      "last_s": 4.15
+    },
+    "va.tawk.to": {
+      "first_s": 11.13,
+      "last_s": 11.15
+    },
+    "voidlabs.containers.piwik.pro": {
+      "first_s": 4.11,
+      "last_s": 4.11
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_vm",
+      "domain": ".voxmail.it",
+      "path": "/",
+      "expires": 1828189877.92232,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_vm_gid",
+      "domain": ".voxmail.it",
+      "path": "/",
+      "expires": 1793716277,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_vmt",
+      "domain": ".voxmail.it",
+      "path": "/",
+      "expires": 1793629937,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "twk_idm_key",
+      "domain": "www.voxmail.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TawkConnectionTime",
+      "domain": "www.voxmail.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

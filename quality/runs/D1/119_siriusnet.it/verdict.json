@@ -1,0 +1,28 @@
+{
+  "host": "www.siriusnet.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.siriusnet.it/",
+    "lastSeen": {
+      "fonts.googleapis.com": 1793629733023,
+      "fonts.gstatic.com": 1793629733279,
+      "www.siriusnet.it": 1793629758928
+    }
+  },
+  "hostsConsidered": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.siriusnet.it"
+  ]
+}

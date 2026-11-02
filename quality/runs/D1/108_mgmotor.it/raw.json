@@ -1,0 +1,138 @@
+{
+  "url": "https://www.mgmotor.it",
+  "final_url": "https://www.mgmotor.it/",
+  "click_at_s": 11.03,
+  "reload_at_s": 16.03,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "Elettrica",
+    "Super Hybrid",
+    "Full Hybrid",
+    "Benzina",
+    "PROMOZIONI",
+    "Italia",
+    "Gamma",
+    "Contatti",
+    "Impostazioni dei cookie",
+    "Accetta",
+    "Maggiori informazioni",
+    "Rifiuta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "analytics.ekonsilio.io",
+    "api.livechat.ekonsilio.io",
+    "cloud.ccm19.de",
+    "files.ekonsilio.io",
+    "livechat.ekonsilio.io",
+    "mgmotor.imgix.net",
+    "webmessenger.ekonsilio.io"
+  ],
+  "third_party_hosts_after_reload": [
+    "analytics.ekonsilio.io",
+    "api.livechat.ekonsilio.io",
+    "cloud.ccm19.de",
+    "files.ekonsilio.io",
+    "livechat.ekonsilio.io",
+    "mgmotor.imgix.net",
+    "webmessenger.ekonsilio.io"
+  ],
+  "third_party_timeline": {
+    "analytics.ekonsilio.io": {
+      "first_s": 3.39,
+      "last_s": 17.65
+    },
+    "api.livechat.ekonsilio.io": {
+      "first_s": 3.39,
+      "last_s": 16.64
+    },
+    "cdn.mgmotor.eu": {
+      "first_s": 2.35,
+      "last_s": 3.12
+    },
+    "cdn.simplelocalize.io": {
+      "first_s": 3.29,
+      "last_s": 3.29
+    },
+    "cloud.ccm19.de": {
+      "first_s": 2.35,
+      "last_s": 16.19
+    },
+    "files.ekonsilio.io": {
+      "first_s": 2.95,
+      "last_s": 16.26
+    },
+    "livechat.ekonsilio.io": {
+      "first_s": 2.35,
+      "last_s": 16.32
+    },
+    "mgmotor.imgix.net": {
+      "first_s": 2.88,
+      "last_s": 16.18
+    },
+    "webmessenger.ekonsilio.io": {
+      "first_s": 2.72,
+      "last_s": 18.65
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.mgmotor.eu",
+    "cdn.simplelocalize.io",
+    "cloud.ccm19.de",
+    "livechat.ekonsilio.io",
+    "mgmotor.imgix.net",
+    "webmessenger.ekonsilio.io"
+  ],
+  "cookies": [
+    {
+      "name": "AWSALBAPP-0",
+      "domain": "www.mgmotor.it",
+      "path": "/",
+      "expires": 1794234287.595798,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALBAPP-1",
+      "domain": "www.mgmotor.it",
+      "path": "/",
+      "expires": 1794234287.595877,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALBAPP-2",
+      "domain": "www.mgmotor.it",
+      "path": "/",
+      "expires": 1794234287.595917,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALBAPP-3",
+      "domain": "www.mgmotor.it",
+      "path": "/",
+      "expires": 1794234287.595951,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CRAFT_CSRF_TOKEN",
+      "domain": "www.mgmotor.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "host": "www.lesacoutlet.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShort",
+      "count": 1,
+      "names": [
+        "Salesforce"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.lesacoutlet.it/",
+    "lastSeen": {
+      "api.clerk.io": 1793630054091,
+      "app.zipchat.ai": 1793630054009,
+      "cdn.clerk.io": 1793630053195,
+      "cdn.iubenda.com": 1793630053480,
+      "cdn.logwork.com": 1793630053533,
+      "cs.iubenda.com": 1793630053687,
+      "idb.iubenda.com": 1793630054043,
+      "ka-p.fontawesome.com": 1793630053810,
+      "kit.fontawesome.com": 1793630053186,
+      "pagead2.googlesyndication.com": 1793630054278,
+      "region1.google-analytics.com": 1793630054050,
+      "widget.feedaty.com": 1793630053663,
+      "widget.trustpilot.com": 1793630053565,
+      "www.googletagmanager.com": 1793630053839,
+      "www.lesacoutlet.it": 1793630073653
+    }
+  },
+  "hostsConsidered": [
+    "api.clerk.io",
+    "app.zipchat.ai",
+    "cdn.clerk.io",
+    "cdn.iubenda.com",
+    "cdn.logwork.com",
+    "cs.iubenda.com",
+    "idb.iubenda.com",
+    "ka-p.fontawesome.com",
+    "kit.fontawesome.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "widget.feedaty.com",
+    "widget.trustpilot.com",
+    "www.googletagmanager.com",
+    "www.lesacoutlet.it"
+  ]
+}

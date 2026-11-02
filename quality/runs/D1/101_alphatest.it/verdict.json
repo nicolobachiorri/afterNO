@@ -1,0 +1,84 @@
+{
+  "host": "www.alphatest.it",
+  "choice": {
+    "at": 1793629292529,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "site": "alphatest.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 2,
+      "names": [
+        "Hubspot"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShort",
+      "count": 2,
+      "names": [
+        "Hubspot"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.alphatest.it/",
+    "lastSeen": {
+      "b.clarity.ms": 1793629303314,
+      "consent.cookiebot.com": 1793629292558,
+      "consentcdn.cookiebot.com": 1793629297766,
+      "cta-eu1.hubspot.com": 1793629297870,
+      "f.clarity.ms": 1793629297693,
+      "js-eu1.hs-analytics.net": 1793629286063,
+      "js-eu1.hs-banner.com": 1793629286063,
+      "js-eu1.hs-scripts.com": 1793629284427,
+      "js-eu1.hubspot.com": 1793629286063,
+      "pagead2.googlesyndication.com": 1793629297785,
+      "perf-eu1.hsforms.com": 1793629298796,
+      "script.hotjar.com": 1793629297819,
+      "scripts.clarity.ms": 1793629286698,
+      "sst.alphatest.it": 1793629297868,
+      "static.hotjar.com": 1793629284499,
+      "track-eu1.hubspot.com": 1793629299672,
+      "widget.trustpilot.com": 1793629297864,
+      "www.alphatest.it": 1793629299679,
+      "www.clarity.ms": 1793629297727,
+      "www.googletagmanager.com": 1793629284498
+    }
+  },
+  "hostsConsidered": [
+    "b.clarity.ms",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "cta-eu1.hubspot.com",
+    "f.clarity.ms",
+    "pagead2.googlesyndication.com",
+    "perf-eu1.hsforms.com",
+    "script.hotjar.com",
+    "sst.alphatest.it",
+    "track-eu1.hubspot.com",
+    "widget.trustpilot.com",
+    "www.alphatest.it",
+    "www.clarity.ms"
+  ]
+}

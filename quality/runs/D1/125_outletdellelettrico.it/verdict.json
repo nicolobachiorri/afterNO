@@ -1,0 +1,28 @@
+{
+  "host": "www.outletdellelettrico.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.outletdellelettrico.it/",
+    "lastSeen": {
+      "challenges.cloudflare.com": 1793629906455,
+      "hagen.challenges.cloudflare.com": 1793629905872,
+      "www.outletdellelettrico.it": 1793629905224
+    }
+  },
+  "hostsConsidered": [
+    "challenges.cloudflare.com",
+    "hagen.challenges.cloudflare.com",
+    "www.outletdellelettrico.it"
+  ]
+}

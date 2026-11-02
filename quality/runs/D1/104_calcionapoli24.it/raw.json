@@ -1,0 +1,766 @@
+{
+  "url": "https://www.calcionapoli24.it",
+  "final_url": "https://www.calcionapoli24.it/",
+  "click_at_s": 11.0,
+  "reload_at_s": 16.0,
+  "reject": "button: '' in main (normal click)",
+  "visible_buttons": [
+    "PI\u00d9 OPZIONI",
+    "ACCETTO"
+  ],
+  "tcf": {
+    "cmpId": 10,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "30f0e7650544ec45c45a1eb2f7fbbd45.safeframe.googlesyndication.com",
+    "82e42.v.fwmrm.net",
+    "86f5e5d3c4dd959920875a0760f6089a.safeframe.googlesyndication.com",
+    "aax-eu.amazon-adsystem.com",
+    "acdn.ak-stream-videoplatform.sky.it",
+    "ads.viralize.tv",
+    "adx.adform.net",
+    "ajax.googleapis.com",
+    "analytics.shareaholic.com",
+    "api.cmp.inmobi.com",
+    "api.id5-sync.com",
+    "assets.adobedtm.com",
+    "assets.evolutionadv.it",
+    "bid.sparteo.com",
+    "c.amazon-adsystem.com",
+    "c1.adform.net",
+    "carbon-cdn.ccgateway.net",
+    "cdn.confiant-integrations.net",
+    "cdn.id5-sync.com",
+    "cdn.jsdelivr.net",
+    "cdn.mookie1.com",
+    "cdn1.anonymised.io",
+    "cdnb.4strokemedia.com",
+    "cdnjs.cloudflare.com",
+    "clients1.google.com",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "connectid.analytics.yahoo.com",
+    "cse.google.com",
+    "csync-eu.smartadserver.com",
+    "csync-global.smartadserver.com",
+    "direct.adsrvr.org",
+    "dpm.demdex.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fastlane.rubiconproject.com",
+    "feed.4strokemedia.com",
+    "fluid.4strokemedia.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "functions.adnami.io",
+    "gum.criteo.com",
+    "hbopenbid.pubmatic.com",
+    "ib.adnxs-simple.com",
+    "id5-sync.com",
+    "im.tncid.app",
+    "image6.pubmatic.com",
+    "image8.pubmatic.com",
+    "imasdk.googleapis.com",
+    "invstatic101.creativecdn.com",
+    "it-gmtdmp.mookie1.com",
+    "js.tncid.app",
+    "link.rubiconproject.com",
+    "macro.adnami.io",
+    "match.adsrvr.org",
+    "monetize-static.viralize.tv",
+    "oa.openxcdn.net",
+    "optimized-by.rubiconproject.com",
+    "pagead2.googlesyndication.com",
+    "partner.shareaholic.com",
+    "prod.tahoe-analytics.publishers.advertising.a2z.com",
+    "pubads.g.doubleclick.net",
+    "region1.google-analytics.com",
+    "rtb.openx.net",
+    "s0.2mdn.net",
+    "s2.adform.net",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "smetrics.sky.it",
+    "static.anonm.io",
+    "static.anonymised.io",
+    "static.criteo.net",
+    "tags.crwdcntrl.net",
+    "tlx.3lift.com",
+    "tpc.googlesyndication.com",
+    "track.adform.net",
+    "user-sync.fwmrm.net",
+    "video.sky.it",
+    "videoplatform.sky.it",
+    "web-banner.ads.aps.amazon-adsystem.com",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.shareaholic.net"
+  ],
+  "third_party_hosts_after_reload": [
+    "30f0e7650544ec45c45a1eb2f7fbbd45.safeframe.googlesyndication.com",
+    "82e42.v.fwmrm.net",
+    "aax-eu.amazon-adsystem.com",
+    "acdn.ak-stream-videoplatform.sky.it",
+    "ads.viralize.tv",
+    "adx.adform.net",
+    "ajax.googleapis.com",
+    "analytics.shareaholic.com",
+    "api.id5-sync.com",
+    "assets.adobedtm.com",
+    "assets.evolutionadv.it",
+    "bid.sparteo.com",
+    "c1.adform.net",
+    "cdn.id5-sync.com",
+    "cdn.mookie1.com",
+    "cdn1.anonymised.io",
+    "cdnb.4strokemedia.com",
+    "cdnjs.cloudflare.com",
+    "clients1.google.com",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "cse.google.com",
+    "csync-eu.smartadserver.com",
+    "csync-global.smartadserver.com",
+    "direct.adsrvr.org",
+    "dpm.demdex.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fastlane.rubiconproject.com",
+    "feed.4strokemedia.com",
+    "fluid.4strokemedia.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "hbopenbid.pubmatic.com",
+    "ib.adnxs-simple.com",
+    "im.tncid.app",
+    "image6.pubmatic.com",
+    "image8.pubmatic.com",
+    "imasdk.googleapis.com",
+    "it-gmtdmp.mookie1.com",
+    "js.tncid.app",
+    "match.adsrvr.org",
+    "monetize-static.viralize.tv",
+    "optimized-by.rubiconproject.com",
+    "pagead2.googlesyndication.com",
+    "partner.shareaholic.com",
+    "prod.tahoe-analytics.publishers.advertising.a2z.com",
+    "pubads.g.doubleclick.net",
+    "region1.google-analytics.com",
+    "rtb.openx.net",
+    "s0.2mdn.net",
+    "s2.adform.net",
+    "sb.scorecardresearch.com",
+    "smetrics.sky.it",
+    "static.anonm.io",
+    "static.anonymised.io",
+    "tags.crwdcntrl.net",
+    "tlx.3lift.com",
+    "tpc.googlesyndication.com",
+    "track.adform.net",
+    "user-sync.fwmrm.net",
+    "video.sky.it",
+    "videoplatform.sky.it",
+    "web-banner.ads.aps.amazon-adsystem.com",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "www.google.com",
+    "www.shareaholic.net"
+  ],
+  "third_party_timeline": {
+    "30f0e7650544ec45c45a1eb2f7fbbd45.safeframe.googlesyndication.com": {
+      "first_s": 18.95,
+      "last_s": 18.95
+    },
+    "82e42.v.fwmrm.net": {
+      "first_s": 21.51,
+      "last_s": 21.51
+    },
+    "86f5e5d3c4dd959920875a0760f6089a.safeframe.googlesyndication.com": {
+      "first_s": 14.18,
+      "last_s": 14.18
+    },
+    "aax-eu.amazon-adsystem.com": {
+      "first_s": 12.7,
+      "last_s": 22.92
+    },
+    "acdn.ak-stream-videoplatform.sky.it": {
+      "first_s": 22.48,
+      "last_s": 24.22
+    },
+    "ads.viralize.tv": {
+      "first_s": 23.82,
+      "last_s": 26.23
+    },
+    "adx.adform.net": {
+      "first_s": 12.03,
+      "last_s": 21.51
+    },
+    "ajax.googleapis.com": {
+      "first_s": 18.99,
+      "last_s": 18.99
+    },
+    "analytics.shareaholic.com": {
+      "first_s": 5.41,
+      "last_s": 16.84
+    },
+    "api.cmp.inmobi.com": {
+      "first_s": 7.97,
+      "last_s": 11.05
+    },
+    "api.id5-sync.com": {
+      "first_s": 17.13,
+      "last_s": 17.13
+    },
+    "assets.adobedtm.com": {
+      "first_s": 21.75,
+      "last_s": 23.24
+    },
+    "assets.evolutionadv.it": {
+      "first_s": 2.49,
+      "last_s": 18.96
+    },
+    "bid.sparteo.com": {
+      "first_s": 12.03,
+      "last_s": 17.9
+    },
+    "c.amazon-adsystem.com": {
+      "first_s": 11.05,
+      "last_s": 11.79
+    },
+    "c1.adform.net": {
+      "first_s": 23.06,
+      "last_s": 23.84
+    },
+    "carbon-cdn.ccgateway.net": {
+      "first_s": 11.65,
+      "last_s": 11.65
+    },
+    "cdn.confiant-integrations.net": {
+      "first_s": 11.05,
+      "last_s": 11.49
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 12.03,
+      "last_s": 17.08
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 12.03,
+      "last_s": 12.03
+    },
+    "cdn.mookie1.com": {
+      "first_s": 18.23,
+      "last_s": 18.23
+    },
+    "cdn.openshareweb.com": {
+      "first_s": 3.86,
+      "last_s": 3.86
+    },
+    "cdn1.anonymised.io": {
+      "first_s": 17.68,
+      "last_s": 17.68
+    },
+    "cdnb.4strokemedia.com": {
+      "first_s": 18.23,
+      "last_s": 21.43
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 25.24,
+      "last_s": 25.24
+    },
+    "clients1.google.com": {
+      "first_s": 6.86,
+      "last_s": 17.13
+    },
+    "cmp.inmobi.com": {
+      "first_s": 6.44,
+      "last_s": 16.84
+    },
+    "config.aps.amazon-adsystem.com": {
+      "first_s": 11.79,
+      "last_s": 19.0
+    },
+    "connectid.analytics.yahoo.com": {
+      "first_s": 12.03,
+      "last_s": 12.03
+    },
+    "cse.google.com": {
+      "first_s": 3.67,
+      "last_s": 16.84
+    },
+    "csync-eu.smartadserver.com": {
+      "first_s": 26.38,
+      "last_s": 26.48
+    },
+    "csync-global.smartadserver.com": {
+      "first_s": 25.23,
+      "last_s": 25.23
+    },
+    "direct.adsrvr.org": {
+      "first_s": 12.03,
+      "last_s": 21.51
+    },
+    "dpm.demdex.net": {
+      "first_s": 23.23,
+      "last_s": 24.02
+    },
+    "dsms0mj1bbhn4.cloudfront.net": {
+      "first_s": 2.48,
+      "last_s": 2.48
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 12.54,
+      "last_s": 21.75
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 12.88,
+      "last_s": 21.22
+    },
+    "fastlane.rubiconproject.com": {
+      "first_s": 12.03,
+      "last_s": 21.51
+    },
+    "feed.4strokemedia.com": {
+      "first_s": 18.99,
+      "last_s": 21.33
+    },
+    "fluid.4strokemedia.com": {
+      "first_s": 2.49,
+      "last_s": 18.23
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.48,
+      "last_s": 18.99
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.91,
+      "last_s": 19.59
+    },
+    "functions.adnami.io": {
+      "first_s": 11.05,
+      "last_s": 11.05
+    },
+    "gum.criteo.com": {
+      "first_s": 14.5,
+      "last_s": 14.5
+    },
+    "hbopenbid.pubmatic.com": {
+      "first_s": 12.04,
+      "last_s": 21.51
+    },
+    "ib.adnxs-simple.com": {
+      "first_s": 12.03,
+      "last_s": 21.51
+    },
+    "id5-sync.com": {
+      "first_s": 13.2,
+      "last_s": 13.2
+    },
+    "im.tncid.app": {
+      "first_s": 24.21,
+      "last_s": 24.21
+    },
+    "image6.pubmatic.com": {
+      "first_s": 23.06,
+      "last_s": 23.06
+    },
+    "image8.pubmatic.com": {
+      "first_s": 25.24,
+      "last_s": 25.24
+    },
+    "imasdk.googleapis.com": {
+      "first_s": 18.99,
+      "last_s": 24.62
+    },
+    "invstatic101.creativecdn.com": {
+      "first_s": 12.03,
+      "last_s": 12.03
+    },
+    "it-gmtdmp.mookie1.com": {
+      "first_s": 22.5,
+      "last_s": 22.5
+    },
+    "js.tncid.app": {
+      "first_s": 21.43,
+      "last_s": 24.82
+    },
+    "link.rubiconproject.com": {
+      "first_s": 11.05,
+      "last_s": 11.05
+    },
+    "macro.adnami.io": {
+      "first_s": 11.67,
+      "last_s": 11.67
+    },
+    "match.adsrvr.org": {
+      "first_s": 23.06,
+      "last_s": 23.06
+    },
+    "monetize-static.viralize.tv": {
+      "first_s": 24.82,
+      "last_s": 26.18
+    },
+    "oa.openxcdn.net": {
+      "first_s": 12.03,
+      "last_s": 12.03
+    },
+    "optimized-by.rubiconproject.com": {
+      "first_s": 23.82,
+      "last_s": 23.82
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 11.49,
+      "last_s": 24.62
+    },
+    "partner.shareaholic.com": {
+      "first_s": 6.24,
+      "last_s": 17.11
+    },
+    "prod.tahoe-analytics.publishers.advertising.a2z.com": {
+      "first_s": 16.75,
+      "last_s": 16.75
+    },
+    "pubads.g.doubleclick.net": {
+      "first_s": 22.9,
+      "last_s": 22.9
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.02,
+      "last_s": 21.83
+    },
+    "rtb.openx.net": {
+      "first_s": 21.51,
+      "last_s": 21.51
+    },
+    "s0.2mdn.net": {
+      "first_s": 21.51,
+      "last_s": 21.51
+    },
+    "s2.adform.net": {
+      "first_s": 23.96,
+      "last_s": 23.96
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 11.49,
+      "last_s": 26.25
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 11.05,
+      "last_s": 11.45
+    },
+    "smetrics.sky.it": {
+      "first_s": 24.21,
+      "last_s": 24.21
+    },
+    "static.anonm.io": {
+      "first_s": 15.57,
+      "last_s": 17.69
+    },
+    "static.anonymised.io": {
+      "first_s": 13.0,
+      "last_s": 17.08
+    },
+    "static.criteo.net": {
+      "first_s": 12.03,
+      "last_s": 12.03
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 12.03,
+      "last_s": 17.08
+    },
+    "tlx.3lift.com": {
+      "first_s": 21.51,
+      "last_s": 21.51
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 2.91,
+      "last_s": 18.98
+    },
+    "track.adform.net": {
+      "first_s": 23.24,
+      "last_s": 23.24
+    },
+    "user-sync.fwmrm.net": {
+      "first_s": 25.24,
+      "last_s": 25.24
+    },
+    "video.sky.it": {
+      "first_s": 21.43,
+      "last_s": 21.43
+    },
+    "videoplatform.sky.it": {
+      "first_s": 21.43,
+      "last_s": 24.22
+    },
+    "visit-server.inmobi-choice.io": {
+      "first_s": 7.67,
+      "last_s": 7.67
+    },
+    "web-banner.ads.aps.amazon-adsystem.com": {
+      "first_s": 11.79,
+      "last_s": 18.96
+    },
+    "web-video.ads.aps.amazon-adsystem.com": {
+      "first_s": 21.51,
+      "last_s": 21.51
+    },
+    "www.google.com": {
+      "first_s": 2.89,
+      "last_s": 16.83
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.48,
+      "last_s": 12.03
+    },
+    "www.shareaholic.net": {
+      "first_s": 3.87,
+      "last_s": 16.84
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "30f0e7650544ec45c45a1eb2f7fbbd45.safeframe.googlesyndication.com",
+    "86f5e5d3c4dd959920875a0760f6089a.safeframe.googlesyndication.com",
+    "api.id5-sync.com",
+    "assets.evolutionadv.it",
+    "c.amazon-adsystem.com",
+    "carbon-cdn.ccgateway.net",
+    "cdn.confiant-integrations.net",
+    "cdn.id5-sync.com",
+    "cdn.openshareweb.com",
+    "cdn1.anonymised.io",
+    "cmp.inmobi.com",
+    "config.aps.amazon-adsystem.com",
+    "dsms0mj1bbhn4.cloudfront.net",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "functions.adnami.io",
+    "imasdk.googleapis.com",
+    "link.rubiconproject.com",
+    "macro.adnami.io",
+    "pagead2.googlesyndication.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "tags.crwdcntrl.net",
+    "tpc.googlesyndication.com",
+    "www.google.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "TESTCOOKIESENABLED",
+      "domain": "30f0e7650544ec45c45a1eb2f7fbbd45.safeframe.googlesyndication.com",
+      "path": "/safeframe/1-0-45/html",
+      "expires": 1793629465,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".calcionapoli24.it",
+      "path": "/",
+      "expires": 1828189401.783803,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".www.calcionapoli24.it",
+      "path": "/",
+      "expires": 1827325396.008764,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "addtl_consent",
+      "domain": ".www.calcionapoli24.it",
+      "path": "/",
+      "expires": 1827325396.008813,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IABGPP_HDR_GppString",
+      "domain": ".www.calcionapoli24.it",
+      "path": "/",
+      "expires": 1827325396.008848,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_KFG1FQGWKD",
+      "domain": ".calcionapoli24.it",
+      "path": "/",
+      "expires": 1828189397.235094,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".calcionapoli24.it",
+      "path": "/",
+      "expires": 1809181397,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_10SF82PE5M",
+      "domain": ".calcionapoli24.it",
+      "path": "/",
+      "expires": 1828189401.783695,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "3pc_test",
+      "domain": "static.anonm.io",
+      "path": "/",
+      "expires": 1793633002,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OAGEO",
+      "domain": "fluid.4strokemedia.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OAID",
+      "domain": "fluid.4strokemedia.com",
+      "path": "/",
+      "expires": 1825165403.40335,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cacheid",
+      "domain": ".calcionapoli24.it",
+      "path": "/",
+      "expires": 1825165407,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tncid",
+      "domain": ".tncid.app",
+      "path": "/",
+      "expires": 1801405408.010572,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cacheid",
+      "domain": ".tncid.app",
+      "path": "/",
+      "expires": 1801405408.010668,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tncid",
+      "domain": ".calcionapoli24.it",
+      "path": "/",
+      "expires": 1825165408,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "C",
+      "domain": ".adform.net",
+      "path": "/",
+      "expires": 1796221408.799022,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1809181409.159357,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uid",
+      "domain": ".adform.net",
+      "path": "/",
+      "expires": 1798813409.162274,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCVS_1A124673527853290A490D45%40AdobeOrg",
+      "domain": ".4strokemedia.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "s_ecid",
+      "domain": ".sky.it",
+      "path": "/",
+      "expires": 1828189409.918356,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCV_1A124673527853290A490D45%40AdobeOrg",
+      "domain": ".4strokemedia.com",
+      "path": "/",
+      "expires": 1828189409.919493,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

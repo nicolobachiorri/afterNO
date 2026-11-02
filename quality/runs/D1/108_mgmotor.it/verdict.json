@@ -1,0 +1,60 @@
+{
+  "host": "www.mgmotor.it",
+  "choice": {
+    "at": 1793629482011,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "site": "mgmotor.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.mgmotor.it/",
+    "lastSeen": {
+      "0o6b6l.mgmotor.it": 1793629482045,
+      "analytics.ekonsilio.io": 1793629488632,
+      "api.livechat.ekonsilio.io": 1793629487626,
+      "cdn.mgmotor.eu": 1793629474109,
+      "cdn.simplelocalize.io": 1793629487249,
+      "cloud.ccm19.de": 1793629487167,
+      "files.ekonsilio.io": 1793629487241,
+      "livechat.ekonsilio.io": 1793629487300,
+      "mgmotor.imgix.net": 1793629487342,
+      "webmessenger.ekonsilio.io": 1793629489636,
+      "www.mgmotor.it": 1793629487372
+    }
+  },
+  "hostsConsidered": [
+    "0o6b6l.mgmotor.it",
+    "analytics.ekonsilio.io",
+    "api.livechat.ekonsilio.io",
+    "cdn.simplelocalize.io",
+    "cloud.ccm19.de",
+    "files.ekonsilio.io",
+    "livechat.ekonsilio.io",
+    "mgmotor.imgix.net",
+    "webmessenger.ekonsilio.io",
+    "www.mgmotor.it"
+  ]
+}

@@ -77,29 +77,35 @@ before the results: [quality/PROTOCOL.md](quality/PROTOCOL.md).
 
 | | Result (95% Wilson interval) |
 | --- | --- |
-| Sites where the test could be run (a reject button the robot could click) | 19 of 40 |
-| **Conclusion correct** | **15 of 19 (79%, 57–91%)** |
-| False alarms ("only partly respected" when the data say otherwise) | 0 of 19 |
-| Problems not seen ("seems respected" when the data show a tracker) | 0 of 19 |
-| Choice not recorded (banner closed, extension unaware) | 3 of 19 |
-| Debatable (rests on a label people may disagree on) | 1 of 19 |
-| Same conclusion on a second visit, about an hour later | 15 of 15 |
+| Sites where the test could be run (a reject button the robot could click) | 22 of 40 |
+| **Conclusion correct** | **22 of 22 (100%, 85–100%)** |
+| False alarms ("only partly respected" when the data say otherwise) | 0 of 22 |
+| Problems not seen ("seems respected" when the data show a tracker) | 0 of 22 |
+| Choice not recorded (banner closed, extension unaware) | 0 of 22 |
+| Agreement of the second judge on the conclusion | 21 of 22 (95%) |
 
 What to keep in mind:
 
-- **Small sample.** 19 measurable sites give a wide interval. The other 21 had no
-  banner, no reject button (only "accept", or "reject and subscribe"), or did not load.
+- **Small sample.** 22 measurable sites give a wide interval: 100% here means "at
+  least 85%" with reasonable confidence, not "never wrong". The other 18 had no
+  banner, no free reject button (only "accept", or "reject and subscribe"), blocked
+  the robot, or used a reject the robot cannot click (a closing X, a German banner).
 - **Who judged.** The verdicts were judged against the raw data by Claude, the AI that
-  wrote most of the code: a conflict of interest, stated here. As a check, Gemini (a
-  model from another company) judged the same sites independently from the text of the
-  results: agreement 17 of 19 on the conclusion (89%, Cohen's κ = 0.70).
-- **Version.** The measurement is of the version of 1 November 2026. The three "choice
-  not recorded" cases were diagnosed and fixed afterwards (Cookiebot, cookieman, and
-  text-only buttons); the fix has not been measured on new sites yet.
-- **Chromium only**, with a new browser profile for each site.
-- **Earlier rounds.** A first measurement of an earlier version on another 40 sites gave
-  14 of 25 correct (56%); its defects were fixed before the measurement above. All
-  rounds, data and judgments are in [quality/](quality/).
+  wrote most of the code: a conflict of interest, stated here. Gemini (a model from
+  another company) judged the same sites independently and disagreed on one: on
+  docpeter.it it called a false alarm the warning about a Shopify cookie
+  (`_shop_app_essential`, readable by other sites, valid a year), which Claude judged
+  correct by the protocol's rules. Cohen's κ is not informative here (0.00), because
+  the first judge gave the same answer to every site.
+- **A new browser profile for each site.** The robot has never visited other sites, so
+  trackers have no cookies of it yet. The measurement says whether the extension reads
+  correctly the data in front of it; it does not say how often a real user, whose
+  browser already holds trackers' cookies, would see "only partly respected".
+- **Chromium only.**
+- **Earlier rounds.** The previous version, on another 40 new sites, gave 15 of 19
+  correct (79%), with 3 choices not recorded; those defects were fixed before this
+  measurement. A first version gave 14 of 25 (56%). All rounds, data and judgments
+  are in [quality/](quality/).
 
 ## Privacy
 

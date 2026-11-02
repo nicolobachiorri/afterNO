@@ -1,0 +1,38 @@
+{
+  "host": "www.nanosystems.com",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.nanosystems.com/it/",
+    "lastSeen": {
+      "ecommerce.nanosystems.com": 1793629179934,
+      "ecommerce.nanosystems.it": 1793629179701,
+      "pagead2.googlesyndication.com": 1793629180169,
+      "region1.google-analytics.com": 1793629180514,
+      "www.google.com": 1793629180075,
+      "www.googletagmanager.com": 1793629180171,
+      "www.gstatic.com": 1793629180137,
+      "www.nanosystems.com": 1793629180519
+    }
+  },
+  "hostsConsidered": [
+    "ecommerce.nanosystems.com",
+    "ecommerce.nanosystems.it",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.nanosystems.com"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "host": "www.lacnews24.it",
+  "choice": {
+    "at": 1793630093462,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "site": "lacnews24.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Facebook"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.lacnews24.it/",
+    "lastSeen": {
+      "46f18a63cf29d042300e5f7da5463649.safeframe.googlesyndication.com": 1793630099535,
+      "a87737b1d7aea6e39039c1d978f9daab.safeframe.googlesyndication.com": 1793630094510,
+      "adclick.g.doubleclick.net": 1793630099079,
+      "adtech.vivimedia.it": 1793630098992,
+      "api.cmp.inmobi.com": 1793630093453,
+      "api.publytics.net": 1793630098890,
+      "applets.ebxcdn.com": 1793630098590,
+      "cdn-img.lacnetwork.it": 1793630098760,
+      "cdn.jsdelivr.net": 1793630099517,
+      "cdnjs.cloudflare.com": 1793630098882,
+      "cmp.inmobi.com": 1793630098983,
+      "cms-v1.lacplay.it": 1793630098697,
+      "connect.facebook.net": 1793630099011,
+      "daqhscc1vemv7.cloudfront.net": 1793630098549,
+      "ep1.adtrafficquality.google": 1793630100196,
+      "ep2.adtrafficquality.google": 1793630099670,
+      "images.lac.atexcloud.io": 1793630098786,
+      "lacstatic.it": 1793630098887,
+      "live-video.lacnews24.it": 1793630099427,
+      "mediacontent.lacnetwork.it": 1793630098550,
+      "pagead2.googlesyndication.com": 1793630099700,
+      "prebid.vivimedia.it": 1793630098870,
+      "pubads.g.doubleclick.net": 1793630098996,
+      "region1.google-analytics.com": 1793630099025,
+      "sb.scorecardresearch.com": 1793630099083,
+      "securepubads.g.doubleclick.net": 1793630099094,
+      "tpc.googlesyndication.com": 1793630099700,
+      "video.lactv.it": 1793630099131,
+      "visit-server.inmobi-choice.io": 1793630086603,
+      "www.facebook.com": 1793630099082,
+      "www.googletagmanager.com": 1793630098995,
+      "www.lacnews24.it": 1793630098945
+    }
+  },
+  "hostsConsidered": [
+    "46f18a63cf29d042300e5f7da5463649.safeframe.googlesyndication.com",
+    "a87737b1d7aea6e39039c1d978f9daab.safeframe.googlesyndication.com",
+    "adclick.g.doubleclick.net",
+    "adtech.vivimedia.it",
+    "api.publytics.net",
+    "applets.ebxcdn.com",
+    "cdn-img.lacnetwork.it",
+    "cdn.jsdelivr.net",
+    "cdnjs.cloudflare.com",
+    "cmp.inmobi.com",
+    "cms-v1.lacplay.it",
+    "connect.facebook.net",
+    "daqhscc1vemv7.cloudfront.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "images.lac.atexcloud.io",
+    "lacstatic.it",
+    "live-video.lacnews24.it",
+    "mediacontent.lacnetwork.it",
+    "pagead2.googlesyndication.com",
+    "prebid.vivimedia.it",
+    "pubads.g.doubleclick.net",
+    "region1.google-analytics.com",
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "tpc.googlesyndication.com",
+    "video.lactv.it",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "www.lacnews24.it"
+  ]
+}

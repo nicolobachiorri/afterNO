@@ -1,0 +1,34 @@
+{
+  "host": "www.voxmail.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.voxmail.it/",
+    "lastSeen": {
+      "embed.tawk.to": 1793629879838,
+      "fonts.googleapis.com": 1793629869778,
+      "fonts.gstatic.com": 1793629877788,
+      "va.tawk.to": 1793629878460,
+      "voidlabs.containers.piwik.pro": 1793629871418,
+      "www.voxmail.it": 1793629878208
+    }
+  },
+  "hostsConsidered": [
+    "embed.tawk.to",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "va.tawk.to",
+    "voidlabs.containers.piwik.pro",
+    "www.voxmail.it"
+  ]
+}

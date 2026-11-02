@@ -2,7 +2,7 @@ order,url,source,tranco_rank,role
 94,https://www.ilcommiato.it,tranco:ZJ8PG,33496,sample
 95,https://www.misterimprese.it,tranco:ZJ8PG,168756,sample
 96,https://www.movieplayer.it,tranco:ZJ8PG,52737,sample
-97,https://aosp.bo.it,tranco:ZJ8PG,205209,sample
+97,https://aosp.bo.it,tranco:ZJ8PG,205209,"replaced: does not load (timeout, twice)"
 98,https://www.nanosystems.it,tranco:ZJ8PG,15932,sample
 99,https://www.canevaworld.it,tranco:ZJ8PG,137755,sample
 100,https://www.coop.it,tranco:ZJ8PG,128440,sample
@@ -16,10 +16,10 @@ order,url,source,tranco_rank,role
 108,https://www.mgmotor.it,tranco:ZJ8PG,218473,sample
 109,https://www.lav.it,tranco:ZJ8PG,223669,sample
 110,https://www.affaritaliani.it,tranco:ZJ8PG,38774,sample
-111,https://www.ergonet-dns.it,tranco:ZJ8PG,73818,sample
+111,https://www.ergonet-dns.it,tranco:ZJ8PG,73818,replaced: does not load (domain not found)
 112,https://www.sondriotoday.it,tranco:ZJ8PG,190584,sample
 113,https://www.istruzione.it,tranco:ZJ8PG,18380,sample
-114,https://www.serverkeliweb.it,tranco:ZJ8PG,146340,sample
+114,https://www.serverkeliweb.it,tranco:ZJ8PG,146340,replaced: does not load (domain not found)
 115,https://www.protec.it,tranco:ZJ8PG,117492,sample
 116,https://www.dominiok.it,tranco:ZJ8PG,103613,sample
 117,https://www.starbene.it,tranco:ZJ8PG,144889,sample
@@ -31,21 +31,21 @@ order,url,source,tranco_rank,role
 123,https://www.cinematographe.it,tranco:ZJ8PG,158589,sample
 124,https://www.voxmail.it,tranco:ZJ8PG,226832,sample
 125,https://www.outletdellelettrico.it,tranco:ZJ8PG,199140,sample
-126,https://www.bismuth.it,tranco:ZJ8PG,121171,sample
-127,https://www.yhoo.it,tranco:ZJ8PG,129587,sample
+126,https://www.bismuth.it,tranco:ZJ8PG,121171,replaced: does not load (domain not found)
+127,https://www.yhoo.it,tranco:ZJ8PG,129587,replaced: does not load (invalid certificate)
 128,https://www.email.it,tranco:ZJ8PG,96101,sample
 129,https://www.google.it,tranco:ZJ8PG,1838,sample
 130,https://www.thewom.it,tranco:ZJ8PG,21047,sample
 131,https://www.infocert.it,tranco:ZJ8PG,28160,sample
 132,https://www.lesacoutlet.it,tranco:ZJ8PG,83144,sample
 133,https://www.lacnews24.it,tranco:ZJ8PG,139083,sample
-134,https://www.sbito.it,tranco:ZJ8PG,95498,sample
-135,https://www.leteledimargi.it,tranco:ZJ8PG,218125,reserve
-136,https://www.mondoconv.it,tranco:ZJ8PG,74350,reserve
-137,https://www.dday.it,tranco:ZJ8PG,54579,reserve
-138,https://www.amnesty.it,tranco:ZJ8PG,139471,reserve
-139,https://www.docpeter.it,tranco:ZJ8PG,213102,reserve
-140,https://www.voiptelitalia.it,tranco:ZJ8PG,122824,reserve
+134,https://www.sbito.it,tranco:ZJ8PG,95498,replaced: does not load (domain not found)
+135,https://www.leteledimargi.it,tranco:ZJ8PG,218125,sample
+136,https://www.mondoconv.it,tranco:ZJ8PG,74350,sample
+137,https://www.dday.it,tranco:ZJ8PG,54579,sample
+138,https://www.amnesty.it,tranco:ZJ8PG,139471,sample
+139,https://www.docpeter.it,tranco:ZJ8PG,213102,sample
+140,https://www.voiptelitalia.it,tranco:ZJ8PG,122824,sample
 141,https://www.armiusate.it,tranco:ZJ8PG,82930,reserve
 142,https://www.tsunaminutrition.it,tranco:ZJ8PG,211753,reserve
 143,https://ministeroturismo.gov.it,tranco:ZJ8PG,210187,reserve

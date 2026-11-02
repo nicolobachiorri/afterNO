@@ -1,0 +1,118 @@
+{
+  "url": "https://www.lesacoutlet.it",
+  "final_url": "https://www.lesacoutlet.it/",
+  "click_at_s": 27.56,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "OUTLET",
+    "ISCRIVITI",
+    "\u00d7",
+    "Scopri di pi\u00f9 e personalizza",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "api.clerk.io": {
+      "first_s": 4.11,
+      "last_s": 4.51
+    },
+    "app.zipchat.ai": {
+      "first_s": 4.08,
+      "last_s": 4.43
+    },
+    "cdn.clerk.io": {
+      "first_s": 3.61,
+      "last_s": 3.61
+    },
+    "cdn.iubenda.com": {
+      "first_s": 3.38,
+      "last_s": 3.9
+    },
+    "cdn.logwork.com": {
+      "first_s": 3.41,
+      "last_s": 3.95
+    },
+    "cs.iubenda.com": {
+      "first_s": 4.1,
+      "last_s": 4.1
+    },
+    "idb.iubenda.com": {
+      "first_s": 4.46,
+      "last_s": 4.46
+    },
+    "ka-p.fontawesome.com": {
+      "first_s": 3.97,
+      "last_s": 4.23
+    },
+    "kit.fontawesome.com": {
+      "first_s": 3.38,
+      "last_s": 3.38
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.47,
+      "last_s": 4.7
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.47,
+      "last_s": 4.47
+    },
+    "widget.feedaty.com": {
+      "first_s": 3.41,
+      "last_s": 4.08
+    },
+    "widget.trustpilot.com": {
+      "first_s": 3.39,
+      "last_s": 3.98
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.61,
+      "last_s": 4.26
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "LSCsitWEB_1",
+      "domain": "www.lesacoutlet.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "visitor_id",
+      "domain": "www.lesacoutlet.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "Lesaclngcou",
+      "domain": "www.lesacoutlet.it",
+      "path": "/",
+      "expires": 1825166052.931335,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "Lesacpup_83726",
+      "domain": "www.lesacoutlet.it",
+      "path": "/",
+      "expires": 1793889252.931367,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "url": "https://www.google.it",
+  "final_url": "https://www.google.com/",
+  "click_at_s": 10.75,
+  "reload_at_s": 15.75,
+  "reject": "button: 'Rifiuta tutto' in main (normal click)",
+  "visible_buttons": [
+    "IT",
+    "Rifiuta tutto",
+    "Accetta tutto"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "csp.withgoogle.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "csp.withgoogle.com"
+  ],
+  "third_party_timeline": {
+    "csp.withgoogle.com": {
+      "first_s": 2.42,
+      "last_s": 15.93
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.42,
+      "last_s": 2.42
+    },
+    "www.google.it": {
+      "first_s": 1.98,
+      "last_s": 1.98
+    },
+    "www.gstatic.com": {
+      "first_s": 2.42,
+      "last_s": 2.49
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "fonts.gstatic.com",
+    "www.gstatic.com"
+  ],
+  "cookies": [
+    {
+      "name": "SEARCH_SAMESITE",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1809181972.516427,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AEC",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1809181972.517211,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "SOCS",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1827757981.209302,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-ENID",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1827816670.209476,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

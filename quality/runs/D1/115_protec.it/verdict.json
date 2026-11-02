@@ -1,0 +1,28 @@
+{
+  "host": "www.protec.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.protec.it/",
+    "lastSeen": {
+      "fonts.googleapis.com": 1793629613358,
+      "fonts.gstatic.com": 1793629613977,
+      "www.protec.it": 1793629618823
+    }
+  },
+  "hostsConsidered": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.protec.it"
+  ]
+}

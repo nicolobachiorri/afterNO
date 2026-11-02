@@ -1,0 +1,62 @@
+{
+  "host": "www.amnesty.it",
+  "choice": {
+    "at": 1793630421407,
+    "choice": "rejected",
+    "label": "Accetta solo necessari",
+    "site": "amnesty.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Accetta solo necessari"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.amnesty.it/",
+    "lastSeen": {
+      "cdnjs.cloudflare.com": 1793630412796,
+      "consent.cookiebot.com": 1793630421438,
+      "consentcdn.cookiebot.com": 1793630427249,
+      "d21zrvtkxtd6ae.cloudfront.net": 1793630427198,
+      "fonts.googleapis.com": 1793630412796,
+      "gtm.trlution.com": 1793630427697,
+      "maps.googleapis.com": 1793630427292,
+      "p.typekit.net": 1793630427228,
+      "pagead2.googlesyndication.com": 1793630427284,
+      "tralut.amnesty.it": 1793630427288,
+      "use.typekit.net": 1793630413309,
+      "www.amnesty.it": 1793630427361,
+      "www.googletagmanager.com": 1793630427284
+    }
+  },
+  "hostsConsidered": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "d21zrvtkxtd6ae.cloudfront.net",
+    "gtm.trlution.com",
+    "maps.googleapis.com",
+    "p.typekit.net",
+    "pagead2.googlesyndication.com",
+    "tralut.amnesty.it",
+    "www.amnesty.it",
+    "www.googletagmanager.com"
+  ]
+}

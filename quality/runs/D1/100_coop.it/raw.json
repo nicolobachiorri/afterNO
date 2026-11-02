@@ -1,0 +1,71 @@
+{
+  "url": "https://www.coop.it",
+  "final_url": "https://www.coop.it/",
+  "click_at_s": 26.19,
+  "reload_at_s": 31.19,
+  "reject": "button: 'Usa solo i cookie necessari' in main (normal click)",
+  "visible_buttons": [
+    "Accetta tutti i cookie",
+    "Accetta selezionati",
+    "Usa solo i cookie necessari"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "maps.googleapis.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "maps.googleapis.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com"
+  ],
+  "third_party_timeline": {
+    "consent.cookiebot.com": {
+      "first_s": 5.78,
+      "last_s": 31.51
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 11.02,
+      "last_s": 31.51
+    },
+    "maps.googleapis.com": {
+      "first_s": 18.4,
+      "last_s": 31.86
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 5.78,
+      "last_s": 31.45
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.78,
+      "last_s": 36.45
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.41,
+      "last_s": 3.41
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "maps.googleapis.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "CookieConsent",
+      "domain": "www.coop.it",
+      "path": "/",
+      "expires": 1825165264,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

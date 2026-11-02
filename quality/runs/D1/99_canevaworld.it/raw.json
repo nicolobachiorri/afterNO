@@ -1,0 +1,133 @@
+{
+  "url": "https://www.canevaworld.it",
+  "final_url": "https://www.canevaworld.it/",
+  "click_at_s": 15.61,
+  "reload_at_s": 20.62,
+  "reject": "button: 'Rifiuta tutto' in main (normal click)",
+  "visible_buttons": [
+    "\u00d7",
+    "cookie policy",
+    "Scopri di pi\u00f9",
+    "Rifiuta tutto",
+    "Accetta tutto",
+    "Accessibilit\u00e0"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cpl.iubenda.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "third_party_timeline": {
+    "cdn.iubenda.com": {
+      "first_s": 4.24,
+      "last_s": 5.98
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 4.24,
+      "last_s": 4.24
+    },
+    "chimpstatic.com": {
+      "first_s": 5.76,
+      "last_s": 5.76
+    },
+    "cpl.iubenda.com": {
+      "first_s": 15.63,
+      "last_s": 15.63
+    },
+    "cs.iubenda.com": {
+      "first_s": 4.24,
+      "last_s": 6.76
+    },
+    "idb.iubenda.com": {
+      "first_s": 6.94,
+      "last_s": 21.01
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 10.36,
+      "last_s": 20.94
+    },
+    "tagmanager-dot-prod-zsuite.ew.r.appspot.com": {
+      "first_s": 7.52,
+      "last_s": 7.52
+    },
+    "www.googletagmanager.com": {
+      "first_s": 9.66,
+      "last_s": 9.66
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.iubenda.com",
+    "cdnjs.cloudflare.com",
+    "chimpstatic.com",
+    "cs.iubenda.com",
+    "tagmanager-dot-prod-zsuite.ew.r.appspot.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "z_cookie_wow",
+      "domain": ".canevaworld.it",
+      "path": "/",
+      "expires": 1795443611.233883,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "session",
+      "domain": ".canevaworld.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "disable_updating_site_message",
+      "domain": "www.canevaworld.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-8128234",
+      "domain": ".canevaworld.it",
+      "path": "/",
+      "expires": 1825165222,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".canevaworld.it",
+      "path": "/",
+      "expires": 1825165227,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "time_in_page",
+      "domain": "www.canevaworld.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "url": "https://www.sondriotoday.it",
+  "final_url": "https://www.sondriotoday.it/",
+  "click_at_s": 10.49,
+  "reload_at_s": null,
+  "reject": "paywall label found",
+  "visible_buttons": [
+    "RIFIUTA E ABBONATI",
+    "ACCETTA"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "abacus.jasoncameron.dev": {
+      "first_s": 2.4,
+      "last_s": 2.4
+    },
+    "cdn.brandmetrics.com": {
+      "first_s": 2.4,
+      "last_s": 2.4
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.36,
+      "last_s": 3.11
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.57,
+      "last_s": 2.57
+    },
+    "city-news.it": {
+      "first_s": 3.14,
+      "last_s": 3.35
+    },
+    "citynews-ilpiacenza.stgy.ovh": {
+      "first_s": 2.46,
+      "last_s": 2.46
+    },
+    "citynews-sondriotoday.stgy.ovh": {
+      "first_s": 2.38,
+      "last_s": 3.56
+    },
+    "citynews-today.stgy.ovh": {
+      "first_s": 2.46,
+      "last_s": 2.46
+    },
+    "citynews.stgy.ovh": {
+      "first_s": 2.26,
+      "last_s": 3.56
+    },
+    "cs.iubenda.com": {
+      "first_s": 2.79,
+      "last_s": 2.79
+    },
+    "dl.dmp.citynews.ovh": {
+      "first_s": 2.35,
+      "last_s": 3.21
+    },
+    "dmp.citynews.ovh": {
+      "first_s": 3.56,
+      "last_s": 3.56
+    },
+    "external.citynews.it": {
+      "first_s": 2.4,
+      "last_s": 2.4
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.2,
+      "last_s": 3.2
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.4,
+      "last_s": 3.14
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.06,
+      "last_s": 10.06
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 3.15,
+      "last_s": 3.21
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.4,
+      "last_s": 2.68
+    },
+    "www.citynews.it": {
+      "first_s": 3.14,
+      "last_s": 3.14
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.4,
+      "last_s": 2.83
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "~DL.i",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1828103163,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.s",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1793631363,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.c",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1801405563,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__uid",
+      "domain": "www.sondriotoday.it",
+      "path": "/",
+      "expires": 1828189562.648592,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".sondriotoday.it",
+      "path": "/",
+      "expires": 1828189565.308804,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_ENB4XX7M0M",
+      "domain": ".sondriotoday.it",
+      "path": "/",
+      "expires": 1828189565.299424,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_2T00RWGCM6",
+      "domain": ".sondriotoday.it",
+      "path": "/",
+      "expires": 1828189565.300993,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_PQ9JCG2B8J",
+      "domain": ".sondriotoday.it",
+      "path": "/",
+      "expires": 1828189565.305015,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_5GGZNJB729",
+      "domain": ".sondriotoday.it",
+      "path": "/",
+      "expires": 1828189565.308634,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

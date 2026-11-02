@@ -263,3 +263,21 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     principale Claude, secondo giudice Gemini, come per C1. I risultati pubblicati
     nel README diventano quelli di D1; quelli di C1 restano nella cartella e nel
     README come misura della versione precedente.
+19. *Visita D1, sostituzioni.* Non si caricano: ergonet-dns.it, serverkeliweb.it,
+    bismuth.it, sbito.it (nome non trovato), yhoo.it (certificato non valido),
+    aosp.bo.it (tempo scaduto in due tentativi); sostituiti dalle riserve successive
+    (`select_sample_d.py`). leteledimargi.it, scaduto al primo tentativo, si è
+    caricato al secondo: un tempo scaduto riceve un secondo tentativo prima della
+    sostituzione. Stesso limite sugli indirizzi `www.` della modifica 12.
+20. *Visita D1, note.* villasarina.it si è rivelato alla visita un elenco di casinò
+    online: le regole ne chiederebbero la sostituzione, ma non era misurabile
+    (nessun banner) e non cambia alcun risultato; resta nel campione, dichiarato.
+    Il secondo giudice (Gemini) ha restituito i giudizi come script per la pagina
+    di giudizio (`gemini-code-*.js`, conservato) invece che come file esportato;
+    convertito in `judgments_D1_gemini.csv` senza modifiche. Il kappa sulla
+    conclusione (0,00) non è informativo: il giudice principale ha dato la stessa
+    risposta a tutti i siti misurabili. La pagina di giudizio mostra l'etichetta del
+    database secondo la sola regola del nome, non quella usata dall'estensione
+    (che scarta i prefissi generici fuori dal sito proprietario): sul sito 139 il
+    secondo giudice ha letto «Analytics, Marfeel» per `_shop_app_essential`. Da
+    allineare prima di misure future.

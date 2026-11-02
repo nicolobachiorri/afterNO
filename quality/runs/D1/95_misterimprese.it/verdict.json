@@ -1,0 +1,60 @@
+{
+  "host": "www.misterimprese.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Google"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 4,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.misterimprese.it/",
+    "lastSeen": {
+      "ajax.googleapis.com": 1793629082278,
+      "api.cmp.inmobi.com": 1793629084133,
+      "cmp.inmobi.com": 1793629084183,
+      "maxcdn.bootstrapcdn.com": 1793629082495,
+      "region1.analytics.google.com": 1793629083683,
+      "s3-eu-west-1.amazonaws.com": 1793629083900,
+      "s3.eu-west-1.amazonaws.com": 1793629084189,
+      "stats.g.doubleclick.net": 1793629083190,
+      "visit-server.inmobi-choice.io": 1793629083952,
+      "www.google-analytics.com": 1793629083142,
+      "www.google.it": 1793629083192,
+      "www.googletagmanager.com": 1793629082468,
+      "www.misterimprese.it": 1793629082468
+    }
+  },
+  "hostsConsidered": [
+    "ajax.googleapis.com",
+    "api.cmp.inmobi.com",
+    "cmp.inmobi.com",
+    "maxcdn.bootstrapcdn.com",
+    "region1.analytics.google.com",
+    "s3-eu-west-1.amazonaws.com",
+    "s3.eu-west-1.amazonaws.com",
+    "stats.g.doubleclick.net",
+    "visit-server.inmobi-choice.io",
+    "www.google-analytics.com",
+    "www.google.it",
+    "www.googletagmanager.com",
+    "www.misterimprese.it"
+  ]
+}

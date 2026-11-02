@@ -1,0 +1,192 @@
+{
+  "url": "https://www.lav.it",
+  "final_url": "https://www.lav.it/",
+  "click_at_s": 27.62,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    ">",
+    "TROVA",
+    "INVIA",
+    "\u00d7",
+    "cookie policy",
+    "Personalizza",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.iubenda.com": {
+      "first_s": 2.41,
+      "last_s": 2.93
+    },
+    "code.jquery.com": {
+      "first_s": 2.41,
+      "last_s": 2.41
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.58,
+      "last_s": 3.58
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.7,
+      "last_s": 3.73
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.95,
+      "last_s": 3.95
+    },
+    "p.typekit.net": {
+      "first_s": 3.08,
+      "last_s": 3.08
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.86,
+      "last_s": 3.53
+    },
+    "px.ads.linkedin.com": {
+      "first_s": 3.58,
+      "last_s": 4.48
+    },
+    "px4.ads.linkedin.com": {
+      "first_s": 4.04,
+      "last_s": 4.04
+    },
+    "snap.licdn.com": {
+      "first_s": 2.86,
+      "last_s": 2.86
+    },
+    "use.typekit.net": {
+      "first_s": 2.69,
+      "last_s": 3.7
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.42,
+      "last_s": 2.86
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_ga_SK41TSRLW3",
+      "domain": ".lav.it",
+      "path": "/",
+      "expires": 1828189501.19557,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".lav.it",
+      "path": "/",
+      "expires": 1828189501.195754,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1825165501.676334,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1809181501.676365,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793715901.676388,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FPID",
+      "domain": ".lav.it",
+      "path": "/",
+      "expires": 1828189501.741078,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FPLC",
+      "domain": ".lav.it",
+      "path": "/",
+      "expires": 1793701501.741111,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".lav.it",
+      "path": "/",
+      "expires": 1801405501.741149,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_gtmeec",
+      "domain": ".lav.it",
+      "path": "/",
+      "expires": 1801405501.741181,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ttp",
+      "domain": ".lav.it",
+      "path": "/",
+      "expires": 1827819501.74121,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_gtmeec-tt",
+      "domain": ".lav.it",
+      "path": "/",
+      "expires": 1801405501.741219,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793631302.70822,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

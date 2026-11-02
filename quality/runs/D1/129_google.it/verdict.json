@@ -1,0 +1,52 @@
+{
+  "host": "www.google.com",
+  "choice": {
+    "at": 1793629980874,
+    "choice": "rejected",
+    "label": "Rifiuta tutto",
+    "site": "google.com",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta tutto"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.google.com/",
+    "lastSeen": {
+      "consent.google.com": 1793629980875,
+      "csp.withgoogle.com": 1793629986051,
+      "fonts.gstatic.com": 1793629972552,
+      "ogads-pa.clients6.google.com": 1793629986136,
+      "play.google.com": 1793629987129,
+      "www.google.com": 1793629986698,
+      "www.gstatic.com": 1793629986405
+    }
+  },
+  "hostsConsidered": [
+    "consent.google.com",
+    "csp.withgoogle.com",
+    "ogads-pa.clients6.google.com",
+    "play.google.com",
+    "www.google.com",
+    "www.gstatic.com"
+  ]
+}

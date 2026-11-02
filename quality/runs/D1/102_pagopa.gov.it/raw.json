@@ -1,0 +1,95 @@
+{
+  "url": "https://pagopa.gov.it",
+  "final_url": "https://www.pagopa.gov.it/",
+  "click_at_s": 28.0,
+  "reload_at_s": 33.0,
+  "reject": "button: 'Rifiuta tutti' in main (normal click)",
+  "visible_buttons": [
+    "ISCRIVITI",
+    "Scopri di pi\u00f9",
+    "Rifiuta tutti",
+    "Accetta tutti"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "fonts.gstatic.com",
+    "geolocation.onetrust.com",
+    "privacyportal-de.onetrust.com",
+    "www.gstatic.com",
+    "www.recaptcha.net"
+  ],
+  "third_party_hosts_after_reload": [
+    "fonts.gstatic.com",
+    "geolocation.onetrust.com",
+    "www.gstatic.com",
+    "www.recaptcha.net"
+  ],
+  "third_party_timeline": {
+    "cdn.cookielaw.org": {
+      "first_s": 2.53,
+      "last_s": 5.35
+    },
+    "fonts.gstatic.com": {
+      "first_s": 26.56,
+      "last_s": 35.23
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.65,
+      "last_s": 33.13
+    },
+    "pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com": {
+      "first_s": 19.86,
+      "last_s": 19.86
+    },
+    "privacyportal-de.onetrust.com": {
+      "first_s": 28.0,
+      "last_s": 28.0
+    },
+    "www.gstatic.com": {
+      "first_s": 3.65,
+      "last_s": 35.21
+    },
+    "www.recaptcha.net": {
+      "first_s": 2.87,
+      "last_s": 35.25
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.cookielaw.org",
+    "pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com",
+    "www.gstatic.com",
+    "www.recaptcha.net"
+  ],
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "domain": "www.recaptcha.net",
+      "path": "/recaptcha",
+      "expires": 1809181343.917172,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".www.pagopa.gov.it",
+      "path": "/",
+      "expires": 1809181336,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".www.pagopa.gov.it",
+      "path": "/",
+      "expires": 1809181342,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

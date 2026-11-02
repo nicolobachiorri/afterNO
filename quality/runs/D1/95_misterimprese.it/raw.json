@@ -1,0 +1,136 @@
+{
+  "url": "https://www.misterimprese.it",
+  "final_url": "https://www.misterimprese.it/",
+  "click_at_s": 26.33,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "partner",
+    "PI\u00d9 OPZIONI",
+    "ACCETTO"
+  ],
+  "tcf": {
+    "cmpId": 10,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ajax.googleapis.com": {
+      "first_s": 2.33,
+      "last_s": 2.33
+    },
+    "api.cmp.inmobi.com": {
+      "first_s": 4.3,
+      "last_s": 4.3
+    },
+    "cmp.inmobi.com": {
+      "first_s": 2.34,
+      "last_s": 4.35
+    },
+    "maxcdn.bootstrapcdn.com": {
+      "first_s": 2.33,
+      "last_s": 2.66
+    },
+    "region1.analytics.google.com": {
+      "first_s": 3.35,
+      "last_s": 3.85
+    },
+    "s3-eu-west-1.amazonaws.com": {
+      "first_s": 2.33,
+      "last_s": 2.66
+    },
+    "s3.eu-west-1.amazonaws.com": {
+      "first_s": 4.35,
+      "last_s": 4.35
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.35,
+      "last_s": 3.35
+    },
+    "visit-server.inmobi-choice.io": {
+      "first_s": 4.12,
+      "last_s": 4.12
+    },
+    "www.google-analytics.com": {
+      "first_s": 2.63,
+      "last_s": 3.31
+    },
+    "www.google.it": {
+      "first_s": 3.35,
+      "last_s": 3.35
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.33,
+      "last_s": 2.33
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "misterimprese",
+      "domain": ".misterimprese.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gid",
+      "domain": ".misterimprese.it",
+      "path": "/",
+      "expires": 1793715483,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gat",
+      "domain": ".misterimprese.it",
+      "path": "/",
+      "expires": 1793629143,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".misterimprese.it",
+      "path": "/",
+      "expires": 1828189083.188552,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_3DDJB29YHG",
+      "domain": ".misterimprese.it",
+      "path": "/",
+      "expires": 1828189083.191399,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".misterimprese.it",
+      "path": "/",
+      "expires": 1801405083,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

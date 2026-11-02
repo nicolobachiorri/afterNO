@@ -1,0 +1,290 @@
+{
+  "url": "https://www.aeroportoverona.it",
+  "final_url": "https://www.aeroportoverona.it/it_it/",
+  "click_at_s": 13.61,
+  "reload_at_s": 18.61,
+  "reject": "button: 'RIFIUTA E USA SOLO I COOKIE NECESSARI' in main (normal click)",
+  "visible_buttons": [
+    "ACCETTA TUTTI I COOKIE",
+    "ACCETTA SELEZIONATI",
+    "RIFIUTA E USA SOLO I COOKIE NECESSARI",
+    "Lingua: language IT (\u20ac)",
+    "hamburger",
+    "CERCA",
+    "Assistenza al passeggero",
+    "ISCRIVITI"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "bam.nr-data.net",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "content.veneziaairport.it",
+    "external.airport.ai",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "rum.hlx.page",
+    "s.go-mpulse.net",
+    "www.google.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "bam.nr-data.net",
+    "consentcdn.cookiebot.com",
+    "content.veneziaairport.it",
+    "external.airport.ai",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "rum.hlx.page",
+    "s.go-mpulse.net",
+    "www.google.com"
+  ],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 6.07,
+      "last_s": 6.07
+    },
+    "bam.nr-data.net": {
+      "first_s": 12.65,
+      "last_s": 19.12
+    },
+    "chimpstatic.com": {
+      "first_s": 3.23,
+      "last_s": 3.23
+    },
+    "consent.cookiebot.com": {
+      "first_s": 3.23,
+      "last_s": 13.64
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 5.54,
+      "last_s": 19.1
+    },
+    "content.veneziaairport.it": {
+      "first_s": 13.37,
+      "last_s": 19.34
+    },
+    "external.airport.ai": {
+      "first_s": 4.11,
+      "last_s": 20.62
+    },
+    "js-agent.newrelic.com": {
+      "first_s": 12.22,
+      "last_s": 12.22
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 19.07,
+      "last_s": 19.07
+    },
+    "region1.analytics.google.com": {
+      "first_s": 10.62,
+      "last_s": 10.62
+    },
+    "region1.google-analytics.com": {
+      "first_s": 19.07,
+      "last_s": 19.07
+    },
+    "rum.hlx.page": {
+      "first_s": 3.23,
+      "last_s": 19.02
+    },
+    "s.go-mpulse.net": {
+      "first_s": 4.07,
+      "last_s": 19.03
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 10.62,
+      "last_s": 10.62
+    },
+    "www.google.com": {
+      "first_s": 6.07,
+      "last_s": 19.05
+    },
+    "www.google.it": {
+      "first_s": 10.62,
+      "last_s": 10.62
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.07,
+      "last_s": 6.07
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "chimpstatic.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "js-agent.newrelic.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "mage-messages",
+      "domain": "www.aeroportoverona.it",
+      "path": "/it_it",
+      "expires": 1793633319,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "form_key",
+      "domain": ".www.aeroportoverona.it",
+      "path": "/it_it",
+      "expires": 1793633320.535555,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": ".www.aeroportoverona.it",
+      "path": "/it_it",
+      "expires": 1793633320.535429,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".aeroportoverona.it",
+      "path": "/",
+      "expires": 1801405707,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "form_key",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793716112,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mage-cache-storage",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793633312,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mage-cache-storage-section-invalidation",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793633312,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mage-banners-cache-storage",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793633312,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "EXPERIENCE_CUSTOMIZER",
+      "domain": ".www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793630719,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "recently_compared_product",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793633312,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1825165715,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "mage-cache-sessid",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793633319,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "recently_viewed_product",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793633319,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "recently_viewed_product_previous",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793633319,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "recently_compared_product_previous",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793633319,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "product_data_storage",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793633319,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "section_data_ids",
+      "domain": "www.aeroportoverona.it",
+      "path": "/",
+      "expires": 1793633319,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

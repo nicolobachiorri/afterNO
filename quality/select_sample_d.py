@@ -21,6 +21,13 @@ N = 40
 REPLACED = {
     # Decided before the first visit, from the name alone (clear cases only).
     "netwin.it": "adults only (gambling)",
+    # Found at visit D1: the home page does not load.
+    "ergonet-dns.it": "does not load (domain not found)",
+    "serverkeliweb.it": "does not load (domain not found)",
+    "bismuth.it": "does not load (domain not found)",
+    "sbito.it": "does not load (domain not found)",
+    "yhoo.it": "does not load (invalid certificate)",
+    "aosp.bo.it": "does not load (timeout, twice)",
 }
 
 

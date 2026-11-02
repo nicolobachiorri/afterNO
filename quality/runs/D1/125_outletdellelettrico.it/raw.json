@@ -1,0 +1,34 @@
+{
+  "url": "https://www.outletdellelettrico.it",
+  "final_url": "https://www.outletdellelettrico.it/",
+  "click_at_s": 25.7,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "challenges.cloudflare.com": {
+      "first_s": 2.93,
+      "last_s": 4.78
+    },
+    "hagen.challenges.cloudflare.com": {
+      "first_s": 4.19,
+      "last_s": 4.19
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": "www.outletdellelettrico.it",
+      "path": "/",
+      "expires": 1828189905.217832,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

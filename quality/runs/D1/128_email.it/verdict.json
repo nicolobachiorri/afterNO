@@ -1,0 +1,24 @@
+{
+  "host": "www.email.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.email.it/",
+    "lastSeen": {
+      "www.email.it": 1793629942132
+    }
+  },
+  "hostsConsidered": [
+    "www.email.it"
+  ]
+}

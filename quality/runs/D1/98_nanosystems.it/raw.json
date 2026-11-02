@@ -1,0 +1,64 @@
+{
+  "url": "https://www.nanosystems.it",
+  "final_url": "https://www.nanosystems.com/it/",
+  "click_at_s": 26.66,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ecommerce.nanosystems.it": {
+      "first_s": 4.67,
+      "last_s": 4.67
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 5.13,
+      "last_s": 5.13
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.45,
+      "last_s": 5.48
+    },
+    "www.google.com": {
+      "first_s": 2.71,
+      "last_s": 5.04
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.67,
+      "last_s": 5.13
+    },
+    "www.gstatic.com": {
+      "first_s": 2.9,
+      "last_s": 5.1
+    },
+    "www.nanosystems.it": {
+      "first_s": 2.01,
+      "last_s": 2.01
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "wp-wpml_current_language",
+      "domain": "www.nanosystems.com",
+      "path": "/",
+      "expires": 1793715578.239593,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ASP.NET_SessionId",
+      "domain": "ecommerce.nanosystems.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

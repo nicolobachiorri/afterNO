@@ -1,0 +1,133 @@
+{
+  "url": "https://www.amnesty.it",
+  "final_url": "https://www.amnesty.it/",
+  "click_at_s": 12.06,
+  "reload_at_s": 17.06,
+  "reject": "button: 'Accetta solo necessari' in main (normal click)",
+  "visible_buttons": [
+    "Accetta tutti",
+    "Accetta selezionati",
+    "Accetta solo necessari",
+    "DONA ORA",
+    "ISCRIVITI",
+    "\u00d7"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "d21zrvtkxtd6ae.cloudfront.net",
+    "gtm.trlution.com",
+    "maps.googleapis.com",
+    "p.typekit.net",
+    "pagead2.googlesyndication.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "d21zrvtkxtd6ae.cloudfront.net",
+    "gtm.trlution.com",
+    "maps.googleapis.com",
+    "p.typekit.net",
+    "pagead2.googlesyndication.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "cdnjs.cloudflare.com": {
+      "first_s": 3.45,
+      "last_s": 3.45
+    },
+    "consent.cookiebot.com": {
+      "first_s": 4.23,
+      "last_s": 12.09
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 4.58,
+      "last_s": 12.32
+    },
+    "d21zrvtkxtd6ae.cloudfront.net": {
+      "first_s": 3.45,
+      "last_s": 17.88
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.45,
+      "last_s": 3.45
+    },
+    "gtm.trlution.com": {
+      "first_s": 4.23,
+      "last_s": 18.35
+    },
+    "maps.googleapis.com": {
+      "first_s": 3.96,
+      "last_s": 17.95
+    },
+    "p.typekit.net": {
+      "first_s": 4.09,
+      "last_s": 17.89
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 6.59,
+      "last_s": 17.94
+    },
+    "use.typekit.net": {
+      "first_s": 3.45,
+      "last_s": 3.96
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.46,
+      "last_s": 17.94
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdnjs.cloudflare.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "d21zrvtkxtd6ae.cloudfront.net",
+    "fonts.googleapis.com",
+    "gtm.trlution.com",
+    "maps.googleapis.com",
+    "use.typekit.net",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "pum-75710",
+      "domain": "www.amnesty.it",
+      "path": "/",
+      "expires": 1793803216,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.amnesty.it",
+      "path": "/",
+      "expires": 1809268821,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALB",
+      "domain": "www.amnesty.it",
+      "path": "/",
+      "expires": 1794235227.79523,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALBCORS",
+      "domain": "www.amnesty.it",
+      "path": "/",
+      "expires": 1794235227.795325,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

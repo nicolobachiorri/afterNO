@@ -1,0 +1,179 @@
+{
+  "url": "https://www.mantovauno.it",
+  "final_url": "https://mantovauno.it/",
+  "click_at_s": 11.22,
+  "reload_at_s": 16.23,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "Accetta",
+    "Rifiuta",
+    "Personalizza le Preferenze"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "altomantovanonews.it",
+    "call.cleverwebserver.com",
+    "code.jquery.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "mantovasport24.it",
+    "oltrepomantovanonews.it",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "static.cloudflareinsights.com",
+    "ui.cleverwebserver.com",
+    "www.3bmeteo.com",
+    "www.facebook.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "altomantovanonews.it",
+    "call.cleverwebserver.com",
+    "code.jquery.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "mantovasport24.it",
+    "oltrepomantovanonews.it",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "static.cloudflareinsights.com",
+    "ui.cleverwebserver.com",
+    "www.3bmeteo.com",
+    "www.facebook.com"
+  ],
+  "third_party_timeline": {
+    "altomantovanonews.it": {
+      "first_s": 2.67,
+      "last_s": 16.43
+    },
+    "assets.cleverwebserver.com": {
+      "first_s": 5.46,
+      "last_s": 5.46
+    },
+    "call.cleverwebserver.com": {
+      "first_s": 5.45,
+      "last_s": 16.55
+    },
+    "code.jquery.com": {
+      "first_s": 3.28,
+      "last_s": 16.43
+    },
+    "connect.facebook.net": {
+      "first_s": 2.96,
+      "last_s": 3.55
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 7.14,
+      "last_s": 17.34
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 7.37,
+      "last_s": 16.81
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.63,
+      "last_s": 2.63
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.0,
+      "last_s": 3.0
+    },
+    "mantovasport24.it": {
+      "first_s": 2.64,
+      "last_s": 16.43
+    },
+    "oltrepomantovanonews.it": {
+      "first_s": 2.67,
+      "last_s": 16.43
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.63,
+      "last_s": 16.77
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.82,
+      "last_s": 21.48
+    },
+    "scripts.cleverwebserver.com": {
+      "first_s": 2.97,
+      "last_s": 2.97
+    },
+    "secure.gravatar.com": {
+      "first_s": 2.64,
+      "last_s": 2.64
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 3.29,
+      "last_s": 16.44
+    },
+    "ui.cleverwebserver.com": {
+      "first_s": 4.26,
+      "last_s": 16.47
+    },
+    "www.3bmeteo.com": {
+      "first_s": 2.97,
+      "last_s": 16.44
+    },
+    "www.facebook.com": {
+      "first_s": 4.49,
+      "last_s": 16.48
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.63,
+      "last_s": 2.63
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "assets.cleverwebserver.com",
+    "connect.facebook.net",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "pagead2.googlesyndication.com",
+    "scripts.cleverwebserver.com",
+    "secure.gravatar.com",
+    "www.3bmeteo.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".cleverwebserver.com",
+      "path": "/",
+      "expires": 1793631566.411774,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "moove_gdpr_popup",
+      "domain": "mantovauno.it",
+      "path": "/",
+      "expires": 1825165773,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "advanced_ads_browser_width",
+      "domain": "mantovauno.it",
+      "path": "/",
+      "expires": 1796221778,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "clever-counter-90238",
+      "domain": "mantovauno.it",
+      "path": "/",
+      "expires": 1793630678,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

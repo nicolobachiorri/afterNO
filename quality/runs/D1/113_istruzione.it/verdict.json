@@ -1,0 +1,34 @@
+{
+  "host": "www.mim.gov.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.mim.gov.it/web/guest/home",
+    "lastSeen": {
+      "analytics1.istruzione.it": 1793629579573,
+      "www.mim.gov.it": 1793629580762
+    }
+  },
+  "hostsConsidered": [
+    "analytics1.istruzione.it",
+    "www.mim.gov.it"
+  ]
+}

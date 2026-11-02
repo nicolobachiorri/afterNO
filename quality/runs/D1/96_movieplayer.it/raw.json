@@ -1,0 +1,123 @@
+{
+  "url": "https://www.movieplayer.it",
+  "final_url": "https://movieplayer.it/",
+  "click_at_s": 11.08,
+  "reload_at_s": null,
+  "reject": "paywall label found",
+  "visible_buttons": [
+    "Rifiuta e abbonati"
+  ],
+  "tcf": {
+    "cmpId": 63,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "0.stg.html-load.cc": {
+      "first_s": 3.89,
+      "last_s": 3.89
+    },
+    "api.publytics.net": {
+      "first_s": 2.73,
+      "last_s": 2.73
+    },
+    "applets.ebxcdn.com": {
+      "first_s": 2.73,
+      "last_s": 2.95
+    },
+    "clickiocmp.com": {
+      "first_s": 2.73,
+      "last_s": 3.62
+    },
+    "html-load.cc": {
+      "first_s": 2.74,
+      "last_s": 2.74
+    },
+    "movieplayer.net-cdn.it": {
+      "first_s": 3.01,
+      "last_s": 4.67
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.5,
+      "last_s": 3.51
+    },
+    "pghub.io": {
+      "first_s": 2.74,
+      "last_s": 2.74
+    },
+    "region1.analytics.google.com": {
+      "first_s": 3.57,
+      "last_s": 3.57
+    },
+    "sirius.galada.it": {
+      "first_s": 2.73,
+      "last_s": 3.28
+    },
+    "static.criteo.net": {
+      "first_s": 3.5,
+      "last_s": 3.5
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.57,
+      "last_s": 3.57
+    },
+    "stg.html-load.cc": {
+      "first_s": 3.02,
+      "last_s": 3.02
+    },
+    "vega.galada.it": {
+      "first_s": 2.97,
+      "last_s": 3.28
+    },
+    "www.google.it": {
+      "first_s": 3.57,
+      "last_s": 3.57
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.73,
+      "last_s": 2.73
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "cf_clearance",
+      "domain": ".movieplayer.it",
+      "path": "/",
+      "expires": 1825165114.910467,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://movieplayer.it",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "_ga_4G841TST0V",
+      "domain": ".movieplayer.it",
+      "path": "/",
+      "expires": 1828189115.09514,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".movieplayer.it",
+      "path": "/",
+      "expires": 1828189115.095267,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

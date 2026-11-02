@@ -1,0 +1,24 @@
+{
+  "host": "www.cinematographe.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.cinematographe.it/",
+    "lastSeen": {
+      "www.cinematographe.it": 1793629838818
+    }
+  },
+  "hostsConsidered": [
+    "www.cinematographe.it"
+  ]
+}

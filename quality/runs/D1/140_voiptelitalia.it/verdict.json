@@ -1,0 +1,63 @@
+{
+  "host": "voiptelitalia.it",
+  "choice": {
+    "at": 1793630857337,
+    "choice": "rejected",
+    "label": "Usa solo cookie necessari",
+    "site": "voiptelitalia.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Usa solo cookie necessari"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Facebook"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://voiptelitalia.it/",
+    "lastSeen": {
+      "accounts.google.com": 1793630848616,
+      "cdn-cookieyes.com": 1793630864189,
+      "client.crisp.chat": 1793630864391,
+      "client.relay.crisp.chat": 1793630863838,
+      "connect.facebook.net": 1793630849156,
+      "fonts.googleapis.com": 1793630848160,
+      "fonts.gstatic.com": 1793630848514,
+      "image.crisp.chat": 1793630852190,
+      "log.cookieyes.com": 1793630863681,
+      "voiptelitalia.it": 1793630863787,
+      "www.facebook.com": 1793630863728,
+      "www.googletagmanager.com": 1793630863601,
+      "www.voiptelitalia.it": 1793630846538
+    }
+  },
+  "hostsConsidered": [
+    "cdn-cookieyes.com",
+    "client.crisp.chat",
+    "client.relay.crisp.chat",
+    "log.cookieyes.com",
+    "voiptelitalia.it",
+    "www.facebook.com",
+    "www.googletagmanager.com"
+  ]
+}

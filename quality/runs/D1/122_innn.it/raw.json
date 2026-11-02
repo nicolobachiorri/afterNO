@@ -1,0 +1,35 @@
+{
+  "url": "https://www.innn.it",
+  "final_url": "https://innn.it/",
+  "click_at_s": 25.82,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Alle akzeptieren",
+    "Nur notwendige akzeptieren",
+    "Newsletter abonnieren",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "Monatlich",
+    "J\u00e4hrlich",
+    "Einmalig",
+    "5 \u20ac",
+    "10 \u20ac",
+    "25 \u20ac",
+    "50 \u20ac"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "innnit-public.s3.eu-central-1.amazonaws.com": {
+      "first_s": 3.19,
+      "last_s": 3.34
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": []
+}

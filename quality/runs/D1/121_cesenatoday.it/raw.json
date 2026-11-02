@@ -1,0 +1,197 @@
+{
+  "url": "https://www.cesenatoday.it",
+  "final_url": "https://www.cesenatoday.it/",
+  "click_at_s": 10.51,
+  "reload_at_s": null,
+  "reject": "paywall label found",
+  "visible_buttons": [
+    "RIFIUTA E ABBONATI",
+    "ACCETTA"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "abacus.jasoncameron.dev": {
+      "first_s": 2.41,
+      "last_s": 2.41
+    },
+    "cdn.brandmetrics.com": {
+      "first_s": 2.4,
+      "last_s": 2.4
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.34,
+      "last_s": 3.06
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.6,
+      "last_s": 2.6
+    },
+    "city-news.it": {
+      "first_s": 3.1,
+      "last_s": 3.38
+    },
+    "citynews-cesenatoday.stgy.ovh": {
+      "first_s": 2.38,
+      "last_s": 3.57
+    },
+    "citynews-ilpiacenza.stgy.ovh": {
+      "first_s": 2.44,
+      "last_s": 2.44
+    },
+    "citynews-today.stgy.ovh": {
+      "first_s": 2.44,
+      "last_s": 2.44
+    },
+    "citynews.stgy.ovh": {
+      "first_s": 2.25,
+      "last_s": 3.57
+    },
+    "cs.iubenda.com": {
+      "first_s": 2.83,
+      "last_s": 2.83
+    },
+    "dl.dmp.citynews.ovh": {
+      "first_s": 2.33,
+      "last_s": 3.17
+    },
+    "dmp.citynews.ovh": {
+      "first_s": 3.57,
+      "last_s": 3.57
+    },
+    "external.citynews.it": {
+      "first_s": 2.41,
+      "last_s": 2.41
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.17,
+      "last_s": 3.17
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.41,
+      "last_s": 3.96
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.29,
+      "last_s": 10.28
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 3.11,
+      "last_s": 3.17
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.41,
+      "last_s": 2.66
+    },
+    "www.citynews.it": {
+      "first_s": 3.1,
+      "last_s": 3.1
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.4,
+      "last_s": 2.99
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "~DL.i",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1828103392,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.s",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1793631592,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "~DL.c",
+      "domain": ".citynews.ovh",
+      "path": "/~dl",
+      "expires": 1801405792,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__uid",
+      "domain": "www.cesenatoday.it",
+      "path": "/",
+      "expires": 1828189791.475277,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".cesenatoday.it",
+      "path": "/",
+      "expires": 1828189794.354539,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_ENB4XX7M0M",
+      "domain": ".cesenatoday.it",
+      "path": "/",
+      "expires": 1828189794.336006,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_2T00RWGCM6",
+      "domain": ".cesenatoday.it",
+      "path": "/",
+      "expires": 1828189794.340226,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_H8XS7W06YF",
+      "domain": ".cesenatoday.it",
+      "path": "/",
+      "expires": 1828189794.348108,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_5GGZNJB729",
+      "domain": ".cesenatoday.it",
+      "path": "/",
+      "expires": 1828189794.354349,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

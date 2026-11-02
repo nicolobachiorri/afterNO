@@ -1,0 +1,70 @@
+{
+  "host": "www.leteledimargi.it",
+  "choice": {
+    "at": 1793630692541,
+    "choice": "rejected",
+    "label": "Rifiuta tutti",
+    "site": "leteledimargi.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta tutti"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Facebook"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.leteledimargi.it/",
+    "lastSeen": {
+      "aip.storeden.com": 1793630684178,
+      "api.clerk.io": 1793630701163,
+      "cdn.clerk.io": 1793630669177,
+      "cdn.doofinder.com": 1793630685618,
+      "cdn.jsdelivr.net": 1793630668912,
+      "cdn.storeden.net": 1793630684205,
+      "cdnjs.cloudflare.com": 1793630669077,
+      "connect.facebook.net": 1793630684883,
+      "data.nudgify.com": 1793630670102,
+      "egress.storeden.net": 1793630684205,
+      "eu1-api.doofinder.com": 1793630685403,
+      "eu1-config.doofinder.com": 1793630684177,
+      "fonts.googleapis.com": 1793630685659,
+      "fonts.gstatic.com": 1793630684141,
+      "js.klarna.com": 1793630669461,
+      "margi.twic.pics": 1793630684375,
+      "maxcdn.bootstrapcdn.com": 1793630684128,
+      "pixel.nudgify.com": 1793630669391,
+      "service-ltdm.it": 1793630684892,
+      "unpkg.com": 1793630669176,
+      "widget.feedaty.com": 1793630685189,
+      "www.googletagmanager.com": 1793630669168,
+      "www.leteledimargi.it": 1793630712215,
+      "www.maxbuild.it": 1793630684216,
+      "www.ms-entertainment.com": 1793630669176
+    }
+  },
+  "hostsConsidered": [
+    "api.clerk.io",
+    "www.leteledimargi.it"
+  ]
+}

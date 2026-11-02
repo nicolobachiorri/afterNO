@@ -1,0 +1,54 @@
+{
+  "host": "www.canevaworld.it",
+  "choice": {
+    "at": 1793629222628,
+    "choice": "rejected",
+    "label": "Rifiuta tutto",
+    "site": "canevaworld.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta tutto"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.canevaworld.it/",
+    "lastSeen": {
+      "cdn.iubenda.com": 1793629212993,
+      "cdnjs.cloudflare.com": 1793629212781,
+      "chimpstatic.com": 1793629212782,
+      "cpl.iubenda.com": 1793629222644,
+      "cs.iubenda.com": 1793629213779,
+      "idb.iubenda.com": 1793629228030,
+      "media.canevaworld.it": 1793629212782,
+      "pagead2.googlesyndication.com": 1793629227953,
+      "tagmanager-dot-prod-zsuite.ew.r.appspot.com": 1793629214535,
+      "www.canevaworld.it": 1793629228019,
+      "www.googletagmanager.com": 1793629216677
+    }
+  },
+  "hostsConsidered": [
+    "cpl.iubenda.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "www.canevaworld.it"
+  ]
+}

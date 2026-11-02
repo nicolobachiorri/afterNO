@@ -1,0 +1,28 @@
+{
+  "host": "innn.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://innn.it/",
+    "lastSeen": {
+      "innn.it": 1793629808133,
+      "innnit-public.s3.eu-central-1.amazonaws.com": 1793629808281,
+      "www.innn.it": 1793629806824
+    }
+  },
+  "hostsConsidered": [
+    "innn.it",
+    "innnit-public.s3.eu-central-1.amazonaws.com",
+    "www.innn.it"
+  ]
+}

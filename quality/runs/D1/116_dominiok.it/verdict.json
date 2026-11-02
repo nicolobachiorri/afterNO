@@ -1,0 +1,26 @@
+{
+  "host": "www.dominiok.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.dominiok.it/",
+    "lastSeen": {
+      "supportchat.dominiok.it": 1793629646514,
+      "www.dominiok.it": 1793629646032
+    }
+  },
+  "hostsConsidered": [
+    "supportchat.dominiok.it",
+    "www.dominiok.it"
+  ]
+}

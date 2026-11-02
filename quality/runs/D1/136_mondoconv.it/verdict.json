@@ -1,0 +1,85 @@
+{
+  "host": "www.mondoconv.it",
+  "choice": {
+    "at": 1793630359044,
+    "choice": "rejected",
+    "label": "Rifiuto i cookie",
+    "site": "mondoconv.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuto i cookie"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 6,
+      "names": [
+        "Google Analytics",
+        "Microsoft"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.mondoconv.it/",
+    "lastSeen": {
+      "3mgwwwklgg.execute-api.eu-central-1.amazonaws.com": 1793630364509,
+      "analytics.google.com": 1793630351168,
+      "bat.bing.com": 1793630365572,
+      "bat.bing.net": 1793630365346,
+      "cdn.cookielaw.org": 1793630364381,
+      "cdn.evgnet.com": 1793630350554,
+      "cdn.jsdelivr.net": 1793630350554,
+      "cdnjs.cloudflare.com": 1793630350554,
+      "fonts.googleapis.com": 1793630350492,
+      "fonts.gstatic.com": 1793630352322,
+      "geolocation.onetrust.com": 1793630364262,
+      "media.mondoconv.it": 1793630365521,
+      "mondoconv-privacy.my.onetrust.com": 1793630359051,
+      "mondoconvenienza.my.salesforce-scrt.com": 1793630359340,
+      "mondoconvenienza.my.site.com": 1793630359867,
+      "o.clarity.ms": 1793630372427,
+      "pagead2.googlesyndication.com": 1793630365339,
+      "scripts.clarity.ms": 1793630352236,
+      "sgtm.mondoconv.it": 1793630365344,
+      "ui.swogo.net": 1793630351705,
+      "www.clarity.ms": 1793630365312,
+      "www.googletagmanager.com": 1793630351344,
+      "www.mondoconv.it": 1793630364506
+    }
+  },
+  "hostsConsidered": [
+    "3mgwwwklgg.execute-api.eu-central-1.amazonaws.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "media.mondoconv.it",
+    "mondoconv-privacy.my.onetrust.com",
+    "mondoconvenienza.my.salesforce-scrt.com",
+    "mondoconvenienza.my.site.com",
+    "o.clarity.ms",
+    "pagead2.googlesyndication.com",
+    "sgtm.mondoconv.it",
+    "www.clarity.ms",
+    "www.mondoconv.it"
+  ]
+}

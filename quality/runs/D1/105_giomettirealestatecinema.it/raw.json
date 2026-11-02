@@ -1,0 +1,125 @@
+{
+  "url": "https://www.giomettirealestatecinema.it",
+  "final_url": "https://www.giomettirealestatecinema.it/",
+  "click_at_s": 11.9,
+  "reload_at_s": 16.9,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "cookie policy",
+    "Scopri di pi\u00f9 e personalizza",
+    "Rifiuta",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cpl.iubenda.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com"
+  ],
+  "third_party_timeline": {
+    "cdn.iubenda.com": {
+      "first_s": 2.65,
+      "last_s": 6.51
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 2.65,
+      "last_s": 2.65
+    },
+    "code.jquery.com": {
+      "first_s": 2.65,
+      "last_s": 2.65
+    },
+    "cpl.iubenda.com": {
+      "first_s": 11.92,
+      "last_s": 11.92
+    },
+    "cs.iubenda.com": {
+      "first_s": 5.02,
+      "last_s": 5.02
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.65,
+      "last_s": 2.65
+    },
+    "idb.iubenda.com": {
+      "first_s": 5.89,
+      "last_s": 17.36
+    },
+    "maxcdn.bootstrapcdn.com": {
+      "first_s": 2.65,
+      "last_s": 2.65
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 8.17,
+      "last_s": 19.27
+    },
+    "region1.google-analytics.com": {
+      "first_s": 8.16,
+      "last_s": 24.27
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.23,
+      "last_s": 5.12
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.iubenda.com",
+    "cdnjs.cloudflare.com",
+    "code.jquery.com",
+    "cs.iubenda.com",
+    "fonts.googleapis.com",
+    "maxcdn.bootstrapcdn.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "giometti_s",
+      "domain": "www.giomettirealestatecinema.it",
+      "path": "/",
+      "expires": 1793729414.887241,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".giomettirealestatecinema.it",
+      "path": "/",
+      "expires": 1825165417.528421,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://giomettirealestatecinema.it",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "_iub_cs-47646386",
+      "domain": ".giomettirealestatecinema.it",
+      "path": "/",
+      "expires": 1825165424,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".giomettirealestatecinema.it",
+      "path": "/",
+      "expires": 1825165429,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

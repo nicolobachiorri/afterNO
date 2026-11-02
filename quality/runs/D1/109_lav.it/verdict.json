@@ -1,0 +1,70 @@
+{
+  "host": "www.lav.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "LinkedIn (linkedin.com)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 3,
+      "names": [
+        "Facebook",
+        "Stape",
+        "TikTok"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 4,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.lav.it/",
+    "lastSeen": {
+      "cdn.iubenda.com": 1793629500564,
+      "code.jquery.com": 1793629500051,
+      "cs.iubenda.com": 1793629501217,
+      "fonts.gstatic.com": 1793629501369,
+      "idb.iubenda.com": 1793629501586,
+      "p.typekit.net": 1793629500719,
+      "pagead2.googlesyndication.com": 1793629501169,
+      "px.ads.linkedin.com": 1793629502113,
+      "px4.ads.linkedin.com": 1793629501677,
+      "snap.licdn.com": 1793629500493,
+      "sst.lav.it": 1793629501210,
+      "static.lav.it": 1793629501204,
+      "use.typekit.net": 1793629501337,
+      "www.googletagmanager.com": 1793629500493,
+      "www.lav.it": 1793629504718
+    }
+  },
+  "hostsConsidered": [
+    "cdn.iubenda.com",
+    "code.jquery.com",
+    "cs.iubenda.com",
+    "fonts.gstatic.com",
+    "idb.iubenda.com",
+    "p.typekit.net",
+    "pagead2.googlesyndication.com",
+    "px.ads.linkedin.com",
+    "px4.ads.linkedin.com",
+    "snap.licdn.com",
+    "sst.lav.it",
+    "static.lav.it",
+    "use.typekit.net",
+    "www.googletagmanager.com",
+    "www.lav.it"
+  ]
+}

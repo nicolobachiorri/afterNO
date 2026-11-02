@@ -1,0 +1,49 @@
+{
+  "url": "https://www.omniaevo.it",
+  "final_url": "https://www.omniaevo.it/",
+  "click_at_s": 13.78,
+  "reload_at_s": 18.78,
+  "reject": "button: 'Rifiuta' in main (normal click)",
+  "visible_buttons": [
+    "Accetta tutti",
+    "Accetta selezionati",
+    "Rifiuta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "consent.cookiebot.com": {
+      "first_s": 4.51,
+      "last_s": 13.94
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 4.96,
+      "last_s": 13.95
+    },
+    "fonts.gstatic.com": {
+      "first_s": 5.0,
+      "last_s": 5.0
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "fonts.gstatic.com"
+  ],
+  "cookies": [
+    {
+      "name": "CookieConsent",
+      "domain": "www.omniaevo.it",
+      "path": "/",
+      "expires": 1825165366,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

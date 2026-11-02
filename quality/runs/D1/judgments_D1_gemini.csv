@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+D1,94,gemini,si,ok,0,correct,
+D1,95,gemini,no_reject,,,,Banner solo con PIÙ OPZIONI | ACCETTO.
+D1,96,gemini,no_reject,,,,Paywall (Rifiuta e abbonati).
+D1,98,gemini,no_banner,,,,Nessun banner rilevato.
+D1,99,gemini,si,ok,0,correct,
+D1,100,gemini,si,ok,0,correct,
+D1,101,gemini,si,ok,0,correct,Nota DB: i cookie Hotjar (_hjSession...) sono classificati come Functional anziché Analytics.
+D1,102,gemini,si,ok,0,correct,
+D1,103,gemini,si,ok,0,correct,
+D1,104,gemini,si,imprecise,1,correct,s_ecid (.sky.it) è classificato come Marketing ma etichettato 'Adobe Analytics'; inoltre OAID (openx.net su fluid.4strokemedia.com) viene raggruppato sotto Adobe Audience Manager (4strokemedia.com).
+D1,105,gemini,si,ok,0,correct,
+D1,106,gemini,no_banner,,,,Nessun banner rilevato.
+D1,108,gemini,si,ok,0,correct,
+D1,109,gemini,no_reject,,,,Presente pulsante '×' di chiusura non cliccato dal robot.
+D1,110,gemini,si,ok,0,correct,
+D1,112,gemini,no_reject,,,,Paywall (Rifiuta e abbonati).
+D1,113,gemini,no_banner,,,,Nessun banner rilevato.
+D1,115,gemini,no_banner,,,,Nessun banner rilevato.
+D1,116,gemini,no_banner,,,,Nessun banner rilevato.
+D1,117,gemini,si,ok,0,correct,"Nota: presenti anche cookie Cloudflare Zaraz (cfz_facebook-pixel, ecc.) classificati come Unknown nel DB."
+D1,118,gemini,si,ok,0,correct,
+D1,119,gemini,no_reject,,,,"Il robot riporta no_banner_detected, ma tra i pulsanti visti compaiono solo 'More info | allow cookies' senza opzione di rifiuto."
+D1,120,gemini,si,ok,0,correct,
+D1,121,gemini,no_reject,,,,Paywall (Rifiuta e abbonati).
+D1,122,gemini,other,,,,"Il banner era presente in tedesco con il pulsante di rifiuto ('Nur notwendige akzeptieren'), ma il robot non lo ha riconosciuto."
+D1,123,gemini,no_banner,,,,Nessun banner rilevato.
+D1,124,gemini,no_banner,,,,Nessun banner rilevato.
+D1,125,gemini,no_banner,,,,Nessun banner rilevato.
+D1,128,gemini,no_banner,,,,Nessun banner rilevato.
+D1,129,gemini,si,ok,0,correct,
+D1,130,gemini,si,ok,0,correct,
+D1,131,gemini,si,ok,0,correct,
+D1,132,gemini,no_reject,,,,Presente pulsante '×' di chiusura non cliccato dal robot.
+D1,133,gemini,si,ok,0,correct,
+D1,135,gemini,si,ok,0,correct,
+D1,136,gemini,si,ok,0,correct,
+D1,137,gemini,no_banner,,,,Nessun banner rilevato dal robot (anche se TCF indica cmpuishown).
+D1,138,gemini,si,ok,0,correct,
+D1,139,gemini,si,wrong,1,false_alarm,"Nel DB i cookie _shop_app_essential, _shopify_analytics e _shopify_marketing sono erroneamente classificati come Analytics (Marfeel). Di conseguenza l'estensione segnala il cookie essenziale _shop_app_essential (shop.app) come tracciante di terza parte e non conta i cookie Shopify tra gli statistici."
+D1,140,gemini,si,ok,0,correct,

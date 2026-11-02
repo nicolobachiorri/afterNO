@@ -1,0 +1,174 @@
+{
+  "url": "https://www.leteledimargi.it",
+  "final_url": "https://www.leteledimargi.it/",
+  "click_at_s": 44.52,
+  "reload_at_s": 49.52,
+  "reject": "button: 'Rifiuta tutti' in main (normal click)",
+  "visible_buttons": [
+    "Precedente",
+    "Successivo",
+    "Accetta tutti",
+    "Preferenze",
+    "Rifiuta tutti"
+  ],
+  "tcf": {
+    "error": "Error('Page.evaluate: Execution context was destroyed, most likely because of a navigation')"
+  },
+  "third_party_hosts_after_click": [
+    "api.clerk.io"
+  ],
+  "third_party_hosts_after_reload": [
+    "api.clerk.io"
+  ],
+  "third_party_timeline": {
+    "aip.storeden.com": {
+      "first_s": 36.19,
+      "last_s": 36.19
+    },
+    "api.clerk.io": {
+      "first_s": 21.51,
+      "last_s": 53.13
+    },
+    "cdn.clerk.io": {
+      "first_s": 21.15,
+      "last_s": 21.15
+    },
+    "cdn.doofinder.com": {
+      "first_s": 36.52,
+      "last_s": 37.59
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 20.16,
+      "last_s": 20.88
+    },
+    "cdn.storeden.net": {
+      "first_s": 20.16,
+      "last_s": 36.2
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 20.16,
+      "last_s": 21.05
+    },
+    "connect.facebook.net": {
+      "first_s": 36.1,
+      "last_s": 36.86
+    },
+    "data.nudgify.com": {
+      "first_s": 22.07,
+      "last_s": 22.07
+    },
+    "egress.storeden.net": {
+      "first_s": 21.36,
+      "last_s": 36.2
+    },
+    "eu1-api.doofinder.com": {
+      "first_s": 37.37,
+      "last_s": 37.37
+    },
+    "eu1-config.doofinder.com": {
+      "first_s": 36.19,
+      "last_s": 36.19
+    },
+    "fonts.googleapis.com": {
+      "first_s": 20.78,
+      "last_s": 37.63
+    },
+    "fonts.gstatic.com": {
+      "first_s": 36.1,
+      "last_s": 36.18
+    },
+    "js.klarna.com": {
+      "first_s": 21.15,
+      "last_s": 21.43
+    },
+    "margi.twic.pics": {
+      "first_s": 36.1,
+      "last_s": 36.34
+    },
+    "maxcdn.bootstrapcdn.com": {
+      "first_s": 20.16,
+      "last_s": 36.1
+    },
+    "pixel.nudgify.com": {
+      "first_s": 21.36,
+      "last_s": 21.36
+    },
+    "service-ltdm.it": {
+      "first_s": 20.48,
+      "last_s": 36.86
+    },
+    "unpkg.com": {
+      "first_s": 21.05,
+      "last_s": 21.05
+    },
+    "widget.feedaty.com": {
+      "first_s": 36.19,
+      "last_s": 37.16
+    },
+    "www.googletagmanager.com": {
+      "first_s": 20.48,
+      "last_s": 20.93
+    },
+    "www.maxbuild.it": {
+      "first_s": 36.2,
+      "last_s": 36.2
+    },
+    "www.ms-entertainment.com": {
+      "first_s": 21.05,
+      "last_s": 21.05
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": ".www.leteledimargi.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "spcart",
+      "domain": ".www.leteledimargi.it",
+      "path": "/",
+      "expires": 1796222844.047997,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ltdm_chat_ab_v1",
+      "domain": "www.leteledimargi.it",
+      "path": "/",
+      "expires": 1796222669.17472,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": "www.leteledimargi.it",
+      "path": "/",
+      "expires": 1801406669.399247,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sbc_cookie_approval",
+      "domain": ".www.leteledimargi.it",
+      "path": "/",
+      "expires": 1809355492,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

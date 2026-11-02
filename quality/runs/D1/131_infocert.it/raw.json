@@ -1,0 +1,170 @@
+{
+  "url": "https://www.infocert.it",
+  "final_url": "https://www.infocert.it/",
+  "click_at_s": 10.77,
+  "reload_at_s": 15.77,
+  "reject": "link: 'Rifiuta cookie non necessari \u2715' in main (normal click)",
+  "visible_buttons": [
+    "PMI, Professionisti e Privati arrow_drop_down",
+    "search",
+    "PEC keyboard_arrow_down",
+    "Firma Digitale keyboard_arrow_down",
+    "Fatturazione Elettronica keyboard_arrow_down",
+    "SPID keyboard_arrow_down",
+    "Servizi Evoluti keyboard_arrow_down",
+    "chevron_backward",
+    "pause",
+    "chevron_forward",
+    "arrow_back",
+    "arrow_forward",
+    "Conservazione keyboard_arrow_down",
+    "Articoli informativi keyboard_arrow_down",
+    "Accetta tutto"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cns.elmobot.eu",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "script.crazyegg.com",
+    "tracking.crazyegg.com",
+    "widget.trustpilot.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "script.crazyegg.com",
+    "tracking.crazyegg.com",
+    "widget.trustpilot.com"
+  ],
+  "third_party_timeline": {
+    "assets-tracking.crazyegg.com": {
+      "first_s": 2.88,
+      "last_s": 2.88
+    },
+    "bnr.elmobot.eu": {
+      "first_s": 2.73,
+      "last_s": 2.73
+    },
+    "cns.elmobot.eu": {
+      "first_s": 10.77,
+      "last_s": 10.77
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.24,
+      "last_s": 2.24
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.52,
+      "last_s": 2.52
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.73,
+      "last_s": 15.96
+    },
+    "pagestates-tracking.crazyegg.com": {
+      "first_s": 2.88,
+      "last_s": 2.88
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.01,
+      "last_s": 15.97
+    },
+    "script.crazyegg.com": {
+      "first_s": 2.24,
+      "last_s": 16.1
+    },
+    "tracking.crazyegg.com": {
+      "first_s": 2.88,
+      "last_s": 18.19
+    },
+    "widget.trustpilot.com": {
+      "first_s": 2.25,
+      "last_s": 15.97
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.25,
+      "last_s": 2.73
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "bnr.elmobot.eu",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "script.crazyegg.com",
+    "widget.trustpilot.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".www.tinextainfocert.infocert.it",
+      "path": "/",
+      "expires": 1793631825.848966,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__utmzzses",
+      "domain": ".infocert.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cebs",
+      "domain": ".infocert.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ce.clock_data",
+      "domain": ".infocert.it",
+      "path": "/",
+      "expires": 1793716426,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "elmo_vc",
+      "domain": ".infocert.it",
+      "path": "/",
+      "expires": 1809354834,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cebsp_",
+      "domain": ".infocert.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ce.s",
+      "domain": ".infocert.it",
+      "path": "/",
+      "expires": 1825166039,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

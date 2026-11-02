@@ -1,0 +1,70 @@
+{
+  "host": "www.aeroportoverona.it",
+  "choice": {
+    "at": 1793629714226,
+    "choice": "rejected",
+    "label": "Rifiuta e usa solo i cookie necessari",
+    "site": "aeroportoverona.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta e usa solo i cookie necessari"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Google"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.aeroportoverona.it/it_it/",
+    "lastSeen": {
+      "ad.doubleclick.net": 1793629706694,
+      "bam.nr-data.net": 1793629719730,
+      "chimpstatic.com": 1793629704687,
+      "consent.cookiebot.com": 1793629714257,
+      "consentcdn.cookiebot.com": 1793629719640,
+      "content.veneziaairport.it": 1793629719957,
+      "external.airport.ai": 1793629721242,
+      "js-agent.newrelic.com": 1793629712836,
+      "pagead2.googlesyndication.com": 1793629719679,
+      "region1.analytics.google.com": 1793629711228,
+      "region1.google-analytics.com": 1793629719677,
+      "rum.hlx.page": 1793629719627,
+      "stats.g.doubleclick.net": 1793629711228,
+      "www.aeroportoverona.it": 1793629720169,
+      "www.google.com": 1793629719661,
+      "www.google.it": 1793629711235,
+      "www.googletagmanager.com": 1793629706685
+    }
+  },
+  "hostsConsidered": [
+    "bam.nr-data.net",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "content.veneziaairport.it",
+    "external.airport.ai",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "rum.hlx.page",
+    "www.aeroportoverona.it",
+    "www.google.com"
+  ]
+}

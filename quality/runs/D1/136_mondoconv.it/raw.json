@@ -1,0 +1,250 @@
+{
+  "url": "https://www.mondoconv.it",
+  "final_url": "https://www.mondoconv.it/",
+  "click_at_s": 10.9,
+  "reload_at_s": 15.9,
+  "reject": "button: 'Rifiuto i cookie' in main (normal click)",
+  "visible_buttons": [
+    "Carrello",
+    "CUCINE",
+    "CAMERE DA LETTO",
+    "ARMADI",
+    "LETTI",
+    "SOGGIORNI",
+    "DIVANI",
+    "TAVOLI E SEDIE",
+    "CAMERETTE",
+    "RETI E MATERASSI",
+    "BAGNI",
+    "COMPLEMENTI",
+    "PROMOZIONI",
+    "ISCRIVITI",
+    "Dati Societari"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "3mgwwwklgg.execute-api.eu-central-1.amazonaws.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "geolocation.onetrust.com",
+    "mondoconvenienza.my.salesforce-scrt.com",
+    "mondoconvenienza.my.site.com",
+    "o.clarity.ms",
+    "pagead2.googlesyndication.com",
+    "www.clarity.ms"
+  ],
+  "third_party_hosts_after_reload": [
+    "3mgwwwklgg.execute-api.eu-central-1.amazonaws.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "geolocation.onetrust.com",
+    "o.clarity.ms",
+    "pagead2.googlesyndication.com",
+    "www.clarity.ms"
+  ],
+  "third_party_timeline": {
+    "3mgwwwklgg.execute-api.eu-central-1.amazonaws.com": {
+      "first_s": 3.15,
+      "last_s": 16.36
+    },
+    "analytics.google.com": {
+      "first_s": 3.01,
+      "last_s": 3.01
+    },
+    "bat.bing.com": {
+      "first_s": 3.84,
+      "last_s": 17.41
+    },
+    "bat.bing.net": {
+      "first_s": 4.26,
+      "last_s": 17.19
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 2.97,
+      "last_s": 4.25
+    },
+    "cdn.evgnet.com": {
+      "first_s": 2.37,
+      "last_s": 2.37
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.33,
+      "last_s": 2.33
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 2.33,
+      "last_s": 2.37
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.33,
+      "last_s": 2.33
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.79,
+      "last_s": 4.17
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.49,
+      "last_s": 16.12
+    },
+    "mondoconv-privacy.my.onetrust.com": {
+      "first_s": 10.89,
+      "last_s": 10.89
+    },
+    "mondoconvenienza.my.salesforce-scrt.com": {
+      "first_s": 11.18,
+      "last_s": 11.18
+    },
+    "mondoconvenienza.my.site.com": {
+      "first_s": 10.89,
+      "last_s": 11.71
+    },
+    "o.clarity.ms": {
+      "first_s": 4.47,
+      "last_s": 24.27
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.97,
+      "last_s": 17.18
+    },
+    "scripts.clarity.ms": {
+      "first_s": 4.08,
+      "last_s": 4.08
+    },
+    "ui.swogo.net": {
+      "first_s": 3.55,
+      "last_s": 3.55
+    },
+    "www.clarity.ms": {
+      "first_s": 3.84,
+      "last_s": 17.18
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.2,
+      "last_s": 3.2
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "bat.bing.com",
+    "cdn.cookielaw.org",
+    "cdn.evgnet.com",
+    "cdn.jsdelivr.net",
+    "cdnjs.cloudflare.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "scripts.clarity.ms",
+    "ui.swogo.net"
+  ],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": ".www.mondoconv.it",
+      "path": "/",
+      "expires": 1793637564.665999,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "gqid",
+      "domain": "www.mondoconv.it",
+      "path": "/",
+      "expires": 1825166364,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".mondoconv.it",
+      "path": "/",
+      "expires": 1828190365.332248,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FPID",
+      "domain": ".mondoconv.it",
+      "path": "/",
+      "expires": 1828190366.055491,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_clck",
+      "domain": ".mondoconv.it",
+      "path": "/",
+      "expires": 1825166352,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FPLC",
+      "domain": ".mondoconv.it",
+      "path": "/",
+      "expires": 1793702352.730677,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".mondoconv.it",
+      "path": "/",
+      "expires": 1825166359,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".mondoconv.it",
+      "path": "/",
+      "expires": 1825166364,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "private_content_version",
+      "domain": "www.mondoconv.it",
+      "path": "/",
+      "expires": 1828190364.666092,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_1B4XGV94ZR",
+      "domain": ".mondoconv.it",
+      "path": "/",
+      "expires": 1828190365.337975,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_clsk",
+      "domain": ".mondoconv.it",
+      "path": "/",
+      "expires": 1793716766,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

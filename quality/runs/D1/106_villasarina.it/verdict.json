@@ -1,0 +1,32 @@
+{
+  "host": "villasarina.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://villasarina.it/",
+    "lastSeen": {
+      "fonts.googleapis.com": 1793629442373,
+      "fonts.gstatic.com": 1793629442630,
+      "randomuser.me": 1793629442373,
+      "villasarina.it": 1793629442823,
+      "www.villasarina.it": 1793629441806
+    }
+  },
+  "hostsConsidered": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "randomuser.me",
+    "villasarina.it",
+    "www.villasarina.it"
+  ]
+}
