@@ -50,6 +50,11 @@ says so as information and marks those cookies in the list, but does not count t
 against the site: they exist because you are signed in, not because of the site. The
 service's other cookies, set for everyone, still count.
 
+The same rule applies to **"legitimate interest"**. When the TCF signal says some
+purposes stay active without consent, the popup names them ("measure advertising
+performance"...) as information. It is what the site declares it may do, not something
+the browser observes, so it does not change the conclusion.
+
 ## What it cannot see
 
 An extension sees what the browser sees. It does not see, and does not claim to see:

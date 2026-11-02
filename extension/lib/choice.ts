@@ -19,6 +19,7 @@ export interface ChoiceRecord {
   purposesConsented?: number; // TCF only
   purposesTotal?: number;
   legitimateInterests?: number; // TCF purposes still active on "legitimate interest"
+  legitimatePurposes?: number[]; // which ones (TCF purpose ids, 1-11)
   vendorsConsented?: number;
 }
 
@@ -169,6 +170,8 @@ export interface TcData {
 }
 
 const countTrue = (o?: Record<string, boolean>) => Object.values(o ?? {}).filter(Boolean).length;
+const trueIds = (o?: Record<string, boolean>) =>
+  Object.entries(o ?? {}).filter(([, v]) => v).map(([k]) => Number(k)).filter(Number.isInteger).sort((a, b) => a - b);
 
 // Returns null when the data says nothing about a choice: the banner is still open
 // ('cmpuishown'), GDPR does not apply, or the purposes are missing.
@@ -186,6 +189,7 @@ export function choiceFromTcf(data: TcData, site: string, at: number): ChoiceRec
     return {
       site, source: 'tcf', choice: 'rejected', at, trigger, purposesConsented: 0,
       legitimateInterests: countTrue(data.purpose?.legitimateInterests),
+    legitimatePurposes: trueIds(data.purpose?.legitimateInterests),
       vendorsConsented: countTrue(data.vendor?.consents),
     };
   }
@@ -198,6 +202,7 @@ export function choiceFromTcf(data: TcData, site: string, at: number): ChoiceRec
     purposesConsented: given,
     purposesTotal: total,
     legitimateInterests: countTrue(data.purpose?.legitimateInterests),
+    legitimatePurposes: trueIds(data.purpose?.legitimateInterests),
     vendorsConsented: countTrue(data.vendor?.consents),
   };
 }

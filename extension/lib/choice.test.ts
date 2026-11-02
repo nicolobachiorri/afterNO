@@ -58,6 +58,7 @@ test('TCF: no purpose consented is a rejection, with legitimate interests counte
   assert.equal(r?.purposesConsented, 0);
   assert.equal(r?.purposesTotal, 3);
   assert.equal(r?.legitimateInterests, 2);
+  assert.deepEqual(r?.legitimatePurposes, [2, 7]);
   assert.equal(r?.vendorsConsented, 2);
 });
 

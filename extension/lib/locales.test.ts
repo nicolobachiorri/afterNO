@@ -71,7 +71,7 @@ test('every message is used by the code', async () => {
   };
   for (const folder of ['../entrypoints/', '../lib/']) walk(new URL(folder, import.meta.url));
   const code = sources.join('\n');
-  const dynamicPrefixes = ['group_', 'groupExplain_', 'verdictHeading_', 'extName', 'extDescription'];
+  const dynamicPrefixes = ['group_', 'tcfPurpose_', 'groupExplain_', 'verdictHeading_', 'extName', 'extDescription'];
   const unused = Object.keys(load('en')).filter((key) => {
     const base = key.replace(/_(one|other)$/, '');
     return !code.includes(`'${key}'`) && !code.includes(`'${base}'`)

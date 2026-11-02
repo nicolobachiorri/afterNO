@@ -183,7 +183,7 @@
     }
   },
   "itemLegitimate_one": {
-    "message": "Secondo lo stesso segnale, $COUNT$ finalità resta attiva per «legittimo interesse», che non chiede il consenso.",
+    "message": "Secondo lo stesso segnale, $COUNT$ finalità resta attiva per «legittimo interesse», che non chiede il consenso:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -191,7 +191,7 @@
     }
   },
   "itemLegitimate_other": {
-    "message": "Secondo lo stesso segnale, $COUNT$ finalità restano attive per «legittimo interesse», che non chiede il consenso.",
+    "message": "Secondo lo stesso segnale, $COUNT$ finalità restano attive per «legittimo interesse», che non chiede il consenso:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -430,5 +430,38 @@
         "content": "$1"
       }
     }
+  },
+  "tcfPurpose_1": {
+    "message": "archiviare informazioni su un dispositivo o accedervi"
+  },
+  "tcfPurpose_2": {
+    "message": "usare dati limitati per scegliere la pubblicità"
+  },
+  "tcfPurpose_3": {
+    "message": "creare profili per pubblicità personalizzata"
+  },
+  "tcfPurpose_4": {
+    "message": "usare profili per scegliere pubblicità personalizzata"
+  },
+  "tcfPurpose_5": {
+    "message": "creare profili per personalizzare i contenuti"
+  },
+  "tcfPurpose_6": {
+    "message": "usare profili per scegliere contenuti personalizzati"
+  },
+  "tcfPurpose_7": {
+    "message": "misurare le prestazioni della pubblicità"
+  },
+  "tcfPurpose_8": {
+    "message": "misurare le prestazioni dei contenuti"
+  },
+  "tcfPurpose_9": {
+    "message": "capire il pubblico con statistiche o combinando dati di fonti diverse"
+  },
+  "tcfPurpose_10": {
+    "message": "sviluppare e migliorare i servizi"
+  },
+  "tcfPurpose_11": {
+    "message": "usare dati limitati per scegliere i contenuti"
   }
 }

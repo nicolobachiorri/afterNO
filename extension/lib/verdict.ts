@@ -18,6 +18,7 @@ export interface Item {
   count?: number;
   subs?: (string | number)[];
   names?: string[]; // companies or sites involved, shown after the text
+  nameKeys?: string[]; // like names, but message keys the popup translates
 }
 
 export interface Verdict {
@@ -95,8 +96,16 @@ export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], track
     items.push(choice.purposesTotal
       ? { mark: 'ok', key: 'itemTcfRecorded', subs: [choice.purposesConsented ?? 0, choice.purposesTotal] }
       : { mark: 'ok', key: 'itemTcfRecordedNoTotal' });
+    // "Legitimate interest" is what the site declares it may still do without consent,
+    // not something the browser observes. Shown as information, with the purposes
+    // named; the conclusion rests on what is observed (decided 2 November 2026,
+    // after decathlon.it: no tracker at all, yet "only partly respected").
     if ((choice.legitimateInterests ?? 0) > 0) {
-      items.push({ mark: 'bad', key: 'itemLegitimate', count: choice.legitimateInterests });
+      const ids = (choice.legitimatePurposes ?? []).filter((id) => id >= 1 && id <= 11);
+      items.push({
+        mark: 'info', key: 'itemLegitimate', count: choice.legitimateInterests,
+        ...(ids.length ? { nameKeys: ids.map((id) => `tcfPurpose_${id}`) } : {}),
+      });
     }
   } else if (choice?.source === 'click') {
     items.push({ mark: 'info', key: 'itemClickOnly', subs: [choice.label ?? ''] });

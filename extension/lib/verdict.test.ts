@@ -73,9 +73,17 @@ test('marketingKind: owner matched by site, not by exact host; a day is the limi
   assert.equal(marketingKind(r('.x.it', 'Marketing', '', { expirationDate: 86_401 }), 0), 'strong');
 });
 
-test('legitimate interest still active after a rejection counts against', () => {
-  const v = buildVerdict({ ...tcfReject, legitimateInterests: 3 }, [], [], 0);
-  assert.ok(keys(v).includes('bad:itemLegitimate'));
+test('decathlon case: legitimate interest is declared, not observed: information, with the purposes named', () => {
+  const v = buildVerdict({ ...tcfReject, legitimateInterests: 1, legitimatePurposes: [7] }, [], [], 0);
+  assert.ok(keys(v).includes('info:itemLegitimate'));
+  assert.deepEqual(v.items.find((i) => i.key === 'itemLegitimate')?.nameKeys, ['tcfPurpose_7']);
+  assert.deepEqual(v.conclusion, { key: 'verdictRespected', tone: 'ok' });
+});
+
+test('legitimate interest with trackers: the trackers decide, as before', () => {
+  const v = buildVerdict({ ...tcfReject, legitimateInterests: 2, legitimatePurposes: [7, 99] },
+    [], [r('.criteo.com', 'Marketing', 'Criteo')], 0);
+  assert.deepEqual(v.items.find((i) => i.key === 'itemLegitimate')?.nameKeys, ['tcfPurpose_7']);
   assert.equal(v.conclusion?.key, 'verdictPartly');
 });
 

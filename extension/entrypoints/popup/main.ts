@@ -178,13 +178,14 @@ const MARK: Record<Item['mark'], { icon: string; label: string }> = {
 
 function checkItem(item: Item): HTMLElement {
   const text = item.count !== undefined ? tn(item.key, item.count, ...(item.subs ?? [])) : t(item.key, ...(item.subs ?? []));
+  const names = item.names ?? item.nameKeys?.map((k) => t(k)) ?? [];
   const mark = h('span', { class: 'mark', text: MARK[item.mark].icon });
   // The symbol alone means nothing to a screen reader: say it in words.
   mark.setAttribute('aria-label', t(MARK[item.mark].label));
   mark.setAttribute('role', 'img');
   return h('li', { class: `item ${item.mark}` },
     mark,
-    h('span', { text: item.names?.length ? `${text} ${formatNames(item.names)}` : text }),
+    h('span', { text: names.length ? `${text} ${formatNames(names)}` : text }),
   );
 }
 

@@ -183,7 +183,7 @@
     }
   },
   "itemLegitimate_one": {
-    "message": "According to the same signal, $COUNT$ purpose remains active on “legitimate interest”, which does not ask for consent.",
+    "message": "According to the same signal, $COUNT$ purpose remains active on “legitimate interest”, which does not ask for consent:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -191,7 +191,7 @@
     }
   },
   "itemLegitimate_other": {
-    "message": "According to the same signal, $COUNT$ purposes remain active on “legitimate interest”, which does not ask for consent.",
+    "message": "According to the same signal, $COUNT$ purposes remain active on “legitimate interest”, which does not ask for consent:",
     "placeholders": {
       "count": {
         "content": "$1"
@@ -430,5 +430,38 @@
         "content": "$1"
       }
     }
+  },
+  "tcfPurpose_1": {
+    "message": "store and/or access information on a device"
+  },
+  "tcfPurpose_2": {
+    "message": "use limited data to select advertising"
+  },
+  "tcfPurpose_3": {
+    "message": "create profiles for personalised advertising"
+  },
+  "tcfPurpose_4": {
+    "message": "use profiles to select personalised advertising"
+  },
+  "tcfPurpose_5": {
+    "message": "create profiles to personalise content"
+  },
+  "tcfPurpose_6": {
+    "message": "use profiles to select personalised content"
+  },
+  "tcfPurpose_7": {
+    "message": "measure advertising performance"
+  },
+  "tcfPurpose_8": {
+    "message": "measure content performance"
+  },
+  "tcfPurpose_9": {
+    "message": "understand audiences through statistics or combinations of data from different sources"
+  },
+  "tcfPurpose_10": {
+    "message": "develop and improve services"
+  },
+  "tcfPurpose_11": {
+    "message": "use limited data to select content"
   }
 }
