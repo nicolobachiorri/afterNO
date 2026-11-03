@@ -1,0 +1,338 @@
+{
+  "url": "https://www.bahn.de",
+  "final_url": "https://www.bahn.de/",
+  "click_at_s": 11.89,
+  "reload_at_s": 16.89,
+  "reject": "button: 'Accetta solo i cookie necessari' in main (normal click)",
+  "visible_buttons": [
+    "DE",
+    "Karte anzeigen",
+    "Start- und Zielbahnhof tauschen",
+    "Suchen",
+    "Heute, ab 18:59 Hinfahrt \u00e4ndern",
+    "R\u00fcckfahrt Hinzuf\u00fcgen",
+    "Reisende, Fahrr\u00e4der, Erm\u00e4\u00dfigungen 1 Person (27-64 ",
+    "Accetta solo i cookie necessari",
+    "Accetta tutti i cookie"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cms.static-bahn.de",
+    "collect.tealiumiq.com",
+    "siteintercept.qualtrics.com",
+    "zn0lxkzethotizctx-bahn.siteintercept.qualtrics.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "siteintercept.qualtrics.com",
+    "zn0lxkzethotizctx-bahn.siteintercept.qualtrics.com"
+  ],
+  "third_party_timeline": {
+    "assets.static-bahn.de": {
+      "first_s": 3.19,
+      "last_s": 4.95
+    },
+    "cdn.optimizely.com": {
+      "first_s": 4.89,
+      "last_s": 4.89
+    },
+    "cms.static-bahn.de": {
+      "first_s": 3.75,
+      "last_s": 11.89
+    },
+    "collect.tealiumiq.com": {
+      "first_s": 11.89,
+      "last_s": 11.89
+    },
+    "siteintercept.qualtrics.com": {
+      "first_s": 12.29,
+      "last_s": 17.44
+    },
+    "ucm-eu.verint-cdn.com": {
+      "first_s": 4.24,
+      "last_s": 4.86
+    },
+    "zn0lxkzethotizctx-bahn.siteintercept.qualtrics.com": {
+      "first_s": 12.01,
+      "last_s": 17.43
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "assets.static-bahn.de",
+    "cdn.optimizely.com",
+    "cms.static-bahn.de",
+    "siteintercept.qualtrics.com",
+    "ucm-eu.verint-cdn.com"
+  ],
+  "cookies": [
+    {
+      "name": "TS0135fa4a",
+      "domain": "accounts.bahn.de",
+      "path": "/auth/realms/db/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AUTH_SESSION_ID",
+      "domain": "accounts.bahn.de",
+      "path": "/auth/realms/db/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "KC_AUTH_SESSION_HASH",
+      "domain": "accounts.bahn.de",
+      "path": "/auth/realms/db/",
+      "expires": 1793728849.792074,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "IDM_CORR_ID",
+      "domain": "accounts.bahn.de",
+      "path": "/auth/realms/db/",
+      "expires": 1793732389.792093,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1793735975.502895,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "request_consent_v",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1825264776,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TS016c400a",
+      "domain": ".accounts.bahn.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "s_ecid",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1828288790.043267,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCVS_5FA50A5953FB37E50A4C98BC%40AdobeOrg",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCV_5FA50A5953FB37E50A4C98BC%40AdobeOrg",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1828288776.689654,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "s_cc",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TS01309da6",
+      "domain": "www.bahn.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uws_storage",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1794333589,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uws_rate_comparators",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1793730589,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uws_recording",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1793730590,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uws_story_gxxkamqa",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1793730589,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CONSENTMGR",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1825264784,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "iid",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1825264784,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "QSI_HistorySession",
+      "domain": "www.bahn.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "S_IID",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1825264789.352372,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1793743175.352643,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_abck",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1825264789.498022,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1825264789,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uws_session",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1793730589,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uws_visitor",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1794333589,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TS1319dbe9027",
+      "domain": "accounts.bahn.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".bahn.de",
+      "path": "/",
+      "expires": 1793735976.414621,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

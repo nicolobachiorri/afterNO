@@ -1,0 +1,47 @@
+{
+  "host": "www.decathlon.fr",
+  "choice": {
+    "at": 1793728812302,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "site": "decathlon.fr",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.decathlon.fr/",
+    "lastSeen": {
+      "api.privacy-center.org": 1793728812274,
+      "contents.mediadecathlon.com": 1793728806709,
+      "insights.v3.decathlon.net": 1793728806072,
+      "prod.transcript.decathlon.net": 1793728806532,
+      "sdk.privacy-center.org": 1793728806509,
+      "www.decathlon.fr": 1793728817975,
+      "www.googletagmanager.com": 1793728806018
+    }
+  },
+  "hostsConsidered": [
+    "www.decathlon.fr"
+  ]
+}
