@@ -584,5 +584,24 @@
         "content": "$1"
       }
     }
+  },
+  "itemSiteMarketingShared_one": {
+    "message": "$COUNT$ of the site’s cookies is classified as marketing, but it is an identifier also used for analytics: from outside one cannot tell which use it serves:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemSiteMarketingShared_other": {
+    "message": "$COUNT$ of the site’s cookies are classified as marketing, but they are identifiers also used for analytics: from outside one cannot tell which use they serve:",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "noteSharedId": {
+    "message": "An identifier shared by analytics and advertising tools: from outside one cannot tell what it is for here."
   }
 }

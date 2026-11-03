@@ -55,6 +55,12 @@ purposes stay active without consent, the popup names them ("measure advertising
 performance"...) as information. It is what the site declares it may do, not something
 the browser observes, so it does not change the conclusion.
 
+One more case: a **visitor ID shared by a suite of tools**. Adobe Experience Cloud
+sets one ID (`AMCV_…`, `s_ecid`) that its analytics and its advertising tools both
+read. The database labels it marketing, but from outside one cannot tell which use it
+serves. On the site's own domain the popup shows it as information, not against the
+site; on another company's domain it is still a company that can recognise you.
+
 ## What it cannot see
 
 An extension sees what the browser sees. It does not see, and does not claim to see:

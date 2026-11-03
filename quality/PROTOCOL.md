@@ -292,3 +292,11 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     indicano un rifiuto a pagamento sono estese. Il file dello step 1 non cambia:
     `measure.py` sostituisce le sue regole al momento dell'uso. Le visite A–D1 restano
     misurate con le regole di allora.
+
+22. *Identificativi condivisi (3 novembre 2026).* Sul dominio del sito, i cookie di
+    Adobe Experience Cloud `AMCV_…` e `s_ecid` (un identificativo che il database
+    descrive come condiviso tra gli strumenti Adobe, statistiche comprese) diventano
+    un'informazione e non contano contro il sito. Sul dominio di un terzo restano un
+    tracker. Motivo: bahn.de, e in precedenza trenitalia e rfi.it, risultavano «solo in
+    parte» per questi soli cookie, giudicati «discutibili». Le visite A–D1 restano
+    misurate con le regole di allora.

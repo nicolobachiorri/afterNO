@@ -27,6 +27,7 @@ export interface Verdict {
 }
 
 export interface Row {
+  name?: string; // the cookie's name: only the shared visitor ids below need it
   domain: string;
   group: Group;
   platform: string;
@@ -45,11 +46,21 @@ export interface Row {
 //   short  it expires within a day, or when the browser closes: it cannot recognise
 //          the user from one day to the next.
 //   strong everything else. Only these count against a rejection.
+//   shared a visitor id that a suite of tools shares, analytics included: Adobe
+//          Experience Cloud's AMCV_ and s_ecid (the database itself: "a unique visitor
+//          ID that is used across Experience Cloud Solutions"). Labelled marketing, but
+//          from outside one cannot tell analytics use from advertising use. Decided on
+//          3 November 2026 (bahn.de; trenitalia and rfi.it were "debatable" in the
+//          measurements). Only on the site's own domain: on a third party's domain the
+//          same cookie is another company that can recognise the user.
 export const SHORT_LIVED_MS = 86_400_000;
 
-export function marketingKind(r: Row, nowMs: number): 'own' | 'short' | 'strong' {
+const SHARED_VISITOR_ID = /^(AMCV_|s_ecid$)/;
+
+export function marketingKind(r: Row, nowMs: number): 'own' | 'shared' | 'short' | 'strong' {
   const site = siteOf(r.domain.replace(/^\./, ''));
   if (r.owners?.some((o) => siteOf(o.replace(/^\./, '')) === site)) return 'own';
+  if (r.name && SHARED_VISITOR_ID.test(r.name)) return 'shared';
   if (r.session || r.expirationDate === undefined || r.expirationDate * 1000 - nowMs <= SHORT_LIVED_MS) return 'short';
   return 'strong';
 }
@@ -85,7 +96,7 @@ export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], track
   const thirdNames = namesBySite(recognising.filter((r) => crossSites.has(siteKey(r))));
   const partitionedNames = namesBySite(recognising.filter((r) => !crossSites.has(siteKey(r))));
   const siteMarketing = own.filter((r) => r.group === 'Marketing');
-  const kinds = { own: [] as Row[], short: [] as Row[], strong: [] as Row[] };
+  const kinds = { own: [] as Row[], shared: [] as Row[], short: [] as Row[], strong: [] as Row[] };
   for (const r of siteMarketing) kinds[marketingKind(r, nowMs)].push(r);
   const siteAnalytics = own.filter((r) => r.group === 'Analytics');
   const rejected = choice?.choice === 'rejected';
@@ -147,6 +158,9 @@ export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], track
   if (kinds.own.length > 0) {
     // No names: they would repeat the site itself ("Pinterest" on pinterest.com).
     items.push({ mark: 'info', key: 'itemSiteMarketingOwn', count: kinds.own.length });
+  }
+  if (kinds.shared.length > 0) {
+    items.push({ mark: 'info', key: 'itemSiteMarketingShared', count: kinds.shared.length, names: platformNames(kinds.shared) });
   }
   if (kinds.short.length > 0) {
     items.push({ mark: 'info', key: 'itemSiteMarketingShort', count: kinds.short.length, names: platformNames(kinds.short) });

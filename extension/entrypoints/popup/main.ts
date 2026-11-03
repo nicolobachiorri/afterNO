@@ -114,7 +114,8 @@ function accountNote(r: Classified, side: Side): HTMLElement[] {
 function softNote(r: Classified, side: Side, nowMs: number): string | undefined {
   if (side !== 'own' || r.group !== 'Marketing') return undefined;
   const kind = marketingKind(r, nowMs);
-  return kind === 'own' ? t('noteOwnPlatform') : kind === 'short' ? t('noteShortLived') : undefined;
+  return kind === 'own' ? t('noteOwnPlatform') : kind === 'shared' ? t('noteSharedId')
+    : kind === 'short' ? t('noteShortLived') : undefined;
 }
 
 // The descriptions exist only in English. In another language they are shown as they

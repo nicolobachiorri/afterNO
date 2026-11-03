@@ -165,3 +165,25 @@ test('signed in, but the service also has a cookie set for everyone: that one st
   assert.deepEqual(v.items[1]?.names, ['Google (google.com)']);
   assert.deepEqual(v.conclusion, { key: 'verdictPartly', tone: 'alert' });
 });
+
+// Adobe Experience Cloud's visitor id on the site's own domain (bahn.de, 3 November 2026).
+test('a shared visitor id of the site (Adobe AMCV_, s_ecid) is information, not a fault', () => {
+  const bahnClick: ChoiceRecord = { site: 'bahn.de', source: 'click', choice: 'rejected', at: 0, trigger: 'action', label: 'Accetta solo i cookie necessari' };
+  const v = buildVerdict(bahnClick, [
+    r('.bahn.de', 'Marketing', 'Adobe Audience Manager', { name: 'AMCV_5FA50A5953FB37E50A4C98BC%40AdobeOrg' }),
+    r('.bahn.de', 'Marketing', 'Adobe Analytics', { name: 's_ecid' }),
+  ], [], 0);
+  assert.deepEqual(keys(v), ['info:itemClickOnly', 'ok:itemNoThirdParty', 'info:itemSiteMarketingShared']);
+  assert.deepEqual(v.conclusion, { key: 'verdictRespected', tone: 'ok' });
+});
+
+test('the same id on a third party\'s domain is still a tracker', () => {
+  const v = buildVerdict(tcfReject, [],
+    [r('.4strokemedia.com', 'Marketing', 'Adobe Audience Manager', { name: 'AMCV_1A124673527853290A490D45%40AdobeOrg' })], 0);
+  assert.ok(keys(v).includes('bad:itemThirdPartyStill'));
+});
+
+test('other marketing cookies of the site still count', () => {
+  assert.equal(marketingKind(r('.x.it', 'Marketing', 'Facebook', { name: '_fbp' }), 0), 'strong');
+  assert.equal(marketingKind(r('.x.it', 'Marketing', 'Adobe', { name: 'AMCV_X' }), 0), 'shared');
+});
