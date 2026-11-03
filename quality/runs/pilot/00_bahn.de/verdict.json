@@ -1,7 +1,21 @@
 {
   "host": "www.bahn.de",
-  "choice": null,
+  "choice": {
+    "at": 1793729483149,
+    "choice": "rejected",
+    "label": "Accetta solo i cookie necessari",
+    "site": "bahn.de",
+    "source": "click",
+    "trigger": "action"
+  },
   "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Accetta solo i cookie necessari"
+      ]
+    },
     {
       "mark": "ok",
       "key": "itemNoThirdParty"
@@ -33,28 +47,29 @@
       ]
     }
   ],
-  "conclusion": null,
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
   "tabRecorded": {
     "pageUrl": "https://www.bahn.de/",
     "lastSeen": {
-      "accounts.bahn.de": 1793728789680,
-      "assets.static-bahn.de": 1793728790194,
-      "at.bahn.de": 1793728776415,
-      "cdn-at.bahn.de": 1793728776833,
-      "cdn.optimizely.com": 1793728790675,
-      "cms.static-bahn.de": 1793728789623,
-      "collect.tealiumiq.com": 1793728784228,
-      "siteintercept.qualtrics.com": 1793728789740,
-      "ucm-eu.verint-cdn.com": 1793728789683,
-      "www.bahn.de": 1793728790678,
-      "zn0lxkzethotizctx-bahn.siteintercept.qualtrics.com": 1793728789676
+      "accounts.bahn.de": 1793729488752,
+      "assets.static-bahn.de": 1793729488402,
+      "at.bahn.de": 1793729475276,
+      "cdn-at.bahn.de": 1793729475639,
+      "cdn.optimizely.com": 1793729489750,
+      "cms.static-bahn.de": 1793729488739,
+      "collect.tealiumiq.com": 1793729483153,
+      "siteintercept.qualtrics.com": 1793729488853,
+      "ucm-eu.verint-cdn.com": 1793729488753,
+      "www.bahn.de": 1793729489754,
+      "zn0lxkzethotizctx-bahn.siteintercept.qualtrics.com": 1793729488749
     }
   },
   "hostsConsidered": [
     "accounts.bahn.de",
     "assets.static-bahn.de",
-    "at.bahn.de",
-    "cdn-at.bahn.de",
     "cdn.optimizely.com",
     "cms.static-bahn.de",
     "collect.tealiumiq.com",

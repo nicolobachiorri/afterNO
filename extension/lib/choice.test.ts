@@ -201,6 +201,13 @@ test('text and attributes: either alone is enough, a disagreement claims nothing
   assert.equal(classifyControl('Accetta', 'consent-reject-button'), null);
 });
 
+test('"accept only the essential ones" in an internal name is a rejection, as in its text (bahn.de)', () => {
+  assert.equal(classifyAttributes('btn btn--secondary js-accept-essential-cookies'), 'reject');
+  assert.equal(classifyControl('Accetta solo i cookie necessari', 'btn btn--secondary js-accept-essential-cookies'), 'reject');
+  assert.equal(classifyAttributes('allow-only-necessary'), 'reject');
+  assert.equal(classifyAttributes('js-accept-all-cookies'), 'accept');
+});
+
 test('a paying label wins over a reject attribute', () => {
   assert.equal(classifyControl('Rifiuta e abbonati', 'cmp-reject-btn'), null);
 });

@@ -110,8 +110,9 @@ export function classifyLabel(label: string): LabelKind | null {
 // (Didomi), iubenda-cs-reject-btn (iubenda), uc-deny-all-button (Usercentrics).
 // Sourcepoint uses numbered classes: sp_choice_type_11 is "accept all", 13 "reject all".
 // "disagree" contains "agree", so the reject words are checked first.
-// Checked before ATTR_ACCEPT: "continue-without-agreeing" (Didomi) contains "agree" but means the opposite.
-const ATTR_REJECT = /reject|decline|deny|disagree|refuse|opt-?out|necessary-?only|only-?necessary|continue-?without|without-?(agree|accept|consent)|sp_choice_type_13\b/i;
+// Checked before ATTR_ACCEPT: "continue-without-agreeing" (Didomi) contains "agree" but means the opposite,
+// and so does "js-accept-essential-cookies" (bahn.de, 3 November 2026): accept only the essential ones.
+const ATTR_REJECT = /reject|decline|deny|disagree|refuse|opt-?out|(necessary|essential|required)-?only|only-?(necessary|essential|required)|(accept|allow|save)-?(only-?)?(necessary|essential|required)|continue-?without|without-?(agree|accept|consent)|sp_choice_type_13\b/i;
 const ATTR_ACCEPT = /accept|agree|allow-?all|opt-?in|sp_choice_type_11\b/i;
 
 export function classifyAttributes(attrs: string): LabelKind | null {
