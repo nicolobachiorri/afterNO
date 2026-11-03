@@ -28,7 +28,8 @@ from playwright.sync_api import sync_playwright
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / "divergence_work_space"))
-from divergence_test import REJECT_PATTERN, PAYWALL_IN_LABEL  # noqa: E402
+sys.path.insert(0, str(HERE))
+from robot_labels import REJECT_PATTERN, PAYWALL_IN_LABEL  # noqa: E402
 
 EXT = HERE.parent / "extension" / ".output" / "chrome-mv3-test"
 

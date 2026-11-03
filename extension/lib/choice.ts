@@ -46,8 +46,10 @@ export function isChoiceMessage(x: unknown): x is ChoiceMessage {
 
 // ------------------------------------------------------------------ button labels
 // Word stems rather than whole words ("rifiut" covers rifiuta, rifiutare, rifiuto),
-// plus the main formulas in English, French, German and Spanish. Anchored at the start
-// of the label, so that "Accetta" cannot match "Non accetto".
+// plus the main formulas in English, French, German, Spanish, Portuguese, Dutch and
+// Polish (3 November 2026: the extension is for browsing in the EU). Anchored at the
+// start of the label, so that "Accetta" cannot match "Non accetto".
+// The same words, in Python, are in quality/robot_labels.py for the measurement robot.
 // The aim is precision: a missed rejection shows "no choice recorded", a wrong one
 // would make the popup say "after your rejection" when there was none.
 const REJECT = new RegExp(
@@ -58,20 +60,35 @@ const REJECT = new RegExp(
   // English
   + 'reject|decline|deny|disagree|refuse|only (necessary|essential|required)|(necessary|essential) only|'
   + 'use (only )?necessary|continue without accepting|'
-  // French, German, Spanish
-  + '(tout )?refuser|continuer sans accepter|(alle )?ablehnen|nur (notwendige|erforderliche)|'
-  + 'rechazar|solo (las )?(necesarias|esenciales)'
+  // French
+  + '(tout |je )?refuser?( tout)?|continuer sans accepter|je n.?accepte pas|'
+  + '(accepter |autoriser )?(uniquement|seulement) (les )?(cookies )?(strictement )?(n[eé]cessaires|essentiels)|'
+  // German
+  + '(alle |optionale |nicht notwendige )?(cookies )?ablehnen|nicht (akzeptieren|zustimmen)|'
+  + 'nur (technisch )?(notwendige|erforderliche|essenzielle|essentielle)|weiter ohne (einwilligung|zustimmung|akzeptieren)|'
+  // Spanish
+  + 'rechazar|no acepto|continuar sin aceptar|'
+  + '(aceptar |permitir )?(solo|sólo|únicamente) (las )?(cookies )?(necesarias|esenciales|t[eé]cnicas)|'
+  // Portuguese
+  + 'rejeitar|recusar|continuar sem aceitar|(aceitar )?(apenas|somente) (os )?(cookies )?(necess[aá]rios|essenciais)|'
+  // Dutch
+  + '(alles |alle cookies )?(weigeren|afwijzen)|alleen (noodzakelijke|functionele|essenti[eë]le)|'
+  // Polish
+  + 'odrzu[cć]|tylko (niezb[eę]dne|wymagane)'
   + ')',
   'i',
 );
 // "Rifiuta e abbonati" opens a subscription: it is a pay-or-accept wall, not a rejection.
-const PAYWALL = /abbona|subscri|paga|acquista|premium|abonn|abonnier|suscrib/i;
+const PAYWALL = /abbona|subscri|paga|acquista|premium|abonn|abonnier|abo\b|suscri|assin|bezahl|betal|subskry|prenumer/i;
 const ACCEPT = new RegExp(
   '^\\s*('
   + 'accett|acconsent|consenti (tutt|i cookie)|va bene|ho capito|ok\\b|'
   + '(i )?accept|(i )?agree|allow (all|cookies)|got it|'
-  + "j'accepte|tout accepter|akzeptieren|alle (akzeptieren|annehmen|zulassen)|zustimmen|einverstanden|"
-  + 'acept'
+  + "j'accepte|tout accepter|autoriser (tous|tout)|d'accord|"
+  + 'akzeptieren|alle (cookies )?(akzeptieren|annehmen|zulassen|erlauben)|annehmen|zustimmen|einverstanden|'
+  + 'acept|permitir (todas|todo)|aceit|concordo|permitir todos|'
+  + 'accepteren|alles accepteren|akkoord|toestaan|'
+  + 'akceptuj|zaakceptuj|zgadzam|zgoda'
   + ')',
   'i',
 );
@@ -115,8 +132,10 @@ export function classifyControl(label: string, attrs: string): LabelKind | null 
 
 // The clicked button must sit inside something that talks about cookies or consent,
 // otherwise an "Accetta" in a newsletter form would count as a cookie choice.
+// Words for "consent" and "data protection" in the same eight languages: a banner
+// that says "Einwilligung" or "Datenschutz" without the word "cookie" still counts.
 export function isConsentContext(text: string): boolean {
-  return /cookie|consens|consent|privacy|gdpr|partner|tracciament|tracking/i.test(text);
+  return /cookie|consens|consent|privacy|gdpr|rgpd|dsgvo|partner|tracciament|tracking|datenschutz|einwilligung|zustimmung|donn[eé]es personnelles|vie priv[eé]e|privacidad|datos personales|privacidade|dados pessoais|toestemming|gegevens|prywatno|zgod/i.test(text);
 }
 
 // A banner is short; a whole page is long. Walking up from the button, we only look

@@ -1,0 +1,75 @@
+"""
+Which buttons the measurement robot clicks as "reject" (3 November 2026).
+
+The robot of step 1 knew Italian and English only. The extension knows the main
+formulas of eight EU languages (extension/lib/choice.ts, REJECT): the robot gets the
+same words here, so that a site in German or French is measurable. Keep the two
+lists in step; a change to one is a change to the other.
+
+measure.py and diagnose.py install these patterns in divergence_test before using its
+banner functions, so step 1's own file (and its results) stay as they were.
+"""
+
+import re
+
+REJECT_PATTERN = re.compile(
+    r"^\s*("
+    # Italian
+    r"rifiut|nega(re)?\b|nega il|non accett|non acconsent|(continua|prosegui) senza accettare|"
+    r"(accetta |consenti |usa |continua con )?solo (i |gli |le )?(cookie )?(strettamente )?(necessari|essenziali|tecnici)|"
+    # English
+    r"reject|decline|deny|disagree|refuse|only (necessary|essential|required)|(necessary|essential) only|"
+    r"use (only )?necessary|continue without accepting|"
+    # French
+    r"(tout |je )?refuser?( tout)?|continuer sans accepter|je n.?accepte pas|"
+    r"(accepter |autoriser )?(uniquement|seulement) (les )?(cookies )?(strictement )?(n[eé]cessaires|essentiels)|"
+    # German
+    r"(alle |optionale |nicht notwendige )?(cookies )?ablehnen|nicht (akzeptieren|zustimmen)|"
+    r"nur (technisch )?(notwendige|erforderliche|essenzielle|essentielle)|weiter ohne (einwilligung|zustimmung|akzeptieren)|"
+    # Spanish
+    r"rechazar|no acepto|continuar sin aceptar|"
+    r"(aceptar |permitir )?(solo|sólo|únicamente) (las )?(cookies )?(necesarias|esenciales|t[eé]cnicas)|"
+    # Portuguese
+    r"rejeitar|recusar|continuar sem aceitar|(aceitar )?(apenas|somente) (os )?(cookies )?(necess[aá]rios|essenciais)|"
+    # Dutch
+    r"(alles |alle cookies )?(weigeren|afwijzen)|alleen (noodzakelijke|functionele|essenti[eë]le)|"
+    # Polish
+    r"odrzu[cć]|tylko (niezb[eę]dne|wymagane)"
+    r")",
+    re.IGNORECASE,
+)
+
+# A reject that opens a subscription is not a rejection.
+PAYWALL_IN_LABEL = re.compile(
+    r"abbona|subscri|paga|acquista|premium|abonn|abonnier|abo\b|suscri|assin|bezahl|betal|subskry|prenumer",
+    re.IGNORECASE,
+)
+
+# Only to describe a banner without a reject button (banner_type).
+ACCEPT_PATTERN = re.compile(
+    r"accett|accept|consent|agree|ok\b|va bene|ho capito|continua|"
+    r"akzeptier|annehmen|zustimm|einverstanden|d'accord|autoriser|acept|aceit|concordo|"
+    r"accepteren|akkoord|toestaan|akceptuj|zgadzam|zgoda",
+    re.IGNORECASE,
+)
+
+
+def install(module):
+    """Put these patterns in a module that uses them as globals (divergence_test)."""
+    module.REJECT_PATTERN = REJECT_PATTERN
+    module.PAYWALL_IN_LABEL = PAYWALL_IN_LABEL
+    module.PAY_PATTERN = PAYWALL_IN_LABEL
+    module.ACCEPT_PATTERN = ACCEPT_PATTERN
+
+
+if __name__ == "__main__":
+    # Quick check, the same labels as the extension's tests (choice.test.ts).
+    reject = ["Rifiuta tutto", "Continua senza accettare", "Reject all", "Tout refuser", "Je refuse",
+              "Accepter uniquement les cookies nécessaires", "Nur notwendige Cookies akzeptieren",
+              "Optionale Cookies ablehnen", "Weiter ohne Einwilligung", "Rechazar todas", "Aceptar solo las necesarias",
+              "Rejeitar todos", "Alles weigeren", "Alleen noodzakelijke cookies", "Odrzuć wszystkie", "Tylko niezbędne"]
+    not_reject = ["Accetta", "Alle akzeptieren", "Einstellungen", "Paramètres", "Aceptar y cerrar", "Akkoord"]
+    bad = [l for l in reject if not REJECT_PATTERN.search(l)] + [l for l in not_reject if REJECT_PATTERN.search(l)]
+    paying = ["Ablehnen und Abo abschließen", "Rechazar y suscribirse", "Recusar e assinar"]
+    bad += [l for l in paying if not PAYWALL_IN_LABEL.search(l)]
+    print("ok" if not bad else f"wrong: {bad}")

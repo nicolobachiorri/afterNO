@@ -134,6 +134,46 @@ test('other languages: accept', () => {
   }
 });
 
+// 3 November 2026: the main formulas of the consent platforms in the other languages
+// of the EU's largest markets, and the "accept only the necessary ones" forms.
+test('more languages: reject, including "accept only the necessary ones"', () => {
+  for (const label of [
+    'Je refuse', 'Refuser tout', "Je n'accepte pas", 'Accepter uniquement les cookies nécessaires', 'Uniquement les essentiels',
+    'Optionale Cookies ablehnen', 'Nur notwendige Cookies akzeptieren', 'Nur technisch notwendige', 'Weiter ohne Einwilligung', 'Nicht akzeptieren',
+    'Rechazar todas', 'No acepto', 'Continuar sin aceptar', 'Aceptar solo las necesarias', 'Solo cookies técnicas',
+    'Rejeitar todos', 'Recusar', 'Continuar sem aceitar', 'Apenas os necessários',
+    'Alles weigeren', 'Afwijzen', 'Alleen noodzakelijke cookies',
+    'Odrzuć wszystkie', 'Tylko niezbędne',
+  ]) assert.equal(classifyLabel(label), 'reject', label);
+});
+
+test('more languages: a banner that talks about consent without the word "cookie"', () => {
+  for (const text of ['Wir verwenden Technologien, für die wir Ihre Einwilligung benötigen.',
+    'Nous respectons votre vie privée', 'Valoramos tu privacidad', 'Wij vragen uw toestemming'])
+    assert.equal(isConsentContext(text), true, text);
+  assert.equal(isConsentContext('Iscriviti alla newsletter per le offerte'), false);
+});
+
+test('more languages: accept', () => {
+  for (const label of [
+    'Accepter et fermer', 'Autoriser tous les cookies', "D'accord",
+    'Alle Cookies akzeptieren', 'Annehmen', 'Einverstanden',
+    'Aceptar y cerrar', 'Permitir todas', 'Aceitar todos', 'Concordo',
+    'Alles accepteren', 'Akkoord', 'Toestaan',
+    'Akceptuj wszystkie', 'Zgadzam się',
+  ]) assert.equal(classifyLabel(label), 'accept', label);
+});
+
+test('more languages: paying is never a rejection', () => {
+  for (const label of ['Ablehnen und Abo abschließen', 'Rechazar y suscribirse', 'Refuser et s’abonner',
+    'Recusar e assinar', 'Weigeren en betalen']) assert.equal(classifyLabel(label), null, label);
+});
+
+test('more languages: settings and other buttons are not a choice', () => {
+  for (const label of ['Einstellungen', 'Paramètres', 'Configuración', 'Instellingen', 'Ustawienia', 'Mehr erfahren'])
+    assert.equal(classifyLabel(label), null, label);
+});
+
 test('stems do not catch unrelated words', () => {
   for (const label of ['Negozi', 'Accedi', 'Accessori', 'Okay']) assert.equal(classifyLabel(label), null, label);
 });

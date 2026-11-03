@@ -38,7 +38,11 @@ from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / "divergence_work_space"))
-# The banner logic of step 1, unchanged: the same rules decide what a rejection is.
+# The banner logic of step 1, with the reject words of eight EU languages
+# (robot_labels.py, protocol modification 21) in place of its Italian and English ones.
+import divergence_test  # noqa: E402
+import robot_labels  # noqa: E402
+robot_labels.install(divergence_test)
 from divergence_test import (  # noqa: E402
     banner_type, find_and_click_reject, site_domain, visible_button_labels,
 )

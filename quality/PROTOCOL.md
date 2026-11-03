@@ -281,3 +281,14 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     (che scarta i prefissi generici fuori dal sito proprietario): sul sito 139 il
     secondo giudice ha letto «Analytics, Marfeel» per `_shop_app_essential`. Da
     allineare prima di misure future.
+
+**3 novembre 2026.**
+
+21. *Pulsanti in altre lingue.* Il robot dello step 1 riconosceva il rifiuto solo in
+    italiano e inglese (a D1 un banner tedesco, innn.it, è risultato non misurabile per
+    questo). Da questa data il robot usa le formule di rifiuto di otto lingue
+    dell'UE (italiano, inglese, francese, tedesco, spagnolo, portoghese, olandese,
+    polacco), le stesse dell'estensione, in `robot_labels.py`; anche le parole che
+    indicano un rifiuto a pagamento sono estese. Il file dello step 1 non cambia:
+    `measure.py` sostituisce le sue regole al momento dell'uso. Le visite A–D1 restano
+    misurate con le regole di allora.
