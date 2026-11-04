@@ -72,7 +72,7 @@ def main():
     args = ap.parse_args()
     run = HERE / "runs" / args.visit
 
-    # Visits A and B use sample A/B; visits C1, C2... use sample C.
+    # Visits A and B use sample A/B (sites.csv); C1, C2... sample C (sites_C.csv), and so on.
     with open(HERE / (f"sites_{args.visit[0]}.csv" if args.visit[0] in "CDEF" else "sites.csv"), encoding="utf-8") as f:
         sample = {int(r["order"]): r["url"] for r in csv.DictReader(f) if r["role"].startswith("sample")}
     primary = load(run / f"judgments_{args.visit}_{args.primary}.csv")

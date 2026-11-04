@@ -51,16 +51,17 @@ Recognition without cookies (fingerprinting), other browser storage, data exchan
 between companies' servers, and what a company actually does with a cookie.
 
 DESIGNED FOR BROWSING IN THE EU
-It reads the European consent standard (IAB TCF) and cookie banners in Italian and
-English. On sites that show no banner, for example outside the EU, it has less to say.
+It reads the European consent standard (IAB TCF) and cookie banners in eight EU
+languages (Italian, English, French, German, Spanish, Portuguese, Dutch, Polish). The
+interface is in Italian and English. On sites that show no banner, for example outside the EU, it has less to say.
 
 PRIVACY
 Everything happens in your browser. No server, no analytics, no account, no network
 requests of its own. What it keeps is deleted when you close the browser. It does not
 block anything and does not click banners for you.
 
-Open source (Apache 2.0). Accuracy measured on a random sample of Italian sites, with method and data
-published on GitHub.
+Open source (Apache 2.0). Accuracy measured on random samples of Italian and other EU sites, with method and
+data published on GitHub.
 
 ---
 
@@ -92,16 +93,17 @@ Il riconoscimento senza cookie (fingerprinting), altre memorie del browser, i da
 scambiati tra i server delle aziende e ciò che un'azienda fa davvero con un cookie.
 
 PENSATA PER LA NAVIGAZIONE NELL'UE
-Legge lo standard europeo del consenso (IAB TCF) e i banner in italiano e in inglese.
-Sui siti che non mostrano un banner, per esempio fuori dall'UE, ha meno da dire.
+Legge lo standard europeo del consenso (IAB TCF) e i banner in otto lingue dell'UE
+(italiano, inglese, francese, tedesco, spagnolo, portoghese, olandese, polacco).
+L'interfaccia è in italiano e in inglese. Sui siti che non mostrano un banner, per esempio fuori dall'UE, ha meno da dire.
 
 PRIVACY
 Tutto avviene nel tuo browser. Nessun server, nessuna statistica, nessun account,
 nessuna richiesta di rete propria. Quello che conserva viene cancellato alla chiusura
 del browser. Non blocca nulla e non clicca i banner al posto tuo.
 
-Open source (Apache 2.0). Accuratezza misurata su un campione casuale di siti italiani, con metodo e dati pubblicati
-su GitHub.
+Open source (Apache 2.0). Accuratezza misurata su campioni casuali di siti italiani e di altri paesi dell'UE, con
+metodo e dati pubblicati su GitHub.
 
 ---
 

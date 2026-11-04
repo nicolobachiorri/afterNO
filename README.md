@@ -22,7 +22,9 @@ it as a short checklist with a cautious conclusion.
 Open the extension's popup on any site (it shows nothing until you ask):
 
 - **Your choice**: read from the site's consent signal (the IAB TCF standard, used by
-  most news and ad-funded sites) or, when there is none, from the button you clicked.
+  most news and ad-funded sites) or, when there is none, from the button you clicked
+  (recognised in eight EU languages: Italian, English, French, German, Spanish,
+  Portuguese, Dutch, Polish).
 - **A checklist**: each item marked in favour, against, or as information. For example:
   "3 third-party sites can still recognise you from this page: …".
 - **A cautious conclusion**: "Your rejection seems to be respected" / "…seems to be
@@ -175,9 +177,12 @@ extension/            the browser extension (WXT, TypeScript, Manifest V3)
   entrypoints/        background, content script (banner choice), popup
   lib/                the rules: classification, verdict, texts; pure and unit-tested
   public/             translations (_locales/), icons, cookie database (JSON)
-tools/                build_cookie_db.py: CSV -> JSON
+tools/                build_cookie_db.py: CSV -> JSON (with divergence_work_space/overrides.csv)
+quality/              the accuracy measurement: PROTOCOL.md, samples, robot, judgments, runs/
 divergence_work_space/  step 1: the measurement that motivated the project
+store/                store listing texts (LISTING.md), screenshots and the script that takes them
 design/               icon source
+.github/workflows/    tests on every push; monthly update of the cookie database
 ```
 
 ## How it was made

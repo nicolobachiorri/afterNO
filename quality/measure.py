@@ -1,11 +1,15 @@
 """
-Quality measurement: one visit (A or B) to every site of the sample, with the real
-extension installed. See PROTOCOL.md for the method and the rules.
+Quality measurement: one visit (A, B, C1, C2, D1, D2, E1, E2, F1, F2) to every site of
+the sample, with the real extension installed. See PROTOCOL.md for the method and
+the rules.
 
-For each site, in a new browser profile:
+For each site, in a new browser profile and its own process (stopped after 4 minutes,
+protocol modification 29), with the browser language of the site's country when the
+sample gives one (samples E and F):
   1. open the home page with the extension loaded;
-  2. find and click the reject button (same rules as step 1, imported from
-     divergence_work_space/divergence_test.py);
+  2. find and click the reject button (banner functions of step 1, imported from
+     divergence_work_space/divergence_test.py, with the labels of robot_labels.py:
+     the same words as the extension, extension/lib/choice.ts);
   3. wait 5 s, reload, wait 10 s;
   4. save the extension's verdict (read from its popup), screenshots, and the raw
      data collected by this script independently of the extension: every cookie,
@@ -16,12 +20,13 @@ Before running, build the extension in measurement mode (from the extension fold
 
 Usage (from the quality folder, with the step 1 virtual environment active):
     python3 measure.py --pilot https://www.ilmeteo.it   # try the robot outside the sample
-    python3 measure.py --visit A
-    python3 measure.py --visit A --only 3,7      # some sites only (order numbers)
-    python3 measure.py --visit B --headless
+    python3 measure.py --visit F1
+    python3 measure.py --visit F1 --only 3007,4012   # some sites only (order numbers);
+                                                      # results added to the others
+    python3 measure.py --visit F2 --headless
 
 Output: runs/<visit>/results.csv and one folder per site with verdict.json,
-raw.json, popup.png, page.png.
+raw.json, popup.png, page.png (and stage.txt, result.json: working files, ignored).
 """
 
 import argparse
@@ -342,7 +347,7 @@ def main():
                  "Build it first, from the extension folder:  npm run build:test")
 
     if bool(args.visit) == bool(args.pilot):
-        sys.exit("Give either --visit A|B or --pilot URL.")
+        sys.exit("Give either --visit <visit> or --pilot URL.")
     if args.pilot:
         sample = [{"order": "0", "url": args.pilot, "source": "pilot", "role": "pilot"}]
         args.visit, args.only = "pilot", None
