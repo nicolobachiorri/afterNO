@@ -54,5 +54,20 @@
   },
   "items": {
     "ok": 14
+  },
+  "agreement": {
+    "second_judge": "gemini",
+    "measurable": {
+      "observed": 1.0,
+      "kappa": 1.0,
+      "n": 40,
+      "disagreements": []
+    },
+    "conclusion": {
+      "observed": 1.0,
+      "kappa": 1.0,
+      "n": 14,
+      "disagreements": []
+    }
   }
 }

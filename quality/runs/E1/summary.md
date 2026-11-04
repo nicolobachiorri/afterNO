@@ -17,3 +17,11 @@ Non misurabili, per motivo: banner senza rifiuto 9, nessun banner 8, clic non ri
 | errore: scelta non registrata | 0 | 0% | 0%–22% |
 
 Punti della lista, nei 14 siti in cui la scelta è stata registrata: tutti corretti 14.
+
+## Accordo con il secondo giudice (gemini)
+
+| Domanda | Siti | Accordo osservato | Kappa di Cohen |
+| --- | --- | --- | --- |
+| Misurabile sì/no | 40 | 100% | 1.00 |
+| Conclusione (siti misurabili per entrambi) | 14 | 100% | 1.00 |
+

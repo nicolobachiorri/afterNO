@@ -35,3 +35,6 @@ Spec MVP.md
 
 # Images generated with other services: kept local, not published
 design/generated/
+
+# Self-contained review page with site screenshots, for the second judge
+quality/runs/**/review_gemini*.html

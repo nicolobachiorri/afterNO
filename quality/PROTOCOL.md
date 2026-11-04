@@ -342,3 +342,11 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     secondo clic sovrascriveva il rifiuto con un'accettazione. Un pulsante «salva»
     ora non conta come accettazione; conta come rifiuto solo se il nome interno lo
     dice. Da misurare su un campione nuovo.
+26. *Visita E1, secondo giudice.* Gemini ha giudicato i quattro file
+    `review_gemini_*.html` (la pagina di giudizio divisa in quattro, con le immagini
+    ridotte, perché intera era troppo pesante); risposta salvata senza modifiche in
+    `judgments_E1_gemini.csv` (l'originale `gemini-code-*.txt` resta). Accordo sulla
+    misurabilità 40 su 40, sulla conclusione 14 su 14. Sul sito 4503 Gemini ha
+    segnalato un'etichetta sbagliata che il giudice principale non aveva visto:
+    `ajs_anonymous_id` (Segment) attribuito a Trustpilot dal database. Corretto in
+    `overrides.csv` con `ajs_user_id`; i giudizi di E1 restano come dati.

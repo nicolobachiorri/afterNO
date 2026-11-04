@@ -74,54 +74,67 @@ An extension sees what the browser sees. It does not see, and does not claim to 
 
 ## How accurate is it?
 
-Measured on **40 Italian sites the extension had never been tried on**, drawn at
-random from the [Tranco](https://tranco-list.eu) list (ID ZJ8PG) with a fixed seed. For
-each site a robot opened the home page with the extension installed, clicked "Reject"
-and saved the extension's verdict and, independently, the raw data (every cookie,
-every site contacted after the click, the TCF signal). The method was written down
-before the results: [quality/PROTOCOL.md](quality/PROTOCOL.md).
+Measured on sites **the extension had never been tried on**, drawn at random from the
+[Tranco](https://tranco-list.eu) list (ID ZJ8PG) with a fixed seed: 40 Italian sites,
+then 40 sites of eight other EU countries (Germany, Austria, France, Spain, Portugal,
+the Netherlands, Poland, Ireland; five each, visited with the language of their
+country). For each site a robot opened the home page with the extension installed,
+clicked "Reject" and saved the extension's verdict and, independently, the raw data
+(every cookie, every site contacted after the click, the TCF signal). The method was
+written down before the results: [quality/PROTOCOL.md](quality/PROTOCOL.md).
 
-Two different numbers, not to be mixed up:
+Three different numbers, not to be mixed up:
 
 - **Coverage**: of the 40 sites, how many offered a rejection that could be checked
   (a free reject button the robot could click). Where there is no rejection, there is
   nothing to check.
-- **Accuracy**: of those sites, how many conclusions were right. All the other figures
-  below are out of these sites.
+- **Accuracy**: of those sites, how many conclusions were right.
+- **Stability**: the same sites visited again the next day with the same version: is
+  the answer the same?
 
-| | Result (95% Wilson interval) |
-| --- | --- |
-| **Coverage**: sites with a rejection to check | **22 of 40** |
-| **Accuracy**: conclusion correct | **22 of 22: at least 85%** (interval 85–100%) |
-| False alarms ("only partly respected" when the data say otherwise) | 0 of 22 |
-| Problems not seen ("seems respected" when the data show a tracker) | 0 of 22 |
-| Choice not recorded (banner closed, extension unaware) | 0 of 22 |
-| Agreement of the second judge on the conclusion | 21 of 22 (95%) |
+| | Italy | Other EU countries |
+| --- | --- | --- |
+| **Coverage**: sites with a rejection to check | **22 of 40** | **14 of 40** |
+| **Accuracy**: conclusion correct (95% Wilson interval) | **22 of 22: at least 85%** | **14 of 14: at least 78%** |
+| False alarms ("only partly respected" when the data say otherwise) | 0 | 0 |
+| Problems not seen ("seems respected" when the data show a tracker) | 0 | 0 |
+| Choice not recorded (banner closed, extension unaware) | 0 | 0 |
+| Agreement of the second judge on the conclusion | 21 of 22 | 14 of 14 |
+| **Stability**: same conclusion the next day | not measured on this version | **14 of 14: at least 78%** |
 
 What to keep in mind:
 
-- **Small sample.** 22 checkable sites give a wide interval: 22 of 22 means "at
-  least 85%" with reasonable confidence, not "never wrong".
-- **The 18 sites without a rejection to check**: 7 offered only "accept" or
-  "reject and subscribe", 6 showed no banner, 3 used a reject the robot cannot click
-  (a closing X, a German banner), 2 blocked the robot. The rules deciding which sites
-  are checkable were written before the results, and both judges agreed on them for
-  all 40 sites.
+- **Small samples.** 14 or 22 checkable sites give a wide interval: all correct means
+  "at least 78–85%" with reasonable confidence, not "never wrong".
+- **The sites without a rejection to check.** Italy: 7 offered only "accept" or
+  "reject and subscribe", 6 showed no banner, 3 used a reject the robot cannot click,
+  2 blocked the robot. Other EU countries: 9 without a free reject, 8 without a banner,
+  3 blocked the robot, 1 with toggles and "save" only, and 5 with a free reject in
+  words neither the robot nor the extension knew yet ("Alle Dienste ablehnen", "Non
+  merci", "Odmawiam", "Nie zgadzam się", "I Do Not Accept"). Those words were added
+  after the second visit, together with two defects found on the same sites (see the
+  protocol, modifications 24 and 25); the fix is to be measured on new sites. Both
+  judges agreed on which sites were checkable, for all 80 sites.
 - **Who judged.** The verdicts were judged against the raw data by Claude, the AI that
   wrote most of the code: a conflict of interest, stated here. Gemini (a model from
-  another company) judged the same sites independently and disagreed on one: on
-  docpeter.it it called a false alarm the warning about a Shopify cookie
-  (`_shop_app_essential`, readable by other sites, valid a year), which Claude judged
-  correct by the protocol's rules. Cohen's κ is not informative here (0.00), because
-  the first judge gave the same answer to every site.
+  another company) judged the same sites independently. In Italy it disagreed on one
+  conclusion: on docpeter.it it called a false alarm the warning about a Shopify
+  cookie (`_shop_app_essential`, readable by other sites, valid a year), which Claude
+  judged correct by the protocol's rules. In the other countries it agreed on every
+  conclusion, and caught a wrong label Claude had missed: Segment's `ajs_anonymous_id`
+  shown as "Trustpilot", now corrected. Cohen's κ is not informative here, because
+  the judges gave the same answer to almost every site.
 - **A new browser profile for each site.** The robot has never visited other sites, so
   trackers have no cookies of it yet. The measurement says whether the extension reads
   correctly the data in front of it; it does not say how often a real user, whose
   browser already holds trackers' cookies, would see "only partly respected".
+- **From Italy.** The robot connects from Italy: a site may choose its banner from the
+  address, not from the browser's language. In practice the banners came in the
+  language of each country.
 - **Chromium only.**
-- **Earlier rounds.** The previous version, on another 40 new sites, gave 15 of 19
-  correct (79%), with 3 choices not recorded; those defects were fixed before this
-  measurement. A first version gave 14 of 25 (56%). All rounds, data and judgments
+- **Earlier rounds.** The previous version, on another 40 new Italian sites, gave 15 of
+  19 correct (79%), with 3 choices not recorded; those defects were fixed before these
+  measurements. A first version gave 14 of 25 (56%). All rounds, data and judgments
   are in [quality/](quality/).
 
 ## Privacy
