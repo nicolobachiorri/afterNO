@@ -4,7 +4,7 @@ Texts to paste into the Chrome Web Store and Firefox Add-ons (AMO) forms. Keep t
 line with README.md and PRIVACY.md: if the extension changes, change them here first.
 
 Contact email (both stores): afterno.extension@gmail.com
-Privacy policy URL: the GitHub address of PRIVACY.md (once the repository is public)
+Privacy policy URL: https://github.com/nicolobachiorri/afterNO/blob/main/PRIVACY.md
 Homepage URL: https://nicolobachiorri.github.io/afterNO/
 Support URL: the GitHub repository
 
