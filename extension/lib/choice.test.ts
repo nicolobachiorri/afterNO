@@ -278,3 +278,12 @@ test('sample E: rejections with words in between, "I ...", "no thanks"', () => {
   for (const label of ['Alle Dienste erlauben', 'I Accept', 'Zgadzam się', 'Akkoord', 'Alle Cookies akzeptieren'])
     assert.equal(classifyLabel(label), 'accept', label);
 });
+
+// meduniwien.ac.at (sample E): the site clicks its own "save" button after the reject.
+test('a "save settings" button is not an acceptance, even if named "accept" inside', () => {
+  assert.equal(classifyControl('Einstellungen speichern', 'fcc-cookie-button_accept-selection'), null);
+  assert.equal(classifyControl('Save preferences', 'accept-btn'), null);
+  assert.equal(classifyControl('Salva le scelte', 'save-necessary'), 'reject');
+  assert.equal(classifyControl('Alle Dienste ablehnen', 'fcc-cookie-button_disable-all'), 'reject');
+  assert.equal(classifyControl('Accetta e salva', 'accept'), 'accept');
+});

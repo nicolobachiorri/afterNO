@@ -123,10 +123,18 @@ export function classifyAttributes(attrs: string): LabelKind | null {
 
 // Text and attributes together. When they disagree, nothing is claimed: precision first.
 // A label about paying or subscribing wins over everything, whatever the attributes say.
+// "Save settings" is neither: it saves whatever the toggles say. Some platforms
+// still name it "accept" internally (meduniwien.ac.at: «Alle Dienste ablehnen» turns
+// the toggles off and then clicks «Einstellungen speichern» by itself, and that second
+// click overwrote the rejection with an acceptance). A save button counts only when
+// its internal name says reject, as in "save-necessary".
+const SAVE = /^\s*((einstellungen|auswahl|meine auswahl|preferences|settings|selection|my choices|impostazioni|scelte|preferenze|selezione|choix|préférences|paramètres|configuración|preferencias|selección|preferências|seleção|instellingen|voorkeuren|keuze|ustawienia|wybór)\s+)?(speichern|bestätigen|save|confirm|salva|conferma|enregistrer|valider|confirmer|guardar|confirmar|opslaan|bevestigen|zapisz|potwierd)/i;
+
 export function classifyControl(label: string, attrs: string): LabelKind | null {
   if (PAYWALL.test(label)) return null;
   const byText = classifyLabel(label);
   const byAttrs = classifyAttributes(attrs);
+  if (!byText && SAVE.test(label)) return byAttrs === 'reject' ? 'reject' : null;
   if (byText && byAttrs && byText !== byAttrs) return null;
   return byText ?? byAttrs;
 }

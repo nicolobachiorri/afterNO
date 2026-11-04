@@ -25,6 +25,8 @@ const TWO_LABEL_SUFFIXES = new Set([
   'gov.it', 'edu.it', ...IT_PROVINCES,
   // Other European public administrations and common two-label suffixes.
   'gouv.fr', 'com.es', 'org.es', 'gob.es', 'co.at', 'or.at', 'gv.at',
+  // Austrian universities: meduniwien.ac.at was stored as site "ac.at" (sample E).
+  'ac.at', 'edu.pl', 'edu.es', 'edu.pt',
   'com.pl', 'net.pl', 'org.pl', 'gov.pl', 'com.pt', 'gov.pt', 'com.gr', 'gov.gr', 'com.cy',
 ]);
 

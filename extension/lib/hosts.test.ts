@@ -35,3 +35,8 @@ test('third party means a different site', () => {
   assert.equal(isThirdParty('static.ilmeteo.it', 'www.ilmeteo.it'), false);
   assert.equal(isThirdParty('gum.criteo.com', 'www.ilmeteo.it'), true);
 });
+
+test('Austrian universities are separate sites (sample E)', () => {
+  assert.equal(siteOf('www.meduniwien.ac.at'), 'meduniwien.ac.at');
+  assert.equal(siteOf('www.univie.ac.at'), 'univie.ac.at');
+});

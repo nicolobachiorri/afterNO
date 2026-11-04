@@ -333,3 +333,12 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     «I» prima del verbo inglese, «no grazie» nelle otto lingue, «odmawiam» e «nie
     zgadzam się». I risultati di E1 ed E2 restano quelli della versione precedente;
     la correzione si misura su un campione nuovo.
+25. *Diagnosi dei cinque siti (fuori misura).* Con le parole estese, l'estensione
+    registra il rifiuto su operadeparis.fr, doradcasmaku.pl, prv.pl e pleanala.ie.
+    Su meduniwien.ac.at due difetti: (a) il sito era registrato come «ac.at»,
+    perché il suffisso delle università austriache mancava (aggiunti ac.at, edu.pl,
+    edu.es, edu.pt); (b) «Alle Dienste ablehnen» spegne le opzioni e poi il sito
+    clicca da solo «Einstellungen speichern», che ha nel nome interno «accept»: il
+    secondo clic sovrascriveva il rifiuto con un'accettazione. Un pulsante «salva»
+    ora non conta come accettazione; conta come rifiuto solo se il nome interno lo
+    dice. Da misurare su un campione nuovo.

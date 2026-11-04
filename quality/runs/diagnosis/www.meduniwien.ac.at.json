@@ -73,11 +73,11 @@
   "events_in_frame": [],
   "banner_still_visible": true,
   "extension_choice": {
-    "choice:ac.at": {
-      "at": 1793790981576,
-      "choice": "accepted",
-      "label": "Einstellungen speichern",
-      "site": "ac.at",
+    "choice:meduniwien.ac.at": {
+      "at": 1793791579757,
+      "choice": "rejected",
+      "label": "Alle Dienste ablehnen",
+      "site": "meduniwien.ac.at",
       "source": "click",
       "trigger": "action"
     }
