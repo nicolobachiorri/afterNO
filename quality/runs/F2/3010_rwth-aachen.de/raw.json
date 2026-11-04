@@ -1,0 +1,34 @@
+{
+  "url": "https://www.rwth-aachen.de",
+  "final_url": "https://www.rwth-aachen.de/go/id/a/",
+  "click_at_s": 27.01,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Informationen f\u00fcr...",
+    "Schnelleinstieg",
+    "Suchen",
+    "Im Modul herunter scrollen",
+    "Studium",
+    "Forschung",
+    "Transfer",
+    "Wir"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {},
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "awcssessionid",
+      "domain": "www.rwth-aachen.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

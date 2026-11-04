@@ -1,0 +1,121 @@
+{
+  "host": "www.beliani.pt",
+  "choice": {
+    "at": 1793806310063,
+    "choice": "rejected",
+    "label": "Aceitar apenas os cookies essenciais",
+    "site": "beliani.pt",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Aceitar apenas os cookies essenciais"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 3,
+      "names": [
+        "TikTok (tiktok.com)",
+        "X (twitter.com)",
+        "X (t.co)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 6,
+      "names": [
+        "Pinterest",
+        "TikTok",
+        "Facebook"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.beliani.pt/",
+    "lastSeen": {
+      "analytics-ipv6.tiktokw.us": 1793806304305,
+      "analytics.tiktok.com": 1793806316309,
+      "analytics.twitter.com": 1793806314059,
+      "app.chaport.com": 1793806317259,
+      "appleid.cdn-apple.com": 1793806315691,
+      "assets.chaport.com": 1793806317248,
+      "bat.bing.com": 1793806315514,
+      "bat.bing.net": 1793806316053,
+      "beliani.info": 1793806301177,
+      "connect.facebook.net": 1793806316259,
+      "ct.pinterest.com": 1793806316494,
+      "e.clarity.ms": 1793806321907,
+      "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws": 1793806316286,
+      "img.pictureserver.net": 1793806315345,
+      "pictureserver.net": 1793806316789,
+      "q.clarity.ms": 1793806315316,
+      "region1.google-analytics.com": 1793806315556,
+      "s.pinimg.com": 1793806315514,
+      "s1.kuantokusta.pt": 1793806315443,
+      "scripts.clarity.ms": 1793806316445,
+      "static.ads-twitter.com": 1793806315443,
+      "static.cloudflareinsights.com": 1793806315391,
+      "sub.beliani.pt": 1793806321682,
+      "t.co": 1793806314059,
+      "trck-ipv6.spoteffects.net": 1793806304306,
+      "trck.spoteffects.net": 1793806315443,
+      "www.beliani.pt": 1793806316524,
+      "www.clarity.ms": 1793806316052,
+      "www.facebook.com": 1793806316297,
+      "www.google.com": 1793806316754,
+      "www.googletagmanager.com": 1793806315436,
+      "www.gstatic.com": 1793806316758,
+      "www.pictureserver.net": 1793806303168
+    }
+  },
+  "hostsConsidered": [
+    "analytics.tiktok.com",
+    "analytics.twitter.com",
+    "app.chaport.com",
+    "appleid.cdn-apple.com",
+    "assets.chaport.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "connect.facebook.net",
+    "ct.pinterest.com",
+    "e.clarity.ms",
+    "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws",
+    "img.pictureserver.net",
+    "pictureserver.net",
+    "q.clarity.ms",
+    "region1.google-analytics.com",
+    "s.pinimg.com",
+    "s1.kuantokusta.pt",
+    "scripts.clarity.ms",
+    "static.ads-twitter.com",
+    "static.cloudflareinsights.com",
+    "sub.beliani.pt",
+    "t.co",
+    "trck.spoteffects.net",
+    "www.beliani.pt",
+    "www.clarity.ms",
+    "www.facebook.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ]
+}

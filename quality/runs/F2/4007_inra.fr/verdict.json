@@ -1,0 +1,45 @@
+{
+  "host": "www.inrae.fr",
+  "choice": {
+    "at": 1793805984528,
+    "choice": "rejected",
+    "label": "Tout refuser",
+    "site": "inrae.fr",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Tout refuser"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.inrae.fr/",
+    "lastSeen": {
+      "dvutvwxjfu-dsn.algolia.net": 1793805989643,
+      "i.ytimg.com": 1793805976204,
+      "tag.aticdn.net": 1793805976007,
+      "www.inrae.fr": 1793805989936
+    }
+  },
+  "hostsConsidered": [
+    "dvutvwxjfu-dsn.algolia.net",
+    "www.inrae.fr"
+  ]
+}

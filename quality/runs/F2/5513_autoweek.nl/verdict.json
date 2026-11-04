@@ -1,0 +1,48 @@
+{
+  "host": "myprivacy.dpgmedia.nl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "dpgmedia.net"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Snowplow"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://myprivacy.dpgmedia.nl/consent?siteKey=ujm6mv0jrqiz5syr&callbackUrl=https%3A%2F%2Fwww.autoweek.nl%2Fprivacygate-confirm%3FredirectUri%3D%252F&isLoggedIn=false",
+    "lastSeen": {
+      "c.dpgmedia.net": 1793806767528,
+      "myprivacy-static.dpgmedia.net": 1793806766964,
+      "myprivacy.dpgmedia.nl": 1793806767529,
+      "pg.dpgmedia.net": 1793806766959,
+      "pg.dpgmedia.nl": 1793806766809,
+      "sp.dpgmedia.net": 1793806767238,
+      "www.googletagmanager.com": 1793806766802
+    }
+  },
+  "hostsConsidered": [
+    "c.dpgmedia.net",
+    "myprivacy-static.dpgmedia.net",
+    "myprivacy.dpgmedia.nl",
+    "pg.dpgmedia.net",
+    "pg.dpgmedia.nl",
+    "sp.dpgmedia.net",
+    "www.googletagmanager.com"
+  ]
+}

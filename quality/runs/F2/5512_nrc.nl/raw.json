@@ -1,0 +1,326 @@
+{
+  "url": "https://www.nrc.nl",
+  "final_url": "https://www.nrc.nl/",
+  "click_at_s": 26.65,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Zelf instellen",
+    "Alle aanvaarden",
+    "Ik word abonnee",
+    "Menu",
+    "Volg Politiek Den Haag",
+    "Volg Fotografie",
+    "Volg Carri\u00e8re"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "adserving.optoutadvertising.com": {
+      "first_s": 3.97,
+      "last_s": 3.97
+    },
+    "b.billypx.com": {
+      "first_s": 5.47,
+      "last_s": 5.47
+    },
+    "bgmin.cdn.billygrace.com": {
+      "first_s": 5.09,
+      "last_s": 5.09
+    },
+    "cdn.optoutadvertising.com": {
+      "first_s": 3.96,
+      "last_s": 6.76
+    },
+    "cdn.parsely.com": {
+      "first_s": 3.25,
+      "last_s": 3.25
+    },
+    "end.nmo-ep.nl": {
+      "first_s": 3.62,
+      "last_s": 3.62
+    },
+    "mab.chartbeat.com": {
+      "first_s": 3.51,
+      "last_s": 3.51
+    },
+    "mabping.chartbeat.net": {
+      "first_s": 3.75,
+      "last_s": 3.75
+    },
+    "p1.parsely.com": {
+      "first_s": 3.66,
+      "last_s": 3.66
+    },
+    "ping.chartbeat.net": {
+      "first_s": 3.56,
+      "last_s": 18.56
+    },
+    "prod-nrcm.mhtr.be": {
+      "first_s": 4.58,
+      "last_s": 5.08
+    },
+    "prodh-nrcm.mhtr.be": {
+      "first_s": 10.09,
+      "last_s": 20.09
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 3.25,
+      "last_s": 3.55
+    },
+    "script.hotjar.com": {
+      "first_s": 5.62,
+      "last_s": 5.62
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 2.96,
+      "last_s": 3.55
+    },
+    "static.chartbeat.com": {
+      "first_s": 3.25,
+      "last_s": 3.25
+    },
+    "static.hotjar.com": {
+      "first_s": 5.09,
+      "last_s": 5.09
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.58,
+      "last_s": 4.58
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "T6BNumSun3XSVFoIsgO6+3CPTrcT5olFZNzKv9LY5guLQhjSQejQ+BmClS0_",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1796398733.825166,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "zephr_AWSALB",
+      "domain": "www.nrc.nl",
+      "path": "/",
+      "expires": 1794411534.8952,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "zephr_AWSALBCORS",
+      "domain": "www.nrc.nl",
+      "path": "/",
+      "expires": 1794411534.895243,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1825429134,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_cb",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1827934734,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_chartbeat2",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1827934734,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cb_svref",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1793808534,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_parsely_session",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1793808535,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_parsely_visitor",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1827970735,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_t_tests",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1793810335,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".mhtr.be",
+      "path": "/",
+      "expires": 1793808536.257419,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1828366736.45164,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_mhtc_vsq",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1793808536,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_mhtc_cId",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1796485136,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_mhtc_sId",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1793808550,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "gtm_pageview_count",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1793808536,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "gtm_session_start",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1793808536,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_Q3L8E2PF4V",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1828366736.478261,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__BillyPix_uid",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1809574676,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__BillyPix_session_id",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__BillyPix_sid",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1809574676,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_hjSessionUser_298877",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1825342737,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_hjSession_298877",
+      "domain": ".nrc.nl",
+      "path": "/",
+      "expires": 1793808537,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

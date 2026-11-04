@@ -1,0 +1,306 @@
+{
+  "url": "https://www.polsat.pl",
+  "final_url": "https://www.polsat.pl/",
+  "click_at_s": 12.43,
+  "reload_at_s": 17.43,
+  "reject": "button: 'Odrzu\u0107 wszystko' in main (normal click)",
+  "visible_buttons": [
+    "Wstrzymaj",
+    "Tryb pe\u0142noekranowy",
+    "Poprzedni",
+    "Nast\u0119pny",
+    "Zarz\u0105dzanie preferencjami",
+    "Odrzu\u0107 wszystko",
+    "Akceptuj wszystko"
+  ],
+  "tcf": {
+    "cmpId": 28,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "b2c.redefine.pl",
+    "geolocation.onetrust.com",
+    "ipla.pluscdn.pl",
+    "iwa3.hit.interia.pl",
+    "platform.instagram.com",
+    "privacyportal-de.onetrust.com",
+    "pro.hit.gemius.pl",
+    "redefine.hit.stat24.com",
+    "redefineadpl.hit.gemius.pl",
+    "redirector.redefine.pl",
+    "region1.analytics.google.com",
+    "syndication.twitter.com",
+    "www.google-analytics.com",
+    "www.tiktok.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "b2c.redefine.pl",
+    "geolocation.onetrust.com",
+    "ipla.pluscdn.pl",
+    "iwa3.hit.interia.pl",
+    "platform.instagram.com",
+    "pro.hit.gemius.pl",
+    "redefine.hit.stat24.com",
+    "redefineadpl.hit.gemius.pl",
+    "redirector.redefine.pl",
+    "region1.analytics.google.com",
+    "syndication.twitter.com",
+    "www.google-analytics.com",
+    "www.tiktok.com"
+  ],
+  "third_party_timeline": {
+    "b2c.redefine.pl": {
+      "first_s": 4.23,
+      "last_s": 17.69
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 2.54,
+      "last_s": 3.87
+    },
+    "connect.facebook.net": {
+      "first_s": 2.54,
+      "last_s": 3.49
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.08,
+      "last_s": 17.65
+    },
+    "ipla-e1-99.pluscdn.pl": {
+      "first_s": 5.04,
+      "last_s": 5.5
+    },
+    "ipla.pluscdn.pl": {
+      "first_s": 2.54,
+      "last_s": 18.1
+    },
+    "iwa3.hit.interia.pl": {
+      "first_s": 3.38,
+      "last_s": 17.68
+    },
+    "js.iplsc.com": {
+      "first_s": 3.38,
+      "last_s": 4.44
+    },
+    "platform.instagram.com": {
+      "first_s": 2.56,
+      "last_s": 17.63
+    },
+    "platform.twitter.com": {
+      "first_s": 3.16,
+      "last_s": 3.53
+    },
+    "privacyportal-de.onetrust.com": {
+      "first_s": 12.48,
+      "last_s": 12.48
+    },
+    "pro.hit.gemius.pl": {
+      "first_s": 3.15,
+      "last_s": 17.73
+    },
+    "redefine.hit.stat24.com": {
+      "first_s": 2.54,
+      "last_s": 17.65
+    },
+    "redefineadpl.hit.gemius.pl": {
+      "first_s": 3.38,
+      "last_s": 17.68
+    },
+    "redirector.redefine.pl": {
+      "first_s": 3.19,
+      "last_s": 17.96
+    },
+    "region1.analytics.google.com": {
+      "first_s": 22.64,
+      "last_s": 22.64
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.83,
+      "last_s": 3.83
+    },
+    "script.hotjar.com": {
+      "first_s": 3.91,
+      "last_s": 3.91
+    },
+    "sf16-website-login.neutral.ttwstatic.com": {
+      "first_s": 3.67,
+      "last_s": 4.25
+    },
+    "static.hotjar.com": {
+      "first_s": 3.6,
+      "last_s": 3.6
+    },
+    "syndication.twitter.com": {
+      "first_s": 3.89,
+      "last_s": 17.71
+    },
+    "www.google-analytics.com": {
+      "first_s": 3.59,
+      "last_s": 17.73
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.15,
+      "last_s": 3.59
+    },
+    "www.instagram.com": {
+      "first_s": 3.4,
+      "last_s": 3.4
+    },
+    "www.tiktok.com": {
+      "first_s": 2.56,
+      "last_s": 17.63
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.cookielaw.org",
+    "connect.facebook.net",
+    "ipla-e1-99.pluscdn.pl",
+    "ipla.pluscdn.pl",
+    "js.iplsc.com",
+    "platform.twitter.com",
+    "pro.hit.gemius.pl",
+    "redefine.hit.stat24.com",
+    "script.hotjar.com",
+    "sf16-website-login.neutral.ttwstatic.com",
+    "static.hotjar.com",
+    "www.google-analytics.com",
+    "www.googletagmanager.com",
+    "www.instagram.com"
+  ],
+  "cookies": [
+    {
+      "name": "__u_vid_iwa2",
+      "domain": ".hit.interia.pl",
+      "path": "/",
+      "expires": 1828366876.230737,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__iwa_dvid",
+      "domain": ".polsat.pl",
+      "path": "/",
+      "expires": 1828366862.176725,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_gid",
+      "domain": ".polsat.pl",
+      "path": "/",
+      "expires": 1793893276,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iwa_vid_main",
+      "domain": "www.polsat.pl",
+      "path": "/",
+      "expires": 1828366862.177238,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_hjSession_746855",
+      "domain": ".polsat.pl",
+      "path": "/",
+      "expires": 1793808662,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1793808662.703186,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".polsat.pl",
+      "path": "/",
+      "expires": 1796398870,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "eupubconsent-v2",
+      "domain": ".polsat.pl",
+      "path": "/",
+      "expires": 1796398870,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_EP5SMXVRCB",
+      "domain": ".polsat.pl",
+      "path": "/",
+      "expires": 1828366875.936489,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "GNC",
+      "domain": ".redefine.hit.stat24.com",
+      "path": "/",
+      "expires": 1827934875.971295,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_hjSessionUser_746855",
+      "domain": ".polsat.pl",
+      "path": "/",
+      "expires": 1825342875,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".polsat.pl",
+      "path": "/",
+      "expires": 1828366876.028121,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".polsat.pl",
+      "path": "/",
+      "expires": 1796398876,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

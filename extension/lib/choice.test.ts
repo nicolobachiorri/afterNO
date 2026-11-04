@@ -287,3 +287,16 @@ test('a "save settings" button is not an acceptance, even if named "accept" insi
   assert.equal(classifyControl('Alle Dienste ablehnen', 'fcc-cookie-button_disable-all'), 'reject');
   assert.equal(classifyControl('Accetta e salva', 'accept'), 'accept');
 });
+
+// Sample F, visit F1 (4 November 2026).
+test('sample F: other word orders, and links that open the settings', () => {
+  for (const label of ['Cookies nécessaires uniquement', 'Nécessaires uniquement', 'Weiter ohne zu akzeptieren',
+    'Akceptuj tylko niezbędne', 'Zaakceptuj tylko wymagane', 'Accepteer alleen noodzakelijke cookies',
+    'Cookies : Deny all cookies'])
+    assert.equal(classifyLabel(label), 'reject', label);
+  for (const label of ['ablehnen, ändern oder widerrufen', 'Einstellungen oder ablehnen', 'Rifiuta o personalizza',
+    'Manage settings', 'Zarządzaj opcjami', 'Gérer mes choix'])
+    assert.equal(classifyLabel(label), null, label);
+  for (const label of ['Akceptuj wszystkie', 'Zgadzam się', 'Alle akzeptieren', 'Cookies : OK, accept all'])
+    assert.equal(classifyLabel(label), 'accept', label);
+});

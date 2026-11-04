@@ -1,0 +1,191 @@
+{
+  "url": "https://www.skyscanner.pl",
+  "final_url": "https://www.skyscanner.pl/",
+  "click_at_s": 26.67,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Akceptuj wszystkie",
+    "Akceptuj tylko niezb\u0119dne"
+  ],
+  "tcf": {
+    "cmpId": 340,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 136
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "bam.nr-data.net": {
+      "first_s": 4.76,
+      "last_s": 5.31
+    },
+    "cdn.ketchjs.com": {
+      "first_s": 4.0,
+      "last_s": 4.0
+    },
+    "content.skyscnr.com": {
+      "first_s": 2.6,
+      "last_s": 5.2
+    },
+    "eu.ketchcdn.com": {
+      "first_s": 3.72,
+      "last_s": 4.95
+    },
+    "ift.px-cloud.net": {
+      "first_s": 2.95,
+      "last_s": 2.95
+    },
+    "images.skyscnr.com": {
+      "first_s": 3.49,
+      "last_s": 3.49
+    },
+    "js-agent.newrelic.com": {
+      "first_s": 4.46,
+      "last_s": 4.46
+    },
+    "js.px-cloud.net": {
+      "first_s": 3.15,
+      "last_s": 3.15
+    },
+    "js.skyscnr.com": {
+      "first_s": 2.63,
+      "last_s": 3.65
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.7,
+      "last_s": 3.7
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.7,
+      "last_s": 3.7
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "ssculture",
+      "domain": "www.skyscanner.pl",
+      "path": "/",
+      "expires": 1809358827.140501,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ffcc",
+      "domain": "www.skyscanner.pl",
+      "path": "/",
+      "expires": 1796398827.140791,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "tcc",
+      "domain": "www.skyscanner.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-session_id",
+      "domain": "www.skyscanner.pl",
+      "path": "/",
+      "expires": 1794411627.140807,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pxvid",
+      "domain": "www.skyscanner.pl",
+      "path": "/",
+      "expires": 1825342827.742473,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-consent_id",
+      "domain": "www.skyscanner.pl",
+      "path": "/",
+      "expires": 1828366828.316309,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-consent_id_raw",
+      "domain": "www.skyscanner.pl",
+      "path": "/",
+      "expires": 1828366828.316335,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_swb",
+      "domain": ".skyscanner.pl",
+      "path": "/",
+      "expires": 1828366829,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ketch_consent_v1_",
+      "domain": ".skyscanner.pl",
+      "path": "/",
+      "expires": 1828366829,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_swb_consent_",
+      "domain": ".skyscanner.pl",
+      "path": "/",
+      "expires": 1794411629,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_px3",
+      "domain": "www.skyscanner.pl",
+      "path": "/",
+      "expires": 1793979649.70661,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pxcts",
+      "domain": "www.skyscanner.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

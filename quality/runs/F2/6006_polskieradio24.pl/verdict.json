@@ -1,0 +1,80 @@
+{
+  "host": "polskieradio24.pl",
+  "choice": {
+    "at": 1793806808640,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "site": "polskieradio24.pl",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://polskieradio24.pl/",
+    "lastSeen": {
+      "api.pr24.pl": 1793806813879,
+      "cdn.cookielaw.org": 1793806813849,
+      "cdn.jsdelivr.net": 1793806801081,
+      "cdn.onnetwork.tv": 1793806814199,
+      "cdnt.onnetwork.tv": 1793806814124,
+      "events.newsroom.bi": 1793806818929,
+      "fonts.googleapis.com": 1793806800138,
+      "gapl.hit.gemius.pl": 1793806813846,
+      "geolocation.onetrust.com": 1793806808993,
+      "imasdk.googleapis.com": 1793806814098,
+      "marfeelexperimentsexperienceengine.mrf.io": 1793806801185,
+      "pagead2.googlesyndication.com": 1793806801642,
+      "polskieradio24.pl": 1793806813889,
+      "privacyportal-eu.onetrust.com": 1793806808638,
+      "pubads.g.doubleclick.net": 1793806802072,
+      "region1.google-analytics.com": 1793806819121,
+      "s0.2mdn.net": 1793806801641,
+      "sdk.mrf.io": 1793806800176,
+      "video.onnetwork.tv": 1793806814121,
+      "www.google-analytics.com": 1793806801633,
+      "www.googletagmanager.com": 1793806801744,
+      "www.polskieradio24.pl": 1793806799580
+    }
+  },
+  "hostsConsidered": [
+    "api.pr24.pl",
+    "cdn.cookielaw.org",
+    "cdn.onnetwork.tv",
+    "cdnt.onnetwork.tv",
+    "events.newsroom.bi",
+    "gapl.hit.gemius.pl",
+    "geolocation.onetrust.com",
+    "imasdk.googleapis.com",
+    "polskieradio24.pl",
+    "region1.google-analytics.com",
+    "video.onnetwork.tv"
+  ]
+}

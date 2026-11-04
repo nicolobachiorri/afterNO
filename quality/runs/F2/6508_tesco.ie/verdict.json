@@ -1,0 +1,62 @@
+{
+  "host": "www.tesco.ie",
+  "choice": {
+    "at": 1793807019791,
+    "choice": "rejected",
+    "label": "Reject all cookies",
+    "site": "tesco.ie",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Reject all cookies"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.tesco.ie/",
+    "lastSeen": {
+      "accdn.lpsnmedia.net": 1793807026106,
+      "ade.googlesyndication.com": 1793807025868,
+      "bam.nr-data.net": 1793807025968,
+      "digitalcontent.api.tesco.com": 1793807010964,
+      "js-agent.newrelic.com": 1793807013825,
+      "lo.v.liveperson.net": 1793807026244,
+      "lpcdn.lpsnmedia.net": 1793807025885,
+      "lptag.liveperson.net": 1793807011763,
+      "pagead2.googlesyndication.com": 1793807025869,
+      "smetrics.tesco.com": 1793807025931,
+      "sstm.tesco.ie": 1793807025868,
+      "www.googletagmanager.com": 1793807013831,
+      "www.tesco.com": 1793807012461,
+      "www.tesco.ie": 1793807026183
+    }
+  },
+  "hostsConsidered": [
+    "accdn.lpsnmedia.net",
+    "ade.googlesyndication.com",
+    "bam.nr-data.net",
+    "lo.v.liveperson.net",
+    "lpcdn.lpsnmedia.net",
+    "pagead2.googlesyndication.com",
+    "smetrics.tesco.com",
+    "sstm.tesco.ie",
+    "www.tesco.ie"
+  ]
+}

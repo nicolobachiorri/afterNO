@@ -1,0 +1,54 @@
+{
+  "host": "www.kleinanzeigen.de",
+  "choice": {
+    "at": 1793805765987,
+    "choice": "rejected",
+    "label": "ablehnen, ändern oder widerrufen",
+    "site": "kleinanzeigen.de",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "ablehnen, ändern oder widerrufen"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.kleinanzeigen.de/gdpr?redirectTo=https%3A%2F%2Fwww.kleinanzeigen.de%2F",
+    "lastSeen": {
+      "ads-engagement.presage.io": 1793805772207,
+      "gateway.kleinanzeigen.de": 1793805771808,
+      "img.kleinanzeigen.de": 1793805758693,
+      "n1ux7flhug.kameleoon.io": 1793805757149,
+      "pagead2.googlesyndication.com": 1793805771803,
+      "server.sgtm-legacy.kleinanzeigen.de": 1793805772023,
+      "static.kleinanzeigen.de": 1793805758959,
+      "unpkg.com": 1793805758211,
+      "www.googletagmanager.com": 1793805757867,
+      "www.kleinanzeigen.de": 1793805777125
+    }
+  },
+  "hostsConsidered": [
+    "ads-engagement.presage.io",
+    "gateway.kleinanzeigen.de",
+    "pagead2.googlesyndication.com",
+    "server.sgtm-legacy.kleinanzeigen.de",
+    "www.kleinanzeigen.de"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "host": "www.pizzeriasalambo-wien.at",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.pizzeriasalambo-wien.at/",
+    "lastSeen": {
+      "www.pizzeriasalambo-wien.at": 1793805846967
+    }
+  },
+  "hostsConsidered": [
+    "www.pizzeriasalambo-wien.at"
+  ]
+}

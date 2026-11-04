@@ -1,0 +1,234 @@
+{
+  "url": "https://www.infopedia.pt",
+  "final_url": "https://www.infopedia.pt/",
+  "click_at_s": 14.62,
+  "reload_at_s": 19.62,
+  "reject": "button: 'Rejeitar' in main (js click)",
+  "visible_buttons": [
+    "Previous",
+    "Next",
+    "Aceitar",
+    "Rejeitar",
+    "Personalizar",
+    "Saber mais",
+    "Lista de parceiros.",
+    "ACEITAR",
+    "RECUSAR",
+    "CONFIGURAR COOKIES"
+  ],
+  "tcf": {
+    "cmpId": 300,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "bam.eu01.nr-data.net",
+    "fundingchoicesmessages.google.com",
+    "h.clarity.ms",
+    "j.clarity.ms",
+    "region1.google-analytics.com",
+    "www.clarity.ms",
+    "www.youtube.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "bam.eu01.nr-data.net",
+    "fundingchoicesmessages.google.com",
+    "j.clarity.ms",
+    "region1.google-analytics.com",
+    "www.clarity.ms",
+    "www.youtube.com"
+  ],
+  "third_party_timeline": {
+    "a.clarity.ms": {
+      "first_s": 4.64,
+      "last_s": 11.72
+    },
+    "bam.eu01.nr-data.net": {
+      "first_s": 4.19,
+      "last_s": 20.59
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.65,
+      "last_s": 2.65
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.65,
+      "last_s": 3.78
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.05,
+      "last_s": 3.8
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 3.04,
+      "last_s": 20.59
+    },
+    "h.clarity.ms": {
+      "first_s": 15.91,
+      "last_s": 19.18
+    },
+    "j.clarity.ms": {
+      "first_s": 20.76,
+      "last_s": 28.57
+    },
+    "js-agent.newrelic.com": {
+      "first_s": 3.88,
+      "last_s": 3.88
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.39,
+      "last_s": 25.0
+    },
+    "scripts.clarity.ms": {
+      "first_s": 4.13,
+      "last_s": 4.13
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.64,
+      "last_s": 3.09
+    },
+    "www.clarity.ms": {
+      "first_s": 3.88,
+      "last_s": 20.57
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.65,
+      "last_s": 3.16
+    },
+    "www.youtube.com": {
+      "first_s": 2.65,
+      "last_s": 20.01
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.jsdelivr.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "js-agent.newrelic.com",
+    "scripts.clarity.ms",
+    "securepubads.g.doubleclick.net",
+    "www.googletagmanager.com",
+    "www.youtube.com"
+  ],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": "www.infopedia.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".infopedia.pt",
+      "path": "/",
+      "expires": 1793808069.010046,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://infopedia.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809358270.76888,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://infopedia.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809358270.768905,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://infopedia.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".infopedia.pt",
+      "path": "/",
+      "expires": 1827502270,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "klaro",
+      "domain": ".infopedia.pt",
+      "path": "/",
+      "expires": 1824910287,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "klaroServer",
+      "domain": ".infopedia.pt",
+      "path": "/",
+      "expires": 1825342287.341827,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809358270.529378,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://infopedia.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809358282.529419,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://infopedia.pt",
+        "hasCrossSiteAncestor": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "host": "www.dlr.de",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.dlr.de/de",
+    "lastSeen": {
+      "www.dlr.de": 1793805789097
+    }
+  },
+  "hostsConsidered": [
+    "www.dlr.de"
+  ]
+}

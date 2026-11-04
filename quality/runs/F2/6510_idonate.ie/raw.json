@@ -1,0 +1,275 @@
+{
+  "url": "https://www.idonate.ie",
+  "final_url": "https://www.idonate.ie/",
+  "click_at_s": 28.31,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "OK, accept all",
+    "Deny all cookies",
+    "Personalize",
+    "Fundraise",
+    "Donate",
+    "About",
+    "Events",
+    "Fundraisers",
+    "Raffles"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "i.clarity.ms"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 5.94,
+      "last_s": 5.94
+    },
+    "ad.doubleclick.net": {
+      "first_s": 6.01,
+      "last_s": 6.01
+    },
+    "cdn.tarteaucitron.io": {
+      "first_s": 7.06,
+      "last_s": 7.4
+    },
+    "cdntag.tarteaucitron.io": {
+      "first_s": 3.07,
+      "last_s": 3.07
+    },
+    "i.clarity.ms": {
+      "first_s": 8.27,
+      "last_s": 30.93
+    },
+    "js.stripe.com": {
+      "first_s": 5.89,
+      "last_s": 12.07
+    },
+    "logs.tarteaucitron.io": {
+      "first_s": 8.7,
+      "last_s": 8.7
+    },
+    "m.stripe.com": {
+      "first_s": 7.83,
+      "last_s": 7.83
+    },
+    "m.stripe.network": {
+      "first_s": 7.61,
+      "last_s": 7.74
+    },
+    "o4507453321576448.ingest.de.sentry.io": {
+      "first_s": 5.54,
+      "last_s": 5.91
+    },
+    "r.stripe.com": {
+      "first_s": 8.1,
+      "last_s": 13.11
+    },
+    "region1.analytics.google.com": {
+      "first_s": 6.01,
+      "last_s": 11.02
+    },
+    "scripts.clarity.ms": {
+      "first_s": 7.76,
+      "last_s": 7.76
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.79,
+      "last_s": 2.79
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 6.01,
+      "last_s": 6.01
+    },
+    "tarteaucitron.io": {
+      "first_s": 2.77,
+      "last_s": 2.77
+    },
+    "umami.idonate.ltd": {
+      "first_s": 2.77,
+      "last_s": 7.06
+    },
+    "www.clarity.ms": {
+      "first_s": 5.94,
+      "last_s": 5.94
+    },
+    "www.google.com": {
+      "first_s": 6.01,
+      "last_s": 6.01
+    },
+    "www.google.it": {
+      "first_s": 6.01,
+      "last_s": 6.01
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.77,
+      "last_s": 2.77
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "iDn_csrfSecret",
+      "domain": "www.idonate.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "idn-gb-user-id-production",
+      "domain": "www.idonate.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": "www.idonate.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_zaraz_client",
+      "domain": ".idonate.ie",
+      "path": "/",
+      "expires": 1825343042.31223,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".idonate.ie",
+      "path": "/",
+      "expires": 1825343042.69536,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://idonate.ie",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "browser_unique",
+      "domain": "www.idonate.ie",
+      "path": "/",
+      "expires": 1825343043.585255,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".idonate.ie",
+      "path": "/",
+      "expires": 1828367043.648716,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".idonate.ie",
+      "path": "/",
+      "expires": 1801583043,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_YK9VKPRB29",
+      "domain": ".idonate.ie",
+      "path": "/",
+      "expires": 1828367043.657248,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "tarteaucitron",
+      "domain": "www.idonate.ie",
+      "path": "/",
+      "expires": 1825343045,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "m",
+      "domain": "m.stripe.com",
+      "path": "/",
+      "expires": 1828367046.347404,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__stripe_mid",
+      "domain": ".www.idonate.ie",
+      "path": "/",
+      "expires": 1825343046,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__stripe_sid",
+      "domain": ".www.idonate.ie",
+      "path": "/",
+      "expires": 1793808846,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ph_phc_yCAFmRzgahfeqU5pxmnfsjhtajRrPMWqB9fF6Q9qv6tk_posthog",
+      "domain": ".idonate.ie",
+      "path": "/",
+      "expires": 1825343049,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALBCORS",
+      "domain": "www.idonate.ie",
+      "path": "/",
+      "expires": 1794411868.423448,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALB",
+      "domain": "www.idonate.ie",
+      "path": "/",
+      "expires": 1794411868.423533,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "host": "www.bricomarche.pl",
+  "choice": {
+    "at": 1793806926227,
+    "choice": "rejected",
+    "label": "Odrzuć wszystkie",
+    "site": "bricomarche.pl",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Odrzuć wszystkie"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Stape"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.bricomarche.pl/",
+    "lastSeen": {
+      "api-brico.adafir.eu": 1793806932893,
+      "api.cookiefirst.com": 1793806926231,
+      "cdn.eye-able.com": 1793806918969,
+      "consent.cookiefirst.com": 1793806931771,
+      "edge.cookiefirst.com": 1793806931676,
+      "pagead2.googlesyndication.com": 1793806931583,
+      "region1.google-analytics.com": 1793806931743,
+      "server.bricomarche.pl": 1793806931742,
+      "static.cloudflareinsights.com": 1793806917789,
+      "www.bricomarche.pl": 1793806937207,
+      "www.googletagmanager.com": 1793806918232
+    }
+  },
+  "hostsConsidered": [
+    "api-brico.adafir.eu",
+    "api.cookiefirst.com",
+    "consent.cookiefirst.com",
+    "edge.cookiefirst.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "server.bricomarche.pl",
+    "www.bricomarche.pl"
+  ]
+}

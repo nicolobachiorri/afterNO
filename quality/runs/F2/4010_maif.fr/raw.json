@@ -1,0 +1,145 @@
+{
+  "url": "https://www.maif.fr",
+  "final_url": "https://www.maif.fr/",
+  "click_at_s": 11.05,
+  "reload_at_s": 16.05,
+  "reject": "button: 'Refuser' in main (normal click)",
+  "visible_buttons": [
+    "Habitation ouvrir le menu",
+    "V\u00e9hicule et mobilit\u00e9 ouvrir le menu",
+    "Famille et vie quotidienne ouvrir le menu",
+    "\u00c9pargne et patrimoine ouvrir le menu",
+    "Personnalisation des cookies",
+    "Personnaliser mes choix",
+    "Refuser",
+    "Accepter"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.trustcommander.net": {
+      "first_s": 2.88,
+      "last_s": 2.88
+    },
+    "privacy.trustcommander.net": {
+      "first_s": 3.13,
+      "last_s": 11.02
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.trustcommander.net"
+  ],
+  "cookies": [
+    {
+      "name": "slb_route",
+      "domain": "www.maif.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "SERVERID",
+      "domain": "www.maif.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TCPID",
+      "domain": ".maif.fr",
+      "path": "/",
+      "expires": 1827761263,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "atuserid",
+      "domain": ".maif.fr",
+      "path": "/",
+      "expires": 1809530863,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "pageRef",
+      "domain": ".maif.fr",
+      "path": "/",
+      "expires": 1793807876,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "DISTRIBUTED_JSESSIONID",
+      "domain": "www.maif.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dtCookie",
+      "domain": ".maif.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TS017fea21",
+      "domain": ".maif.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TC_PRIVACY",
+      "domain": ".maif.fr",
+      "path": "/",
+      "expires": 1809358071,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TC_PRIVACY_CENTER",
+      "domain": ".maif.fr",
+      "path": "/",
+      "expires": 1809358071,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "atauthority",
+      "domain": ".maif.fr",
+      "path": "/",
+      "expires": 1809530876,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -394,3 +394,18 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     quel link registrato come rifiuto; «Akceptuj tylko niezbędne» letto come
     accettazione; «Cookies nécessaires uniquement» e «Weiter ohne zu akzeptieren»
     non riconosciuti; su idonate.ie il robot non clicca «Deny all cookies».
+34. *Visita F2.* Fatta lo stesso giorno di F1, circa un'ora dopo (non il giorno dopo
+    come previsto dalla modifica 27), con la stessa build e lo stesso robot: come per
+    C2 (modifica 13), la stabilità misurata è un limite superiore. Il robot ha
+    cliccato in modo uguale su 39 siti su 40; su gld.nl il browser si è fermato al
+    caricamento, come al primo tentativo di F1. Stessa scelta registrata e stessa
+    conclusione in 19 siti su 19.
+35. *Correzioni dopo F2* (preparate dopo F1, applicate solo dopo F2, nella stessa
+    forma nell'estensione e nel robot): «Akceptuj tylko niezbędne», «Zaakceptuj
+    tylko wymagane», «Accepteer alleen noodzakelijke» sono rifiuti; «Cookies
+    nécessaires uniquement» e «Weiter ohne zu akzeptieren» riconosciuti;
+    un'etichetta che parla anche di modificare o gestire («ablehnen, ändern oder
+    widerrufen», «Einstellungen oder ablehnen», «Manage settings») apre le
+    impostazioni e non è una scelta; il prefisso «Cookies :» del nome accessibile
+    (tarteaucitron, idonate.ie, visto con `inspect_buttons.py`) è ammesso. Da misurare
+    su un campione nuovo.

@@ -1,0 +1,34 @@
+{
+  "host": "nebenan.de",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://nebenan.de/",
+    "lastSeen": {
+      "cdn.privacy-mgmt.com": 1793805693958,
+      "nebenan.de": 1793805692931,
+      "sp.nebenan.de": 1793805692826,
+      "static.nebenan.de": 1793805694207,
+      "strapi-cms.nebenan.de": 1793805692903,
+      "www.nebenan.de": 1793805691642
+    }
+  },
+  "hostsConsidered": [
+    "cdn.privacy-mgmt.com",
+    "nebenan.de",
+    "sp.nebenan.de",
+    "static.nebenan.de",
+    "strapi-cms.nebenan.de",
+    "www.nebenan.de"
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "url": "https://www.slate.fr",
+  "final_url": "https://www.slate.fr/",
+  "click_at_s": 11.22,
+  "reload_at_s": 16.22,
+  "reject": "button: 'Continuer sans accepter' in main (normal click)",
+  "visible_buttons": [
+    "\u2192",
+    "\u2190",
+    "Instagram",
+    "Facebook",
+    "X",
+    "TikTok",
+    "LinkedIn",
+    "YouTube",
+    "x1",
+    "Continuer sans accepter",
+    "partenaires",
+    "Param\u00e9trer vos choix",
+    "Tout accepter"
+  ],
+  "tcf": {
+    "cmpId": 92,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 11,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "2e23a354583d65f945d97e2aa8769a08.safeframe.googlesyndication.com",
+    "896aab5e3a589846ce0e7129e0deaa2f.safeframe.googlesyndication.com",
+    "ad.adsrvr.org",
+    "api.consentframework.com",
+    "cdn.ampproject.org",
+    "de2-bid.adsrvr.org",
+    "enduser.adsrvr.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "impressions.onelink.me",
+    "ms-ads-monitoring-events.presage.io",
+    "o56819.ingest.sentry.io",
+    "pagead2.googlesyndication.com",
+    "pbs.optidigital.com",
+    "region1.google-analytics.com",
+    "s.update.adsrvr.org",
+    "securepubads.g.doubleclick.net",
+    "tpc.googlesyndication.com",
+    "www.facebook.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "896aab5e3a589846ce0e7129e0deaa2f.safeframe.googlesyndication.com",
+    "ad.adsrvr.org",
+    "api.consentframework.com",
+    "cdn.ampproject.org",
+    "de2-bid.adsrvr.org",
+    "enduser.adsrvr.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "impressions.onelink.me",
+    "ms-ads-monitoring-events.presage.io",
+    "o56819.ingest.sentry.io",
+    "pagead2.googlesyndication.com",
+    "pbs.optidigital.com",
+    "region1.google-analytics.com",
+    "s.update.adsrvr.org",
+    "securepubads.g.doubleclick.net",
+    "tpc.googlesyndication.com",
+    "www.facebook.com"
+  ],
+  "third_party_timeline": {
+    "2e23a354583d65f945d97e2aa8769a08.safeframe.googlesyndication.com": {
+      "first_s": 12.16,
+      "last_s": 12.16
+    },
+    "896aab5e3a589846ce0e7129e0deaa2f.safeframe.googlesyndication.com": {
+      "first_s": 17.59,
+      "last_s": 17.59
+    },
+    "ad.adsrvr.org": {
+      "first_s": 17.61,
+      "last_s": 17.83
+    },
+    "api.consentframework.com": {
+      "first_s": 2.94,
+      "last_s": 16.44
+    },
+    "applets.ebxcdn.com": {
+      "first_s": 2.33,
+      "last_s": 3.07
+    },
+    "cache.consentframework.com": {
+      "first_s": 2.33,
+      "last_s": 2.33
+    },
+    "cdn.abconsent.net": {
+      "first_s": 3.28,
+      "last_s": 3.28
+    },
+    "cdn.ampproject.org": {
+      "first_s": 17.61,
+      "last_s": 17.61
+    },
+    "choices.consentframework.com": {
+      "first_s": 2.33,
+      "last_s": 3.6
+    },
+    "connect.facebook.net": {
+      "first_s": 5.74,
+      "last_s": 6.0
+    },
+    "custom-codes.prod.cloud.ogury.io": {
+      "first_s": 3.09,
+      "last_s": 3.09
+    },
+    "de2-bid.adsrvr.org": {
+      "first_s": 17.83,
+      "last_s": 17.83
+    },
+    "enduser.adsrvr.org": {
+      "first_s": 17.83,
+      "last_s": 17.83
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 12.15,
+      "last_s": 17.67
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 12.96,
+      "last_s": 17.15
+    },
+    "fonts.googleapis.com": {
+      "first_s": 17.61,
+      "last_s": 17.61
+    },
+    "fonts.gstatic.com": {
+      "first_s": 17.83,
+      "last_s": 17.83
+    },
+    "impressions.onelink.me": {
+      "first_s": 17.83,
+      "last_s": 17.83
+    },
+    "ms-ads-monitoring-events.presage.io": {
+      "first_s": 3.29,
+      "last_s": 16.41
+    },
+    "mwtw.presage.io": {
+      "first_s": 2.41,
+      "last_s": 2.41
+    },
+    "o56819.ingest.sentry.io": {
+      "first_s": 3.29,
+      "last_s": 16.41
+    },
+    "optiyield-data.opti-digital.com": {
+      "first_s": 2.75,
+      "last_s": 2.75
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 12.15,
+      "last_s": 19.07
+    },
+    "pbs.optidigital.com": {
+      "first_s": 2.9,
+      "last_s": 16.76
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.18,
+      "last_s": 16.39
+    },
+    "s.update.adsrvr.org": {
+      "first_s": 17.83,
+      "last_s": 17.83
+    },
+    "scripts.opti-digital.com": {
+      "first_s": 2.33,
+      "last_s": 2.91
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.33,
+      "last_s": 17.05
+    },
+    "tag.agrvt.com": {
+      "first_s": 2.74,
+      "last_s": 2.74
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 12.72,
+      "last_s": 17.61
+    },
+    "www.facebook.com": {
+      "first_s": 6.44,
+      "last_s": 19.38
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.33,
+      "last_s": 2.99
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "896aab5e3a589846ce0e7129e0deaa2f.safeframe.googlesyndication.com",
+    "api.consentframework.com",
+    "applets.ebxcdn.com",
+    "cache.consentframework.com",
+    "cdn.ampproject.org",
+    "choices.consentframework.com",
+    "connect.facebook.net",
+    "custom-codes.prod.cloud.ogury.io",
+    "ep2.adtrafficquality.google",
+    "mwtw.presage.io",
+    "optiyield-data.opti-digital.com",
+    "pagead2.googlesyndication.com",
+    "scripts.opti-digital.com",
+    "securepubads.g.doubleclick.net",
+    "tag.agrvt.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".opti-digital.com",
+      "path": "/",
+      "expires": 1793807836.129887,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__sdgcm",
+      "domain": ".slate.fr",
+      "path": "/",
+      "expires": 1809358049.575396,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".slate.fr",
+      "path": "/",
+      "expires": 1801582052,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".slate.fr",
+      "path": "/",
+      "expires": 1809358043.57121,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "odconsent",
+      "domain": ".pbs.optidigital.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".slate.fr",
+      "path": "/",
+      "expires": 1809358045,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

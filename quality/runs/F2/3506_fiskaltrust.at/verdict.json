@@ -1,0 +1,43 @@
+{
+  "host": "fiskaltrust.eu",
+  "choice": {
+    "at": 1793805828512,
+    "choice": "rejected",
+    "label": "Nur notwendige",
+    "site": "fiskaltrust.eu",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Nur notwendige"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://fiskaltrust.eu/de-at/",
+    "lastSeen": {
+      "fiskaltrust.eu": 1793805833905,
+      "w.fiskaltrust.eu": 1793805833806
+    }
+  },
+  "hostsConsidered": [
+    "fiskaltrust.eu",
+    "w.fiskaltrust.eu"
+  ]
+}

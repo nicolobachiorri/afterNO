@@ -1,0 +1,38 @@
+{
+  "host": "www.mooiedomeinnaam.nl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.mooiedomeinnaam.nl/",
+    "lastSeen": {
+      "code.jquery.com": 1793806429000,
+      "region1.google-analytics.com": 1793806429734,
+      "www.googletagmanager.com": 1793806429305,
+      "www.mooiedomeinnaam.nl": 1793806449484
+    }
+  },
+  "hostsConsidered": [
+    "code.jquery.com",
+    "region1.google-analytics.com",
+    "www.googletagmanager.com",
+    "www.mooiedomeinnaam.nl"
+  ]
+}

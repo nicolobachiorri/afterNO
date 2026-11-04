@@ -1,0 +1,523 @@
+{
+  "url": "https://www.beliani.pt",
+  "final_url": "https://www.beliani.pt/",
+  "click_at_s": 11.77,
+  "reload_at_s": 16.77,
+  "reject": "button: '' in main (normal click)",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "analytics.tiktok.com",
+    "analytics.twitter.com",
+    "app.chaport.com",
+    "appleid.cdn-apple.com",
+    "assets.chaport.com",
+    "bat.bing.net",
+    "beliani.info",
+    "connect.facebook.net",
+    "ct.pinterest.com",
+    "e.clarity.ms",
+    "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws",
+    "pictureserver.net",
+    "q.clarity.ms",
+    "region1.google-analytics.com",
+    "static.ads-twitter.com",
+    "t.co",
+    "trck.spoteffects.net",
+    "www.clarity.ms",
+    "www.facebook.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.pictureserver.net"
+  ],
+  "third_party_hosts_after_reload": [
+    "analytics.tiktok.com",
+    "analytics.twitter.com",
+    "app.chaport.com",
+    "appleid.cdn-apple.com",
+    "assets.chaport.com",
+    "bat.bing.net",
+    "beliani.info",
+    "connect.facebook.net",
+    "ct.pinterest.com",
+    "e.clarity.ms",
+    "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws",
+    "pictureserver.net",
+    "region1.google-analytics.com",
+    "static.ads-twitter.com",
+    "t.co",
+    "trck.spoteffects.net",
+    "www.clarity.ms",
+    "www.facebook.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.pictureserver.net"
+  ],
+  "third_party_timeline": {
+    "analytics-ipv6.tiktokw.us": {
+      "first_s": 5.97,
+      "last_s": 5.97
+    },
+    "analytics.tiktok.com": {
+      "first_s": 3.58,
+      "last_s": 17.97
+    },
+    "analytics.twitter.com": {
+      "first_s": 5.73,
+      "last_s": 27.23
+    },
+    "app.chaport.com": {
+      "first_s": 3.58,
+      "last_s": 18.92
+    },
+    "appleid.cdn-apple.com": {
+      "first_s": 3.99,
+      "last_s": 17.36
+    },
+    "assets.chaport.com": {
+      "first_s": 5.75,
+      "last_s": 18.94
+    },
+    "bat.bing.com": {
+      "first_s": 3.58,
+      "last_s": 5.3
+    },
+    "bat.bing.net": {
+      "first_s": 5.49,
+      "last_s": 17.73
+    },
+    "beliani.info": {
+      "first_s": 2.84,
+      "last_s": 17.01
+    },
+    "connect.facebook.net": {
+      "first_s": 3.99,
+      "last_s": 17.56
+    },
+    "ct.pinterest.com": {
+      "first_s": 5.37,
+      "last_s": 17.76
+    },
+    "e.clarity.ms": {
+      "first_s": 18.21,
+      "last_s": 23.57
+    },
+    "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws": {
+      "first_s": 6.49,
+      "last_s": 17.95
+    },
+    "img.pictureserver.net": {
+      "first_s": 2.85,
+      "last_s": 2.85
+    },
+    "pictureserver.net": {
+      "first_s": 2.84,
+      "last_s": 26.97
+    },
+    "q.clarity.ms": {
+      "first_s": 6.51,
+      "last_s": 13.38
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.8,
+      "last_s": 17.23
+    },
+    "s.pinimg.com": {
+      "first_s": 3.58,
+      "last_s": 4.92
+    },
+    "s1.kuantokusta.pt": {
+      "first_s": 3.58,
+      "last_s": 3.58
+    },
+    "scripts.clarity.ms": {
+      "first_s": 5.91,
+      "last_s": 5.91
+    },
+    "static.ads-twitter.com": {
+      "first_s": 3.58,
+      "last_s": 17.12
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.89,
+      "last_s": 2.89
+    },
+    "t.co": {
+      "first_s": 5.73,
+      "last_s": 27.23
+    },
+    "trck-ipv6.spoteffects.net": {
+      "first_s": 5.97,
+      "last_s": 5.97
+    },
+    "trck.spoteffects.net": {
+      "first_s": 3.58,
+      "last_s": 17.22
+    },
+    "www.clarity.ms": {
+      "first_s": 5.49,
+      "last_s": 17.73
+    },
+    "www.facebook.com": {
+      "first_s": 6.49,
+      "last_s": 17.96
+    },
+    "www.google.com": {
+      "first_s": 10.38,
+      "last_s": 18.42
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.85,
+      "last_s": 3.58
+    },
+    "www.gstatic.com": {
+      "first_s": 10.84,
+      "last_s": 18.42
+    },
+    "www.pictureserver.net": {
+      "first_s": 2.96,
+      "last_s": 17.81
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "analytics.tiktok.com",
+    "app.chaport.com",
+    "assets.chaport.com",
+    "bat.bing.com",
+    "connect.facebook.net",
+    "ct.pinterest.com",
+    "img.pictureserver.net",
+    "pictureserver.net",
+    "s.pinimg.com",
+    "s1.kuantokusta.pt",
+    "scripts.clarity.ms",
+    "static.cloudflareinsights.com",
+    "trck.spoteffects.net",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.pictureserver.net"
+  ],
+  "cookies": [
+    {
+      "name": "off_mobile",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "skin",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1825342301.155695,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "shop_lang",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1825342315.298923,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "customer_email_md5",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "no_show_redirect",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1796398301,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "push_notifications0",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "current_page",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1793809915.914419,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "customer_country",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1828366302.317141,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "LVID",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1825342302.408913,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "referer",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1793809915.914446,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "shop_show_overlay",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1793892702.914462,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_twpid",
+      "domain": ".beliani.pt",
+      "path": "/",
+      "expires": 1827502314.058175,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ttp",
+      "domain": ".tiktok.com",
+      "path": "/",
+      "expires": 1801582315.688783,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.1063.6e73",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1793808115,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pin_unauth",
+      "domain": ".beliani.pt",
+      "path": "/",
+      "expires": 1825342316,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_tt_enable_cookie",
+      "domain": ".beliani.pt",
+      "path": "/",
+      "expires": 1801582316,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ttp",
+      "domain": ".beliani.pt",
+      "path": "/",
+      "expires": 1801582316,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "muc_ads",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1828366304.566225,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1793808104.566241,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "guest_id_marketing",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828366304.653734,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "guest_id_ads",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828366304.653778,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "personalization_id",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828366304.653796,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "guest_id",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828366304.653812,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1793808104.653828,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".beliani.pt",
+      "path": "/",
+      "expires": 1801582316,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "chaport-63c661238998c327000fe701",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1824910309,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookie_warning_done",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1825342310,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_id.1063.6e73",
+      "domain": "www.beliani.pt",
+      "path": "/",
+      "expires": 1827761504,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ttcsid",
+      "domain": ".beliani.pt",
+      "path": "/",
+      "expires": 1801582316,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ttcsid_CA28QH3C77U70J017UBG",
+      "domain": ".beliani.pt",
+      "path": "/",
+      "expires": 1801582316,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_twsid",
+      "domain": ".beliani.pt",
+      "path": "/",
+      "expires": 1827502325.565508,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

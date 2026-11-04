@@ -1,0 +1,127 @@
+{
+  "host": "www.slate.fr",
+  "choice": {
+    "at": 1793806044354,
+    "choice": "rejected",
+    "legitimateInterests": 6,
+    "legitimatePurposes": [
+      2,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "purposesConsented": 0,
+    "purposesTotal": 11,
+    "site": "slate.fr",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecorded",
+      "subs": [
+        0,
+        11
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemLegitimate",
+      "count": 6,
+      "nameKeys": [
+        "tcfPurpose_2",
+        "tcfPurpose_7",
+        "tcfPurpose_8",
+        "tcfPurpose_9",
+        "tcfPurpose_10",
+        "tcfPurpose_11"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Facebook"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.slate.fr/",
+    "lastSeen": {
+      "2e23a354583d65f945d97e2aa8769a08.safeframe.googlesyndication.com": 1793806045293,
+      "896aab5e3a589846ce0e7129e0deaa2f.safeframe.googlesyndication.com": 1793806050730,
+      "ad.adsrvr.org": 1793806050961,
+      "api.consentframework.com": 1793806049578,
+      "applets.ebxcdn.com": 1793806049512,
+      "cache.consentframework.com": 1793806035464,
+      "cdn.abconsent.net": 1793806036409,
+      "cdn.ampproject.org": 1793806045851,
+      "cdn.slate.fr": 1793806049525,
+      "choices.consentframework.com": 1793806036736,
+      "connect.facebook.net": 1793806039135,
+      "custom-codes.prod.cloud.ogury.io": 1793806036224,
+      "de2-bid.adsrvr.org": 1793806050940,
+      "enduser.adsrvr.org": 1793806050940,
+      "ep1.adtrafficquality.google": 1793806050806,
+      "ep2.adtrafficquality.google": 1793806050287,
+      "fonts.googleapis.com": 1793806050739,
+      "fonts.gstatic.com": 1793806050965,
+      "impressions.onelink.me": 1793806050940,
+      "ms-ads-monitoring-events.presage.io": 1793806049540,
+      "mwtw.presage.io": 1793806035826,
+      "o56819.ingest.sentry.io": 1793806049540,
+      "optiyield-data.opti-digital.com": 1793806049539,
+      "pagead2.googlesyndication.com": 1793806052201,
+      "pbs.optidigital.com": 1793806049898,
+      "region1.google-analytics.com": 1793806049525,
+      "s.update.adsrvr.org": 1793806050940,
+      "scripts.opti-digital.com": 1793806036047,
+      "securepubads.g.doubleclick.net": 1793806049592,
+      "tag.agrvt.com": 1793806035868,
+      "tpc.googlesyndication.com": 1793806050742,
+      "www.facebook.com": 1793806052516,
+      "www.googletagmanager.com": 1793806036120,
+      "www.slate.fr": 1793806049589
+    }
+  },
+  "hostsConsidered": [
+    "2e23a354583d65f945d97e2aa8769a08.safeframe.googlesyndication.com",
+    "896aab5e3a589846ce0e7129e0deaa2f.safeframe.googlesyndication.com",
+    "ad.adsrvr.org",
+    "api.consentframework.com",
+    "applets.ebxcdn.com",
+    "cdn.ampproject.org",
+    "cdn.slate.fr",
+    "de2-bid.adsrvr.org",
+    "enduser.adsrvr.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "impressions.onelink.me",
+    "ms-ads-monitoring-events.presage.io",
+    "o56819.ingest.sentry.io",
+    "optiyield-data.opti-digital.com",
+    "pagead2.googlesyndication.com",
+    "pbs.optidigital.com",
+    "region1.google-analytics.com",
+    "s.update.adsrvr.org",
+    "securepubads.g.doubleclick.net",
+    "tpc.googlesyndication.com",
+    "www.facebook.com",
+    "www.slate.fr"
+  ]
+}

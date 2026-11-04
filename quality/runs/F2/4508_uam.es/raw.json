@@ -1,0 +1,156 @@
+{
+  "url": "https://www.uam.es",
+  "final_url": "https://www.uam.es/uam/inicio",
+  "click_at_s": 27.0,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Espa\u00f1ol",
+    "Informaci\u00f3n para...",
+    "Aceptar"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 3.16,
+      "last_s": 3.16
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.23,
+      "last_s": 3.23
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.54,
+      "last_s": 3.54
+    },
+    "region1.analytics.google.com": {
+      "first_s": 3.12,
+      "last_s": 3.12
+    },
+    "ssl.google-analytics.com": {
+      "first_s": 2.7,
+      "last_s": 3.54
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.12,
+      "last_s": 3.12
+    },
+    "www.google.com": {
+      "first_s": 3.16,
+      "last_s": 3.5
+    },
+    "www.google.it": {
+      "first_s": 3.12,
+      "last_s": 3.12
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.7,
+      "last_s": 3.16
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "domain": "www.uam.es",
+      "path": "/ssdlv",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_5TG18SW503",
+      "domain": ".uam.es",
+      "path": "/",
+      "expires": 1828366147.815561,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".uam.es",
+      "path": "/",
+      "expires": 1828366147.818344,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_R9P782Y7SC",
+      "domain": ".uam.es",
+      "path": "/",
+      "expires": 1828366147.818264,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".uam.es",
+      "path": "/",
+      "expires": 1801582148,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__utma",
+      "domain": ".uam.es",
+      "path": "/",
+      "expires": 1828366148.237746,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__utmc",
+      "domain": ".uam.es",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__utmz",
+      "domain": ".uam.es",
+      "path": "/",
+      "expires": 1809574148,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__utmt",
+      "domain": ".uam.es",
+      "path": "/",
+      "expires": 1793806748,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__utmb",
+      "domain": ".uam.es",
+      "path": "/",
+      "expires": 1793807948,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

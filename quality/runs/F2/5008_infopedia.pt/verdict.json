@@ -1,0 +1,70 @@
+{
+  "host": "www.infopedia.pt",
+  "choice": {
+    "at": 1793806281999,
+    "choice": "rejected",
+    "label": "Rejeitar",
+    "site": "infopedia.pt",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rejeitar"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyPartitioned",
+      "count": 1,
+      "names": [
+        "Youtube (youtube.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.infopedia.pt/",
+    "lastSeen": {
+      "a.clarity.ms": 1793806282362,
+      "bam.eu01.nr-data.net": 1793806287973,
+      "cdn.infopedia.pt": 1793806270784,
+      "cdn.jsdelivr.net": 1793806270430,
+      "fonts.googleapis.com": 1793806271164,
+      "fonts.gstatic.com": 1793806271186,
+      "fundingchoicesmessages.google.com": 1793806287971,
+      "h.clarity.ms": 1793806287363,
+      "j.clarity.ms": 1793806295953,
+      "js-agent.newrelic.com": 1793806271263,
+      "region1.google-analytics.com": 1793806292391,
+      "scripts.clarity.ms": 1793806271518,
+      "securepubads.g.doubleclick.net": 1793806287646,
+      "www.clarity.ms": 1793806287962,
+      "www.googletagmanager.com": 1793806270551,
+      "www.infopedia.pt": 1793806287973,
+      "www.youtube.com": 1793806287391
+    }
+  },
+  "hostsConsidered": [
+    "a.clarity.ms",
+    "bam.eu01.nr-data.net",
+    "fundingchoicesmessages.google.com",
+    "h.clarity.ms",
+    "j.clarity.ms",
+    "region1.google-analytics.com",
+    "securepubads.g.doubleclick.net",
+    "www.clarity.ms",
+    "www.infopedia.pt",
+    "www.youtube.com"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "url": "https://www.tarifaluzhora.es",
+  "final_url": "https://tarifaluzhora.es/",
+  "click_at_s": 11.06,
+  "reload_at_s": 16.06,
+  "reject": "button: 'Rechazar' in main (normal click)",
+  "visible_buttons": [
+    "Mercado Luz y Gas",
+    "Tr\u00e1mites",
+    "Distribuidoras",
+    "Ahorro",
+    "Herramientas",
+    "Llama gratis \u00b7 91 198 08 60",
+    "Aceptar",
+    "Rechazar",
+    "Configurar",
+    "Informar de un error en esta p\u00e1gina",
+    "Configurar cookies",
+    "Patricia \u00bfEn qu\u00e9 puedo ayudarte?"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "pulse.selectra.com",
+    "region1.analytics.google.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "pulse.selectra.com",
+    "region1.analytics.google.com"
+  ],
+  "third_party_timeline": {
+    "pulse.selectra.com": {
+      "first_s": 7.78,
+      "last_s": 21.44
+    },
+    "region1.analytics.google.com": {
+      "first_s": 3.38,
+      "last_s": 21.2
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.64,
+      "last_s": 2.64
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.38,
+      "last_s": 3.38
+    },
+    "www.google.it": {
+      "first_s": 3.38,
+      "last_s": 3.38
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.64,
+      "last_s": 3.18
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "pulse.selectra.com",
+    "static.cloudflareinsights.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "_ga",
+      "domain": ".tarifaluzhora.es",
+      "path": "/",
+      "expires": 1828366193.714462,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_LN40QZ2YCQ",
+      "domain": ".tarifaluzhora.es",
+      "path": "/",
+      "expires": 1828366193.714356,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

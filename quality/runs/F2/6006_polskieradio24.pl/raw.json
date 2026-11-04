@@ -1,0 +1,261 @@
+{
+  "url": "https://www.polskieradio24.pl",
+  "final_url": "https://polskieradio24.pl/",
+  "click_at_s": 11.74,
+  "reload_at_s": 16.74,
+  "reject": "button: 'Odrzucenie wszystkich' in main (normal click)",
+  "visible_buttons": [
+    "S\u0141UCHAJ",
+    "Ustawienia prywatno\u015bci",
+    "Ustawienia zaawansowane",
+    "Odrzucenie wszystkich",
+    "Akceptuj\u0119 wszystkie"
+  ],
+  "tcf": {
+    "cmpId": 28,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "cdn.onnetwork.tv",
+    "events.newsroom.bi",
+    "gapl.hit.gemius.pl",
+    "geolocation.onetrust.com",
+    "privacyportal-eu.onetrust.com",
+    "pubads.g.doubleclick.net",
+    "region1.google-analytics.com",
+    "video.onnetwork.tv"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.onnetwork.tv",
+    "events.newsroom.bi",
+    "gapl.hit.gemius.pl",
+    "pubads.g.doubleclick.net",
+    "region1.google-analytics.com",
+    "video.onnetwork.tv"
+  ],
+  "third_party_timeline": {
+    "api.pr24.pl": {
+      "first_s": 2.95,
+      "last_s": 4.42
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 2.95,
+      "last_s": 4.42
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 4.21,
+      "last_s": 4.21
+    },
+    "cdn.onnetwork.tv": {
+      "first_s": 2.95,
+      "last_s": 17.26
+    },
+    "cdnt.onnetwork.tv": {
+      "first_s": 4.77,
+      "last_s": 4.77
+    },
+    "events.newsroom.bi": {
+      "first_s": 9.32,
+      "last_s": 22.06
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.27,
+      "last_s": 3.27
+    },
+    "gapl.hit.gemius.pl": {
+      "first_s": 3.31,
+      "last_s": 16.98
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.58,
+      "last_s": 12.12
+    },
+    "imasdk.googleapis.com": {
+      "first_s": 4.21,
+      "last_s": 4.77
+    },
+    "marfeelexperimentsexperienceengine.mrf.io": {
+      "first_s": 4.32,
+      "last_s": 4.32
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.77,
+      "last_s": 4.77
+    },
+    "privacyportal-eu.onetrust.com": {
+      "first_s": 11.77,
+      "last_s": 11.77
+    },
+    "pubads.g.doubleclick.net": {
+      "first_s": 5.2,
+      "last_s": 17.28
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.32,
+      "last_s": 22.25
+    },
+    "s0.2mdn.net": {
+      "first_s": 4.77,
+      "last_s": 4.77
+    },
+    "sdk.mrf.io": {
+      "first_s": 3.31,
+      "last_s": 3.31
+    },
+    "video.onnetwork.tv": {
+      "first_s": 2.95,
+      "last_s": 17.25
+    },
+    "www.google-analytics.com": {
+      "first_s": 4.77,
+      "last_s": 4.77
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.31,
+      "last_s": 4.87
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "api.pr24.pl",
+    "cdn.cookielaw.org",
+    "cdn.jsdelivr.net",
+    "cdn.onnetwork.tv",
+    "cdnt.onnetwork.tv",
+    "fonts.googleapis.com",
+    "gapl.hit.gemius.pl",
+    "imasdk.googleapis.com",
+    "marfeelexperimentsexperienceengine.mrf.io",
+    "pagead2.googlesyndication.com",
+    "s0.2mdn.net",
+    "sdk.mrf.io",
+    "www.google-analytics.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "TS0100ce59",
+      "domain": ".www.polskieradio24.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TSff9e97f9027",
+      "domain": "www.polskieradio24.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "pr24_img_fmt",
+      "domain": "polskieradio24.pl",
+      "path": "/",
+      "expires": 1825342800.575035,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pr24_device",
+      "domain": "polskieradio24.pl",
+      "path": "/",
+      "expires": 1825342800.575046,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TS01a35dde",
+      "domain": ".polskieradio24.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".polskieradio24.pl",
+      "path": "/",
+      "expires": 1828366814.118898,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".polskieradio24.pl",
+      "path": "/",
+      "expires": 1825342808,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "eupubconsent-v2",
+      "domain": ".polskieradio24.pl",
+      "path": "/",
+      "expires": 1825342808,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_6BZ5JC4GRQ",
+      "domain": ".polskieradio24.pl",
+      "path": "/",
+      "expires": 1828366809.121552,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".polskieradio24.pl",
+      "path": "/",
+      "expires": 1825342813,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TSff9e97f9027",
+      "domain": "polskieradio24.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_KSCXDDB4SG",
+      "domain": ".polskieradio24.pl",
+      "path": "/",
+      "expires": 1828366814.118787,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

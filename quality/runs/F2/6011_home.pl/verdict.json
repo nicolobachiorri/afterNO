@@ -1,0 +1,70 @@
+{
+  "host": "home.pl",
+  "choice": {
+    "at": 1793806899324,
+    "choice": "rejected",
+    "label": "ODRZUĆ WSZYSTKIE",
+    "site": "home.pl",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "ODRZUĆ WSZYSTKIE"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://home.pl/",
+    "lastSeen": {
+      "ade.googlesyndication.com": 1793806904771,
+      "cdn.consentmanager.net": 1793806891728,
+      "cms-assets.home.pl": 1793806904518,
+      "d.delivery.consentmanager.net": 1793806904649,
+      "home.pl": 1793806912529,
+      "ofkj3q.home.pl": 1793806905738,
+      "onestoreapi.home.pl": 1793806905729,
+      "pagead2.googlesyndication.com": 1793806904649,
+      "region1.google-analytics.com": 1793806910698,
+      "sentry-public.infrasys.tools": 1793806906929,
+      "static.home.pl": 1793806891135,
+      "www.googletagmanager.com": 1793806899745,
+      "www.home.pl": 1793806890299
+    }
+  },
+  "hostsConsidered": [
+    "ade.googlesyndication.com",
+    "cms-assets.home.pl",
+    "d.delivery.consentmanager.net",
+    "home.pl",
+    "ofkj3q.home.pl",
+    "onestoreapi.home.pl",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sentry-public.infrasys.tools",
+    "www.googletagmanager.com"
+  ]
+}

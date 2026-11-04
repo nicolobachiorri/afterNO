@@ -1,0 +1,179 @@
+{
+  "url": "https://www.immobilienscout24.de",
+  "final_url": "https://www.immobilienscout24.de/",
+  "click_at_s": 11.07,
+  "reload_at_s": 16.07,
+  "reject": "link: 'nicht zustimmen' in main (normal click)",
+  "visible_buttons": [
+    "DE",
+    "Suchen",
+    "Wohnung Mieten",
+    "Immobilientypen",
+    "Immobilien in Deutschland entdecken",
+    "Alles rund um die Immobilie",
+    "Anbieterliste",
+    "Einstellungen verwalten",
+    "Alle akzeptieren"
+  ],
+  "tcf": {
+    "cmpId": 5,
+    "eventStatus": "useractioncomplete",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "82d925f87a91.edge.sdk.awswaf.com",
+    "accounts.google.com",
+    "consent-api.service.consent.usercentrics.eu",
+    "pro-web-metrics.alias.s24cloud.net",
+    "uct.service.usercentrics.eu"
+  ],
+  "third_party_hosts_after_reload": [
+    "82d925f87a91.edge.sdk.awswaf.com",
+    "accounts.google.com",
+    "consent-api.service.consent.usercentrics.eu",
+    "uct.service.usercentrics.eu"
+  ],
+  "third_party_timeline": {
+    "82d925f87a91.edge.sdk.awswaf.com": {
+      "first_s": 2.97,
+      "last_s": 18.38
+    },
+    "accounts.google.com": {
+      "first_s": 6.13,
+      "last_s": 16.66
+    },
+    "aggregator.service.usercentrics.eu": {
+      "first_s": 6.97,
+      "last_s": 6.97
+    },
+    "api.usercentrics.eu": {
+      "first_s": 5.42,
+      "last_s": 6.6
+    },
+    "app.usercentrics.eu": {
+      "first_s": 4.76,
+      "last_s": 7.02
+    },
+    "consent-api.service.consent.usercentrics.eu": {
+      "first_s": 6.89,
+      "last_s": 16.47
+    },
+    "gmx.net": {
+      "first_s": 4.68,
+      "last_s": 4.68
+    },
+    "login.gmx.net": {
+      "first_s": 4.68,
+      "last_s": 5.31
+    },
+    "login.web.de": {
+      "first_s": 4.68,
+      "last_s": 5.31
+    },
+    "pro-web-metrics.alias.s24cloud.net": {
+      "first_s": 11.06,
+      "last_s": 11.09
+    },
+    "tags-eu.tiqcdn.com": {
+      "first_s": 4.29,
+      "last_s": 7.2
+    },
+    "uct.service.usercentrics.eu": {
+      "first_s": 6.89,
+      "last_s": 16.47
+    },
+    "web.de": {
+      "first_s": 4.68,
+      "last_s": 4.68
+    },
+    "www.static-immobilienscout24.de": {
+      "first_s": 2.38,
+      "last_s": 7.78
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "82d925f87a91.edge.sdk.awswaf.com",
+    "accounts.google.com",
+    "aggregator.service.usercentrics.eu",
+    "api.usercentrics.eu",
+    "app.usercentrics.eu",
+    "tags-eu.tiqcdn.com",
+    "www.static-immobilienscout24.de"
+  ],
+  "cookies": [
+    {
+      "name": "lang-pref",
+      "domain": "www.immobilienscout24.de",
+      "path": "/",
+      "expires": 1825341666.240433,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "JSESSIONID",
+      "domain": "sso.immobilienscout24.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "consent_status",
+      "domain": ".immobilienscout24.de",
+      "path": "/",
+      "expires": 1801581679,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "g_csrf_token",
+      "domain": "www.immobilienscout24.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "g_state",
+      "domain": "www.immobilienscout24.de",
+      "path": "/",
+      "expires": 1809357679,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main",
+      "domain": ".immobilienscout24.de",
+      "path": "/",
+      "expires": 1825341679,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "aws-waf-token",
+      "domain": ".www.immobilienscout24.de",
+      "path": "/",
+      "expires": 1794151281,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

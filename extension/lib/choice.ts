@@ -52,8 +52,10 @@ export function isChoiceMessage(x: unknown): x is ChoiceMessage {
 // The same words, in Python, are in quality/robot_labels.py for the measurement robot.
 // The aim is precision: a missed rejection shows "no choice recorded", a wrong one
 // would make the popup say "after your rejection" when there was none.
+// tarteaucitron names its buttons "Cookies : Deny all cookies" (idonate.ie, sample F):
+// the name of an icon-only button may start with "Cookies :".
 const REJECT = new RegExp(
-  '^\\s*('
+  '^\\s*(cookies?\\s*:\\s*)?('
   // Italian
   + 'rifiut|nega(re)?\\b|nega il|non accett|non acconsent|(continua|prosegui) senza accettare|no,? grazie|'
   + '(accetta |consenti |usa |continua con )?solo (i |gli |le )?(cookie )?(strettamente )?(necessari|essenziali|tecnici)|'
@@ -62,26 +64,26 @@ const REJECT = new RegExp(
   + 'use (only )?necessary|continue without accepting|'
   // French
   + '(tout |je )?refuser?( tout)?|continuer sans accepter|je n.?accepte pas|non,? merci|'
-  + '(accepter |autoriser )?(uniquement|seulement) (les )?(cookies )?(strictement )?(n[eé]cessaires|essentiels)|'
+  + '(accepter |autoriser )?(uniquement|seulement) (les )?(cookies )?(strictement )?(n[eé]cessaires|essentiels)|(cookies )?(strictement )?(n[eé]cessaires|essentiels) (uniquement|seulement)|'
   // German
   + '((alle|optionale|nicht notwendige)( [a-zäöüß-]+)? )?(cookies )?ablehnen|nicht (akzeptieren|zustimmen)|nein,? danke|'
-  + 'nur (technisch )?(notwendige|erforderliche|essenzielle|essentielle)|weiter ohne (einwilligung|zustimmung|akzeptieren)|'
+  + 'nur (technisch )?(notwendige|erforderliche|essenzielle|essentielle)|weiter ohne (zu )?(einwilligung|zustimmung|akzeptieren)|'
   // Spanish
   + 'rechazar|no acepto|continuar sin aceptar|no,? gracias|'
   + '(aceptar |permitir )?(solo|sólo|únicamente) (las )?(cookies )?(necesarias|esenciales|t[eé]cnicas)|'
   // Portuguese
   + 'rejeitar|recusar|continuar sem aceitar|n[aã]o aceito|n[aã]o,? obrigad[oa]|(aceitar )?(apenas|somente) (os )?(cookies )?(necess[aá]rios|essenciais)|'
   // Dutch
-  + '(alles |alle cookies )?(weigeren|afwijzen)|alleen (noodzakelijke|functionele|essenti[eë]le)|nee,? bedankt|niet akkoord|'
+  + '(alles |alle cookies )?(weigeren|afwijzen)|(accepteer |sta )?alleen (noodzakelijke|functionele|essenti[eë]le)|nee,? bedankt|niet akkoord|'
   // Polish
-  + 'odrzu[cć]|odmawiam|odm[oó]w|nie zgadzam si[eę]|nie akceptuj[eę]|tylko (niezb[eę]dne|wymagane)'
+  + 'odrzu[cć]|odmawiam|odm[oó]w|nie zgadzam si[eę]|nie akceptuj[eę]|((za)?akceptuj |zezw[oó]l na )?tylko (niezb[eę]dne|wymagane)'
   + ')',
   'i',
 );
 // "Rifiuta e abbonati" opens a subscription: it is a pay-or-accept wall, not a rejection.
 const PAYWALL = /abbona|subscri|paga|acquista|premium|abonn|abonnier|abo\b|suscri|assin|bezahl|betal|subskry|prenumer/i;
 const ACCEPT = new RegExp(
-  '^\\s*('
+  '^\\s*(cookies?\\s*:\\s*)?('
   + 'accett|acconsent|consenti (tutt|i cookie)|va bene|ho capito|ok\\b|'
   + '(i )?accept|(i )?agree|allow (all|cookies)|got it|'
   + "j'accepte|tout accepter|autoriser (tous|tout)|d'accord|"
@@ -95,10 +97,16 @@ const ACCEPT = new RegExp(
 
 export type LabelKind = 'reject' | 'accept';
 
+// A label that also talks about changing or managing opens the settings: it is not a
+// choice yet. «ablehnen, ändern oder widerrufen» (kleinanzeigen.de, sample F) starts
+// like a rejection but leads to a second layer; «Einstellungen oder ablehnen» too.
+const SETTINGS = /ändern|einstellungen|anpassen|verwalten|\bmanage|settings|customi[sz]e|preferences|gestisci|personalizza|impostazioni|modifica|param[eé]tr|personnalis|g[eé]rer|configur|gestionar|personaliz|gerir|aanpassen|instellen|instellingen|beheren|zarz[aą]dzaj|ustawieni|dostosuj/i;
+
 export function classifyLabel(label: string): LabelKind | null {
   const text = label.replace(/\s+/g, ' ').trim();
   if (!text || text.length > 60) return null; // a paragraph, not a button
   if (PAYWALL.test(text)) return null;
+  if (SETTINGS.test(text)) return null;
   if (REJECT.test(text)) return 'reject'; // checked first: "continua senza accettare"
   if (ACCEPT.test(text)) return 'accept';
   return null;

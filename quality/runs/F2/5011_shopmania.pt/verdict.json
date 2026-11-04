@@ -1,0 +1,50 @@
+{
+  "host": "www.shopmania.pt",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Google"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.shopmania.pt/",
+    "lastSeen": {
+      "ad.doubleclick.net": 1793806361187,
+      "region1.analytics.google.com": 1793806361011,
+      "s.cdnshm.com": 1793806361233,
+      "stats.g.doubleclick.net": 1793806361012,
+      "www.google.com": 1793806361187,
+      "www.google.it": 1793806361013,
+      "www.googletagmanager.com": 1793806361012,
+      "www.shopmania.pt": 1793806361373
+    }
+  },
+  "hostsConsidered": [
+    "ad.doubleclick.net",
+    "region1.analytics.google.com",
+    "s.cdnshm.com",
+    "stats.g.doubleclick.net",
+    "www.google.com",
+    "www.google.it",
+    "www.googletagmanager.com",
+    "www.shopmania.pt"
+  ]
+}

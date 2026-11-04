@@ -1,0 +1,80 @@
+{
+  "host": "www.idonate.ie",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Google"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.idonate.ie/",
+    "lastSeen": {
+      "accounts.google.com": 1793807043568,
+      "ad.doubleclick.net": 1793807043658,
+      "cdn.idonate.ie": 1793807041724,
+      "cdn.tarteaucitron.io": 1793807045043,
+      "cdntag.tarteaucitron.io": 1793807040716,
+      "i.clarity.ms": 1793807068573,
+      "js.stripe.com": 1793807049711,
+      "logs.tarteaucitron.io": 1793807046344,
+      "m.stripe.com": 1793807045479,
+      "m.stripe.network": 1793807045385,
+      "o4507453321576448.ingest.de.sentry.io": 1793807043548,
+      "r.stripe.com": 1793807050753,
+      "region1.analytics.google.com": 1793807048660,
+      "scripts.clarity.ms": 1793807045380,
+      "static.cloudflareinsights.com": 1793807040433,
+      "stats.g.doubleclick.net": 1793807043650,
+      "tarteaucitron.io": 1793807040403,
+      "umami.idonate.ltd": 1793807044706,
+      "www.clarity.ms": 1793807043568,
+      "www.google.com": 1793807043658,
+      "www.google.it": 1793807043657,
+      "www.googletagmanager.com": 1793807040403,
+      "www.idonate.ie": 1793807068257
+    }
+  },
+  "hostsConsidered": [
+    "accounts.google.com",
+    "ad.doubleclick.net",
+    "cdn.idonate.ie",
+    "cdn.tarteaucitron.io",
+    "cdntag.tarteaucitron.io",
+    "i.clarity.ms",
+    "js.stripe.com",
+    "logs.tarteaucitron.io",
+    "m.stripe.com",
+    "m.stripe.network",
+    "o4507453321576448.ingest.de.sentry.io",
+    "r.stripe.com",
+    "region1.analytics.google.com",
+    "scripts.clarity.ms",
+    "static.cloudflareinsights.com",
+    "stats.g.doubleclick.net",
+    "tarteaucitron.io",
+    "umami.idonate.ltd",
+    "www.clarity.ms",
+    "www.google.com",
+    "www.google.it",
+    "www.googletagmanager.com",
+    "www.idonate.ie"
+  ]
+}

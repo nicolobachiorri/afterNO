@@ -1,0 +1,106 @@
+{
+  "host": "wwws.airfrance.it",
+  "choice": {
+    "at": 1793806100369,
+    "choice": "rejected",
+    "label": "Refuser",
+    "site": "airfrance.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Refuser"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 3,
+      "names": [
+        "optimizely.com",
+        "lytics.io",
+        "r42tag.com"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 8,
+      "names": [
+        "Google Analytics",
+        "Dynatrace"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://wwws.airfrance.it/fr?showredirectnotice=1",
+    "lastSeen": {
+      "a4268742351.cdn.optimizely.com": 1793806106298,
+      "bf96313tpg.bf.dynatrace.com": 1793806115176,
+      "c-eudc.lytics.io": 1793806107718,
+      "c.lytics.io": 1793806098423,
+      "cacheorcheck.mopinion.com": 1793806107477,
+      "cdn.optimizely.com": 1793806105740,
+      "collect.mopinion.com": 1793806101517,
+      "deploy.mopinion.com": 1793806100682,
+      "dok.js-cdn.dynatrace.com": 1793806094621,
+      "eu-personalize-edge.contentstack.com": 1793806106601,
+      "fonts.gstatic.com": 1793806097531,
+      "fonts.mopinion.com": 1793806101517,
+      "gstatic.mopinion.com": 1793806101825,
+      "img.static-af.com": 1793806107678,
+      "jef1nimjiav4.eu.wpi.jscrambler.com": 1793806106109,
+      "logx.optimizely.com": 1793806107345,
+      "region1.google-analytics.com": 1793806112311,
+      "siteintercept.qualtrics.com": 1793806107107,
+      "t.contentsquare.net": 1793806097291,
+      "t.svtrd.com": 1793806100385,
+      "tdn.r42tag.com": 1793806107219,
+      "tk.airfrance.fr": 1793806107285,
+      "www.googletagmanager.com": 1793806095006,
+      "www.gstatic.com": 1793806106526,
+      "www.recaptcha.net": 1793806106520,
+      "www.static-af.com": 1793806106427,
+      "wwws.airfrance.fr": 1793806094413,
+      "wwws.airfrance.it": 1793806107665,
+      "znej7k4eplq9fdf8f-afklm.siteintercept.qualtrics.com": 1793806106118
+    }
+  },
+  "hostsConsidered": [
+    "a4268742351.cdn.optimizely.com",
+    "bf96313tpg.bf.dynatrace.com",
+    "c-eudc.lytics.io",
+    "cacheorcheck.mopinion.com",
+    "cdn.optimizely.com",
+    "collect.mopinion.com",
+    "deploy.mopinion.com",
+    "eu-personalize-edge.contentstack.com",
+    "fonts.mopinion.com",
+    "gstatic.mopinion.com",
+    "img.static-af.com",
+    "jef1nimjiav4.eu.wpi.jscrambler.com",
+    "logx.optimizely.com",
+    "region1.google-analytics.com",
+    "siteintercept.qualtrics.com",
+    "t.svtrd.com",
+    "tdn.r42tag.com",
+    "tk.airfrance.fr",
+    "www.gstatic.com",
+    "www.recaptcha.net",
+    "www.static-af.com",
+    "wwws.airfrance.it",
+    "znej7k4eplq9fdf8f-afklm.siteintercept.qualtrics.com"
+  ]
+}

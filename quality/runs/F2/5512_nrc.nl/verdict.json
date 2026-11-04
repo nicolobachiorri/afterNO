@@ -1,0 +1,79 @@
+{
+  "host": "www.nrc.nl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Chartbeat",
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.nrc.nl/",
+    "lastSeen": {
+      "adserving.optoutadvertising.com": 1793806735355,
+      "assets.nrc.nl": 1793806736496,
+      "b.billypx.com": 1793806736854,
+      "bgmin.cdn.billygrace.com": 1793806736476,
+      "cdn.optoutadvertising.com": 1793806737864,
+      "cdn.parsely.com": 1793806734632,
+      "content3.nrc.nl": 1793806738145,
+      "content4.nrc.nl": 1793806762336,
+      "ec114.nrc.nl": 1793806736479,
+      "end.nmo-ep.nl": 1793806735012,
+      "images.nrc.nl": 1793806734760,
+      "mab.chartbeat.com": 1793806734903,
+      "mabping.chartbeat.net": 1793806735142,
+      "p1.parsely.com": 1793806735052,
+      "ping.chartbeat.net": 1793806749947,
+      "prod-nrcm.mhtr.be": 1793806736470,
+      "prodh-nrcm.mhtr.be": 1793806751477,
+      "sb.scorecardresearch.com": 1793806734936,
+      "script.hotjar.com": 1793806737010,
+      "sdk.privacy-center.org": 1793806734934,
+      "static.chartbeat.com": 1793806734633,
+      "static.hotjar.com": 1793806736474,
+      "www.googletagmanager.com": 1793806735945,
+      "www.nrc.nl": 1793806735041
+    }
+  },
+  "hostsConsidered": [
+    "adserving.optoutadvertising.com",
+    "assets.nrc.nl",
+    "b.billypx.com",
+    "bgmin.cdn.billygrace.com",
+    "cdn.optoutadvertising.com",
+    "cdn.parsely.com",
+    "content3.nrc.nl",
+    "content4.nrc.nl",
+    "ec114.nrc.nl",
+    "end.nmo-ep.nl",
+    "images.nrc.nl",
+    "mab.chartbeat.com",
+    "mabping.chartbeat.net",
+    "p1.parsely.com",
+    "ping.chartbeat.net",
+    "prod-nrcm.mhtr.be",
+    "prodh-nrcm.mhtr.be",
+    "sb.scorecardresearch.com",
+    "script.hotjar.com",
+    "sdk.privacy-center.org",
+    "static.chartbeat.com",
+    "static.hotjar.com",
+    "www.googletagmanager.com",
+    "www.nrc.nl"
+  ]
+}

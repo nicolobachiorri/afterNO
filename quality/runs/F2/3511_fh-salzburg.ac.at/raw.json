@@ -1,0 +1,59 @@
+{
+  "url": "https://www.fh-salzburg.ac.at",
+  "final_url": "https://www.fh-salzburg.ac.at/",
+  "click_at_s": 26.55,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "STUDIUM UND WEITERBILDUNG",
+    "FORSCHUNG",
+    "INTERNATIONALES",
+    "F\u00dcR INTERESSIERTE",
+    "SERVICES MEN\u00dc \u00d6FFNEN MEN\u00dc SCHLIESSEN",
+    "\u00dcBER DIE FH MEN\u00dc \u00d6FFNEN MEN\u00dc SCHLIESSEN",
+    "MEDIEN MEN\u00dc \u00d6FFNEN MEN\u00dc SCHLIESSEN",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "app.usercentrics.eu": {
+      "first_s": 3.73,
+      "last_s": 3.73
+    },
+    "consent-api.service.consent.usercentrics.eu": {
+      "first_s": 4.18,
+      "last_s": 4.18
+    },
+    "privacy-proxy-server.usercentrics.eu": {
+      "first_s": 3.4,
+      "last_s": 3.4
+    },
+    "privacy-proxy.usercentrics.eu": {
+      "first_s": 2.78,
+      "last_s": 4.18
+    },
+    "uct.service.usercentrics.eu": {
+      "first_s": 4.17,
+      "last_s": 4.31
+    },
+    "v1.api.service.cmp.usercentrics.eu": {
+      "first_s": 3.53,
+      "last_s": 3.95
+    },
+    "web.cmp.usercentrics.eu": {
+      "first_s": 2.78,
+      "last_s": 4.5
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": []
+}

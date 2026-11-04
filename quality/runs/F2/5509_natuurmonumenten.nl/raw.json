@@ -1,0 +1,73 @@
+{
+  "url": "https://www.natuurmonumenten.nl",
+  "final_url": "https://www.natuurmonumenten.nl/",
+  "click_at_s": 26.56,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Aanpassen",
+    "Accepteer",
+    "zoek",
+    "Vind een activiteit of route",
+    "Zoek Activiteiten",
+    "Schrijf je gratis in"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "consent.cookiebot.eu": {
+      "first_s": 3.15,
+      "last_s": 3.53
+    },
+    "consentcdn.cookiebot.eu": {
+      "first_s": 3.53,
+      "last_s": 3.53
+    },
+    "imagedelivery.net": {
+      "first_s": 2.64,
+      "last_s": 2.64
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.15,
+      "last_s": 3.58
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.15,
+      "last_s": 3.15
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "session_id",
+      "domain": "www.natuurmonumenten.nl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ntm_session_id",
+      "domain": "www.natuurmonumenten.nl",
+      "path": "/",
+      "expires": 1793813661,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ntm_session_count",
+      "domain": "www.natuurmonumenten.nl",
+      "path": "/",
+      "expires": 1825342461,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

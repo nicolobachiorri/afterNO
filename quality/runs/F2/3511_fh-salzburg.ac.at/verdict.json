@@ -1,0 +1,38 @@
+{
+  "host": "www.fh-salzburg.ac.at",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.fh-salzburg.ac.at/",
+    "lastSeen": {
+      "app.usercentrics.eu": 1793805912666,
+      "consent-api.service.consent.usercentrics.eu": 1793805913112,
+      "privacy-proxy-server.usercentrics.eu": 1793805912337,
+      "privacy-proxy.usercentrics.eu": 1793805913113,
+      "uct.service.usercentrics.eu": 1793805913242,
+      "v1.api.service.cmp.usercentrics.eu": 1793805912888,
+      "web.cmp.usercentrics.eu": 1793805913439,
+      "www.fh-salzburg.ac.at": 1793805936731
+    }
+  },
+  "hostsConsidered": [
+    "app.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu",
+    "privacy-proxy-server.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "uct.service.usercentrics.eu",
+    "v1.api.service.cmp.usercentrics.eu",
+    "web.cmp.usercentrics.eu",
+    "www.fh-salzburg.ac.at"
+  ]
+}

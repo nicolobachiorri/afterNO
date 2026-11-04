@@ -1,0 +1,71 @@
+{
+  "url": "https://www.nebenan.de",
+  "final_url": "https://nebenan.de/",
+  "click_at_s": 26.58,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Wie kann ich mitmachen?",
+    "Welche meiner Informationen sehen meine Nachbarinn",
+    "Wie sch\u00fctzt nebenan.de meine Daten?",
+    "Wie finanziert sich nebenan.de?",
+    "Welche Inhalte kann ich bei nebenan.de teilen?",
+    "Warum ist es wichtig, dass ich mich mit meinem ech",
+    "Wie gehen Nachbarinnen und Nachbarn bei nebenan.de",
+    "Speichern von oder Zugriff auf Informationen auf e",
+    "Personalisierte Werbung und Inhalte, Messung von W",
+    "Funktional, Analytik, Werbung (nicht IAB-Anbieter)",
+    "Einstellungen oder ablehnen",
+    "Ich stimme zu"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 5,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.privacy-mgmt.com": {
+      "first_s": 3.21,
+      "last_s": 4.35
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_snow_ses.ad86",
+      "domain": ".nebenan.de",
+      "path": "/",
+      "expires": 1793807492,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_snow_id.ad86",
+      "domain": ".nebenan.de",
+      "path": "/",
+      "expires": 1828365692.834967,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "consentUUID",
+      "domain": ".nebenan.de",
+      "path": "/",
+      "expires": 1825341693.66752,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

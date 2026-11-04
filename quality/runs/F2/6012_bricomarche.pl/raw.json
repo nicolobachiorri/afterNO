@@ -1,0 +1,142 @@
+{
+  "url": "https://www.bricomarche.pl",
+  "final_url": "https://www.bricomarche.pl/",
+  "click_at_s": 11.05,
+  "reload_at_s": 16.05,
+  "reject": "button: 'Odrzu\u0107 wszystkie' in main (normal click)",
+  "visible_buttons": [
+    "Akceptuj wszystkie",
+    "Odrzu\u0107 wszystkie",
+    "Dostosuj",
+    "Otw\u00f3rz oprogramowanie asystenta wizualnego. Dost\u0119p",
+    "Przejd\u017a do g\u0142\u00f3wnej zawarto\u015bci",
+    "Przejd\u017a do wyszukiwarki",
+    "Kup teraz",
+    "Wybierz Lokalizacj\u0119"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "api-brico.adafir.eu",
+    "api.cookiefirst.com",
+    "consent.cookiefirst.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "api-brico.adafir.eu",
+    "consent.cookiefirst.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com"
+  ],
+  "third_party_timeline": {
+    "api-brico.adafir.eu": {
+      "first_s": 3.92,
+      "last_s": 17.71
+    },
+    "api.cookiefirst.com": {
+      "first_s": 11.05,
+      "last_s": 11.05
+    },
+    "cdn.eye-able.com": {
+      "first_s": 3.05,
+      "last_s": 3.79
+    },
+    "consent.cookiefirst.com": {
+      "first_s": 3.05,
+      "last_s": 16.41
+    },
+    "edge.cookiefirst.com": {
+      "first_s": 3.69,
+      "last_s": 3.69
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 5.36,
+      "last_s": 16.4
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.37,
+      "last_s": 16.56
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.6,
+      "last_s": 2.6
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.7,
+      "last_s": 3.05
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "api-brico.adafir.eu",
+    "cdn.eye-able.com",
+    "consent.cookiefirst.com",
+    "edge.cookiefirst.com",
+    "static.cloudflareinsights.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "cf_clearance",
+      "domain": ".bricomarche.pl",
+      "path": "/",
+      "expires": 1825342918.368868,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://bricomarche.pl",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": "www.bricomarche.pl",
+      "path": "/",
+      "expires": 1796398931.773788,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "device_view",
+      "domain": "www.bricomarche.pl",
+      "path": "/",
+      "expires": 1796398918.639104,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "SEARCH_STORED_KEY",
+      "domain": "www.bricomarche.pl",
+      "path": "/",
+      "expires": 1793893331,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gtmeec",
+      "domain": ".bricomarche.pl",
+      "path": "/",
+      "expires": 1801582932.264233,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiefirst-consent",
+      "domain": "www.bricomarche.pl",
+      "path": "/",
+      "expires": 1824910926,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

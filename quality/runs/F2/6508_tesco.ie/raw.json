@@ -1,0 +1,246 @@
+{
+  "url": "https://www.tesco.ie",
+  "final_url": "https://www.tesco.ie/",
+  "click_at_s": 12.16,
+  "reload_at_s": 17.16,
+  "reject": "button: 'Reject all cookies' in main (normal click)",
+  "visible_buttons": [
+    "Accept all cookies",
+    "Reject all cookies",
+    "Store locator",
+    "Contact us",
+    "My account",
+    "Help",
+    "Groceries",
+    "F&F Clothing",
+    "Tesco Clubcard",
+    "Tesco Mobile"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "accdn.lpsnmedia.net",
+    "ade.googlesyndication.com",
+    "bam.nr-data.net",
+    "lo.v.liveperson.net",
+    "pagead2.googlesyndication.com",
+    "smetrics.tesco.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "accdn.lpsnmedia.net",
+    "ade.googlesyndication.com",
+    "bam.nr-data.net",
+    "lo.v.liveperson.net",
+    "pagead2.googlesyndication.com",
+    "smetrics.tesco.com"
+  ],
+  "third_party_timeline": {
+    "accdn.lpsnmedia.net": {
+      "first_s": 3.83,
+      "last_s": 17.82
+    },
+    "ade.googlesyndication.com": {
+      "first_s": 4.86,
+      "last_s": 17.58
+    },
+    "bam.nr-data.net": {
+      "first_s": 5.74,
+      "last_s": 17.68
+    },
+    "digitalcontent.api.tesco.com": {
+      "first_s": 2.61,
+      "last_s": 2.62
+    },
+    "js-agent.newrelic.com": {
+      "first_s": 5.54,
+      "last_s": 5.54
+    },
+    "lo.v.liveperson.net": {
+      "first_s": 5.68,
+      "last_s": 17.96
+    },
+    "lpcdn.lpsnmedia.net": {
+      "first_s": 3.83,
+      "last_s": 6.46
+    },
+    "lptag.liveperson.net": {
+      "first_s": 2.87,
+      "last_s": 3.48
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.86,
+      "last_s": 17.58
+    },
+    "smetrics.tesco.com": {
+      "first_s": 4.42,
+      "last_s": 17.64
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.43,
+      "last_s": 5.54
+    },
+    "www.tesco.com": {
+      "first_s": 3.82,
+      "last_s": 4.17
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "digitalcontent.api.tesco.com",
+    "js-agent.newrelic.com",
+    "lpcdn.lpsnmedia.net",
+    "lptag.liveperson.net",
+    "www.googletagmanager.com",
+    "www.tesco.com"
+  ],
+  "cookies": [
+    {
+      "name": "atrc",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": 1825343020.418384,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_so",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": 1793893410.873724,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".www.tesco.ie",
+      "path": "/",
+      "expires": 1796399011,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": 1793814211.18531,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ub",
+      "domain": ".sstm.tesco.ie",
+      "path": "/",
+      "expires": 1795621426.105383,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "LPVID",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": 1825343025,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "LPSID-80988774",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiePreferences",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": 1825343018.988948,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_abck",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": 1825343020.528034,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "timestamp",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": 1793821410.552899,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": 1793814213.105403,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "JSESSIONID",
+      "domain": ".nr-data.net",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "akavpau_tesco_ie",
+      "domain": "www.tesco.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_s",
+      "domain": ".tesco.ie",
+      "path": "/",
+      "expires": 1796485426.270326,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

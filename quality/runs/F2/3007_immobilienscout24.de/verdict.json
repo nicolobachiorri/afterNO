@@ -1,0 +1,68 @@
+{
+  "host": "www.immobilienscout24.de",
+  "choice": {
+    "at": 1793805679085,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "site": "immobilienscout24.de",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.immobilienscout24.de/",
+    "lastSeen": {
+      "82d925f87a91.edge.sdk.awswaf.com": 1793805681002,
+      "accounts.google.com": 1793805679282,
+      "aggregator.service.usercentrics.eu": 1793805679192,
+      "api.chatbot.immobilienscout24.de": 1793805667391,
+      "api.header.immobilienscout24.de": 1793805679341,
+      "api.usercentrics.eu": 1793805678980,
+      "app.usercentrics.eu": 1793805678966,
+      "consent-api.service.consent.usercentrics.eu": 1793805679087,
+      "content.header.immobilienscout24.de": 1793805678880,
+      "graphql.usercentrics.eu": 1793805678835,
+      "osa.s24-media.immobilienscout24.de": 1793805666257,
+      "pro-web-metrics.alias.s24cloud.net": 1793805678833,
+      "sso.immobilienscout24.de": 1793805679138,
+      "tags-eu.tiqcdn.com": 1793805669820,
+      "tenant-network.immobilienscout24.de": 1793805678892,
+      "tracking.immobilienscout24.de": 1793805678859,
+      "uct.service.usercentrics.eu": 1793805679088,
+      "web.chatbot.immobilienscout24.de": 1793805679267,
+      "www.immobilienscout24.de": 1793805679466,
+      "www.static-immobilienscout24.de": 1793805670399
+    }
+  },
+  "hostsConsidered": [
+    "82d925f87a91.edge.sdk.awswaf.com",
+    "accounts.google.com",
+    "aggregator.service.usercentrics.eu",
+    "api.header.immobilienscout24.de",
+    "consent-api.service.consent.usercentrics.eu",
+    "sso.immobilienscout24.de",
+    "uct.service.usercentrics.eu",
+    "web.chatbot.immobilienscout24.de",
+    "www.immobilienscout24.de"
+  ]
+}
