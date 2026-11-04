@@ -127,10 +127,17 @@ observes on that site.
 
 **Remote code**: No, I am not using remote code.
 
-**Data usage**: tick no data category. Chrome's form asks what data is *collected*,
-meaning sent off the device; afterNO processes data only locally and sends nothing.
-Then tick the three certifications (no sale or transfer, no unrelated use, no
-creditworthiness use).
+**Data usage**: Google asks for disclosure even when data is only processed or stored
+locally (Chrome Web Store user data FAQ: "Extensions are required to disclose how they
+handle user data, even when data is processed or stored locally"). Tick:
+- Web history (the site being viewed and the third-party hosts it contacts, kept in
+  storage.session until the browser closes);
+- User activity (network monitoring through webRequest; clicks on cookie-banner
+  buttons, any other click discarded);
+- Website content (the text of cookie-banner buttons and the site's TCF signal).
+Nothing else (no personal identifiers, health, financial, authentication data,
+communications or location). Then tick the three certifications (no sale or transfer,
+no unrelated use, no creditworthiness use): all true, since nothing leaves the device.
 
 **Privacy policy URL**: the GitHub address of PRIVACY.md.
 
