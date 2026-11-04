@@ -368,22 +368,6 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
 .chip { font: 500 13px var(--f-mono); padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); }
 .chip.strong { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
 
-/* ---------- the three steps of the demo ---------- */
-.howto { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; list-style: none; margin: 0; padding: 0; }
-.howto li {
-  display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; border-radius: 12px;
-  border: 1px solid var(--line); background: var(--surface); color: var(--muted); font-size: 15px; line-height: 1.4;
-  transition: border-color .2s, background .2s, color .2s;
-}
-.howto .num {
-  flex: 0 0 28px; height: 28px; border-radius: 50%; display: grid; place-items: center;
-  font: 500 13px var(--f-mono); border: 1px solid var(--line); color: var(--muted); background: var(--bg);
-}
-.howto b { display: block; color: inherit; font-weight: 600; margin-bottom: 2px; }
-.howto li.now { border-color: var(--accent); background: var(--accent-soft); color: var(--ink); }
-.howto li.now .num { background: var(--accent); border-color: var(--accent); color: #fff; }
-.howto li.done { color: var(--ink-2); }
-.howto li.done .num { background: var(--ok-soft); border-color: var(--ok-soft); color: var(--ok); }
 .mini-logo { display: inline-block; width: 18px; height: 18px; vertical-align: -3px; margin: 0 2px; }
 .modehint { font-size: 14px; color: var(--muted); }
 
@@ -391,18 +375,32 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
 .ext-btn.jump { animation: jump .45s cubic-bezier(.3,.6,.4,1) 0s 4 alternate, glow 1.6s ease-in-out .9s infinite; }
 @keyframes jump { from { transform: translateY(0) scale(1); } to { transform: translateY(-9px) scale(1.18); } }
 @keyframes glow { 0%, 100% { box-shadow: 0 0 0 0 transparent; } 50% { box-shadow: 0 0 0 7px var(--accent-soft); } }
-.callout {
-  position: absolute; top: 54px; right: 10px; z-index: 4; display: flex; align-items: center; gap: 8px;
-  background: var(--accent); color: #fff; font: 500 13px var(--f-mono); padding: 8px 12px; border-radius: 10px;
-  box-shadow: 0 10px 24px -10px rgb(0 0 0 / .4); animation: rise .35s ease both;
-}
-.callout::before { content: ""; position: absolute; top: -6px; right: 18px; width: 12px; height: 12px; background: var(--accent); transform: rotate(45deg); border-radius: 2px; }
+.parrow { position: absolute; z-index: 6; width: 34px; height: 34px; pointer-events: none; --r: 0deg; }
+.parrow svg { display: block; width: 100%; height: 100%; fill: var(--accent); filter: drop-shadow(2px 2px 0 var(--bg)); animation: pbob .8s steps(2, jump-none) infinite alternate; }
+.parrow[data-dir="up"] { --r: 180deg; } .parrow[data-dir="right"] { --r: -90deg; } .parrow[data-dir="left"] { --r: 90deg; }
+@keyframes pbob { from { transform: rotate(var(--r)) translateY(-5px); } to { transform: rotate(var(--r)) translateY(1px); } }
+@media (prefers-reduced-motion: reduce) { .parrow svg { animation: none; transform: rotate(var(--r)); } }
 
 @media (max-width: 760px) {
   .top-right { width: 100%; min-width: 0; flex-wrap: nowrap; }
   .top-right nav.main { flex: 1 1 0; min-width: 0; width: auto; }
-  .howto { grid-template-columns: 1fr; }
-  .howto li { padding: 10px 12px; }
+}
+
+/* ---------- the wordless story (pixel art, scroll-driven) ---------- */
+html, body { overflow-x: clip; }
+.story { position: relative; height: 480vh; --head: 65px; width: 100vw; left: 50%; margin-left: -50vw; }
+.story-stage { position: sticky; top: var(--head); height: calc(100vh - var(--head)); height: calc(100svh - var(--head)); overflow: hidden; }
+.story-stage canvas { display: block; width: 100%; height: 100%; }
+.story-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.story-static { display: none; }
+.story-fly { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 15; }
+.ext-btn.land svg { animation: land .5s cubic-bezier(.3,.6,.4,1); }
+@keyframes land { 0% { transform: scale(1.3); } 60% { transform: scale(.9); } 100% { transform: scale(1); } }
+@media (max-width: 760px) { .story { --head: 0px; height: 420vh; } }
+@media (prefers-reduced-motion: reduce) {
+  .story { height: auto; } .story-stage, .story-fly { display: none; }
+  .story-static { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .story-static canvas { display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 3; }
 }
 
 .site-privacy { flex-basis: 100%; font-size: 13px; max-width: 80ch; }
@@ -437,33 +435,274 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
   <div class="hero" data-l="it">
     <p class="eyebrow">cosa succede dopo il tuo rifiuto dei cookie</p>
     <h1 class="display">Hai detto <span class="px">NO</span>.<br>E poi?</h1>
-    <p class="lead">afterNO è un'<b>estensione per il browser</b>, per Chrome e Firefox. Clicchi «Rifiuta» sul banner dei cookie di un sito, apri afterNO, e ti dice in parole semplici chi può ancora riconoscerti. Provala qui sotto, su un sito inventato.</p>
+    <p class="lead">afterNO è un'<b>estensione per il browser</b>, per Chrome e Firefox. Clicchi «Rifiuta» sul banner dei cookie di un sito, apri afterNO, e ti dice in poche parole chi può ancora riconoscerti. Provala qui sotto, su un sito inventato.</p>
     <div class="what"><span class="chip strong">estensione per Chrome e Firefox</span><span class="chip">gratuita</span><span class="chip">open source</span><span class="chip">niente esce dal browser</span></div>
   </div>
   <div class="hero" data-l="en">
     <p class="eyebrow">what happens after you reject cookies</p>
     <h1 class="display">You said <span class="px">NO</span>.<br>Then what?</h1>
-    <p class="lead">afterNO is a <b>browser extension</b> for Chrome and Firefox. You click "Reject" on a site's cookie banner, open afterNO, and it tells you in plain words who can still recognise you. Try it below, on a made-up site.</p>
+    <p class="lead">afterNO is a <b>browser extension</b> for Chrome and Firefox. You click "Reject" on a site's cookie banner, open afterNO, and it tells you in a few words who can still recognise you. Try it below, on a made-up site.</p>
     <div class="what"><span class="chip strong">extension for Chrome and Firefox</span><span class="chip">free</span><span class="chip">open source</span><span class="chip">nothing leaves your browser</span></div>
   </div>
 
-  <div class="demo" aria-label="Demo">
-    <ol class="howto" id="howto">
-      <li data-k="1"><span class="num">1</span><span><b data-l="it">Scegli nel banner</b><b data-l="en">Choose in the banner</b><span data-l="it">Clicca «Rifiuta tutto» nel banner del sito qui sotto.</span><span data-l="en">Click "Reject all" in the banner of the site below.</span></span></li>
-      <li data-k="2"><span class="num">2</span><span><b data-l="it">Apri afterNO</b><b data-l="en">Open afterNO</b><span data-l="it">Clicca la sua icona <svg class="mini-logo" viewBox="0 0 128 128" aria-hidden="true"><rect x="4" y="4" width="120" height="120" rx="28" fill="#1F3A5F"/><circle cx="54" cy="54" r="34" fill="#E2B680"/></svg> in alto a destra, nella barra del browser.</span><span data-l="en">Click its icon <svg class="mini-logo" viewBox="0 0 128 128" aria-hidden="true"><rect x="4" y="4" width="120" height="120" rx="28" fill="#1F3A5F"/><circle cx="54" cy="54" r="34" fill="#E2B680"/></svg> at the top right, in the browser bar.</span></span></li>
-      <li data-k="3"><span class="num">3</span><span><b data-l="it">Leggi il verdetto</b><b data-l="en">Read the verdict</b><span data-l="it">Poi apri «Perché?» o «Vedi i cookie» per i dettagli.</span><span data-l="en">Then open "Why?" or "See the cookies" for the details.</span></span></li>
-    </ol>
+  <div class="story" id="story">
+    <p class="story-sr" data-l="it">Animazione senza parole: una persona rifiuta i cookie con la X, ma i cookie escono lo stesso dallo schermo e la guardano. La scena si allontana: la sua stanza sta su un biscotto, ed è ciò che si vede nella lente di afterNO, che va a posarsi nella barra del browser.</p>
+    <p class="story-sr" data-l="en">Wordless animation: a person rejects cookies with the X, but the cookies come out of the screen anyway and watch them. The view pulls back: their room sits on a cookie, and it is what you see in afterNO's lens, which then settles in the browser bar.</p>
+    <div class="story-stage" aria-hidden="true"><canvas id="story-c"></canvas></div>
+    <div class="story-static" id="story-static" aria-hidden="true"></div>
+    <canvas class="story-fly" id="story-fly" aria-hidden="true"></canvas>
+  </div>
+<script>
+(() => {
+  // Two palettes. Same roles as the site: neutrals, blue only for the person, green and red only
+  // on the two buttons, tan and brown only for cookies, navy and cream only for the logo.
+  const LIGHT = { bg:'#f4f4f6', frame:'#1d1d1f', screen:'#fcfcfd', skel:'#e2e2e8', table:'#e2e2e8', base:'#a0a4ac',
+    bannerBg:'#fcfcfd', bannerLine:'#1d1d1f', ok:'#1a7f37', no:'#c0362c', noDown:'#8f2820', glyph:'#fcfcfd',
+    bis:'#e2b680', bis2:'#cca06c', chip:'#6b4423', eye:'#fcfcfd', pupil:'#1d1d1f',
+    skin:'#e8d2be', hair:'#3c4043', shirt:'#3b4bc8', chair:'#5f6368',
+    wall:'#e9e9ee', wallSide:'#d4d4dc', win:'#dfe6f2', winFrame:'#b8b8c4', deskTop:'#c9c9d3', deskSide:'#a0a4ac',
+    lamp:'#f3e9dc', pot:'#8a8f98', leaf:'#7e9a86', picture:'#f3e9dc',
+    navy:'#1f3a5f', cream:'#f3e9dc', lens:'#f4f4f6', chrome:'#e9e9ee', field:'#fcfcfd', ctrl:'#c9c9d3' };
+  const DARK = { bg:'#121216', frame:'#4a4a55', screen:'#1c1c1e', skel:'#2f2f36', table:'#1f1f25', base:'#3a3a42',
+    bannerBg:'#26262b', bannerLine:'#5a5a66', ok:'#2f9e52', no:'#d9564a', noDown:'#9e3a31', glyph:'#121216',
+    bis:'#d6a56b', bis2:'#a97f50', chip:'#5a3a1f', eye:'#f2f2f7', pupil:'#121216',
+    skin:'#d9bfa8', hair:'#6a6a76', shirt:'#6d7cf0', chair:'#4a4a55',
+    wall:'#24242b', wallSide:'#1b1b21', win:'#2a3346', winFrame:'#3a3a44', deskTop:'#3a3a44', deskSide:'#2c2c34',
+    lamp:'#f2d9a8', pot:'#4a4a55', leaf:'#5f7d69', picture:'#3a3a44',
+    navy:'#2b4c78', cream:'#f3e9dc', lens:'#121216', chrome:'#1f1f25', field:'#2a2a31', ctrl:'#3a3a42' };
+  let C = LIGHT;
 
-    <div class="demo-bar">
-      <p class="modehint"><span data-l="it">Prova anche l'altro sito: cambia qui come si comporta, poi ricomincia.</span><span data-l="en">Try the other site too: change how it behaves here, then start again.</span></p>
-      <div class="switch-wrap">
-        <span class="seg-label" id="mode-label"><span data-l="it">il sito di prova:</span><span data-l="en">the demo site:</span></span>
-        <div class="seg" role="group" aria-labelledby="mode-label">
-          <button type="button" id="mode-respect" aria-pressed="true"><span data-l="it">rispetta il rifiuto</span><span data-l="en">respects the rejection</span></button>
-          <button type="button" id="mode-ignore" aria-pressed="false"><span data-l="it">non lo rispetta</span><span data-l="en">ignores it</span></button>
-        </div>
-      </div>
-    </div>
+  const mk = (w, h) => { const c = document.createElement('canvas'); c.width = w; c.height = h; const x = c.getContext('2d'); x.imageSmoothingEnabled = false; return [c, x]; };
+  const R = (x, c, a, b, w, h) => { x.fillStyle = c; x.fillRect(a, b, w, h); };
+  const sprite = (x, rows, a, b, map) => rows.forEach((r, j) => [...r].forEach((ch, i) => { if (ch !== '.') R(x, map[ch], a + i, b + j, 1, 1); }));
+  const ell = (x, cx, cy, rx, ry, col) => { x.fillStyle = col; for (let y = -ry; y <= ry; y++) { const w = Math.round(rx * Math.sqrt(1 - (y * y) / (ry * ry))); x.fillRect(cx - w, cy + y, 2 * w, 1); } };
+  const poly = (x, pts, col) => { x.fillStyle = col; x.beginPath(); pts.forEach(([a, b], i) => i ? x.lineTo(a, b) : x.moveTo(a, b)); x.closePath(); x.fill(); };
+  const COOKIE = ['.ccccc.', 'cwwcwwc', 'cwkcwkc', 'cccdccc', '.cdccc.'];
+  const HAND = ['..kk....', '.kssk...', '.ksskkk.', '.ksssssk', 'kksssssk', 'ksssssk.', 'ksssssk.', '.kssssk.', '.kssssk.'];
+
+  // Scene 1: the laptop, close. banner: 0 none, 1 shown, 2 shown with X pressed.
+  function scene1(banner) {
+    const [c, x] = mk(160, 100);
+    R(x, C.bg, 0, 0, 160, 100); R(x, C.table, 0, 70, 160, 30);
+    R(x, C.frame, 30, 8, 100, 64); R(x, C.screen, 34, 12, 92, 54);
+    R(x, C.skel, 40, 18, 80, 12); R(x, C.skel, 40, 34, 60, 3); R(x, C.skel, 40, 41, 70, 3);
+    R(x, C.base, 20, 72, 120, 4);
+    if (banner) {
+      R(x, C.bannerLine, 44, 48, 72, 16); R(x, C.bannerBg, 45, 49, 70, 14);
+      sprite(x, COOKIE, 48, 52, { c: C.bis, w: C.eye, k: C.pupil, d: C.chip });
+      R(x, C.ok, 62, 52, 22, 8); x.fillStyle = C.glyph;
+      [[68,56],[69,57],[70,58],[71,59],[72,58],[73,57],[74,56],[75,55],[76,54],[77,53]].forEach(([a, b]) => x.fillRect(a, b, 1, 1));
+      R(x, banner === 2 ? C.noDown : C.no, 90, 52, 22, 8); x.fillStyle = C.glyph;
+      for (let i = 0; i < 7; i++) { x.fillRect(97 + i, 53 + i, 1, 1); x.fillRect(103 - i, 53 + i, 1, 1); }
+    }
+    return c;
+  }
+  // Scene 2: a diorama room standing on a cookie. The person sits with their back to us,
+  // facing the same laptop as scene 1 (its screen: x 89..113, y 61..76).
+  function scene2() {
+    const [c, x] = mk(200, 150);
+    ell(x, 100, 106, 90, 30, C.bis2); ell(x, 100, 99, 90, 30, C.bis);
+    [[30,98],[52,112],[150,108],[172,96],[96,120],[126,118],[70,124],[40,86]].forEach(([a, b]) => R(x, C.chip, a, b, 5, 3));
+    poly(x, [[34,18],[34,80],[22,94],[22,32]], C.wallSide);
+    poly(x, [[166,18],[166,80],[178,94],[178,32]], C.wallSide);
+    R(x, C.wall, 34, 18, 132, 62);
+    R(x, C.winFrame, 124, 28, 30, 28); R(x, C.win, 126, 30, 26, 24); R(x, C.winFrame, 138, 30, 2, 24); R(x, C.winFrame, 126, 41, 26, 2);
+    R(x, C.winFrame, 46, 32, 18, 14); R(x, C.picture, 48, 34, 14, 10);
+    R(x, C.pot, 148, 88, 10, 10); ell(x, 153, 81, 7, 8, C.leaf);
+    R(x, C.deskTop, 62, 79, 78, 4); R(x, C.deskSide, 62, 83, 78, 3);
+    R(x, C.deskSide, 64, 86, 3, 14); R(x, C.deskSide, 135, 86, 3, 14);
+    R(x, C.base, 125, 66, 2, 13); poly(x, [[120,67],[131,67],[129,62],[122,62]], C.lamp);
+    R(x, C.base, 84, 77, 34, 2); R(x, C.frame, 88, 60, 26, 17); R(x, C.screen, 89, 61, 24, 15);
+    R(x, C.skel, 91, 63, 20, 3); R(x, C.skel, 91, 68, 14, 1); R(x, C.skel, 91, 70, 17, 1);
+    R(x, C.chair, 74, 100, 2, 6); R(x, C.chair, 87, 100, 2, 6);
+    R(x, C.shirt, 72, 88, 18, 12); R(x, C.shirt, 74, 87, 14, 1);
+    R(x, C.shirt, 88, 84, 4, 6); R(x, C.skin, 90, 82, 4, 3);
+    ell(x, 81, 82, 6, 6, C.hair);
+    R(x, C.chair, 70, 96, 22, 5);
+    return c;
+  }
+  let S1, S2, CK, HD;
+  function build() {
+    S1 = [scene1(1), scene1(2), scene1(0)]; S2 = scene2();
+    let x; [CK, x] = mk(7, 5); sprite(x, COOKIE, 0, 0, { c: C.bis, w: C.eye, k: C.pupil, d: C.chip });
+    [HD, x] = mk(8, 9); sprite(x, HAND, 0, 0, { k: C.frame, s: C.skin });
+  }
+  // where each watching cookie ends up in scene 2, and its size
+  const SPOTS = [[28,12,2],[162,10,2],[190,52,1.4],[10,58,1.4],[118,6,1.4],[66,4,1.4],[190,104,1.4],[96,2,1.6],[106,46,1.1]];
+  // the logo's geometry, from its SVG (128 box, the tile is 120 wide): lens, ring, handle, corners
+  const GEO = { lx: -10 / 120, lr: 34 / 120, ring: 38.5 / 120, h0: 14 / 120, h1: 42 / 120, hw: 16 / 120, rad: 28 / 120 };
+
+  const story = document.getElementById('story'), stage = story.querySelector('.story-stage');
+  const cv = document.getElementById('story-c'), fly = document.getElementById('story-fly');
+  // the demo comes after this script in the page, so its button is looked up when needed
+  let ext = null, extSvg = null;
+  const findExt = () => { if (!extSvg) { ext = document.getElementById('ext-btn'); extSvg = ext && ext.querySelector('svg'); } return extSvg; };
+  let g = cv.getContext('2d'), fg = fly.getContext('2d'), W = 0, H = 0, FW = 0, FH = 0, dpr = 1;
+  function size() {
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = cv.clientWidth; H = cv.clientHeight; cv.width = W * dpr; cv.height = H * dpr;
+    FW = innerWidth; FH = innerHeight; fly.width = FW * dpr; fly.height = FH * dpr;
+  }
+  const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+  const ease = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  const seg = (p, a, b) => ease(clamp((p - a) / (b - a)));
+  const lerp = (a, b, t) => a + (b - a) * t;
+  function img(x, im, cx, cy, s, alpha = 1) { x.globalAlpha = alpha; x.drawImage(im, cx - im.width * s / 2, cy - im.height * s / 2, im.width * s, im.height * s); x.globalAlpha = 1; }
+  const bobOf = (time, i) => Math.sin(time / 600 + i * 1.7);
+
+  // the logo's tile, handle and ring (without what is inside the lens)
+  function logo(x, X, Y, L, alpha) {
+    const lc = [X + GEO.lx * L, Y + GEO.lx * L];
+    x.globalAlpha = alpha; x.fillStyle = C.navy;
+    x.beginPath(); x.roundRect ? x.roundRect(X - L / 2, Y - L / 2, L, L, L * GEO.rad) : x.rect(X - L / 2, Y - L / 2, L, L); x.fill();
+    x.strokeStyle = C.cream; x.lineCap = 'round'; x.lineWidth = L * GEO.hw;
+    x.beginPath(); x.moveTo(X + GEO.h0 * L, Y + GEO.h0 * L); x.lineTo(X + GEO.h1 * L, Y + GEO.h1 * L); x.stroke();
+    x.fillStyle = C.cream; x.beginPath(); x.arc(lc[0], lc[1], GEO.ring * L, 0, Math.PI * 2); x.fill();
+    x.fillStyle = C.lens; x.beginPath(); x.arc(lc[0], lc[1], GEO.lr * L, 0, Math.PI * 2); x.fill();
+    x.globalAlpha = 1;
+    return lc;
+  }
+  // the room and its cookies, scene-2 pixel (100,75) at (ox,oy), scale s
+  function room(x, ox, oy, s, time, alpha = 1) {
+    img(x, S2, ox, oy, s, alpha);
+    SPOTS.forEach(([sx, sy, sz], i) => img(x, CK, ox + (sx - 100) * s, oy + (sy - 75 + bobOf(time, i) * 1.2) * s, s * sz, alpha));
+  }
+  // the finished icon with the room inside the lens: the end of the canvas story, and the flying icon
+  function icon(x, X, Y, L, time, alpha = 1) {
+    x.save();
+    const lc = logo(x, X, Y, L, alpha), lr = GEO.lr * L;
+    x.beginPath(); x.arc(lc[0], lc[1], lr, 0, Math.PI * 2); x.clip();
+    room(x, lc[0], lc[1] + lr * 0.1, 2 * lr / 186, time, alpha);
+    x.restore();
+  }
+
+  // The canvas story: p 0..1 while the stage is pinned.
+  function draw(p, time, flying) {
+    g.setTransform(dpr, 0, 0, dpr, 0, 0); g.imageSmoothingEnabled = false;
+    g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+    if (flying) return;                                      // the icon has left the stage
+    const cx = W / 2, cy = H / 2;
+    const k1 = Math.min(W / 106, H / 84);                    // the laptop fills the screen
+    const k2 = Math.min(W / 188, H / 150);                   // the whole room fills the screen
+    const tB = seg(p, .34, .56), tC = seg(p, .56, .86);
+    const L = Math.min(W, H) * 0.72;
+    if (tC >= 1) { icon(g, cx, cy, L, time); return; }
+    // Camera on scene 2. At tB = 0 its laptop screen (centre 101,68.5, 24 px wide) sits exactly
+    // where scene 1's screen is (centre 80,39, 92 px wide); then it pulls back to the whole room.
+    const scr1 = [cx, cy + (39 - 50) * k1];
+    const s2Start = k1 * 92 / 24;
+    let s2 = s2Start * Math.pow(k2 / s2Start, tB);
+    const f = (s2Start - s2) / (s2Start - k2 || 1);
+    let ox = lerp(scr1[0] - (101 - 100) * s2, cx, f), oy = lerp(scr1[1] - (68.5 - 75) * s2, cy, f);
+    const lc = [cx + GEO.lx * L, cy + GEO.lx * L], lr = GEO.lr * L;
+    s2 = s2 * Math.pow((2 * lr / 186) / s2, tC);
+    ox = lerp(ox, lc[0], tC); oy = lerp(oy, lc[1] + lr * 0.1, tC);
+    g.save();
+    if (tC > 0) {                                            // the logo grows around the room
+      logo(g, cx, cy, L, tC);
+      g.beginPath(); g.arc(lc[0], lc[1], lerp(Math.hypot(W, H), lr, seg(p, .56, .7)), 0, Math.PI * 2); g.clip();
+    }
+    if (tB > 0) img(g, S2, ox, oy, s2, seg(p, .37, .47));
+    if (p < .48) {                                           // scene 1 on top until the pull-back
+      const frame = p > .15 ? S1[2] : p > .1 ? S1[1] : S1[0];
+      const s1 = s2 * 24 / 92;
+      const fy = oy + (68.5 - 75) * s2 + 11 * s1, fa = 1 - seg(p, .40, .48);
+      g.globalAlpha = fa; g.fillStyle = C.table; g.fillRect(0, fy + 20 * s1, W, H); g.globalAlpha = 1;   // the desk runs edge to edge
+      img(g, frame, ox + (101 - 100) * s2, fy, s1, fa);
+      if (p < .2) {                                          // the hand
+        const dip = p > .1 && p < .14 ? k1 : 0, a = 1 - seg(p, .16, .2);
+        const ty = lerp(H + 20, cy + 8 * k1, seg(p, 0, .09)) + dip, hx = cx + 18 * k1;
+        g.globalAlpha = a; g.fillStyle = C.shirt; g.fillRect(hx + k1, ty + 9 * k1, 6 * k1, H);
+        img(g, HD, hx + 4 * k1, ty + 4.5 * k1, k1, a);
+      }
+    }
+    if (p > .15) {                                           // the cookies that watch you anyway
+      const out = seg(p, .15, .34);
+      SPOTS.forEach(([sx, sy, sz], i) => {
+        const b = bobOf(time, i);
+        const ax = lerp(scr1[0], cx + (sx - 100) * k1 * 0.95, out), ay = lerp(scr1[1], cy + (sy - 75) * k1 * 0.75, out) + b * 1.5;
+        const bx = ox + (sx - 100) * s2, by = oy + (sy - 75 + b * 1.2) * s2;
+        img(g, CK, lerp(ax, bx, tB), lerp(ay, by, tB), lerp(k1 * (0.4 + 1.3 * out) * sz / 1.6, s2 * sz, tB), out);
+      });
+    }
+    g.restore();
+  }
+
+  // After the stage lets go, the icon travels in page coordinates from where it was to afterNO's
+  // real button, while the page scrolls up under it. Its curve is chosen so that on screen it starts
+  // still (as it was while the stage was pinned), always moves up and to the right, and ends moving
+  // exactly with the page: it settles on the button instead of hitting it. Tied to the scroll in both
+  // directions, eased frame by frame so a mouse wheel's steps don't show.
+  let landed = false, qs = 0;
+  function flyFrame(time) {
+    fg.setTransform(dpr, 0, 0, dpr, 0, 0); fg.clearRect(0, 0, FW, FH); fg.imageSmoothingEnabled = false;
+    const r = story.getBoundingClientRect(), sr = stage.getBoundingClientRect();
+    const head = parseFloat(getComputedStyle(stage).top) || 0, sh = stage.offsetHeight;
+    const p = clamp(-r.top / (story.offsetHeight - sh - head - 1));
+    if (!findExt()) return [p, false];
+    const br = extSvg.getBoundingClientRect(), sy = scrollY;
+    const release = r.top + sy + story.offsetHeight - sh - head;          // scroll position where the stage lets go
+    const landTop = head + Math.min(160, innerHeight * 0.22);            // the button's top on screen when the icon lands
+    const landAt = br.top + sy - landTop;                                // scroll position of the landing
+    const y0 = release + head + sh / 2, y1 = br.top + sy + br.height / 2; // start and end, in page coordinates
+    const S = landAt - release, D = y1 - y0;
+    let q = p < 1 ? 0 : S > 0 ? clamp((sy - release) / S) : 1;
+    if (p < 1) landed = false;
+    if (landed) q = 1;                                       // once landed it stays, until you scroll back into the story
+    qs += (q - qs) * 0.25; if (Math.abs(q - qs) < 0.002) qs = q;
+    const fly = p >= 1 || qs > 0;
+    if (fly && qs < 1) {
+      const m = D > 0 ? clamp(S / D, 1.05, 3) : 2, e = 1 - Math.pow(1 - qs, m);
+      const scroll = release + qs * S;                       // the scroll this smoothed progress stands for
+      const X0 = sr.left + sr.width / 2, X1 = br.left + br.width / 2;
+      const L0 = Math.min(stage.offsetWidth, sh) * 0.72, L1 = br.width * 120 / 128;
+      const x = lerp(X0, X1, e), y = lerp(y0, y1, e) - scroll + (scroll - sy);
+      icon(fg, x, y, L0 * Math.pow(L1 / L0, e), time, 1 - seg(qs, .94, 1));
+    }
+    extSvg.style.opacity = !fly || qs >= 1 ? (p >= 1 ? '' : '0') : String(seg(qs, .94, 1));
+    if (qs >= 1 && q >= 1 && !landed) { landed = true; ext.classList.remove('land'); void ext.offsetWidth; ext.classList.add('land'); }
+    return [p, fly];
+  }
+
+  // theme: follows the site's rule (explicit data-theme, else the system setting)
+  const mq = matchMedia('(prefers-color-scheme: dark)');
+  const isDark = () => { const t = document.documentElement.dataset.theme; return t ? t === 'dark' : mq.matches; };
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function applyTheme() { C = isDark() ? DARK : LIGHT; build(); if (reduced) still(); }
+  new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  mq.addEventListener('change', applyTheme);
+
+  function still() {                                         // four frames, no motion
+    const st = document.getElementById('story-static'); st.textContent = '';
+    const keep = [g, W, H, dpr];
+    [.12, .3, .5, .9].forEach(p => {
+      const c2 = document.createElement('canvas'); st.append(c2);
+      const w = c2.clientWidth || 320, h = Math.round(w * 3 / 4); dpr = Math.min(window.devicePixelRatio || 1, 2);
+      c2.width = w * dpr; c2.height = h * dpr; g = c2.getContext('2d'); W = w; H = h; draw(p, 0, false);
+    });
+    [g, W, H, dpr] = keep;
+  }
+  applyTheme();
+  if (!reduced) {
+    size(); window.addEventListener('resize', size);
+    const loop = time => {
+      if (story.offsetParent) {
+        if (cv.clientWidth !== W || cv.clientHeight !== H || innerWidth !== FW || innerHeight !== FH) size();
+        const [p, flying] = flyFrame(time);
+        const r = story.getBoundingClientRect();
+        if (r.bottom > 0 && r.top < innerHeight) draw(p, time, flying);
+      } else if (extSvg && extSvg.style.opacity !== '') { extSvg.style.opacity = ''; fg.clearRect(0, 0, fly.width, fly.height); }
+      requestAnimationFrame(loop);
+    };
+    requestAnimationFrame(loop);
+  }
+})();
+</script>
+
+
+  <div class="demo" aria-label="Demo">
+    <p class="story-sr" data-l="it">Prova: clicca «Rifiuta tutto» nel banner del sito qui sotto, poi l'icona di afterNO in alto a destra nella barra del browser, poi «Perché?».</p>
+    <p class="story-sr" data-l="en">Try it: click "Reject all" in the banner of the site below, then the afterNO icon at the top right of the browser bar, then "Why?".</p>
 
     <div class="window" id="window">
       <div class="chrome">
@@ -474,7 +713,7 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
           <span class="badge" aria-hidden="true"></span>
         </button>
       </div>
-      <div class="callout" id="callout" hidden><span data-l="it">Clicca qui: è afterNO</span><span data-l="en">Click here: it's afterNO</span></div>
+      <div class="parrow" id="parrow" aria-hidden="true" hidden><svg viewBox="0 0 9 9" shape-rendering="crispEdges"><path d="M3 0h3v4h3v1h-1v1h-1v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h3z"/></svg></div>
 
       <div class="site" aria-hidden="true">
         <div class="site-mast"><span class="site-name"><span data-l="it">Il Quotidiano Immaginario</span><span data-l="en">The Imaginary Daily</span></span><span class="site-date"><span data-l="it">sito inventato per la prova</span><span data-l="en">a made-up site for the demo</span></span></div>
@@ -507,6 +746,17 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
 
       <div class="popup" id="popup" hidden aria-label="afterNO"></div>
     </div>
+    <div class="demo-bar">
+      <p class="modehint"><span data-l="it">Prova anche l'altro sito: cambia qui come si comporta, poi ricomincia.</span><span data-l="en">Try the other site too: change how it behaves here, then start again.</span></p>
+      <div class="switch-wrap">
+        <span class="seg-label" id="mode-label"><span data-l="it">il sito di prova:</span><span data-l="en">the demo site:</span></span>
+        <div class="seg" role="group" aria-labelledby="mode-label">
+          <button type="button" id="mode-respect" aria-pressed="true"><span data-l="it">rispetta il rifiuto</span><span data-l="en">respects the rejection</span></button>
+          <button type="button" id="mode-ignore" aria-pressed="false"><span data-l="it">non lo rispetta</span><span data-l="en">ignores it</span></button>
+        </div>
+      </div>
+    </div>
+
     <p class="small"><span data-l="it">Dati di esempio: il sito, le aziende (Pubblinet, Segui-ID) e i cookie sono inventati. Il popup è quello dell'estensione.</span><span data-l="en">Example data: the site, the companies (Pubblinet, Segui-ID) and the cookies are made up. The popup is the extension's own.</span></p>
   </div>
 
@@ -1110,7 +1360,7 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
 
   /* ------------------------------------------------ the demo */
   const $ = (id) => document.getElementById(id);
-  const banner = $('banner'), popup = $('popup'), ext = $('ext-btn'), pings = $('pings'), callout = $('callout');
+  const banner = $('banner'), popup = $('popup'), ext = $('ext-btn'), pings = $('pings'), arrow = $('parrow');
   const state = { mode: 'respect', choice: null, open: false, at: null, stage: 1 };
   const SHAPES = { check: 'M6 10.3l2.6 2.6 5.4-5.6', bang: 'M10 5.5v5.5M10 14.2v.1', info: 'M10 9v5M10 6.2v.1', dash: 'M6.5 10h7', cross: 'M7 7l6 6M13 7l-6 6' };
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -1179,14 +1429,26 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
     popup.querySelector('#restart').addEventListener('click', reset);
   }
 
+  // a pixel arrow points at the next thing to click: the reject button, afterNO's icon, "Why?"
+  function placeArrow() {
+    const k = state.stage, win = $('window');
+    let target = null, dir = 'down';
+    if (k === 1) target = $('b-reject');
+    else if (k === 2) { target = ext; dir = 'up'; }
+    else if (k === 3 && !popup.querySelector('#why')?.open) { target = popup.querySelector('#why summary'); dir = 'right'; }
+    if (!target || !win.offsetParent) { arrow.hidden = true; return; }
+    const w = win.getBoundingClientRect(), r = target.getBoundingClientRect(), S = 34;
+    let x = r.left + r.width / 2 - w.left - S / 2, y = r.top - w.top - S - 4;
+    if (dir === 'up') y = r.bottom - w.top + 4;
+    if (dir === 'right') { x = r.left - w.left - S - 6; y = r.top + r.height / 2 - w.top - S / 2; if (x < 4) { dir = 'left'; x = r.right - w.left - S - 40; } }
+    arrow.dataset.dir = dir; arrow.style.left = x + 'px'; arrow.style.top = y + 'px'; arrow.hidden = false;
+  }
+  window.addEventListener('resize', placeArrow);
+  popup.addEventListener('toggle', placeArrow, true);
+
   function setStage(k) {
     state.stage = k;
-    document.querySelectorAll('#howto li').forEach((li) => {
-      const n = Number(li.dataset.k);
-      li.classList.toggle('now', n === k);
-      li.classList.toggle('done', n < k);
-      if (n === k) li.setAttribute('aria-current', 'step'); else li.removeAttribute('aria-current');
-    });
+    requestAnimationFrame(placeArrow);
   }
 
   function showPings() {
@@ -1208,7 +1470,6 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
     showPings();
     setStage(2);
     ext.classList.remove('jump'); void ext.offsetWidth; ext.classList.add('jump', 'call');
-    callout.hidden = false;
   }
 
   function togglePopup(force) {
@@ -1217,13 +1478,13 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
     state.open = force ?? !state.open;
     popup.hidden = !state.open;
     ext.setAttribute('aria-expanded', String(state.open));
-    ext.classList.remove('jump', 'call'); callout.hidden = true;
+    ext.classList.remove('jump', 'call');
     if (state.open) { renderPopup(); pings.innerHTML = ''; setStage(3); }
   }
 
   function reset() {
     state.choice = null; state.open = false; state.at = null;
-    popup.hidden = true; popup.innerHTML = ''; ext.setAttribute('aria-expanded', 'false'); ext.classList.remove('jump', 'call'); callout.hidden = true;
+    popup.hidden = true; popup.innerHTML = ''; ext.setAttribute('aria-expanded', 'false'); ext.classList.remove('jump', 'call');
     banner.classList.remove('gone'); banner.removeAttribute('aria-hidden');
     $('b-reject').classList.add('pulse'); $('banner-note').hidden = true; pings.innerHTML = '';
     setStage(1);
@@ -1240,6 +1501,7 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
     if (state.open) renderPopup();
     const note = $('banner-note'); if (!note.hidden) note.hidden = true;
     if (state.choice && !state.open) showPings();
+    requestAnimationFrame(placeArrow);
   };
   var refreshDemo = window.refreshDemo;
 
