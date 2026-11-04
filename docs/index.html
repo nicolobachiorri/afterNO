@@ -1,0 +1,890 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>afterNO</title>
+<meta name="description" content="afterNO: cosa succede dopo il tuo rifiuto dei cookie. Un'estensione open source che confronta la tua scelta con cookie e tracker osservati.">
+<style>
+/* Fonts are part of the site (docs/fonts/, SIL Open Font License 1.1): the page asks
+   no third party for anything. */
+@font-face { font-family: "Geist"; src: url("fonts/geist-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-display: swap; unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Geist"; src: url("fonts/geist-latin-ext-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-display: swap; unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Geist Mono"; src: url("fonts/geist-mono-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-display: swap; unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Geist Mono"; src: url("fonts/geist-mono-latin-ext-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-display: swap; unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Silkscreen"; src: url("fonts/silkscreen-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Silkscreen"; src: url("fonts/silkscreen-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+/* Layout: four views on one page, routed on the hash; a light "instrument" look
+   (tech labels in braces, => links, hairline panels) built on the store slides. */
+:root {
+  --bg: #f4f4f6;
+  --surface: #fcfcfd;
+  --ink: #1d1d1f;
+  --ink-2: #3c4043;
+  --muted: #5f6368;
+  --line: #e2e2e8;
+  --accent: #3b4bc8;
+  --accent-soft: #e9ebfb;
+  --ok: #1a7f37; --ok-bg: #eff7f1; --ok-soft: #e3f2e7;
+  --warn: #9a5b00; --warn-bg: #fdf5e8;
+  --alert: #c0362c; --alert-bg: #fdf1ef; --alert-soft: #fbe3e0;
+  --neutral-bg: #f4f4f6; --neutral-soft: #eeeef1;
+  --win: #ffffff; --chrome: #ececf1; --page-ink: #2a2a30; --skeleton: #e6e6ec;
+
+  --f-body: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --f-mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --f-pixel: "Silkscreen", "Courier New", monospace;
+  --radius: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121216; --surface: #1a1a20; --ink: #f2f2f7; --ink-2: #d1d1d6; --muted: #a1a1a8;
+    --line: #2e2e36; --accent: #9aa5ff; --accent-soft: #23264a;
+    --ok: #7ed492; --ok-bg: #1d2a21; --ok-soft: #24382a;
+    --warn: #f2b25c; --warn-bg: #2d2516;
+    --alert: #ff8a80; --alert-bg: #2e1d1c; --alert-soft: #452523;
+    --neutral-bg: #2a2a2d; --neutral-soft: #3a3a3d;
+    --win: #1c1c1e; --chrome: #26262b; --page-ink: #e6e6ec; --skeleton: #2f2f36;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121216; --surface: #1a1a20; --ink: #f2f2f7; --ink-2: #d1d1d6; --muted: #a1a1a8;
+  --line: #2e2e36; --accent: #9aa5ff; --accent-soft: #23264a;
+  --ok: #7ed492; --ok-bg: #1d2a21; --ok-soft: #24382a;
+  --warn: #f2b25c; --warn-bg: #2d2516;
+  --alert: #ff8a80; --alert-bg: #2e1d1c; --alert-soft: #452523;
+  --neutral-bg: #2a2a2d; --neutral-soft: #3a3a3d;
+  --win: #1c1c1e; --chrome: #26262b; --page-ink: #e6e6ec; --skeleton: #2f2f36;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--f-body); font-size: 17px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  -webkit-font-smoothing: antialiased;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+.wrap { max-width: 1120px; margin: 0 auto; }
+p { margin: 0; }
+h1, h2, h3 { margin: 0; text-wrap: balance; }
+
+/* ---------- type ---------- */
+.px { font-family: var(--f-pixel); font-weight: 700; letter-spacing: 0.01em; }
+.eyebrow { font-family: var(--f-mono); font-size: 13px; color: var(--accent); letter-spacing: 0.02em; }
+.eyebrow::before { content: "{ "; } .eyebrow::after { content: " }"; }
+.display { font-size: clamp(40px, 7.2vw, 84px); line-height: 1.02; letter-spacing: -0.035em; font-weight: 600; }
+.display .px { font-size: 0.9em; letter-spacing: 0; font-weight: 700; }
+.h2 { font-size: clamp(28px, 4vw, 44px); line-height: 1.1; letter-spacing: -0.025em; font-weight: 600; }
+.h3 { font-size: 20px; line-height: 1.3; font-weight: 600; letter-spacing: -0.01em; }
+.lead { font-size: clamp(18px, 2vw, 21px); color: var(--ink-2); max-width: 62ch; }
+.small { font-size: 14px; color: var(--muted); }
+.mono { font-family: var(--f-mono); font-size: 0.86em; }
+
+/* ---------- header ---------- */
+header.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 64px; flex-wrap: wrap; padding-block: 8px; }
+.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-size: 21px; font-weight: 600; letter-spacing: -0.02em; }
+.logo svg { width: 30px; height: 30px; flex: none; }
+.logo .px { font-size: 19px; }
+nav.main { display: flex; gap: 4px; flex-wrap: wrap; }
+nav.main a {
+  font-family: var(--f-mono); font-size: 13.5px; text-decoration: none; color: var(--ink-2);
+  padding: 8px 12px; border-radius: 999px; white-space: nowrap;
+}
+nav.main a:hover { background: var(--surface); }
+nav.main a[aria-current="page"] { color: var(--accent); background: var(--accent-soft); }
+
+main { padding-block: 56px 40px; }
+section.view { display: flex; flex-direction: column; gap: 72px; }
+.stack { display: flex; flex-direction: column; gap: 18px; }
+
+/* ---------- => links ---------- */
+.doors { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.door {
+  display: flex; flex-direction: column; gap: 8px; padding: 24px 26px;
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface);
+  text-decoration: none; color: var(--ink); transition: border-color .15s, transform .15s;
+}
+.door:hover { border-color: var(--accent); transform: translateY(-2px); }
+.door .arrow { font-family: var(--f-mono); color: var(--accent); font-size: 15px; }
+.door .t { font-size: 24px; font-weight: 600; letter-spacing: -0.02em; }
+.door .d { font-size: 15px; color: var(--muted); }
+.inline-door { font-family: var(--f-mono); font-size: 15px; text-decoration: none; }
+.inline-door::before { content: "=> "; }
+
+/* ---------- home hero ---------- */
+.hero { display: grid; gap: 22px; }
+.hero .lead { max-width: 54ch; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 18px; font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
+.facts span::before { content: "· "; color: var(--accent); }
+
+/* ---------- the demo ---------- */
+.demo { display: flex; flex-direction: column; gap: 14px; }
+.demo-bar { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between; }
+.guide { font-family: var(--f-mono); font-size: 14px; color: var(--ink-2); min-height: 36px; display: block; padding-top: 8px; }
+.guide b { color: var(--accent); font-weight: 500; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--surface); gap: 2px; flex-wrap: wrap; }
+.seg-label { font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
+.seg button {
+  font: 500 13.5px var(--f-body); border: 0; background: none; color: var(--ink-2);
+  padding: 8px 14px; border-radius: 999px; cursor: pointer; min-height: 36px;
+}
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.switch-wrap { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+.window {
+  position: relative; border: 1px solid var(--line); border-radius: 16px; overflow: hidden;
+  background: var(--win); box-shadow: 0 30px 60px -30px rgb(30 30 60 / .25), 0 2px 6px rgb(30 30 60 / .05);
+  min-height: 560px;
+}
+.chrome { display: flex; align-items: center; gap: 12px; padding: 10px 14px; background: var(--chrome); border-bottom: 1px solid var(--line); }
+.dots { display: flex; gap: 6px; flex: none; }
+.dots i { width: 11px; height: 11px; border-radius: 50%; background: var(--skeleton); display: block; }
+.url { flex: 1; min-width: 0; font-family: var(--f-mono); font-size: 12.5px; color: var(--muted); background: var(--win); border-radius: 8px; padding: 6px 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.url b { color: var(--page-ink); font-weight: 500; }
+.ext-btn {
+  position: relative; flex: none; width: 36px; height: 36px; border-radius: 10px; border: 0; padding: 4px;
+  background: transparent; cursor: pointer; display: grid; place-items: center;
+}
+.ext-btn:hover { background: var(--win); }
+.ext-btn svg { width: 26px; height: 26px; }
+.ext-btn .badge { position: absolute; top: 3px; right: 2px; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); border: 2px solid var(--chrome); display: none; }
+.ext-btn.call .badge { display: block; }
+.ext-btn.call { animation: nudge 1.6s ease-in-out infinite; }
+@keyframes nudge { 0%, 100% { box-shadow: 0 0 0 0 transparent; } 50% { box-shadow: 0 0 0 6px var(--accent-soft); } }
+
+/* the fictional site */
+.site { padding: 26px 30px 120px; color: var(--page-ink); display: grid; gap: 18px; }
+.site-mast { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--page-ink); padding-bottom: 10px; gap: 12px; flex-wrap: wrap; }
+.site-name { font: 700 26px/1 Georgia, "Times New Roman", serif; letter-spacing: -0.01em; }
+.site-date { font-family: var(--f-mono); font-size: 11.5px; color: var(--muted); }
+.site-cols { display: grid; grid-template-columns: 2fr 1fr; gap: 22px; }
+.site h4 { margin: 0; font: 700 22px/1.2 Georgia, "Times New Roman", serif; }
+.sk { height: 10px; border-radius: 4px; background: var(--skeleton); }
+.sk.img { height: 150px; border-radius: 8px; }
+.sk-group { display: grid; gap: 8px; }
+.demo-tag { font-family: var(--f-mono); font-size: 11px; color: var(--muted); }
+
+.banner {
+  position: absolute; left: 16px; right: 16px; bottom: 16px; z-index: 3;
+  background: var(--win); border: 1px solid var(--line); border-radius: 14px;
+  box-shadow: 0 18px 40px -18px rgb(0 0 0 / .35);
+  padding: 18px 20px; display: grid; gap: 14px; grid-template-columns: 1fr auto; align-items: center;
+  transition: opacity .25s, transform .25s;
+}
+.banner.gone { opacity: 0; transform: translateY(12px); pointer-events: none; }
+.banner p { font-size: 14px; color: var(--page-ink); }
+.banner p b { display: block; font-size: 15px; margin-bottom: 2px; }
+.banner .btns { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.bbtn { font: 600 14px var(--f-body); padding: 10px 16px; border-radius: 10px; border: 1px solid var(--page-ink); cursor: pointer; min-height: 44px; }
+.bbtn.reject { background: var(--win); color: var(--page-ink); }
+.bbtn.reject.pulse { animation: pulse 1.8s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 transparent; } 50% { box-shadow: 0 0 0 5px var(--accent-soft); } }
+.bbtn.custom { background: transparent; border-color: transparent; color: var(--muted); text-decoration: underline; }
+.bbtn.accept { background: var(--page-ink); color: var(--win); }
+.banner-note { grid-column: 1 / -1; font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+
+.pings { position: absolute; left: 18px; bottom: 18px; z-index: 2; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+.ping { font-family: var(--f-mono); font-size: 12px; padding: 6px 10px; border-radius: 8px; background: var(--alert-bg); color: var(--alert); border: 1px solid var(--alert-soft); animation: rise .5s ease both; }
+.ping.calm { background: var(--ok-bg); color: var(--ok); border-color: var(--ok-soft); }
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* ---------- the popup facsimile (from the extension's own style) ---------- */
+.popup {
+  position: absolute; top: 54px; right: 12px; z-index: 5; width: min(370px, calc(100% - 24px));
+  max-height: calc(100% - 66px); overflow: auto; overscroll-behavior: contain;
+  background: var(--win); color: var(--ink); border: 1px solid var(--line); border-radius: 14px;
+  box-shadow: 0 24px 50px -20px rgb(0 0 0 / .4);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  padding: 16px 18px 14px; display: flex; flex-direction: column; gap: 14px;
+  animation: pop .18s ease-out both;
+}
+@keyframes pop { from { opacity: 0; transform: translateY(-6px) scale(.98); } to { opacity: 1; transform: none; } }
+.popup .p-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.popup .p-host { font-size: 13px; font-weight: 600; color: var(--muted); word-break: break-all; }
+.popup .p-brand { font-size: 12px; font-weight: 700; color: var(--muted); }
+.popup .p-brand span { color: var(--ink); }
+.card { border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 10px; background: var(--neutral-bg); --tone: var(--muted); }
+.card.tone-ok { background: var(--ok-bg); --tone: var(--ok); }
+.card.tone-warn { background: var(--warn-bg); --tone: var(--warn); }
+.card.tone-alert { background: var(--alert-bg); --tone: var(--alert); }
+.card-top { display: flex; align-items: center; gap: 10px; }
+.card-when { font-size: 12px; color: var(--muted); }
+.card-title { font-size: 19px; line-height: 1.25; font-weight: 650; }
+.card-title .accent { color: var(--tone); }
+.card-reason { font-size: 14px; }
+.st-icon { flex: 0 0 28px; width: 28px; height: 28px; }
+.st-icon .bg { fill: var(--tone); }
+.st-icon .fg { fill: none; stroke: var(--win); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.disc { font-size: 12px; color: var(--muted); }
+.popup details.t { border-top: 1px solid var(--line); }
+.popup details.t:last-of-type { border-bottom: 1px solid var(--line); }
+.popup details.t[open] { padding-bottom: 12px; }
+.popup details.t > summary { list-style: none; cursor: pointer; min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 600; }
+.popup details.t > summary::-webkit-details-marker { display: none; }
+.t-meta { display: flex; align-items: center; gap: 8px; font-weight: 400; font-size: 13px; color: var(--muted); }
+.chev { width: 18px; height: 18px; transition: transform .15s; }
+.chev path { fill: none; stroke: var(--muted); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+details[open] > summary .chev { transform: rotate(180deg); }
+.vh { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+.checks { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.checks li { display: flex; gap: 10px; align-items: flex-start; font-size: 13.5px; }
+.checks li.info { color: var(--ink-2); }
+.mk { flex: 0 0 20px; width: 20px; height: 20px; margin-top: 1px; }
+.mk .fg { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.mk.ok .bg { fill: var(--ok-soft); } .mk.ok .fg { stroke: var(--ok); }
+.mk.bad .bg { fill: var(--alert-soft); } .mk.bad .fg { stroke: var(--alert); }
+.mk.info .bg { fill: var(--neutral-soft); } .mk.info .fg { stroke: var(--muted); }
+.ck-h { font-size: 13px; font-weight: 650; margin: 12px 0 2px; }
+.ck-group.tracking { background: var(--alert-bg); border-radius: 10px; padding: 4px 12px 8px; margin-top: 8px; }
+.ck-group ul { list-style: none; margin: 0; padding: 0; }
+.ck-group li { padding: 7px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 1px; }
+.ck-group li:last-child { border-bottom: 0; }
+.ck-name { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12.5px; word-break: break-all; }
+.ck-meta { color: var(--muted); font-size: 12px; }
+.ck-desc { font-size: 12px; }
+.ck-note { font-size: 12px; color: var(--muted); font-style: italic; }
+.restart { align-self: flex-start; font: 500 13px var(--f-mono); color: var(--accent); background: none; border: 0; padding: 6px 0; cursor: pointer; }
+
+/* ---------- generic blocks ---------- */
+.panel { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 26px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.grid4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.list li { display: flex; gap: 12px; align-items: flex-start; font-size: 16px; }
+.list li svg { flex: 0 0 22px; width: 22px; height: 22px; margin-top: 2px; }
+.tile { display: flex; flex-direction: column; gap: 6px; }
+.tile .k { font-family: var(--f-pixel); font-size: 22px; color: var(--accent); }
+.tile .v { font-size: 15px; color: var(--ink-2); }
+.sec-head { display: flex; flex-direction: column; gap: 12px; max-width: 760px; }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+table.data { width: 100%; border-collapse: collapse; font-size: 15px; min-width: 640px; }
+table.data th, table.data td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.data thead th { font: 500 12.5px var(--f-mono); color: var(--muted); letter-spacing: .02em; }
+table.data tr:last-child td { border-bottom: 0; }
+table.data td.num { font-variant-numeric: tabular-nums; }
+table.data .strong { font-weight: 600; }
+.defs { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.def b { font-family: var(--f-mono); font-weight: 500; color: var(--accent); font-size: 14px; display: block; margin-bottom: 4px; }
+
+/* ---------- pipeline ---------- */
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.step {
+  text-align: left; font: inherit; color: inherit; cursor: pointer;
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface);
+  padding: 22px 24px; display: flex; flex-direction: column; gap: 10px; transition: border-color .15s, background .15s;
+}
+.step:hover { border-color: var(--accent); }
+.step[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.step .n { font-family: var(--f-mono); font-size: 13px; color: var(--accent); }
+.step .h3 { font-size: 19px; }
+.step p { font-size: 15px; color: var(--ink-2); }
+.step ul { margin: 0; padding-left: 18px; font-size: 14.5px; color: var(--ink-2); display: grid; gap: 4px; }
+
+.sieve td, .sieve th { transition: background .2s, color .2s, opacity .2s; }
+.sieve td.c-name { font-family: var(--f-mono); font-size: 13.5px; }
+.sieve .c-out { font-weight: 500; }
+.sieve .tag { display: inline-block; font: 500 12px var(--f-mono); padding: 3px 8px; border-radius: 6px; white-space: nowrap; }
+.tag.against { background: var(--alert-bg); color: var(--alert); }
+.tag.info { background: var(--neutral-soft); color: var(--ink-2); }
+.tag.none { background: var(--ok-bg); color: var(--ok); }
+.sieve[data-step] td:not(.c-name), .sieve[data-step] th:not(.c-name) { opacity: .38; }
+.sieve[data-step="1"] td, .sieve[data-step="1"] th { opacity: .38; }
+.sieve[data-step="2"] .c-name, .sieve[data-step="2"] .c-where { opacity: 1 !important; background: var(--accent-soft); }
+.sieve[data-step="3"] .c-owner { opacity: 1 !important; background: var(--accent-soft); }
+.sieve[data-step="4"] .c-same, .sieve[data-step="4"] .c-life { opacity: 1 !important; background: var(--accent-soft); }
+.sieve[data-step="5"] .c-label { opacity: 1 !important; background: var(--accent-soft); }
+.sieve[data-step="6"] .c-out { opacity: 1 !important; background: var(--accent-soft); }
+.sieve[data-step="2"] th.c-name, .sieve[data-step="2"] th.c-where { color: var(--accent); }
+.sieve-head { display: flex; flex-wrap: wrap; gap: 10px 20px; justify-content: space-between; align-items: baseline; }
+.sieve-caption { font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
+.result-line { display: flex; gap: 12px; align-items: center; padding: 16px 20px; border-radius: var(--radius); background: var(--alert-bg); color: var(--ink); font-size: 16px; flex-wrap: wrap; }
+.result-line b { color: var(--alert); }
+.levels { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.level .k { font-family: var(--f-mono); color: var(--accent); font-size: 14px; }
+.level q { display: block; font-size: 16px; margin: 6px 0; quotes: "«" "»"; }
+
+/* ---------- open source ---------- */
+.contact { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.contact .addr { font-family: var(--f-mono); font-size: 16px; user-select: all; padding: 10px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.btn { font: 500 14px var(--f-mono); padding: 11px 16px; border-radius: 10px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); cursor: pointer; min-height: 44px; text-decoration: none; display: inline-flex; align-items: center; }
+.btn.ghost { background: transparent; color: var(--ink); }
+
+/* ---------- footer, theme switch ---------- */
+footer { border-top: 1px solid var(--line); padding-block: 28px 40px; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 12px 28px; justify-content: space-between; font-size: 14px; color: var(--muted); }
+footer a { color: var(--ink-2); }
+.site-privacy { flex-basis: 100%; font-size: 13px; max-width: 80ch; }
+.theme {
+  position: fixed; z-index: 30;
+  left: calc(16px + env(safe-area-inset-left, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  width: 46px; height: 46px; border-radius: 14px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--ink); cursor: pointer; display: grid; place-items: center;
+  box-shadow: 0 6px 16px -8px rgb(0 0 0 / .3);
+}
+.theme svg { width: 22px; height: 22px; }
+
+@media (max-width: 760px) {
+  header.top { position: static; }
+  nav.main { flex-wrap: nowrap; overflow-x: auto; width: 100%; scrollbar-width: none; }
+  nav.main::-webkit-scrollbar { display: none; }
+  main { padding-block: 32px 32px; }
+  section.view { gap: 56px; }
+  .site-cols { grid-template-columns: 1fr; }
+  .site-cols .side { display: none; }
+  .site { padding: 20px 18px 220px; }
+  .banner { grid-template-columns: 1fr; left: 10px; right: 10px; bottom: 10px; }
+  .banner .btns { justify-content: stretch; }
+  .banner .btns .bbtn { flex: 1; }
+  .window { min-height: 600px; }
+  .popup { top: 52px; right: 8px; width: calc(100% - 16px); }
+  .panel { padding: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="afterNO, pagina iniziale">
+      <svg viewBox="0 0 128 128" aria-hidden="true"><rect x="4" y="4" width="120" height="120" rx="28" fill="#1F3A5F"/><line x1="78" y1="78" x2="106" y2="106" stroke="#F3E9DC" stroke-width="16" stroke-linecap="round"/><circle cx="54" cy="54" r="34" fill="#E2B680" stroke="#F3E9DC" stroke-width="9"/><circle cx="44" cy="44" r="6" fill="#6B4423"/><circle cx="64" cy="58" r="6" fill="#6B4423"/><circle cx="47" cy="68" r="5" fill="#6B4423"/></svg>
+      <span>after<span class="px">NO</span></span>
+    </a>
+    <nav class="main" aria-label="Pagine">
+      <a href="#" data-nav="">Provala</a>
+      <a href="#fidarmi" data-nav="fidarmi">Posso fidarmi?</a>
+      <a href="#come-ragiona" data-nav="come-ragiona">Come ragiona</a>
+      <a href="#open-source" data-nav="open-source">Open source</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ======================= HOME ======================= -->
+<section class="view" id="v-home" data-view="">
+  <div class="hero">
+    <p class="eyebrow">cosa succede dopo il tuo rifiuto dei cookie</p>
+    <h1 class="display">Hai detto <span class="px">NO</span>.<br>E poi?</h1>
+    <p class="lead">Clicchi «Rifiuta» su un banner dei cookie, e il banner sparisce. Ma chi può ancora riconoscerti? afterNO te lo dice in parole semplici. Provala qui sotto, su un sito inventato.</p>
+  </div>
+
+  <div class="demo" aria-label="Prova interattiva di afterNO">
+    <div class="demo-bar">
+      <p class="guide" id="guide" aria-live="polite"></p>
+      <div class="switch-wrap">
+        <span class="seg-label" id="mode-label">il sito di prova:</span>
+        <div class="seg" role="group" aria-labelledby="mode-label">
+          <button type="button" id="mode-respect" aria-pressed="true">rispetta il rifiuto</button>
+          <button type="button" id="mode-ignore" aria-pressed="false">non lo rispetta</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="window" id="window">
+      <div class="chrome">
+        <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="url">https://<b>quotidiano-immaginario.example</b>/oggi</div>
+        <button type="button" class="ext-btn" id="ext-btn" aria-label="Apri afterNO" aria-expanded="false">
+          <svg viewBox="0 0 128 128" aria-hidden="true"><rect x="4" y="4" width="120" height="120" rx="28" fill="#1F3A5F"/><line x1="78" y1="78" x2="106" y2="106" stroke="#F3E9DC" stroke-width="16" stroke-linecap="round"/><circle cx="54" cy="54" r="34" fill="#E2B680" stroke="#F3E9DC" stroke-width="9"/><circle cx="44" cy="44" r="6" fill="#6B4423"/><circle cx="64" cy="58" r="6" fill="#6B4423"/><circle cx="47" cy="68" r="5" fill="#6B4423"/></svg>
+          <span class="badge" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <div class="site" aria-hidden="true">
+        <div class="site-mast"><span class="site-name">Il Quotidiano Immaginario</span><span class="site-date">sito inventato per la prova</span></div>
+        <div class="site-cols">
+          <div class="sk-group">
+            <h4>Una notizia qualsiasi, in un giornale che non esiste</h4>
+            <div class="sk img"></div>
+            <div class="sk" style="width:96%"></div><div class="sk" style="width:90%"></div><div class="sk" style="width:94%"></div><div class="sk" style="width:60%"></div>
+          </div>
+          <div class="sk-group side">
+            <div class="sk img" style="height:90px"></div>
+            <div class="sk" style="width:80%"></div><div class="sk" style="width:70%"></div>
+            <div class="sk img" style="height:90px"></div>
+            <div class="sk" style="width:75%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pings" id="pings" aria-live="polite"></div>
+
+      <div class="banner" id="banner" role="dialog" aria-label="Banner dei cookie del sito di prova">
+        <p><b>Il Quotidiano Immaginario usa i cookie</b>Noi e i nostri partner usiamo cookie per misurare le visite e mostrarti pubblicità. Puoi rifiutare.</p>
+        <div class="btns">
+          <button type="button" class="bbtn custom" id="b-custom">Personalizza</button>
+          <button type="button" class="bbtn reject pulse" id="b-reject">Rifiuta tutto</button>
+          <button type="button" class="bbtn accept" id="b-accept">Accetta tutto</button>
+        </div>
+        <p class="banner-note" id="banner-note" hidden>Nella prova ci sono solo «Rifiuta tutto» e «Accetta tutto».</p>
+      </div>
+
+      <div class="popup" id="popup" hidden aria-label="Popup di afterNO"></div>
+    </div>
+    <p class="small">Dati di esempio: il sito, le aziende (Pubblinet, Segui-ID) e i cookie sono inventati. Il popup è lo stesso dell'estensione.</p>
+  </div>
+
+  <div class="stack">
+    <p class="eyebrow">e adesso</p>
+    <div class="doors">
+      <a class="door" href="#fidarmi"><span class="arrow">=&gt; per chi sta per installarla</span><span class="t">Posso fidarmi?</span><span class="d">Cosa fa, cosa non fa, cosa non vede, e quanto è preciso: misurato, con i numeri.</span></a>
+      <a class="door" href="#come-ragiona"><span class="arrow">=&gt; per chi vuole capire</span><span class="t">Come ragiona</span><span class="d">Dal tuo clic al verdetto, un passo alla volta, sui cookie di questo stesso sito inventato.</span></a>
+      <a class="door" href="#open-source"><span class="arrow">=&gt; per chi vuole controllare</span><span class="t">Perché open source</span><span class="d">Il codice, il database dei cookie, la licenza, e come scriverci.</span></a>
+    </div>
+    <p class="facts"><span>gratuita</span><span>open source, Apache 2.0</span><span>niente esce dal tuo browser</span><span>Chrome e Firefox, in arrivo negli store</span></p>
+  </div>
+</section>
+
+<!-- ======================= POSSO FIDARMI ======================= -->
+<section class="view" id="v-fidarmi" data-view="fidarmi" hidden>
+  <div class="hero">
+    <p class="eyebrow">posso fidarmi?</p>
+    <h1 class="display">Non devi crederci<br>sulla <span class="px">parola</span>.</h1>
+    <p class="lead">afterNO non ti chiede fiducia: ti dice da dove viene ogni frase, cosa non può vedere, e quanto spesso ha ragione. Tutto è controllabile.</p>
+    <a class="inline-door" href="#">Provala prima, sul sito inventato</a>
+  </div>
+
+  <div class="grid2">
+    <div class="panel stack">
+      <p class="eyebrow">cosa fa</p>
+      <ul class="list">
+        <li><svg viewBox="0 0 20 20" class="mk ok" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6 10.3l2.6 2.6 5.4-5.6"/></svg>Legge la tua scelta: dal segnale di consenso del sito o dal pulsante che hai cliccato.</li>
+        <li><svg viewBox="0 0 20 20" class="mk ok" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6 10.3l2.6 2.6 5.4-5.6"/></svg>Ti dice quali altre aziende possono ancora riconoscerti su quel sito.</li>
+        <li><svg viewBox="0 0 20 20" class="mk ok" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6 10.3l2.6 2.6 5.4-5.6"/></svg>Spiega ogni cookie: di chi è, quanto dura, a cosa serve secondo il database.</li>
+        <li><svg viewBox="0 0 20 20" class="mk ok" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6 10.3l2.6 2.6 5.4-5.6"/></svg>Dichiara la fonte di ogni frase: osservato, possibile o classificato.</li>
+      </ul>
+    </div>
+    <div class="panel stack">
+      <p class="eyebrow">cosa non fa</p>
+      <ul class="list">
+        <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6.5 10h7"/></svg>Non blocca nulla: osserva e racconta.</li>
+        <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6.5 10h7"/></svg>Non clicca i banner al posto tuo: la scelta resta tua.</li>
+        <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6.5 10h7"/></svg>Non dice mai «questo sito viola la legge»: dice cosa vede, con prudenza.</li>
+        <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6.5 10h7"/></svg>Non si apre da sola: mostra qualcosa solo quando lo chiedi tu.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="stack">
+    <div class="sec-head"><p class="eyebrow">privacy</p><h2 class="h2">Tutto resta nel tuo browser.</h2></div>
+    <div class="grid4">
+      <div class="panel tile"><span class="k">0 server</span><span class="v">Nessuna richiesta di rete propria. Il database dei cookie è dentro l'estensione.</span></div>
+      <div class="panel tile"><span class="k">0 account</span><span class="v">Niente registrazione, niente login, niente da collegare.</span></div>
+      <div class="panel tile"><span class="k">0 statistiche</span><span class="v">Non sappiamo chi la usa né dove: non raccogliamo nulla.</span></div>
+      <div class="panel tile"><span class="k">a fine giro</span><span class="v">Quello che ricorda si cancella quando chiudi il browser.</span></div>
+    </div>
+  </div>
+
+  <div class="panel stack">
+    <p class="eyebrow">cosa non può vedere</p>
+    <h2 class="h3">Un'estensione vede quello che vede il browser. Non vede, e non finge di vedere:</h2>
+    <ul class="list">
+      <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M10 9v5M10 6.2v.1"/></svg>il riconoscimento <b>senza cookie</b> (l'impronta del browser, o fingerprinting);</li>
+      <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M10 9v5M10 6.2v.1"/></svg>gli altri spazi di memoria del browser (localStorage, IndexedDB);</li>
+      <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M10 9v5M10 6.2v.1"/></svg>i dati che le aziende si passano <b>tra i loro server</b>;</li>
+      <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M10 9v5M10 6.2v.1"/></svg><b>cosa fa davvero</b> un'azienda con un cookie: lo scopo è dichiarato, non osservabile.</li>
+    </ul>
+  </div>
+
+  <div class="stack">
+    <div class="sec-head">
+      <p class="eyebrow">quanto è precisa</p>
+      <h2 class="h2">Misurata su <span class="px">120</span> siti mai visti prima.</h2>
+      <p class="lead">Siti estratti a caso da una lista pubblica, con un metodo scritto prima di vedere i risultati. Un robot clicca «Rifiuta», salva il verdetto e, a parte, tutti i dati grezzi. Due giudici di aziende diverse controllano se il verdetto è giusto.</p>
+    </div>
+    <div class="defs">
+      <div class="panel def"><b>copertura</b>Su 40 siti, quanti avevano un rifiuto gratuito da verificare. Dove non c'è un rifiuto, non c'è niente da verificare.</div>
+      <div class="panel def"><b>accuratezza</b>Su quei siti, quante conclusioni erano giuste. «Tutte giuste» su pochi siti vuol dire «almeno il tot%», non «mai sbagliata».</div>
+      <div class="panel def"><b>stabilità</b>Gli stessi siti visitati una seconda volta, con la stessa versione: la risposta è la stessa?</div>
+    </div>
+    <div class="table-wrap">
+      <table class="data">
+        <thead><tr><th></th><th>Italia</th><th>UE, primo giro</th><th>UE, secondo giro</th></tr></thead>
+        <tbody>
+          <tr><td class="strong">Copertura</td><td class="num">22 su 40</td><td class="num">14 su 40</td><td class="num">19 su 40</td></tr>
+          <tr><td class="strong">Accuratezza</td><td class="num">22 su 22 · almeno 85%</td><td class="num">14 su 14 · almeno 78%</td><td class="num">19 su 19 · almeno 83%</td></tr>
+          <tr><td>Falsi allarmi</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr><td>Problemi non visti</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr><td>Accordo del secondo giudice</td><td class="num">21 su 22</td><td class="num">14 su 14</td><td class="num">19 su 19</td></tr>
+          <tr><td class="strong">Stabilità</td><td class="num">non misurata su questa versione</td><td class="num">14 su 14, il giorno dopo</td><td class="num">19 su 19, un'ora dopo</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="list small">
+      <li>«Almeno» è il limite basso dell'intervallo di confidenza al 95% (Wilson): con 14–22 siti l'incertezza è ampia.</li>
+      <li>UE: otto paesi (Germania, Austria, Francia, Spagna, Portogallo, Paesi Bassi, Polonia, Irlanda), cinque siti ciascuno, visitati nella lingua del paese. Ogni giro misura la versione corretta dopo quello precedente.</li>
+      <li>Il giudice principale è Claude, l'IA che ha scritto gran parte del codice: è un conflitto di interessi, dichiarato. Per questo c'è un secondo giudice di un'altra azienda, Gemini, che giudica in modo indipendente.</li>
+      <li>Il robot usa un browser nuovo per ogni sito: la misura dice se l'estensione legge bene i dati che ha davanti, non quanto spesso un utente vero vedrà «solo in parte».</li>
+    </ul>
+    <a class="inline-door" href="https://github.com/nicolobachiorri/afterNO/blob/main/quality/PROTOCOL.md" target="_blank" rel="noopener">Il protocollo, i dati e i giudizi, sito per sito</a>
+  </div>
+
+  <div class="doors">
+    <a class="door" href="#"><span class="arrow">=&gt; prima di installarla</span><span class="t">Provala sul sito inventato</span><span class="d">Trenta secondi: rifiuta, apri afterNO, guarda.</span></a>
+    <a class="door" href="#come-ragiona"><span class="arrow">=&gt; nel dettaglio</span><span class="t">Come ragiona</span><span class="d">Come arriva dal tuo clic al verdetto.</span></a>
+  </div>
+</section>
+
+<!-- ======================= COME RAGIONA ======================= -->
+<section class="view" id="v-come" data-view="come-ragiona" hidden>
+  <div class="hero">
+    <p class="eyebrow">come ragiona</p>
+    <h1 class="display">Dal tuo clic<br>al <span class="px">verdetto</span>.</h1>
+    <p class="lead">Sei passi, sempre nello stesso ordine. Li seguiamo sui cookie del Quotidiano Immaginario, il sito inventato della prova, nella versione che non rispetta il rifiuto. Clicca un passo per vedere cosa guarda nella tabella.</p>
+  </div>
+
+  <div class="steps" id="steps">
+    <button type="button" class="step" data-step="1" aria-pressed="false">
+      <span class="n">passo 1 · la tua scelta</span>
+      <span class="h3">Prima capisce cosa hai scelto.</span>
+      <p>Se il sito usa lo standard europeo del consenso (IAB TCF), legge lì la tua scelta: è il segnale che il sito manda ai partner pubblicitari. Altrimenti guarda il pulsante che hai cliccato.</p>
+      <ul><li>riconosce le frasi di rifiuto in otto lingue dell'UE, e i nomi interni delle piattaforme dei banner;</li><li>«Personalizza» o «Gestisci» non sono una scelta; «Rifiuta e abbonati» non è un rifiuto gratuito.</li></ul>
+    </button>
+    <button type="button" class="step" data-step="2" aria-pressed="false">
+      <span class="n">passo 2 · cosa resta</span>
+      <span class="h3">Poi guarda cosa resta nel browser.</span>
+      <p>I cookie presenti dopo la tua scelta e i siti che la pagina contatta dopo il clic. Li legge soltanto: niente esce dal browser.</p>
+    </button>
+    <button type="button" class="step" data-step="3" aria-pressed="false">
+      <span class="n">passo 3 · di chi è</span>
+      <span class="h3">Separa il sito dagli altri.</span>
+      <p>Un cookie salvato sul dominio del sito è <b>del sito</b>; uno salvato sul dominio di un'altra azienda è <b>di terzi</b>.</p>
+      <ul><li>sottodomini e suffissi come co.uk, gov.it o ac.at contano come un solo sito;</li><li>un cookie «partizionato» è riservato a questo sito: non ti segue sugli altri.</li></ul>
+    </button>
+    <button type="button" class="step" data-step="4" aria-pressed="false">
+      <span class="n">passo 4 · chi può riconoscerti</span>
+      <span class="h3">Conta chi può riconoscerti.</span>
+      <p>Un cookie di terzi può riconoscerti se il browser lo rimanda a quell'azienda anche da qui (SameSite=None), se l'azienda viene contattata dopo la tua scelta, e se dura abbastanza da ritrovarti nei giorni successivi.</p>
+      <ul><li>un cookie sconosciuto, di terzi, inviato ovunque e valido almeno 30 giorni è un «identificativo probabile»;</li><li>i cookie del tuo account (Google, Facebook…) esistono perché sei collegato: sono informazione, non colpa del sito.</li></ul>
+    </button>
+    <button type="button" class="step" data-step="5" aria-pressed="false">
+      <span class="n">passo 5 · le etichette</span>
+      <span class="h3">Dà un nome alle cose.</span>
+      <p>Le etichette (marketing, statistica, funzionali…) vengono dall'Open Cookie Database, un archivio pubblico di circa 2.300 nomi di cookie, compilato soprattutto da quello che dichiarano le aziende. Per questo l'estensione scrive «classificato come», mai «è».</p>
+      <ul><li>un cookie di marketing del sito conta se dura più di un giorno;</li><li>la statistica del sito è informazione: in alcuni casi è ammessa senza consenso.</li></ul>
+    </button>
+    <button type="button" class="step" data-step="6" aria-pressed="false">
+      <span class="n">passo 6 · la conclusione</span>
+      <span class="h3">Infine, una conclusione prudente.</span>
+      <p>Nessun punto contro: «il tuo rifiuto sembra rispettato». Almeno uno: «sembra rispettato solo in parte», con il motivo. Mai «il sito viola la legge»: l'estensione non può saperlo.</p>
+    </button>
+  </div>
+
+  <div class="stack">
+    <div class="sieve-head">
+      <p class="eyebrow">i cookie del sito di prova, dopo il rifiuto</p>
+      <p class="sieve-caption" id="sieve-caption">tutti i passi insieme</p>
+    </div>
+    <div class="table-wrap">
+      <table class="data sieve" id="sieve">
+        <thead><tr>
+          <th class="c-name">cookie</th><th class="c-where">salvato da</th><th class="c-owner">di chi è</th>
+          <th class="c-same">rimandato da altri siti</th><th class="c-life">dura</th><th class="c-label">etichetta</th><th class="c-out">esito</th>
+        </tr></thead>
+        <tbody>
+          <tr><td class="c-name">sessione</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">—</td><td class="c-life">fino alla chiusura</td><td class="c-label">necessario</td><td class="c-out"><span class="tag none">non conta</span></td></tr>
+          <tr><td class="c-name">euconsent-v2</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">—</td><td class="c-life">13 mesi</td><td class="c-label">funzionale: ricorda la tua scelta</td><td class="c-out"><span class="tag none">non conta</span></td></tr>
+          <tr><td class="c-name">_pk_id</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">—</td><td class="c-life">13 mesi</td><td class="c-label">statistica</td><td class="c-out"><span class="tag info">informazione</span></td></tr>
+          <tr><td class="c-name">_pn_click</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">—</td><td class="c-life">3 mesi</td><td class="c-label">marketing (Pubblinet)</td><td class="c-out"><span class="tag against">punto contro</span></td></tr>
+          <tr><td class="c-name">pn_uid</td><td class="c-where">pubblinet.example</td><td class="c-owner">di terzi</td><td class="c-same">sì, contattato dopo il clic</td><td class="c-life">13 mesi</td><td class="c-label">marketing</td><td class="c-out"><span class="tag against">può riconoscerti</span></td></tr>
+          <tr><td class="c-name">sid_x9</td><td class="c-where">seguiid.example</td><td class="c-owner">di terzi</td><td class="c-same">sì, contattato dopo il clic</td><td class="c-life">12 mesi</td><td class="c-label">sconosciuto: identificativo probabile</td><td class="c-out"><span class="tag against">può riconoscerti</span></td></tr>
+          <tr><td class="c-name">__cf_bm</td><td class="c-where">cdn-immagini.example</td><td class="c-owner">di terzi</td><td class="c-same">sì</td><td class="c-life">30 minuti</td><td class="c-label">sicurezza</td><td class="c-out"><span class="tag none">non conta</span></td></tr>
+          <tr><td class="c-name">SID</td><td class="c-where">account.example</td><td class="c-owner">di terzi: il tuo account</td><td class="c-same">sì</td><td class="c-life">2 anni</td><td class="c-label">cookie del tuo account</td><td class="c-out"><span class="tag info">informazione</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="result-line"><b>Il tuo rifiuto sembra rispettato solo in parte.</b> 2 siti terzi possono ancora riconoscerti, e 1 cookie del sito è classificato come marketing.</div>
+  </div>
+
+  <div class="stack">
+    <div class="sec-head"><p class="eyebrow">tre livelli di certezza</p><h2 class="h2">Ogni frase dice da dove viene.</h2></div>
+    <div class="levels">
+      <div class="panel level"><span class="k">osservato</span><q>Il segnale di consenso del sito registra il tuo rifiuto</q><p class="small">Quello che il browser vede: cookie, siti contattati, il segnale TCF.</p></div>
+      <div class="panel level"><span class="k">possibile</span><q>2 siti terzi <b>possono</b> riconoscerti</q><p class="small">Una capacità tecnica (un cookie duraturo rimandato a un'azienda), non la prova che venga usata.</p></div>
+      <div class="panel level"><span class="k">classificato</span><q>1 cookie è <b>classificato come</b> marketing</q><p class="small">Quello che dice il database, compilato soprattutto da ciò che dichiarano le aziende.</p></div>
+    </div>
+    <p class="small">La domanda principale, cioè se qualcuno può ancora riconoscerti dopo il rifiuto, si basa sui primi due livelli. Il database aggiunge solo nomi e descrizioni.</p>
+  </div>
+
+  <div class="doors">
+    <a class="door" href="https://github.com/nicolobachiorri/afterNO" target="_blank" rel="noopener"><span class="arrow">=&gt; tutto il resto</span><span class="t">Il codice su GitHub</span><span class="d">Le regole esatte, i test, il database dei cookie e le sue correzioni.</span></a>
+    <a class="door" href="#fidarmi"><span class="arrow">=&gt; e funziona?</span><span class="t">Quanto è precisa</span><span class="d">Copertura, accuratezza e stabilità, misurate su 120 siti.</span></a>
+  </div>
+</section>
+
+<!-- ======================= OPEN SOURCE ======================= -->
+<section class="view" id="v-os" data-view="open-source" hidden>
+  <div class="hero">
+    <p class="eyebrow">perché open source</p>
+    <h1 class="display">Chi legge i tuoi siti<br>deve farsi <span class="px">leggere</span>.</h1>
+    <p class="lead">Un'estensione che può vedere i cookie di ogni sito che visiti chiede molta fiducia. L'unico modo onesto di chiederla è permettere a chiunque di controllare cosa fa.</p>
+  </div>
+
+  <div class="grid2">
+    <div class="panel stack">
+      <p class="eyebrow">aperta</p>
+      <h2 class="h3">Il codice è pubblico, sotto licenza Apache 2.0.</h2>
+      <p>Chiunque può leggerlo, verificare che non mandi nulla fuori dal browser, costruirla da sé e confrontarla con quella degli store. Anche il metodo di misura e tutti i dati delle misure sono pubblici.</p>
+    </div>
+    <div class="panel stack">
+      <p class="eyebrow">non commerciale</p>
+      <h2 class="h3">Niente da vendere, niente da raccogliere.</h2>
+      <p>Non ci sono pubblicità, abbonamenti o versioni a pagamento, e non raccogliamo dati: non avremmo dove metterli. È un progetto personale, nato per curiosità e utilità.</p>
+    </div>
+    <div class="panel stack">
+      <p class="eyebrow">i dati dei cookie</p>
+      <h2 class="h3">Open Cookie Database.</h2>
+      <p>I nomi e le descrizioni dei cookie vengono dall'<a href="https://github.com/jkwakman/Open-Cookie-Database" target="_blank" rel="noopener">Open Cookie Database</a>, anch'esso con licenza Apache 2.0, convertito e aggiornato ogni mese in automatico. Le poche correzioni locali sono pubbliche, ciascuna con il suo motivo.</p>
+    </div>
+    <div class="panel stack">
+      <p class="eyebrow">stato</p>
+      <h2 class="h3">In sviluppo, non ancora negli store.</h2>
+      <p>Funziona su Chrome e Firefox. La pubblicazione negli store arriverà dopo le ultime verifiche.</p>
+    </div>
+  </div>
+
+  <div class="panel stack">
+    <p class="eyebrow">contatti</p>
+    <h2 class="h2">Scrivici.</h2>
+    <p class="lead">Segnalazioni, un sito su cui sbaglia, domande sul metodo: tutto è benvenuto.</p>
+    <div class="contact">
+      <span class="addr" id="addr">afterno.extension@gmail.com</span>
+      <button type="button" class="btn" id="copy">Copia l'indirizzo</button>
+      <a class="btn ghost" href="https://github.com/nicolobachiorri/afterNO" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>after<span class="px">NO</span> · cosa succede dopo il tuo rifiuto dei cookie</span>
+    <span>Apache 2.0 · <a href="https://github.com/nicolobachiorri/afterNO" target="_blank" rel="noopener">GitHub</a> · afterno.extension@gmail.com</span>
+    <span class="site-privacy">Questo sito non usa cookie né statistiche e non chiede nulla a server di terzi: anche i caratteri sono inclusi. È ospitato da GitHub Pages, che come ogni servizio di hosting registra i dati tecnici delle visite (<a href="https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">informativa di GitHub</a>).</span>
+  </div>
+</footer>
+
+<button type="button" class="theme" id="theme" aria-label="Cambia tema chiaro o scuro">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="currentColor"/></svg>
+</button>
+
+<script>
+(() => {
+  /* ------------------------------------------------ routing */
+  const views = [...document.querySelectorAll('section.view')];
+  const navLinks = [...document.querySelectorAll('[data-nav]')];
+  function route() {
+    const name = (location.hash || '').replace('#', '');
+    const known = views.some((v) => v.dataset.view === name);
+    const current = known ? name : '';
+    views.forEach((v) => { v.hidden = v.dataset.view !== current; });
+    navLinks.forEach((a) => { if (a.dataset.nav === current) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+    window.scrollTo({ top: 0 });
+  }
+  window.addEventListener('hashchange', route);
+  route();
+
+  /* ------------------------------------------------ theme */
+  const root = document.documentElement;
+  try { const saved = localStorage.getItem('afterno-theme'); if (saved) root.dataset.theme = saved; } catch (e) {}
+  document.getElementById('theme').addEventListener('click', () => {
+    const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem('afterno-theme', root.dataset.theme); } catch (e) {}
+  });
+
+  /* ------------------------------------------------ copy */
+  document.getElementById('copy').addEventListener('click', async (ev) => {
+    const btn = ev.currentTarget;
+    try { await navigator.clipboard.writeText('afterno.extension@gmail.com'); btn.textContent = 'Copiato'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(document.getElementById('addr')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = 'Selezionato: copialo'; }
+    setTimeout(() => { btn.textContent = "Copia l'indirizzo"; }, 2200);
+  });
+
+  /* ------------------------------------------------ pipeline */
+  const sieve = document.getElementById('sieve');
+  const caption = document.getElementById('sieve-caption');
+  const captions = { 1: 'passo 1: la scelta non è nella tabella, ma decide la domanda', 2: 'passo 2: tutti i cookie presenti dopo il rifiuto', 3: 'passo 3: del sito o di terzi?', 4: 'passo 4: rimandato da altri siti, e per quanto?', 5: "passo 5: l'etichetta del database", 6: 'passo 6: cosa conta, e come' };
+  document.querySelectorAll('.step').forEach((b) => b.addEventListener('click', () => {
+    const on = b.getAttribute('aria-pressed') !== 'true';
+    document.querySelectorAll('.step').forEach((x) => x.setAttribute('aria-pressed', 'false'));
+    if (on) { b.setAttribute('aria-pressed', 'true'); sieve.dataset.step = b.dataset.step; caption.textContent = captions[b.dataset.step]; }
+    else { delete sieve.dataset.step; caption.textContent = 'tutti i passi insieme'; }
+  }));
+
+  /* ------------------------------------------------ the demo */
+  const $ = (id) => document.getElementById(id);
+  const banner = $('banner'), popup = $('popup'), ext = $('ext-btn'), pings = $('pings'), guide = $('guide');
+  const state = { mode: 'respect', choice: null, open: false };
+  const SHAPES = { check: 'M6 10.3l2.6 2.6 5.4-5.6', bang: 'M10 5.5v5.5M10 14.2v.1', info: 'M10 9v5M10 6.2v.1', dash: 'M6.5 10h7', cross: 'M7 7l6 6M13 7l-6 6' };
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const svg = (shape, cls) => `<svg viewBox="0 0 20 20" class="${cls}" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="${SHAPES[shape]}"/></svg>`;
+  const chev = '<svg viewBox="0 0 20 20" class="chev" aria-hidden="true"><path d="M6 8l4 4 4-4"/></svg>';
+  const time = () => new Date().toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
+
+  const C = {
+    session: { name: 'sessione', meta: 'quotidiano-immaginario.example · alla chiusura del browser', desc: 'Tiene aperta la tua visita mentre navighi tra le pagine.' },
+    consent: { name: 'euconsent-v2', meta: 'quotidiano-immaginario.example · 13 mesi', desc: 'Conserva la tua scelta sui cookie, in formato TCF.' },
+    pk: { name: '_pk_id', meta: 'Matomo · quotidiano-immaginario.example · 13 mesi', desc: 'Conta le visite al sito, distinguendo i visitatori.' },
+    pnclick: { name: '_pn_click', meta: 'Pubblinet · quotidiano-immaginario.example · 3 mesi', desc: 'Registra da quale annuncio sei arrivato, per misurare le campagne.' },
+    pnuid: { name: 'pn_uid', meta: 'Pubblinet · pubblinet.example · 13 mesi', desc: 'Identificativo pubblicitario: ti riconosce su tutti i siti che usano Pubblinet.' },
+    sid: { name: 'sid_x9', meta: 'seguiid.example · 12 mesi', note: 'Sconosciuto al database, ma di terzi, inviato ovunque e valido più di 30 giorni: la forma tipica di un identificativo.' },
+    cf: { name: '__cf_bm', meta: 'cdn-immagini.example · 30 minuti', desc: 'Distingue le persone dai programmi automatici.' },
+  };
+
+  function scenario() {
+    const t = time();
+    if (state.choice === 'accept') {
+      return {
+        tone: 'muted', icon: 'dash', when: `Hai accettato alle ${t}`, title: 'Hai accettato i cookie',
+        reason: '2 siti terzi possono riconoscerti qui: Pubblinet e Segui-ID.',
+        heading: `Hai accettato alle ${t}. Ecco cosa è attivo:`,
+        checks: [
+          ['info', 'info', 'Il segnale di consenso del sito (TCF), letto dai partner pubblicitari, registra il tuo consenso: 11 finalità su 11.'],
+          ['info', 'info', '2 siti terzi possono riconoscerti su questo sito: Pubblinet (pubblinet.example), Segui-ID (seguiid.example)'],
+          ['info', 'info', '1 cookie del sito è classificato come marketing: Pubblinet'],
+          ['info', 'info', 'Hai accettato: quanto sopra è attivo dopo il tuo consenso.'],
+        ],
+        groups: [['Marketing', [C.pnuid, C.pnclick], true], ['Identificativi probabili', [C.sid], true], ['Statistica', [C.pk]], ['Funzionali', [C.consent]], ['Sicurezza', [C.cf]], ['Necessari', [C.session]]],
+      };
+    }
+    if (state.mode === 'respect') {
+      return {
+        tone: 'ok', icon: 'check', when: `Hai rifiutato alle ${t}`, title: 'Il tuo rifiuto <span class="accent">sembra rispettato</span>',
+        reason: 'Non vediamo cookie con cui un sito terzo possa riconoscerti qui.',
+        heading: `Hai rifiutato alle ${t}. Cosa è successo dopo:`,
+        checks: [
+          ['ok', 'check', 'Il segnale di consenso del sito (TCF), letto dai partner pubblicitari, registra il tuo rifiuto: 0 finalità su 11 con consenso.'],
+          ['ok', 'check', 'Non vediamo cookie con cui un sito terzo possa riconoscerti qui.'],
+          ['ok', 'check', 'Nessun cookie del sito è classificato come marketing.'],
+          ['info', 'info', '1 cookie del sito è classificato come statistica, che in alcuni casi è ammessa senza consenso: Matomo'],
+        ],
+        groups: [['Statistica', [C.pk]], ['Funzionali', [C.consent]], ['Sicurezza', [C.cf]], ['Necessari', [C.session]]],
+      };
+    }
+    return {
+      tone: 'alert', icon: 'bang', when: `Hai rifiutato alle ${t}`, title: 'Il tuo rifiuto sembra rispettato <span class="accent">solo in parte</span>',
+      reason: '2 siti terzi possono ancora riconoscerti qui: Pubblinet e Segui-ID.',
+      heading: `Hai rifiutato alle ${t}. Cosa è successo dopo:`,
+      checks: [
+        ['ok', 'check', 'Il segnale di consenso del sito (TCF), letto dai partner pubblicitari, registra il tuo rifiuto: 0 finalità su 11 con consenso.'],
+        ['bad', 'cross', '2 siti terzi possono ancora riconoscerti su questo sito: Pubblinet (pubblinet.example), Segui-ID (seguiid.example)'],
+        ['bad', 'cross', '1 cookie del sito è classificato come marketing: Pubblinet'],
+        ['info', 'info', '1 cookie del sito è classificato come statistica, che in alcuni casi è ammessa senza consenso: Matomo'],
+      ],
+      groups: [['Marketing', [C.pnuid, C.pnclick], true], ['Identificativi probabili', [C.sid], true], ['Statistica', [C.pk]], ['Funzionali', [C.consent]], ['Sicurezza', [C.cf]], ['Necessari', [C.session]]],
+    };
+  }
+
+  function renderPopup() {
+    const s = scenario();
+    const n = s.groups.reduce((k, g) => k + g[1].length, 0);
+    const groups = s.groups.map(([name, list, tracking]) => `
+      <div class="ck-group${tracking ? ' tracking' : ''}">
+        <p class="ck-h">${esc(name)} · ${list.length}</p>
+        <ul>${list.map((c) => `<li><span class="ck-name">${esc(c.name)}</span><span class="ck-meta">${esc(c.meta)}</span>${c.desc ? `<span class="ck-desc">${esc(c.desc)}</span>` : ''}${c.note ? `<span class="ck-note">${esc(c.note)}</span>` : ''}</li>`).join('')}</ul>
+      </div>`).join('');
+    popup.innerHTML = `
+      <div class="p-top"><span class="p-host">www.quotidiano-immaginario.example</span><span class="p-brand">after<span>NO</span></span></div>
+      <section class="card tone-${s.tone}">
+        <div class="card-top">${svg(s.icon, 'st-icon')}<span class="card-when">${esc(s.when)}</span></div>
+        <p class="card-title">${s.title}</p>
+        <p class="card-reason">${esc(s.reason)}</p>
+      </section>
+      <p class="disc">Indicazione automatica basata su ciò che il tuo browser osserva. Può essere incompleta o errata e non costituisce una valutazione legale.</p>
+      <div>
+        <details class="t" id="why"><summary>Perché? Tutti i controlli<span class="t-meta">${s.checks.length} controlli ${chev}</span></summary>
+          <p class="vh">${esc(s.heading)}</p>
+          <ul class="checks">${s.checks.map(([m, sh, txt]) => `<li class="${m}">${svg(sh, 'mk ' + m)}<span>${esc(txt)}</span></li>`).join('')}</ul>
+        </details>
+        <details class="t" id="cks"><summary>Vedi i cookie<span class="t-meta">${n} cookie ${chev}</span></summary>${groups}</details>
+      </div>
+      <button type="button" class="restart" id="restart">↺ ricomincia la prova</button>`;
+    popup.querySelector('#restart').addEventListener('click', reset);
+    popup.querySelectorAll('details').forEach((d) => d.addEventListener('toggle', () => { if (d.open) setGuide(3); }));
+  }
+
+  function setGuide(step) {
+    const g = {
+      1: '<b>1 /</b> Clicca «Rifiuta tutto» nel banner del sito.',
+      2: '<b>2 /</b> Ora apri afterNO: l\'icona in alto a destra.',
+      3: '<b>3 /</b> Apri «Perché?» o «Vedi i cookie». Poi prova l\'altro sito.',
+    }[step];
+    guide.innerHTML = g;
+  }
+
+  function showPings() {
+    pings.innerHTML = '';
+    const list = state.choice === 'accept' || state.mode === 'ignore'
+      ? [['→ pubblinet.example · cookie inviato', ''], ['→ seguiid.example · cookie inviato', '']]
+      : [['nessun sito terzo con cookie che possano riconoscerti', 'calm']];
+    list.forEach(([txt, cls], i) => setTimeout(() => {
+      const p = document.createElement('span'); p.className = 'ping ' + cls; p.textContent = txt; pings.append(p);
+    }, 350 + i * 450));
+  }
+
+  function choose(choice) {
+    state.choice = choice;
+    banner.classList.add('gone');
+    banner.setAttribute('aria-hidden', 'true');
+    $('b-reject').classList.remove('pulse');
+    showPings();
+    ext.classList.add('call');
+    setGuide(2);
+  }
+
+  function togglePopup(force) {
+    if (!state.choice) { $('banner-note').hidden = false; $('banner-note').textContent = 'Prima scegli nel banner: afterNO confronta la tua scelta con quello che resta.'; return; }
+    state.open = force ?? !state.open;
+    popup.hidden = !state.open;
+    ext.setAttribute('aria-expanded', String(state.open));
+    ext.classList.remove('call');
+    if (state.open) { renderPopup(); pings.innerHTML = ''; setGuide(3); }
+  }
+
+  function reset() {
+    state.choice = null; state.open = false;
+    popup.hidden = true; ext.setAttribute('aria-expanded', 'false'); ext.classList.remove('call');
+    banner.classList.remove('gone'); banner.removeAttribute('aria-hidden');
+    $('b-reject').classList.add('pulse'); $('banner-note').hidden = true; pings.innerHTML = '';
+    setGuide(1);
+  }
+
+  function setMode(mode) {
+    state.mode = mode;
+    $('mode-respect').setAttribute('aria-pressed', String(mode === 'respect'));
+    $('mode-ignore').setAttribute('aria-pressed', String(mode === 'ignore'));
+    reset();
+  }
+
+  $('b-reject').addEventListener('click', () => choose('reject'));
+  $('b-accept').addEventListener('click', () => choose('accept'));
+  $('b-custom').addEventListener('click', () => { const n = $('banner-note'); n.textContent = 'Nella prova ci sono solo «Rifiuta tutto» e «Accetta tutto».'; n.hidden = false; });
+  ext.addEventListener('click', () => togglePopup());
+  $('mode-respect').addEventListener('click', () => setMode('respect'));
+  $('mode-ignore').addEventListener('click', () => setMode('ignore'));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && state.open) togglePopup(false); });
+  setGuide(1);
+})();
+</script>
+
+</body>
+</html>

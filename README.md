@@ -181,6 +181,7 @@ tools/                build_cookie_db.py: CSV -> JSON (with divergence_work_spac
 quality/              the accuracy measurement: PROTOCOL.md, samples, robot, judgments, runs/
 divergence_work_space/  step 1: the measurement that motivated the project
 store/                store listing texts (LISTING.md), screenshots and the script that takes them
+docs/                 the website (GitHub Pages): one page, no cookies, no third-party requests
 design/               icon source
 .github/workflows/    tests on every push; monthly update of the cookie database
 ```

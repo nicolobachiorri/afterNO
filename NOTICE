@@ -9,3 +9,9 @@ Apache License, Version 2.0. The data was converted to JSON by
 tools/build_cookie_db.py (extension/public/cookie-db.json and
 extension/public/cookie-desc.json); a few classifications were corrected
 locally, see divergence_work_space/overrides.csv.
+
+The website in docs/ includes the fonts Geist and Geist Mono (Copyright 2024 The
+Geist Project Authors, https://github.com/vercel/geist-font) and Silkscreen
+(Copyright 2001 The Silkscreen Project Authors,
+https://github.com/googlefonts/silkscreen), distributed by Fontsource and licensed
+under the SIL Open Font License, Version 1.1 (see docs/fonts/LICENSE-*.txt).
