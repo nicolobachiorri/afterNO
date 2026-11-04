@@ -1,0 +1,79 @@
+{
+  "url": "https://www.univ-tours.fr",
+  "final_url": "https://www.univ-tours.fr/",
+  "click_at_s": 27.26,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Confort+",
+    "ACC\u00c8S DIRECTS",
+    "FACULT\u00c9S, INSTITUTS & \u00c9COLE",
+    "Rechercher",
+    "FR",
+    "L'universit\u00e9",
+    "Formations",
+    "Campus",
+    "Recherche",
+    "International",
+    "NEOLAIA",
+    "RECHERCHER",
+    "\u276e",
+    "\u276f"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.matomo.cloud": {
+      "first_s": 3.37,
+      "last_s": 3.37
+    },
+    "univtours.matomo.cloud": {
+      "first_s": 3.95,
+      "last_s": 3.95
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "domain": "www.univ-tours.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_id.1.c877",
+      "domain": "www.univ-tours.fr",
+      "path": "/",
+      "expires": 1827744816,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.1.c877",
+      "domain": "www.univ-tours.fr",
+      "path": "/",
+      "expires": 1793791416,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "UCI42",
+      "domain": ".www.univ-tours.fr",
+      "path": "/",
+      "expires": 1828349616.229593,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

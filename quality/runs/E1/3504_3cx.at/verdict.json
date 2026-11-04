@@ -1,0 +1,89 @@
+{
+  "host": "www.3cx.de",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 3,
+      "names": [
+        "X (twitter.com)",
+        "LinkedIn (linkedin.com)",
+        "X (t.co)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 2,
+      "names": [
+        "Google",
+        "Facebook"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.3cx.de/",
+    "lastSeen": {
+      "a.quora.com": 1793730637607,
+      "ad.doubleclick.net": 1793730637615,
+      "analytics.twitter.com": 1793730648354,
+      "connect.facebook.net": 1793730638427,
+      "fonts.googleapis.com": 1793730635914,
+      "fonts.gstatic.com": 1793730636220,
+      "googleads.g.doubleclick.net": 1793730638578,
+      "pagead2.googlesyndication.com": 1793730637615,
+      "px.ads.linkedin.com": 1793730638437,
+      "px4.ads.linkedin.com": 1793730639007,
+      "q.quora.com": 1793730637616,
+      "region1.analytics.google.com": 1793730643520,
+      "snap.licdn.com": 1793730637607,
+      "static.ads-twitter.com": 1793730637608,
+      "stats.g.doubleclick.net": 1793730638514,
+      "t.co": 1793730648353,
+      "wcdn.3cx.com": 1793730636162,
+      "webapi.3cx.com": 1793730636338,
+      "webapi.3cx.de": 1793730636405,
+      "www.3cx.de": 1793730639507,
+      "www.facebook.com": 1793730638897,
+      "www.google.com": 1793730638899,
+      "www.google.it": 1793730638899,
+      "www.googletagmanager.com": 1793730637605
+    }
+  },
+  "hostsConsidered": [
+    "a.quora.com",
+    "ad.doubleclick.net",
+    "analytics.twitter.com",
+    "connect.facebook.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "googleads.g.doubleclick.net",
+    "pagead2.googlesyndication.com",
+    "px.ads.linkedin.com",
+    "px4.ads.linkedin.com",
+    "q.quora.com",
+    "region1.analytics.google.com",
+    "snap.licdn.com",
+    "static.ads-twitter.com",
+    "stats.g.doubleclick.net",
+    "t.co",
+    "wcdn.3cx.com",
+    "webapi.3cx.com",
+    "webapi.3cx.de",
+    "www.3cx.de",
+    "www.facebook.com",
+    "www.google.com",
+    "www.google.it",
+    "www.googletagmanager.com"
+  ]
+}

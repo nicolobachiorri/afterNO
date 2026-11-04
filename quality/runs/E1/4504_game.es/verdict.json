@@ -1,0 +1,51 @@
+{
+  "host": "www.game.es",
+  "choice": {
+    "at": 1793730959617,
+    "choice": "rejected",
+    "label": "Rechazar",
+    "site": "game.es",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rechazar"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.game.es/",
+    "lastSeen": {
+      "api.privacy-center.org": 1793730959677,
+      "media.game.es": 1793730965151,
+      "sdk.privacy-center.org": 1793730964971,
+      "www.dwin1.com": 1793730965135,
+      "www.game.es": 1793730965438,
+      "www.googletagmanager.com": 1793730964870
+    }
+  },
+  "hostsConsidered": [
+    "api.privacy-center.org",
+    "media.game.es",
+    "sdk.privacy-center.org",
+    "www.dwin1.com",
+    "www.game.es",
+    "www.googletagmanager.com"
+  ]
+}

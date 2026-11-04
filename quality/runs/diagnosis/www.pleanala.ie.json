@@ -1,0 +1,122 @@
+{
+  "url": "https://www.pleanala.ie",
+  "frame": "main",
+  "found_as": "button",
+  "button": {
+    "tag": "BUTTON",
+    "role": null,
+    "text": "I Do Not Accept",
+    "ariaLabel": null,
+    "attrs": {
+      "id": "ccc-reject-settings",
+      "class": "ccc-notify-button ccc-link ccc-tabbable ccc-reject-button"
+    },
+    "inShadow": false,
+    "containers": [
+      {
+        "tag": "BUTTON",
+        "id": "ccc-reject-settings",
+        "cls": "ccc-notify-button ccc-link ccc-tabbable ccc-reject-button",
+        "textLength": 15,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "ccc-button-holder",
+        "cls": "",
+        "textLength": 23,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "cc-panel",
+        "cls": "ccc-panel ",
+        "textLength": 693,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "ccc-content",
+        "cls": "ccc-content--dark   ",
+        "textLength": 693,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "ccc-module",
+        "cls": "ccc-module--slideout ccc-module--left",
+        "textLength": 693,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "ccc",
+        "cls": "",
+        "textLength": 693,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "cls": "",
+        "textLength": 8635,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "HTML",
+        "id": "",
+        "cls": "",
+        "textLength": 117076,
+        "mentionsConsent": true
+      }
+    ]
+  },
+  "events_in_frame": [
+    {
+      "type": "pointerdown",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "I Do Not Accept",
+      "t": 9163
+    },
+    {
+      "type": "mousedown",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "I Do Not Accept",
+      "t": 9163
+    },
+    {
+      "type": "pointerup",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "I Do Not Accept",
+      "t": 9164
+    },
+    {
+      "type": "mouseup",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "I Do Not Accept",
+      "t": 9164
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "I Do Not Accept",
+      "t": 9164
+    }
+  ],
+  "banner_still_visible": false,
+  "extension_choice": {
+    "choice:pleanala.ie": {
+      "at": 1793791040090,
+      "choice": "rejected",
+      "label": "I Do Not Accept",
+      "site": "pleanala.ie",
+      "source": "click",
+      "trigger": "action"
+    }
+  }
+}

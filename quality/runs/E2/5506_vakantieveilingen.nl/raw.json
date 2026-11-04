@@ -1,0 +1,165 @@
+{
+  "url": "https://www.vakantieveilingen.nl",
+  "final_url": "https://www.vakantieveilingen.nl/",
+  "click_at_s": 11.37,
+  "reload_at_s": 16.37,
+  "reject": "button: 'Weigeren' in main (normal click)",
+  "visible_buttons": [
+    "Weigeren",
+    "Aanpassen",
+    "Alles toestaan",
+    "Zoeken naar...",
+    "NL",
+    "Aanmelden",
+    "Cookies"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "accounts.google.com",
+    "ade.googlesyndication.com",
+    "bat.bing.net",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "lytics.houseoftickets.nl",
+    "pagead2.googlesyndication.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "accounts.google.com",
+    "ade.googlesyndication.com",
+    "bat.bing.net",
+    "lytics.houseoftickets.nl",
+    "pagead2.googlesyndication.com"
+  ],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 2.73,
+      "last_s": 16.87
+    },
+    "ade.googlesyndication.com": {
+      "first_s": 4.33,
+      "last_s": 16.75
+    },
+    "bat.bing.com": {
+      "first_s": 3.44,
+      "last_s": 3.89
+    },
+    "bat.bing.net": {
+      "first_s": 3.99,
+      "last_s": 16.69
+    },
+    "consent.cookiebot.com": {
+      "first_s": 3.44,
+      "last_s": 11.41
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 3.86,
+      "last_s": 11.53
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.73,
+      "last_s": 2.73
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.02,
+      "last_s": 3.02
+    },
+    "lytics.houseoftickets.nl": {
+      "first_s": 3.15,
+      "last_s": 16.54
+    },
+    "lytics.source.stonemountaindata.com": {
+      "first_s": 2.73,
+      "last_s": 2.73
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.44,
+      "last_s": 16.68
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.0,
+      "last_s": 3.79
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "accounts.google.com",
+    "bat.bing.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "lytics.source.stonemountaindata.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "FPID",
+      "domain": ".vakantieveilingen.nl",
+      "path": "/",
+      "expires": 1828350175.044131,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.vakantieveilingen.nl",
+      "path": "/",
+      "expires": 1825326169,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "consent_status",
+      "domain": "www.vakantieveilingen.nl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FPLC",
+      "domain": ".vakantieveilingen.nl",
+      "path": "/",
+      "expires": 1793862169.400359,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".vakantieveilingen.nl",
+      "path": "/",
+      "expires": 1828350174.4033,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "g_state",
+      "domain": "www.vakantieveilingen.nl",
+      "path": "/",
+      "expires": 1809342174,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_39GDDNQ1PV",
+      "domain": ".vakantieveilingen.nl",
+      "path": "/",
+      "expires": 1828350174.938187,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

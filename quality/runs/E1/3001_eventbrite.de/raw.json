@@ -1,0 +1,274 @@
+{
+  "url": "https://www.eventbrite.de",
+  "final_url": "https://www.eventbrite.de/",
+  "click_at_s": 11.48,
+  "reload_at_s": 16.48,
+  "reject": "button: 'Alle ablehnen' in main (normal click)",
+  "visible_buttons": [
+    "Save this event: XIV Giornata dei Treni - apertura",
+    "Dieses Event teilen: XIV Giornata dei Treni - aper",
+    "Save this event: XV Giornata dei Treni - New Year ",
+    "Dieses Event teilen: XV Giornata dei Treni - New Y",
+    "Save this event: CIUF CIUF STOP MOTION - laborator",
+    "Dieses Event teilen: CIUF CIUF STOP MOTION - labor",
+    "Save this event: Macchinista per un giorno: guida ",
+    "Dieses Event teilen: Macchinista per un giorno: gu",
+    "Save this event: .NET Conf 2026 XE",
+    "Dieses Event teilen: .NET Conf 2026 XE",
+    "Save this event: Vestiti d'Arte - laboratorio crea",
+    "Dieses Event teilen: Vestiti d'Arte - laboratorio ",
+    "Save this event: La giornata dell'assistente di di",
+    "Dieses Event teilen: La giornata dell'assistente d",
+    "Save this event: \"Autismo e percorsi di vita\" - Pr"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "bzr.openai.com",
+    "cdn.evbstatic.com",
+    "cdntranscend.eventbrite.com",
+    "d1n9ior3u0lhlo.cloudfront.net",
+    "js.zi-scripts.com",
+    "ws.zoominfo.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "bzr.openai.com",
+    "cdn.evbstatic.com",
+    "cdntranscend.eventbrite.com",
+    "d1n9ior3u0lhlo.cloudfront.net",
+    "js.zi-scripts.com",
+    "ws.zoominfo.com"
+  ],
+  "third_party_timeline": {
+    "bzr.openai.com": {
+      "first_s": 5.89,
+      "last_s": 18.6
+    },
+    "bzrcdn.openai.com": {
+      "first_s": 3.82,
+      "last_s": 4.38
+    },
+    "cdn.evbstatic.com": {
+      "first_s": 2.8,
+      "last_s": 16.72
+    },
+    "cdntranscend.eventbrite.com": {
+      "first_s": 2.79,
+      "last_s": 17.03
+    },
+    "d1n9ior3u0lhlo.cloudfront.net": {
+      "first_s": 3.02,
+      "last_s": 16.72
+    },
+    "eventbrite-build.s3.amazonaws.com": {
+      "first_s": 2.8,
+      "last_s": 3.4
+    },
+    "img.evbuc.com": {
+      "first_s": 4.7,
+      "last_s": 4.73
+    },
+    "js.zi-scripts.com": {
+      "first_s": 4.38,
+      "last_s": 17.35
+    },
+    "ws.zoominfo.com": {
+      "first_s": 5.08,
+      "last_s": 17.79
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.82,
+      "last_s": 3.82
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "bzrcdn.openai.com",
+    "cdn.evbstatic.com",
+    "d1n9ior3u0lhlo.cloudfront.net",
+    "eventbrite-build.s3.amazonaws.com",
+    "img.evbuc.com",
+    "js.zi-scripts.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "csrftoken",
+      "domain": ".eventbrite.de",
+      "path": "/",
+      "expires": 1825180030.147491,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "homepageRolloutSeed",
+      "domain": ".eventbrite.de",
+      "path": "/",
+      "expires": 1796322430.14767,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "COOKIE_ID_picox_eventbrite_web",
+      "domain": ".eventbrite.de",
+      "path": "/",
+      "expires": 1825266444,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "guest",
+      "domain": "www.eventbrite.de",
+      "path": "/",
+      "expires": 1825266431.072748,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "guest",
+      "domain": ".eventbrite.de",
+      "path": "/",
+      "expires": 1825266431.173407,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": 1793732231.522596,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__obref",
+      "domain": ".eventbrite.de",
+      "path": "/",
+      "expires": 1825266431.764225,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_zitok",
+      "domain": ".www.eventbrite.de",
+      "path": "/",
+      "expires": 1825266445,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".zoominfo.com",
+      "path": "/",
+      "expires": 1793732233.272008,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".zoominfo.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".bzr.openai.com",
+      "path": "/",
+      "expires": 1793732233.647897,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".bzr.openai.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tcm",
+      "domain": ".eventbrite.de",
+      "path": "/",
+      "expires": 1828290444.498524,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "session",
+      "domain": ".eventbrite.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "location",
+      "domain": "www.eventbrite.de",
+      "path": "/",
+      "expires": 1796322444,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "session",
+      "domain": "www.eventbrite.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "stableId",
+      "domain": ".eventbrite.de",
+      "path": "/",
+      "expires": 1825093645.072369,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

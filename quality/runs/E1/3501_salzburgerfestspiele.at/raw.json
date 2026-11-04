@@ -1,0 +1,66 @@
+{
+  "url": "https://www.salzburgerfestspiele.at",
+  "final_url": "https://www.salzburgerfestspiele.at/",
+  "click_at_s": 13.13,
+  "reload_at_s": 18.13,
+  "reject": "button: 'Nur notwendige Cookies' in main (normal click)",
+  "visible_buttons": [
+    "!!",
+    "Nur notwendige Cookies",
+    "Alle Cookies akzeptieren",
+    "Cookie Einstellungen"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdnjs.cloudflare.com",
+    "static.rolex.com",
+    "www.google.com",
+    "www.gstatic.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdnjs.cloudflare.com",
+    "static.rolex.com",
+    "www.google.com",
+    "www.gstatic.com"
+  ],
+  "third_party_timeline": {
+    "cdnjs.cloudflare.com": {
+      "first_s": 3.34,
+      "last_s": 18.48
+    },
+    "static.rolex.com": {
+      "first_s": 3.06,
+      "last_s": 18.58
+    },
+    "www.google.com": {
+      "first_s": 2.74,
+      "last_s": 18.52
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.05,
+      "last_s": 3.05
+    },
+    "www.gstatic.com": {
+      "first_s": 4.05,
+      "last_s": 18.6
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "static.rolex.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ],
+  "cookies": [
+    {
+      "name": "borlabs-cookie",
+      "domain": "www.salzburgerfestspiele.at",
+      "path": "/",
+      "expires": 1809455351,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+E1,3001,claude (autore del codice),si,ok,0,correct,Rifiuto «Alle ablehnen». Dopo il clic solo cookie funzionali di terzi (Cloudflare); nessun cookie di marketing del sito.
+E1,3002,claude (autore del codice),no_reject,,,,Muro «Zustimmen und weiter mit Werbung» / «Ablehnen und bezahlen» (a pagamento).
+E1,3003,claude (autore del codice),other,,,,Pannello con caselle e solo «Speichern»: nessun pulsante di rifiuto da cliccare.
+E1,3004,claude (autore del codice),si,ok,0,correct,"Rifiuto «Ablehnen», scelta letta dal segnale TCF. Nessun sito terzo con cookie che soddisfano i criteri."
+E1,3006,claude (autore del codice),no_reject,,,,Muro contentpass: «Einwilligen und weiter» o abbonamento.
+E1,3501,claude (autore del codice),si,ok,0,correct,Rifiuto «Nur notwendige Cookies». Nessun cookie di terzi leggibile da altri siti.
+E1,3502,claude (autore del codice),no_blocked,,,,Pagina di blocco «Leider können wir im Moment keinen Zugriff…» (HTTP 403).
+E1,3503,claude (autore del codice),no_click,,,,Banner Usercentrics con «Alle Dienste ablehnen»: il robot non riconosce la frase (parola in mezzo). Limite del robot e probabilmente dell'estensione.
+E1,3504,claude (autore del codice),no_reject,,,,Riga in fondo «3CX verwendet Cookies… stimmen Sie zu» con solo OK; reindirizza a 3cx.de.
+E1,3505,claude (autore del codice),si,ok,0,correct,Rifiuto «Nur technisch Notwendige». Nessun cookie di terzi leggibile da altri siti.
+E1,4001,claude (autore del codice),si,ok,0,correct,Rifiuto «Refuser». Cookie del sito sessionid (marketing nel database) di sessione: non conta. Nessun cookie di terzi.
+E1,4002,claude (autore del codice),no_click,,,,Banner Axeptio con «Non merci»: il robot non riconosce la frase. Limite del robot e probabilmente dell'estensione.
+E1,4003,claude (autore del codice),no_banner,,,,
+E1,4004,claude (autore del codice),no_banner,,,,
+E1,4005,claude (autore del codice),no_banner,,,,Nessun banner visibile (solo un pulsante «Confort +»).
+E1,4501,claude (autore del codice),si,ok,0,correct,"Rifiuto «Permitir solo cookies técnicas». Dopo il clic demdex.net (Adobe) con cookie dpm/demdex di 180 giorni leggibili da altri siti: «solo in parte» corretto. AMCV_ sul sito: informazione, come da modifica 22."
+E1,4502,claude (autore del codice),no_banner,,,,
+E1,4503,claude (autore del codice),si,ok,0,correct,Rifiuto «Continuar sin aceptar». Dopo il clic Criteo con uid di 390 giorni e _gcl_au del sito: «solo in parte» corretto.
+E1,4504,claude (autore del codice),si,ok,0,correct,"Rifiuto «Rechazar» (pulsante senza testo visibile, nome accessibile). Nessun cookie di terzi."
+E1,4505,claude (autore del codice),no_banner,,,,Nessun banner visibile; cookie di terzi già presenti senza scelta.
+E1,5001,claude (autore del codice),no_banner,,,,
+E1,5002,claude (autore del codice),si,ok,0,correct,Rifiuto «Rejeitar todos». Dopo il clic cquotient.com (Salesforce) con uuid di 395 giorni: «solo in parte» corretto.
+E1,5003,claude (autore del codice),no_reject,,,,Banner TCF con solo «Gerir opções» e «Consentir».
+E1,5004,claude (autore del codice),si,ok,0,correct,Rifiuto «Rejeitar todos». Dopo il clic cquotient.com con uuid di 395 giorni: «solo in parte» corretto.
+E1,5006,claude (autore del codice),no_banner,,,,
+E1,5501,claude (autore del codice),no_reject,,,,Pagina DPG Media con solo «Akkoord» e «Instellen».
+E1,5502,claude (autore del codice),no_banner,,,,"Solo un avviso informativo (cookie funzionali e analitici), senza scelta."
+E1,5504,claude (autore del codice),si,ok,0,correct,Rifiuto «Deny» (Cookiebot). Dopo il clic LinkedIn con bcookie di 365 giorni: «solo in parte» corretto.
+E1,5505,claude (autore del codice),no_reject,,,,Avviso con solo «Okay».
+E1,5506,claude (autore del codice),si,ok,0,correct,Rifiuto «Weigeren». Nessun cookie di terzi leggibile da altri siti; Google Analytics del sito come informazione.
+E1,6001,claude (autore del codice),no_click,,,,Banner con «Odmawiam»: il robot non riconosce la parola. Limite del robot e probabilmente dell'estensione.
+E1,6002,claude (autore del codice),no_click,,,,Banner con «Nie zgadzam się»: il robot non riconosce la frase. Limite del robot e probabilmente dell'estensione.
+E1,6003,claude (autore del codice),no_reject,,,,Solo «Ustawienia indywidualne» e «Zgadzam się».
+E1,6004,claude (autore del codice),no_blocked,,,,Verifica Cloudflare.
+E1,6005,claude (autore del codice),no_reject,,,,Banner TCF con solo «Zarządzaj opcjami» e «Zgadzam się».
+E1,6501,claude (autore del codice),si,ok,0,correct,"Rifiuto «Reject All», scelta letta dal segnale TCF. Nessun cookie di terzi che soddisfa i criteri."
+E1,6502,claude (autore del codice),si,ok,0,correct,"Rifiuto «Reject All Cookies». Dopo il clic _fbp del sito (Facebook, 90 giorni): «solo in parte» corretto."
+E1,6503,claude (autore del codice),no_reject,,,,Solo «Cookies Settings» e «Accept All Cookies».
+E1,6504,claude (autore del codice),no_blocked,,,,"«Sorry, you have been blocked» (Cloudflare)."
+E1,6505,claude (autore del codice),no_click,,,,Banner con «I Do Not Accept»: il robot non riconosce la frase (inizia con «I»). Limite del robot e probabilmente dell'estensione.

@@ -1,0 +1,63 @@
+{
+  "host": "www.prv.pl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "Gemius (gemius.pl)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 5,
+      "names": [
+        "Google Analytics",
+        "Gemius"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.prv.pl/",
+    "lastSeen": {
+      "ad.prv.pl": 1793731364955,
+      "api.alestat.com": 1793731366462,
+      "connect.facebook.net": 1793731365598,
+      "goldbach.hit.gemius.pl": 1793731366379,
+      "ls.hit.gemius.pl": 1793731366057,
+      "region1.analytics.google.com": 1793731365830,
+      "ssl.google-analytics.com": 1793731364955,
+      "stats.g.doubleclick.net": 1793731365831,
+      "stats.grupapino.pl": 1793731365252,
+      "www.facebook.com": 1793731366475,
+      "www.google-analytics.com": 1793731365545,
+      "www.google.it": 1793731365831,
+      "www.googletagmanager.com": 1793731365812,
+      "www.prv.pl": 1793731366796
+    }
+  },
+  "hostsConsidered": [
+    "ad.prv.pl",
+    "api.alestat.com",
+    "connect.facebook.net",
+    "goldbach.hit.gemius.pl",
+    "ls.hit.gemius.pl",
+    "region1.analytics.google.com",
+    "ssl.google-analytics.com",
+    "stats.g.doubleclick.net",
+    "stats.grupapino.pl",
+    "www.facebook.com",
+    "www.google-analytics.com",
+    "www.google.it",
+    "www.googletagmanager.com",
+    "www.prv.pl"
+  ]
+}

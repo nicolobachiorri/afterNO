@@ -1,0 +1,77 @@
+{
+  "host": "www.renfe.com",
+  "choice": {
+    "at": 1793730870191,
+    "choice": "rejected",
+    "label": "Permitir solo cookies técnicas",
+    "site": "renfe.com",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Permitir solo cookies técnicas"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager (demdex.net)"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShared",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShort",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.renfe.com/es/es",
+    "lastSeen": {
+      "api.rsv.renfe.com": 1793730875429,
+      "assets.adobedtm.com": 1793730862584,
+      "cdn.cookielaw.org": 1793730875611,
+      "cdn.quantummetric.com": 1793730862465,
+      "cm.everesttech.net": 1793730862374,
+      "dpm.demdex.net": 1793730875370,
+      "edge.adobedc.net": 1793730862084,
+      "geolocation.onetrust.com": 1793730875389,
+      "ingesteu.quantummetric.com": 1793730879291,
+      "privacyportal-de.onetrust.com": 1793730870197,
+      "renfe.demdex.net": 1793730875465,
+      "rum.hlx.page": 1793730875362,
+      "www.renfe.com": 1793730875713
+    }
+  },
+  "hostsConsidered": [
+    "api.rsv.renfe.com",
+    "cdn.cookielaw.org",
+    "dpm.demdex.net",
+    "geolocation.onetrust.com",
+    "ingesteu.quantummetric.com",
+    "privacyportal-de.onetrust.com",
+    "renfe.demdex.net",
+    "rum.hlx.page",
+    "www.renfe.com"
+  ]
+}

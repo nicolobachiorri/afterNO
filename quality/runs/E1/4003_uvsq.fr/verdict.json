@@ -1,0 +1,80 @@
+{
+  "host": "www.uvsq.fr",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "Google Analytics (calameo.com)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyPartitioned",
+      "count": 1,
+      "names": [
+        "Youtube (youtube.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.uvsq.fr/",
+    "lastSeen": {
+      "d.calameo.com": 1793730760691,
+      "fonts.googleapis.com": 1793730758126,
+      "fonts.gstatic.com": 1793730760104,
+      "googleads.g.doubleclick.net": 1793730765763,
+      "i.ytimg.com": 1793730766605,
+      "jnn-pa.googleapis.com": 1793730765221,
+      "ps.calameoassets.com": 1793730764227,
+      "region1.analytics.google.com": 1793730760015,
+      "region1.google-analytics.com": 1793730766822,
+      "static.doubleclick.net": 1793730763662,
+      "stats.g.doubleclick.net": 1793730760015,
+      "v.calameo.com": 1793730763619,
+      "www.google.com": 1793730763752,
+      "www.google.it": 1793730760016,
+      "www.googletagmanager.com": 1793730763611,
+      "www.gstatic.com": 1793730766523,
+      "www.uvsq.fr": 1793730772423,
+      "www.youtube.com": 1793730776766,
+      "yt3.ggpht.com": 1793730766523
+    }
+  },
+  "hostsConsidered": [
+    "d.calameo.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "googleads.g.doubleclick.net",
+    "i.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "ps.calameoassets.com",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "static.doubleclick.net",
+    "stats.g.doubleclick.net",
+    "v.calameo.com",
+    "www.google.com",
+    "www.google.it",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.uvsq.fr",
+    "www.youtube.com",
+    "yt3.ggpht.com"
+  ]
+}

@@ -80,9 +80,9 @@ TCF_JS = """
 
 
 def sample_file(visit):
-    """Visits A and B use sample A/B (sites.csv); visits C1, C2... use sample C."""
+    """Visits A and B use sample A/B (sites.csv); visits C1, C2... use sample C, and so on."""
     letter = (visit or "")[:1]
-    return HERE / (f"sites_{letter}.csv" if letter in ("C", "D") else "sites.csv")
+    return HERE / (f"sites_{letter}.csv" if letter in ("C", "D", "E") else "sites.csv")
 
 
 def load_sample(path, only):
@@ -147,7 +147,9 @@ def measure_site(p, row, out_dir, headless):
                   f"--load-extension={EXTENSION_BUILD}",
                   "--disable-blink-features=AutomationControlled",
                   "--lang=it-IT"],  # the popup in Italian, as the judge reads it
-            locale="it-IT", timezone_id="Europe/Rome",
+            # The site sees the language and time zone of its country (sample E);
+            # Italian otherwise.
+            locale=row.get("locale") or "it-IT", timezone_id=row.get("timezone") or "Europe/Rome",
             viewport={"width": 1366, "height": 900},
         )
         context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
@@ -293,7 +295,7 @@ def measure_site(p, row, out_dir, headless):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--visit", choices=["A", "B", "C1", "C2", "D1", "D2"])
+    ap.add_argument("--visit", choices=["A", "B", "C1", "C2", "D1", "D2", "E1", "E2"])
     ap.add_argument("--pilot", metavar="URL",
                     help="measure one site OUTSIDE the sample, to check the robot works "
                          "without looking at results of the sample (output in runs/pilot/)")

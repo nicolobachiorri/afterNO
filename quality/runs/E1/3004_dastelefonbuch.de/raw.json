@@ -1,0 +1,100 @@
+{
+  "url": "https://www.dastelefonbuch.de",
+  "final_url": "https://www.dastelefonbuch.de/",
+  "click_at_s": 11.86,
+  "reload_at_s": 16.86,
+  "reject": "button: 'Ablehnen' in main (normal click)",
+  "visible_buttons": [
+    "Standort nutzen",
+    "FINDEN",
+    "Alle Akzeptieren",
+    "Ablehnen",
+    "Einstellungen"
+  ],
+  "tcf": {
+    "cmpId": 31,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 11,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "b.delivery.consentmanager.net",
+    "tb.wwa.wipe.de"
+  ],
+  "third_party_hosts_after_reload": [
+    "b.delivery.consentmanager.net",
+    "tb.wwa.wipe.de"
+  ],
+  "third_party_timeline": {
+    "b.delivery.consentmanager.net": {
+      "first_s": 3.66,
+      "last_s": 17.17
+    },
+    "cdn.consentmanager.net": {
+      "first_s": 3.21,
+      "last_s": 4.23
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 3.22,
+      "last_s": 3.22
+    },
+    "tb.wwa.wipe.de": {
+      "first_s": 3.67,
+      "last_s": 17.09
+    },
+    "wipe.de": {
+      "first_s": 3.21,
+      "last_s": 3.21
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.consentmanager.net",
+    "static.cloudflareinsights.com",
+    "wipe.de"
+  ],
+  "cookies": [
+    {
+      "name": "__Secure-sp",
+      "domain": ".dastelefonbuch.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpconsentx15097",
+      "domain": ".dastelefonbuch.de",
+      "path": "/",
+      "expires": 1794940119,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcpcx15097",
+      "domain": ".dastelefonbuch.de",
+      "path": "/",
+      "expires": 1794940119,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcvcx15097",
+      "domain": ".dastelefonbuch.de",
+      "path": "/",
+      "expires": 1794940119,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

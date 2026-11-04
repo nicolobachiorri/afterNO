@@ -1,0 +1,132 @@
+{
+  "url": "https://www.parool.nl",
+  "final_url": "https://myprivacy.dpgmedia.nl/consent?siteKey=5id0G7K93Kr6sOje&callbackUrl=https%3A%2F%2Fwww.parool.nl%2Fprivacygate-confirm%3FredirectUri%3D%252F&isLoggedIn=false",
+  "click_at_s": 26.66,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Inloggen",
+    "Akkoord",
+    "Instellen"
+  ],
+  "tcf": {
+    "cmpId": 411,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 2
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "c.dpgmedia.net": {
+      "first_s": 3.94,
+      "last_s": 3.94
+    },
+    "myprivacy-static.dpgmedia.net": {
+      "first_s": 2.91,
+      "last_s": 3.51
+    },
+    "pg.dpgmedia.net": {
+      "first_s": 3.51,
+      "last_s": 3.51
+    },
+    "sp.dpgmedia.net": {
+      "first_s": 3.64,
+      "last_s": 3.64
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.24,
+      "last_s": 3.24
+    },
+    "www.parool.nl": {
+      "first_s": 2.32,
+      "last_s": 2.32
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "ak_bmsc",
+      "domain": ".parool.nl",
+      "path": "/",
+      "expires": 1793738378.056284,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "xAuthId",
+      "domain": "myprivacy.dpgmedia.nl",
+      "path": "/",
+      "expires": 1827427178.323109,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "authId",
+      "domain": "myprivacy.dpgmedia.nl",
+      "path": "/",
+      "expires": 1827427178.323189,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".dpgmedia.nl",
+      "path": "/",
+      "expires": 1793738378.323218,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".dpgmedia.nl",
+      "path": "/",
+      "expires": 1793738378.846885,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_ses.e23f",
+      "domain": ".dpgmedia.nl",
+      "path": "/",
+      "expires": 1793732979,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_id.e23f",
+      "domain": ".dpgmedia.nl",
+      "path": "/",
+      "expires": 1828291179.388938,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sp",
+      "domain": ".dpgmedia.net",
+      "path": "/",
+      "expires": 1825267179.955965,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

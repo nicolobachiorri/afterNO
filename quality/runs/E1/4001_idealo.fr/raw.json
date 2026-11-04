@@ -1,0 +1,221 @@
+{
+  "url": "https://www.idealo.fr",
+  "final_url": "https://www.idealo.fr/",
+  "click_at_s": 13.15,
+  "reload_at_s": 18.15,
+  "reject": "button: 'Refuser' in main (normal click)",
+  "visible_buttons": [
+    "Ma s\u00e9lection",
+    "-27 %",
+    "-32 %",
+    "-36 %",
+    "-43 %",
+    "-20 %",
+    "Sponsoris\u00e9",
+    "S'inscrire \u00e0 la newsletter",
+    "Colombo -13 % Paris OrlyColombo 05/04/2027 \u2013 25/04",
+    "Porto -56 % Clemont FerrandPorto 04/12/2026 \u2013 07/1",
+    "Fez -20 % Paris Beauvais Till\u00e9Fez 20/11/2026 \u2013 01/",
+    "Casablanca -21 % StrasbourgCasablanca 21/02/2027 \u2013",
+    "Rome-Fiumicino -23 % Paris Beauvais Till\u00e9Rome Fium",
+    "Agadir -21 % Paris Beauvais Till\u00e9Agadir 09/01/2027",
+    "Toulouse -35 % StrasbourgToulouse 27/02/2027 \u2013 13/"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn.idealo.com",
+    "consent-api.service.consent.usercentrics.eu",
+    "das-cdn.idealo.com",
+    "db62cod6cnasq.cloudfront.net",
+    "graphql.usercentrics.eu",
+    "metric.storyly.io",
+    "uct.service.usercentrics.eu"
+  ],
+  "third_party_hosts_after_reload": [
+    "cdn.idealo.com",
+    "das-cdn.idealo.com",
+    "db62cod6cnasq.cloudfront.net",
+    "graphql.usercentrics.eu",
+    "metric.storyly.io",
+    "uct.service.usercentrics.eu"
+  ],
+  "third_party_timeline": {
+    "api.growthbook.idealo.de": {
+      "first_s": 6.09,
+      "last_s": 6.09
+    },
+    "api.storyly.io": {
+      "first_s": 6.2,
+      "last_s": 6.2
+    },
+    "app.usercentrics.eu": {
+      "first_s": 6.22,
+      "last_s": 6.22
+    },
+    "cdn.idealo.com": {
+      "first_s": 5.2,
+      "last_s": 18.77
+    },
+    "consent-api.service.consent.usercentrics.eu": {
+      "first_s": 6.5,
+      "last_s": 13.16
+    },
+    "das-cdn.idealo.com": {
+      "first_s": 5.2,
+      "last_s": 18.38
+    },
+    "db62cod6cnasq.cloudfront.net": {
+      "first_s": 6.63,
+      "last_s": 18.9
+    },
+    "fonts.gstatic.com": {
+      "first_s": 6.58,
+      "last_s": 6.58
+    },
+    "graphql.usercentrics.eu": {
+      "first_s": 18.43,
+      "last_s": 18.43
+    },
+    "metric.storyly.io": {
+      "first_s": 6.58,
+      "last_s": 18.95
+    },
+    "uct.service.usercentrics.eu": {
+      "first_s": 6.5,
+      "last_s": 18.43
+    },
+    "v1.api.service.cmp.usercentrics.eu": {
+      "first_s": 5.99,
+      "last_s": 6.37
+    },
+    "web-frontend.idealo.com": {
+      "first_s": 5.21,
+      "last_s": 5.98
+    },
+    "web.cmp.usercentrics.eu": {
+      "first_s": 5.21,
+      "last_s": 6.7
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "app.usercentrics.eu",
+    "cdn.idealo.com",
+    "db62cod6cnasq.cloudfront.net",
+    "fonts.gstatic.com",
+    "v1.api.service.cmp.usercentrics.eu",
+    "web-frontend.idealo.com",
+    "web.cmp.usercentrics.eu"
+  ],
+  "cookies": [
+    {
+      "name": "sessionid",
+      "domain": ".idealo.fr",
+      "path": "/",
+      "expires": 1793736412.627259,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "xp_seed_s",
+      "domain": ".idealo.fr",
+      "path": "/",
+      "expires": 1793745096.080006,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_so",
+      "domain": ".idealo.fr",
+      "path": "/",
+      "expires": 1793817096.080109,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ttrjm",
+      "domain": ".idealo.fr",
+      "path": "/",
+      "expires": 1793736096.842573,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".www.idealo.fr",
+      "path": "/",
+      "expires": 1796322697,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_mi",
+      "domain": ".idealo.fr",
+      "path": "/",
+      "expires": 1793737896.52105,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".idealo.fr",
+      "path": "/",
+      "expires": 1793737896.480349,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "amzn_consent",
+      "domain": "www.idealo.fr",
+      "path": "/",
+      "expires": 1796149899,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cmp_controllerid",
+      "domain": ".idealo.fr",
+      "path": "/",
+      "expires": 1825266706,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "consentStatus",
+      "domain": ".idealo.fr",
+      "path": "/",
+      "expires": 1825266706,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_s",
+      "domain": ".idealo.fr",
+      "path": "/",
+      "expires": 1796409112.627324,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

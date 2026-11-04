@@ -1,0 +1,66 @@
+{
+  "host": "www.idealo.fr",
+  "choice": {
+    "at": 1793730706475,
+    "choice": "rejected",
+    "label": "Refuser",
+    "site": "idealo.fr",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Refuser"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.idealo.fr/",
+    "lastSeen": {
+      "api.growthbook.idealo.de": 1793730699417,
+      "api.storyly.io": 1793730699525,
+      "app.usercentrics.eu": 1793730711730,
+      "cdn.idealo.com": 1793730712226,
+      "consent-api.service.consent.usercentrics.eu": 1793730706487,
+      "das-cdn.idealo.com": 1793730711710,
+      "db62cod6cnasq.cloudfront.net": 1793730712226,
+      "fonts.gstatic.com": 1793730712129,
+      "graphql.usercentrics.eu": 1793730711742,
+      "metric.storyly.io": 1793730712278,
+      "uct.service.usercentrics.eu": 1793730711742,
+      "v1.api.service.cmp.usercentrics.eu": 1793730711738,
+      "web-frontend.idealo.com": 1793730699310,
+      "web.cmp.usercentrics.eu": 1793730711730,
+      "www.idealo.fr": 1793730712509
+    }
+  },
+  "hostsConsidered": [
+    "app.usercentrics.eu",
+    "cdn.idealo.com",
+    "consent-api.service.consent.usercentrics.eu",
+    "das-cdn.idealo.com",
+    "db62cod6cnasq.cloudfront.net",
+    "fonts.gstatic.com",
+    "graphql.usercentrics.eu",
+    "metric.storyly.io",
+    "uct.service.usercentrics.eu",
+    "v1.api.service.cmp.usercentrics.eu",
+    "web.cmp.usercentrics.eu",
+    "www.idealo.fr"
+  ]
+}

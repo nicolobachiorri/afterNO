@@ -1,0 +1,78 @@
+{
+  "host": "rtb.ie",
+  "choice": {
+    "at": 1793731532764,
+    "choice": "rejected",
+    "label": "Reject All Cookies",
+    "site": "rtb.ie",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Reject All Cookies"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Facebook"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://rtb.ie/",
+    "lastSeen": {
+      "ade.googlesyndication.com": 1793731538184,
+      "api-cdn.mypurecloud.ie": 1793731538755,
+      "apps.mypurecloud.ie": 1793731538819,
+      "bam.eu01.nr-data.net": 1793731538311,
+      "c0-6fa785b9720f4f63a070b585fe6b7723.ecs.us-east-2.on.aws": 1793731537982,
+      "cdn.jsdelivr.net": 1793731524136,
+      "connect.facebook.net": 1793731524702,
+      "cookie-cdn.cookiepro.com": 1793731538198,
+      "e.infogram.com": 1793731524625,
+      "fonts.googleapis.com": 1793731524315,
+      "fonts.gstatic.com": 1793731525437,
+      "geolocation.onetrust.com": 1793731537956,
+      "js-agent.newrelic.com": 1793731525306,
+      "pagead2.googlesyndication.com": 1793731538069,
+      "pixel.wp.com": 1793731538191,
+      "privacyportal.cookiepro.com": 1793731532821,
+      "region1.google-analytics.com": 1793731538062,
+      "rtb.ie": 1793731538404,
+      "stats.wp.com": 1793731524316,
+      "www.facebook.com": 1793731538031,
+      "www.googletagmanager.com": 1793731524958,
+      "www.rtb.ie": 1793731523070
+    }
+  },
+  "hostsConsidered": [
+    "ade.googlesyndication.com",
+    "api-cdn.mypurecloud.ie",
+    "apps.mypurecloud.ie",
+    "bam.eu01.nr-data.net",
+    "c0-6fa785b9720f4f63a070b585fe6b7723.ecs.us-east-2.on.aws",
+    "cookie-cdn.cookiepro.com",
+    "geolocation.onetrust.com",
+    "pagead2.googlesyndication.com",
+    "pixel.wp.com",
+    "privacyportal.cookiepro.com",
+    "region1.google-analytics.com",
+    "rtb.ie",
+    "www.facebook.com"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "url": "https://www.adidas.at",
+  "final_url": "https://www.adidas.at/",
+  "click_at_s": 26.54,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "f.monetate.net": {
+      "first_s": 5.95,
+      "last_s": 5.95
+    },
+    "se.monetate.net": {
+      "first_s": 5.58,
+      "last_s": 5.58
+    },
+    "tags.tiqcdn.com": {
+      "first_s": 5.07,
+      "last_s": 5.58
+    },
+    "www.adidas.com": {
+      "first_s": 5.07,
+      "last_s": 5.21
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "geo_ip",
+      "domain": "www.adidas.at",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "geo_country",
+      "domain": "www.adidas.at",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "onesite_country",
+      "domain": "www.adidas.at",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_so",
+      "domain": ".adidas.at",
+      "path": "/",
+      "expires": 1793875766.261364,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".adidas.at",
+      "path": "/",
+      "expires": 1793803766.261391,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".www.adidas.at",
+      "path": "/",
+      "expires": 1796381366,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_abck",
+      "domain": ".adidas.at",
+      "path": "/",
+      "expires": 1794394167.94242,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_s",
+      "domain": ".adidas.at",
+      "path": "/",
+      "expires": 1796467768.382614,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "akacd_Phased_www_adidas_com_Generic",
+      "domain": "www.adidas.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ab_qm",
+      "domain": ".adidas.at",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ab_sr",
+      "domain": ".adidas.at",
+      "path": "/",
+      "expires": 1796381368,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ab_3rd",
+      "domain": ".adidas.at",
+      "path": "/",
+      "expires": 1796381368,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "utag_main",
+      "domain": ".adidas.at",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

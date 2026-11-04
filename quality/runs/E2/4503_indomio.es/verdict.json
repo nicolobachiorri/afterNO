@@ -1,0 +1,95 @@
+{
+  "host": "www.indomio.es",
+  "choice": {
+    "at": 1793789717311,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "site": "indomio.es",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "Criteo (criteo.com)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Google"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 5,
+      "names": [
+        "Google Analytics",
+        "Trustpilot"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.indomio.es/",
+    "lastSeen": {
+      "ad.doubleclick.net": 1793789712948,
+      "api-js.datadome.co": 1793789722624,
+      "api.privacy-center.org": 1793789717292,
+      "catcher.indomio.es": 1793789722604,
+      "cdn.segment.com": 1793789722449,
+      "cgapigw.indomio.es": 1793789727582,
+      "ct.captcha-delivery.com": 1793789709469,
+      "dynamic.criteo.com": 1793789712585,
+      "fonts.googleapis.com": 1793789711733,
+      "fonts.gstatic.com": 1793789712062,
+      "fotos.indomio.es": 1793789713626,
+      "geo.captcha-delivery.com": 1793789710142,
+      "googleads.g.doubleclick.net": 1793789713093,
+      "gum.criteo.com": 1793789722595,
+      "js.datadome.co": 1793789710988,
+      "pagead2.googlesyndication.com": 1793789722579,
+      "q.clarity.ms": 1793789723413,
+      "r.clarity.ms": 1793789714087,
+      "region1.analytics.google.com": 1793789713093,
+      "scripts.clarity.ms": 1793789712398,
+      "sdk.privacy-center.org": 1793789712286,
+      "statics.indomio.es": 1793789722421,
+      "stats.g.doubleclick.net": 1793789713057,
+      "www.clarity.ms": 1793789722425,
+      "www.google.com": 1793789713409,
+      "www.google.it": 1793789713574,
+      "www.googletagmanager.com": 1793789722579,
+      "www.indomio.es": 1793789723337
+    }
+  },
+  "hostsConsidered": [
+    "api-js.datadome.co",
+    "catcher.indomio.es",
+    "cdn.segment.com",
+    "cgapigw.indomio.es",
+    "gum.criteo.com",
+    "pagead2.googlesyndication.com",
+    "q.clarity.ms",
+    "statics.indomio.es",
+    "www.clarity.ms",
+    "www.googletagmanager.com",
+    "www.indomio.es"
+  ]
+}

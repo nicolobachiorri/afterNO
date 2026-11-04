@@ -1,0 +1,120 @@
+{
+  "url": "https://www.catholique.fr",
+  "final_url": "https://eglise.catholique.fr/",
+  "click_at_s": 27.96,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Je m'abonne \u00e0 la lettre d'information",
+    "Suivre la Page",
+    "Partager"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "9823829.fls.doubleclick.net": {
+      "first_s": 4.96,
+      "last_s": 5.61
+    },
+    "ad.doubleclick.net": {
+      "first_s": 4.38,
+      "last_s": 6.11
+    },
+    "adservice.google.com": {
+      "first_s": 6.04,
+      "last_s": 6.04
+    },
+    "app.mailjet.com": {
+      "first_s": 3.14,
+      "last_s": 4.22
+    },
+    "bat.bing.com": {
+      "first_s": 4.38,
+      "last_s": 5.28
+    },
+    "bat.bing.net": {
+      "first_s": 5.39,
+      "last_s": 5.39
+    },
+    "connect.facebook.net": {
+      "first_s": 3.14,
+      "last_s": 5.03
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.46,
+      "last_s": 3.46
+    },
+    "scontent.xx.fbcdn.net": {
+      "first_s": 4.63,
+      "last_s": 4.63
+    },
+    "static.xx.fbcdn.net": {
+      "first_s": 4.63,
+      "last_s": 5.33
+    },
+    "stats.cef.fr": {
+      "first_s": 3.75,
+      "last_s": 4.33
+    },
+    "www.facebook.com": {
+      "first_s": 4.16,
+      "last_s": 4.16
+    },
+    "www.google.com": {
+      "first_s": 3.14,
+      "last_s": 6.11
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.75,
+      "last_s": 4.38
+    },
+    "www.gstatic.com": {
+      "first_s": 3.39,
+      "last_s": 3.39
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_pk_id.4.30e7",
+      "domain": "eglise.catholique.fr",
+      "path": "/",
+      "expires": 1827685994,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.4.30e7",
+      "domain": "eglise.catholique.fr",
+      "path": "/",
+      "expires": 1793732593,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".catholique.fr",
+      "path": "/",
+      "expires": 1801506794,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1793731695.61024,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

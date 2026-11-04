@@ -1,0 +1,878 @@
+{
+  "url": "https://www.record.pt",
+  "final_url": "https://www.record.pt/",
+  "click_at_s": 27.62,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Iniciar Sess\u00e3o",
+    "Competi\u00e7\u00e3o",
+    "Previous",
+    "Next",
+    "Liga Portugal Betclic",
+    "APROVEITE",
+    "CANCELAR",
+    "CONTINUAR",
+    "Alertas",
+    "Saber mais",
+    "Lista de parceiros.",
+    "Consentir",
+    "Gerir op\u00e7\u00f5es",
+    "Ignorar"
+  ],
+  "tcf": {
+    "cmpId": 300,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "i.ytimg.com",
+    "rr2---sn-fpoq-8jxz.googlevideo.com",
+    "services.insurads.com",
+    "www.google.com",
+    "www.youtube.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 3.99,
+      "last_s": 22.18
+    },
+    "ad.doubleclick.net": {
+      "first_s": 4.66,
+      "last_s": 4.66
+    },
+    "ad.turn.com": {
+      "first_s": 17.27,
+      "last_s": 17.27
+    },
+    "ads.brndts.com": {
+      "first_s": 3.33,
+      "last_s": 3.7
+    },
+    "aminhaconta.xl.pt": {
+      "first_s": 2.94,
+      "last_s": 6.6
+    },
+    "ams3.digitaloceanspaces.com": {
+      "first_s": 6.26,
+      "last_s": 6.26
+    },
+    "analytics.twitter.com": {
+      "first_s": 4.75,
+      "last_s": 14.76
+    },
+    "api.weborama.design": {
+      "first_s": 6.26,
+      "last_s": 6.26
+    },
+    "applets.ebxcdn.com": {
+      "first_s": 4.28,
+      "last_s": 5.84
+    },
+    "assinaturas.xl.pt": {
+      "first_s": 4.17,
+      "last_s": 5.73
+    },
+    "barra.xl.pt": {
+      "first_s": 3.7,
+      "last_s": 4.65
+    },
+    "bid.sparteo.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "boot.pbstck.com": {
+      "first_s": 4.28,
+      "last_s": 4.28
+    },
+    "bttrack.com": {
+      "first_s": 16.87,
+      "last_s": 16.87
+    },
+    "cdn.advoxel.com": {
+      "first_s": 4.28,
+      "last_s": 4.28
+    },
+    "cdn.cmjornal.pt": {
+      "first_s": 3.36,
+      "last_s": 3.36
+    },
+    "cdn.insurads.com": {
+      "first_s": 2.99,
+      "last_s": 5.84
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 4.95,
+      "last_s": 4.95
+    },
+    "cdn.maxima.pt": {
+      "first_s": 3.36,
+      "last_s": 3.36
+    },
+    "cdn.nowcanal.pt": {
+      "first_s": 3.36,
+      "last_s": 3.36
+    },
+    "cdn.pbstck.com": {
+      "first_s": 5.99,
+      "last_s": 16.87
+    },
+    "cdn.xl.pt": {
+      "first_s": 3.37,
+      "last_s": 3.37
+    },
+    "cloud.weborama.design": {
+      "first_s": 4.29,
+      "last_s": 6.87
+    },
+    "cluster4.relevant-digital.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "cofina-cdn.relevant-digital.com": {
+      "first_s": 4.39,
+      "last_s": 4.39
+    },
+    "connect.facebook.net": {
+      "first_s": 3.59,
+      "last_s": 5.19
+    },
+    "contextual.weborama.design": {
+      "first_s": 7.33,
+      "last_s": 7.33
+    },
+    "ctx.weborama.com": {
+      "first_s": 6.98,
+      "last_s": 6.98
+    },
+    "dev.visualwebsiteoptimizer.com": {
+      "first_s": 3.64,
+      "last_s": 5.19
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.34,
+      "last_s": 4.6
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.8,
+      "last_s": 4.81
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 2.99,
+      "last_s": 5.16
+    },
+    "gapt.hit.gemius.pl": {
+      "first_s": 3.69,
+      "last_s": 5.53
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 5.28,
+      "last_s": 5.42
+    },
+    "grid-bidder.criteo.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "gum.criteo.com": {
+      "first_s": 14.58,
+      "last_s": 14.58
+    },
+    "i.ytimg.com": {
+      "first_s": 6.3,
+      "last_s": 32.18
+    },
+    "intake.pbstck.com": {
+      "first_s": 6.65,
+      "last_s": 22.2
+    },
+    "j.clarity.ms": {
+      "first_s": 6.72,
+      "last_s": 24.21
+    },
+    "jnn-pa.googleapis.com": {
+      "first_s": 5.59,
+      "last_s": 5.59
+    },
+    "lh3.googleusercontent.com": {
+      "first_s": 4.6,
+      "last_s": 4.6
+    },
+    "ls.hit.gemius.pl": {
+      "first_s": 5.19,
+      "last_s": 5.19
+    },
+    "mab.chartbeat.com": {
+      "first_s": 3.82,
+      "last_s": 3.82
+    },
+    "mp.4dex.io": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "ms-cookie-sync.presage.io": {
+      "first_s": 16.87,
+      "last_s": 16.87
+    },
+    "mweb-hb.presage.io": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "node.pbstck.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.28,
+      "last_s": 4.28
+    },
+    "pbs.optidigital.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "ping.chartbeat.net": {
+      "first_s": 4.33,
+      "last_s": 19.33
+    },
+    "prebid-eu.creativecdn.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "prebid.cwi.re": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "prebid.smilewanted.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "prg.smartadserver.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "pubs.xl.pt": {
+      "first_s": 3.36,
+      "last_s": 3.36
+    },
+    "region1.analytics.google.com": {
+      "first_s": 4.66,
+      "last_s": 4.66
+    },
+    "rr1---sn-fpoq-8jxl.googlevideo.com": {
+      "first_s": 5.91,
+      "last_s": 11.32
+    },
+    "rr2---sn-fpoq-8jxz.googlevideo.com": {
+      "first_s": 5.68,
+      "last_s": 32.42
+    },
+    "rtb-csync.smartadserver.com": {
+      "first_s": 16.87,
+      "last_s": 17.96
+    },
+    "s.seedtag.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "script.4dex.io": {
+      "first_s": 14.58,
+      "last_s": 14.58
+    },
+    "scripts.clarity.ms": {
+      "first_s": 5.96,
+      "last_s": 5.96
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.94,
+      "last_s": 3.82
+    },
+    "services.insurads.com": {
+      "first_s": 4.12,
+      "last_s": 30.53
+    },
+    "shb.richaudience.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "ssb-global.smartadserver.com": {
+      "first_s": 15.08,
+      "last_s": 15.08
+    },
+    "ssc-cms.33across.com": {
+      "first_s": 16.87,
+      "last_s": 16.87
+    },
+    "ssl.google-analytics.com": {
+      "first_s": 4.64,
+      "last_s": 4.64
+    },
+    "ssp.disqus.com": {
+      "first_s": 16.87,
+      "last_s": 16.87
+    },
+    "static.ads-twitter.com": {
+      "first_s": 3.64,
+      "last_s": 3.64
+    },
+    "static.chartbeat.com": {
+      "first_s": 2.94,
+      "last_s": 22.16
+    },
+    "static.doubleclick.net": {
+      "first_s": 5.28,
+      "last_s": 5.28
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 4.66,
+      "last_s": 4.66
+    },
+    "survey.survicate.com": {
+      "first_s": 4.28,
+      "last_s": 4.28
+    },
+    "surveys-static-prd.survicate-cdn.com": {
+      "first_s": 6.08,
+      "last_s": 6.42
+    },
+    "sync.1rx.io": {
+      "first_s": 16.87,
+      "last_s": 17.6
+    },
+    "sync.richaudience.com": {
+      "first_s": 16.87,
+      "last_s": 16.87
+    },
+    "sync.targeting.unrulymedia.com": {
+      "first_s": 17.66,
+      "last_s": 17.66
+    },
+    "t.co": {
+      "first_s": 4.75,
+      "last_s": 14.76
+    },
+    "tag29.ams3.cdn.digitaloceanspaces.com": {
+      "first_s": 6.21,
+      "last_s": 6.21
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 5.91,
+      "last_s": 6.15
+    },
+    "trackerapi.ebxcdn.com": {
+      "first_s": 6.03,
+      "last_s": 6.03
+    },
+    "ups.analytics.yahoo.com": {
+      "first_s": 17.43,
+      "last_s": 17.43
+    },
+    "www.clarity.ms": {
+      "first_s": 4.28,
+      "last_s": 4.28
+    },
+    "www.google.com": {
+      "first_s": 4.66,
+      "last_s": 31.41
+    },
+    "www.google.it": {
+      "first_s": 4.66,
+      "last_s": 4.66
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.32,
+      "last_s": 4.56
+    },
+    "www.youtube.com": {
+      "first_s": 4.39,
+      "last_s": 32.25
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "avisoCookiesRec",
+      "domain": "www.record.pt",
+      "path": "/",
+      "expires": 1825267082,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "EasyPushNotifications",
+      "domain": "www.record.pt",
+      "path": "/",
+      "expires": 1825267082,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_cb",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827859082,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_chartbeat2",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827859082,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cb_svref",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1793732882,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827427082,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_acsrf",
+      "domain": "aminhaconta.xl.pt",
+      "path": "/",
+      "expires": 1793750401.85203,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_prev",
+      "domain": "aminhaconta.xl.pt",
+      "path": "/",
+      "expires": 1825267082.787756,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_appid",
+      "domain": "aminhaconta.xl.pt",
+      "path": "/",
+      "expires": 1825267082.852066,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_appid2024",
+      "domain": "www.record.pt",
+      "path": "/",
+      "expires": 1825267082,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1801507083,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_KPZR3RH2BR",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1828291083.024631,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1828291083.024932,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_twpid",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827427093.128801,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809283083.168518,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://record.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://record.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809283083.168593,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://record.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809283083.168628,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://record.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809283083.168645,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://record.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "cof_last_campaign",
+      "domain": "aminhaconta.xl.pt",
+      "path": "/",
+      "expires": 1825267083.222453,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "muc_ads",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1828291083.458155,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1793732883.458201,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "personalization_id",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828291083.460536,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1793732883.460566,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_vwo_uuid_v2",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1825353483,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__gfp_64b",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827859083,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1827859084.028097,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://record.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "Gtest",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1794335883.903594,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Gdyn",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1827859084.028171,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Gdynp",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1827859084.028191,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://record.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".cdn.advoxel.com",
+      "path": "/",
+      "expires": 1793732884.074805,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "___iat_gid",
+      "domain": ".insurads.com",
+      "path": "/",
+      "expires": 1825267084.386983,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "___iat_ses",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1793732884,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "___iat_vis",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1809283084,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".cloud.weborama.design",
+      "path": "/",
+      "expires": 1793732884.578579,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_uses_blocker",
+      "domain": "www.record.pt",
+      "path": "/",
+      "expires": 1825267087,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_twsid",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827427093.125303,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "presage-ssp",
+      "domain": ".presage.io",
+      "path": "/",
+      "expires": 1809283093.984387,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pid",
+      "domain": ".smartadserver.com",
+      "path": "/",
+      "expires": 1801507095.801875,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TestIfCookieP",
+      "domain": ".smartadserver.com",
+      "path": "/",
+      "expires": 1827945495.801989,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uid",
+      "domain": ".turn.com",
+      "path": "/",
+      "expires": 1809283095.974437,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_rxuuid",
+      "domain": ".1rx.io",
+      "path": "/",
+      "expires": 1825263496.036,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_rxuuid",
+      "domain": ".targeting.unrulymedia.com",
+      "path": "/",
+      "expires": 1825263496.32302,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "csync",
+      "domain": ".smartadserver.com",
+      "path": "/",
+      "expires": 1796323096.404863,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "g_state",
+      "domain": "www.record.pt",
+      "path": "/",
+      "expires": 1809283100,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "NID",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1809542295.664165,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

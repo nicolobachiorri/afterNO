@@ -1,0 +1,152 @@
+{
+  "url": "https://www.nos.nl",
+  "final_url": "https://nos.nl/",
+  "click_at_s": 28.3,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Instellingen",
+    "Menu",
+    "Meer ' Verkiezingen VS'",
+    "Kies je regio",
+    "0:32 Verdeelde verkiezingen",
+    "0:48 Speeddaten",
+    "0:40 Rouwen om voetballer",
+    "0:15 Lavastroom op Hawa\u00ef",
+    "0:30 Pompoen voor tijgers",
+    "0:27 Botsing in de lucht",
+    "0:16 Wijn voor LeBron",
+    "0:46 28 jaar wandelen",
+    "0:25 Auto's meegesleurd",
+    "0:23 Natte koning",
+    "0:30 Vliegers voor de doden"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "proxy.optoutadvertising.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "adcdn.ster.nl": {
+      "first_s": 4.59,
+      "last_s": 4.59
+    },
+    "adserving.optoutadvertising.com": {
+      "first_s": 5.93,
+      "last_s": 5.93
+    },
+    "cdn.optoutadvertising.com": {
+      "first_s": 5.33,
+      "last_s": 7.59
+    },
+    "nmonpoendpoint.2cnt.net": {
+      "first_s": 4.59,
+      "last_s": 4.59
+    },
+    "o314617.ingest.sentry.io": {
+      "first_s": 4.53,
+      "last_s": 4.53
+    },
+    "proxy.optoutadvertising.com": {
+      "first_s": 6.8,
+      "last_s": 32.92
+    },
+    "topspin.npo.nl": {
+      "first_s": 4.59,
+      "last_s": 5.07
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "nos-experiment-recommendations",
+      "domain": "nos.nl",
+      "path": "/",
+      "expires": 1796382067,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "nos_npo_tag_session",
+      "domain": ".nos.nl",
+      "path": "/",
+      "expires": 1793791567,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "nos_dark_mode",
+      "domain": "nos.nl",
+      "path": "/",
+      "expires": 1825326067,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ccm_6e3a9d22_cache",
+      "domain": ".nos.nl",
+      "path": "/",
+      "expires": 1793793669,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ccm_6e3a9d22_consent",
+      "domain": ".nos.nl",
+      "path": "/",
+      "expires": 1809342069,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ccm_6e3a9d22_id",
+      "domain": ".nos.nl",
+      "path": "/",
+      "expires": 1828350069.556834,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ccm_6e3a9d22_category_necessary",
+      "domain": ".nos.nl",
+      "path": "/",
+      "expires": 1828350069.557238,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ccm_6e3a9d22_category_analytics",
+      "domain": ".nos.nl",
+      "path": "/",
+      "expires": 1828350069.557422,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ccm_6e3a9d22_views",
+      "domain": ".nos.nl",
+      "path": "/",
+      "expires": 1809342071,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

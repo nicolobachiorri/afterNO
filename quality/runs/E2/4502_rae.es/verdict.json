@@ -1,0 +1,28 @@
+{
+  "host": "www.rae.es",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.rae.es/",
+    "lastSeen": {
+      "fonts.googleapis.com": 1793789676418,
+      "static.addtoany.com": 1793789676396,
+      "www.rae.es": 1793789677142
+    }
+  },
+  "hostsConsidered": [
+    "fonts.googleapis.com",
+    "static.addtoany.com",
+    "www.rae.es"
+  ]
+}

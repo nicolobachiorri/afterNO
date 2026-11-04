@@ -1,0 +1,48 @@
+{
+  "host": "www.salzburgerfestspiele.at",
+  "choice": {
+    "at": 1793789347204,
+    "choice": "rejected",
+    "label": "Nur notwendige Cookies",
+    "site": "salzburgerfestspiele.at",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Nur notwendige Cookies"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.salzburgerfestspiele.at/",
+    "lastSeen": {
+      "cdnjs.cloudflare.com": 1793789338345,
+      "static.rolex.com": 1793789352466,
+      "www.google.com": 1793789352518,
+      "www.googletagmanager.com": 1793789337972,
+      "www.gstatic.com": 1793789339378,
+      "www.salzburgerfestspiele.at": 1793789359108
+    }
+  },
+  "hostsConsidered": [
+    "static.rolex.com",
+    "www.google.com",
+    "www.salzburgerfestspiele.at"
+  ]
+}

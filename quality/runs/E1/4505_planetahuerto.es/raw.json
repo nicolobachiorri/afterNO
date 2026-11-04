@@ -1,0 +1,390 @@
+{
+  "url": "https://www.planetahuerto.es",
+  "final_url": "https://www.planetahuerto.es/",
+  "click_at_s": 28.84,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "PH8",
+    "Espa\u00f1a | EUR \u20ac",
+    "Carrito",
+    "A\u00f1adir",
+    "Quiero suscribirme"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cdn.shopify.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 4.67,
+      "last_s": 4.86
+    },
+    "analytics-ipv6.tiktokw.us": {
+      "first_s": 4.97,
+      "last_s": 4.97
+    },
+    "analytics.tiktok.com": {
+      "first_s": 4.36,
+      "last_s": 4.97
+    },
+    "browser.sentry-cdn.com": {
+      "first_s": 3.59,
+      "last_s": 3.59
+    },
+    "cdn-shoppable.avada.io": {
+      "first_s": 5.18,
+      "last_s": 6.0
+    },
+    "cdn.connectif.cloud": {
+      "first_s": 5.03,
+      "last_s": 5.44
+    },
+    "cdn.shopify.com": {
+      "first_s": 3.61,
+      "last_s": 30.0
+    },
+    "connect.facebook.net": {
+      "first_s": 4.14,
+      "last_s": 4.45
+    },
+    "eu2-api.connectif.cloud": {
+      "first_s": 5.86,
+      "last_s": 6.89
+    },
+    "extensions.shopifycdn.com": {
+      "first_s": 24.11,
+      "last_s": 24.11
+    },
+    "fonts.googleapis.com": {
+      "first_s": 5.13,
+      "last_s": 6.27
+    },
+    "fonts.gstatic.com": {
+      "first_s": 6.11,
+      "last_s": 6.37
+    },
+    "geoip.apps.getjoy.ai": {
+      "first_s": 5.68,
+      "last_s": 5.68
+    },
+    "get.geojs.io": {
+      "first_s": 7.31,
+      "last_s": 7.31
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 4.96,
+      "last_s": 5.15
+    },
+    "insight.adsrvr.org": {
+      "first_s": 4.64,
+      "last_s": 5.15
+    },
+    "js.adsrvr.org": {
+      "first_s": 4.39,
+      "last_s": 5.03
+    },
+    "js.klarna.com": {
+      "first_s": 7.02,
+      "last_s": 7.43
+    },
+    "master.napps-solutions.com": {
+      "first_s": 5.13,
+      "last_s": 5.13
+    },
+    "match.adsrvr.org": {
+      "first_s": 4.89,
+      "last_s": 4.89
+    },
+    "napps-storage.b-cdn.net": {
+      "first_s": 3.71,
+      "last_s": 3.71
+    },
+    "otlp-http-production.shopifysvc.com": {
+      "first_s": 4.02,
+      "last_s": 17.32
+    },
+    "region1.analytics.google.com": {
+      "first_s": 4.6,
+      "last_s": 9.61
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.15,
+      "last_s": 10.15
+    },
+    "s3.eu-west-1.amazonaws.com": {
+      "first_s": 6.35,
+      "last_s": 6.35
+    },
+    "shop.app": {
+      "first_s": 5.4,
+      "last_s": 5.4
+    },
+    "shopify-app-tiktok-feed.firebaseapp.com": {
+      "first_s": 5.69,
+      "last_s": 5.69
+    },
+    "skosm.klarna.com": {
+      "first_s": 6.74,
+      "last_s": 6.74
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 4.6,
+      "last_s": 4.6
+    },
+    "tracker.connectif.cloud": {
+      "first_s": 5.55,
+      "last_s": 5.55
+    },
+    "v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws": {
+      "first_s": 4.94,
+      "last_s": 4.94
+    },
+    "widget-view.dondy.net": {
+      "first_s": 5.42,
+      "last_s": 5.42
+    },
+    "www.facebook.com": {
+      "first_s": 4.96,
+      "last_s": 4.96
+    },
+    "www.google-analytics.com": {
+      "first_s": 4.76,
+      "last_s": 4.76
+    },
+    "www.google.com": {
+      "first_s": 4.67,
+      "last_s": 5.42
+    },
+    "www.google.it": {
+      "first_s": 4.6,
+      "last_s": 5.63
+    },
+    "www.googleadservices.com": {
+      "first_s": 4.67,
+      "last_s": 4.67
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.11,
+      "last_s": 4.86
+    },
+    "www.merchant-center-analytics.goog": {
+      "first_s": 4.54,
+      "last_s": 4.54
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "localization",
+      "domain": "www.planetahuerto.es",
+      "path": "/",
+      "expires": 1825266995.738912,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_essential",
+      "domain": "www.planetahuerto.es",
+      "path": "/",
+      "expires": 1825266984.24647,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_analytics",
+      "domain": "www.planetahuerto.es",
+      "path": "/",
+      "expires": 1825266984.246528,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_shopify_marketing",
+      "domain": "www.planetahuerto.es",
+      "path": "/",
+      "expires": 1825266984.246575,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_TR396KTL6L",
+      "domain": ".planetahuerto.es",
+      "path": "/",
+      "expires": 1828290985.213818,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_6E35TR613K",
+      "domain": ".planetahuerto.es",
+      "path": "/",
+      "expires": 1828290985.286341,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".planetahuerto.es",
+      "path": "/",
+      "expires": 1801506985,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TDID",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1825266985.697764,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".planetahuerto.es",
+      "path": "/",
+      "expires": 1801506986,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ttp",
+      "domain": ".www.planetahuerto.es",
+      "path": "/",
+      "expires": 1801506985,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ttcsid_DB1LULRC77UAB9I89PBG",
+      "domain": ".www.planetahuerto.es",
+      "path": "/",
+      "expires": 1801506985,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ttcsid",
+      "domain": ".www.planetahuerto.es",
+      "path": "/",
+      "expires": 1801506985,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gid",
+      "domain": ".planetahuerto.es",
+      "path": "/",
+      "expires": 1793817385,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gat_gtag_UA_24972124_1",
+      "domain": ".planetahuerto.es",
+      "path": "/",
+      "expires": 1793731045,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TDCPM",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1825266985.69781,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1793731885.981714,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".planetahuerto.es",
+      "path": "/",
+      "expires": 1828290986.049393,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_HDPJF1DBXE",
+      "domain": ".planetahuerto.es",
+      "path": "/",
+      "expires": 1828290986.052071,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_shop_app_essential",
+      "domain": ".shop.app",
+      "path": "/",
+      "expires": 1825266986.464767,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cart",
+      "domain": "www.planetahuerto.es",
+      "path": "/",
+      "expires": 1801593387.378052,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".www.planetahuerto.es",
+      "path": "/",
+      "expires": 1793732787.378154,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

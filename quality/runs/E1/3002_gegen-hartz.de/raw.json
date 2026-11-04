@@ -1,0 +1,113 @@
+{
+  "url": "https://www.gegen-hartz.de",
+  "final_url": "https://www.gegen-hartz.de/",
+  "click_at_s": 11.5,
+  "reload_at_s": null,
+  "reject": "paywall label found",
+  "visible_buttons": [
+    "kostenlos.",
+    "299 Partner",
+    "Einwilligung",
+    "personenbezogenen Daten",
+    "Speichern von oder Zugriff auf Informationen auf e",
+    "Personalisierte Werbung und Inhalte, Messung von W",
+    "Funktion",
+    "Marketing",
+    "Messung",
+    "Zustimmen und weiter mit Werbung"
+  ],
+  "tcf": {
+    "cmpId": 31,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 11,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.consentmanager.net": {
+      "first_s": 2.73,
+      "last_s": 5.67
+    },
+    "chimpstatic.com": {
+      "first_s": 2.73,
+      "last_s": 2.73
+    },
+    "cpg-cdn.com": {
+      "first_s": 2.74,
+      "last_s": 2.74
+    },
+    "d.delivery.consentmanager.net": {
+      "first_s": 2.73,
+      "last_s": 5.66
+    },
+    "eventcollector.mcf-prod.a.intuit.com": {
+      "first_s": 6.4,
+      "last_s": 6.4
+    },
+    "form-assets.mailchimp.com": {
+      "first_s": 3.13,
+      "last_s": 5.7
+    },
+    "ssl-vg03.met.vgwort.de": {
+      "first_s": 2.84,
+      "last_s": 3.4
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "__cmpcc",
+      "domain": "www.gegen-hartz.de",
+      "path": "/",
+      "expires": 1827858458,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcc",
+      "domain": "d.delivery.consentmanager.net",
+      "path": "/",
+      "expires": 1793730818.367019,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "mcforms-85927781-sessionId",
+      "domain": "www.gegen-hartz.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpconsent79913",
+      "domain": ".gegen-hartz.de",
+      "path": "/",
+      "expires": 1794940060,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcccu79913",
+      "domain": ".gegen-hartz.de",
+      "path": "/",
+      "expires": 1794940060,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

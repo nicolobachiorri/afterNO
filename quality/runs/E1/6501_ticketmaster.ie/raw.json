@@ -1,0 +1,259 @@
+{
+  "url": "https://www.ticketmaster.ie",
+  "final_url": "https://www.ticketmaster.ie/",
+  "click_at_s": 11.96,
+  "reload_at_s": 16.96,
+  "reject": "button: 'Reject All' in main (normal click)",
+  "visible_buttons": [
+    "Accept All",
+    "Reject All",
+    "Manage Preferences",
+    "IE Ireland selected, change country",
+    "Ireland Ireland selected, change region",
+    "Music",
+    "Sport",
+    "Arts, Theatre & Comedy",
+    "Family & Attractions",
+    "Cities",
+    "Ireland selected, change region LOCATION Ireland",
+    "DATES All Dates Change date range: All Dates",
+    "Search",
+    "Previous Items",
+    "Next items"
+  ],
+  "tcf": {
+    "cmpId": 340,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "fonts.gstatic.com",
+    "global.ketchcdn.com",
+    "promoted.ticketmaster.com",
+    "s1.ticketm.net",
+    "s3.us-east-1.amazonaws.com",
+    "www.google.com",
+    "www.gstatic.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "fonts.gstatic.com",
+    "global.ketchcdn.com",
+    "promoted.ticketmaster.com",
+    "s1.ticketm.net",
+    "s3.us-east-1.amazonaws.com",
+    "www.google.com",
+    "www.gstatic.com"
+  ],
+  "third_party_timeline": {
+    "cdn.ketchjs.com": {
+      "first_s": 3.37,
+      "last_s": 3.37
+    },
+    "fonts.gstatic.com": {
+      "first_s": 5.05,
+      "last_s": 18.5
+    },
+    "global.ketchcdn.com": {
+      "first_s": 3.14,
+      "last_s": 18.25
+    },
+    "prismic-images.tmol.io": {
+      "first_s": 3.16,
+      "last_s": 3.16
+    },
+    "promoted.ticketmaster.com": {
+      "first_s": 3.9,
+      "last_s": 20.61
+    },
+    "s1.ticketm.net": {
+      "first_s": 3.9,
+      "last_s": 18.15
+    },
+    "s3.us-east-1.amazonaws.com": {
+      "first_s": 8.03,
+      "last_s": 21.54
+    },
+    "uk.tmconst.com": {
+      "first_s": 3.12,
+      "last_s": 3.16
+    },
+    "www.google.com": {
+      "first_s": 4.05,
+      "last_s": 18.97
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.9,
+      "last_s": 4.43
+    },
+    "www.gstatic.com": {
+      "first_s": 4.21,
+      "last_s": 18.52
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.ketchjs.com",
+    "global.ketchcdn.com",
+    "prismic-images.tmol.io",
+    "s3.us-east-1.amazonaws.com",
+    "uk.tmconst.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ],
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1809283511.110139,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sticky",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "SID",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "BID",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": 1825267495.247118,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "language",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": 1825267495,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "NDMA",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "eps_sid",
+      "domain": ".www.ticketmaster.ie",
+      "path": "/",
+      "expires": 1796323496.064426,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_swb",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": 1828291496,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TMUO",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tmp_id",
+      "domain": "www.ticketmaster.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonGroups",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": 1825267496,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tmpt",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": 1793753098.188561,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "LANGUAGE",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": 1825267512.749539,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ketch_consent_v1_",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": 1828291510,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_swb_consent_",
+      "domain": ".ticketmaster.ie",
+      "path": "/",
+      "expires": 1794336304,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

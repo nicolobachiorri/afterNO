@@ -1,0 +1,24 @@
+{
+  "host": "www.meduniwien.ac.at",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.meduniwien.ac.at/web/",
+    "lastSeen": {
+      "www.meduniwien.ac.at": 1793789411670
+    }
+  },
+  "hostsConsidered": [
+    "www.meduniwien.ac.at"
+  ]
+}

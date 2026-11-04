@@ -1,0 +1,63 @@
+{
+  "host": "www.ticketmaster.ie",
+  "choice": {
+    "at": 1793731504785,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "site": "ticketmaster.ie",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.ticketmaster.ie/",
+    "lastSeen": {
+      "analytics.ticketmaster.ie": 1793731510140,
+      "cdn.ketchjs.com": 1793731495519,
+      "fonts.gstatic.com": 1793731497208,
+      "global.ketchcdn.com": 1793731510397,
+      "identity.ticketmaster.ie": 1793731512076,
+      "prismic-images.tmol.io": 1793731495301,
+      "promoted.ticketmaster.com": 1793731512764,
+      "s1.ticketm.net": 1793731510294,
+      "s3.us-east-1.amazonaws.com": 1793731513688,
+      "uk.tmconst.com": 1793731512090,
+      "www.google.com": 1793731511122,
+      "www.googletagmanager.com": 1793731496535,
+      "www.gstatic.com": 1793731510671,
+      "www.ticketmaster.ie": 1793731511120
+    }
+  },
+  "hostsConsidered": [
+    "analytics.ticketmaster.ie",
+    "global.ketchcdn.com",
+    "identity.ticketmaster.ie",
+    "promoted.ticketmaster.com",
+    "s1.ticketm.net",
+    "s3.us-east-1.amazonaws.com",
+    "uk.tmconst.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.ticketmaster.ie"
+  ]
+}

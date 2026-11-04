@@ -1,0 +1,287 @@
+{
+  "url": "https://www.operadeparis.fr",
+  "final_url": "https://www.operadeparis.fr/",
+  "click_at_s": 26.43,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Non merci",
+    "Je choisis",
+    "Accepter",
+    "Rechercher",
+    "Calendrier",
+    "Mon compte",
+    "Programmation",
+    "Billetterie",
+    "Visites",
+    "Jeunes",
+    "Infos pratiques",
+    "L'Op\u00e9ra",
+    "RETOUR",
+    "OP\u00c9RA",
+    "BALLET"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "52f9134478848245ecb1cdff101b8356.safeframe.googlesyndication.com": {
+      "first_s": 4.21,
+      "last_s": 4.21
+    },
+    "aax-eu.amazon-adsystem.com": {
+      "first_s": 4.84,
+      "last_s": 4.84
+    },
+    "ad.doubleclick.net": {
+      "first_s": 3.52,
+      "last_s": 3.52
+    },
+    "api.axept.io": {
+      "first_s": 4.04,
+      "last_s": 6.09
+    },
+    "axeptio.imgix.net": {
+      "first_s": 4.08,
+      "last_s": 4.08
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 3.66,
+      "last_s": 3.66
+    },
+    "client.axept.io": {
+      "first_s": 3.88,
+      "last_s": 3.88
+    },
+    "code.jquery.com": {
+      "first_s": 3.52,
+      "last_s": 3.52
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 4.5,
+      "last_s": 5.72
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 4.69,
+      "last_s": 5.2
+    },
+    "fonts.axept.io": {
+      "first_s": 4.06,
+      "last_s": 4.06
+    },
+    "fonts.googleapis.com": {
+      "first_s": 4.08,
+      "last_s": 4.08
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.3,
+      "last_s": 4.3
+    },
+    "logs1412.xiti.com": {
+      "first_s": 3.81,
+      "last_s": 6.09
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.96,
+      "last_s": 5.12
+    },
+    "res.cloudinary.com": {
+      "first_s": 2.77,
+      "last_s": 2.83
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 3.39,
+      "last_s": 3.66
+    },
+    "static.axept.io": {
+      "first_s": 3.52,
+      "last_s": 6.41
+    },
+    "static.rolex.com": {
+      "first_s": 3.39,
+      "last_s": 4.01
+    },
+    "tag.aticdn.net": {
+      "first_s": 3.52,
+      "last_s": 3.52
+    },
+    "tm4oedch3e.kameleoon.eu": {
+      "first_s": 2.77,
+      "last_s": 2.77
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 4.24,
+      "last_s": 4.24
+    },
+    "www.google.com": {
+      "first_s": 3.52,
+      "last_s": 3.52
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.04,
+      "last_s": 3.88
+    },
+    "www.youtube.com": {
+      "first_s": 3.32,
+      "last_s": 3.62
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "onp_fonts_loaded",
+      "domain": "www.operadeparis.fr",
+      "path": "/",
+      "expires": 1828349516.486839,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".operadeparis.fr",
+      "path": "/",
+      "expires": 1801565516,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "onp",
+      "domain": "www.operadeparis.fr",
+      "path": "/",
+      "expires": 1793796716.673524,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809341516.718638,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://operadeparis.fr",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://operadeparis.fr",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809341516.71873,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://operadeparis.fr",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809341516.718748,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://operadeparis.fr",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809341516.718769,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://operadeparis.fr",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "pa_privacy",
+      "domain": ".operadeparis.fr",
+      "path": "/",
+      "expires": 1827917516,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pcid",
+      "domain": ".operadeparis.fr",
+      "path": "/",
+      "expires": 1827917516,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pctx",
+      "domain": ".operadeparis.fr",
+      "path": "/",
+      "expires": 1827917516,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "axeptio_cookies",
+      "domain": ".operadeparis.fr",
+      "path": "/",
+      "expires": 1810205516,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "axeptio_authorized_vendors",
+      "domain": ".operadeparis.fr",
+      "path": "/",
+      "expires": 1810205516,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "axeptio_all_vendors",
+      "domain": ".operadeparis.fr",
+      "path": "/",
+      "expires": 1810205516,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "url": "https://www.prv.pl",
+  "frame": "main",
+  "found_as": "button",
+  "button": {
+    "tag": "BUTTON",
+    "role": null,
+    "text": "Nie zgadzam się",
+    "ariaLabel": null,
+    "attrs": {
+      "onclick": "__saveFormStatus(0);",
+      "style": "font-size: 12px;cursor: pointer; background-color: #e0e0e0; padding: 5px 5px;",
+      "title": "Odrzuć"
+    },
+    "inShadow": false,
+    "containers": [
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "cls": "",
+        "textLength": 15,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "rodoInfoForm",
+        "cls": "",
+        "textLength": 1362,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "cls": "body-page",
+        "textLength": 11076,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "HTML",
+        "id": "",
+        "cls": "",
+        "textLength": 17701,
+        "mentionsConsent": true
+      }
+    ]
+  },
+  "events_in_frame": [
+    {
+      "type": "pointerdown",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Nie zgadzam się",
+      "t": 8832
+    },
+    {
+      "type": "mousedown",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Nie zgadzam się",
+      "t": 8832
+    },
+    {
+      "type": "pointerup",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Nie zgadzam się",
+      "t": 8832
+    },
+    {
+      "type": "mouseup",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Nie zgadzam się",
+      "t": 8832
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "tag": "BUTTON",
+      "text": "Nie zgadzam się",
+      "t": 8832
+    }
+  ],
+  "banner_still_visible": false,
+  "extension_choice": {
+    "choice:prv.pl": {
+      "at": 1793791025556,
+      "choice": "rejected",
+      "label": "Nie zgadzam się",
+      "site": "prv.pl",
+      "source": "click",
+      "trigger": "action"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "url": "https://www.antagus.de",
+  "final_url": "https://www.antagus.de/",
+  "click_at_s": 30.19,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Speichern"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "matomo.docker.n0q.de": {
+      "first_s": 6.86,
+      "last_s": 7.45
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": "www.antagus.de",
+      "path": "/",
+      "expires": 1825266476.912572,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "vautron_ggleadw",
+      "domain": "www.antagus.de",
+      "path": "/",
+      "expires": 1793816877,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_id.2.6c85",
+      "domain": "www.antagus.de",
+      "path": "/",
+      "expires": 1827685680,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.2.6c85",
+      "domain": "www.antagus.de",
+      "path": "/",
+      "expires": 1793732279,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

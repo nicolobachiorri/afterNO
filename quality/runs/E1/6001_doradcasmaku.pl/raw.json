@@ -1,0 +1,156 @@
+{
+  "url": "https://www.doradcasmaku.pl",
+  "final_url": "https://www.doradcasmaku.pl/",
+  "click_at_s": 27.04,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Szukaj w\u015br\u00f3d 314 111 przepis\u00f3w..."
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "an.gr-wcon.com": {
+      "first_s": 3.19,
+      "last_s": 3.19
+    },
+    "analytics.ahrefs.com": {
+      "first_s": 3.59,
+      "last_s": 3.82
+    },
+    "b.clarity.ms": {
+      "first_s": 3.9,
+      "last_s": 5.02
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.96,
+      "last_s": 4.71
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.19,
+      "last_s": 4.97
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.53,
+      "last_s": 4.53
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.54,
+      "last_s": 4.54
+    },
+    "scripts.clarity.ms": {
+      "first_s": 3.46,
+      "last_s": 3.46
+    },
+    "vc-service.salesmanago.pl": {
+      "first_s": 3.86,
+      "last_s": 3.86
+    },
+    "www.clarity.ms": {
+      "first_s": 3.19,
+      "last_s": 3.19
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.16,
+      "last_s": 3.77
+    },
+    "www.salesmanago.pl": {
+      "first_s": 3.19,
+      "last_s": 4.79
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "ad_storage",
+      "domain": "www.doradcasmaku.pl",
+      "path": "/",
+      "expires": 1796323332,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ad_personalization_storage",
+      "domain": "www.doradcasmaku.pl",
+      "path": "/",
+      "expires": 1796323332,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ad_user_data_storage",
+      "domain": "www.doradcasmaku.pl",
+      "path": "/",
+      "expires": 1796323332,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "analytics_storage",
+      "domain": "www.doradcasmaku.pl",
+      "path": "/",
+      "expires": 1796323332,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "functionality_storage",
+      "domain": "www.doradcasmaku.pl",
+      "path": "/",
+      "expires": 1796323332,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "security_storage",
+      "domain": "www.doradcasmaku.pl",
+      "path": "/",
+      "expires": 1796323332,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "smvr",
+      "domain": ".doradcasmaku.pl",
+      "path": "/",
+      "expires": 1828291333.1862,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "smuuid",
+      "domain": ".doradcasmaku.pl",
+      "path": "/",
+      "expires": 1828291333.186691,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OAID",
+      "domain": "ads.doradcasmaku.pl",
+      "path": "/",
+      "expires": 1825267333.740704,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

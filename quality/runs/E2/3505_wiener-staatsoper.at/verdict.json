@@ -1,0 +1,43 @@
+{
+  "host": "www.wiener-staatsoper.at",
+  "choice": {
+    "at": 1793789468601,
+    "choice": "rejected",
+    "label": "Nur technisch Notwendige",
+    "site": "wiener-staatsoper.at",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Nur technisch Notwendige"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.wiener-staatsoper.at/",
+    "lastSeen": {
+      "cloud.ccm19.de": 1793789473746,
+      "www.wiener-staatsoper.at": 1793789473857
+    }
+  },
+  "hostsConsidered": [
+    "cloud.ccm19.de",
+    "www.wiener-staatsoper.at"
+  ]
+}

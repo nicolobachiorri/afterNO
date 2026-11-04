@@ -1,0 +1,87 @@
+{
+  "host": "www.3cx.de",
+  "choice": {
+    "at": 1793789440086,
+    "choice": "rejected",
+    "label": "Alle ablehnen",
+    "site": "3cx.de",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Alle ablehnen"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 3,
+      "names": [
+        "X (twitter.com)",
+        "LinkedIn (linkedin.com)",
+        "X (t.co)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Facebook"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.3cx.de/",
+    "lastSeen": {
+      "a.quora.com": 1793789445361,
+      "analytics.twitter.com": 1793789445496,
+      "connect.facebook.net": 1793789432962,
+      "fonts.googleapis.com": 1793789431552,
+      "fonts.gstatic.com": 1793789431840,
+      "pagead2.googlesyndication.com": 1793789445388,
+      "px.ads.linkedin.com": 1793789445444,
+      "px4.ads.linkedin.com": 1793789445644,
+      "q.quora.com": 1793789445363,
+      "region1.google-analytics.com": 1793789450422,
+      "snap.licdn.com": 1793789432357,
+      "static.ads-twitter.com": 1793789445361,
+      "t.co": 1793789445496,
+      "webapi.3cx.com": 1793789432019,
+      "webapi.3cx.de": 1793789445445,
+      "www.3cx.de": 1793789445918,
+      "www.facebook.com": 1793789445488,
+      "www.googletagmanager.com": 1793789432354
+    }
+  },
+  "hostsConsidered": [
+    "a.quora.com",
+    "analytics.twitter.com",
+    "pagead2.googlesyndication.com",
+    "px.ads.linkedin.com",
+    "px4.ads.linkedin.com",
+    "q.quora.com",
+    "region1.google-analytics.com",
+    "static.ads-twitter.com",
+    "t.co",
+    "webapi.3cx.de",
+    "www.3cx.de",
+    "www.facebook.com"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "host": "www.tue.nl",
+  "choice": {
+    "at": 1793731252444,
+    "choice": "rejected",
+    "label": "Deny",
+    "site": "tue.nl",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Deny"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "LinkedIn (linkedin.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.tue.nl/en/",
+    "lastSeen": {
+      "assets.w3.tue.nl": 1793731244259,
+      "bat.bing.com": 1793731258183,
+      "bat.bing.net": 1793731257950,
+      "clients1.google.com": 1793731257820,
+      "consent.cookiebot.com": 1793731252630,
+      "consentcdn.cookiebot.com": 1793731257854,
+      "cse.google.com": 1793731257693,
+      "pagead2.googlesyndication.com": 1793731257941,
+      "px.ads.linkedin.com": 1793731257946,
+      "px4.ads.linkedin.com": 1793731258142,
+      "region1.google-analytics.com": 1793731257861,
+      "snap.licdn.com": 1793731244672,
+      "www.google.com": 1793731244246,
+      "www.googletagmanager.com": 1793731244998,
+      "www.tue.nl": 1793731258357
+    }
+  },
+  "hostsConsidered": [
+    "bat.bing.com",
+    "bat.bing.net",
+    "clients1.google.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "cse.google.com",
+    "pagead2.googlesyndication.com",
+    "px.ads.linkedin.com",
+    "px4.ads.linkedin.com",
+    "region1.google-analytics.com",
+    "www.tue.nl"
+  ]
+}

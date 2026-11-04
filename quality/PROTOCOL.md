@@ -300,3 +300,36 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     tracker. Motivo: bahn.de, e in precedenza trenitalia e rfi.it, risultavano «solo in
     parte» per questi soli cookie, giudicati «discutibili». Le visite A–D1 restano
     misurate con le regole di allora.
+
+23. *Campione E: siti di altri paesi dell'UE (3 novembre 2026, prima di qualunque
+    visita).* `select_sample_e.py`, `sites_E.csv`. Misura la versione con le
+    modifiche 21 e 22 dove le otto lingue contano davvero. Otto domini nazionali, uno
+    per lingua oltre all'italiano: .de, .at, .fr, .es, .pt, .nl, .pl, .ie. Per
+    ciascuno, i primi 500 domini della lista Tranco ZJ8PG, mescolati con lo stesso
+    seme; i primi 5 sono il campione, gli altri riserve dello stesso paese. Esclusi i
+    siti provati a mano e i due usati come prova del robot (bahn.de, decathlon.fr).
+    Ogni sito si visita con lingua e fuso orario del suo paese; il popup resta in
+    italiano per il giudice. Sostituiti prima della visita, dal solo nome:
+    casino-portugal.pt (gioco d'azzardo), hdfilmcehennemi.nl (film pirata).
+    Due visite della stessa versione, E1 ed E2, ad almeno un giorno di distanza:
+    E1 misura l'accuratezza (giudice principale Claude, secondo giudice Gemini, come
+    per D1), E1 contro E2 la stabilità. Limite dichiarato: il robot si collega
+    dall'Italia, e un sito può scegliere lingua e banner dall'indirizzo IP invece che
+    dalla lingua del browser.
+
+**4 novembre 2026.**
+
+24. *Visite E1 ed E2.* E1: t-ipnet.de non si carica (nome non trovato), sostituito
+    dalla riserva aerzteblatt.de. Misurabili 14 su 40, tutte corrette per il giudice
+    principale (almeno 78%, Wilson). Cinque siti hanno un rifiuto gratuito che il
+    robot non riconosce, e con le stesse parole nemmeno l'estensione: «Alle Dienste
+    ablehnen», «Non merci», «Odmawiam», «Nie zgadzam się», «I Do Not Accept»;
+    contati come «clic non riuscito». E2 il giorno dopo con la stessa build:
+    stessa scelta registrata e stessa conclusione in 14 siti su 14; il robot ha
+    cliccato in modo diverso su un sito, 3cx.at, che in E2 ha mostrato un banner
+    con «Alle ablehnen» invece della sola riga informativa di E1 (decisione del
+    sito, non dell'estensione). Solo dopo E2 le parole sono state estese, nella
+    stessa forma nell'estensione e nel robot: parole in mezzo («alle … ablehnen»),
+    «I» prima del verbo inglese, «no grazie» nelle otto lingue, «odmawiam» e «nie
+    zgadzam się». I risultati di E1 ed E2 restano quelli della versione precedente;
+    la correzione si misura su un campione nuovo.

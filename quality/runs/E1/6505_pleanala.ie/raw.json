@@ -1,0 +1,52 @@
+{
+  "url": "https://www.pleanala.ie",
+  "final_url": "https://www.pleanala.ie/",
+  "click_at_s": 27.11,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "I Accept",
+    "I Do Not Accept",
+    "A",
+    "Search site"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "apikeys.civiccomputing.com": {
+      "first_s": 3.41,
+      "last_s": 3.41
+    },
+    "cc.cdn.civiccomputing.com": {
+      "first_s": 2.86,
+      "last_s": 2.86
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.86,
+      "last_s": 2.86
+    },
+    "code.jquery.com": {
+      "first_s": 2.86,
+      "last_s": 2.86
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.86,
+      "last_s": 2.86
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.29,
+      "last_s": 3.29
+    },
+    "plus.browsealoud.com": {
+      "first_s": 4.03,
+      "last_s": 4.03
+    },
+    "www.browsealoud.com": {
+      "first_s": 2.86,
+      "last_s": 4.34
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": []
+}

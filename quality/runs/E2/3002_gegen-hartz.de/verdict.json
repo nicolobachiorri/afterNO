@@ -1,0 +1,40 @@
+{
+  "host": "www.gegen-hartz.de",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.gegen-hartz.de/",
+    "lastSeen": {
+      "cdn.consentmanager.net": 1793789217434,
+      "chimpstatic.com": 1793789216593,
+      "cp.gegen-hartz.de": 1793789217579,
+      "cpg-cdn.com": 1793789216594,
+      "d.delivery.consentmanager.net": 1793789217423,
+      "eventcollector.mcf-prod.a.intuit.com": 1793789217639,
+      "form-assets.mailchimp.com": 1793789217363,
+      "ssl-vg03.met.vgwort.de": 1793789217160,
+      "www.gegen-hartz.de": 1793789217716
+    }
+  },
+  "hostsConsidered": [
+    "cdn.consentmanager.net",
+    "chimpstatic.com",
+    "cp.gegen-hartz.de",
+    "cpg-cdn.com",
+    "d.delivery.consentmanager.net",
+    "eventcollector.mcf-prod.a.intuit.com",
+    "form-assets.mailchimp.com",
+    "ssl-vg03.met.vgwort.de",
+    "www.gegen-hartz.de"
+  ]
+}

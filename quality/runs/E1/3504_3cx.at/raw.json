@@ -1,0 +1,311 @@
+{
+  "url": "https://www.3cx.at",
+  "final_url": "https://www.3cx.de/",
+  "click_at_s": 27.71,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Sofortangebot anfordern",
+    "OK"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "a.quora.com": {
+      "first_s": 5.26,
+      "last_s": 5.26
+    },
+    "ad.doubleclick.net": {
+      "first_s": 5.26,
+      "last_s": 5.26
+    },
+    "analytics.twitter.com": {
+      "first_s": 6.0,
+      "last_s": 16.0
+    },
+    "connect.facebook.net": {
+      "first_s": 5.26,
+      "last_s": 6.07
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.56,
+      "last_s": 3.56
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.86,
+      "last_s": 3.86
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 6.22,
+      "last_s": 6.23
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 5.26,
+      "last_s": 5.26
+    },
+    "px.ads.linkedin.com": {
+      "first_s": 6.08,
+      "last_s": 6.08
+    },
+    "px4.ads.linkedin.com": {
+      "first_s": 6.65,
+      "last_s": 6.65
+    },
+    "q.quora.com": {
+      "first_s": 5.26,
+      "last_s": 5.26
+    },
+    "region1.analytics.google.com": {
+      "first_s": 6.16,
+      "last_s": 11.16
+    },
+    "snap.licdn.com": {
+      "first_s": 5.26,
+      "last_s": 5.26
+    },
+    "static.ads-twitter.com": {
+      "first_s": 5.26,
+      "last_s": 5.26
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 6.16,
+      "last_s": 6.16
+    },
+    "t.co": {
+      "first_s": 6.0,
+      "last_s": 16.0
+    },
+    "wcdn.3cx.com": {
+      "first_s": 3.26,
+      "last_s": 3.26
+    },
+    "webapi.3cx.com": {
+      "first_s": 3.98,
+      "last_s": 3.98
+    },
+    "www.3cx.at": {
+      "first_s": 2.34,
+      "last_s": 2.34
+    },
+    "www.facebook.com": {
+      "first_s": 6.54,
+      "last_s": 6.54
+    },
+    "www.google.com": {
+      "first_s": 5.26,
+      "last_s": 6.54
+    },
+    "www.google.it": {
+      "first_s": 6.16,
+      "last_s": 6.54
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.82,
+      "last_s": 5.26
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".3cx.com",
+      "path": "/",
+      "expires": 1793732436.970588,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "xcxWebVisitor",
+      "domain": "www.3cx.de",
+      "path": "/",
+      "expires": 1793731537,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".3cx.de",
+      "path": "/",
+      "expires": 1801506638,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_twpid",
+      "domain": ".3cx.de",
+      "path": "/",
+      "expires": 1827426648.352016,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".3cx.de",
+      "path": "/",
+      "expires": 1828290638.511351,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_1VVG4R8NG2",
+      "domain": ".3cx.de",
+      "path": "/",
+      "expires": 1828290638.516083,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "muc_ads",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1828290638.75896,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1793732438.759007,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "guest_id_marketing",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828290638.814374,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "guest_id_ads",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828290638.814437,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "personalization_id",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828290638.814473,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "guest_id",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828290638.814488,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1793732438.814501,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1793731538.88228,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".3cx.de",
+      "path": "/",
+      "expires": 1801506638,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793817039.006195,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1825266639.006094,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1809282639.006162,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793732439.400892,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_twsid",
+      "domain": ".3cx.de",
+      "path": "/",
+      "expires": 1827426648.349977,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "host": "www.planetahuerto.es",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 2,
+      "names": [
+        "The Tradedesk (adsrvr.org)",
+        "shop.app"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 3,
+      "names": [
+        "Google",
+        "TikTok",
+        "Facebook"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 6,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.planetahuerto.es/",
+    "lastSeen": {
+      "ad.doubleclick.net": 1793789772571,
+      "analytics.tiktok.com": 1793789772585,
+      "browser.sentry-cdn.com": 1793789770540,
+      "cdn-shoppable.avada.io": 1793789774126,
+      "cdn.connectif.cloud": 1793789773487,
+      "cdn.shopify.com": 1793789776196,
+      "connect.facebook.net": 1793789772191,
+      "eu2-api.connectif.cloud": 1793789775486,
+      "fonts.googleapis.com": 1793789774758,
+      "fonts.gstatic.com": 1793789775007,
+      "geoip.apps.getjoy.ai": 1793789773854,
+      "googleads.g.doubleclick.net": 1793789772934,
+      "insight.adsrvr.org": 1793789773430,
+      "js.adsrvr.org": 1793789773376,
+      "js.klarna.com": 1793789775682,
+      "master.napps-solutions.com": 1793789773220,
+      "match.adsrvr.org": 1793789773185,
+      "napps-storage.b-cdn.net": 1793789770542,
+      "otlp-http-production.shopifysvc.com": 1793789779215,
+      "region1.analytics.google.com": 1793789777059,
+      "region1.google-analytics.com": 1793789777946,
+      "s3.eu-west-1.amazonaws.com": 1793789774587,
+      "shop.app": 1793789773298,
+      "shopify-app-tiktok-feed.firebaseapp.com": 1793789773860,
+      "skosm.klarna.com": 1793789775037,
+      "stats.g.doubleclick.net": 1793789772051,
+      "tracker.connectif.cloud": 1793789773596,
+      "v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws": 1793789773401,
+      "widget-view.dondy.net": 1793789773298,
+      "www.facebook.com": 1793789773449,
+      "www.google-analytics.com": 1793789772396,
+      "www.google.com": 1793789773290,
+      "www.google.it": 1793789773148,
+      "www.googleadservices.com": 1793789771940,
+      "www.googletagmanager.com": 1793789772568,
+      "www.merchant-center-analytics.goog": 1793789771988,
+      "www.planetahuerto.es": 1793789801793
+    }
+  },
+  "hostsConsidered": [
+    "ad.doubleclick.net",
+    "analytics.tiktok.com",
+    "browser.sentry-cdn.com",
+    "cdn-shoppable.avada.io",
+    "cdn.connectif.cloud",
+    "cdn.shopify.com",
+    "connect.facebook.net",
+    "eu2-api.connectif.cloud",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "geoip.apps.getjoy.ai",
+    "googleads.g.doubleclick.net",
+    "insight.adsrvr.org",
+    "js.adsrvr.org",
+    "js.klarna.com",
+    "master.napps-solutions.com",
+    "match.adsrvr.org",
+    "napps-storage.b-cdn.net",
+    "otlp-http-production.shopifysvc.com",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "s3.eu-west-1.amazonaws.com",
+    "shop.app",
+    "shopify-app-tiktok-feed.firebaseapp.com",
+    "skosm.klarna.com",
+    "stats.g.doubleclick.net",
+    "tracker.connectif.cloud",
+    "v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws",
+    "widget-view.dondy.net",
+    "www.facebook.com",
+    "www.google-analytics.com",
+    "www.google.com",
+    "www.google.it",
+    "www.googleadservices.com",
+    "www.googletagmanager.com",
+    "www.merchant-center-analytics.goog",
+    "www.planetahuerto.es"
+  ]
+}

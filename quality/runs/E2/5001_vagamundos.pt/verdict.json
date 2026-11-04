@@ -1,0 +1,38 @@
+{
+  "host": "www.vagamundos.pt",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.vagamundos.pt/",
+    "lastSeen": {
+      "region1.google-analytics.com": 1793789807440,
+      "use.fontawesome.com": 1793789805492,
+      "www.googletagmanager.com": 1793789805543,
+      "www.vagamundos.pt": 1793789807911
+    }
+  },
+  "hostsConsidered": [
+    "region1.google-analytics.com",
+    "use.fontawesome.com",
+    "www.googletagmanager.com",
+    "www.vagamundos.pt"
+  ]
+}

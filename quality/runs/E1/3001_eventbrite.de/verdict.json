@@ -1,0 +1,59 @@
+{
+  "host": "www.eventbrite.de",
+  "choice": {
+    "at": 1793730438864,
+    "choice": "rejected",
+    "label": "Alle ablehnen",
+    "site": "eventbrite.de",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Alle ablehnen"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.eventbrite.de/",
+    "lastSeen": {
+      "bzr.openai.com": 1793730445990,
+      "bzrcdn.openai.com": 1793730444734,
+      "cdn.evbstatic.com": 1793730444500,
+      "cdntranscend.eventbrite.com": 1793730444417,
+      "d1n9ior3u0lhlo.cloudfront.net": 1793730444089,
+      "eventbrite-build.s3.amazonaws.com": 1793730444394,
+      "img.evbuc.com": 1793730432117,
+      "js.zi-scripts.com": 1793730444734,
+      "ws.zoominfo.com": 1793730445176,
+      "www.eventbrite.de": 1793730445240,
+      "www.googletagmanager.com": 1793730431176
+    }
+  },
+  "hostsConsidered": [
+    "bzr.openai.com",
+    "bzrcdn.openai.com",
+    "cdn.evbstatic.com",
+    "cdntranscend.eventbrite.com",
+    "d1n9ior3u0lhlo.cloudfront.net",
+    "eventbrite-build.s3.amazonaws.com",
+    "js.zi-scripts.com",
+    "ws.zoominfo.com",
+    "www.eventbrite.de"
+  ]
+}

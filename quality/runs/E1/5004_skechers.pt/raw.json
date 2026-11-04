@@ -1,0 +1,539 @@
+{
+  "url": "https://www.skechers.pt",
+  "final_url": "https://www.skechers.pt/",
+  "click_at_s": 12.01,
+  "reload_at_s": 17.01,
+  "reject": "button: 'REJEITAR TODOS' in main (normal click)",
+  "visible_buttons": [
+    "Iniciar sess\u00e3o Iniciar sess\u00e3o",
+    "MULHER",
+    "HOMEM",
+    "CRIAN\u00c7AS",
+    "VESTU\u00c1RIO",
+    "PROMO\u00c7\u00c3O",
+    "Aplicar palavras-chave de procura",
+    "REGISTA-TE",
+    "CONCORDAR E PROSSEGUIR",
+    "REJEITAR TODOS",
+    "Ver Defini\u00e7\u00f5es de Cookies \u00bb",
+    "Fechar"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "ade.googlesyndication.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "cloudflare.com",
+    "collector-pxkknkrjgu.px-cloud.net",
+    "consent.trustarc.com",
+    "fonts.gstatic.com",
+    "ift.px-cloud.net",
+    "p.cquotient.com",
+    "pagead2.googlesyndication.com",
+    "reporting.cdndex.io",
+    "reports.sdiapi.com",
+    "services.sdiapi.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "ade.googlesyndication.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "cloudflare.com",
+    "collector-pxkknkrjgu.px-cloud.net",
+    "consent.trustarc.com",
+    "fonts.gstatic.com",
+    "ift.px-cloud.net",
+    "p.cquotient.com",
+    "pagead2.googlesyndication.com",
+    "reporting.cdndex.io",
+    "reports.sdiapi.com",
+    "services.sdiapi.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "ade.googlesyndication.com": {
+      "first_s": 4.77,
+      "last_s": 17.8
+    },
+    "assets.skechers.com": {
+      "first_s": 3.04,
+      "last_s": 3.18
+    },
+    "bat.bing.com": {
+      "first_s": 3.99,
+      "last_s": 17.95
+    },
+    "bat.bing.net": {
+      "first_s": 4.41,
+      "last_s": 17.71
+    },
+    "cdn.cquotient.com": {
+      "first_s": 3.09,
+      "last_s": 3.09
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 3.19,
+      "last_s": 3.19
+    },
+    "client.px-cloud.net": {
+      "first_s": 3.04,
+      "last_s": 3.04
+    },
+    "cloudflare.com": {
+      "first_s": 5.61,
+      "last_s": 19.12
+    },
+    "collector-pxkknkrjgu.px-cloud.net": {
+      "first_s": 3.5,
+      "last_s": 27.04
+    },
+    "consent.trustarc.com": {
+      "first_s": 3.09,
+      "last_s": 17.45
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.53,
+      "last_s": 3.53
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.8,
+      "last_s": 17.46
+    },
+    "ift.px-cloud.net": {
+      "first_s": 3.5,
+      "last_s": 17.4
+    },
+    "images.skechers.com": {
+      "first_s": 3.04,
+      "last_s": 3.07
+    },
+    "p.cquotient.com": {
+      "first_s": 4.51,
+      "last_s": 18.47
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.77,
+      "last_s": 17.7
+    },
+    "reporting.cdndex.io": {
+      "first_s": 5.61,
+      "last_s": 19.12
+    },
+    "reports.sdiapi.com": {
+      "first_s": 5.82,
+      "last_s": 19.2
+    },
+    "services.sdiapi.com": {
+      "first_s": 3.18,
+      "last_s": 19.24
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 3.09,
+      "last_s": 3.09
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.19,
+      "last_s": 17.37
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "assets.skechers.com",
+    "bat.bing.com",
+    "cdn.cquotient.com",
+    "cdnjs.cloudflare.com",
+    "client.px-cloud.net",
+    "consent.trustarc.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "images.skechers.com",
+    "services.sdiapi.com",
+    "static.cloudflareinsights.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "dwac_b1b2f68fdd25bb1444df7392f8",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cqcid",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cquid",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cc-nx-g_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1795891114.809782,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "usid_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1795891114.809806,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cc-at_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1793732914.809832,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dwsid",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "enc_user_id_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1795891114.809908,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "id_token_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1793732914.80995,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cc-at-dnt_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1793732914.809985,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cc-at-expires_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1793732914.810004,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uido_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1793732914.810024,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cc-nx-expires_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1795891114.810046,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "customer_id_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1793732914.810066,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "customer_type_PTSkechers",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1793732914.810085,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sid",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dwanonymous_272687b4862bfc19f634a0939e90927b",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1809283114.810132,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cq_dnt",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dw_dnt",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".skechers.com",
+      "path": "/",
+      "expires": 1793732914.943721,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TAsessionID",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": 1793732915,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".images.skechers.com",
+      "path": "/",
+      "expires": 1793732915.488165,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": 1825267115.691503,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://skechers.pt",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": 1793732915.691614,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pxcts",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pxvid",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1825267115,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "uuid",
+      "domain": ".cquotient.com",
+      "path": "/",
+      "expires": 1827859130.347942,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cq_uuid",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": 1827859130.350484,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cq_seg",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": 1796323130.35064,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "GAESA",
+      "domain": "tm.skechers.pt",
+      "path": "/",
+      "expires": 1796323116.963055,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_px_f394gi7Fvmc43dfg_user_id",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": 1828291117.558678,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "notice_preferences",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": 1827859123,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "notice_gdpr_prefs",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": 1827859123,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmapi_gtm_bl",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": 1827859123,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmapi_cookie_privacy",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": 1827859123,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "notice_behavior",
+      "domain": ".skechers.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "KP_UIDz-ssn",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1793817531.622308,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "KP_UIDz",
+      "domain": "www.skechers.pt",
+      "path": "/",
+      "expires": 1793817531.622464,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

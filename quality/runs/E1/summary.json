@@ -1,0 +1,58 @@
+{
+  "visit": "E1",
+  "primary_judge": "claude",
+  "sites": 40,
+  "measurable": 14,
+  "not_measurable": {
+    "no_reject": 9,
+    "other": 1,
+    "no_blocked": 3,
+    "no_click": 5,
+    "no_banner": 8
+  },
+  "conclusions": {
+    "correct": {
+      "n": 14,
+      "share": 1.0,
+      "ci95": [
+        0.7846829880728186,
+        1.0
+      ]
+    },
+    "debatable": {
+      "n": 0,
+      "share": 0.0,
+      "ci95": [
+        0.0,
+        0.21531701192718142
+      ]
+    },
+    "false_alarm": {
+      "n": 0,
+      "share": 0.0,
+      "ci95": [
+        0.0,
+        0.21531701192718142
+      ]
+    },
+    "missed": {
+      "n": 0,
+      "share": 0.0,
+      "ci95": [
+        0.0,
+        0.21531701192718142
+      ]
+    },
+    "not_recorded": {
+      "n": 0,
+      "share": 0.0,
+      "ci95": [
+        0.0,
+        0.21531701192718142
+      ]
+    }
+  },
+  "items": {
+    "ok": 14
+  }
+}

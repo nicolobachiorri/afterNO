@@ -1,0 +1,119 @@
+{
+  "host": "www.planetahuerto.es",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 2,
+      "names": [
+        "The Tradedesk (adsrvr.org)",
+        "shop.app"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 5,
+      "names": [
+        "Facebook",
+        "Google",
+        "TikTok"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 6,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.planetahuerto.es/products/huerto-en-casa-kit-de-cultivo-planeta-huerto",
+    "lastSeen": {
+      "ad.doubleclick.net": 1793730985541,
+      "analytics-ipv6.tiktokw.us": 1793730985654,
+      "analytics.tiktok.com": 1793730985653,
+      "browser.sentry-cdn.com": 1793730984390,
+      "cdn-shoppable.avada.io": 1793730986653,
+      "cdn.connectif.cloud": 1793730986116,
+      "cdn.shopify.com": 1793731010679,
+      "connect.facebook.net": 1793730985130,
+      "eu2-api.connectif.cloud": 1793730987569,
+      "extensions.shopifycdn.com": 1793731004795,
+      "fonts.googleapis.com": 1793730986946,
+      "fonts.gstatic.com": 1793730987051,
+      "geoip.apps.getjoy.ai": 1793730986353,
+      "googleads.g.doubleclick.net": 1793730985815,
+      "insight.adsrvr.org": 1793730985827,
+      "js.adsrvr.org": 1793730985709,
+      "js.klarna.com": 1793730988110,
+      "master.napps-solutions.com": 1793730985805,
+      "match.adsrvr.org": 1793730985572,
+      "napps-storage.b-cdn.net": 1793730984392,
+      "otlp-http-production.shopifysvc.com": 1793730998002,
+      "region1.analytics.google.com": 1793730990289,
+      "region1.google-analytics.com": 1793730990833,
+      "s3.eu-west-1.amazonaws.com": 1793730987013,
+      "shop.app": 1793730986080,
+      "shopify-app-tiktok-feed.firebaseapp.com": 1793730986359,
+      "skosm.klarna.com": 1793730987417,
+      "stats.g.doubleclick.net": 1793730985280,
+      "tracker.connectif.cloud": 1793730986229,
+      "v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws": 1793730985614,
+      "widget-view.dondy.net": 1793730986100,
+      "www.facebook.com": 1793730985636,
+      "www.google-analytics.com": 1793730985437,
+      "www.google.com": 1793730986101,
+      "www.google.it": 1793730985983,
+      "www.googleadservices.com": 1793730985350,
+      "www.googletagmanager.com": 1793730985539,
+      "www.merchant-center-analytics.goog": 1793730985216,
+      "www.planetahuerto.es": 1793731010578
+    }
+  },
+  "hostsConsidered": [
+    "ad.doubleclick.net",
+    "analytics-ipv6.tiktokw.us",
+    "analytics.tiktok.com",
+    "browser.sentry-cdn.com",
+    "cdn-shoppable.avada.io",
+    "cdn.connectif.cloud",
+    "cdn.shopify.com",
+    "connect.facebook.net",
+    "eu2-api.connectif.cloud",
+    "extensions.shopifycdn.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "geoip.apps.getjoy.ai",
+    "googleads.g.doubleclick.net",
+    "insight.adsrvr.org",
+    "js.adsrvr.org",
+    "js.klarna.com",
+    "master.napps-solutions.com",
+    "match.adsrvr.org",
+    "napps-storage.b-cdn.net",
+    "otlp-http-production.shopifysvc.com",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "s3.eu-west-1.amazonaws.com",
+    "shop.app",
+    "shopify-app-tiktok-feed.firebaseapp.com",
+    "skosm.klarna.com",
+    "stats.g.doubleclick.net",
+    "tracker.connectif.cloud",
+    "v5-b75ccb2b73c54aa4a5098ab7f8533696.ecs.us-east-2.on.aws",
+    "widget-view.dondy.net",
+    "www.facebook.com",
+    "www.google-analytics.com",
+    "www.google.com",
+    "www.google.it",
+    "www.googleadservices.com",
+    "www.googletagmanager.com",
+    "www.merchant-center-analytics.goog",
+    "www.planetahuerto.es"
+  ]
+}

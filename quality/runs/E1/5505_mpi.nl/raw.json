@@ -1,0 +1,37 @@
+{
+  "url": "https://www.mpi.nl",
+  "final_url": "https://www.mpi.nl/",
+  "click_at_s": 27.94,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Okay"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {},
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_pk_id.2.1c86",
+      "domain": "www.mpi.nl",
+      "path": "/",
+      "expires": 1827686474,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.2.1c86",
+      "domain": "www.mpi.nl",
+      "path": "/",
+      "expires": 1793733073,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

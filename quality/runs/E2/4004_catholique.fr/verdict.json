@@ -1,0 +1,74 @@
+{
+  "host": "eglise.catholique.fr",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "DoubleClick/Google Marketing (doubleclick.net)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Google"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://eglise.catholique.fr/",
+    "lastSeen": {
+      "9823829.fls.doubleclick.net": 1793789583618,
+      "ad.doubleclick.net": 1793789583388,
+      "adservice.google.com": 1793789583827,
+      "app.mailjet.com": 1793789583001,
+      "bat.bing.com": 1793789583446,
+      "bat.bing.net": 1793789583572,
+      "connect.facebook.net": 1793789583331,
+      "eglise.catholique.fr": 1793789585153,
+      "email.eglise.catholique.fr": 1793789582445,
+      "fonts.googleapis.com": 1793789582242,
+      "scontent.xx.fbcdn.net": 1793789584973,
+      "static.xx.fbcdn.net": 1793789585000,
+      "stats.cef.fr": 1793789583039,
+      "www.catholique.fr": 1793789581245,
+      "www.facebook.com": 1793789584076,
+      "www.google.com": 1793789583604,
+      "www.googletagmanager.com": 1793789582992,
+      "www.gstatic.com": 1793789582167
+    }
+  },
+  "hostsConsidered": [
+    "9823829.fls.doubleclick.net",
+    "ad.doubleclick.net",
+    "adservice.google.com",
+    "app.mailjet.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "connect.facebook.net",
+    "eglise.catholique.fr",
+    "email.eglise.catholique.fr",
+    "fonts.googleapis.com",
+    "scontent.xx.fbcdn.net",
+    "static.xx.fbcdn.net",
+    "stats.cef.fr",
+    "www.catholique.fr",
+    "www.facebook.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "url": "https://www.doradcasmaku.pl",
+  "frame": "main",
+  "found_as": "text",
+  "button": {
+    "tag": "A",
+    "role": null,
+    "text": "Odmawiam",
+    "ariaLabel": null,
+    "attrs": {
+      "class": "btn btn-color-reverse",
+      "id": "cookies-opt-out-button"
+    },
+    "inShadow": false,
+    "containers": [
+      {
+        "tag": "A",
+        "id": "cookies-opt-out-button",
+        "cls": "btn btn-color-reverse",
+        "textLength": 8,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "buttons",
+        "textLength": 35,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "cookies-baner-main",
+        "textLength": 948,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "cookies-baner-content",
+        "textLength": 2504,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "cookies-baner",
+        "cls": "cookies-baner",
+        "textLength": 2551,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "cookies-baner-wrapper",
+        "cls": "",
+        "textLength": 2551,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "cls": "homepage-page",
+        "textLength": 12552,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "HTML",
+        "id": "",
+        "cls": "",
+        "textLength": 15333,
+        "mentionsConsent": true
+      }
+    ]
+  },
+  "events_in_frame": [
+    {
+      "type": "pointerdown",
+      "trusted": true,
+      "tag": "A",
+      "text": "Odmawiam",
+      "t": 9077
+    },
+    {
+      "type": "mousedown",
+      "trusted": true,
+      "tag": "A",
+      "text": "Odmawiam",
+      "t": 9077
+    },
+    {
+      "type": "pointerup",
+      "trusted": true,
+      "tag": "A",
+      "text": "Odmawiam",
+      "t": 9077
+    },
+    {
+      "type": "mouseup",
+      "trusted": true,
+      "tag": "A",
+      "text": "Odmawiam",
+      "t": 9077
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "tag": "A",
+      "text": "Odmawiam",
+      "t": 9078
+    }
+  ],
+  "banner_still_visible": false,
+  "extension_choice": {
+    "choice:doradcasmaku.pl": {
+      "at": 1793791011308,
+      "choice": "rejected",
+      "label": "Odmawiam",
+      "site": "doradcasmaku.pl",
+      "source": "click",
+      "trigger": "action"
+    }
+  }
+}

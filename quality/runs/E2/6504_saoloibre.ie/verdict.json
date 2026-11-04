@@ -1,0 +1,24 @@
+{
+  "host": "www.saoloibre.ie",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.saoloibre.ie/",
+    "lastSeen": {
+      "www.saoloibre.ie": 1793790438926
+    }
+  },
+  "hostsConsidered": [
+    "www.saoloibre.ie"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "url": "https://www.peek-cloppenburg.pl",
+  "final_url": "https://www.peek-cloppenburg.pl/",
+  "click_at_s": 26.98,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "\u2304",
+    "Do\u0142\u0105cz",
+    "Wprowad\u017a kart\u0119",
+    "Ustawowe prawa z tytu\u0142u r\u0119kojmi",
+    "Preferencje plik\u00f3w cookie",
+    "Tutaj",
+    "Ustawienia indywidualne",
+    "Zgadzam si\u0119"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.cookielaw.org": {
+      "first_s": 4.02,
+      "last_s": 5.43
+    },
+    "editorial.fidcdn.net": {
+      "first_s": 3.23,
+      "last_s": 5.43
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 4.64,
+      "last_s": 4.64
+    },
+    "product.fidcdn.net": {
+      "first_s": 4.23,
+      "last_s": 4.24
+    },
+    "stapecdn.com": {
+      "first_s": 5.3,
+      "last_s": 5.3
+    },
+    "static.fidcdn.net": {
+      "first_s": 3.23,
+      "last_s": 3.51
+    },
+    "w3wn103n64.kameleoon.eu": {
+      "first_s": 4.02,
+      "last_s": 4.02
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.24,
+      "last_s": 3.24
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "kameleoonVisitorCode",
+      "domain": "www.peek-cloppenburg.pl",
+      "path": "/",
+      "expires": 1825267397.86538,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".fidcdn.net",
+      "path": "/",
+      "expires": 1793733198.115545,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "preferredLanguage",
+      "domain": "www.peek-cloppenburg.pl",
+      "path": "/",
+      "expires": 1796323380,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "puc.SessionId",
+      "domain": "www.peek-cloppenburg.pl",
+      "path": "/",
+      "expires": 1793733198,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".peek-cloppenburg.pl",
+      "path": "/",
+      "expires": 1825267398.976774,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://peek-cloppenburg.pl",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".peek-cloppenburg.pl",
+      "path": "/",
+      "expires": 1793733198.976853,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "onetrustactivegroups",
+      "domain": "www.peek-cloppenburg.pl",
+      "path": "/",
+      "expires": 1796323399,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".www.peek-cloppenburg.pl",
+      "path": "/",
+      "expires": 1825267400,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "marketing_ronid",
+      "domain": ".peek-cloppenburg.pl",
+      "path": "/",
+      "expires": 1794336200.467814,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "channel_originator",
+      "domain": ".peek-cloppenburg.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "channel_influence",
+      "domain": ".peek-cloppenburg.pl",
+      "path": "/",
+      "expires": 1801507400.467937,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "channel_flow",
+      "domain": ".peek-cloppenburg.pl",
+      "path": "/",
+      "expires": 1801507400.467963,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

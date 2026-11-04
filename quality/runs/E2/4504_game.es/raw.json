@@ -1,0 +1,71 @@
+{
+  "url": "https://www.game.es",
+  "final_url": "https://www.game.es/",
+  "click_at_s": 12.56,
+  "reload_at_s": 17.57,
+  "reject": "button: '' in main (normal click)",
+  "visible_buttons": [
+    "Ver nuestros socios",
+    "Aceptar",
+    "Configurar",
+    "Men\u00fa",
+    "Iniciar sesi\u00f3n",
+    "\u00danete a la comunidad",
+    "M\u00e9todos de pago",
+    "S\u00edguenos",
+    "Con\u00f3cenos",
+    "Nuestras campa\u00f1as"
+  ],
+  "tcf": {
+    "timeout": true
+  },
+  "third_party_hosts_after_click": [
+    "api.privacy-center.org"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "api.privacy-center.org": {
+      "first_s": 12.62,
+      "last_s": 12.62
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 5.75,
+      "last_s": 7.58
+    },
+    "www.dwin1.com": {
+      "first_s": 6.0,
+      "last_s": 6.0
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.4,
+      "last_s": 4.4
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "sdk.privacy-center.org",
+    "www.dwin1.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "didomi_dcs",
+      "domain": ".game.es",
+      "path": "/",
+      "expires": 1825412145,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".game.es",
+      "path": "/",
+      "expires": 1825412145,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "url": "https://www.indomio.es",
+  "final_url": "https://www.indomio.es/",
+  "click_at_s": 11.14,
+  "reload_at_s": 16.15,
+  "reject": "button: 'Continuar sin aceptar \u2192' in main (normal click)",
+  "visible_buttons": [
+    "Continuar sin aceptar \u2192",
+    "Ver nuestros 22 socios",
+    "M\u00c1S INFORMACI\u00d3N",
+    "ACEPTAR Y CERRAR"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "api-js.datadome.co",
+    "api.privacy-center.org",
+    "gum.criteo.com",
+    "pagead2.googlesyndication.com",
+    "q.clarity.ms",
+    "www.clarity.ms",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "api-js.datadome.co",
+    "gum.criteo.com",
+    "pagead2.googlesyndication.com",
+    "q.clarity.ms",
+    "www.clarity.ms",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 6.85,
+      "last_s": 6.85
+    },
+    "api-js.datadome.co": {
+      "first_s": 5.6,
+      "last_s": 16.52
+    },
+    "api.privacy-center.org": {
+      "first_s": 11.19,
+      "last_s": 11.19
+    },
+    "cdn.segment.com": {
+      "first_s": 4.89,
+      "last_s": 6.98
+    },
+    "ct.captcha-delivery.com": {
+      "first_s": 2.74,
+      "last_s": 3.37
+    },
+    "dynamic.criteo.com": {
+      "first_s": 6.49,
+      "last_s": 6.49
+    },
+    "fonts.googleapis.com": {
+      "first_s": 5.6,
+      "last_s": 5.6
+    },
+    "fonts.gstatic.com": {
+      "first_s": 5.96,
+      "last_s": 5.96
+    },
+    "geo.captcha-delivery.com": {
+      "first_s": 3.03,
+      "last_s": 4.04
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 6.85,
+      "last_s": 6.99
+    },
+    "gum.criteo.com": {
+      "first_s": 6.87,
+      "last_s": 16.49
+    },
+    "js.datadome.co": {
+      "first_s": 4.89,
+      "last_s": 4.89
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 16.49,
+      "last_s": 16.49
+    },
+    "q.clarity.ms": {
+      "first_s": 17.31,
+      "last_s": 17.31
+    },
+    "r.clarity.ms": {
+      "first_s": 6.86,
+      "last_s": 7.99
+    },
+    "region1.analytics.google.com": {
+      "first_s": 6.95,
+      "last_s": 6.99
+    },
+    "scripts.clarity.ms": {
+      "first_s": 6.29,
+      "last_s": 6.29
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 4.89,
+      "last_s": 6.18
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 6.95,
+      "last_s": 6.95
+    },
+    "www.clarity.ms": {
+      "first_s": 4.89,
+      "last_s": 16.34
+    },
+    "www.google.com": {
+      "first_s": 6.85,
+      "last_s": 7.31
+    },
+    "www.google.it": {
+      "first_s": 6.95,
+      "last_s": 7.47
+    },
+    "www.googletagmanager.com": {
+      "first_s": 6.49,
+      "last_s": 16.49
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.segment.com",
+    "dynamic.criteo.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "js.datadome.co",
+    "scripts.clarity.ms",
+    "sdk.privacy-center.org"
+  ],
+  "cookies": [
+    {
+      "name": "_ga",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1828349712.922963,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1801565712,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_7VX7XPQ6RQ",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1828349712.945683,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "FPID",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1828349713.093269,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FPLC",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1793861713.093296,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FPGSID",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1793791513.253773,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ajs_anonymous_id",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1825325722,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1793790613.405475,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "PageTag",
+      "domain": "www.indomio.es",
+      "path": "/",
+      "expires": 1794351600,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uid",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1827485712.584972,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "crto_is_user_optout",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1794048923.011535,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1809597317,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1809597317,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cto_bundle",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1827485723.009088,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://indomio.es",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "crto_mapped_user_id",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1794048923.012188,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "datadome",
+      "domain": ".indomio.es",
+      "path": "/",
+      "expires": 1825325723.218689,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

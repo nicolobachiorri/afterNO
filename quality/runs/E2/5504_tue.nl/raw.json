@@ -1,0 +1,162 @@
+{
+  "url": "https://www.tue.nl",
+  "final_url": "https://www.tue.nl/en/",
+  "click_at_s": 11.31,
+  "reload_at_s": 16.31,
+  "reject": "button: 'Deny' in main (normal click)",
+  "visible_buttons": [
+    "Deny",
+    "Allow selection",
+    "Allow all",
+    "Menu"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "bat.bing.com",
+    "bat.bing.net",
+    "clients1.google.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "cse.google.com",
+    "pagead2.googlesyndication.com",
+    "px.ads.linkedin.com",
+    "px4.ads.linkedin.com",
+    "region1.google-analytics.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "bat.bing.com",
+    "bat.bing.net",
+    "clients1.google.com",
+    "cse.google.com",
+    "pagead2.googlesyndication.com",
+    "px.ads.linkedin.com",
+    "px4.ads.linkedin.com",
+    "region1.google-analytics.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "bat.bing.com": {
+      "first_s": 3.53,
+      "last_s": 16.99
+    },
+    "bat.bing.net": {
+      "first_s": 4.05,
+      "last_s": 16.77
+    },
+    "clients1.google.com": {
+      "first_s": 3.34,
+      "last_s": 16.66
+    },
+    "consent.cookiebot.com": {
+      "first_s": 3.53,
+      "last_s": 11.47
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 3.94,
+      "last_s": 11.48
+    },
+    "cse.google.com": {
+      "first_s": 2.82,
+      "last_s": 16.5
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.53,
+      "last_s": 16.76
+    },
+    "px.ads.linkedin.com": {
+      "first_s": 3.95,
+      "last_s": 16.77
+    },
+    "px4.ads.linkedin.com": {
+      "first_s": 4.4,
+      "last_s": 16.97
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.78,
+      "last_s": 16.69
+    },
+    "snap.licdn.com": {
+      "first_s": 3.53,
+      "last_s": 3.53
+    },
+    "www.google.com": {
+      "first_s": 3.11,
+      "last_s": 3.11
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.12,
+      "last_s": 16.76
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "bat.bing.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "snap.licdn.com",
+    "www.google.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "aff_93e95bd6a",
+      "domain": "www.tue.nl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1825326101.169242,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1809342101.169278,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793876501.169299,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.tue.nl",
+      "path": "/",
+      "expires": 1825326108,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793791913.966157,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

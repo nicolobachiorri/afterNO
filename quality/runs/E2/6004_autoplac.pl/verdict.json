@@ -1,0 +1,28 @@
+{
+  "host": "www.autoplac.pl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.autoplac.pl/",
+    "lastSeen": {
+      "challenges.cloudflare.com": 1793790287646,
+      "hagen.challenges.cloudflare.com": 1793790286788,
+      "www.autoplac.pl": 1793790285742
+    }
+  },
+  "hostsConsidered": [
+    "challenges.cloudflare.com",
+    "hagen.challenges.cloudflare.com",
+    "www.autoplac.pl"
+  ]
+}

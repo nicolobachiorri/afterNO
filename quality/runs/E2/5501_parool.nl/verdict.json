@@ -1,0 +1,48 @@
+{
+  "host": "myprivacy.dpgmedia.nl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "dpgmedia.net"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Snowplow"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://myprivacy.dpgmedia.nl/consent?siteKey=5id0G7K93Kr6sOje&callbackUrl=https%3A%2F%2Fwww.parool.nl%2Fprivacygate-confirm%3FredirectUri%3D%252F&isLoggedIn=false",
+    "lastSeen": {
+      "c.dpgmedia.net": 1793790034784,
+      "myprivacy-static.dpgmedia.net": 1793790034206,
+      "myprivacy.dpgmedia.nl": 1793790034787,
+      "pg.dpgmedia.net": 1793790034199,
+      "pg.dpgmedia.nl": 1793790034005,
+      "sp.dpgmedia.net": 1793790034422,
+      "www.googletagmanager.com": 1793790033991
+    }
+  },
+  "hostsConsidered": [
+    "c.dpgmedia.net",
+    "myprivacy-static.dpgmedia.net",
+    "myprivacy.dpgmedia.nl",
+    "pg.dpgmedia.net",
+    "pg.dpgmedia.nl",
+    "sp.dpgmedia.net",
+    "www.googletagmanager.com"
+  ]
+}

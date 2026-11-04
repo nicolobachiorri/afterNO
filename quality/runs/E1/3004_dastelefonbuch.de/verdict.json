@@ -1,0 +1,56 @@
+{
+  "host": "www.dastelefonbuch.de",
+  "choice": {
+    "at": 1793730519979,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "purposesTotal": 11,
+    "site": "dastelefonbuch.de",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecorded",
+      "subs": [
+        0,
+        11
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.dastelefonbuch.de/",
+    "lastSeen": {
+      "b.delivery.consentmanager.net": 1793730524866,
+      "cdn.consentmanager.net": 1793730511921,
+      "image.dastelefonbuch.de": 1793730511383,
+      "medien.dastelefonbuch.de": 1793730524800,
+      "static.cloudflareinsights.com": 1793730510912,
+      "tb.wwa.wipe.de": 1793730524787,
+      "wipe.de": 1793730510902,
+      "www.dastelefonbuch.de": 1793730524931
+    }
+  },
+  "hostsConsidered": [
+    "b.delivery.consentmanager.net",
+    "medien.dastelefonbuch.de",
+    "tb.wwa.wipe.de",
+    "www.dastelefonbuch.de"
+  ]
+}

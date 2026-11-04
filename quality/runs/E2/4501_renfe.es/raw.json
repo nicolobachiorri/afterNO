@@ -1,0 +1,225 @@
+{
+  "url": "https://www.renfe.es",
+  "final_url": "https://www.renfe.com/es/es",
+  "click_at_s": 11.63,
+  "reload_at_s": 16.63,
+  "reject": "button: 'Permitir solo cookies t\u00e9cnicas' in main (normal click)",
+  "visible_buttons": [
+    "Configuraci\u00f3n de cookies",
+    "Permitir solo cookies t\u00e9cnicas",
+    "Aceptar todas las cookies",
+    "Nuestras webs",
+    "Nuestras apps"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "dpm.demdex.net",
+    "geolocation.onetrust.com",
+    "ingesteu.quantummetric.com",
+    "renfe.demdex.net"
+  ],
+  "third_party_hosts_after_reload": [
+    "dpm.demdex.net",
+    "geolocation.onetrust.com",
+    "ingesteu.quantummetric.com",
+    "renfe.demdex.net"
+  ],
+  "third_party_timeline": {
+    "assets.adobedtm.com": {
+      "first_s": 2.96,
+      "last_s": 3.94
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 3.43,
+      "last_s": 4.55
+    },
+    "cdn.quantummetric.com": {
+      "first_s": 3.8,
+      "last_s": 3.8
+    },
+    "cm.everesttech.net": {
+      "first_s": 3.76,
+      "last_s": 3.76
+    },
+    "dpm.demdex.net": {
+      "first_s": 3.43,
+      "last_s": 16.85
+    },
+    "edge.adobedc.net": {
+      "first_s": 3.43,
+      "last_s": 3.43
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.95,
+      "last_s": 16.89
+    },
+    "ingesteu.quantummetric.com": {
+      "first_s": 4.12,
+      "last_s": 20.73
+    },
+    "privacyportal-de.onetrust.com": {
+      "first_s": 11.6,
+      "last_s": 11.6
+    },
+    "renfe.demdex.net": {
+      "first_s": 3.76,
+      "last_s": 16.93
+    },
+    "rum.hlx.page": {
+      "first_s": 2.96,
+      "last_s": 2.96
+    },
+    "www.renfe.es": {
+      "first_s": 2.31,
+      "last_s": 2.31
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "assets.adobedtm.com",
+    "cdn.cookielaw.org",
+    "cdn.quantummetric.com",
+    "rum.hlx.page"
+  ],
+  "cookies": [
+    {
+      "name": "ApplicationGatewayAffinityCORS",
+      "domain": "www.renfe.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ApplicationGatewayAffinity",
+      "domain": "www.renfe.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1809341662.055003,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCVS_3C9D27E253DB254D0A490D4E%40AdobeOrg",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "kndctr_3C9D27E253DB254D0A490D4E_AdobeOrg_consent",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1809341648,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "kndctr_3C9D27E253DB254D0A490D4E_AdobeOrg_identity",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1827917648,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "kndctr_3C9D27E253DB254D0A490D4E_AdobeOrg_cluster",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1793791448,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "everest_g_v2",
+      "domain": ".everesttech.net",
+      "path": "/",
+      "expires": 1825325649.384466,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dpm",
+      "domain": ".dpm.demdex.net",
+      "path": "/",
+      "expires": 1809341649.466708,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "QuantumMetricSessionID",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1793791462,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "QuantumMetricUserID",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1825325662,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1825325656,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AMCV_3C9D27E253DB254D0A490D4E%40AdobeOrg",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1828349662.072309,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".renfe.com",
+      "path": "/",
+      "expires": 1825325662,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

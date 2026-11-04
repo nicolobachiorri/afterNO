@@ -1,0 +1,80 @@
+{
+  "host": "www.operadeparis.fr",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyPartitioned",
+      "count": 1,
+      "names": [
+        "Youtube (youtube.com)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Google"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.operadeparis.fr/",
+    "lastSeen": {
+      "52f9134478848245ecb1cdff101b8356.safeframe.googlesyndication.com": 1793789517317,
+      "ad.doubleclick.net": 1793789516620,
+      "api.axept.io": 1793789519190,
+      "axeptio.imgix.net": 1793789517186,
+      "cdnjs.cloudflare.com": 1793789516763,
+      "client.axept.io": 1793789516982,
+      "code.jquery.com": 1793789516618,
+      "ep1.adtrafficquality.google": 1793789518827,
+      "ep2.adtrafficquality.google": 1793789518309,
+      "fonts.googleapis.com": 1793789517184,
+      "fonts.gstatic.com": 1793789517406,
+      "logs1412.xiti.com": 1793789519191,
+      "pagead2.googlesyndication.com": 1793789518220,
+      "res.cloudinary.com": 1793789516144,
+      "securepubads.g.doubleclick.net": 1793789516766,
+      "sst.operadeparis.fr": 1793789517643,
+      "static.axept.io": 1793789519493,
+      "static.rolex.com": 1793789517116,
+      "tag.aticdn.net": 1793789516624,
+      "tm4oedch3e.kameleoon.eu": 1793789516142,
+      "tpc.googlesyndication.com": 1793789517344,
+      "www.google.com": 1793789516620,
+      "www.googletagmanager.com": 1793789516976,
+      "www.operadeparis.fr": 1793789521465,
+      "www.youtube.com": 1793789516724
+    }
+  },
+  "hostsConsidered": [
+    "52f9134478848245ecb1cdff101b8356.safeframe.googlesyndication.com",
+    "ad.doubleclick.net",
+    "api.axept.io",
+    "axeptio.imgix.net",
+    "cdnjs.cloudflare.com",
+    "client.axept.io",
+    "code.jquery.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "logs1412.xiti.com",
+    "pagead2.googlesyndication.com",
+    "res.cloudinary.com",
+    "securepubads.g.doubleclick.net",
+    "sst.operadeparis.fr",
+    "static.axept.io",
+    "static.rolex.com",
+    "tag.aticdn.net",
+    "tm4oedch3e.kameleoon.eu",
+    "tpc.googlesyndication.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.operadeparis.fr",
+    "www.youtube.com"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "host": "www.peek-cloppenburg.pl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.peek-cloppenburg.pl/",
+    "lastSeen": {
+      "cdn.cookielaw.org": 1793790254993,
+      "editorial.fidcdn.net": 1793790254993,
+      "geolocation.onetrust.com": 1793790254308,
+      "path.peek-cloppenburg.pl": 1793790255092,
+      "product.fidcdn.net": 1793790254049,
+      "stapecdn.com": 1793790254899,
+      "static.fidcdn.net": 1793790253363,
+      "w3wn103n64.kameleoon.eu": 1793790253831,
+      "www.googletagmanager.com": 1793790253332,
+      "www.peek-cloppenburg.pl": 1793790254217
+    }
+  },
+  "hostsConsidered": [
+    "cdn.cookielaw.org",
+    "editorial.fidcdn.net",
+    "geolocation.onetrust.com",
+    "path.peek-cloppenburg.pl",
+    "product.fidcdn.net",
+    "stapecdn.com",
+    "static.fidcdn.net",
+    "w3wn103n64.kameleoon.eu",
+    "www.googletagmanager.com",
+    "www.peek-cloppenburg.pl"
+  ]
+}

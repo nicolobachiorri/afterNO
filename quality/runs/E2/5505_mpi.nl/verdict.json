@@ -1,0 +1,34 @@
+{
+  "host": "www.mpi.nl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.mpi.nl/",
+    "lastSeen": {
+      "analytics.mpi.nl": 1793790129397,
+      "www.mpi.nl": 1793790129408
+    }
+  },
+  "hostsConsidered": [
+    "analytics.mpi.nl",
+    "www.mpi.nl"
+  ]
+}

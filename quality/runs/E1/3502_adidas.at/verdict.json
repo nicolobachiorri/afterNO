@@ -1,0 +1,32 @@
+{
+  "host": "www.adidas.at",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.adidas.at/",
+    "lastSeen": {
+      "f.monetate.net": 1793730573564,
+      "se.monetate.net": 1793730573199,
+      "tags.tiqcdn.com": 1793730573199,
+      "www.adidas.at": 1793730573145,
+      "www.adidas.com": 1793730572825
+    }
+  },
+  "hostsConsidered": [
+    "f.monetate.net",
+    "se.monetate.net",
+    "tags.tiqcdn.com",
+    "www.adidas.at",
+    "www.adidas.com"
+  ]
+}

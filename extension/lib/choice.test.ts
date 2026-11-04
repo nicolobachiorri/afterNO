@@ -266,3 +266,15 @@ test('container names: consent platforms yes, ordinary layout no', () => {
   for (const n of ['newsletter-box', 'footer links', 'modal-content', 'accordion'])
     assert.equal(isConsentContainer(n), false, n);
 });
+
+// Sample E, visit E1 (4 November 2026): free rejections neither the robot nor the
+// extension recognised. Words between "alle" and "ablehnen"; "I" before the verb;
+// "no thanks" in every language; Polish "I refuse" / "I do not agree".
+test('sample E: rejections with words in between, "I ...", "no thanks"', () => {
+  for (const label of ['Alle Dienste ablehnen', 'Alle optionalen Cookies ablehnen', 'Non merci', 'Non, merci',
+    'Odmawiam', 'Nie zgadzam się', 'I Do Not Accept', "I don't accept", 'I decline', 'No thanks', 'No, grazie',
+    'Nein danke', 'No gracias', 'Não, obrigado', 'Nee, bedankt', 'Niet akkoord'])
+    assert.equal(classifyLabel(label), 'reject', label);
+  for (const label of ['Alle Dienste erlauben', 'I Accept', 'Zgadzam się', 'Akkoord', 'Alle Cookies akzeptieren'])
+    assert.equal(classifyLabel(label), 'accept', label);
+});

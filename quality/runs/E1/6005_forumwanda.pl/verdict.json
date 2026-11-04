@@ -1,0 +1,38 @@
+{
+  "host": "www.forumwanda.pl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.forumwanda.pl/",
+    "lastSeen": {
+      "fonts.googleapis.com": 1793731463651,
+      "fonts.gstatic.com": 1793731463708,
+      "fundingchoicesmessages.google.com": 1793731463677,
+      "pagead2.googlesyndication.com": 1793731462632,
+      "scripts.clarity.ms": 1793731462526,
+      "u.clarity.ms": 1793731466892,
+      "www.clarity.ms": 1793731462324,
+      "www.forumwanda.pl": 1793731463827
+    }
+  },
+  "hostsConsidered": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "fundingchoicesmessages.google.com",
+    "pagead2.googlesyndication.com",
+    "scripts.clarity.ms",
+    "u.clarity.ms",
+    "www.clarity.ms",
+    "www.forumwanda.pl"
+  ]
+}

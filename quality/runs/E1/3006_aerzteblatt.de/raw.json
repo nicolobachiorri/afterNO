@@ -1,0 +1,69 @@
+{
+  "url": "https://www.aerzteblatt.de",
+  "final_url": "https://www.aerzteblatt.de/",
+  "click_at_s": 26.64,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Zum Men\u00fc springen",
+    "MEIN D\u00c4",
+    "MEN\u00dc",
+    "Men\u00fc schlie\u00dfen",
+    "GESETZLICHE GEW\u00c4HRLEISTUNG",
+    "Privacy Center",
+    "Einwilligen und weiter",
+    "Mehr zum contentpass",
+    "Speichern von oder Zugriff auf Informationen auf e",
+    "Personalisierte Werbung und Inhalte, Messung von W"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.privacy-mgmt.com": {
+      "first_s": 2.92,
+      "last_s": 4.0
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "__Host-next-auth.csrf-token",
+      "domain": "www.aerzteblatt.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-next-auth.callback-url",
+      "domain": "www.aerzteblatt.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "consentUUID",
+      "domain": "www.aerzteblatt.de",
+      "path": "/",
+      "expires": 1825268081.96203,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

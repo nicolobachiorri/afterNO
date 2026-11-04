@@ -1,0 +1,193 @@
+{
+  "url": "https://www.prv.pl",
+  "final_url": "https://www.prv.pl/",
+  "click_at_s": 26.82,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Potwierdzam moje zgody",
+    "Nie zgadzam si\u0119"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "api.alestat.com": {
+      "first_s": 2.67,
+      "last_s": 4.15
+    },
+    "connect.facebook.net": {
+      "first_s": 2.67,
+      "last_s": 3.25
+    },
+    "goldbach.hit.gemius.pl": {
+      "first_s": 3.31,
+      "last_s": 4.06
+    },
+    "ls.hit.gemius.pl": {
+      "first_s": 3.74,
+      "last_s": 3.74
+    },
+    "region1.analytics.google.com": {
+      "first_s": 3.47,
+      "last_s": 3.47
+    },
+    "ssl.google-analytics.com": {
+      "first_s": 2.68,
+      "last_s": 2.68
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.47,
+      "last_s": 3.47
+    },
+    "stats.grupapino.pl": {
+      "first_s": 2.67,
+      "last_s": 2.95
+    },
+    "www.facebook.com": {
+      "first_s": 3.27,
+      "last_s": 3.27
+    },
+    "www.google-analytics.com": {
+      "first_s": 2.91,
+      "last_s": 3.14
+    },
+    "www.google.it": {
+      "first_s": 3.47,
+      "last_s": 3.47
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.96,
+      "last_s": 3.46
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": "www.prv.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bca4cfef7502a9b0f4a59cee86b64f8d",
+      "domain": ".www.prv.pl",
+      "path": "/",
+      "expires": 1796382220.20885,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "58d694683db3955896825e51f0521ec7",
+      "domain": "stats.grupapino.pl",
+      "path": "/",
+      "expires": 1793876620.579554,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".prv.pl",
+      "path": "/",
+      "expires": 1828350220.692937,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gid",
+      "domain": ".prv.pl",
+      "path": "/",
+      "expires": 1793876620,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gat",
+      "domain": ".prv.pl",
+      "path": "/",
+      "expires": 1793790280,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_NX6EXMRQE1",
+      "domain": ".prv.pl",
+      "path": "/",
+      "expires": 1828350221.026842,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__gfp_64b",
+      "domain": ".prv.pl",
+      "path": "/",
+      "expires": 1827918221,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1827918221.705157,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://prv.pl",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "Gtest",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1794395021.619468,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Gdyn",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1827918221.705322,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Gdynp",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1827918221.705348,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://prv.pl",
+        "hasCrossSiteAncestor": true
+      }
+    }
+  ]
+}

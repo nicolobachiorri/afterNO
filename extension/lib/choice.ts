@@ -55,26 +55,26 @@ export function isChoiceMessage(x: unknown): x is ChoiceMessage {
 const REJECT = new RegExp(
   '^\\s*('
   // Italian
-  + 'rifiut|nega(re)?\\b|nega il|non accett|non acconsent|(continua|prosegui) senza accettare|'
+  + 'rifiut|nega(re)?\\b|nega il|non accett|non acconsent|(continua|prosegui) senza accettare|no,? grazie|'
   + '(accetta |consenti |usa |continua con )?solo (i |gli |le )?(cookie )?(strettamente )?(necessari|essenziali|tecnici)|'
   // English
-  + 'reject|decline|deny|disagree|refuse|only (necessary|essential|required)|(necessary|essential) only|'
+  + '(i )?(reject|decline|deny|disagree|refuse|do not (accept|agree)|don.?t (accept|agree))|no,? thanks|only (necessary|essential|required)|(necessary|essential) only|'
   + 'use (only )?necessary|continue without accepting|'
   // French
-  + '(tout |je )?refuser?( tout)?|continuer sans accepter|je n.?accepte pas|'
+  + '(tout |je )?refuser?( tout)?|continuer sans accepter|je n.?accepte pas|non,? merci|'
   + '(accepter |autoriser )?(uniquement|seulement) (les )?(cookies )?(strictement )?(n[eé]cessaires|essentiels)|'
   // German
-  + '(alle |optionale |nicht notwendige )?(cookies )?ablehnen|nicht (akzeptieren|zustimmen)|'
+  + '((alle|optionale|nicht notwendige)( [a-zäöüß-]+)? )?(cookies )?ablehnen|nicht (akzeptieren|zustimmen)|nein,? danke|'
   + 'nur (technisch )?(notwendige|erforderliche|essenzielle|essentielle)|weiter ohne (einwilligung|zustimmung|akzeptieren)|'
   // Spanish
-  + 'rechazar|no acepto|continuar sin aceptar|'
+  + 'rechazar|no acepto|continuar sin aceptar|no,? gracias|'
   + '(aceptar |permitir )?(solo|sólo|únicamente) (las )?(cookies )?(necesarias|esenciales|t[eé]cnicas)|'
   // Portuguese
-  + 'rejeitar|recusar|continuar sem aceitar|(aceitar )?(apenas|somente) (os )?(cookies )?(necess[aá]rios|essenciais)|'
+  + 'rejeitar|recusar|continuar sem aceitar|n[aã]o aceito|n[aã]o,? obrigad[oa]|(aceitar )?(apenas|somente) (os )?(cookies )?(necess[aá]rios|essenciais)|'
   // Dutch
-  + '(alles |alle cookies )?(weigeren|afwijzen)|alleen (noodzakelijke|functionele|essenti[eë]le)|'
+  + '(alles |alle cookies )?(weigeren|afwijzen)|alleen (noodzakelijke|functionele|essenti[eë]le)|nee,? bedankt|niet akkoord|'
   // Polish
-  + 'odrzu[cć]|tylko (niezb[eę]dne|wymagane)'
+  + 'odrzu[cć]|odmawiam|odm[oó]w|nie zgadzam si[eę]|nie akceptuj[eę]|tylko (niezb[eę]dne|wymagane)'
   + ')',
   'i',
 );
@@ -85,7 +85,7 @@ const ACCEPT = new RegExp(
   + 'accett|acconsent|consenti (tutt|i cookie)|va bene|ho capito|ok\\b|'
   + '(i )?accept|(i )?agree|allow (all|cookies)|got it|'
   + "j'accepte|tout accepter|autoriser (tous|tout)|d'accord|"
-  + 'akzeptieren|alle (cookies )?(akzeptieren|annehmen|zulassen|erlauben)|annehmen|zustimmen|einverstanden|'
+  + 'akzeptieren|alle( [a-zäöüß-]+)? (akzeptieren|annehmen|zulassen|erlauben)|annehmen|zustimmen|einverstanden|'
   + 'acept|permitir (todas|todo)|aceit|concordo|permitir todos|'
   + 'accepteren|alles accepteren|akkoord|toestaan|'
   + 'akceptuj|zaakceptuj|zgadzam|zgoda'

@@ -1,0 +1,30 @@
+{
+  "host": "www.aerzteblatt.de",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.aerzteblatt.de/",
+    "lastSeen": {
+      "cdn.privacy-mgmt.com": 1793789305896,
+      "cp.aerzteblatt.de": 1793789305374,
+      "data-df5a2bcc30.aerzteblatt.de": 1793789305536,
+      "www.aerzteblatt.de": 1793789305589
+    }
+  },
+  "hostsConsidered": [
+    "cdn.privacy-mgmt.com",
+    "cp.aerzteblatt.de",
+    "data-df5a2bcc30.aerzteblatt.de",
+    "www.aerzteblatt.de"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "url": "https://www.forumwanda.pl",
+  "final_url": "https://www.forumwanda.pl/",
+  "click_at_s": 27.62,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "UNIWERSUM",
+    "YOUTUBE",
+    "INSTAGRAM",
+    "TIKTOK",
+    "SHOWBIZNES",
+    "TELEWIZJA",
+    "MUZYKA",
+    "KRYMINALNIE",
+    "WYPRZEDA\u017bE",
+    "UBRANIA I BUTY",
+    "SKLEPY I REKLAMACJE",
+    "ELEKTRONIKA I AKCESORIA",
+    "TWARZ, CIA\u0141O, W\u0141OSY",
+    "PERFUMY",
+    "MEDYCYNA ESTETYCZNA"
+  ],
+  "tcf": {
+    "cmpId": 300,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "fonts.googleapis.com": {
+      "first_s": 2.81,
+      "last_s": 4.64
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.69,
+      "last_s": 4.69
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 3.89,
+      "last_s": 4.69
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.81,
+      "last_s": 3.63
+    },
+    "scripts.clarity.ms": {
+      "first_s": 3.51,
+      "last_s": 3.51
+    },
+    "u.clarity.ms": {
+      "first_s": 3.97,
+      "last_s": 7.88
+    },
+    "www.clarity.ms": {
+      "first_s": 3.05,
+      "last_s": 3.05
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "phpbb3_emnxj_u",
+      "domain": ".forumwanda.pl",
+      "path": "/",
+      "expires": 1825267461.812762,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "phpbb3_emnxj_k",
+      "domain": ".forumwanda.pl",
+      "path": "/",
+      "expires": 1825267461.813089,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "phpbb3_emnxj_sid",
+      "domain": ".forumwanda.pl",
+      "path": "/",
+      "expires": 1825267461.813116,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".forumwanda.pl",
+      "path": "/",
+      "expires": 1827427463,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

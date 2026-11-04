@@ -1,0 +1,115 @@
+{
+  "host": "www.perfumesecompanhia.pt",
+  "choice": {
+    "at": 1793731061955,
+    "choice": "rejected",
+    "label": "Rejeitar todos",
+    "site": "perfumesecompanhia.pt",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rejeitar todos"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "cquotient.com"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyPartitioned",
+      "count": 1,
+      "names": [
+        "Salesforce (igodigital.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.perfumesecompanhia.pt/",
+    "lastSeen": {
+      "510005633.collect.igodigital.com": 1793731051454,
+      "analytics.google.com": 1793731052862,
+      "cdn.cquotient.com": 1793731052388,
+      "cdn.doofinder.com": 1793731067652,
+      "cf-apilb.gotolstoy.com": 1793731067884,
+      "consent.app.cookieinformation.com": 1793731061961,
+      "e.cquotient.com": 1793731067655,
+      "ekr.zdassets.com": 1793731067631,
+      "eu.klarnaevt.com": 1793731067648,
+      "eu1-api.doofinder.com": 1793731067809,
+      "eu1-config.doofinder.com": 1793731052388,
+      "f.clarity.ms": 1793731067368,
+      "fonts.googleapis.com": 1793731051672,
+      "fonts.gstatic.com": 1793731053087,
+      "g.clarity.ms": 1793731073917,
+      "js.klarna.com": 1793731067420,
+      "load.sgtm.perfumesecompanhia.pt": 1793731052808,
+      "p.cquotient.com": 1793731068655,
+      "pagead2.googlesyndication.com": 1793731067557,
+      "perfumescompanhia.zendesk.com": 1793731067844,
+      "play.gotolstoy.com": 1793731067388,
+      "policy.app.cookieinformation.com": 1793731067495,
+      "script.hotjar.com": 1793731053030,
+      "scripts.clarity.ms": 1793731053012,
+      "sgtm.perfumesecompanhia.pt": 1793731067516,
+      "static.cloudflareinsights.com": 1793731052388,
+      "static.hotjar.com": 1793731052813,
+      "static.zdassets.com": 1793731068327,
+      "tau.collect.igodigital.com": 1793731067613,
+      "vc.hotjar.io": 1793731053454,
+      "widget-mediator.zopim.com": 1793731067891,
+      "widget.gotolstoy.com": 1793731067388,
+      "www.clarity.ms": 1793731067467,
+      "www.google.com": 1793731067844,
+      "www.googletagmanager.com": 1793731067946,
+      "www.gstatic.com": 1793731067852,
+      "www.perfumesecompanhia.pt": 1793731068261,
+      "x.klarnacdn.net": 1793731067647
+    }
+  },
+  "hostsConsidered": [
+    "cdn.doofinder.com",
+    "cf-apilb.gotolstoy.com",
+    "consent.app.cookieinformation.com",
+    "e.cquotient.com",
+    "ekr.zdassets.com",
+    "eu.klarnaevt.com",
+    "eu1-api.doofinder.com",
+    "f.clarity.ms",
+    "g.clarity.ms",
+    "js.klarna.com",
+    "p.cquotient.com",
+    "pagead2.googlesyndication.com",
+    "perfumescompanhia.zendesk.com",
+    "play.gotolstoy.com",
+    "policy.app.cookieinformation.com",
+    "sgtm.perfumesecompanhia.pt",
+    "static.zdassets.com",
+    "tau.collect.igodigital.com",
+    "widget-mediator.zopim.com",
+    "widget.gotolstoy.com",
+    "www.clarity.ms",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.perfumesecompanhia.pt",
+    "x.klarnacdn.net"
+  ]
+}

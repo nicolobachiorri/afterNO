@@ -1,0 +1,34 @@
+{
+  "host": "www.antagus.de",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.antagus.de/",
+    "lastSeen": {
+      "matomo.docker.n0q.de": 1793730479506,
+      "www.antagus.de": 1793730479508
+    }
+  },
+  "hostsConsidered": [
+    "matomo.docker.n0q.de",
+    "www.antagus.de"
+  ]
+}

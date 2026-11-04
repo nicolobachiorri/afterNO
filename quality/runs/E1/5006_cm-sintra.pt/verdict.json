@@ -1,0 +1,36 @@
+{
+  "host": "cm-sintra.pt",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://cm-sintra.pt/",
+    "lastSeen": {
+      "cm-sintra.pt": 1793731173774,
+      "stats.cm-sintra.pt": 1793731146775,
+      "www.cm-sintra.pt": 1793731142582
+    }
+  },
+  "hostsConsidered": [
+    "cm-sintra.pt",
+    "stats.cm-sintra.pt",
+    "www.cm-sintra.pt"
+  ]
+}

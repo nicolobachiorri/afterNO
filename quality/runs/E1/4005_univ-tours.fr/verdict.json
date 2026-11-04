@@ -1,0 +1,38 @@
+{
+  "host": "www.univ-tours.fr",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.univ-tours.fr/",
+    "lastSeen": {
+      "cdn.matomo.cloud": 1793730828475,
+      "medias.univ-tours.fr": 1793730828474,
+      "univtours.matomo.cloud": 1793730829179,
+      "www.univ-tours.fr": 1793730833339
+    }
+  },
+  "hostsConsidered": [
+    "cdn.matomo.cloud",
+    "medias.univ-tours.fr",
+    "univtours.matomo.cloud",
+    "www.univ-tours.fr"
+  ]
+}

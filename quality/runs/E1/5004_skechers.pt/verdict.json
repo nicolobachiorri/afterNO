@@ -1,0 +1,82 @@
+{
+  "host": "www.skechers.pt",
+  "choice": {
+    "at": 1793731123768,
+    "choice": "rejected",
+    "label": "Rejeitar todos",
+    "site": "skechers.pt",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rejeitar todos"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "cquotient.com"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.skechers.pt/",
+    "lastSeen": {
+      "ade.googlesyndication.com": 1793731129590,
+      "assets.skechers.com": 1793731114976,
+      "bat.bing.com": 1793731129740,
+      "bat.bing.net": 1793731129503,
+      "cdn.cquotient.com": 1793731115094,
+      "cdnjs.cloudflare.com": 1793731115095,
+      "client.px-cloud.net": 1793731115091,
+      "cloudflare.com": 1793731130885,
+      "collector-pxkknkrjgu.px-cloud.net": 1793731138830,
+      "consent.trustarc.com": 1793731129234,
+      "fonts.googleapis.com": 1793731115319,
+      "fonts.gstatic.com": 1793731129255,
+      "ift.px-cloud.net": 1793731129185,
+      "images.skechers.com": 1793731115093,
+      "p.cquotient.com": 1793731130268,
+      "pagead2.googlesyndication.com": 1793731129489,
+      "reporting.cdndex.io": 1793731130872,
+      "reports.sdiapi.com": 1793731130956,
+      "services.sdiapi.com": 1793731131032,
+      "static.cloudflareinsights.com": 1793731114887,
+      "tm.skechers.pt": 1793731132556,
+      "www.googletagmanager.com": 1793731129149,
+      "www.skechers.pt": 1793731131694
+    }
+  },
+  "hostsConsidered": [
+    "ade.googlesyndication.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "cloudflare.com",
+    "collector-pxkknkrjgu.px-cloud.net",
+    "consent.trustarc.com",
+    "fonts.gstatic.com",
+    "ift.px-cloud.net",
+    "p.cquotient.com",
+    "pagead2.googlesyndication.com",
+    "reporting.cdndex.io",
+    "reports.sdiapi.com",
+    "services.sdiapi.com",
+    "tm.skechers.pt",
+    "www.googletagmanager.com",
+    "www.skechers.pt"
+  ]
+}

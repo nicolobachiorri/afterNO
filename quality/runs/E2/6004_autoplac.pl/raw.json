@@ -1,0 +1,34 @@
+{
+  "url": "https://www.autoplac.pl",
+  "final_url": "https://www.autoplac.pl/",
+  "click_at_s": 26.05,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "challenges.cloudflare.com": {
+      "first_s": 3.18,
+      "last_s": 5.18
+    },
+    "hagen.challenges.cloudflare.com": {
+      "first_s": 4.32,
+      "last_s": 4.32
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".autoplac.pl",
+      "path": "/",
+      "expires": 1793792085.780312,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

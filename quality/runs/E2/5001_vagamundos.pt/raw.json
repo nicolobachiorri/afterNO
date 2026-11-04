@@ -1,0 +1,48 @@
+{
+  "url": "https://www.vagamundos.pt",
+  "final_url": "https://www.vagamundos.pt/",
+  "click_at_s": 26.52,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "region1.google-analytics.com": {
+      "first_s": 4.89,
+      "last_s": 4.89
+    },
+    "use.fontawesome.com": {
+      "first_s": 2.94,
+      "last_s": 2.94
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.96,
+      "last_s": 2.96
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_ga_LRKREE6HQ3",
+      "domain": ".vagamundos.pt",
+      "path": "/",
+      "expires": 1828349807.4369,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".vagamundos.pt",
+      "path": "/",
+      "expires": 1828349807.437113,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

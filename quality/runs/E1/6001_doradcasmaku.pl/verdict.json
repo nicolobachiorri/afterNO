@@ -1,0 +1,56 @@
+{
+  "host": "www.doradcasmaku.pl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "openx.net"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.doradcasmaku.pl/",
+    "lastSeen": {
+      "ads.doradcasmaku.pl": 1793731333495,
+      "an.gr-wcon.com": 1793731332585,
+      "analytics.ahrefs.com": 1793731333237,
+      "b.clarity.ms": 1793731334434,
+      "fonts.googleapis.com": 1793731334120,
+      "fonts.gstatic.com": 1793731334384,
+      "pagead2.googlesyndication.com": 1793731333942,
+      "pliki.doradcasmaku.pl": 1793731332638,
+      "region1.google-analytics.com": 1793731333948,
+      "scripts.clarity.ms": 1793731332870,
+      "vc-service.salesmanago.pl": 1793731333272,
+      "www.clarity.ms": 1793731332585,
+      "www.doradcasmaku.pl": 1793731333433,
+      "www.googletagmanager.com": 1793731333172,
+      "www.salesmanago.pl": 1793731334206
+    }
+  },
+  "hostsConsidered": [
+    "ads.doradcasmaku.pl",
+    "an.gr-wcon.com",
+    "analytics.ahrefs.com",
+    "b.clarity.ms",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "pagead2.googlesyndication.com",
+    "pliki.doradcasmaku.pl",
+    "region1.google-analytics.com",
+    "scripts.clarity.ms",
+    "vc-service.salesmanago.pl",
+    "www.clarity.ms",
+    "www.doradcasmaku.pl",
+    "www.googletagmanager.com",
+    "www.salesmanago.pl"
+  ]
+}

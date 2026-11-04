@@ -1,0 +1,85 @@
+{
+  "url": "https://www.meduniwien.ac.at",
+  "frame": "main",
+  "found_as": "button",
+  "button": {
+    "tag": "BUTTON",
+    "role": null,
+    "text": "Alle Dienste ablehnen",
+    "ariaLabel": null,
+    "attrs": {
+      "class": "fcc-cookie-modal-buttons_item_btn-primary fcc-cookie-button_disable-all"
+    },
+    "inShadow": false,
+    "containers": [
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "cls": "fcc-cookie-modal-buttons_item_btn-primary fcc-cookie-button_disable-all",
+        "textLength": 23,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "fcc-cookie-modal-buttons_item",
+        "textLength": 23,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "fcc-cookie-modal-buttons",
+        "textLength": 83,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "fcc-cookie-modal_inner_cookie-content-wrapper",
+        "textLength": 2304,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "fcc-cookie-modal_inner",
+        "textLength": 2304,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "fccCookieModal",
+        "cls": "fcc-cookie-modal minified fcc-show-modal",
+        "textLength": 2304,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "cls": "",
+        "textLength": 9504,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "HTML",
+        "id": "",
+        "cls": "no-js grunticon",
+        "textLength": 9908,
+        "mentionsConsent": true
+      }
+    ]
+  },
+  "events_in_frame": [],
+  "banner_still_visible": true,
+  "extension_choice": {
+    "choice:ac.at": {
+      "at": 1793790981576,
+      "choice": "accepted",
+      "label": "Einstellungen speichern",
+      "site": "ac.at",
+      "source": "click",
+      "trigger": "action"
+    }
+  }
+}

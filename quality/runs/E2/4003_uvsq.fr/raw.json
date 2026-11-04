@@ -1,0 +1,216 @@
+{
+  "url": "https://www.uvsq.fr",
+  "final_url": "https://www.uvsq.fr/",
+  "click_at_s": 28.04,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "A",
+    "A+",
+    "A++",
+    "VOUS \u00caTES",
+    "L'UVSQ",
+    "FORMATION",
+    "RECHERCHE",
+    "INTERNATIONAL",
+    "ENTREPRISE",
+    "VIE DE CAMPUS",
+    "UFR | INSTITUTS",
+    "BIBLIOTH\u00c8QUES"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "d.calameo.com": {
+      "first_s": 4.11,
+      "last_s": 4.11
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.88,
+      "last_s": 2.88
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.63,
+      "last_s": 4.06
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 4.61,
+      "last_s": 5.09
+    },
+    "i.ytimg.com": {
+      "first_s": 4.92,
+      "last_s": 5.07
+    },
+    "jnn-pa.googleapis.com": {
+      "first_s": 5.2,
+      "last_s": 5.22
+    },
+    "ps.calameoassets.com": {
+      "first_s": 5.01,
+      "last_s": 5.02
+    },
+    "region1.analytics.google.com": {
+      "first_s": 4.1,
+      "last_s": 4.1
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.15,
+      "last_s": 5.15
+    },
+    "static.doubleclick.net": {
+      "first_s": 4.61,
+      "last_s": 4.63
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 4.1,
+      "last_s": 4.1
+    },
+    "v.calameo.com": {
+      "first_s": 3.57,
+      "last_s": 4.67
+    },
+    "www.google.com": {
+      "first_s": 4.66,
+      "last_s": 4.72
+    },
+    "www.google.it": {
+      "first_s": 4.1,
+      "last_s": 4.1
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.88,
+      "last_s": 4.67
+    },
+    "www.gstatic.com": {
+      "first_s": 5.07,
+      "last_s": 5.07
+    },
+    "www.youtube.com": {
+      "first_s": 3.56,
+      "last_s": 7.86
+    },
+    "yt3.ggpht.com": {
+      "first_s": 5.09,
+      "last_s": 5.09
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "domain": "www.uvsq.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809341548.245354,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://uvsq.fr",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://uvsq.fr",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809341549.245446,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://uvsq.fr",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809341549.245468,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://uvsq.fr",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809341549.24552,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://uvsq.fr",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_ga_0BMQ6YH4N8",
+      "domain": ".uvsq.fr",
+      "path": "/",
+      "expires": 1828349549.306772,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".uvsq.fr",
+      "path": "/",
+      "expires": 1828349549.306996,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_H0TZZDDBNK",
+      "domain": ".calameo.com",
+      "path": "/",
+      "expires": 1828349550.351868,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".calameo.com",
+      "path": "/",
+      "expires": 1828349550.352148,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,661 @@
+{
+  "url": "https://www.record.pt",
+  "final_url": "https://www.record.pt/",
+  "click_at_s": 41.47,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Iniciar Sess\u00e3o",
+    "Competi\u00e7\u00e3o",
+    "Previous",
+    "Next",
+    "Liga Portugal Betclic",
+    "Alertas",
+    "Saber mais",
+    "Lista de parceiros.",
+    "Consentir",
+    "Gerir op\u00e7\u00f5es"
+  ],
+  "tcf": {
+    "cmpId": 300,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "aminhaconta.xl.pt",
+    "ams3.digitaloceanspaces.com",
+    "api.weborama.design",
+    "bid.sparteo.com",
+    "cdn.pbstck.com",
+    "cloud.weborama.design",
+    "cluster4.relevant-digital.com",
+    "connect.facebook.net",
+    "contextual.weborama.design",
+    "ctx.weborama.com",
+    "gapt.hit.gemius.pl",
+    "grid-bidder.criteo.com",
+    "gum.criteo.com",
+    "intake.pbstck.com",
+    "mp.4dex.io",
+    "ms-ads-monitoring-events.presage.io",
+    "ms-cookie-sync.presage.io",
+    "mweb-hb.presage.io",
+    "node.pbstck.com",
+    "pbs.optidigital.com",
+    "ping.chartbeat.net",
+    "prebid-eu.creativecdn.com",
+    "prebid.cwi.re",
+    "prebid.smilewanted.com",
+    "prg.smartadserver.com",
+    "r.clarity.ms",
+    "region1.analytics.google.com",
+    "s.richaudience.com",
+    "s.seedtag.com",
+    "script.4dex.io",
+    "shb.richaudience.com",
+    "ssb-global.smartadserver.com",
+    "stats.g.doubleclick.net",
+    "surveys-static-prd.survicate-cdn.com",
+    "sync.richaudience.com",
+    "tag29.ams3.cdn.digitaloceanspaces.com",
+    "www.google.it"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 13.55,
+      "last_s": 13.55
+    },
+    "ad.doubleclick.net": {
+      "first_s": 37.49,
+      "last_s": 37.49
+    },
+    "ads.brndts.com": {
+      "first_s": 3.74,
+      "last_s": 10.08
+    },
+    "aminhaconta.xl.pt": {
+      "first_s": 2.99,
+      "last_s": 41.77
+    },
+    "ams3.digitaloceanspaces.com": {
+      "first_s": 44.31,
+      "last_s": 44.31
+    },
+    "analytics.twitter.com": {
+      "first_s": 25.62,
+      "last_s": 35.61
+    },
+    "api.weborama.design": {
+      "first_s": 44.31,
+      "last_s": 44.31
+    },
+    "applets.ebxcdn.com": {
+      "first_s": 20.25,
+      "last_s": 41.09
+    },
+    "assinaturas.xl.pt": {
+      "first_s": 17.57,
+      "last_s": 33.96
+    },
+    "barra.xl.pt": {
+      "first_s": 10.08,
+      "last_s": 23.77
+    },
+    "bid.sparteo.com": {
+      "first_s": 43.21,
+      "last_s": 43.21
+    },
+    "boot.pbstck.com": {
+      "first_s": 20.25,
+      "last_s": 20.25
+    },
+    "cdn.advoxel.com": {
+      "first_s": 20.25,
+      "last_s": 20.25
+    },
+    "cdn.cmjornal.pt": {
+      "first_s": 3.76,
+      "last_s": 3.76
+    },
+    "cdn.insurads.com": {
+      "first_s": 3.06,
+      "last_s": 3.06
+    },
+    "cdn.jornaldenegocios.pt": {
+      "first_s": 3.76,
+      "last_s": 3.76
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 20.6,
+      "last_s": 20.6
+    },
+    "cdn.maxima.pt": {
+      "first_s": 3.76,
+      "last_s": 3.76
+    },
+    "cdn.pbstck.com": {
+      "first_s": 43.04,
+      "last_s": 45.39
+    },
+    "cdn.sabado.pt": {
+      "first_s": 3.76,
+      "last_s": 3.76
+    },
+    "cdn.xl.pt": {
+      "first_s": 3.76,
+      "last_s": 3.76
+    },
+    "cloud.weborama.design": {
+      "first_s": 20.27,
+      "last_s": 66.39
+    },
+    "cluster4.relevant-digital.com": {
+      "first_s": 43.21,
+      "last_s": 43.21
+    },
+    "cofina-cdn.relevant-digital.com": {
+      "first_s": 18.09,
+      "last_s": 18.09
+    },
+    "connect.facebook.net": {
+      "first_s": 7.45,
+      "last_s": 43.85
+    },
+    "contextual.weborama.design": {
+      "first_s": 67.24,
+      "last_s": 67.24
+    },
+    "ctx.weborama.com": {
+      "first_s": 66.66,
+      "last_s": 66.66
+    },
+    "dev.visualwebsiteoptimizer.com": {
+      "first_s": 7.5,
+      "last_s": 25.51
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.75,
+      "last_s": 34.66
+    },
+    "fonts.gstatic.com": {
+      "first_s": 10.17,
+      "last_s": 34.79
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 3.06,
+      "last_s": 34.79
+    },
+    "gapt.hit.gemius.pl": {
+      "first_s": 10.07,
+      "last_s": 53.42
+    },
+    "grid-bidder.criteo.com": {
+      "first_s": 43.27,
+      "last_s": 43.27
+    },
+    "gum.criteo.com": {
+      "first_s": 42.66,
+      "last_s": 42.66
+    },
+    "intake.pbstck.com": {
+      "first_s": 53.66,
+      "last_s": 53.66
+    },
+    "lh3.googleusercontent.com": {
+      "first_s": 34.66,
+      "last_s": 34.66
+    },
+    "ls.hit.gemius.pl": {
+      "first_s": 27.22,
+      "last_s": 27.22
+    },
+    "mab.chartbeat.com": {
+      "first_s": 14.47,
+      "last_s": 14.47
+    },
+    "mp.4dex.io": {
+      "first_s": 43.27,
+      "last_s": 43.27
+    },
+    "ms-ads-monitoring-events.presage.io": {
+      "first_s": 44.39,
+      "last_s": 44.39
+    },
+    "ms-cookie-sync.presage.io": {
+      "first_s": 45.39,
+      "last_s": 45.39
+    },
+    "mweb-hb.presage.io": {
+      "first_s": 43.21,
+      "last_s": 43.21
+    },
+    "node.pbstck.com": {
+      "first_s": 43.21,
+      "last_s": 43.21
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 20.76,
+      "last_s": 20.76
+    },
+    "pbs.optidigital.com": {
+      "first_s": 43.21,
+      "last_s": 43.21
+    },
+    "ping.chartbeat.net": {
+      "first_s": 42.35,
+      "last_s": 72.35
+    },
+    "prebid-eu.creativecdn.com": {
+      "first_s": 43.21,
+      "last_s": 43.21
+    },
+    "prebid.cwi.re": {
+      "first_s": 43.21,
+      "last_s": 44.41
+    },
+    "prebid.smilewanted.com": {
+      "first_s": 43.21,
+      "last_s": 43.21
+    },
+    "prg.smartadserver.com": {
+      "first_s": 43.21,
+      "last_s": 43.21
+    },
+    "pubs.xl.pt": {
+      "first_s": 3.75,
+      "last_s": 3.75
+    },
+    "r.clarity.ms": {
+      "first_s": 63.76,
+      "last_s": 63.76
+    },
+    "region1.analytics.google.com": {
+      "first_s": 41.61,
+      "last_s": 41.61
+    },
+    "s.richaudience.com": {
+      "first_s": 44.39,
+      "last_s": 44.39
+    },
+    "s.seedtag.com": {
+      "first_s": 43.21,
+      "last_s": 44.39
+    },
+    "script.4dex.io": {
+      "first_s": 42.66,
+      "last_s": 42.66
+    },
+    "scripts.clarity.ms": {
+      "first_s": 41.24,
+      "last_s": 41.24
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.99,
+      "last_s": 16.05
+    },
+    "shb.richaudience.com": {
+      "first_s": 43.21,
+      "last_s": 43.21
+    },
+    "ssb-global.smartadserver.com": {
+      "first_s": 43.21,
+      "last_s": 43.21
+    },
+    "ssl.google-analytics.com": {
+      "first_s": 23.77,
+      "last_s": 23.77
+    },
+    "static.ads-twitter.com": {
+      "first_s": 7.5,
+      "last_s": 7.5
+    },
+    "static.chartbeat.com": {
+      "first_s": 2.99,
+      "last_s": 20.25
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 41.61,
+      "last_s": 41.61
+    },
+    "survey.survicate.com": {
+      "first_s": 20.25,
+      "last_s": 20.25
+    },
+    "surveys-static-prd.survicate-cdn.com": {
+      "first_s": 41.24,
+      "last_s": 45.54
+    },
+    "sync.richaudience.com": {
+      "first_s": 45.4,
+      "last_s": 45.4
+    },
+    "t.co": {
+      "first_s": 25.62,
+      "last_s": 35.61
+    },
+    "tag29.ams3.cdn.digitaloceanspaces.com": {
+      "first_s": 44.24,
+      "last_s": 44.24
+    },
+    "www.clarity.ms": {
+      "first_s": 20.25,
+      "last_s": 20.25
+    },
+    "www.google.com": {
+      "first_s": 37.49,
+      "last_s": 37.49
+    },
+    "www.google.it": {
+      "first_s": 41.61,
+      "last_s": 41.61
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.57,
+      "last_s": 29.81
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "avisoCookiesRec",
+      "domain": "www.record.pt",
+      "path": "/",
+      "expires": 1825325895,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "EasyPushNotifications",
+      "domain": "www.record.pt",
+      "path": "/",
+      "expires": 1825325895,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_acsrf",
+      "domain": "aminhaconta.xl.pt",
+      "path": "/",
+      "expires": 1793836801.223765,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_prev",
+      "domain": "aminhaconta.xl.pt",
+      "path": "/",
+      "expires": 1825325904.223896,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827485904,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_last_campaign",
+      "domain": "aminhaconta.xl.pt",
+      "path": "/",
+      "expires": 1825325906.762089,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_vwo_uuid_v2",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1825412311,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_twpid",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827485921.362056,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_appid",
+      "domain": "aminhaconta.xl.pt",
+      "path": "/",
+      "expires": 1825325912.897505,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_appid2024",
+      "domain": "www.record.pt",
+      "path": "/",
+      "expires": 1825325912,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "muc_ads",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1828349913.150288,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1793791713.150324,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "personalization_id",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828349913.161682,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1793791713.161713,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_twsid",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827485921.356008,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1801565923,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_KPZR3RH2BR",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1828349927.365965,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1828349927.36632,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_cb",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827917928,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_chartbeat2",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827917928,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cb_svref",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1793791728,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".cdn.advoxel.com",
+      "path": "/",
+      "expires": 1793791729.582162,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__gfp_64b",
+      "domain": ".record.pt",
+      "path": "/",
+      "expires": 1827917929,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".cloud.weborama.design",
+      "path": "/",
+      "expires": 1793791729.993085,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cof_uses_blocker",
+      "domain": "www.record.pt",
+      "path": "/",
+      "expires": 1825325930,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "receive-cookie-deprecation",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1827917939.536765,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://record.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "Gtest",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1794394739.170628,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Gdyn",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1827917939.536866,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Gdynp",
+      "domain": ".hit.gemius.pl",
+      "path": "/",
+      "expires": 1827917939.536885,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://record.pt",
+        "hasCrossSiteAncestor": true
+      }
+    }
+  ]
+}

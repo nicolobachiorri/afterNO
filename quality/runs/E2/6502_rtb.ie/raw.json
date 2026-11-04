@@ -1,0 +1,175 @@
+{
+  "url": "https://www.rtb.ie",
+  "final_url": "https://rtb.ie/",
+  "click_at_s": 12.25,
+  "reload_at_s": 17.25,
+  "reject": "button: 'Reject All Cookies' in main (normal click)",
+  "visible_buttons": [
+    "Submit",
+    "Cookies Settings",
+    "Reject All Cookies",
+    "Accept All Cookies"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "ade.googlesyndication.com",
+    "apps.mypurecloud.ie",
+    "bam.eu01.nr-data.net",
+    "c0-6fa785b9720f4f63a070b585fe6b7723.ecs.us-east-2.on.aws",
+    "geolocation.onetrust.com",
+    "js-agent.newrelic.com",
+    "pagead2.googlesyndication.com",
+    "pixel.wp.com",
+    "privacyportal.cookiepro.com",
+    "region1.google-analytics.com",
+    "www.facebook.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "ade.googlesyndication.com",
+    "apps.mypurecloud.ie",
+    "bam.eu01.nr-data.net",
+    "c0-6fa785b9720f4f63a070b585fe6b7723.ecs.us-east-2.on.aws",
+    "geolocation.onetrust.com",
+    "js-agent.newrelic.com",
+    "pagead2.googlesyndication.com",
+    "pixel.wp.com",
+    "region1.google-analytics.com",
+    "www.facebook.com"
+  ],
+  "third_party_timeline": {
+    "ade.googlesyndication.com": {
+      "first_s": 4.96,
+      "last_s": 17.65
+    },
+    "api-cdn.mypurecloud.ie": {
+      "first_s": 4.21,
+      "last_s": 5.37
+    },
+    "apps.mypurecloud.ie": {
+      "first_s": 3.79,
+      "last_s": 18.25
+    },
+    "bam.eu01.nr-data.net": {
+      "first_s": 4.79,
+      "last_s": 17.75
+    },
+    "c0-6fa785b9720f4f63a070b585fe6b7723.ecs.us-east-2.on.aws": {
+      "first_s": 4.53,
+      "last_s": 17.44
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.52,
+      "last_s": 3.53
+    },
+    "connect.facebook.net": {
+      "first_s": 3.79,
+      "last_s": 4.13
+    },
+    "cookie-cdn.cookiepro.com": {
+      "first_s": 3.52,
+      "last_s": 4.69
+    },
+    "e.infogram.com": {
+      "first_s": 4.05,
+      "last_s": 4.05
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.8,
+      "last_s": 3.8
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.05,
+      "last_s": 4.67
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 4.01,
+      "last_s": 17.45
+    },
+    "js-agent.newrelic.com": {
+      "first_s": 4.51,
+      "last_s": 17.68
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.96,
+      "last_s": 17.56
+    },
+    "pixel.wp.com": {
+      "first_s": 4.09,
+      "last_s": 17.41
+    },
+    "privacyportal.cookiepro.com": {
+      "first_s": 12.25,
+      "last_s": 12.25
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.97,
+      "last_s": 17.55
+    },
+    "stats.wp.com": {
+      "first_s": 3.53,
+      "last_s": 3.53
+    },
+    "www.facebook.com": {
+      "first_s": 4.54,
+      "last_s": 17.5
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.53,
+      "last_s": 4.18
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "api-cdn.mypurecloud.ie",
+    "apps.mypurecloud.ie",
+    "cdn.jsdelivr.net",
+    "connect.facebook.net",
+    "cookie-cdn.cookiepro.com",
+    "e.infogram.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "stats.wp.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".cookiepro.com",
+      "path": "/",
+      "expires": 1793792179.263702,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".rtb.ie",
+      "path": "/",
+      "expires": 1801566392,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "domain": ".rtb.ie",
+      "path": "/",
+      "expires": 1809342387,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".rtb.ie",
+      "path": "/",
+      "expires": 1809342393,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

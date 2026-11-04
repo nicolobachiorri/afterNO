@@ -1,0 +1,121 @@
+{
+  "url": "https://www.softwareadvice.ie",
+  "final_url": "https://www.softwareadvice.ie/",
+  "click_at_s": 26.96,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Ireland (English)",
+    "Cookies Settings",
+    "Accept All Cookies"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "browser-intake-datadoghq.com": {
+      "first_s": 3.5,
+      "last_s": 4.96
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 3.73,
+      "last_s": 4.53
+    },
+    "cmp.osano.com": {
+      "first_s": 3.06,
+      "last_s": 3.06
+    },
+    "gdm-localsites-assets-gfprod.imgix.net": {
+      "first_s": 3.06,
+      "last_s": 3.98
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.71,
+      "last_s": 4.71
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.7,
+      "last_s": 4.7
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.35,
+      "last_s": 3.74
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_sylar_key",
+      "domain": "www.softwareadvice.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_id.5a48",
+      "domain": ".softwareadvice.ie",
+      "path": "/",
+      "expires": 1828350406.957975,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_ses.5a48",
+      "domain": ".softwareadvice.ie",
+      "path": "/",
+      "expires": 1793792206,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_dd_s_v2",
+      "domain": "www.softwareadvice.ie",
+      "path": "/",
+      "expires": 1825326406.986,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".softwareadvice.ie",
+      "path": "/",
+      "expires": 1825326407.292456,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://softwareadvice.ie",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".softwareadvice.ie",
+      "path": "/",
+      "expires": 1793792207.292525,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".softwareadvice.ie",
+      "path": "/",
+      "expires": 1825326408,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

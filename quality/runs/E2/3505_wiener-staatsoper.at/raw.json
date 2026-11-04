@@ -1,0 +1,52 @@
+{
+  "url": "https://www.wiener-staatsoper.at",
+  "final_url": "https://www.wiener-staatsoper.at/",
+  "click_at_s": 12.71,
+  "reload_at_s": 17.71,
+  "reject": "button: 'Nur technisch Notwendige' in main (normal click)",
+  "visible_buttons": [
+    "Kalender & Tickets",
+    "Ihr Besuch",
+    "Das Haus",
+    "Ensemble & G\u00e4ste",
+    "Ballett",
+    "Media",
+    "Jung&",
+    "F\u00f6rdern",
+    "Alles",
+    "Oper",
+    "Mehr",
+    "\u00d7",
+    "Alle akzeptieren",
+    "Selbst w\u00e4hlen",
+    "Nur technisch Notwendige"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cloud.ccm19.de"
+  ],
+  "third_party_hosts_after_reload": [
+    "cloud.ccm19.de"
+  ],
+  "third_party_timeline": {
+    "cloud.ccm19.de": {
+      "first_s": 2.98,
+      "last_s": 17.86
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cloud.ccm19.de"
+  ],
+  "cookies": [
+    {
+      "name": "ccm_consent",
+      "domain": ".wiener-staatsoper.at",
+      "path": "/",
+      "expires": 1825325468,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

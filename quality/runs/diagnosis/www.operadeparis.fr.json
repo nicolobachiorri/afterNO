@@ -1,0 +1,170 @@
+{
+  "url": "https://www.operadeparis.fr",
+  "frame": "main",
+  "found_as": "text",
+  "button": {
+    "tag": "SPAN",
+    "role": null,
+    "text": "Non merci",
+    "ariaLabel": null,
+    "attrs": {
+      "class": "sc-aKXVD iuTpHg"
+    },
+    "inShadow": false,
+    "containers": [
+      {
+        "tag": "SPAN",
+        "id": "",
+        "cls": "sc-aKXVD iuTpHg",
+        "textLength": 9,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "axeptio_btn_dismiss",
+        "cls": "sc-kmATbt cHRQJR",
+        "textLength": 9,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "sc-cvJIAo eUmwMY",
+        "textLength": 27,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "sc-dkmKIT dDgWsp",
+        "textLength": 27,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "sc-fybuyZ geSjLu",
+        "textLength": 27,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "sc-cHjwLt gLZyLQ",
+        "textLength": 27,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "sc-hYZPxA laYGzY",
+        "textLength": 27,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "sc-edoYdd gaoTpp",
+        "textLength": 27,
+        "mentionsConsent": false
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "sc-jvfqPk dBcXRH",
+        "textLength": 428,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "sc-bSFUlv gdFgiz axeptio_widget ax-widget ax-widget-relifted",
+        "textLength": 428,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "sc-aemIz gcFtPe ax-widget-container",
+        "textLength": 744,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "sc-jHVedQ qdZbZ ax-website-overlay",
+        "textLength": 744,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "DIV",
+        "id": "axeptio_overlay",
+        "cls": "axeptio_mount",
+        "textLength": 744,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "cls": "route-home-landing ",
+        "textLength": 68754,
+        "mentionsConsent": true
+      },
+      {
+        "tag": "HTML",
+        "id": "",
+        "cls": "no-js main-navigation-transparent gt-super-display-light-loaded gt-super-display",
+        "textLength": 102914,
+        "mentionsConsent": true
+      }
+    ]
+  },
+  "events_in_frame": [
+    {
+      "type": "pointerdown",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Non merci",
+      "t": 9021
+    },
+    {
+      "type": "mousedown",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Non merci",
+      "t": 9021
+    },
+    {
+      "type": "pointerup",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Non merci",
+      "t": 9021
+    },
+    {
+      "type": "mouseup",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Non merci",
+      "t": 9022
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "tag": "SPAN",
+      "text": "Non merci",
+      "t": 9022
+    }
+  ],
+  "banner_still_visible": false,
+  "extension_choice": {
+    "choice:operadeparis.fr": {
+      "at": 1793790996544,
+      "choice": "rejected",
+      "label": "Non merci",
+      "site": "operadeparis.fr",
+      "source": "click",
+      "trigger": "action"
+    }
+  }
+}

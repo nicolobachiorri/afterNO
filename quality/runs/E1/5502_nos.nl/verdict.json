@@ -1,0 +1,48 @@
+{
+  "host": "nos.nl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://nos.nl/",
+    "lastSeen": {
+      "adcdn.ster.nl": 1793731211872,
+      "adserving.optoutadvertising.com": 1793731212611,
+      "cdn.nos.nl": 1793731212027,
+      "cdn.optoutadvertising.com": 1793731213896,
+      "cookies.nos.nl": 1793731215156,
+      "images.cdn.nos.nl": 1793731211238,
+      "nmonpoendpoint.2cnt.net": 1793731211865,
+      "nos.nl": 1793731211874,
+      "o314617.ingest.sentry.io": 1793731211827,
+      "proxy.optoutadvertising.com": 1793731240060,
+      "static.nos.nl": 1793731212751,
+      "topspin.npo.nl": 1793731212325,
+      "www.nos.nl": 1793731209996
+    }
+  },
+  "hostsConsidered": [
+    "adcdn.ster.nl",
+    "adserving.optoutadvertising.com",
+    "cdn.nos.nl",
+    "cdn.optoutadvertising.com",
+    "cookies.nos.nl",
+    "images.cdn.nos.nl",
+    "nmonpoendpoint.2cnt.net",
+    "nos.nl",
+    "o314617.ingest.sentry.io",
+    "proxy.optoutadvertising.com",
+    "static.nos.nl",
+    "topspin.npo.nl",
+    "www.nos.nl"
+  ]
+}

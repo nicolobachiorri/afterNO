@@ -73,7 +73,7 @@ def main():
     run = HERE / "runs" / args.visit
 
     # Visits A and B use sample A/B; visits C1, C2... use sample C.
-    with open(HERE / (f"sites_{args.visit[0]}.csv" if args.visit[0] in "CD" else "sites.csv"), encoding="utf-8") as f:
+    with open(HERE / (f"sites_{args.visit[0]}.csv" if args.visit[0] in "CDE" else "sites.csv"), encoding="utf-8") as f:
         sample = {int(r["order"]): r["url"] for r in csv.DictReader(f) if r["role"].startswith("sample")}
     primary = load(run / f"judgments_{args.visit}_{args.primary}.csv")
     orders = sorted(sample)
