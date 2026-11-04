@@ -1,0 +1,74 @@
+{
+  "visit": "F1",
+  "primary_judge": "claude",
+  "sites": 40,
+  "measurable": 19,
+  "not_measurable": {
+    "no_reject": 10,
+    "no_banner": 6,
+    "other": 1,
+    "no_click": 4
+  },
+  "conclusions": {
+    "correct": {
+      "n": 19,
+      "share": 1.0,
+      "ci95": [
+        0.8318156346315496,
+        1.0000000000000002
+      ]
+    },
+    "debatable": {
+      "n": 0,
+      "share": 0.0,
+      "ci95": [
+        0.0,
+        0.16818436536845052
+      ]
+    },
+    "false_alarm": {
+      "n": 0,
+      "share": 0.0,
+      "ci95": [
+        0.0,
+        0.16818436536845052
+      ]
+    },
+    "missed": {
+      "n": 0,
+      "share": 0.0,
+      "ci95": [
+        0.0,
+        0.16818436536845052
+      ]
+    },
+    "not_recorded": {
+      "n": 0,
+      "share": 0.0,
+      "ci95": [
+        0.0,
+        0.16818436536845052
+      ]
+    }
+  },
+  "items": {
+    "ok": 19
+  },
+  "agreement": {
+    "second_judge": "gemini",
+    "measurable": {
+      "observed": 0.975,
+      "kappa": 0.95,
+      "n": 40,
+      "disagreements": [
+        3011
+      ]
+    },
+    "conclusion": {
+      "observed": 1.0,
+      "kappa": 1.0,
+      "n": 19,
+      "disagreements": []
+    }
+  }
+}

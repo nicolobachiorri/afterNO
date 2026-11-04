@@ -1,0 +1,236 @@
+{
+  "url": "https://www.home.pl",
+  "final_url": "https://home.pl/",
+  "click_at_s": 11.23,
+  "reload_at_s": 16.23,
+  "reject": "button: 'ODRZU\u0106 WSZYSTKIE' in main (normal click)",
+  "visible_buttons": [
+    "Moje konto",
+    "Pulse AI",
+    "Domeny",
+    "Hosting",
+    "Serwery",
+    "WordPress",
+    "Strony WWW",
+    "E-sklepy",
+    "SSL",
+    "Poczta i Office 365",
+    "SZUKAJ",
+    "AKCEPTUJ WSZYSTKIE",
+    "DOSTOSUJ WYBORY",
+    "ODRZU\u0106 WSZYSTKIE"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "ade.googlesyndication.com",
+    "d.delivery.consentmanager.net",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sentry-public.infrasys.tools",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "ade.googlesyndication.com",
+    "d.delivery.consentmanager.net",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "sentry-public.infrasys.tools",
+    "www.googletagmanager.com"
+  ],
+  "third_party_timeline": {
+    "ade.googlesyndication.com": {
+      "first_s": 11.75,
+      "last_s": 16.66
+    },
+    "cdn.consentmanager.net": {
+      "first_s": 3.03,
+      "last_s": 3.33
+    },
+    "d.delivery.consentmanager.net": {
+      "first_s": 3.03,
+      "last_s": 16.58
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 11.65,
+      "last_s": 16.58
+    },
+    "region1.google-analytics.com": {
+      "first_s": 22.51,
+      "last_s": 22.51
+    },
+    "sentry-public.infrasys.tools": {
+      "first_s": 3.95,
+      "last_s": 18.69
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.03,
+      "last_s": 16.58
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.consentmanager.net",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "DPX",
+      "domain": "www.home.pl",
+      "path": "/",
+      "expires": 1793806688.981199,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "DPX",
+      "domain": "home.pl",
+      "path": "/",
+      "expires": 1793806690.28406,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcc",
+      "domain": "home.pl",
+      "path": "/",
+      "expires": 1827931090,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcpc",
+      "domain": ".home.pl",
+      "path": "/",
+      "expires": 1795012698,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pdi",
+      "domain": "home.pl",
+      "path": "/",
+      "expires": 1828363091.260598,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_price_type",
+      "domain": "home.pl",
+      "path": "/",
+      "expires": 1794407904,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpconsentx42915",
+      "domain": ".home.pl",
+      "path": "/",
+      "expires": 1795012698,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcccx42915",
+      "domain": ".home.pl",
+      "path": "/",
+      "expires": 1795012698,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcvc",
+      "domain": ".home.pl",
+      "path": "/",
+      "expires": 1795012698,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpconsentx42915",
+      "domain": ".consentmanager.net",
+      "path": "/",
+      "expires": 1795012698.660139,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcccx42915",
+      "domain": ".consentmanager.net",
+      "path": "/",
+      "expires": 1795012698.660176,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "jctr_sid",
+      "domain": ".home.pl",
+      "path": "/",
+      "expires": 1793804904,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "jts-rw",
+      "domain": ".home.pl",
+      "path": "/",
+      "expires": 1827499104.965425,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".home.pl",
+      "path": "/",
+      "expires": 1828363104.82066,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cmpcc",
+      "domain": "d.delivery.consentmanager.net",
+      "path": "/",
+      "expires": 1793803463.812263,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_CMT19RTMS9",
+      "domain": ".home.pl",
+      "path": "/",
+      "expires": 1828363104.82055,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

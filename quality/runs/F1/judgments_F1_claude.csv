@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+F1,3007,claude (autore del codice),si,ok,0,correct,"Rifiuto «nicht zustimmen», scelta letta dal segnale TCF. Nessun sito terzo con cookie che soddisfano i criteri."
+F1,3009,claude (autore del codice),no_reject,,,,Primo livello con «Einstellungen oder ablehnen» (apre le impostazioni) e «Ich stimme zu».
+F1,3010,claude (autore del codice),no_banner,,,,
+F1,3011,claude (autore del codice),other,,,,"Il robot ha cliccato il link «ablehnen, ändern oder widerrufen», che apre il secondo livello (con «Alle ablehnen und fortfahren»): non è un rifiuto. L'estensione lo ha registrato come rifiuto: difetto dell'estensione, da correggere (un'etichetta che parla anche di modificare è un link alle impostazioni)."
+F1,3012,claude (autore del codice),no_banner,,,,Nessun banner visibile.
+F1,3506,claude (autore del codice),si,ok,0,correct,Rifiuto «Nur notwendige». Nessun cookie di terzi leggibile da altri siti.
+F1,3508,claude (autore del codice),no_banner,,,,Pagina predefinita del server.
+F1,3509,claude (autore del codice),no_reject,,,,Muro «Zustimmen» / PUR (abbonamento).
+F1,3511,claude (autore del codice),no_click,,,,"Usercentrics con «Weiter ohne zu akzeptieren»: il robot e l'estensione conoscono «weiter ohne akzeptieren», non la forma con «zu». Da correggere."
+F1,3512,claude (autore del codice),no_banner,,,,Pagina quasi vuota.
+F1,4007,claude (autore del codice),si,ok,0,correct,Rifiuto «Tout refuser». Nessun cookie di terzi.
+F1,4008,claude (autore del codice),no_click,,,,Cookiebot con «Cookies nécessaires uniquement»: ordine delle parole non previsto. Da correggere.
+F1,4009,claude (autore del codice),si,ok,0,correct,"Rifiuto «Continuer sans accepter», scelta dal TCF. _fbp del sito (Facebook, 90 giorni) dopo il rifiuto: «solo in parte» corretto. Interesse legittimo come informazione."
+F1,4010,claude (autore del codice),si,ok,0,correct,Rifiuto «Refuser». Nessun cookie di terzi; statistiche del sito come informazione.
+F1,4012,claude (autore del codice),si,ok,0,correct,"Rifiuto «Refuser». Dopo il clic lytics.io (seerid, 400 giorni), r42tag.com (365 giorni) e optimizely.com con cookie sconosciuti leggibili da altri siti: «solo in parte» corretto."
+F1,4506,claude (autore del codice),si,ok,0,correct,"Rifiuto «Rechazar todo». AwinChannelCookie del sito (Awin, marketing, 30 giorni): «solo in parte» corretto secondo le regole."
+F1,4508,claude (autore del codice),no_reject,,,,Riga in fondo con solo «Aceptar».
+F1,4509,claude (autore del codice),si,ok,0,correct,Rifiuto «Rechazar». Nessun cookie di terzi; Google Analytics del sito come informazione.
+F1,4510,claude (autore del codice),si,ok,0,correct,Reindirizza ad audible.it (dall'indirizzo IP). Rifiuto «Continua senza accettare i cookie facoltativi». Nessun cookie di terzi.
+F1,4511,claude (autore del codice),si,ok,0,correct,Rifiuto «Rechazar opcionales». Solo cookie di sessione di Queue-it (coda); ABTasty del sito come informazione.
+F1,5008,claude (autore del codice),si,ok,0,correct,"Rifiuto «Recusar», scelta dal TCF. YouTube partizionato e _pubcid del sito (360 giorni): «solo in parte» corretto."
+F1,5009,claude (autore del codice),si,ok,0,correct,"Rifiuto «Aceitar apenas os cookies essenciais». Dopo il clic TikTok, X/Twitter (guest_id, 400 giorni) e cookie di marketing del sito (_fbp, _pin_unauth, _ttp): «solo in parte» corretto."
+F1,5010,claude (autore del codice),si,ok,0,correct,Rifiuto «Rejeitar». Nessun cookie di terzi.
+F1,5011,claude (autore del codice),no_reject,,,,Riga in fondo con solo «Aceito».
+F1,5012,claude (autore del codice),no_reject,,,,Solo «Saiba mais» e «Aceitar e fechar».
+F1,5507,claude (autore del codice),no_banner,,,,
+F1,5509,claude (autore del codice),no_reject,,,,Cookiebot con solo «Aanpassen» e «Accepteer».
+F1,5510,claude (autore del codice),si,ok,0,correct,Secondo tentativo (il primo si è fermato al caricamento). Rifiuto «Alles weigeren». Nessun cookie di terzi.
+F1,5512,claude (autore del codice),no_reject,,,,"Solo «Zelf instellen», «Alle aanvaarden» e una X."
+F1,5513,claude (autore del codice),no_reject,,,,Pagina DPG Media con solo «Akkoord» e «Instellen».
+F1,6006,claude (autore del codice),si,ok,0,correct,"Rifiuto «Odrzucenie wszystkich», scelta dal TCF. Nessun cookie di terzi."
+F1,6007,claude (autore del codice),no_click,,,,Banner con «Akceptuj tylko niezbędne»: non riconosciuto come rifiuto; l'estensione lo leggerebbe come accettazione («akceptuj»). Difetto da correggere.
+F1,6010,claude (autore del codice),si,ok,0,correct,"Rifiuto «Odrzuć wszystko», scelta dal TCF. Dopo il clic interia.pl e stat24.com (Gemius) con identificativi sconosciuti di 395-400 giorni: «solo in parte» corretto secondo le regole."
+F1,6011,claude (autore del codice),si,ok,0,correct,Rifiuto «ODRZUĆ WSZYSTKIE». Nessun cookie di terzi.
+F1,6012,claude (autore del codice),si,ok,0,correct,"Rifiuto «Odrzuć wszystkie». _gtmeec del sito (Stape, marketing, 90 giorni): «solo in parte» corretto."
+F1,6506,claude (autore del codice),no_banner,,,,
+F1,6507,claude (autore del codice),no_reject,,,,"Solo «Cookies Settings», «Accept» e una X."
+F1,6508,claude (autore del codice),si,ok,0,correct,Rifiuto «Reject all cookies». Nessun cookie di terzi.
+F1,6510,claude (autore del codice),no_click,,,,"Banner con «Deny all cookies» visibile, che le regole riconoscono: il robot non l'ha cliccato. Da diagnosticare."
+F1,6511,claude (autore del codice),no_reject,,,,Solo «Customise» e «Accept All».

@@ -38,3 +38,7 @@ design/generated/
 
 # Self-contained review page with site screenshots, for the second judge
 quality/runs/**/review_gemini*.html
+
+# Per-site working files of the robot
+quality/runs/**/result.json
+quality/runs/**/stage.txt

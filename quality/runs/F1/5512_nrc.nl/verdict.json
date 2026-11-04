@@ -1,0 +1,93 @@
+{
+  "host": "www.nrc.nl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Chartbeat",
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.nrc.nl/",
+    "lastSeen": {
+      "adserving.optoutadvertising.com": 1793800458026,
+      "agnoplayer.mediahuisgroup.com": 1793800458588,
+      "assets.nrc.nl": 1793800458743,
+      "b.billypx.com": 1793800458803,
+      "bgmin.cdn.billygrace.com": 1793800458718,
+      "cdn.optoutadvertising.com": 1793800459509,
+      "cdn.parsely.com": 1793800457688,
+      "content3.nrc.nl": 1793800459786,
+      "content4.nrc.nl": 1793800484996,
+      "ec114.nrc.nl": 1793800482070,
+      "end.nmo-ep.nl": 1793800457817,
+      "images.nrc.nl": 1793800458546,
+      "imasdk.googleapis.com": 1793800458197,
+      "mab.chartbeat.com": 1793800457808,
+      "mabping.chartbeat.net": 1793800457938,
+      "p1.parsely.com": 1793800457824,
+      "ping.chartbeat.net": 1793800472820,
+      "player.agnoplay.com": 1793800457987,
+      "prod-nrcm.mhtr.be": 1793800482063,
+      "prodh-nrcm.mhtr.be": 1793800483750,
+      "sb.scorecardresearch.com": 1793800457786,
+      "script.hotjar.com": 1793800458811,
+      "sdk.privacy-center.org": 1793800457570,
+      "static.agnoplay.com": 1793800457963,
+      "static.chartbeat.com": 1793800457688,
+      "static.hotjar.com": 1793800458717,
+      "www.googletagmanager.com": 1793800458238,
+      "www.gstatic.com": 1793800458061,
+      "www.nrc.nl": 1793800457943,
+      "zebra-assets.mediahuisgroup.com": 1793800480234,
+      "zebra-playlist.mediahuisgroup.com": 1793800458459
+    }
+  },
+  "hostsConsidered": [
+    "adserving.optoutadvertising.com",
+    "agnoplayer.mediahuisgroup.com",
+    "assets.nrc.nl",
+    "b.billypx.com",
+    "bgmin.cdn.billygrace.com",
+    "cdn.optoutadvertising.com",
+    "cdn.parsely.com",
+    "content3.nrc.nl",
+    "content4.nrc.nl",
+    "ec114.nrc.nl",
+    "end.nmo-ep.nl",
+    "images.nrc.nl",
+    "imasdk.googleapis.com",
+    "mab.chartbeat.com",
+    "mabping.chartbeat.net",
+    "p1.parsely.com",
+    "ping.chartbeat.net",
+    "player.agnoplay.com",
+    "prod-nrcm.mhtr.be",
+    "prodh-nrcm.mhtr.be",
+    "sb.scorecardresearch.com",
+    "script.hotjar.com",
+    "sdk.privacy-center.org",
+    "static.agnoplay.com",
+    "static.chartbeat.com",
+    "static.hotjar.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.nrc.nl",
+    "zebra-assets.mediahuisgroup.com",
+    "zebra-playlist.mediahuisgroup.com"
+  ]
+}

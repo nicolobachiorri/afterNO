@@ -1,0 +1,65 @@
+{
+  "url": "https://www.inra.fr",
+  "final_url": "https://www.inrae.fr/",
+  "click_at_s": 10.98,
+  "reload_at_s": 15.98,
+  "reject": "button: 'TOUT REFUSER' in main (normal click)",
+  "visible_buttons": [
+    "TOUT ACCEPTER",
+    "TOUT REFUSER",
+    "Lancer votre recherche",
+    "Apprendre et comprendre",
+    "Nous conna\u00eetre",
+    "Des recherches aux solutions",
+    "Collaborer avec nous",
+    "Nous rejoindre",
+    "Europe & International",
+    "Agro\u00e9cologie",
+    "Biodiversit\u00e9",
+    "Bio\u00e9conomie",
+    "Alimentation, sant\u00e9 globale",
+    "Soci\u00e9t\u00e9 et territoires",
+    "Lancer la vid\u00e9o"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "dvutvwxjfu-dsn.algolia.net"
+  ],
+  "third_party_hosts_after_reload": [
+    "dvutvwxjfu-dsn.algolia.net"
+  ],
+  "third_party_timeline": {
+    "dvutvwxjfu-dsn.algolia.net": {
+      "first_s": 2.83,
+      "last_s": 16.03
+    },
+    "i.ytimg.com": {
+      "first_s": 2.77,
+      "last_s": 2.78
+    },
+    "tag.aticdn.net": {
+      "first_s": 2.73,
+      "last_s": 2.73
+    },
+    "www.inra.fr": {
+      "first_s": 2.03,
+      "last_s": 2.03
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "i.ytimg.com",
+    "tag.aticdn.net"
+  ],
+  "cookies": [
+    {
+      "name": "INRAE",
+      "domain": "www.inrae.fr",
+      "path": "/",
+      "expires": 1825335663,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

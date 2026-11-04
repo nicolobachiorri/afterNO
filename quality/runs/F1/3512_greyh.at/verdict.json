@@ -1,0 +1,26 @@
+{
+  "host": "greyh.at",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://greyh.at/",
+    "lastSeen": {
+      "greyh.at": 1793803456944,
+      "www.greyh.at": 1793803455324
+    }
+  },
+  "hostsConsidered": [
+    "greyh.at",
+    "www.greyh.at"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "host": "www.maif.fr",
+  "choice": {
+    "at": 1793799751648,
+    "choice": "rejected",
+    "label": "Refuser",
+    "site": "maif.fr",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Refuser"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "AT Internet",
+        "Dynatrace"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.maif.fr/",
+    "lastSeen": {
+      "cdn.trustcommander.net": 1793799743511,
+      "da.maif.fr": 1793799756716,
+      "privacy.trustcommander.net": 1793799751649,
+      "static.maif.fr": 1793799743603,
+      "www.maif.fr": 1793799761723
+    }
+  },
+  "hostsConsidered": [
+    "da.maif.fr",
+    "privacy.trustcommander.net",
+    "www.maif.fr"
+  ]
+}

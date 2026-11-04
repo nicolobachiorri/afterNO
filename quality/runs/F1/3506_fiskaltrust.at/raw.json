@@ -1,0 +1,46 @@
+{
+  "url": "https://www.fiskaltrust.at",
+  "final_url": "https://fiskaltrust.eu/de-at/",
+  "click_at_s": 13.51,
+  "reload_at_s": 18.51,
+  "reject": "button: 'Nur notwendige' in main (normal click)",
+  "visible_buttons": [
+    "\u00d6sterreich",
+    "Cookie-Einstellungen",
+    "Alle akzeptieren",
+    "Nur notwendige",
+    "Einstellungen"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "www.fiskaltrust.at": {
+      "first_s": 2.04,
+      "last_s": 2.04
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "wp-wpml_current_language",
+      "domain": "fiskaltrust.eu",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cc_cookie",
+      "domain": ".fiskaltrust.eu",
+      "path": "/",
+      "expires": 1809524321,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

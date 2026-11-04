@@ -1,0 +1,338 @@
+{
+  "url": "https://www.gld.nl",
+  "final_url": "https://www.gld.nl/",
+  "click_at_s": 70.36,
+  "reload_at_s": 75.36,
+  "reject": "button: 'Alles weigeren' in main (normal click)",
+  "visible_buttons": [
+    "Ga naar hoofd content",
+    "Privacy-instellingen aanpassen",
+    "Alles accepteren",
+    "Alles weigeren",
+    "Instellingen"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "adserving.optoutadvertising.com",
+    "ajax.googleapis.com",
+    "api.smartocto.com",
+    "cdgccbd.pa-cd.com",
+    "cdn-images.mailchimp.com",
+    "cdn.optoutadvertising.com",
+    "gld.us11.list-manage.com",
+    "hyperion.regiogroei.cloud",
+    "i.regiogroei.cloud",
+    "id.regiogroei.cloud",
+    "ingestion.smartocto.com",
+    "mcdp-nydc1.outbrain.com",
+    "mv.outbrain.com",
+    "nmorpoendpoint.2cnt.net",
+    "onesignal.com",
+    "pagead2.googlesyndication.com",
+    "proxy.optoutadvertising.com",
+    "secure.adnxs.com",
+    "tag.aticdn.net",
+    "tentacles.smartocto.com",
+    "www.gstatic.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "adserving.optoutadvertising.com",
+    "api.smartocto.com",
+    "cdgccbd.pa-cd.com",
+    "cdn.optoutadvertising.com",
+    "hyperion.regiogroei.cloud",
+    "i.regiogroei.cloud",
+    "id.regiogroei.cloud",
+    "ingestion.smartocto.com",
+    "mcdp-nydc1.outbrain.com",
+    "mv.outbrain.com",
+    "nmorpoendpoint.2cnt.net",
+    "onesignal.com",
+    "pagead2.googlesyndication.com",
+    "proxy.optoutadvertising.com",
+    "secure.adnxs.com",
+    "tag.aticdn.net",
+    "tentacles.smartocto.com"
+  ],
+  "third_party_timeline": {
+    "adserving.optoutadvertising.com": {
+      "first_s": 3.67,
+      "last_s": 82.12
+    },
+    "ajax.googleapis.com": {
+      "first_s": 70.26,
+      "last_s": 70.56
+    },
+    "api.smartocto.com": {
+      "first_s": 3.8,
+      "last_s": 78.93
+    },
+    "cdgccbd.pa-cd.com": {
+      "first_s": 2.74,
+      "last_s": 75.76
+    },
+    "cdn-images.mailchimp.com": {
+      "first_s": 70.38,
+      "last_s": 70.38
+    },
+    "cdn.onesignal.com": {
+      "first_s": 2.16,
+      "last_s": 2.69
+    },
+    "cdn.optoutadvertising.com": {
+      "first_s": 2.69,
+      "last_s": 82.5
+    },
+    "gld.us11.list-manage.com": {
+      "first_s": 69.25,
+      "last_s": 71.45
+    },
+    "hfg.iuknyw5evnygw9v.nl": {
+      "first_s": 62.75,
+      "last_s": 64.2
+    },
+    "hyperion.regiogroei.cloud": {
+      "first_s": 2.91,
+      "last_s": 75.7
+    },
+    "i.regiogroei.cloud": {
+      "first_s": 2.17,
+      "last_s": 75.57
+    },
+    "id.regiogroei.cloud": {
+      "first_s": 2.62,
+      "last_s": 75.7
+    },
+    "ingestion.smartocto.com": {
+      "first_s": 3.81,
+      "last_s": 76.92
+    },
+    "mcdp-nydc1.outbrain.com": {
+      "first_s": 3.22,
+      "last_s": 75.93
+    },
+    "mv.outbrain.com": {
+      "first_s": 2.85,
+      "last_s": 75.75
+    },
+    "nmorpoendpoint.2cnt.net": {
+      "first_s": 2.74,
+      "last_s": 75.75
+    },
+    "onesignal.com": {
+      "first_s": 2.74,
+      "last_s": 75.6
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.71,
+      "last_s": 75.6
+    },
+    "proxy.optoutadvertising.com": {
+      "first_s": 4.2,
+      "last_s": 82.18
+    },
+    "s.regiogroei.cloud": {
+      "first_s": 2.16,
+      "last_s": 3.82
+    },
+    "secure.adnxs.com": {
+      "first_s": 2.16,
+      "last_s": 75.54
+    },
+    "tag.aticdn.net": {
+      "first_s": 2.69,
+      "last_s": 75.72
+    },
+    "tentacles.smartocto.com": {
+      "first_s": 2.69,
+      "last_s": 75.76
+    },
+    "widget-pixels.outbrain.com": {
+      "first_s": 2.83,
+      "last_s": 2.83
+    },
+    "widgets.outbrain.com": {
+      "first_s": 2.69,
+      "last_s": 2.69
+    },
+    "widgets.teads-xo.com": {
+      "first_s": 3.23,
+      "last_s": 3.23
+    },
+    "www.google.com": {
+      "first_s": 70.26,
+      "last_s": 70.26
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.16,
+      "last_s": 2.16
+    },
+    "www.gstatic.com": {
+      "first_s": 70.38,
+      "last_s": 70.38
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.onesignal.com",
+    "cdn.optoutadvertising.com",
+    "i.regiogroei.cloud",
+    "onesignal.com",
+    "s.regiogroei.cloud",
+    "widget-pixels.outbrain.com",
+    "widgets.outbrain.com",
+    "widgets.teads-xo.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".onesignal.com",
+      "path": "/",
+      "expires": 1793804755.942119,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "GROEI_LANGUAGE",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": 1825339029,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "pa_privacy",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": 1827930956,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pcid",
+      "domain": ".gld.nl",
+      "path": "/",
+      "expires": 1827930956,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pctx",
+      "domain": ".gld.nl",
+      "path": "/",
+      "expires": 1827930956,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "GROEI_WEB_TOPICS",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "GROEI_WEB_SUBJECTS",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "GROEI_TOPICS",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "GROEI_SUBJECTS",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "GROEI_SHOW_NOS",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": 1825339029.168347,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "GROEI_TRANSLATED_LANGUAGE",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": 1825339029.168363,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CONSENT-COOKIE-v3",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": 1825339023,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "GROEI_ANONYMOUS_TOKEN_PRODUCTION-GELDERLAND",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": 1801579022.085935,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "GROEI_DIALOG_TOGGLE_NOTIFICATIONS",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": 1825339029.061151,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "GROEI_WEB_INLINE_DIALOG",
+      "domain": "www.gld.nl",
+      "path": "/",
+      "expires": 1825339029.168268,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "host": "www.gld.nl",
+  "choice": {
+    "at": 1793803023783,
+    "choice": "rejected",
+    "label": "Alles weigeren",
+    "site": "gld.nl",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Alles weigeren"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.gld.nl/",
+    "lastSeen": {
+      "adserving.optoutadvertising.com": 1793803035552,
+      "ajax.googleapis.com": 1793803023993,
+      "api.smartocto.com": 1793803032358,
+      "cdgccbd.pa-cd.com": 1793803029185,
+      "cdn-images.mailchimp.com": 1793803023807,
+      "cdn.onesignal.com": 1793802956109,
+      "cdn.optoutadvertising.com": 1793803035932,
+      "fotogalerij.gld.nl": 1793802955853,
+      "gld.us11.list-manage.com": 1793803024875,
+      "hfg.iuknyw5evnygw9v.nl": 1793803017627,
+      "hyperion.regiogroei.cloud": 1793803029110,
+      "i.regiogroei.cloud": 1793803028976,
+      "id.regiogroei.cloud": 1793803029111,
+      "ingestion.smartocto.com": 1793803030349,
+      "mcdp-nydc1.outbrain.com": 1793803029358,
+      "mv.outbrain.com": 1793803029176,
+      "nmorpoendpoint.2cnt.net": 1793803029182,
+      "onesignal.com": 1793803028993,
+      "pagead2.googlesyndication.com": 1793803029002,
+      "proxy.optoutadvertising.com": 1793803035605,
+      "s.regiogroei.cloud": 1793803029402,
+      "secure.adnxs.com": 1793803028967,
+      "tag.aticdn.net": 1793803029136,
+      "tentacles.smartocto.com": 1793803029185,
+      "widget-pixels.outbrain.com": 1793803029172,
+      "widgets.outbrain.com": 1793802956107,
+      "widgets.teads-xo.com": 1793803029361,
+      "www.gld.nl": 1793803028805,
+      "www.google.com": 1793803023686,
+      "www.googletagmanager.com": 1793802955853,
+      "www.gstatic.com": 1793803023810
+    }
+  },
+  "hostsConsidered": [
+    "adserving.optoutadvertising.com",
+    "ajax.googleapis.com",
+    "api.smartocto.com",
+    "cdgccbd.pa-cd.com",
+    "cdn-images.mailchimp.com",
+    "cdn.optoutadvertising.com",
+    "gld.us11.list-manage.com",
+    "hyperion.regiogroei.cloud",
+    "i.regiogroei.cloud",
+    "id.regiogroei.cloud",
+    "ingestion.smartocto.com",
+    "mcdp-nydc1.outbrain.com",
+    "mv.outbrain.com",
+    "nmorpoendpoint.2cnt.net",
+    "onesignal.com",
+    "pagead2.googlesyndication.com",
+    "proxy.optoutadvertising.com",
+    "s.regiogroei.cloud",
+    "secure.adnxs.com",
+    "tag.aticdn.net",
+    "tentacles.smartocto.com",
+    "widget-pixels.outbrain.com",
+    "widgets.teads-xo.com",
+    "www.gld.nl",
+    "www.gstatic.com"
+  ]
+}

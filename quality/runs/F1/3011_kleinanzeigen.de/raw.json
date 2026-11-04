@@ -1,0 +1,151 @@
+{
+  "url": "https://www.kleinanzeigen.de",
+  "final_url": "https://www.kleinanzeigen.de/gdpr?redirectTo=https%3A%2F%2Fwww.kleinanzeigen.de%2F",
+  "click_at_s": 11.22,
+  "reload_at_s": 16.22,
+  "reject": "button: 'ablehnen, \u00e4ndern oder widerrufen' in main (normal click)",
+  "visible_buttons": [
+    "Alle akzeptieren",
+    "Datenschutzeinstellungen",
+    "ablehnen, \u00e4ndern oder widerrufen",
+    "Mehr erfahren",
+    "Alle Kategorien",
+    "Ganzer Ort",
+    "Finden",
+    "Meins",
+    "Immobilien",
+    "Haus & Garten",
+    "Auto, Rad & Boot",
+    "Mode & Beauty",
+    "Jobs",
+    "Elektronik",
+    "Familie, Kind & Baby"
+  ],
+  "tcf": {
+    "cmpId": 309,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "ads-engagement.presage.io",
+    "pagead2.googlesyndication.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "ads-engagement.presage.io",
+    "pagead2.googlesyndication.com"
+  ],
+  "third_party_timeline": {
+    "ads-engagement.presage.io": {
+      "first_s": 3.32,
+      "last_s": 16.76
+    },
+    "n1ux7flhug.kameleoon.io": {
+      "first_s": 2.35,
+      "last_s": 2.35
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.59,
+      "last_s": 16.48
+    },
+    "unpkg.com": {
+      "first_s": 3.32,
+      "last_s": 3.36
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.32,
+      "last_s": 3.32
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "ads-engagement.presage.io",
+    "n1ux7flhug.kameleoon.io",
+    "unpkg.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "lnFeMonitoring",
+      "domain": "www.kleinanzeigen.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "kameleoonVisitorCode",
+      "domain": "www.kleinanzeigen.de",
+      "path": "/",
+      "expires": 1825335451.945047,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".sgtm-legacy.kleinanzeigen.de",
+      "path": "/",
+      "expires": 1793806650.807487,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".kleinanzeigen.de",
+      "path": "/",
+      "expires": 1793806650.031151,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "kameleoonVisitorCode",
+      "domain": ".kleinanzeigen.de",
+      "path": "/",
+      "expires": 1826631453.009208,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CSRF-TOKEN",
+      "domain": ".www.kleinanzeigen.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".kleinanzeigen.de",
+      "path": "/",
+      "expires": 1793813850.866874,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_abck",
+      "domain": ".kleinanzeigen.de",
+      "path": "/",
+      "expires": 1825335470.031232,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

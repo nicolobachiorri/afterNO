@@ -282,7 +282,7 @@ def main():
     run_dir = HERE / "runs" / args.visit
     msgs = json.loads(MESSAGES.read_text(encoding="utf-8"))
     db = json.loads(COOKIE_DB.read_text(encoding="utf-8"))
-    with open(HERE / (f"sites_{args.visit[0]}.csv" if args.visit[0] in "CDE" else "sites.csv"), encoding="utf-8") as f:
+    with open(HERE / (f"sites_{args.visit[0]}.csv" if args.visit[0] in "CDEF" else "sites.csv"), encoding="utf-8") as f:
         sample = {r["order"]: r for r in csv.DictReader(f) if r["role"].startswith("sample")}
     with open(run_dir / "results.csv", encoding="utf-8") as f:
         results = {r["order"]: r for r in csv.DictReader(f)}

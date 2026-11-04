@@ -1,0 +1,44 @@
+{
+  "host": "www.news.at",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.news.at/",
+    "lastSeen": {
+      "ad1.adfarm1.adition.com": 1793799595790,
+      "benelph.de": 1793799575997,
+      "cdn.cookielaw.org": 1793799576121,
+      "data-fe32da0431.news.at": 1793799575980,
+      "fairu.news.at": 1793799575131,
+      "files.fairu.app": 1793799575801,
+      "geolocation.onetrust.com": 1793799575888,
+      "imagesrv.adition.com": 1793799595814,
+      "qualifio.tv-media.at": 1793799575947,
+      "www.googletagmanager.com": 1793799575787,
+      "www.news.at": 1793799575997
+    }
+  },
+  "hostsConsidered": [
+    "ad1.adfarm1.adition.com",
+    "benelph.de",
+    "cdn.cookielaw.org",
+    "data-fe32da0431.news.at",
+    "fairu.news.at",
+    "files.fairu.app",
+    "geolocation.onetrust.com",
+    "imagesrv.adition.com",
+    "qualifio.tv-media.at",
+    "www.googletagmanager.com",
+    "www.news.at"
+  ]
+}

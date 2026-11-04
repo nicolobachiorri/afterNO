@@ -1,0 +1,111 @@
+{
+  "url": "https://www.sic.pt",
+  "final_url": "https://sic.pt/",
+  "click_at_s": 30.77,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Conhe\u00e7a os nossos 1087 parceiros",
+    "Saiba mais \u2192",
+    "Aceitar e fechar",
+    "Menu",
+    "Pesquisar",
+    "User",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ajax.googleapis.com": {
+      "first_s": 8.14,
+      "last_s": 8.14
+    },
+    "api.impresa.pt": {
+      "first_s": 6.4,
+      "last_s": 8.23
+    },
+    "applets.ebxcdn.com": {
+      "first_s": 6.41,
+      "last_s": 7.43
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 6.4,
+      "last_s": 6.4
+    },
+    "fonts.googleapis.com": {
+      "first_s": 7.51,
+      "last_s": 7.51
+    },
+    "fonts.gstatic.com": {
+      "first_s": 8.1,
+      "last_s": 8.24
+    },
+    "images.impresa.pt": {
+      "first_s": 6.41,
+      "last_s": 27.35
+    },
+    "recommendations.chartbeat.net": {
+      "first_s": 7.42,
+      "last_s": 7.42
+    },
+    "sdistribution.impresa.pt": {
+      "first_s": 7.48,
+      "last_s": 7.48
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 6.4,
+      "last_s": 7.15
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 6.4,
+      "last_s": 7.09
+    },
+    "statics.impresa.pt": {
+      "first_s": 6.4,
+      "last_s": 18.83
+    },
+    "www.google.com": {
+      "first_s": 7.69,
+      "last_s": 8.21
+    },
+    "www.gstatic.com": {
+      "first_s": 7.78,
+      "last_s": 8.06
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "didomi_token",
+      "domain": ".sic.pt",
+      "path": "/",
+      "expires": 1809611092,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "datadome",
+      "domain": ".sic.pt",
+      "path": "/",
+      "expires": 1825339504.218796,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

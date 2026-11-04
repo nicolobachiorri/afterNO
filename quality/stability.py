@@ -43,7 +43,7 @@ def main():
     ap.add_argument("--first", required=True)
     ap.add_argument("--second", required=True)
     args = ap.parse_args()
-    sample_file = HERE / (f"sites_{args.first[0]}.csv" if args.first[0] in "CDE" else "sites.csv")
+    sample_file = HERE / (f"sites_{args.first[0]}.csv" if args.first[0] in "CDEF" else "sites.csv")
     with open(sample_file, encoding="utf-8") as f:
         sample = {int(r["order"]): r["url"] for r in csv.DictReader(f) if r["role"].startswith("sample")}
     a, b = load(args.first), load(args.second)

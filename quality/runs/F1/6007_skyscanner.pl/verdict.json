@@ -1,0 +1,48 @@
+{
+  "host": "www.skyscanner.pl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.skyscanner.pl/",
+    "lastSeen": {
+      "bam.nr-data.net": 1793800517283,
+      "cdn.ketchjs.com": 1793800516938,
+      "content.skyscnr.com": 1793800517327,
+      "eu.ketchcdn.com": 1793800517183,
+      "ift.px-cloud.net": 1793800516551,
+      "images.skyscnr.com": 1793800516675,
+      "js-agent.newrelic.com": 1793800517109,
+      "js.px-cloud.net": 1793800516727,
+      "js.skyscnr.com": 1793800516835,
+      "pagead2.googlesyndication.com": 1793800516900,
+      "ri.px-cloud.net": 1793800516780,
+      "www.googletagmanager.com": 1793800516892,
+      "www.skyscanner.pl": 1793800538400
+    }
+  },
+  "hostsConsidered": [
+    "bam.nr-data.net",
+    "cdn.ketchjs.com",
+    "content.skyscnr.com",
+    "eu.ketchcdn.com",
+    "ift.px-cloud.net",
+    "images.skyscnr.com",
+    "js-agent.newrelic.com",
+    "js.px-cloud.net",
+    "js.skyscnr.com",
+    "pagead2.googlesyndication.com",
+    "ri.px-cloud.net",
+    "www.googletagmanager.com",
+    "www.skyscanner.pl"
+  ]
+}

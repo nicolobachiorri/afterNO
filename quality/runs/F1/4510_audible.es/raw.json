@@ -1,0 +1,250 @@
+{
+  "url": "https://www.audible.es",
+  "final_url": "https://www.audible.it/?ref=Adbl_ip_rdr_from_ES&source_code=AITtm002040622028Q&ipRedirectFrom=ES&ipRedirectOriginalURL=",
+  "click_at_s": 11.47,
+  "reload_at_s": 16.48,
+  "reject": "button: 'CONTINUA SENZA ACCETTARE I COOKIE FACOLTATIVI' in main (normal click)",
+  "visible_buttons": [
+    "ACCETTA TUTTO",
+    "CONTINUA SENZA ACCETTARE I COOKIE FACOLTATIVI",
+    "PERSONALIZZA",
+    "EUR",
+    "Esplora"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "consent.trustarc.com",
+    "fls-na.amazon.com",
+    "m.media-amazon.com",
+    "unagi.amazon.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "consent.trustarc.com",
+    "fls-na.amazon.com",
+    "m.media-amazon.com",
+    "unagi.amazon.com"
+  ],
+  "third_party_timeline": {
+    "consent.trustarc.com": {
+      "first_s": 3.15,
+      "last_s": 17.03
+    },
+    "d2nttevkh1mtzs.cloudfront.net": {
+      "first_s": 3.13,
+      "last_s": 3.7
+    },
+    "fls-na.amazon.com": {
+      "first_s": 3.13,
+      "last_s": 19.55
+    },
+    "images-na.ssl-images-amazon.com": {
+      "first_s": 3.95,
+      "last_s": 3.95
+    },
+    "m.media-amazon.com": {
+      "first_s": 3.13,
+      "last_s": 16.82
+    },
+    "unagi.amazon.com": {
+      "first_s": 3.95,
+      "last_s": 22.98
+    },
+    "us-east-1.prod.adobe-dtm.audible.amazon.dev": {
+      "first_s": 3.13,
+      "last_s": 3.95
+    },
+    "www.audible.es": {
+      "first_s": 2.06,
+      "last_s": 2.06
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "consent.trustarc.com",
+    "d2nttevkh1mtzs.cloudfront.net",
+    "images-na.ssl-images-amazon.com",
+    "m.media-amazon.com",
+    "us-east-1.prod.adobe-dtm.audible.amazon.dev"
+  ],
+  "cookies": [
+    {
+      "name": "session-id",
+      "domain": ".audible.es",
+      "path": "/",
+      "expires": 1825335881.545644,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "session-id-time",
+      "domain": ".audible.es",
+      "path": "/",
+      "expires": 1825335881.546056,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "i18n-prefs",
+      "domain": ".audible.es",
+      "path": "/",
+      "expires": 1825335881.546087,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "lc-acbes",
+      "domain": ".audible.es",
+      "path": "/",
+      "expires": 1825335881.546108,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ubid-acbes",
+      "domain": ".audible.es",
+      "path": "/",
+      "expires": 1825335880.546128,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "session-id",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1825335881.989178,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "session-id-time",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1825335881.989306,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "i18n-prefs",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1825335881.989374,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "lc-acbit",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1825335881.989435,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ubid-acbit",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1825335880.989483,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "isFirstVisitAdbl",
+      "domain": ".www.audible.it",
+      "path": "/",
+      "expires": 1827927880.989534,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TAsessionID",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1793801682,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "session-token",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1825335882.971835,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "notice_preferences",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1827927890,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "notice_gdpr_prefs",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1827927890,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmapi_gtm_bl",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1827927890,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmapi_cookie_privacy",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": 1827927890,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "notice_behavior",
+      "domain": ".audible.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

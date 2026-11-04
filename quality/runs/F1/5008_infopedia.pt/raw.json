@@ -1,0 +1,351 @@
+{
+  "url": "https://www.infopedia.pt",
+  "final_url": "https://www.infopedia.pt/",
+  "click_at_s": 11.61,
+  "reload_at_s": 16.61,
+  "reject": "button: 'RECUSAR' in main (normal click)",
+  "visible_buttons": [
+    "Previous",
+    "Next",
+    "Saber mais",
+    "Lista de parceiros.",
+    "ACEITAR",
+    "RECUSAR",
+    "CONFIGURAR COOKIES",
+    "Aceitar",
+    "Rejeitar",
+    "Personalizar"
+  ],
+  "tcf": {
+    "cmpId": 300,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 11,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "bam.eu01.nr-data.net",
+    "cfdca4e59e0928a6686e83e03c11365d.safeframe.googlesyndication.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "f.clarity.ms",
+    "fundingchoicesmessages.google.com",
+    "gum.criteo.com",
+    "id5-sync.com",
+    "ident.mygaru.com",
+    "image6.pubmatic.com",
+    "pagead2.googlesyndication.com",
+    "q.clarity.ms",
+    "region1.google-analytics.com",
+    "spadsync.com",
+    "ups.analytics.yahoo.com",
+    "www.clarity.ms",
+    "www.youtube.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "bam.eu01.nr-data.net",
+    "cfdca4e59e0928a6686e83e03c11365d.safeframe.googlesyndication.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fundingchoicesmessages.google.com",
+    "pagead2.googlesyndication.com",
+    "q.clarity.ms",
+    "region1.google-analytics.com",
+    "spadsync.com",
+    "www.clarity.ms",
+    "www.youtube.com"
+  ],
+  "third_party_timeline": {
+    "1f64326207f4b21a33b7f565f313fc20.safeframe.googlesyndication.com": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "ads.pubmatic.com": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "bam.eu01.nr-data.net": {
+      "first_s": 3.56,
+      "last_s": 17.15
+    },
+    "cdn.fusion-platform.com": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.99,
+      "last_s": 11.59
+    },
+    "cdn.mgaru.dev": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "cfdca4e59e0928a6686e83e03c11365d.safeframe.googlesyndication.com": {
+      "first_s": 17.05,
+      "last_s": 17.05
+    },
+    "connectid.analytics.yahoo.com": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "dmp.im-apps.net": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 11.59,
+      "last_s": 17.75
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 11.72,
+      "last_s": 17.23
+    },
+    "f.clarity.ms": {
+      "first_s": 3.75,
+      "last_s": 14.67
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.99,
+      "last_s": 3.31
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.07,
+      "last_s": 3.33
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 3.06,
+      "last_s": 17.08
+    },
+    "gum.criteo.com": {
+      "first_s": 11.71,
+      "last_s": 11.71
+    },
+    "id5-sync.com": {
+      "first_s": 11.69,
+      "last_s": 11.69
+    },
+    "ident.mygaru.com": {
+      "first_s": 11.68,
+      "last_s": 11.68
+    },
+    "image6.pubmatic.com": {
+      "first_s": 12.2,
+      "last_s": 12.2
+    },
+    "invstatic101.creativecdn.com": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "js-agent.newrelic.com": {
+      "first_s": 3.48,
+      "last_s": 3.48
+    },
+    "oa.openxcdn.net": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 11.59,
+      "last_s": 17.2
+    },
+    "q.clarity.ms": {
+      "first_s": 17.29,
+      "last_s": 26.38
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.23,
+      "last_s": 21.91
+    },
+    "scripts.clarity.ms": {
+      "first_s": 3.57,
+      "last_s": 3.57
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.94,
+      "last_s": 3.07
+    },
+    "spadsync.com": {
+      "first_s": 11.67,
+      "last_s": 16.99
+    },
+    "static.criteo.net": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 11.59,
+      "last_s": 11.59
+    },
+    "ups.analytics.yahoo.com": {
+      "first_s": 11.67,
+      "last_s": 11.67
+    },
+    "www.clarity.ms": {
+      "first_s": 3.48,
+      "last_s": 17.14
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.94,
+      "last_s": 3.12
+    },
+    "www.youtube.com": {
+      "first_s": 2.99,
+      "last_s": 16.97
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.fusion-platform.com",
+    "cdn.jsdelivr.net",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "js-agent.newrelic.com",
+    "scripts.clarity.ms",
+    "securepubads.g.doubleclick.net",
+    "www.googletagmanager.com",
+    "www.youtube.com"
+  ],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": "www.infopedia.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".infopedia.pt",
+      "path": "/",
+      "expires": 1793801790.664847,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://infopedia.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809351990.884595,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://infopedia.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809351990.884604,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://infopedia.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".infopedia.pt",
+      "path": "/",
+      "expires": 1827495999,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pubcid",
+      "domain": "www.infopedia.pt",
+      "path": "/",
+      "expires": 1824903999,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "klaro",
+      "domain": ".infopedia.pt",
+      "path": "/",
+      "expires": 1824904004,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "klaroServer",
+      "domain": ".infopedia.pt",
+      "path": "/",
+      "expires": 1825336004.584038,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "nvq_hid",
+      "domain": "www.infopedia.pt",
+      "path": "/",
+      "expires": 1793800064,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809351990.77274,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://infopedia.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809352004.772787,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://infopedia.pt",
+        "hasCrossSiteAncestor": true
+      }
+    }
+  ]
+}

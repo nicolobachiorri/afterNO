@@ -1,0 +1,53 @@
+{
+  "host": "www.audible.it",
+  "choice": {
+    "at": 1793799890351,
+    "choice": "rejected",
+    "label": "Continua senza accettare i cookie facoltativi",
+    "site": "audible.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Continua senza accettare i cookie facoltativi"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.audible.it/?ref=Adbl_ip_rdr_from_ES&source_code=AITtm002040622028Q&ipRedirectFrom=ES&ipRedirectOriginalURL=",
+    "lastSeen": {
+      "consent.trustarc.com": 1793799895875,
+      "d2nttevkh1mtzs.cloudfront.net": 1793799895670,
+      "fls-na.amazon.com": 1793799898430,
+      "images-na.ssl-images-amazon.com": 1793799882823,
+      "m.media-amazon.com": 1793799895908,
+      "unagi.amazon.com": 1793799901863,
+      "us-east-1.prod.adobe-dtm.audible.amazon.dev": 1793799882826,
+      "www.audible.it": 1793799895910
+    }
+  },
+  "hostsConsidered": [
+    "consent.trustarc.com",
+    "d2nttevkh1mtzs.cloudfront.net",
+    "fls-na.amazon.com",
+    "m.media-amazon.com",
+    "unagi.amazon.com",
+    "www.audible.it"
+  ]
+}

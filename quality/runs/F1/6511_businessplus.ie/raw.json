@@ -1,0 +1,204 @@
+{
+  "url": "https://www.businessplus.ie",
+  "final_url": "https://businessplus.ie/",
+  "click_at_s": 27.5,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "our 1750 partners",
+    "Customise",
+    "Accept All",
+    "Subscribe",
+    "Later",
+    "1D",
+    "1M",
+    "3M",
+    "1Y",
+    "5Y",
+    "All"
+  ],
+  "tcf": {
+    "cmpId": 401,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "5f42864d-a421-4f37-9478-00266f871d68.edge.permutive.app": {
+      "first_s": 3.9,
+      "last_s": 3.9
+    },
+    "api.onesignal.com": {
+      "first_s": 4.09,
+      "last_s": 14.4
+    },
+    "businessplus-ie-preprod.go-vip.net": {
+      "first_s": 3.9,
+      "last_s": 3.9
+    },
+    "businessplus-ie.go-vip.net": {
+      "first_s": 3.9,
+      "last_s": 3.9
+    },
+    "cdn-cookieyes.com": {
+      "first_s": 3.9,
+      "last_s": 4.26
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.9,
+      "last_s": 4.04
+    },
+    "cdn.onesignal.com": {
+      "first_s": 3.9,
+      "last_s": 4.04
+    },
+    "events.newsroom.bi": {
+      "first_s": 9.26,
+      "last_s": 19.35
+    },
+    "experiences.mrf.io": {
+      "first_s": 4.26,
+      "last_s": 4.26
+    },
+    "experiences.newsroom.bi": {
+      "first_s": 9.35,
+      "last_s": 9.35
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.89,
+      "last_s": 3.89
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.01,
+      "last_s": 4.03
+    },
+    "img.os-content.com": {
+      "first_s": 14.47,
+      "last_s": 14.47
+    },
+    "log.cookieyes.com": {
+      "first_s": 4.0,
+      "last_s": 4.0
+    },
+    "onesignal.com": {
+      "first_s": 14.35,
+      "last_s": 14.35
+    },
+    "pixel.wp.com": {
+      "first_s": 4.04,
+      "last_s": 4.04
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.23,
+      "last_s": 10.34
+    },
+    "s3-symbol-logo.tradingview.com": {
+      "first_s": 4.53,
+      "last_s": 5.08
+    },
+    "s3.tradingview.com": {
+      "first_s": 3.9,
+      "last_s": 3.91
+    },
+    "sdk.mrf.io": {
+      "first_s": 4.0,
+      "last_s": 4.35
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 3.9,
+      "last_s": 3.9
+    },
+    "stats.wp.com": {
+      "first_s": 3.91,
+      "last_s": 3.91
+    },
+    "weather-website-client.tomorrow.io": {
+      "first_s": 3.91,
+      "last_s": 5.03
+    },
+    "widget-sheriff.tradingview-widget.com": {
+      "first_s": 4.29,
+      "last_s": 4.42
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.0,
+      "last_s": 5.11
+    },
+    "www.tomorrow.io": {
+      "first_s": 4.02,
+      "last_s": 4.37
+    },
+    "www.tradingview-widget.com": {
+      "first_s": 4.14,
+      "last_s": 5.08
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".onesignal.com",
+      "path": "/",
+      "expires": 1793804945.530079,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookieyes-consent",
+      "domain": "businessplus.ie",
+      "path": "/",
+      "expires": 1825339145,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".tomorrow.io",
+      "path": "/",
+      "expires": 1793804945.855623,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".tomorrow.io",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".businessplus.ie",
+      "path": "/",
+      "expires": 1828363146.721631,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_693LP2419S",
+      "domain": ".businessplus.ie",
+      "path": "/",
+      "expires": 1828363146.836348,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

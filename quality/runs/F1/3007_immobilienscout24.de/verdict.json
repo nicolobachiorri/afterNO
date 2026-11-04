@@ -1,0 +1,63 @@
+{
+  "host": "www.immobilienscout24.de",
+  "choice": {
+    "at": 1793799373009,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "site": "immobilienscout24.de",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.immobilienscout24.de/",
+    "lastSeen": {
+      "82d925f87a91.edge.sdk.awswaf.com": 1793799374704,
+      "aggregator.service.usercentrics.eu": 1793799373115,
+      "api.chatbot.immobilienscout24.de": 1793799360317,
+      "api.header.immobilienscout24.de": 1793799373129,
+      "api.usercentrics.eu": 1793799372862,
+      "app.usercentrics.eu": 1793799372848,
+      "consent-api.service.consent.usercentrics.eu": 1793799372920,
+      "content.header.immobilienscout24.de": 1793799372797,
+      "graphql.usercentrics.eu": 1793799372764,
+      "osa.s24-media.immobilienscout24.de": 1793799359837,
+      "pro-web-metrics.alias.s24cloud.net": 1793799372763,
+      "sso.immobilienscout24.de": 1793799372916,
+      "tags-eu.tiqcdn.com": 1793799361058,
+      "tenant-network.immobilienscout24.de": 1793799372816,
+      "tracking.immobilienscout24.de": 1793799372781,
+      "uct.service.usercentrics.eu": 1793799372921,
+      "web.chatbot.immobilienscout24.de": 1793799373032,
+      "www.immobilienscout24.de": 1793799373175,
+      "www.static-immobilienscout24.de": 1793799363322
+    }
+  },
+  "hostsConsidered": [
+    "82d925f87a91.edge.sdk.awswaf.com",
+    "aggregator.service.usercentrics.eu",
+    "api.header.immobilienscout24.de",
+    "web.chatbot.immobilienscout24.de",
+    "www.immobilienscout24.de"
+  ]
+}

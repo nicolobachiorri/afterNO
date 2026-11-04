@@ -1,0 +1,60 @@
+{
+  "host": "tarifaluzhora.es",
+  "choice": {
+    "at": 1793799862990,
+    "choice": "rejected",
+    "label": "Rechazar",
+    "site": "tarifaluzhora.es",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rechazar"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://tarifaluzhora.es/",
+    "lastSeen": {
+      "images.tarifaluzhora.es": 1793799868102,
+      "pulse.selectra.com": 1793799873226,
+      "region1.analytics.google.com": 1793799873064,
+      "static.cloudflareinsights.com": 1793799854769,
+      "stats.g.doubleclick.net": 1793799855069,
+      "tarifaluzhora.es": 1793799868101,
+      "www.google.it": 1793799855069,
+      "www.googletagmanager.com": 1793799854954,
+      "www.tarifaluzhora.es": 1793799854350
+    }
+  },
+  "hostsConsidered": [
+    "images.tarifaluzhora.es",
+    "pulse.selectra.com",
+    "region1.analytics.google.com",
+    "tarifaluzhora.es"
+  ]
+}

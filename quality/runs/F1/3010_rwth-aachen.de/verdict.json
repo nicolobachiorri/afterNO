@@ -1,0 +1,24 @@
+{
+  "host": "www.rwth-aachen.de",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.rwth-aachen.de/go/id/a/",
+    "lastSeen": {
+      "www.rwth-aachen.de": 1793799419124
+    }
+  },
+  "hostsConsidered": [
+    "www.rwth-aachen.de"
+  ]
+}

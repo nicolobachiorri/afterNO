@@ -1,0 +1,107 @@
+{
+  "url": "https://www.shopmania.pt",
+  "final_url": "https://www.shopmania.pt/",
+  "click_at_s": 26.66,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Aceito",
+    "Portugal"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 3.06,
+      "last_s": 3.06
+    },
+    "region1.analytics.google.com": {
+      "first_s": 3.0,
+      "last_s": 3.0
+    },
+    "s.cdnshm.com": {
+      "first_s": 2.55,
+      "last_s": 3.03
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.0,
+      "last_s": 3.0
+    },
+    "www.google.com": {
+      "first_s": 3.06,
+      "last_s": 3.06
+    },
+    "www.google.it": {
+      "first_s": 3.0,
+      "last_s": 3.0
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.55,
+      "last_s": 3.0
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_ICD_",
+      "domain": "www.shopmania.pt",
+      "path": "/",
+      "expires": 1794059273.097475,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_N04000NW89",
+      "domain": ".shopmania.pt",
+      "path": "/",
+      "expires": 1828360073.5416,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".shopmania.pt",
+      "path": "/",
+      "expires": 1828360073.541789,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "jstz",
+      "domain": "www.shopmania.pt",
+      "path": "/",
+      "expires": 1793886473,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".shopmania.pt",
+      "path": "/",
+      "expires": 1801576073,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uvc",
+      "domain": "www.shopmania.pt",
+      "path": "/",
+      "expires": 1809352073.685359,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

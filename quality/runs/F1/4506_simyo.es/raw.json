@@ -1,0 +1,130 @@
+{
+  "url": "https://www.simyo.es",
+  "final_url": "https://www.simyo.es/",
+  "click_at_s": 11.26,
+  "reload_at_s": 16.26,
+  "reject": "button: 'Rechazar todo' in main (normal click)",
+  "visible_buttons": [
+    "FIBRA + M\u00d3VIL",
+    "MIRA LAS + VENDIDAS",
+    "M\u00d3VIL",
+    "FIBRA",
+    "TV",
+    "TIENDA M\u00d3VILES",
+    "MARCAS DESTACADAS",
+    "+ SOBRE SIMYO",
+    "\u00c1rea personal",
+    "M\u00e1s informaci\u00f3n",
+    "A\u00f1adir a la cesta",
+    "Ver este m\u00f3vil vivo V70 FE 5G 256 GB + Buds Pro GR",
+    "Ver este m\u00f3vil Motorola edge 70 Fusi\u00f3n 5G 256 GB",
+    "Ver este m\u00f3vil Xiaomi Redmi Note 17 5G 256 GB",
+    "\u2039"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "fonts.gstatic.com",
+    "www.gstatic.com",
+    "www.recaptcha.net"
+  ],
+  "third_party_hosts_after_reload": [
+    "fonts.gstatic.com",
+    "www.gstatic.com",
+    "www.recaptcha.net"
+  ],
+  "third_party_timeline": {
+    "fonts.gstatic.com": {
+      "first_s": 3.58,
+      "last_s": 16.56
+    },
+    "p.typekit.net": {
+      "first_s": 2.85,
+      "last_s": 2.85
+    },
+    "use.typekit.net": {
+      "first_s": 2.49,
+      "last_s": 2.92
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.91,
+      "last_s": 2.91
+    },
+    "www.gstatic.com": {
+      "first_s": 3.01,
+      "last_s": 16.57
+    },
+    "www.recaptcha.net": {
+      "first_s": 2.5,
+      "last_s": 16.57
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "p.typekit.net",
+    "use.typekit.net",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.recaptcha.net"
+  ],
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "domain": "www.recaptcha.net",
+      "path": "/recaptcha",
+      "expires": 1809351809.307518,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "SESSION",
+      "domain": "www.simyo.es",
+      "path": "/simyo",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "domain": "www.simyo.es",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AwinChannelCookie",
+      "domain": ".simyo.es",
+      "path": "/",
+      "expires": 1796391795.9527,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ckgdrp",
+      "domain": ".simyo.es",
+      "path": "/",
+      "expires": 1801695600,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ckgdrpinfo",
+      "domain": ".simyo.es",
+      "path": "/",
+      "expires": 1801695600,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

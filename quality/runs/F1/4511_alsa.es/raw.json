@@ -1,0 +1,285 @@
+{
+  "url": "https://www.alsa.es",
+  "final_url": "https://www.alsa.es/",
+  "click_at_s": 11.26,
+  "reload_at_s": 16.26,
+  "reject": "button: 'Rechazar opcionales' in main (normal click)",
+  "visible_buttons": [
+    "M\u00e1s informaci\u00f3n \u2192",
+    "Rechazar opcionales",
+    "Aceptar y continuar",
+    "Espa\u00f1ol",
+    "Cerrar",
+    "Entrar",
+    "Buscar",
+    "\u00bfEn qu\u00e9 te puedo ayudar? \u00bfEn qu\u00e9 te puedo ayudar?",
+    "Iniciar sesi\u00f3n con Google"
+  ],
+  "tcf": {
+    "timeout": true
+  },
+  "third_party_hosts_after_click": [
+    "accounts.google.com",
+    "api.privacy-center.org",
+    "ariane.abtasty.com",
+    "pagead2.googlesyndication.com",
+    "play.google.com",
+    "try.abtasty.com",
+    "webchat-sdk.hubtype.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "accounts.google.com",
+    "ariane.abtasty.com",
+    "pagead2.googlesyndication.com",
+    "play.google.com",
+    "try.abtasty.com",
+    "webchat-sdk.hubtype.com"
+  ],
+  "third_party_timeline": {
+    "accounts.google.com": {
+      "first_s": 2.7,
+      "last_s": 17.09
+    },
+    "alsa.queue-it.net": {
+      "first_s": 2.24,
+      "last_s": 2.24
+    },
+    "api.privacy-center.org": {
+      "first_s": 11.3,
+      "last_s": 11.3
+    },
+    "ariane.abtasty.com": {
+      "first_s": 3.9,
+      "last_s": 27.58
+    },
+    "assets-manager.abtasty.com": {
+      "first_s": 2.93,
+      "last_s": 2.93
+    },
+    "dcinfos-cache.abtasty.com": {
+      "first_s": 2.76,
+      "last_s": 2.76
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.93,
+      "last_s": 2.93
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.03,
+      "last_s": 8.47
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.8,
+      "last_s": 17.64
+    },
+    "play.google.com": {
+      "first_s": 13.29,
+      "last_s": 27.21
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 2.86,
+      "last_s": 3.0
+    },
+    "try.abtasty.com": {
+      "first_s": 2.7,
+      "last_s": 17.08
+    },
+    "webchat-sdk.hubtype.com": {
+      "first_s": 3.45,
+      "last_s": 17.7
+    },
+    "www.google.com": {
+      "first_s": 2.71,
+      "last_s": 2.71
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.03,
+      "last_s": 3.19
+    },
+    "www.gstatic.com": {
+      "first_s": 2.97,
+      "last_s": 2.97
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "accounts.google.com",
+    "sdk.privacy-center.org",
+    "try.abtasty.com",
+    "webchat-sdk.hubtype.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ],
+  "cookies": [
+    {
+      "name": "visid_incap_2529820",
+      "domain": ".alsa.es",
+      "path": "/",
+      "expires": 1825281308,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "incap_ses_1063_2529820",
+      "domain": ".alsa.es",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "JSESSIONID",
+      "domain": "www.alsa.es",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Queue-it-token",
+      "domain": "alsa.queue-it.net",
+      "path": "/",
+      "expires": 1793800089.1954,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Queue-it-8f56d3d3-c932-41d3-969d-a788cc9de70b",
+      "domain": "alsa.queue-it.net",
+      "path": "/",
+      "expires": 1793803509.19549,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Queue-it-visitorsession",
+      "domain": "alsa.queue-it.net",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "QueueITAccepted-SDFrts345E-V3_colalsa",
+      "domain": "www.alsa.es",
+      "path": "/",
+      "expires": 1793886309.244956,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "COOKIE_SUPPORT",
+      "domain": "www.alsa.es",
+      "path": "/",
+      "expires": 1825335909.472301,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "GUEST_LANGUAGE_ID",
+      "domain": "www.alsa.es",
+      "path": "/",
+      "expires": 1825335909.472374,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ABTastySession",
+      "domain": ".alsa.es",
+      "path": "/",
+      "expires": 1793801723,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "visid_incap_2588990",
+      "domain": ".alsa.es",
+      "path": "/",
+      "expires": 1825281308.676502,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "incap_ses_1063_2588990",
+      "domain": ".alsa.es",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".alsa.es",
+      "path": "/",
+      "expires": 1825422318,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".alsa.es",
+      "path": "/",
+      "expires": 1825422318,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ABTasty",
+      "domain": ".alsa.es",
+      "path": "/",
+      "expires": 1827927909,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "g_state",
+      "domain": "www.alsa.es",
+      "path": "/",
+      "expires": 1809351923,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "LFR_SESSION_STATE_10161",
+      "domain": "www.alsa.es",
+      "path": "/",
+      "expires": 1825335923.945962,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

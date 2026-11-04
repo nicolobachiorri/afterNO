@@ -1,0 +1,848 @@
+{
+  "url": "https://www.airfrance.fr",
+  "final_url": "https://wwws.airfrance.it/fr?showredirectnotice=1",
+  "click_at_s": 11.82,
+  "reload_at_s": 16.82,
+  "reject": "button: 'Refuser' in main (normal click)",
+  "visible_buttons": [
+    "Italy - FR",
+    "Se connecter",
+    "Informations",
+    "Rechercher les vols",
+    "Gestion des cookies",
+    "Modifier les param\u00e8tres des cookies",
+    "Refuser",
+    "Accepter"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "bf96313tpg.bf.dynatrace.com",
+    "c-eudc.lytics.io",
+    "cacheorcheck.mopinion.com",
+    "cdn.optimizely.com",
+    "collect.mopinion.com",
+    "deploy.mopinion.com",
+    "eu-personalize-edge.contentstack.com",
+    "fonts.gstatic.com",
+    "fonts.mopinion.com",
+    "gstatic.mopinion.com",
+    "jef1nimjiav4.eu.wpi.jscrambler.com",
+    "l.contentsquare.net",
+    "logx.optimizely.com",
+    "region1.google-analytics.com",
+    "siteintercept.qualtrics.com",
+    "t.svtrd.com",
+    "tdn.r42tag.com",
+    "tk.airfrance.fr",
+    "www.gstatic.com",
+    "www.recaptcha.net",
+    "znej7k4eplq9fdf8f-afklm.siteintercept.qualtrics.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "bf96313tpg.bf.dynatrace.com",
+    "c-eudc.lytics.io",
+    "cdn.optimizely.com",
+    "eu-personalize-edge.contentstack.com",
+    "fonts.gstatic.com",
+    "jef1nimjiav4.eu.wpi.jscrambler.com",
+    "l.contentsquare.net",
+    "logx.optimizely.com",
+    "region1.google-analytics.com",
+    "siteintercept.qualtrics.com",
+    "tdn.r42tag.com",
+    "tk.airfrance.fr",
+    "www.gstatic.com",
+    "www.recaptcha.net",
+    "znej7k4eplq9fdf8f-afklm.siteintercept.qualtrics.com"
+  ],
+  "third_party_timeline": {
+    "a4268742351.cdn.optimizely.com": {
+      "first_s": 3.91,
+      "last_s": 5.78
+    },
+    "bf96313tpg.bf.dynatrace.com": {
+      "first_s": 4.16,
+      "last_s": 26.36
+    },
+    "c-eudc.lytics.io": {
+      "first_s": 6.79,
+      "last_s": 18.3
+    },
+    "c.lytics.io": {
+      "first_s": 6.59,
+      "last_s": 7.73
+    },
+    "cacheorcheck.mopinion.com": {
+      "first_s": 12.03,
+      "last_s": 12.03
+    },
+    "cdn.optimizely.com": {
+      "first_s": 2.96,
+      "last_s": 17.09
+    },
+    "collect.mopinion.com": {
+      "first_s": 11.88,
+      "last_s": 12.32
+    },
+    "deploy.mopinion.com": {
+      "first_s": 11.82,
+      "last_s": 11.85
+    },
+    "dok.js-cdn.dynatrace.com": {
+      "first_s": 2.96,
+      "last_s": 4.57
+    },
+    "eu-personalize-edge.contentstack.com": {
+      "first_s": 6.62,
+      "last_s": 17.86
+    },
+    "fonts.gstatic.com": {
+      "first_s": 6.15,
+      "last_s": 17.69
+    },
+    "fonts.mopinion.com": {
+      "first_s": 12.32,
+      "last_s": 12.32
+    },
+    "gstatic.mopinion.com": {
+      "first_s": 12.5,
+      "last_s": 12.5
+    },
+    "img.static-af.com": {
+      "first_s": 3.03,
+      "last_s": 7.47
+    },
+    "jef1nimjiav4.eu.wpi.jscrambler.com": {
+      "first_s": 2.96,
+      "last_s": 17.37
+    },
+    "l.contentsquare.net": {
+      "first_s": 11.84,
+      "last_s": 18.35
+    },
+    "logx.optimizely.com": {
+      "first_s": 6.77,
+      "last_s": 18.53
+    },
+    "region1.google-analytics.com": {
+      "first_s": 6.6,
+      "last_s": 23.47
+    },
+    "siteintercept.qualtrics.com": {
+      "first_s": 5.72,
+      "last_s": 18.45
+    },
+    "t.contentsquare.net": {
+      "first_s": 6.59,
+      "last_s": 6.75
+    },
+    "t.svtrd.com": {
+      "first_s": 6.84,
+      "last_s": 11.82
+    },
+    "tdn.r42tag.com": {
+      "first_s": 3.01,
+      "last_s": 18.39
+    },
+    "tk.airfrance.fr": {
+      "first_s": 6.77,
+      "last_s": 18.44
+    },
+    "www-fr.static-af.com": {
+      "first_s": 2.96,
+      "last_s": 2.96
+    },
+    "www.airfrance.fr": {
+      "first_s": 2.04,
+      "last_s": 2.33
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.29,
+      "last_s": 4.92
+    },
+    "www.gstatic.com": {
+      "first_s": 4.03,
+      "last_s": 17.7
+    },
+    "www.recaptcha.net": {
+      "first_s": 3.82,
+      "last_s": 17.69
+    },
+    "www.static-af.com": {
+      "first_s": 4.56,
+      "last_s": 6.46
+    },
+    "wwws.airfrance.fr": {
+      "first_s": 2.42,
+      "last_s": 4.43
+    },
+    "znej7k4eplq9fdf8f-afklm.siteintercept.qualtrics.com": {
+      "first_s": 5.54,
+      "last_s": 17.45
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "a4268742351.cdn.optimizely.com",
+    "c-eudc.lytics.io",
+    "c.lytics.io",
+    "cacheorcheck.mopinion.com",
+    "cdn.optimizely.com",
+    "collect.mopinion.com",
+    "deploy.mopinion.com",
+    "dok.js-cdn.dynatrace.com",
+    "fonts.mopinion.com",
+    "gstatic.mopinion.com",
+    "img.static-af.com",
+    "jef1nimjiav4.eu.wpi.jscrambler.com",
+    "siteintercept.qualtrics.com",
+    "t.contentsquare.net",
+    "tdn.r42tag.com",
+    "tk.airfrance.fr",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.recaptcha.net",
+    "www.static-af.com"
+  ],
+  "cookies": [
+    {
+      "name": "correlation_id",
+      "domain": "www.airfrance.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dtCookieqzfacchq",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_so",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1793889280.08266,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "secure_aviato_id",
+      "domain": "www.airfrance.fr",
+      "path": "/",
+      "expires": 1793810080.180595,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "correlation_id",
+      "domain": "wwws.airfrance.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "secure_aviato_id",
+      "domain": "wwws.airfrance.fr",
+      "path": "/",
+      "expires": 1793810081.502864,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_mi",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1793810079.691625,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rxVisitorqzfacchq",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".wwws.airfrance.fr",
+      "path": "/",
+      "expires": 1796394881,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_123456789",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1828362881.401843,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1828362881.402044,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "af_id",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1828362881.502825,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1793810079.515914,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "rxvtqzfacchq",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_abck",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1825338881.577002,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "optimizelySession",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1809354881,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "https://wwws.airfrance.fr_a7552018-607e-4bc4-b5f7-e38537ce075a$$a4268742351$$session_state",
+      "domain": "a4268742351.cdn.optimizely.com",
+      "path": "/",
+      "expires": 1809354881.796414,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dtSaqzfacchq",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_s",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1796481282.061291,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1793817279.061365,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "correlation_id",
+      "domain": "wwws.airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_123456789",
+      "domain": ".wwws.airfrance.it",
+      "path": "/",
+      "expires": 1793889282.1926,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "af_id",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1828362895.233885,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "optimizelySession",
+      "domain": ".wwws.airfrance.it",
+      "path": "/",
+      "expires": 1793889282.192687,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bw_user_redirect_with_notice",
+      "domain": "wwws.airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "secure_aviato_id",
+      "domain": "wwws.airfrance.it",
+      "path": "/",
+      "expires": 1793810083.37353,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_so",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1793889282.192751,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_mi",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1793810082.298983,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dtPCqzfacchq",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".airfrance.fr",
+      "path": "/",
+      "expires": 1793810080.433506,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rxVisitorqzfacchq",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dtSaqzfacchq",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_lso",
+      "domain": ".wwws.airfrance.it",
+      "path": "/",
+      "expires": 1796394883,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1793810082.869351,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_svtri",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1828362896.151058,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "page_name",
+      "domain": "wwws.airfrance.it",
+      "path": "/",
+      "expires": 1793889284.525492,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "country",
+      "domain": "wwws.airfrance.it",
+      "path": "/",
+      "expires": 1793889284.525581,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "language",
+      "domain": "wwws.airfrance.it",
+      "path": "/",
+      "expires": 1793889284.525661,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "application",
+      "domain": "wwws.airfrance.it",
+      "path": "/",
+      "expires": 1793889284.525728,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "seerses",
+      "domain": ".wwws.airfrance.it",
+      "path": "/",
+      "expires": 1793804695,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "seerid",
+      "domain": ".wwws.airfrance.it",
+      "path": "/",
+      "expires": 1828362896.059412,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "wzuid",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wzsid",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cs_personalize_user_uid",
+      "domain": "wwws.airfrance.it",
+      "path": "/",
+      "expires": 1825338896.092053,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "seerid",
+      "domain": ".lytics.io",
+      "path": "/",
+      "expires": 1828362884.651191,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dtCookieqzfacchq",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1828362896.224382,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_svs",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1828362889.56628,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bw_cookie_banner",
+      "domain": "wwws.airfrance.it",
+      "path": "/",
+      "expires": 1801578889,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "72_1205",
+      "domain": "tdn.r42tag.com",
+      "path": "/",
+      "expires": 1825338889.607935,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "wzcnst",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "GTM_TRACK_USER_INTERACTION",
+      "domain": "wwws.airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sz",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1793817282.798045,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_abck",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1825338895.182749,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "optimizelySession",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1809354895,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "afkl_engagement",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1793889295.573261,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "https://wwws.airfrance.it_a7552018-607e-4bc4-b5f7-e38537ce075a$$a4268742351$$session_state",
+      "domain": "a4268742351.cdn.optimizely.com",
+      "path": "/",
+      "expires": 1809354895.585555,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_123456789",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1828362896.343716,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_TRQFNVFE6J",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1828362896.345983,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_X329ZV2JZ5",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1828362896.346822,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1793810082.589865,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_s",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": 1796481296.775402,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rxvtqzfacchq",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dtPCqzfacchq",
+      "domain": ".airfrance.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -27,7 +27,10 @@ raw.json, popup.png, page.png.
 import argparse
 import csv
 import json
+import os
 import shutil
+import signal
+import subprocess
 import sys
 import tempfile
 import time
@@ -82,7 +85,7 @@ TCF_JS = """
 def sample_file(visit):
     """Visits A and B use sample A/B (sites.csv); visits C1, C2... use sample C, and so on."""
     letter = (visit or "")[:1]
-    return HERE / (f"sites_{letter}.csv" if letter in ("C", "D", "E") else "sites.csv")
+    return HERE / (f"sites_{letter}.csv" if letter in ("C", "D", "E", "F") else "sites.csv")
 
 
 def load_sample(path, only):
@@ -129,9 +132,19 @@ def read_verdict(context, ext_id, tab_id, shot_path):
         pop.close()
 
 
+SITE_LIMIT_S = 240  # a site that takes longer is stopped (visit F1, protocol modification 29)
+
+
 def measure_site(p, row, out_dir, headless):
     url = row["url"]
     out_dir.mkdir(parents=True, exist_ok=True)
+    t0 = time.time()
+
+    def stage(name):
+        # Where the robot is, so that a site that hangs shows where (stage.txt).
+        with open(out_dir / "stage.txt", "a", encoding="utf-8") as f:
+            f.write(f"{time.time() - t0:7.1f}s {name}\n")
+    stage("start")
     profile = tempfile.mkdtemp(prefix="cookie-quality-")
     result = {"order": row["order"], "url": url, "source": row["source"]}
     requests = []  # (seconds since start, host, resource type, url)
@@ -141,6 +154,7 @@ def measure_site(p, row, out_dir, headless):
     try:
         # Extensions need Playwright's own Chromium: branded Chrome no longer loads
         # unpacked extensions from the command line.
+        stage("launch browser")
         context = p.chromium.launch_persistent_context(
             profile, channel="chromium", headless=headless,
             args=[f"--disable-extensions-except={EXTENSION_BUILD}",
@@ -153,6 +167,11 @@ def measure_site(p, row, out_dir, headless):
             viewport={"width": 1366, "height": 900},
         )
         context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        # Every page action gets at most 5 s (Playwright's default is 30 s): on a page
+        # whose buttons keep changing, reading their text could wait 30 s per button,
+        # and the banner search hung for minutes (rbb24.de, visit F1). Loading and the
+        # waits below keep their own explicit times.
+        context.set_default_timeout(5000)
         sw = context.service_workers[0] if context.service_workers else \
             context.wait_for_event("serviceworker", timeout=15000)
         ext_id = sw.url.split("/")[2]
@@ -191,6 +210,7 @@ def measure_site(p, row, out_dir, headless):
         cdp.on("Network.responseReceived", from_other_cache)
 
         try:
+            stage("load page")
             page.goto(url, wait_until="domcontentloaded", timeout=45000)
         except PWTimeout:
             result["error"] = "timeout on load"
@@ -203,6 +223,7 @@ def measure_site(p, row, out_dir, headless):
         t_banner = time.time()
         while True:
             labels = visible_button_labels(page)
+            stage("search banner")
             clicked, how, paywall_seen = find_and_click_reject(page)
             if clicked or paywall_seen or time.time() - t_banner > BANNER_TIMEOUT_S:
                 break
@@ -217,15 +238,18 @@ def measure_site(p, row, out_dir, headless):
         if clicked:
             t_reload = round(time.time() - t_start, 2)
             try:
+                stage("reload")
                 page.reload(wait_until="domcontentloaded", timeout=45000)
             except PWTimeout:
                 pass
             page.wait_for_timeout(WAIT_AFTER_RELOAD_S * 1000)
         try:
+            stage("screenshot")
             page.screenshot(path=str(out_dir / "page.png"))
         except Exception:
             pass
 
+        stage("raw data")
         # Raw data, independent of the extension.
         try:
             tcf = page.evaluate(TCF_JS)
@@ -268,6 +292,7 @@ def measure_site(p, row, out_dir, headless):
         tabs = sw.evaluate("async () => (await chrome.tabs.query({})).map(t => ({id: t.id, url: t.url}))")
         tab = next((t for t in tabs if t["url"] == page.url), None) or \
             next((t for t in tabs if t["url"] and t["url"].startswith("http")), None)
+        stage("popup")
         verdict = read_verdict(context, ext_id, tab["id"], out_dir / "popup.png") if tab \
             else {"error": "tab not found"}
         (out_dir / "verdict.json").write_text(json.dumps(verdict, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -295,14 +320,22 @@ def measure_site(p, row, out_dir, headless):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--visit", choices=["A", "B", "C1", "C2", "D1", "D2", "E1", "E2"])
+    ap.add_argument("--visit", choices=["A", "B", "C1", "C2", "D1", "D2", "E1", "E2", "F1", "F2"])
     ap.add_argument("--pilot", metavar="URL",
                     help="measure one site OUTSIDE the sample, to check the robot works "
                          "without looking at results of the sample (output in runs/pilot/)")
     ap.add_argument("--sites", type=Path, help="sample file (default: by visit, see sample_file)")
     ap.add_argument("--only", help="comma-separated order numbers")
     ap.add_argument("--headless", action="store_true")
+    ap.add_argument("--child", help=argparse.SUPPRESS)  # internal: one site, in its own process
     args = ap.parse_args()
+
+    if args.child:
+        row, folder = json.loads(args.child)
+        with sync_playwright() as p:
+            r = measure_site(p, row, Path(folder), args.headless)
+        Path(folder, "result.json").write_text(json.dumps(r, ensure_ascii=False), encoding="utf-8")
+        return
 
     if not (EXTENSION_BUILD / "manifest.json").exists():
         sys.exit(f"Extension build not found in {EXTENSION_BUILD}.\n"
@@ -317,15 +350,36 @@ def main():
         sample = load_sample(args.sites or sample_file(args.visit), args.only)
     run_dir = HERE / "runs" / args.visit
     results = []
-    with sync_playwright() as p:
-        for n, row in enumerate(sample, 1):
-            print(f"[{n}/{len(sample)}] {row['order']} {row['url']}")
-            folder = run_dir / f"{int(row['order']):02d}_{site_domain(row['url']) or 'site'}"
-            r = measure_site(p, row, folder, args.headless)
-            r["visit"] = args.visit
-            results.append(r)
-            print("    ", {k: v for k, v in r.items() if k in
-                           ("banner_type", "reject_how", "choice_recorded", "conclusion", "error", "verdict_error")})
+    # Each site runs in its own process, stopped after SITE_LIMIT_S: a page that hangs
+    # the browser cannot stop the whole visit (visit F1, protocol modification 29).
+    for n, row in enumerate(sample, 1):
+        print(f"[{n}/{len(sample)}] {row['order']} {row['url']}")
+        folder = run_dir / f"{int(row['order']):02d}_{site_domain(row['url']) or 'site'}"
+        folder.mkdir(parents=True, exist_ok=True)
+        for old in ("result.json", "stage.txt"):
+            (folder / old).unlink(missing_ok=True)
+        cmd = [sys.executable, __file__, "--child", json.dumps([row, str(folder)])]
+        if args.headless:
+            cmd.append("--headless")
+        proc = subprocess.Popen(cmd, start_new_session=True)
+        try:
+            proc.wait(timeout=SITE_LIMIT_S)
+        except subprocess.TimeoutExpired:
+            os.killpg(proc.pid, signal.SIGKILL)  # the child and its browser
+            proc.wait()
+        done = folder / "result.json"
+        if done.exists():
+            r = json.loads(done.read_text(encoding="utf-8"))
+        else:
+            last = (folder / "stage.txt").read_text(encoding="utf-8").strip().splitlines()[-1:] \
+                if (folder / "stage.txt").exists() else ["?"]
+            r = {"order": row["order"], "url": row["url"], "source": row["source"],
+                 "error": f"stopped after {SITE_LIMIT_S} s, at: {last[0].strip()}",
+                 "seconds": SITE_LIMIT_S}
+        r["visit"] = args.visit
+        results.append(r)
+        print("    ", {k: v for k, v in r.items() if k in
+                       ("banner_type", "reject_how", "choice_recorded", "conclusion", "error", "verdict_error")})
 
     out = run_dir / "results.csv"
     fields = ["visit", "order", "url", "source", "final_url", "redirected_to_other_site",

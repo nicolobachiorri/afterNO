@@ -1,0 +1,38 @@
+{
+  "host": "www.natuurmonumenten.nl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.natuurmonumenten.nl/",
+    "lastSeen": {
+      "consent.cookiebot.eu": 1793800138284,
+      "consentcdn.cookiebot.eu": 1793800138284,
+      "imagedelivery.net": 1793800137800,
+      "pagead2.googlesyndication.com": 1793800138412,
+      "redactie.natuurmonumenten.nl": 1793800137644,
+      "sgtm.natuurmonumenten.nl": 1793800138242,
+      "www.googletagmanager.com": 1793800138009,
+      "www.natuurmonumenten.nl": 1793800138438
+    }
+  },
+  "hostsConsidered": [
+    "consent.cookiebot.eu",
+    "consentcdn.cookiebot.eu",
+    "imagedelivery.net",
+    "pagead2.googlesyndication.com",
+    "redactie.natuurmonumenten.nl",
+    "sgtm.natuurmonumenten.nl",
+    "www.googletagmanager.com",
+    "www.natuurmonumenten.nl"
+  ]
+}

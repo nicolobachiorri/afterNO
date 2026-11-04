@@ -1,0 +1,155 @@
+{
+  "url": "https://www.pordata.pt",
+  "final_url": "https://www.pordata.pt/",
+  "click_at_s": 11.09,
+  "reload_at_s": 16.09,
+  "reject": "button: 'Rejeitar' in main (normal click)",
+  "visible_buttons": [
+    "Rejeitar",
+    "Personalizar",
+    "Permitir todos",
+    "ESTAT\u00cdSTICAS"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ajax.googleapis.com": {
+      "first_s": 4.01,
+      "last_s": 4.01
+    },
+    "consent.cookiebot.com": {
+      "first_s": 2.78,
+      "last_s": 11.22
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 2.95,
+      "last_s": 11.22
+    },
+    "public.flourish.studio": {
+      "first_s": 3.3,
+      "last_s": 3.3
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "ajax.googleapis.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "public.flourish.studio"
+  ],
+  "cookies": [
+    {
+      "name": "ASP.NET_SessionId",
+      "domain": "www.pordata.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "osVisitor",
+      "domain": "www.pordata.pt",
+      "path": "/",
+      "expires": 1828360059.262601,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "osVisit",
+      "domain": "www.pordata.pt",
+      "path": "/",
+      "expires": 1793801859.262703,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.pordata.pt",
+      "path": "/",
+      "expires": 1825336054,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dtCookie8r5vpcgh",
+      "domain": ".pordata.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "rxVisitor8r5vpcgh",
+      "domain": ".pordata.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "dtSa8r5vpcgh",
+      "domain": ".pordata.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "RT",
+      "domain": "www.pordata.pt",
+      "path": "/",
+      "expires": 1793800659,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "rxvt8r5vpcgh",
+      "domain": ".pordata.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "dtPC8r5vpcgh",
+      "domain": ".pordata.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "pageLoadedFromBrowserCache",
+      "domain": "www.pordata.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "host": "www.slate.fr",
+  "choice": {
+    "at": 1793799725008,
+    "choice": "rejected",
+    "legitimateInterests": 6,
+    "legitimatePurposes": [
+      2,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "purposesConsented": 0,
+    "purposesTotal": 11,
+    "site": "slate.fr",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecorded",
+      "subs": [
+        0,
+        11
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemLegitimate",
+      "count": 6,
+      "nameKeys": [
+        "tcfPurpose_2",
+        "tcfPurpose_7",
+        "tcfPurpose_8",
+        "tcfPurpose_9",
+        "tcfPurpose_10",
+        "tcfPurpose_11"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Facebook"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.slate.fr/",
+    "lastSeen": {
+      "ad.adsrvr.org": 1793799731494,
+      "ade.googlesyndication.com": 1793799730031,
+      "api.consentframework.com": 1793799730143,
+      "applets.ebxcdn.com": 1793799730055,
+      "cache.consentframework.com": 1793799730031,
+      "cdn.abconsent.net": 1793799716529,
+      "cdn.ampproject.org": 1793799726436,
+      "cdn.jsdelivr.net": 1793799731282,
+      "cdn.slate.fr": 1793799730083,
+      "choices.consentframework.com": 1793799730031,
+      "choices.trustarc.com": 1793799732479,
+      "choices.truste.com": 1793799731494,
+      "connect.facebook.net": 1793799719545,
+      "custom-codes.prod.cloud.ogury.io": 1793799716528,
+      "e944463fd61f25ce64d55470d0bd34be.safeframe.googlesyndication.com": 1793799726434,
+      "enduser.adsrvr.org": 1793799731494,
+      "ep1.adtrafficquality.google": 1793799731359,
+      "ep2.adtrafficquality.google": 1793799731290,
+      "europe-west1.pbs.optidigital.com": 1793799731386,
+      "f41ab22d7f3708fe25412c2ed7cd5a41.safeframe.googlesyndication.com": 1793799731267,
+      "ie1-bid.adsrvr.org": 1793799731494,
+      "impressions.onelink.me": 1793799731494,
+      "ms-ads-monitoring-events.presage.io": 1793799730106,
+      "mwtw.presage.io": 1793799716328,
+      "o56819.ingest.sentry.io": 1793799730106,
+      "optiyield-data.opti-digital.com": 1793799730083,
+      "pagead2.googlesyndication.com": 1793799732399,
+      "pbs.optidigital.com": 1793799731386,
+      "region1.google-analytics.com": 1793799730089,
+      "s.update.adsrvr.org": 1793799731494,
+      "s0.2mdn.net": 1793799731286,
+      "scripts.opti-digital.com": 1793799731336,
+      "securepubads.g.doubleclick.net": 1793799730146,
+      "tag.agrvt.com": 1793799716330,
+      "tpc.googlesyndication.com": 1793799731282,
+      "www.facebook.com": 1793799733084,
+      "www.googletagmanager.com": 1793799716498,
+      "www.slate.fr": 1793799730154
+    }
+  },
+  "hostsConsidered": [
+    "ad.adsrvr.org",
+    "ade.googlesyndication.com",
+    "api.consentframework.com",
+    "applets.ebxcdn.com",
+    "cache.consentframework.com",
+    "cdn.ampproject.org",
+    "cdn.jsdelivr.net",
+    "cdn.slate.fr",
+    "choices.consentframework.com",
+    "choices.trustarc.com",
+    "choices.truste.com",
+    "e944463fd61f25ce64d55470d0bd34be.safeframe.googlesyndication.com",
+    "enduser.adsrvr.org",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "europe-west1.pbs.optidigital.com",
+    "f41ab22d7f3708fe25412c2ed7cd5a41.safeframe.googlesyndication.com",
+    "ie1-bid.adsrvr.org",
+    "impressions.onelink.me",
+    "ms-ads-monitoring-events.presage.io",
+    "o56819.ingest.sentry.io",
+    "optiyield-data.opti-digital.com",
+    "pagead2.googlesyndication.com",
+    "pbs.optidigital.com",
+    "region1.google-analytics.com",
+    "s.update.adsrvr.org",
+    "s0.2mdn.net",
+    "scripts.opti-digital.com",
+    "securepubads.g.doubleclick.net",
+    "tpc.googlesyndication.com",
+    "www.facebook.com",
+    "www.slate.fr"
+  ]
+}

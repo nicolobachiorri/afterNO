@@ -1,0 +1,56 @@
+{
+  "host": "sic.pt",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://sic.pt/",
+    "lastSeen": {
+      "ajax.googleapis.com": 1793803493500,
+      "api.impresa.pt": 1793803493597,
+      "applets.ebxcdn.com": 1793803492797,
+      "cdn.id5-sync.com": 1793803491763,
+      "epg.sic.pt": 1793803492813,
+      "fonts.googleapis.com": 1793803492876,
+      "fonts.gstatic.com": 1793803493608,
+      "images.impresa.pt": 1793803512716,
+      "recommendations.chartbeat.net": 1793803492771,
+      "sdistribution.impresa.pt": 1793803492845,
+      "sdk.privacy-center.org": 1793803492513,
+      "securepubads.g.doubleclick.net": 1793803492456,
+      "sic.pt": 1793803493608,
+      "statics.impresa.pt": 1793803504198,
+      "www.google.com": 1793803493574,
+      "www.gstatic.com": 1793803493423,
+      "www.sic.pt": 1793803487388
+    }
+  },
+  "hostsConsidered": [
+    "ajax.googleapis.com",
+    "api.impresa.pt",
+    "applets.ebxcdn.com",
+    "cdn.id5-sync.com",
+    "epg.sic.pt",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "images.impresa.pt",
+    "recommendations.chartbeat.net",
+    "sdistribution.impresa.pt",
+    "sdk.privacy-center.org",
+    "securepubads.g.doubleclick.net",
+    "sic.pt",
+    "statics.impresa.pt",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.sic.pt"
+  ]
+}

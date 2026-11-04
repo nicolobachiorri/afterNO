@@ -350,3 +350,47 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     segnalato un'etichetta sbagliata che il giudice principale non aveva visto:
     `ajs_anonymous_id` (Segment) attribuito a Trustpilot dal database. Corretto in
     `overrides.csv` con `ajs_user_id`; i giudizi di E1 restano come dati.
+
+27. *Campione F (4 novembre 2026, prima di qualunque visita).* `select_sample_f.py`,
+    `sites_F.csv`. Misura le correzioni delle modifiche 24–26 sugli stessi otto
+    paesi del campione E: per ciascuno, le prime 5 riserve libere di `sites_E.csv`,
+    nell'ordine già fissato dal seme; stessa lingua e fuso orario per paese.
+    Sostituiti prima della visita, dal solo nome: turfpronos.fr (pronostici di
+    scommesse), blogspot.com.es (servizio tecnico, alias di Blogger), bb-dns.nl
+    (servizio tecnico, DNS). Due visite della stessa versione, F1 ed F2, ad almeno
+    un giorno di distanza, come per E; giudice principale Claude, secondo giudice
+    Gemini.
+28. *Visita F1, robot.* Su rbb24.de (secondo sito) la ricerca del banner è rimasta
+    ferma per minuti: Playwright aspetta fino a 30 s per ogni azione, e su una pagina
+    i cui pulsanti cambiano continuamente la lettura del testo si ripeteva. Ogni
+    azione sulla pagina ha ora al massimo 5 s (caricamento e attese restano come
+    erano). Visita F1 ripresa da capo con il robot corretto; l'estensione non cambia.
+29. *Visita F1, robot (seconda correzione).* Il limite di 5 s non è bastato: su
+    rbb24.de il robot è rimasto fermo per più di un'ora prima dello screenshot. Ogni
+    sito gira ora in un processo a parte, fermato dopo 4 minuti; il sito fermato
+    conta come «il robot non riesce a misurarlo», con il punto in cui si è fermato
+    (`stage.txt`). Il resto della visita non ne risente. L'estensione non cambia.
+30. *Visita F1, sostituzione.* rbb24.de blocca il browser del robot durante il
+    caricamento della pagina, a ogni tentativo (tre volte, `stage.txt`: fermo a
+    «load page»); sostituito come un sito che non si carica, dalla riserva successiva
+    della Germania.
+31. *Visita F1, sostituzioni.* Non si caricano: styriapress.at (connessione
+    rifiutata), archi.fr, dropped.net.pl, wroc.pl, myspreadshop.ie (nome non
+    trovato); sostituiti dalle riserve successive dello stesso paese. inode.at,
+    careview.pt e salespaginakit.nl (tempo scaduto) e gld.nl (browser fermo al
+    caricamento, come rbb24.de) ricevono un secondo tentativo prima della
+    sostituzione (modifica 19).
+32. *Visita F1, secondo tentativo.* gld.nl si è caricato al secondo tentativo e resta
+    nel campione. inode.at, careview.pt e salespaginakit.nl, scaduti due volte, sono
+    sostituiti dalle riserve successive dello stesso paese.
+33. *Visita F1, giudizi.* Giudice principale: 19 siti misurabili su 40, tutte
+    corrette (almeno 83%, Wilson). Secondo giudice Gemini sulla stessa pagina
+    `review.html`; risposta salvata in `judgments_F1_gemini.csv` togliendo solo la
+    riga finale fuori dal CSV (``` e un riferimento), l'originale `gemini-code-*.txt`
+    resta. Accordo: misurabilità 39 su 40, conclusione 19 su 19. Il disaccordo è su
+    kleinanzeigen.de: Gemini considera un rifiuto il link «ablehnen, ändern oder
+    widerrufen», il giudice principale no, perché apre le impostazioni (lo screenshot
+    dopo il clic mostra il secondo livello). Difetti trovati, da correggere dopo F2:
+    quel link registrato come rifiuto; «Akceptuj tylko niezbędne» letto come
+    accettazione; «Cookies nécessaires uniquement» e «Weiter ohne zu akzeptieren»
+    non riconosciuti; su idonate.ie il robot non clicca «Deny all cookies».

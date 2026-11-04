@@ -1,0 +1,50 @@
+{
+  "host": "www.engineersireland.ie",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.engineersireland.ie/",
+    "lastSeen": {
+      "cdn.jsdelivr.net": 1793800660597,
+      "cdn.matomo.cloud": 1793800660800,
+      "content.hotjar.io": 1793800661590,
+      "cookie-cdn.cookiepro.com": 1793800661750,
+      "cse.google.com": 1793800660598,
+      "engineersireland.matomo.cloud": 1793800661614,
+      "p.typekit.net": 1793800661473,
+      "placehold.co": 1793800660597,
+      "script.hotjar.com": 1793800661500,
+      "static.hotjar.com": 1793800660798,
+      "use.typekit.net": 1793800661375,
+      "www.engineersireland.ie": 1793800661712,
+      "www.google.com": 1793800661509,
+      "www.googletagmanager.com": 1793800660597
+    }
+  },
+  "hostsConsidered": [
+    "cdn.jsdelivr.net",
+    "cdn.matomo.cloud",
+    "content.hotjar.io",
+    "cookie-cdn.cookiepro.com",
+    "cse.google.com",
+    "engineersireland.matomo.cloud",
+    "p.typekit.net",
+    "placehold.co",
+    "script.hotjar.com",
+    "static.hotjar.com",
+    "use.typekit.net",
+    "www.engineersireland.ie",
+    "www.google.com",
+    "www.googletagmanager.com"
+  ]
+}

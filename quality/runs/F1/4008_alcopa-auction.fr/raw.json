@@ -1,0 +1,64 @@
+{
+  "url": "https://www.alcopa-auction.fr",
+  "final_url": "https://www.alcopa-auction.fr/",
+  "click_at_s": 27.7,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Cookies n\u00e9cessaires uniquement",
+    "Autoriser tous les cookies",
+    "Rechercher"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "api.payzen.eu": {
+      "first_s": 2.53,
+      "last_s": 2.53
+    },
+    "consent.cookiebot.com": {
+      "first_s": 2.53,
+      "last_s": 3.61
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 3.61,
+      "last_s": 3.72
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.53,
+      "last_s": 4.07
+    },
+    "s3.eu-west-3.amazonaws.com": {
+      "first_s": 2.57,
+      "last_s": 2.57
+    },
+    "www.youtube.com": {
+      "first_s": 3.61,
+      "last_s": 3.61
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "hl",
+      "domain": "www.alcopa-auction.fr",
+      "path": "/",
+      "expires": 1825335682.642892,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": "www.alcopa-auction.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

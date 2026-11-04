@@ -1,0 +1,54 @@
+{
+  "host": "www.uam.es",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Google"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 8,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.uam.es/uam/inicio",
+    "lastSeen": {
+      "ad.doubleclick.net": 1793799822764,
+      "fonts.googleapis.com": 1793799822943,
+      "fonts.gstatic.com": 1793799823024,
+      "region1.analytics.google.com": 1793799822731,
+      "ssl.google-analytics.com": 1793799823028,
+      "stats.g.doubleclick.net": 1793799822731,
+      "www.google.com": 1793799822934,
+      "www.google.it": 1793799822731,
+      "www.googletagmanager.com": 1793799822758,
+      "www.uam.es": 1793799824283
+    }
+  },
+  "hostsConsidered": [
+    "ad.doubleclick.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "region1.analytics.google.com",
+    "ssl.google-analytics.com",
+    "stats.g.doubleclick.net",
+    "www.google.com",
+    "www.google.it",
+    "www.googletagmanager.com",
+    "www.uam.es"
+  ]
+}

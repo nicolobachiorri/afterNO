@@ -1,0 +1,58 @@
+{
+  "url": "https://www.mooiedomeinnaam.nl",
+  "final_url": "https://www.mooiedomeinnaam.nl/",
+  "click_at_s": 26.26,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "code.jquery.com": {
+      "first_s": 2.44,
+      "last_s": 2.44
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.01,
+      "last_s": 3.01
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.44,
+      "last_s": 2.44
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": "www.mooiedomeinnaam.nl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_GCCMYL2FDP",
+      "domain": ".mooiedomeinnaam.nl",
+      "path": "/",
+      "expires": 1828360105.971819,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".mooiedomeinnaam.nl",
+      "path": "/",
+      "expires": 1828360105.971959,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

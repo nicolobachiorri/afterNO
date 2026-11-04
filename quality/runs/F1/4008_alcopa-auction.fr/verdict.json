@@ -1,0 +1,36 @@
+{
+  "host": "www.alcopa-auction.fr",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.alcopa-auction.fr/",
+    "lastSeen": {
+      "api.payzen.eu": 1793799683505,
+      "consent.cookiebot.com": 1793799683731,
+      "consentcdn.cookiebot.com": 1793799683842,
+      "fonts.googleapis.com": 1793799684178,
+      "s3.eu-west-3.amazonaws.com": 1793799683247,
+      "www.alcopa-auction.fr": 1793799684242,
+      "www.youtube.com": 1793799683735
+    }
+  },
+  "hostsConsidered": [
+    "api.payzen.eu",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "fonts.googleapis.com",
+    "s3.eu-west-3.amazonaws.com",
+    "www.alcopa-auction.fr",
+    "www.youtube.com"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "url": "https://www.vision-net.ie",
+  "final_url": "https://www.vision-net.ie/",
+  "click_at_s": 29.83,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Business",
+    "Consumers",
+    "News & Events",
+    "About Us",
+    "SUBSCRIBE"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "fonts.gstatic.com": {
+      "first_s": 6.89,
+      "last_s": 7.13
+    },
+    "www.google.com": {
+      "first_s": 6.25,
+      "last_s": 7.04
+    },
+    "www.gstatic.com": {
+      "first_s": 6.34,
+      "last_s": 7.08
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "domain": "www.vision-net.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "vstoken",
+      "domain": ".www.vision-net.ie",
+      "path": "/",
+      "expires": 1809352627.770666,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALB",
+      "domain": "www.vision-net.ie",
+      "path": "/",
+      "expires": 1794405427.770615,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "AWSALBCORS",
+      "domain": "www.vision-net.ie",
+      "path": "/",
+      "expires": 1794405427.77065,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

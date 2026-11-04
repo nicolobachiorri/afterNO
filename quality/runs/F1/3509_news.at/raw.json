@@ -1,0 +1,94 @@
+{
+  "url": "https://www.news.at",
+  "final_url": "https://www.news.at/",
+  "click_at_s": 26.68,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Suche",
+    "MEN\u00dc",
+    "Men\u00fc",
+    "Fotocredits",
+    "Einstellungen verwalten",
+    "PUR Abo kaufen",
+    "Zustimmen & fortfahren"
+  ],
+  "tcf": {
+    "cmpId": 28,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ad1.adfarm1.adition.com": {
+      "first_s": 3.75,
+      "last_s": 23.45
+    },
+    "benelph.de": {
+      "first_s": 3.66,
+      "last_s": 3.66
+    },
+    "cdn.cookielaw.org": {
+      "first_s": 3.46,
+      "last_s": 3.78
+    },
+    "files.fairu.app": {
+      "first_s": 2.52,
+      "last_s": 3.46
+    },
+    "geolocation.onetrust.com": {
+      "first_s": 3.55,
+      "last_s": 3.55
+    },
+    "imagesrv.adition.com": {
+      "first_s": 3.46,
+      "last_s": 23.47
+    },
+    "qualifio.tv-media.at": {
+      "first_s": 3.61,
+      "last_s": 3.61
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.46,
+      "last_s": 3.46
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "__Host-next-auth.csrf-token",
+      "domain": "www.news.at",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-next-auth.callback-url",
+      "domain": "www.news.at",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".news.at",
+      "path": "/",
+      "expires": 1825335576,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

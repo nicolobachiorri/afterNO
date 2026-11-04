@@ -1,0 +1,98 @@
+{
+  "host": "www.polsat.pl",
+  "choice": {
+    "at": 1793800605393,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "site": "polsat.pl",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 2,
+      "names": [
+        "interia.pl",
+        "stat24.com"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.polsat.pl/",
+    "lastSeen": {
+      "b2c.redefine.pl": 1793800610511,
+      "cdn.cookielaw.org": 1793800610519,
+      "connect.facebook.net": 1793800596869,
+      "geolocation.onetrust.com": 1793800610427,
+      "ipla-e1-99.pluscdn.pl": 1793800610708,
+      "ipla.pluscdn.pl": 1793800610661,
+      "iwa3.hit.interia.pl": 1793800610550,
+      "js.iplsc.com": 1793800597509,
+      "platform.instagram.com": 1793800610403,
+      "platform.twitter.com": 1793800610515,
+      "privacyportal-de.onetrust.com": 1793800605391,
+      "pro.hit.gemius.pl": 1793800612564,
+      "redefine.hit.stat24.com": 1793800610412,
+      "redefineadpl.hit.gemius.pl": 1793800610503,
+      "redirector.redefine.pl": 1793800610600,
+      "region1.analytics.google.com": 1793800615445,
+      "region1.google-analytics.com": 1793800610388,
+      "script.hotjar.com": 1793800597050,
+      "sf16-website-login.neutral.ttwstatic.com": 1793800610583,
+      "static.hotjar.com": 1793800596994,
+      "syndication.twitter.com": 1793800610522,
+      "www.google-analytics.com": 1793800610477,
+      "www.googletagmanager.com": 1793800596992,
+      "www.instagram.com": 1793800610424,
+      "www.polsat.pl": 1793800610588,
+      "www.tiktok.com": 1793800610410
+    }
+  },
+  "hostsConsidered": [
+    "b2c.redefine.pl",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "ipla-e1-99.pluscdn.pl",
+    "ipla.pluscdn.pl",
+    "iwa3.hit.interia.pl",
+    "platform.instagram.com",
+    "platform.twitter.com",
+    "pro.hit.gemius.pl",
+    "redefine.hit.stat24.com",
+    "redefineadpl.hit.gemius.pl",
+    "redirector.redefine.pl",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "sf16-website-login.neutral.ttwstatic.com",
+    "syndication.twitter.com",
+    "www.google-analytics.com",
+    "www.instagram.com",
+    "www.polsat.pl",
+    "www.tiktok.com"
+  ]
+}

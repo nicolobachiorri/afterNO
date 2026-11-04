@@ -1,0 +1,108 @@
+{
+  "host": "www.infopedia.pt",
+  "choice": {
+    "at": 1793799999347,
+    "choice": "rejected",
+    "legitimateInterests": 0,
+    "legitimatePurposes": [],
+    "purposesConsented": 0,
+    "purposesTotal": 11,
+    "site": "infopedia.pt",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecorded",
+      "subs": [
+        0,
+        11
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyPartitioned",
+      "count": 1,
+      "names": [
+        "Youtube (youtube.com)"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Prebid SharedID (PubCommon ID)"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.infopedia.pt/",
+    "lastSeen": {
+      "1f64326207f4b21a33b7f565f313fc20.safeframe.googlesyndication.com": 1793799999327,
+      "ads.pubmatic.com": 1793799999312,
+      "bam.eu01.nr-data.net": 1793800004885,
+      "cdn.fusion-platform.com": 1793799999312,
+      "cdn.id5-sync.com": 1793799999313,
+      "cdn.infopedia.pt": 1793799991080,
+      "cdn.jsdelivr.net": 1793799999312,
+      "cdn.mgaru.dev": 1793799999313,
+      "cfdca4e59e0928a6686e83e03c11365d.safeframe.googlesyndication.com": 1793800004787,
+      "connectid.analytics.yahoo.com": 1793799999312,
+      "dmp.im-apps.net": 1793799999312,
+      "ep1.adtrafficquality.google": 1793800005492,
+      "ep2.adtrafficquality.google": 1793800004969,
+      "f.clarity.ms": 1793800004603,
+      "fonts.googleapis.com": 1793799991048,
+      "fonts.gstatic.com": 1793799991070,
+      "fundingchoicesmessages.google.com": 1793800004812,
+      "gum.criteo.com": 1793799999448,
+      "id5-sync.com": 1793799999434,
+      "ident.mygaru.com": 1793799999418,
+      "image6.pubmatic.com": 1793799999940,
+      "invstatic101.creativecdn.com": 1793799999312,
+      "js-agent.newrelic.com": 1793799991217,
+      "oa.openxcdn.net": 1793799999312,
+      "pagead2.googlesyndication.com": 1793800004783,
+      "q.clarity.ms": 1793800014116,
+      "region1.google-analytics.com": 1793800009646,
+      "scripts.clarity.ms": 1793799991313,
+      "securepubads.g.doubleclick.net": 1793800004813,
+      "spadsync.com": 1793800004727,
+      "static.criteo.net": 1793799999313,
+      "tags.crwdcntrl.net": 1793799999313,
+      "ups.analytics.yahoo.com": 1793799999405,
+      "www.clarity.ms": 1793800004881,
+      "www.googletagmanager.com": 1793799990855,
+      "www.infopedia.pt": 1793800004885,
+      "www.youtube.com": 1793800004705
+    }
+  },
+  "hostsConsidered": [
+    "bam.eu01.nr-data.net",
+    "cfdca4e59e0928a6686e83e03c11365d.safeframe.googlesyndication.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "f.clarity.ms",
+    "fundingchoicesmessages.google.com",
+    "gum.criteo.com",
+    "id5-sync.com",
+    "ident.mygaru.com",
+    "image6.pubmatic.com",
+    "pagead2.googlesyndication.com",
+    "q.clarity.ms",
+    "region1.google-analytics.com",
+    "securepubads.g.doubleclick.net",
+    "spadsync.com",
+    "ups.analytics.yahoo.com",
+    "www.clarity.ms",
+    "www.infopedia.pt",
+    "www.youtube.com"
+  ]
+}

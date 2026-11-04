@@ -1,0 +1,32 @@
+{
+  "host": "www.vision-net.ie",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.vision-net.ie/",
+    "lastSeen": {
+      "fonts.gstatic.com": 1793800628228,
+      "static.vision-net.ie": 1793800627611,
+      "www.google.com": 1793800628380,
+      "www.gstatic.com": 1793800628256,
+      "www.vision-net.ie": 1793800627571
+    }
+  },
+  "hostsConsidered": [
+    "fonts.gstatic.com",
+    "static.vision-net.ie",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.vision-net.ie"
+  ]
+}

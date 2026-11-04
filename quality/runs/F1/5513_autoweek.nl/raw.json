@@ -1,0 +1,152 @@
+{
+  "url": "https://www.autoweek.nl",
+  "final_url": "https://myprivacy.dpgmedia.nl/consent?siteKey=ujm6mv0jrqiz5syr&callbackUrl=https%3A%2F%2Fwww.autoweek.nl%2Fprivacygate-confirm%3FredirectUri%3D%252F&isLoggedIn=false",
+  "click_at_s": 26.07,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Inloggen",
+    "Akkoord",
+    "Instellen"
+  ],
+  "tcf": {
+    "cmpId": 411,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 2
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "c.dpgmedia.net": {
+      "first_s": 2.95,
+      "last_s": 2.95
+    },
+    "myprivacy-static.dpgmedia.net": {
+      "first_s": 2.53,
+      "last_s": 2.71
+    },
+    "pg.dpgmedia.net": {
+      "first_s": 2.71,
+      "last_s": 2.71
+    },
+    "sp.dpgmedia.net": {
+      "first_s": 2.8,
+      "last_s": 2.8
+    },
+    "www.autoweek.nl": {
+      "first_s": 2.02,
+      "last_s": 2.02
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.62,
+      "last_s": 2.62
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "ak_bmsc",
+      "domain": ".autoweek.nl",
+      "path": "/",
+      "expires": 1793810724.192831,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_s",
+      "domain": ".autoweek.nl",
+      "path": "/",
+      "expires": 1796481924.193049,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_so",
+      "domain": ".autoweek.nl",
+      "path": "/",
+      "expires": 1793889924.193114,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "xAuthId",
+      "domain": "myprivacy.dpgmedia.nl",
+      "path": "/",
+      "expires": 1827499524.335946,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "authId",
+      "domain": "myprivacy.dpgmedia.nl",
+      "path": "/",
+      "expires": 1827499524.335981,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ak_bmsc",
+      "domain": ".dpgmedia.nl",
+      "path": "/",
+      "expires": 1793810724.335994,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bm_sv",
+      "domain": ".dpgmedia.nl",
+      "path": "/",
+      "expires": 1793810724.507556,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_ses.e23f",
+      "domain": ".dpgmedia.nl",
+      "path": "/",
+      "expires": 1793805324,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_sp_id.e23f",
+      "domain": ".dpgmedia.nl",
+      "path": "/",
+      "expires": 1828363524.770999,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sp",
+      "domain": ".dpgmedia.net",
+      "path": "/",
+      "expires": 1825339525.067237,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "url": "https://www.engineersireland.ie",
+  "final_url": "https://www.engineersireland.ie/",
+  "click_at_s": 26.8,
+  "reload_at_s": null,
+  "reject": "no reject button found",
+  "visible_buttons": [
+    "Open Dropdown Menu",
+    "Cookies Settings",
+    "Accept"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.jsdelivr.net": {
+      "first_s": 3.1,
+      "last_s": 3.14
+    },
+    "cdn.matomo.cloud": {
+      "first_s": 3.84,
+      "last_s": 3.84
+    },
+    "content.hotjar.io": {
+      "first_s": 4.63,
+      "last_s": 4.63
+    },
+    "cookie-cdn.cookiepro.com": {
+      "first_s": 3.84,
+      "last_s": 4.79
+    },
+    "cse.google.com": {
+      "first_s": 3.14,
+      "last_s": 3.14
+    },
+    "engineersireland.matomo.cloud": {
+      "first_s": 4.64,
+      "last_s": 4.65
+    },
+    "p.typekit.net": {
+      "first_s": 4.51,
+      "last_s": 4.51
+    },
+    "placehold.co": {
+      "first_s": 3.14,
+      "last_s": 3.14
+    },
+    "script.hotjar.com": {
+      "first_s": 4.54,
+      "last_s": 4.54
+    },
+    "static.hotjar.com": {
+      "first_s": 3.84,
+      "last_s": 3.84
+    },
+    "use.typekit.net": {
+      "first_s": 3.1,
+      "last_s": 3.66
+    },
+    "www.google.com": {
+      "first_s": 4.55,
+      "last_s": 4.55
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.1,
+      "last_s": 3.1
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "dnn_IsMobile",
+      "domain": "www.engineersireland.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "language",
+      "domain": "www.engineersireland.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": ".ASPXANONYMOUS",
+      "domain": "www.engineersireland.ie",
+      "path": "/",
+      "expires": 1799800660.046211,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Analytics_VisitorId",
+      "domain": "www.engineersireland.ie",
+      "path": "/",
+      "expires": 1796392660.046311,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "Analytics",
+      "domain": "www.engineersireland.ie",
+      "path": "/",
+      "expires": 1793804260.046401,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ASP.NET_SessionId",
+      "domain": "www.engineersireland.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__RequestVerificationToken",
+      "domain": "www.engineersireland.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".cookiepro.com",
+      "path": "/",
+      "expires": 1793802461.500894,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_hjSessionUser_5006564",
+      "domain": ".engineersireland.ie",
+      "path": "/",
+      "expires": 1825336661,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_hjSession_5006564",
+      "domain": ".engineersireland.ie",
+      "path": "/",
+      "expires": 1793802461,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": "www.engineersireland.ie",
+      "path": "/",
+      "expires": 1809352661,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

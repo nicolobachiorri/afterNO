@@ -1,0 +1,55 @@
+{
+  "host": "www.pordata.pt",
+  "choice": {
+    "at": 1793800054067,
+    "choice": "rejected",
+    "label": "Rejeitar",
+    "site": "pordata.pt",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rejeitar"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Dynatrace"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.pordata.pt/",
+    "lastSeen": {
+      "ajax.googleapis.com": 1793800046995,
+      "consent.cookiebot.com": 1793800054199,
+      "consentcdn.cookiebot.com": 1793800059732,
+      "public.flourish.studio": 1793800046282,
+      "www.pordata.pt": 1793800064858
+    }
+  },
+  "hostsConsidered": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "www.pordata.pt"
+  ]
+}
