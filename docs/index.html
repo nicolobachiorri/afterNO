@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>afterNO</title>
-<meta name="description" content="afterNO: cosa succede dopo il tuo rifiuto dei cookie. Un'estensione open source che confronta la tua scelta con cookie e tracker osservati.">
+<meta name="description" content="afterNO: cosa succede dopo il tuo rifiuto dei cookie. / What happens after you reject cookies.">
 <style>
 /* Fonts are part of the site (docs/fonts/, SIL Open Font License 1.1): the page asks
    no third party for anything. */
@@ -327,7 +327,6 @@ table.data .strong { font-weight: 600; }
 footer { border-top: 1px solid var(--line); padding-block: 28px 40px; }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 12px 28px; justify-content: space-between; font-size: 14px; color: var(--muted); }
 footer a { color: var(--ink-2); }
-.site-privacy { flex-basis: 100%; font-size: 13px; max-width: 80ch; }
 .theme {
   position: fixed; z-index: 30;
   left: calc(16px + env(safe-area-inset-left, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px));
@@ -356,44 +355,112 @@ footer a { color: var(--ink-2); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* ---------- languages: one page, both texts; the root's lang picks one ---------- */
+html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !important; }
+.lang { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; gap: 2px; }
+.lang button { font: 500 12.5px var(--f-mono); border: 0; background: none; color: var(--muted); padding: 6px 10px; border-radius: 999px; cursor: pointer; min-height: 32px; }
+.lang button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.top-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+
+/* ---------- what it is, under the title ---------- */
+.what { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font: 500 13px var(--f-mono); padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); }
+.chip.strong { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+
+/* ---------- the three steps of the demo ---------- */
+.howto { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; list-style: none; margin: 0; padding: 0; }
+.howto li {
+  display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; border-radius: 12px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--muted); font-size: 15px; line-height: 1.4;
+  transition: border-color .2s, background .2s, color .2s;
+}
+.howto .num {
+  flex: 0 0 28px; height: 28px; border-radius: 50%; display: grid; place-items: center;
+  font: 500 13px var(--f-mono); border: 1px solid var(--line); color: var(--muted); background: var(--bg);
+}
+.howto b { display: block; color: inherit; font-weight: 600; margin-bottom: 2px; }
+.howto li.now { border-color: var(--accent); background: var(--accent-soft); color: var(--ink); }
+.howto li.now .num { background: var(--accent); border-color: var(--accent); color: #fff; }
+.howto li.done { color: var(--ink-2); }
+.howto li.done .num { background: var(--ok-soft); border-color: var(--ok-soft); color: var(--ok); }
+.mini-logo { display: inline-block; width: 18px; height: 18px; vertical-align: -3px; margin: 0 2px; }
+.modehint { font-size: 14px; color: var(--muted); }
+
+/* ---------- the icon jumps when it is its turn ---------- */
+.ext-btn.jump { animation: jump .45s cubic-bezier(.3,.6,.4,1) 0s 4 alternate, glow 1.6s ease-in-out .9s infinite; }
+@keyframes jump { from { transform: translateY(0) scale(1); } to { transform: translateY(-9px) scale(1.18); } }
+@keyframes glow { 0%, 100% { box-shadow: 0 0 0 0 transparent; } 50% { box-shadow: 0 0 0 7px var(--accent-soft); } }
+.callout {
+  position: absolute; top: 54px; right: 10px; z-index: 4; display: flex; align-items: center; gap: 8px;
+  background: var(--accent); color: #fff; font: 500 13px var(--f-mono); padding: 8px 12px; border-radius: 10px;
+  box-shadow: 0 10px 24px -10px rgb(0 0 0 / .4); animation: rise .35s ease both;
+}
+.callout::before { content: ""; position: absolute; top: -6px; right: 18px; width: 12px; height: 12px; background: var(--accent); transform: rotate(45deg); border-radius: 2px; }
+
+@media (max-width: 760px) {
+  .top-right { width: 100%; min-width: 0; flex-wrap: nowrap; }
+  .top-right nav.main { flex: 1 1 0; min-width: 0; width: auto; }
+  .howto { grid-template-columns: 1fr; }
+  .howto li { padding: 10px 12px; }
+}
+
+.site-privacy { flex-basis: 100%; font-size: 13px; max-width: 80ch; }
 </style>
 </head>
 <body>
-
-
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="#" aria-label="afterNO, pagina iniziale">
+    <a class="logo" href="#" aria-label="afterNO">
       <svg viewBox="0 0 128 128" aria-hidden="true"><rect x="4" y="4" width="120" height="120" rx="28" fill="#1F3A5F"/><line x1="78" y1="78" x2="106" y2="106" stroke="#F3E9DC" stroke-width="16" stroke-linecap="round"/><circle cx="54" cy="54" r="34" fill="#E2B680" stroke="#F3E9DC" stroke-width="9"/><circle cx="44" cy="44" r="6" fill="#6B4423"/><circle cx="64" cy="58" r="6" fill="#6B4423"/><circle cx="47" cy="68" r="5" fill="#6B4423"/></svg>
       <span>after<span class="px">NO</span></span>
     </a>
-    <nav class="main" aria-label="Pagine">
-      <a href="#" data-nav="">Provala</a>
-      <a href="#fidarmi" data-nav="fidarmi">Posso fidarmi?</a>
-      <a href="#come-ragiona" data-nav="come-ragiona">Come ragiona</a>
-      <a href="#open-source" data-nav="open-source">Open source</a>
-    </nav>
+    <div class="top-right">
+      <nav class="main" aria-label="Pagine">
+        <a href="#" data-nav=""><span data-l="it">Provala</span><span data-l="en">Try it</span></a>
+        <a href="#fidarmi" data-nav="fidarmi"><span data-l="it">Posso fidarmi?</span><span data-l="en">Can I trust it?</span></a>
+        <a href="#come-ragiona" data-nav="come-ragiona"><span data-l="it">Come ragiona</span><span data-l="en">How it thinks</span></a>
+        <a href="#open-source" data-nav="open-source">Open source</a>
+      </nav>
+      <div class="lang" role="group" aria-label="Lingua / Language">
+        <button type="button" data-lang="it" aria-pressed="true" lang="it">IT</button>
+        <button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+      </div>
+    </div>
   </div>
 </header>
 
 <main class="wrap">
 
-<!-- ======================= HOME ======================= -->
-<section class="view" id="v-home" data-view="">
-  <div class="hero">
+<!-- ======================= HOME (shared demo) ======================= -->
+<section class="view" data-view="">
+  <div class="hero" data-l="it">
     <p class="eyebrow">cosa succede dopo il tuo rifiuto dei cookie</p>
     <h1 class="display">Hai detto <span class="px">NO</span>.<br>E poi?</h1>
-    <p class="lead">Clicchi «Rifiuta» su un banner dei cookie, e il banner sparisce. Ma chi può ancora riconoscerti? afterNO te lo dice in parole semplici. Provala qui sotto, su un sito inventato.</p>
+    <p class="lead">afterNO è un'<b>estensione per il browser</b>, per Chrome e Firefox. Clicchi «Rifiuta» sul banner dei cookie di un sito, apri afterNO, e ti dice in parole semplici chi può ancora riconoscerti. Provala qui sotto, su un sito inventato.</p>
+    <div class="what"><span class="chip strong">estensione per Chrome e Firefox</span><span class="chip">gratuita</span><span class="chip">open source</span><span class="chip">niente esce dal browser</span></div>
+  </div>
+  <div class="hero" data-l="en">
+    <p class="eyebrow">what happens after you reject cookies</p>
+    <h1 class="display">You said <span class="px">NO</span>.<br>Then what?</h1>
+    <p class="lead">afterNO is a <b>browser extension</b> for Chrome and Firefox. You click "Reject" on a site's cookie banner, open afterNO, and it tells you in plain words who can still recognise you. Try it below, on a made-up site.</p>
+    <div class="what"><span class="chip strong">extension for Chrome and Firefox</span><span class="chip">free</span><span class="chip">open source</span><span class="chip">nothing leaves your browser</span></div>
   </div>
 
-  <div class="demo" aria-label="Prova interattiva di afterNO">
+  <div class="demo" aria-label="Demo">
+    <ol class="howto" id="howto">
+      <li data-k="1"><span class="num">1</span><span><b data-l="it">Scegli nel banner</b><b data-l="en">Choose in the banner</b><span data-l="it">Clicca «Rifiuta tutto» nel banner del sito qui sotto.</span><span data-l="en">Click "Reject all" in the banner of the site below.</span></span></li>
+      <li data-k="2"><span class="num">2</span><span><b data-l="it">Apri afterNO</b><b data-l="en">Open afterNO</b><span data-l="it">Clicca la sua icona <svg class="mini-logo" viewBox="0 0 128 128" aria-hidden="true"><rect x="4" y="4" width="120" height="120" rx="28" fill="#1F3A5F"/><circle cx="54" cy="54" r="34" fill="#E2B680"/></svg> in alto a destra, nella barra del browser.</span><span data-l="en">Click its icon <svg class="mini-logo" viewBox="0 0 128 128" aria-hidden="true"><rect x="4" y="4" width="120" height="120" rx="28" fill="#1F3A5F"/><circle cx="54" cy="54" r="34" fill="#E2B680"/></svg> at the top right, in the browser bar.</span></span></li>
+      <li data-k="3"><span class="num">3</span><span><b data-l="it">Leggi il verdetto</b><b data-l="en">Read the verdict</b><span data-l="it">Poi apri «Perché?» o «Vedi i cookie» per i dettagli.</span><span data-l="en">Then open "Why?" or "See the cookies" for the details.</span></span></li>
+    </ol>
+
     <div class="demo-bar">
-      <p class="guide" id="guide" aria-live="polite"></p>
+      <p class="modehint"><span data-l="it">Prova anche l'altro sito: cambia qui come si comporta, poi ricomincia.</span><span data-l="en">Try the other site too: change how it behaves here, then start again.</span></p>
       <div class="switch-wrap">
-        <span class="seg-label" id="mode-label">il sito di prova:</span>
+        <span class="seg-label" id="mode-label"><span data-l="it">il sito di prova:</span><span data-l="en">the demo site:</span></span>
         <div class="seg" role="group" aria-labelledby="mode-label">
-          <button type="button" id="mode-respect" aria-pressed="true">rispetta il rifiuto</button>
-          <button type="button" id="mode-ignore" aria-pressed="false">non lo rispetta</button>
+          <button type="button" id="mode-respect" aria-pressed="true"><span data-l="it">rispetta il rifiuto</span><span data-l="en">respects the rejection</span></button>
+          <button type="button" id="mode-ignore" aria-pressed="false"><span data-l="it">non lo rispetta</span><span data-l="en">ignores it</span></button>
         </div>
       </div>
     </div>
@@ -401,18 +468,19 @@ footer a { color: var(--ink-2); }
     <div class="window" id="window">
       <div class="chrome">
         <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
-        <div class="url">https://<b>quotidiano-immaginario.example</b>/oggi</div>
-        <button type="button" class="ext-btn" id="ext-btn" aria-label="Apri afterNO" aria-expanded="false">
+        <div class="url">https://<b class="js-domain">quotidiano-immaginario.example</b>/<span data-l="it">oggi</span><span data-l="en">today</span></div>
+        <button type="button" class="ext-btn" id="ext-btn" aria-label="afterNO" aria-expanded="false">
           <svg viewBox="0 0 128 128" aria-hidden="true"><rect x="4" y="4" width="120" height="120" rx="28" fill="#1F3A5F"/><line x1="78" y1="78" x2="106" y2="106" stroke="#F3E9DC" stroke-width="16" stroke-linecap="round"/><circle cx="54" cy="54" r="34" fill="#E2B680" stroke="#F3E9DC" stroke-width="9"/><circle cx="44" cy="44" r="6" fill="#6B4423"/><circle cx="64" cy="58" r="6" fill="#6B4423"/><circle cx="47" cy="68" r="5" fill="#6B4423"/></svg>
           <span class="badge" aria-hidden="true"></span>
         </button>
       </div>
+      <div class="callout" id="callout" hidden><span data-l="it">Clicca qui: è afterNO</span><span data-l="en">Click here: it's afterNO</span></div>
 
       <div class="site" aria-hidden="true">
-        <div class="site-mast"><span class="site-name">Il Quotidiano Immaginario</span><span class="site-date">sito inventato per la prova</span></div>
+        <div class="site-mast"><span class="site-name"><span data-l="it">Il Quotidiano Immaginario</span><span data-l="en">The Imaginary Daily</span></span><span class="site-date"><span data-l="it">sito inventato per la prova</span><span data-l="en">a made-up site for the demo</span></span></div>
         <div class="site-cols">
           <div class="sk-group">
-            <h4>Una notizia qualsiasi, in un giornale che non esiste</h4>
+            <h4><span data-l="it">Una notizia qualsiasi, in un giornale che non esiste</span><span data-l="en">Some news story, in a paper that doesn't exist</span></h4>
             <div class="sk img"></div>
             <div class="sk" style="width:96%"></div><div class="sk" style="width:90%"></div><div class="sk" style="width:94%"></div><div class="sk" style="width:60%"></div>
           </div>
@@ -427,34 +495,40 @@ footer a { color: var(--ink-2); }
 
       <div class="pings" id="pings" aria-live="polite"></div>
 
-      <div class="banner" id="banner" role="dialog" aria-label="Banner dei cookie del sito di prova">
-        <p><b>Il Quotidiano Immaginario usa i cookie</b>Noi e i nostri partner usiamo cookie per misurare le visite e mostrarti pubblicità. Puoi rifiutare.</p>
+      <div class="banner" id="banner" role="dialog" aria-label="Cookie banner">
+        <p><b data-l="it">Il Quotidiano Immaginario usa i cookie</b><b data-l="en">The Imaginary Daily uses cookies</b><span data-l="it">Noi e i nostri partner usiamo cookie per misurare le visite e mostrarti pubblicità. Puoi rifiutare.</span><span data-l="en">We and our partners use cookies to measure visits and show you ads. You can say no.</span></p>
         <div class="btns">
-          <button type="button" class="bbtn custom" id="b-custom">Personalizza</button>
-          <button type="button" class="bbtn reject pulse" id="b-reject">Rifiuta tutto</button>
-          <button type="button" class="bbtn accept" id="b-accept">Accetta tutto</button>
+          <button type="button" class="bbtn custom" id="b-custom"><span data-l="it">Personalizza</span><span data-l="en">Customise</span></button>
+          <button type="button" class="bbtn reject pulse" id="b-reject"><span data-l="it">Rifiuta tutto</span><span data-l="en">Reject all</span></button>
+          <button type="button" class="bbtn accept" id="b-accept"><span data-l="it">Accetta tutto</span><span data-l="en">Accept all</span></button>
         </div>
-        <p class="banner-note" id="banner-note" hidden>Nella prova ci sono solo «Rifiuta tutto» e «Accetta tutto».</p>
+        <p class="banner-note" id="banner-note" hidden></p>
       </div>
 
-      <div class="popup" id="popup" hidden aria-label="Popup di afterNO"></div>
+      <div class="popup" id="popup" hidden aria-label="afterNO"></div>
     </div>
-    <p class="small">Dati di esempio: il sito, le aziende (Pubblinet, Segui-ID) e i cookie sono inventati. Il popup è lo stesso dell'estensione.</p>
+    <p class="small"><span data-l="it">Dati di esempio: il sito, le aziende (Pubblinet, Segui-ID) e i cookie sono inventati. Il popup è quello dell'estensione.</span><span data-l="en">Example data: the site, the companies (Pubblinet, Segui-ID) and the cookies are made up. The popup is the extension's own.</span></p>
   </div>
 
   <div class="stack">
-    <p class="eyebrow">e adesso</p>
-    <div class="doors">
-      <a class="door" href="#fidarmi"><span class="arrow">=&gt; per chi sta per installarla</span><span class="t">Posso fidarmi?</span><span class="d">Cosa fa, cosa non fa, cosa non vede, e quanto è preciso: misurato, con i numeri.</span></a>
+    <p class="eyebrow"><span data-l="it">e adesso</span><span data-l="en">and now</span></p>
+    <div class="doors" data-l="it">
+      <a class="door" href="#fidarmi"><span class="arrow">=&gt; per chi sta per installarla</span><span class="t">Posso fidarmi?</span><span class="d">Cosa fa, cosa non fa, cosa non vede, e quanto è precisa: misurata, con i numeri.</span></a>
       <a class="door" href="#come-ragiona"><span class="arrow">=&gt; per chi vuole capire</span><span class="t">Come ragiona</span><span class="d">Dal tuo clic al verdetto, un passo alla volta, sui cookie di questo stesso sito inventato.</span></a>
       <a class="door" href="#open-source"><span class="arrow">=&gt; per chi vuole controllare</span><span class="t">Perché open source</span><span class="d">Il codice, il database dei cookie, la licenza, e come scriverci.</span></a>
     </div>
-    <p class="facts"><span>gratuita</span><span>open source, Apache 2.0</span><span>niente esce dal tuo browser</span><span>Chrome e Firefox, in arrivo negli store</span></p>
+    <div class="doors" data-l="en">
+      <a class="door" href="#fidarmi"><span class="arrow">=&gt; if you're about to install it</span><span class="t">Can I trust it?</span><span class="d">What it does, what it doesn't, what it cannot see, and how accurate it is: measured, with numbers.</span></a>
+      <a class="door" href="#come-ragiona"><span class="arrow">=&gt; if you want to understand</span><span class="t">How it thinks</span><span class="d">From your click to the verdict, one step at a time, on the cookies of this same made-up site.</span></a>
+      <a class="door" href="#open-source"><span class="arrow">=&gt; if you want to check</span><span class="t">Why open source</span><span class="d">The code, the cookie database, the licence, and how to reach us.</span></a>
+    </div>
+    <p class="facts" data-l="it"><span>Chrome e Firefox, in arrivo negli store</span><span>Apache 2.0</span></p>
+    <p class="facts" data-l="en"><span>Chrome and Firefox, coming to the stores</span><span>Apache 2.0</span></p>
   </div>
 </section>
 
 <!-- ======================= POSSO FIDARMI ======================= -->
-<section class="view" id="v-fidarmi" data-view="fidarmi" hidden>
+<section class="view" data-view="fidarmi" data-l="it" hidden>
   <div class="hero">
     <p class="eyebrow">posso fidarmi?</p>
     <h1 class="display">Non devi crederci<br>sulla <span class="px">parola</span>.</h1>
@@ -544,14 +618,14 @@ footer a { color: var(--ink-2); }
 </section>
 
 <!-- ======================= COME RAGIONA ======================= -->
-<section class="view" id="v-come" data-view="come-ragiona" hidden>
+<section class="view" data-view="come-ragiona" data-l="it" hidden>
   <div class="hero">
     <p class="eyebrow">come ragiona</p>
     <h1 class="display">Dal tuo clic<br>al <span class="px">verdetto</span>.</h1>
     <p class="lead">Sei passi, sempre nello stesso ordine. Li seguiamo sui cookie del Quotidiano Immaginario, il sito inventato della prova, nella versione che non rispetta il rifiuto. Clicca un passo per vedere cosa guarda nella tabella.</p>
   </div>
 
-  <div class="steps" id="steps">
+  <div class="steps">
     <button type="button" class="step" data-step="1" aria-pressed="false">
       <span class="n">passo 1 · la tua scelta</span>
       <span class="h3">Prima capisce cosa hai scelto.</span>
@@ -591,10 +665,10 @@ footer a { color: var(--ink-2); }
   <div class="stack">
     <div class="sieve-head">
       <p class="eyebrow">i cookie del sito di prova, dopo il rifiuto</p>
-      <p class="sieve-caption" id="sieve-caption">tutti i passi insieme</p>
+      <p class="sieve-caption">tutti i passi insieme</p>
     </div>
     <div class="table-wrap">
-      <table class="data sieve" id="sieve">
+      <table class="data sieve">
         <thead><tr>
           <th class="c-name">cookie</th><th class="c-where">salvato da</th><th class="c-owner">di chi è</th>
           <th class="c-same">rimandato da altri siti</th><th class="c-life">dura</th><th class="c-label">etichetta</th><th class="c-out">esito</th>
@@ -631,7 +705,7 @@ footer a { color: var(--ink-2); }
 </section>
 
 <!-- ======================= OPEN SOURCE ======================= -->
-<section class="view" id="v-os" data-view="open-source" hidden>
+<section class="view" data-view="open-source" data-l="it" hidden>
   <div class="hero">
     <p class="eyebrow">perché open source</p>
     <h1 class="display">Chi legge i tuoi siti<br>deve farsi <span class="px">leggere</span>.</h1>
@@ -666,206 +740,493 @@ footer a { color: var(--ink-2); }
     <h2 class="h2">Scrivici.</h2>
     <p class="lead">Segnalazioni, un sito su cui sbaglia, domande sul metodo: tutto è benvenuto.</p>
     <div class="contact">
-      <span class="addr" id="addr">afterno.extension@gmail.com</span>
-      <button type="button" class="btn" id="copy">Copia l'indirizzo</button>
+      <span class="addr">afterno.extension@gmail.com</span>
+      <button type="button" class="btn copy" data-done="Copiato" data-sel="Selezionato: copialo">Copia l'indirizzo</button>
       <a class="btn ghost" href="https://github.com/nicolobachiorri/afterNO" target="_blank" rel="noopener">GitHub</a>
     </div>
   </div>
 </section>
+
+<!-- ======================= CAN I TRUST IT (EN) ======================= -->
+<section class="view" data-view="fidarmi" data-l="en" hidden>
+  <div class="hero">
+    <p class="eyebrow">can I trust it?</p>
+    <h1 class="display">You don't have to<br>take our <span class="px">word</span>.</h1>
+    <p class="lead">afterNO doesn't ask for your trust. It tells you where each sentence comes from, what it cannot see, and how often it is right. All of it can be checked.</p>
+    <a class="inline-door" href="#">Try it first, on the made-up site</a>
+  </div>
+
+  <div class="grid2">
+    <div class="panel stack">
+      <p class="eyebrow">what it does</p>
+      <ul class="list">
+        <li><svg viewBox="0 0 20 20" class="mk ok" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6 10.3l2.6 2.6 5.4-5.6"/></svg>Reads your choice: from the site's consent signal, or from the button you clicked.</li>
+        <li><svg viewBox="0 0 20 20" class="mk ok" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6 10.3l2.6 2.6 5.4-5.6"/></svg>Tells you which other companies can still recognise you on that site.</li>
+        <li><svg viewBox="0 0 20 20" class="mk ok" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6 10.3l2.6 2.6 5.4-5.6"/></svg>Explains every cookie: whose it is, how long it lasts, what it is for according to the database.</li>
+        <li><svg viewBox="0 0 20 20" class="mk ok" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6 10.3l2.6 2.6 5.4-5.6"/></svg>States the source of every sentence: observed, possible or classified.</li>
+      </ul>
+    </div>
+    <div class="panel stack">
+      <p class="eyebrow">what it doesn't do</p>
+      <ul class="list">
+        <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6.5 10h7"/></svg>It blocks nothing: it watches and reports.</li>
+        <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6.5 10h7"/></svg>It doesn't click banners for you: the choice stays yours.</li>
+        <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6.5 10h7"/></svg>It never says "this site breaks the law": it says what it sees, carefully.</li>
+        <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M6.5 10h7"/></svg>It never opens by itself: it shows something only when you ask.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="stack">
+    <div class="sec-head"><p class="eyebrow">privacy</p><h2 class="h2">Everything stays in your browser.</h2></div>
+    <div class="grid4">
+      <div class="panel tile"><span class="k">0 servers</span><span class="v">No network requests of its own. The cookie database ships inside the extension.</span></div>
+      <div class="panel tile"><span class="k">0 accounts</span><span class="v">No sign-up, no login, nothing to connect.</span></div>
+      <div class="panel tile"><span class="k">0 analytics</span><span class="v">We don't know who uses it or where: we collect nothing.</span></div>
+      <div class="panel tile"><span class="k">gone</span><span class="v">What it remembers is deleted when you close the browser.</span></div>
+    </div>
+  </div>
+
+  <div class="panel stack">
+    <p class="eyebrow">what it cannot see</p>
+    <h2 class="h3">An extension sees what the browser sees. It doesn't see, and doesn't pretend to see:</h2>
+    <ul class="list">
+      <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M10 9v5M10 6.2v.1"/></svg>recognition <b>without cookies</b> (browser fingerprinting);</li>
+      <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M10 9v5M10 6.2v.1"/></svg>other browser storage (localStorage, IndexedDB);</li>
+      <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M10 9v5M10 6.2v.1"/></svg>data that companies pass <b>between their own servers</b>;</li>
+      <li><svg viewBox="0 0 20 20" class="mk info" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="M10 9v5M10 6.2v.1"/></svg><b>what a company actually does</b> with a cookie: the purpose is declared, not observable.</li>
+    </ul>
+  </div>
+
+  <div class="stack">
+    <div class="sec-head">
+      <p class="eyebrow">how accurate it is</p>
+      <h2 class="h2">Measured on <span class="px">120</span> sites it had never seen.</h2>
+      <p class="lead">Sites drawn at random from a public list, with a method written down before any result. A robot clicks "Reject", saves the verdict and, separately, all the raw data. Two judges from different companies check whether the verdict is right.</p>
+    </div>
+    <div class="defs">
+      <div class="panel def"><b>coverage</b>Of 40 sites, how many had a free rejection to check. Where there is no rejection, there is nothing to check.</div>
+      <div class="panel def"><b>accuracy</b>Of those sites, how many conclusions were right. "All right" on a few sites means "at least so many %", not "never wrong".</div>
+      <div class="panel def"><b>stability</b>The same sites visited a second time, with the same version: is the answer the same?</div>
+    </div>
+    <div class="table-wrap">
+      <table class="data">
+        <thead><tr><th></th><th>Italy</th><th>EU, first round</th><th>EU, second round</th></tr></thead>
+        <tbody>
+          <tr><td class="strong">Coverage</td><td class="num">22 of 40</td><td class="num">14 of 40</td><td class="num">19 of 40</td></tr>
+          <tr><td class="strong">Accuracy</td><td class="num">22 of 22 · at least 85%</td><td class="num">14 of 14 · at least 78%</td><td class="num">19 of 19 · at least 83%</td></tr>
+          <tr><td>False alarms</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr><td>Problems not seen</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr><td>Second judge agrees</td><td class="num">21 of 22</td><td class="num">14 of 14</td><td class="num">19 of 19</td></tr>
+          <tr><td class="strong">Stability</td><td class="num">not measured on this version</td><td class="num">14 of 14, the next day</td><td class="num">19 of 19, an hour later</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="list small">
+      <li>"At least" is the lower end of the 95% confidence interval (Wilson): with 14 to 22 sites the uncertainty is wide.</li>
+      <li>EU: eight countries (Germany, Austria, France, Spain, Portugal, the Netherlands, Poland, Ireland), five sites each, visited in the language of the country. Each round measures the version corrected after the previous one.</li>
+      <li>The main judge is Claude, the AI that wrote most of the code: a conflict of interest, stated openly. That is why there is a second judge from another company, Gemini, who judges independently.</li>
+      <li>The robot uses a fresh browser for every site: the measurement says whether the extension reads the data in front of it correctly, not how often a real user will see "only partly".</li>
+    </ul>
+    <a class="inline-door" href="https://github.com/nicolobachiorri/afterNO/blob/main/quality/PROTOCOL.md" target="_blank" rel="noopener">The protocol, the data and the judgments, site by site</a>
+  </div>
+
+  <div class="doors">
+    <a class="door" href="#"><span class="arrow">=&gt; before installing it</span><span class="t">Try it on the made-up site</span><span class="d">Thirty seconds: reject, open afterNO, look.</span></a>
+    <a class="door" href="#come-ragiona"><span class="arrow">=&gt; in detail</span><span class="t">How it thinks</span><span class="d">How it gets from your click to the verdict.</span></a>
+  </div>
+</section>
+
+<!-- ======================= HOW IT THINKS (EN) ======================= -->
+<section class="view" data-view="come-ragiona" data-l="en" hidden>
+  <div class="hero">
+    <p class="eyebrow">how it thinks</p>
+    <h1 class="display">From your click<br>to the <span class="px">verdict</span>.</h1>
+    <p class="lead">Six steps, always in the same order. We follow them on the cookies of the Imaginary Daily, the made-up site of the demo, in the version that ignores your rejection. Click a step to see what it looks at in the table.</p>
+  </div>
+
+  <div class="steps">
+    <button type="button" class="step" data-step="1" aria-pressed="false">
+      <span class="n">step 1 · your choice</span>
+      <span class="h3">First, it works out what you chose.</span>
+      <p>If the site uses the European consent standard (IAB TCF), it reads your choice there: it is the signal the site sends to its advertising partners. Otherwise it looks at the button you clicked.</p>
+      <ul><li>it recognises rejection phrases in eight EU languages, and the internal names of the banner platforms;</li><li>"Customise" or "Manage" is not a choice; "Reject and subscribe" is not a free rejection.</li></ul>
+    </button>
+    <button type="button" class="step" data-step="2" aria-pressed="false">
+      <span class="n">step 2 · what is left</span>
+      <span class="h3">Then it looks at what is left in the browser.</span>
+      <p>The cookies present after your choice, and the sites the page contacts after the click. It only reads them: nothing leaves the browser.</p>
+    </button>
+    <button type="button" class="step" data-step="3" aria-pressed="false">
+      <span class="n">step 3 · whose is it</span>
+      <span class="h3">It tells the site apart from the others.</span>
+      <p>A cookie stored on the site's own domain belongs to <b>the site</b>; one stored on another company's domain is <b>third-party</b>.</p>
+      <ul><li>subdomains and suffixes such as co.uk, gov.it or ac.at count as one site;</li><li>a "partitioned" cookie is kept for this site only: it doesn't follow you elsewhere.</li></ul>
+    </button>
+    <button type="button" class="step" data-step="4" aria-pressed="false">
+      <span class="n">step 4 · who can recognise you</span>
+      <span class="h3">It counts who can recognise you.</span>
+      <p>A third-party cookie can recognise you if the browser sends it back to that company from here too (SameSite=None), if the company is contacted after your choice, and if it lasts long enough to find you again in the following days.</p>
+      <ul><li>an unknown third-party cookie, sent everywhere and valid at least 30 days, is a "likely identifier";</li><li>the cookies of your own account (Google, Facebook…) exist because you are signed in: information, not the site's fault.</li></ul>
+    </button>
+    <button type="button" class="step" data-step="5" aria-pressed="false">
+      <span class="n">step 5 · the labels</span>
+      <span class="h3">It gives things a name.</span>
+      <p>The labels (marketing, analytics, functional…) come from the Open Cookie Database, a public archive of about 2,300 cookie names, compiled mostly from what companies declare. That is why the extension writes "classified as", never "is".</p>
+      <ul><li>a marketing cookie of the site counts if it lasts more than a day;</li><li>the site's own analytics is information: in some cases it is allowed without consent.</li></ul>
+    </button>
+    <button type="button" class="step" data-step="6" aria-pressed="false">
+      <span class="n">step 6 · the conclusion</span>
+      <span class="h3">Finally, a careful conclusion.</span>
+      <p>Nothing against: "your rejection seems to be respected". At least one point: "seems to be only partly respected", with the reason. Never "the site breaks the law": the extension cannot know that.</p>
+    </button>
+  </div>
+
+  <div class="stack">
+    <div class="sieve-head">
+      <p class="eyebrow">the demo site's cookies, after the rejection</p>
+      <p class="sieve-caption">all the steps together</p>
+    </div>
+    <div class="table-wrap">
+      <table class="data sieve">
+        <thead><tr>
+          <th class="c-name">cookie</th><th class="c-where">stored by</th><th class="c-owner">whose</th>
+          <th class="c-same">sent back from other sites</th><th class="c-life">lasts</th><th class="c-label">label</th><th class="c-out">outcome</th>
+        </tr></thead>
+        <tbody>
+          <tr><td class="c-name">sessione</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">—</td><td class="c-life">until closing</td><td class="c-label">necessary</td><td class="c-out"><span class="tag none">doesn't count</span></td></tr>
+          <tr><td class="c-name">euconsent-v2</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">—</td><td class="c-life">13 months</td><td class="c-label">functional: remembers your choice</td><td class="c-out"><span class="tag none">doesn't count</span></td></tr>
+          <tr><td class="c-name">_pk_id</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">—</td><td class="c-life">13 months</td><td class="c-label">analytics</td><td class="c-out"><span class="tag info">information</span></td></tr>
+          <tr><td class="c-name">_pn_click</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">—</td><td class="c-life">3 months</td><td class="c-label">marketing (Pubblinet)</td><td class="c-out"><span class="tag against">point against</span></td></tr>
+          <tr><td class="c-name">pn_uid</td><td class="c-where">pubblinet.example</td><td class="c-owner">third-party</td><td class="c-same">yes, contacted after the click</td><td class="c-life">13 months</td><td class="c-label">marketing</td><td class="c-out"><span class="tag against">can recognise you</span></td></tr>
+          <tr><td class="c-name">sid_x9</td><td class="c-where">seguiid.example</td><td class="c-owner">third-party</td><td class="c-same">yes, contacted after the click</td><td class="c-life">12 months</td><td class="c-label">unknown: likely identifier</td><td class="c-out"><span class="tag against">can recognise you</span></td></tr>
+          <tr><td class="c-name">__cf_bm</td><td class="c-where">cdn-images.example</td><td class="c-owner">third-party</td><td class="c-same">yes</td><td class="c-life">30 minutes</td><td class="c-label">security</td><td class="c-out"><span class="tag none">doesn't count</span></td></tr>
+          <tr><td class="c-name">SID</td><td class="c-where">account.example</td><td class="c-owner">third-party: your account</td><td class="c-same">yes</td><td class="c-life">2 years</td><td class="c-label">your account's cookie</td><td class="c-out"><span class="tag info">information</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="result-line"><b>Your rejection seems to be only partly respected.</b> 2 third-party sites can still recognise you, and 1 of the site's cookies is classified as marketing.</div>
+  </div>
+
+  <div class="stack">
+    <div class="sec-head"><p class="eyebrow">three levels of certainty</p><h2 class="h2">Every sentence says where it comes from.</h2></div>
+    <div class="levels">
+      <div class="panel level"><span class="k">observed</span><q>The site's consent signal records your rejection</q><p class="small">What the browser sees: cookies, contacted sites, the TCF signal.</p></div>
+      <div class="panel level"><span class="k">possible</span><q>2 third-party sites <b>can</b> recognise you</q><p class="small">A technical capability (a long-lived cookie sent back to a company), not proof that it is used.</p></div>
+      <div class="panel level"><span class="k">classified</span><q>1 cookie is <b>classified as</b> marketing</q><p class="small">What the database says, compiled mostly from what companies declare.</p></div>
+    </div>
+    <p class="small">The main question, whether anyone can still recognise you after the rejection, rests on the first two levels. The database only adds names and descriptions.</p>
+  </div>
+
+  <div class="doors">
+    <a class="door" href="https://github.com/nicolobachiorri/afterNO" target="_blank" rel="noopener"><span class="arrow">=&gt; everything else</span><span class="t">The code on GitHub</span><span class="d">The exact rules, the tests, the cookie database and its corrections.</span></a>
+    <a class="door" href="#fidarmi"><span class="arrow">=&gt; does it work?</span><span class="t">How accurate it is</span><span class="d">Coverage, accuracy and stability, measured on 120 sites.</span></a>
+  </div>
+</section>
+
+<!-- ======================= OPEN SOURCE (EN) ======================= -->
+<section class="view" data-view="open-source" data-l="en" hidden>
+  <div class="hero">
+    <p class="eyebrow">why open source</p>
+    <h1 class="display">What reads your sites<br>should be <span class="px">readable</span>.</h1>
+    <p class="lead">An extension that can see the cookies of every site you visit asks for a lot of trust. The only honest way to ask for it is to let anyone check what it does.</p>
+  </div>
+
+  <div class="grid2">
+    <div class="panel stack">
+      <p class="eyebrow">open</p>
+      <h2 class="h3">The code is public, under the Apache 2.0 licence.</h2>
+      <p>Anyone can read it, check that it sends nothing out of the browser, build it themselves and compare it with the store version. The measurement method and all its data are public too.</p>
+    </div>
+    <div class="panel stack">
+      <p class="eyebrow">non-commercial</p>
+      <h2 class="h3">Nothing to sell, nothing to collect.</h2>
+      <p>No ads, no subscriptions, no paid version, and no data collected: we would have nowhere to put it. It is a personal project, born of curiosity and usefulness.</p>
+    </div>
+    <div class="panel stack">
+      <p class="eyebrow">the cookie data</p>
+      <h2 class="h3">Open Cookie Database.</h2>
+      <p>Cookie names and descriptions come from the <a href="https://github.com/jkwakman/Open-Cookie-Database" target="_blank" rel="noopener">Open Cookie Database</a>, also under Apache 2.0, converted and updated automatically every month. The few local corrections are public, each with its reason.</p>
+    </div>
+    <div class="panel stack">
+      <p class="eyebrow">status</p>
+      <h2 class="h3">In development, not in the stores yet.</h2>
+      <p>It works on Chrome and Firefox. It will be published in the stores after the last checks.</p>
+    </div>
+  </div>
+
+  <div class="panel stack">
+    <p class="eyebrow">contact</p>
+    <h2 class="h2">Write to us.</h2>
+    <p class="lead">Reports, a site where it gets things wrong, questions about the method: all welcome.</p>
+    <div class="contact">
+      <span class="addr">afterno.extension@gmail.com</span>
+      <button type="button" class="btn copy" data-done="Copied" data-sel="Selected: copy it">Copy the address</button>
+      <a class="btn ghost" href="https://github.com/nicolobachiorri/afterNO" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <footer>
   <div class="wrap">
-    <span>after<span class="px">NO</span> · cosa succede dopo il tuo rifiuto dei cookie</span>
+    <span>after<span class="px">NO</span> · <span data-l="it">cosa succede dopo il tuo rifiuto dei cookie</span><span data-l="en">what happens after you reject cookies</span></span>
     <span>Apache 2.0 · <a href="https://github.com/nicolobachiorri/afterNO" target="_blank" rel="noopener">GitHub</a> · afterno.extension@gmail.com</span>
-    <span class="site-privacy">Questo sito non usa cookie né statistiche e non chiede nulla a server di terzi: anche i caratteri sono inclusi. È ospitato da GitHub Pages, che come ogni servizio di hosting registra i dati tecnici delle visite (<a href="https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">informativa di GitHub</a>).</span>
+    <span class="site-privacy" data-l="it">Questo sito non usa cookie né statistiche e non carica nulla da altri server: anche i caratteri sono inclusi. È ospitato da GitHub Pages, che come ogni servizio di hosting registra i dati tecnici delle visite (<a href="https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">informativa di GitHub</a>).</span>
+    <span class="site-privacy" data-l="en">This site uses no cookies and no analytics, and loads nothing from other servers: even the fonts are included. It is hosted by GitHub Pages, which, like any hosting service, logs the technical data of visits (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub's privacy statement</a>).</span>
   </div>
 </footer>
 
-<button type="button" class="theme" id="theme" aria-label="Cambia tema chiaro o scuro">
+<button type="button" class="theme" id="theme" aria-label="Tema chiaro o scuro / Light or dark theme">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="currentColor"/></svg>
 </button>
 
 <script>
 (() => {
+  const root = document.documentElement;
+  const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+
+  /* ------------------------------------------------ language */
+  const T = {
+    it: {
+      domain: 'quotidiano-immaginario.example',
+      noteCustom: 'Nella prova ci sono solo «Rifiuta tutto» e «Accetta tutto».',
+      noteFirst: 'Prima scegli nel banner: afterNO confronta la tua scelta con quello che resta.',
+      pingSent: 'cookie inviato', pingNone: 'nessun sito terzo con cookie che possano riconoscerti',
+      disc: 'Indicazione automatica basata su ciò che il tuo browser osserva. Può essere incompleta o errata e non costituisce una valutazione legale.',
+      why: 'Perché? Tutti i controlli', cookies: 'Vedi i cookie', checksN: (n) => `${n} controlli`, cookiesN: (n) => `${n} cookie`,
+      restart: '↺ ricomincia la prova', locale: 'it-IT',
+      rejectedAt: (t) => `Hai rifiutato alle ${t}`, acceptedAt: (t) => `Hai accettato alle ${t}`,
+      headRej: (t) => `Hai rifiutato alle ${t}. Cosa è successo dopo:`, headAcc: (t) => `Hai accettato alle ${t}. Ecco cosa è attivo:`,
+      tAccepted: 'Hai accettato i cookie', tRespected: 'Il tuo rifiuto <span class="accent">sembra rispettato</span>', tPartly: 'Il tuo rifiuto sembra rispettato <span class="accent">solo in parte</span>',
+      rTwo: '2 siti terzi possono riconoscerti qui: Pubblinet e Segui-ID.', rTwoStill: '2 siti terzi possono ancora riconoscerti qui: Pubblinet e Segui-ID.', rNone: 'Non vediamo cookie con cui un sito terzo possa riconoscerti qui.',
+      cTcfRej: 'Il segnale di consenso del sito (TCF), letto dai partner pubblicitari, registra il tuo rifiuto: 0 finalità su 11 con consenso.',
+      cTcfAcc: 'Il segnale di consenso del sito (TCF), letto dai partner pubblicitari, registra il tuo consenso: 11 finalità su 11.',
+      cThird: '2 siti terzi possono riconoscerti su questo sito: Pubblinet (pubblinet.example), Segui-ID (seguiid.example)',
+      cThirdStill: '2 siti terzi possono ancora riconoscerti su questo sito: Pubblinet (pubblinet.example), Segui-ID (seguiid.example)',
+      cNoThird: 'Non vediamo cookie con cui un sito terzo possa riconoscerti qui.',
+      cMkt: '1 cookie del sito è classificato come marketing: Pubblinet', cNoMkt: 'Nessun cookie del sito è classificato come marketing.',
+      cAn: '1 cookie del sito è classificato come statistica, che in alcuni casi è ammessa senza consenso: Matomo',
+      cAccepted: 'Hai accettato: quanto sopra è attivo dopo il tuo consenso.',
+      g: { Marketing: 'Marketing', Identifier: 'Identificativi probabili', Analytics: 'Statistica', Functional: 'Funzionali', Security: 'Sicurezza', Necessary: 'Necessari' },
+      ck: {
+        session: ['alla chiusura del browser', 'Tiene aperta la tua visita mentre navighi tra le pagine.'],
+        consent: ['13 mesi', 'Conserva la tua scelta sui cookie, in formato TCF.'],
+        pk: ['13 mesi', 'Conta le visite al sito, distinguendo i visitatori.'],
+        pnclick: ['3 mesi', 'Registra da quale annuncio sei arrivato, per misurare le campagne.'],
+        pnuid: ['13 mesi', 'Identificativo pubblicitario: ti riconosce su tutti i siti che usano Pubblinet.'],
+        sid: ['12 mesi', null, 'Sconosciuto al database, ma di terzi, inviato ovunque e valido più di 30 giorni: la forma tipica di un identificativo.'],
+        cf: ['30 minuti', 'Distingue le persone dai programmi automatici.'],
+      },
+      site: 'Il Quotidiano Immaginario', cdn: 'cdn-immagini.example',
+    },
+    en: {
+      domain: 'imaginary-daily.example',
+      noteCustom: 'The demo only has "Reject all" and "Accept all".',
+      noteFirst: 'Choose in the banner first: afterNO compares your choice with what is left.',
+      pingSent: 'cookie sent', pingNone: 'no third-party site with cookies that could recognise you',
+      disc: 'Automatic indication based on what your browser observes. It may be incomplete or wrong and is not a legal assessment.',
+      why: 'Why? All the checks', cookies: 'See the cookies', checksN: (n) => `${n} checks`, cookiesN: (n) => `${n} cookies`,
+      restart: '↺ start the demo again', locale: 'en-GB',
+      rejectedAt: (t) => `You rejected at ${t}`, acceptedAt: (t) => `You accepted at ${t}`,
+      headRej: (t) => `You rejected at ${t}. What happened next:`, headAcc: (t) => `You accepted at ${t}. This is what is active:`,
+      tAccepted: 'You accepted the cookies', tRespected: 'Your rejection <span class="accent">seems to be respected</span>', tPartly: 'Your rejection seems <span class="accent">only partly respected</span>',
+      rTwo: '2 third-party sites can recognise you here: Pubblinet and Segui-ID.', rTwoStill: '2 third-party sites can still recognise you here: Pubblinet and Segui-ID.', rNone: 'We see no cookies a third-party site could use to recognise you here.',
+      cTcfRej: "The site's consent signal (TCF), read by its advertising partners, records your rejection: 0 of 11 purposes with consent.",
+      cTcfAcc: "The site's consent signal (TCF), read by its advertising partners, records your consent: 11 of 11 purposes.",
+      cThird: '2 third-party sites can recognise you on this site: Pubblinet (pubblinet.example), Segui-ID (seguiid.example)',
+      cThirdStill: '2 third-party sites can still recognise you on this site: Pubblinet (pubblinet.example), Segui-ID (seguiid.example)',
+      cNoThird: 'We see no cookies a third-party site could use to recognise you here.',
+      cMkt: "1 of the site's cookies is classified as marketing: Pubblinet", cNoMkt: "None of the site's cookies is classified as marketing.",
+      cAn: "1 of the site's cookies is classified as analytics, which in some cases is allowed without consent: Matomo",
+      cAccepted: 'You accepted: the above is active after your consent.',
+      g: { Marketing: 'Marketing', Identifier: 'Likely identifiers', Analytics: 'Analytics', Functional: 'Functional', Security: 'Security', Necessary: 'Necessary' },
+      ck: {
+        session: ['until the browser closes', 'Keeps your visit open while you move between pages.'],
+        consent: ['13 months', 'Stores your cookie choice, in TCF format.'],
+        pk: ['13 months', 'Counts visits to the site, telling visitors apart.'],
+        pnclick: ['3 months', 'Records which ad brought you here, to measure campaigns.'],
+        pnuid: ['13 months', 'Advertising identifier: recognises you on every site that uses Pubblinet.'],
+        sid: ['12 months', null, 'Unknown to the database, but third-party, sent everywhere and valid over 30 days: the typical shape of an identifier.'],
+        cf: ['30 minutes', 'Tells people apart from automated programs.'],
+      },
+      site: 'The Imaginary Daily', cdn: 'cdn-images.example',
+    },
+  };
+  let lang = 'it';
+  function setLang(l, save) {
+    lang = l in T ? l : 'it';
+    root.lang = lang;
+    document.querySelectorAll('.lang button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
+    document.querySelectorAll('.js-domain').forEach((e) => { e.textContent = T[lang].domain; });
+    if (save) store.set('afterno-lang', lang);
+    if (typeof refreshDemo === 'function') refreshDemo();
+  }
+  document.querySelectorAll('.lang button').forEach((b) => b.addEventListener('click', () => setLang(b.dataset.lang, true)));
+
   /* ------------------------------------------------ routing */
-  const views = [...document.querySelectorAll('section.view')];
   const navLinks = [...document.querySelectorAll('[data-nav]')];
   function route() {
     const name = (location.hash || '').replace('#', '');
-    const known = views.some((v) => v.dataset.view === name);
-    const current = known ? name : '';
+    const views = [...document.querySelectorAll('section.view')];
+    const current = views.some((v) => v.dataset.view === name) ? name : '';
     views.forEach((v) => { v.hidden = v.dataset.view !== current; });
     navLinks.forEach((a) => { if (a.dataset.nav === current) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
     window.scrollTo({ top: 0 });
   }
   window.addEventListener('hashchange', route);
-  route();
 
   /* ------------------------------------------------ theme */
-  const root = document.documentElement;
-  try { const saved = localStorage.getItem('afterno-theme'); if (saved) root.dataset.theme = saved; } catch (e) {}
+  const savedTheme = store.get('afterno-theme'); if (savedTheme) root.dataset.theme = savedTheme;
   document.getElementById('theme').addEventListener('click', () => {
     const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
     root.dataset.theme = dark ? 'light' : 'dark';
-    try { localStorage.setItem('afterno-theme', root.dataset.theme); } catch (e) {}
+    store.set('afterno-theme', root.dataset.theme);
   });
 
   /* ------------------------------------------------ copy */
-  document.getElementById('copy').addEventListener('click', async (ev) => {
-    const btn = ev.currentTarget;
-    try { await navigator.clipboard.writeText('afterno.extension@gmail.com'); btn.textContent = 'Copiato'; }
-    catch (e) { const r = document.createRange(); r.selectNodeContents(document.getElementById('addr')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = 'Selezionato: copialo'; }
-    setTimeout(() => { btn.textContent = "Copia l'indirizzo"; }, 2200);
+  document.querySelectorAll('.copy').forEach((btn) => {
+    const orig = btn.textContent;
+    btn.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText('afterno.extension@gmail.com'); btn.textContent = btn.dataset.done; }
+      catch (e) { const r = document.createRange(); r.selectNodeContents(btn.parentElement.querySelector('.addr')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = btn.dataset.sel; }
+      setTimeout(() => { btn.textContent = orig; }, 2200);
+    });
   });
 
-  /* ------------------------------------------------ pipeline */
-  const sieve = document.getElementById('sieve');
-  const caption = document.getElementById('sieve-caption');
-  const captions = { 1: 'passo 1: la scelta non è nella tabella, ma decide la domanda', 2: 'passo 2: tutti i cookie presenti dopo il rifiuto', 3: 'passo 3: del sito o di terzi?', 4: 'passo 4: rimandato da altri siti, e per quanto?', 5: "passo 5: l'etichetta del database", 6: 'passo 6: cosa conta, e come' };
-  document.querySelectorAll('.step').forEach((b) => b.addEventListener('click', () => {
-    const on = b.getAttribute('aria-pressed') !== 'true';
-    document.querySelectorAll('.step').forEach((x) => x.setAttribute('aria-pressed', 'false'));
-    if (on) { b.setAttribute('aria-pressed', 'true'); sieve.dataset.step = b.dataset.step; caption.textContent = captions[b.dataset.step]; }
-    else { delete sieve.dataset.step; caption.textContent = 'tutti i passi insieme'; }
-  }));
+  /* ------------------------------------------------ pipeline (one table per language) */
+  document.querySelectorAll('section[data-view="come-ragiona"]').forEach((sec) => {
+    const sieve = sec.querySelector('.sieve');
+    const caption = sec.querySelector('.sieve-caption');
+    const all = caption.textContent;
+    sec.querySelectorAll('.step').forEach((b) => b.addEventListener('click', () => {
+      const on = b.getAttribute('aria-pressed') !== 'true';
+      sec.querySelectorAll('.step').forEach((x) => x.setAttribute('aria-pressed', 'false'));
+      if (on) { b.setAttribute('aria-pressed', 'true'); sieve.dataset.step = b.dataset.step; caption.textContent = b.querySelector('.n').textContent; }
+      else { delete sieve.dataset.step; caption.textContent = all; }
+    }));
+  });
 
   /* ------------------------------------------------ the demo */
   const $ = (id) => document.getElementById(id);
-  const banner = $('banner'), popup = $('popup'), ext = $('ext-btn'), pings = $('pings'), guide = $('guide');
-  const state = { mode: 'respect', choice: null, open: false };
+  const banner = $('banner'), popup = $('popup'), ext = $('ext-btn'), pings = $('pings'), callout = $('callout');
+  const state = { mode: 'respect', choice: null, open: false, at: null, stage: 1 };
   const SHAPES = { check: 'M6 10.3l2.6 2.6 5.4-5.6', bang: 'M10 5.5v5.5M10 14.2v.1', info: 'M10 9v5M10 6.2v.1', dash: 'M6.5 10h7', cross: 'M7 7l6 6M13 7l-6 6' };
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const svg = (shape, cls) => `<svg viewBox="0 0 20 20" class="${cls}" aria-hidden="true"><circle class="bg" cx="10" cy="10" r="9.5"/><path class="fg" d="${SHAPES[shape]}"/></svg>`;
   const chev = '<svg viewBox="0 0 20 20" class="chev" aria-hidden="true"><path d="M6 8l4 4 4-4"/></svg>';
-  const time = () => new Date().toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
 
-  const C = {
-    session: { name: 'sessione', meta: 'quotidiano-immaginario.example · alla chiusura del browser', desc: 'Tiene aperta la tua visita mentre navighi tra le pagine.' },
-    consent: { name: 'euconsent-v2', meta: 'quotidiano-immaginario.example · 13 mesi', desc: 'Conserva la tua scelta sui cookie, in formato TCF.' },
-    pk: { name: '_pk_id', meta: 'Matomo · quotidiano-immaginario.example · 13 mesi', desc: 'Conta le visite al sito, distinguendo i visitatori.' },
-    pnclick: { name: '_pn_click', meta: 'Pubblinet · quotidiano-immaginario.example · 3 mesi', desc: 'Registra da quale annuncio sei arrivato, per misurare le campagne.' },
-    pnuid: { name: 'pn_uid', meta: 'Pubblinet · pubblinet.example · 13 mesi', desc: 'Identificativo pubblicitario: ti riconosce su tutti i siti che usano Pubblinet.' },
-    sid: { name: 'sid_x9', meta: 'seguiid.example · 12 mesi', note: 'Sconosciuto al database, ma di terzi, inviato ovunque e valido più di 30 giorni: la forma tipica di un identificativo.' },
-    cf: { name: '__cf_bm', meta: 'cdn-immagini.example · 30 minuti', desc: 'Distingue le persone dai programmi automatici.' },
-  };
-
-  function scenario() {
-    const t = time();
-    if (state.choice === 'accept') {
-      return {
-        tone: 'muted', icon: 'dash', when: `Hai accettato alle ${t}`, title: 'Hai accettato i cookie',
-        reason: '2 siti terzi possono riconoscerti qui: Pubblinet e Segui-ID.',
-        heading: `Hai accettato alle ${t}. Ecco cosa è attivo:`,
-        checks: [
-          ['info', 'info', 'Il segnale di consenso del sito (TCF), letto dai partner pubblicitari, registra il tuo consenso: 11 finalità su 11.'],
-          ['info', 'info', '2 siti terzi possono riconoscerti su questo sito: Pubblinet (pubblinet.example), Segui-ID (seguiid.example)'],
-          ['info', 'info', '1 cookie del sito è classificato come marketing: Pubblinet'],
-          ['info', 'info', 'Hai accettato: quanto sopra è attivo dopo il tuo consenso.'],
-        ],
-        groups: [['Marketing', [C.pnuid, C.pnclick], true], ['Identificativi probabili', [C.sid], true], ['Statistica', [C.pk]], ['Funzionali', [C.consent]], ['Sicurezza', [C.cf]], ['Necessari', [C.session]]],
-      };
-    }
-    if (state.mode === 'respect') {
-      return {
-        tone: 'ok', icon: 'check', when: `Hai rifiutato alle ${t}`, title: 'Il tuo rifiuto <span class="accent">sembra rispettato</span>',
-        reason: 'Non vediamo cookie con cui un sito terzo possa riconoscerti qui.',
-        heading: `Hai rifiutato alle ${t}. Cosa è successo dopo:`,
-        checks: [
-          ['ok', 'check', 'Il segnale di consenso del sito (TCF), letto dai partner pubblicitari, registra il tuo rifiuto: 0 finalità su 11 con consenso.'],
-          ['ok', 'check', 'Non vediamo cookie con cui un sito terzo possa riconoscerti qui.'],
-          ['ok', 'check', 'Nessun cookie del sito è classificato come marketing.'],
-          ['info', 'info', '1 cookie del sito è classificato come statistica, che in alcuni casi è ammessa senza consenso: Matomo'],
-        ],
-        groups: [['Statistica', [C.pk]], ['Funzionali', [C.consent]], ['Sicurezza', [C.cf]], ['Necessari', [C.session]]],
-      };
-    }
+  function cookie(key, name, owner, where) {
+    const [life, desc, note] = T[lang].ck[key];
+    return { name, meta: `${owner ? owner + ' · ' : ''}${where} · ${life}`, desc, note };
+  }
+  function cookies() {
+    const d = T[lang].domain;
     return {
-      tone: 'alert', icon: 'bang', when: `Hai rifiutato alle ${t}`, title: 'Il tuo rifiuto sembra rispettato <span class="accent">solo in parte</span>',
-      reason: '2 siti terzi possono ancora riconoscerti qui: Pubblinet e Segui-ID.',
-      heading: `Hai rifiutato alle ${t}. Cosa è successo dopo:`,
-      checks: [
-        ['ok', 'check', 'Il segnale di consenso del sito (TCF), letto dai partner pubblicitari, registra il tuo rifiuto: 0 finalità su 11 con consenso.'],
-        ['bad', 'cross', '2 siti terzi possono ancora riconoscerti su questo sito: Pubblinet (pubblinet.example), Segui-ID (seguiid.example)'],
-        ['bad', 'cross', '1 cookie del sito è classificato come marketing: Pubblinet'],
-        ['info', 'info', '1 cookie del sito è classificato come statistica, che in alcuni casi è ammessa senza consenso: Matomo'],
-      ],
-      groups: [['Marketing', [C.pnuid, C.pnclick], true], ['Identificativi probabili', [C.sid], true], ['Statistica', [C.pk]], ['Funzionali', [C.consent]], ['Sicurezza', [C.cf]], ['Necessari', [C.session]]],
+      session: cookie('session', 'sessione', '', d), consent: cookie('consent', 'euconsent-v2', '', d), pk: cookie('pk', '_pk_id', 'Matomo', d),
+      pnclick: cookie('pnclick', '_pn_click', 'Pubblinet', d), pnuid: cookie('pnuid', 'pn_uid', 'Pubblinet', 'pubblinet.example'),
+      sid: cookie('sid', 'sid_x9', '', 'seguiid.example'), cf: cookie('cf', '__cf_bm', '', T[lang].cdn),
+    };
+  }
+  function scenario() {
+    const L = T[lang], C = cookies();
+    const t = (state.at || new Date()).toLocaleTimeString(L.locale, { hour: '2-digit', minute: '2-digit' });
+    const trackers = [['Marketing', [C.pnuid, C.pnclick], true], ['Identifier', [C.sid], true]];
+    const rest = [['Analytics', [C.pk]], ['Functional', [C.consent]], ['Security', [C.cf]], ['Necessary', [C.session]]];
+    if (state.choice === 'accept') return {
+      tone: 'muted', icon: 'dash', when: L.acceptedAt(t), title: L.tAccepted, reason: L.rTwo, heading: L.headAcc(t),
+      checks: [['info', 'info', L.cTcfAcc], ['info', 'info', L.cThird], ['info', 'info', L.cMkt], ['info', 'info', L.cAccepted]],
+      groups: trackers.concat(rest),
+    };
+    if (state.mode === 'respect') return {
+      tone: 'ok', icon: 'check', when: L.rejectedAt(t), title: L.tRespected, reason: L.rNone, heading: L.headRej(t),
+      checks: [['ok', 'check', L.cTcfRej], ['ok', 'check', L.cNoThird], ['ok', 'check', L.cNoMkt], ['info', 'info', L.cAn]],
+      groups: rest,
+    };
+    return {
+      tone: 'alert', icon: 'bang', when: L.rejectedAt(t), title: L.tPartly, reason: L.rTwoStill, heading: L.headRej(t),
+      checks: [['ok', 'check', L.cTcfRej], ['bad', 'cross', L.cThirdStill], ['bad', 'cross', L.cMkt], ['info', 'info', L.cAn]],
+      groups: trackers.concat(rest),
     };
   }
 
   function renderPopup() {
-    const s = scenario();
+    const L = T[lang], s = scenario();
+    const openWhy = popup.querySelector('#why')?.open, openCk = popup.querySelector('#cks')?.open;
     const n = s.groups.reduce((k, g) => k + g[1].length, 0);
     const groups = s.groups.map(([name, list, tracking]) => `
       <div class="ck-group${tracking ? ' tracking' : ''}">
-        <p class="ck-h">${esc(name)} · ${list.length}</p>
+        <p class="ck-h">${esc(L.g[name])} · ${list.length}</p>
         <ul>${list.map((c) => `<li><span class="ck-name">${esc(c.name)}</span><span class="ck-meta">${esc(c.meta)}</span>${c.desc ? `<span class="ck-desc">${esc(c.desc)}</span>` : ''}${c.note ? `<span class="ck-note">${esc(c.note)}</span>` : ''}</li>`).join('')}</ul>
       </div>`).join('');
     popup.innerHTML = `
-      <div class="p-top"><span class="p-host">www.quotidiano-immaginario.example</span><span class="p-brand">after<span>NO</span></span></div>
+      <div class="p-top"><span class="p-host">www.${esc(L.domain)}</span><span class="p-brand">after<span>NO</span></span></div>
       <section class="card tone-${s.tone}">
         <div class="card-top">${svg(s.icon, 'st-icon')}<span class="card-when">${esc(s.when)}</span></div>
         <p class="card-title">${s.title}</p>
         <p class="card-reason">${esc(s.reason)}</p>
       </section>
-      <p class="disc">Indicazione automatica basata su ciò che il tuo browser osserva. Può essere incompleta o errata e non costituisce una valutazione legale.</p>
+      <p class="disc">${esc(L.disc)}</p>
       <div>
-        <details class="t" id="why"><summary>Perché? Tutti i controlli<span class="t-meta">${s.checks.length} controlli ${chev}</span></summary>
+        <details class="t" id="why"${openWhy ? ' open' : ''}><summary>${esc(L.why)}<span class="t-meta">${esc(L.checksN(s.checks.length))} ${chev}</span></summary>
           <p class="vh">${esc(s.heading)}</p>
           <ul class="checks">${s.checks.map(([m, sh, txt]) => `<li class="${m}">${svg(sh, 'mk ' + m)}<span>${esc(txt)}</span></li>`).join('')}</ul>
         </details>
-        <details class="t" id="cks"><summary>Vedi i cookie<span class="t-meta">${n} cookie ${chev}</span></summary>${groups}</details>
+        <details class="t" id="cks"${openCk ? ' open' : ''}><summary>${esc(L.cookies)}<span class="t-meta">${esc(L.cookiesN(n))} ${chev}</span></summary>${groups}</details>
       </div>
-      <button type="button" class="restart" id="restart">↺ ricomincia la prova</button>`;
+      <button type="button" class="restart" id="restart">${esc(L.restart)}</button>`;
     popup.querySelector('#restart').addEventListener('click', reset);
-    popup.querySelectorAll('details').forEach((d) => d.addEventListener('toggle', () => { if (d.open) setGuide(3); }));
   }
 
-  function setGuide(step) {
-    const g = {
-      1: '<b>1 /</b> Clicca «Rifiuta tutto» nel banner del sito.',
-      2: '<b>2 /</b> Ora apri afterNO: l\'icona in alto a destra.',
-      3: '<b>3 /</b> Apri «Perché?» o «Vedi i cookie». Poi prova l\'altro sito.',
-    }[step];
-    guide.innerHTML = g;
+  function setStage(k) {
+    state.stage = k;
+    document.querySelectorAll('#howto li').forEach((li) => {
+      const n = Number(li.dataset.k);
+      li.classList.toggle('now', n === k);
+      li.classList.toggle('done', n < k);
+      if (n === k) li.setAttribute('aria-current', 'step'); else li.removeAttribute('aria-current');
+    });
   }
 
   function showPings() {
     pings.innerHTML = '';
+    const L = T[lang];
     const list = state.choice === 'accept' || state.mode === 'ignore'
-      ? [['→ pubblinet.example · cookie inviato', ''], ['→ seguiid.example · cookie inviato', '']]
-      : [['nessun sito terzo con cookie che possano riconoscerti', 'calm']];
+      ? [[`→ pubblinet.example · ${L.pingSent}`, ''], [`→ seguiid.example · ${L.pingSent}`, '']]
+      : [[L.pingNone, 'calm']];
     list.forEach(([txt, cls], i) => setTimeout(() => {
+      if (state.open || !state.choice) return;
       const p = document.createElement('span'); p.className = 'ping ' + cls; p.textContent = txt; pings.append(p);
-    }, 350 + i * 450));
+    }, 300 + i * 400));
   }
 
   function choose(choice) {
-    state.choice = choice;
-    banner.classList.add('gone');
-    banner.setAttribute('aria-hidden', 'true');
+    state.choice = choice; state.at = new Date();
+    banner.classList.add('gone'); banner.setAttribute('aria-hidden', 'true');
     $('b-reject').classList.remove('pulse');
     showPings();
-    ext.classList.add('call');
-    setGuide(2);
+    setStage(2);
+    ext.classList.remove('jump'); void ext.offsetWidth; ext.classList.add('jump', 'call');
+    callout.hidden = false;
   }
 
   function togglePopup(force) {
-    if (!state.choice) { $('banner-note').hidden = false; $('banner-note').textContent = 'Prima scegli nel banner: afterNO confronta la tua scelta con quello che resta.'; return; }
+    const note = $('banner-note');
+    if (!state.choice) { note.textContent = T[lang].noteFirst; note.hidden = false; return; }
     state.open = force ?? !state.open;
     popup.hidden = !state.open;
     ext.setAttribute('aria-expanded', String(state.open));
-    ext.classList.remove('call');
-    if (state.open) { renderPopup(); pings.innerHTML = ''; setGuide(3); }
+    ext.classList.remove('jump', 'call'); callout.hidden = true;
+    if (state.open) { renderPopup(); pings.innerHTML = ''; setStage(3); }
   }
 
   function reset() {
-    state.choice = null; state.open = false;
-    popup.hidden = true; ext.setAttribute('aria-expanded', 'false'); ext.classList.remove('call');
+    state.choice = null; state.open = false; state.at = null;
+    popup.hidden = true; popup.innerHTML = ''; ext.setAttribute('aria-expanded', 'false'); ext.classList.remove('jump', 'call'); callout.hidden = true;
     banner.classList.remove('gone'); banner.removeAttribute('aria-hidden');
     $('b-reject').classList.add('pulse'); $('banner-note').hidden = true; pings.innerHTML = '';
-    setGuide(1);
+    setStage(1);
   }
 
   function setMode(mode) {
@@ -875,14 +1236,25 @@ footer a { color: var(--ink-2); }
     reset();
   }
 
+  window.refreshDemo = function () {
+    if (state.open) renderPopup();
+    const note = $('banner-note'); if (!note.hidden) note.hidden = true;
+    if (state.choice && !state.open) showPings();
+  };
+  var refreshDemo = window.refreshDemo;
+
   $('b-reject').addEventListener('click', () => choose('reject'));
   $('b-accept').addEventListener('click', () => choose('accept'));
-  $('b-custom').addEventListener('click', () => { const n = $('banner-note'); n.textContent = 'Nella prova ci sono solo «Rifiuta tutto» e «Accetta tutto».'; n.hidden = false; });
+  $('b-custom').addEventListener('click', () => { const n = $('banner-note'); n.textContent = T[lang].noteCustom; n.hidden = false; });
   ext.addEventListener('click', () => togglePopup());
   $('mode-respect').addEventListener('click', () => setMode('respect'));
   $('mode-ignore').addEventListener('click', () => setMode('ignore'));
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && state.open) togglePopup(false); });
-  setGuide(1);
+
+  const savedLang = store.get('afterno-lang');
+  setLang(savedLang || ((navigator.language || 'it').toLowerCase().startsWith('it') ? 'it' : 'en'), false);
+  setStage(1);
+  route();
 })();
 </script>
 
