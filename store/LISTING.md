@@ -5,7 +5,8 @@ line with README.md and PRIVACY.md: if the extension changes, change them here f
 
 Contact email (both stores): afterno.extension@gmail.com
 Privacy policy URL: the GitHub address of PRIVACY.md (once the repository is public)
-Homepage / support URL: the GitHub repository
+Homepage URL: https://nicolobachiorri.github.io/afterNO/
+Support URL: the GitHub repository
 
 ---
 

@@ -15,6 +15,8 @@ it as a short checklist with a cautious conclusion.
 > browser osserva dopo, e lo mostra come una breve lista di controllo con una
 > conclusione prudente. L'interfaccia è in italiano e in inglese.
 
+**Website:** [nicolobachiorri.github.io/afterNO](https://nicolobachiorri.github.io/afterNO/), with a live demo of the popup.
+
 **Status:** in development, not yet published in any store.
 
 ## What it shows
