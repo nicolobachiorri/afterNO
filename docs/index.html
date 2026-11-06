@@ -445,6 +445,20 @@ html, body { overflow-x: clip; }
 .why-more { font-family: var(--f-mono); font-size: 14px; color: var(--muted); margin-top: -40px; }
 @media (max-width: 860px) { .why-sum { grid-template-columns: 1fr; } }
 
+/* the second round: a site that behaves the other way. Highlighted, and it pulses once you have seen the first result */
+.demo-bar { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 16px; padding: 18px 20px; gap: 14px 24px; }
+.demo-bar[data-mode="respect"] .when-ignore, .demo-bar[data-mode="ignore"] .when-respect { display: none; }
+.modehint { display: grid; gap: 4px; min-width: 0; flex: 1 1 320px; }
+.mh-t { font-size: 19px; font-weight: 600; letter-spacing: -0.01em; color: var(--ink); text-wrap: balance; }
+.mh-t b { color: var(--accent); font-weight: 600; }
+.mh-d { font-size: 14px; color: var(--ink-2); }
+.demo-bar .seg { background: var(--surface); border-color: var(--accent); }
+.demo-bar .seg button { font-size: 15px; padding: 10px 16px; min-height: 42px; }
+.demo-bar .seg button[aria-pressed="false"] { color: var(--accent); }
+.demo-bar.ready .seg button[aria-pressed="false"] { animation: pulse 1.8s ease-in-out infinite; box-shadow: inset 0 0 0 1.5px var(--accent); }
+.demo-bar.ready { animation: barIn .5s ease-out; }
+@keyframes barIn { from { transform: translateY(6px); box-shadow: 0 0 0 0 var(--accent-soft); } to { transform: none; box-shadow: 0 0 0 6px transparent; } }
+
 .site-privacy { flex-basis: 100%; font-size: 13px; max-width: 80ch; }
 </style>
 </head>
@@ -795,8 +809,13 @@ html, body { overflow-x: clip; }
 
       <div class="popup" id="popup" hidden aria-label="afterNO"></div>
     </div>
-    <div class="demo-bar">
-      <p class="modehint"><span data-l="it">Prova anche l'altro sito: cambia qui come si comporta, poi ricomincia.</span><span data-l="en">Try the other site too: change how it behaves here, then start again.</span></p>
+    <div class="demo-bar" id="demo-bar" data-mode="respect">
+      <div class="modehint">
+        <p class="eyebrow"><span data-l="it">secondo giro</span><span data-l="en">round two</span></p>
+        <p class="mh-t when-respect"><span data-l="it">Ora prova un sito che <b>non rispetta</b> il rifiuto.</span><span data-l="en">Now try a site that <b>ignores</b> the rejection.</span></p>
+        <p class="mh-t when-ignore"><span data-l="it">Ora torna al sito che <b>rispetta</b> il rifiuto, e confronta.</span><span data-l="en">Now go back to the site that <b>respects</b> it, and compare.</span></p>
+        <p class="mh-d"><span data-l="it">Scegli qui come si comporta il sito di prova: la prova ricomincia da capo.</span><span data-l="en">Choose here how the demo site behaves: the demo starts again.</span></p>
+      </div>
       <div class="switch-wrap">
         <span class="seg-label" id="mode-label"><span data-l="it">il sito di prova:</span><span data-l="en">the demo site:</span></span>
         <div class="seg" role="group" aria-labelledby="mode-label">
@@ -1691,7 +1710,7 @@ html, body { overflow-x: clip; }
     popup.hidden = !state.open;
     ext.setAttribute('aria-expanded', String(state.open));
     ext.classList.remove('jump', 'call');
-    if (state.open) { renderPopup(); pings.innerHTML = ''; setStage(3); }
+    if (state.open) { renderPopup(); pings.innerHTML = ''; setStage(3); $('demo-bar').classList.add('ready'); }
   }
 
   function reset() {
@@ -1706,6 +1725,7 @@ html, body { overflow-x: clip; }
     state.mode = mode;
     $('mode-respect').setAttribute('aria-pressed', String(mode === 'respect'));
     $('mode-ignore').setAttribute('aria-pressed', String(mode === 'ignore'));
+    $('demo-bar').dataset.mode = mode; $('demo-bar').classList.remove('ready');
     reset();
   }
 
