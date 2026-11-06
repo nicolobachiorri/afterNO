@@ -381,10 +381,6 @@ html[lang="it"] [data-l="en"], html[lang="en"] [data-l="it"] { display: none !im
 @keyframes pbob { from { transform: rotate(var(--r)) translateY(-5px); } to { transform: rotate(var(--r)) translateY(1px); } }
 @media (prefers-reduced-motion: reduce) { .parrow svg { animation: none; transform: rotate(var(--r)); } }
 
-@media (max-width: 760px) {
-  .top-right { width: 100%; min-width: 0; flex-wrap: nowrap; }
-  .top-right nav.main { flex: 1 1 0; min-width: 0; width: auto; }
-}
 
 /* ---------- the wordless story (pixel art, scroll-driven) ---------- */
 html, body { overflow-x: clip; }
@@ -459,6 +455,91 @@ html, body { overflow-x: clip; }
 .demo-bar.ready { animation: barIn .5s ease-out; }
 @keyframes barIn { from { transform: translateY(6px); box-shadow: 0 0 0 0 var(--accent-soft); } to { transform: none; box-shadow: 0 0 0 6px transparent; } }
 
+/* ================= phone pass: less empty space, nothing cut off, one thing at a time ================= */
+@media (max-width: 760px) {
+  /* tighter rhythm between sections */
+  main { padding-block: 20px 24px; }
+  section.view { gap: 32px; }
+  .stack { gap: 12px; }
+  .panel { padding: 16px; }
+  .why-more { margin-top: -20px; }
+
+  /* the doors become a compact list */
+  .doors { gap: 8px; }
+  .door { padding: 14px 16px; gap: 2px; }
+  .door .t { font-size: 18px; }
+  .door .d { display: none; }
+  .door .arrow { font-size: 12.5px; }
+
+  /* the story hands over straight to the demo: no empty screen while the icon flies */
+  .story { margin-bottom: -55svh; }
+  .story-stage { pointer-events: none; }
+}
+
+/* ================= phone header: logo + menu button; the pages, language and theme live in a full-screen menu ================= */
+.menu-btn, .theme-t, .menu-foot { display: none; }
+@media (max-width: 760px) {
+  header.top { position: sticky; top: 0; padding-top: env(safe-area-inset-top, 0px); background: var(--bg); backdrop-filter: none; -webkit-backdrop-filter: none; }
+  header.top .wrap { min-height: 56px; padding-block: 6px; flex-wrap: nowrap; gap: 12px; }
+  .menu-btn { display: grid; place-items: center; width: 44px; height: 44px; margin-right: -8px; border: 0; background: none; color: var(--ink); border-radius: 12px; cursor: pointer; }
+  .menu-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .menu-btn i { display: block; width: 22px; height: 2px; background: currentColor; border-radius: 2px; position: relative; transition: background .15s; }
+  .menu-btn i::before, .menu-btn i::after { content: ""; position: absolute; left: 0; width: 22px; height: 2px; background: currentColor; border-radius: 2px; transition: transform .2s; }
+  .menu-btn i::before { top: -7px; } .menu-btn i::after { top: 7px; }
+  html.menu-open .menu-btn i { background: transparent; }
+  html.menu-open .menu-btn i::before { transform: translateY(7px) rotate(45deg); }
+  html.menu-open .menu-btn i::after { transform: translateY(-7px) rotate(-45deg); }
+
+  .top-right { display: none; position: fixed; z-index: 19; left: 0; right: 0; bottom: 0; top: calc(57px + env(safe-area-inset-top, 0px));
+    flex-direction: column; align-items: stretch; gap: 24px; overflow-y: auto; overscroll-behavior: contain;
+    background: var(--bg); padding: 12px max(20px, env(safe-area-inset-right, 0px)) calc(28px + env(safe-area-inset-bottom, 0px)) max(20px, env(safe-area-inset-left, 0px)); }
+  html.menu-open .top-right { display: flex; animation: menuIn .18s ease-out; }
+  html.menu-open { overflow: hidden; }
+  @keyframes menuIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+  .top-right nav.main { display: flex; flex-direction: column; gap: 0; width: 100%; flex: none; margin: 0; overflow: visible; }
+  .top-right nav.main a { font: 600 24px/1.2 var(--f-body); letter-spacing: -0.02em; color: var(--ink); padding: 16px 4px; border-radius: 0; border-bottom: 1px solid var(--line); white-space: normal; display: flex; justify-content: space-between; align-items: center; }
+  .top-right nav.main a::after { content: "=>"; font: 500 15px var(--f-mono); color: var(--accent); }
+  .top-right nav.main a[aria-current="page"] { background: none; color: var(--accent); }
+  .menu-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .top-right .lang { position: static; }
+  .top-right .lang button { min-height: 40px; padding: 8px 16px; font-size: 14px; }
+  .top-right .theme { position: static; width: auto; height: 44px; padding: 0 14px; gap: 10px; display: inline-flex; align-items: center; border-radius: 999px; box-shadow: none; font: 500 14px var(--f-mono); }
+  .top-right .theme svg { width: 18px; height: 18px; }
+  .theme-t { display: inline; }
+  .menu-foot { display: block; font-family: var(--f-mono); font-size: 13px; color: var(--muted); margin-top: auto; }
+  .story { --head: calc(57px + env(safe-area-inset-top, 0px)); }
+}
+
+/* list items with an icon: text and bold words flow as one paragraph (they were split into columns) */
+.list li:has(> svg) { display: block; position: relative; padding-left: 34px; }
+.list li:has(> svg) > svg { position: absolute; left: 0; top: 0; }
+
+/* phone: every data table becomes a stack of cards, one per row, each value with its column name */
+@media (max-width: 760px) {
+  .table-wrap { overflow: visible; border: 0; background: none; border-radius: 0; }
+  table.data { min-width: 0; font-size: 15px; }
+  table.data, table.data tbody { display: block; }
+  table.data thead { display: none; }
+  table.data tr { display: block; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); padding: 12px 14px; margin-bottom: 10px; }
+  table.data td, table.data th { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; padding: 5px 0; border: 0; text-align: right; }
+  table.data td::before { content: attr(data-label); font: 500 12.5px var(--f-mono); color: var(--muted); text-align: left; flex: 0 0 42%; }
+  table.data tr > :first-child { display: block; text-align: left; font-weight: 600; padding: 0 0 6px; margin-bottom: 4px; border-bottom: 1px solid var(--line); }
+  table.data tr > :first-child::before { content: none; }
+  .sieve td.c-name { font-size: 15px; }
+}
+@media (max-width: 760px) {
+  /* the cookie table: two short columns per card, so nine cookies stay readable without endless scrolling */
+  table.sieve tr { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; }
+  table.sieve td { display: block; text-align: left; padding: 0; font-size: 14.5px; }
+  table.sieve td::before { display: block; margin-bottom: 2px; }
+  table.sieve tr { grid-template-areas: "name out" "where where" "owner same" "life label"; }
+  table.sieve td.c-name { grid-area: name; border: 0; padding: 0; margin: 0; align-self: center; }
+  table.sieve td.c-out { grid-area: out; text-align: right; align-self: center; }
+  table.sieve td.c-out::before { display: none; }
+  table.sieve td.c-where { grid-area: where; } table.sieve td.c-owner { grid-area: owner; } table.sieve td.c-same { grid-area: same; }
+  table.sieve td.c-life { grid-area: life; } table.sieve td.c-label { grid-area: label; }
+}
+
 .site-privacy { flex-basis: 100%; font-size: 13px; max-width: 80ch; }
 </style>
 </head>
@@ -469,7 +550,8 @@ html, body { overflow-x: clip; }
       <svg viewBox="0 0 128 128" aria-hidden="true"><rect x="4" y="4" width="120" height="120" rx="28" fill="#1F3A5F"/><line x1="78" y1="78" x2="106" y2="106" stroke="#F3E9DC" stroke-width="16" stroke-linecap="round"/><circle cx="54" cy="54" r="34" fill="#E2B680" stroke="#F3E9DC" stroke-width="9"/><circle cx="44" cy="44" r="6" fill="#6B4423"/><circle cx="64" cy="58" r="6" fill="#6B4423"/><circle cx="47" cy="68" r="5" fill="#6B4423"/></svg>
       <span>after<span class="px">NO</span></span>
     </a>
-    <div class="top-right">
+    <button type="button" class="menu-btn" id="menu-btn" aria-controls="menu" aria-expanded="false"><span class="story-sr" data-l="it">Menu</span><span class="story-sr" data-l="en">Menu</span><i aria-hidden="true"></i></button>
+    <div class="top-right" id="menu">
       <nav class="main" aria-label="Pagine">
         <a href="#" data-nav=""><span data-l="it">Provala</span><span data-l="en">Try it</span></a>
         <a href="#fidarmi" data-nav="fidarmi"><span data-l="it">Posso fidarmi?</span><span data-l="en">Can I trust it?</span></a>
@@ -481,6 +563,7 @@ html, body { overflow-x: clip; }
         <button type="button" data-lang="it" aria-pressed="true" lang="it">IT</button>
         <button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
       </div>
+      <p class="menu-foot"><span data-l="it">estensione per Chrome e Firefox · gratuita · open source</span><span data-l="en">extension for Chrome and Firefox · free · open source</span></p>
     </div>
   </div>
 </header>
@@ -641,8 +724,9 @@ html, body { overflow-x: clip; }
   // The canvas story: p 0..1 while the stage is pinned.
   function draw(p, time, flying) {
     g.setTransform(dpr, 0, 0, dpr, 0, 0); g.imageSmoothingEnabled = false;
-    g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
-    if (flying) return;                                      // the icon has left the stage
+    g.clearRect(0, 0, W, H);
+    if (flying) return;                                      // the icon has left the stage: let the demo show through
+    g.globalAlpha = 1 - seg(p, .88, 1); g.fillStyle = C.bg; g.fillRect(0, 0, W, H); g.globalAlpha = 1;   // on phones the demo fades in underneath
     const cx = W / 2, cy = H / 2;
     const k1 = Math.min(W / 106, H / 84);                    // the laptop fills the screen
     const k2 = Math.min(W / 188, H / 150);                   // the whole room fills the screen
@@ -1451,6 +1535,7 @@ html, body { overflow-x: clip; }
 
 <button type="button" class="theme" id="theme" aria-label="Tema chiaro o scuro / Light or dark theme">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="currentColor"/></svg>
+  <span class="theme-t"><span data-l="it">tema chiaro / scuro</span><span data-l="en">light / dark theme</span></span>
 </button>
 
 <script>
@@ -1537,6 +1622,29 @@ html, body { overflow-x: clip; }
   document.querySelectorAll('.lang button').forEach((b) => b.addEventListener('click', () => setLang(b.dataset.lang, true)));
 
   /* ------------------------------------------------ routing */
+  /* ------------------------------------------------ tables: each cell knows its column name (shown on phones, where rows become cards) */
+  document.querySelectorAll('table.data').forEach((tb) => {
+    const heads = [...tb.querySelectorAll('thead th')].map((th) => th.textContent.trim());
+    tb.querySelectorAll('tbody tr').forEach((tr) => [...tr.children].forEach((td, i) => { if (heads[i]) td.dataset.label = heads[i]; }));
+  });
+
+  /* ------------------------------------------------ phone menu: language and theme sit in a row inside it */
+  const menu = document.getElementById('menu'), menuBtn = document.getElementById('menu-btn');
+  const row = document.createElement('div'); row.className = 'menu-row';
+  menu.insertBefore(row, menu.querySelector('.menu-foot')); row.append(menu.querySelector('.lang'));
+  // the theme button floats at the corner on desktop; on a phone it moves into the menu
+  const themeBtn = document.getElementById('theme'), phone = matchMedia('(max-width: 760px)');
+  const placeTheme = () => { if (phone.matches) row.append(themeBtn); else document.body.append(themeBtn); };
+  placeTheme(); phone.addEventListener('change', placeTheme);
+  function setMenu(open) {
+    root.classList.toggle('menu-open', open); menuBtn.setAttribute('aria-expanded', String(open));
+    if (open) menu.querySelector('nav a')?.focus({ preventScroll: true });
+  }
+  menuBtn.addEventListener('click', () => setMenu(!root.classList.contains('menu-open')));
+  menu.querySelectorAll('nav a').forEach((a) => a.addEventListener('click', () => setMenu(false)));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && root.classList.contains('menu-open')) { setMenu(false); menuBtn.focus(); } });
+  matchMedia('(min-width: 761px)').addEventListener('change', (e) => { if (e.matches) setMenu(false); });
+
   const navLinks = [...document.querySelectorAll('[data-nav]')];
   function route() {
     const name = (location.hash || '').replace('#', '');
