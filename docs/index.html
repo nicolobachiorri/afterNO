@@ -396,7 +396,7 @@ html, body { overflow-x: clip; }
 .story-fly { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 15; }
 .ext-btn.land svg { animation: land .5s cubic-bezier(.3,.6,.4,1); }
 @keyframes land { 0% { transform: scale(1.3); } 60% { transform: scale(.9); } 100% { transform: scale(1); } }
-@media (max-width: 760px) { .story { --head: 0px; height: 420vh; } }
+@media (max-width: 760px) { .story { --head: 0px; height: 290vh; } }
 @media (prefers-reduced-motion: reduce) {
   .story { height: auto; } .story-stage, .story-fly { display: none; }
   .story-static { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
@@ -418,6 +418,32 @@ html, body { overflow-x: clip; }
 @media (max-width: 1000px) { .why-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .why-grid { grid-template-columns: 1fr; } }
 .why-note { font-size: 15px; color: var(--ink-2); max-width: 70ch; }
+
+/* "scroll to try it": stays at the bottom of the story until the icon is about to leave */
+.story-hint { position: absolute; left: 50%; bottom: calc(22px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+  display: flex; flex-direction: column; align-items: center; gap: 8px; pointer-events: none;
+  font: 500 14px var(--f-mono); color: var(--ink-2); background: color-mix(in srgb, var(--bg) 85%, transparent);
+  padding: 8px 14px 10px; border-radius: 12px; white-space: nowrap; }
+.story-hint svg { width: 22px; height: 22px; fill: var(--accent); animation: pbob .8s steps(2, jump-none) infinite alternate; --r: 0deg; }
+@media (prefers-reduced-motion: reduce) { .story-hint { display: none; } }
+.hero-hint { display: none; }
+@media (max-width: 760px) {
+  .hero-hint { display: flex; align-items: center; gap: 8px; font: 500 14px var(--f-mono); color: var(--ink-2); }
+  .hero-hint svg { width: 18px; height: 18px; fill: var(--accent); animation: pbob .8s steps(2, jump-none) infinite alternate; --r: 0deg; }
+}
+@media (max-width: 760px) and (prefers-reduced-motion: reduce) { .hero-hint svg { animation: none; } }
+
+/* on a phone the whole demo window fits in one screen, so after "Reject all" afterNO's icon is still in view */
+@media (max-width: 760px) {
+  .window { min-height: 0; height: min(500px, calc(100svh - 200px)); }
+  .site { padding-bottom: 20px; }
+  .banner p { font-size: 13px; }
+}
+.why-sum { display: grid; gap: 16px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.why-sum p:not(.eyebrow) { color: var(--ink-2); }
+.why-ours { border-color: var(--accent); background: var(--accent-soft); }
+.why-more { font-family: var(--f-mono); font-size: 14px; color: var(--muted); margin-top: -40px; }
+@media (max-width: 860px) { .why-sum { grid-template-columns: 1fr; } }
 
 .site-privacy { flex-basis: 100%; font-size: 13px; max-width: 80ch; }
 </style>
@@ -454,18 +480,22 @@ html, body { overflow-x: clip; }
     <h1 class="display">Hai cliccato <span class="px">Rifiuta</span>.<br>I cookie restano?</h1>
     <p class="lead">afterNO è un'<b>estensione per il browser</b>, per Chrome e Firefox. Clicchi «Rifiuta» sul banner dei cookie di un sito, apri afterNO, e ti dice in poche parole chi può ancora riconoscerti. Provala qui sotto, su un sito inventato.</p>
     <div class="what"><span class="chip strong">estensione per Chrome e Firefox</span><span class="chip">gratuita</span><span class="chip">open source</span><span class="chip">niente esce dal browser</span></div>
+    <p class="hero-hint">scorri per provarla<svg viewBox="0 0 9 9" shape-rendering="crispEdges" aria-hidden="true"><path d="M3 0h3v4h3v1h-1v1h-1v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h3z"/></svg></p>
   </div>
   <div class="hero" data-l="en">
     <p class="eyebrow">what happens after you reject cookies</p>
     <h1 class="display">You clicked <span class="px">Reject</span>.<br>Are the cookies still there?</h1>
     <p class="lead">afterNO is a <b>browser extension</b> for Chrome and Firefox. You click "Reject" on a site's cookie banner, open afterNO, and it tells you in a few words who can still recognise you. Try it below, on a made-up site.</p>
     <div class="what"><span class="chip strong">extension for Chrome and Firefox</span><span class="chip">free</span><span class="chip">open source</span><span class="chip">nothing leaves your browser</span></div>
+    <p class="hero-hint">scroll to try it<svg viewBox="0 0 9 9" shape-rendering="crispEdges" aria-hidden="true"><path d="M3 0h3v4h3v1h-1v1h-1v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h3z"/></svg></p>
   </div>
 
   <div class="story" id="story">
     <p class="story-sr" data-l="it">Animazione senza parole: una persona rifiuta i cookie con la X, ma i cookie escono lo stesso dallo schermo e la guardano. La scena si allontana: la sua stanza sta su un biscotto, ed è ciò che si vede nella lente di afterNO, che va a posarsi nella barra del browser.</p>
     <p class="story-sr" data-l="en">Wordless animation: a person rejects cookies with the X, but the cookies come out of the screen anyway and watch them. The view pulls back: their room sits on a cookie, and it is what you see in afterNO's lens, which then settles in the browser bar.</p>
-    <div class="story-stage" aria-hidden="true"><canvas id="story-c"></canvas></div>
+    <div class="story-stage" aria-hidden="true"><canvas id="story-c"></canvas>
+      <div class="story-hint" id="story-hint"><span data-l="it">scorri per provarla</span><span data-l="en">scroll to try it</span><svg viewBox="0 0 9 9" shape-rendering="crispEdges"><path d="M3 0h3v4h3v1h-1v1h-1v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h3z"/></svg></div>
+    </div>
     <div class="story-static" id="story-static" aria-hidden="true"></div>
     <canvas class="story-fly" id="story-fly" aria-hidden="true"></canvas>
   </div>
@@ -550,6 +580,7 @@ html, body { overflow-x: clip; }
   const GEO = { lx: -10 / 120, lr: 34 / 120, ring: 38.5 / 120, h0: 14 / 120, h1: 42 / 120, hw: 16 / 120, rad: 28 / 120 };
 
   const story = document.getElementById('story'), stage = story.querySelector('.story-stage');
+  const hint = document.getElementById('story-hint');
   const cv = document.getElementById('story-c'), fly = document.getElementById('story-fly');
   // the demo comes after this script in the page, so its button is looked up when needed
   let ext = null, extSvg = null;
@@ -706,6 +737,7 @@ html, body { overflow-x: clip; }
       if (story.offsetParent) {
         if (cv.clientWidth !== W || cv.clientHeight !== H || innerWidth !== FW || innerHeight !== FH) size();
         const [p, flying] = flyFrame(time);
+        hint.style.opacity = String(1 - seg(p, .8, .92));
         const r = story.getBoundingClientRect();
         if (r.bottom > 0 && r.top < innerHeight) draw(p, time, flying);
       } else if (extSvg && extSvg.style.opacity !== '') { extSvg.style.opacity = ''; fg.clearRect(0, 0, fly.width, fly.height); }
@@ -1241,8 +1273,15 @@ html, body { overflow-x: clip; }
   <div class="hero">
     <p class="eyebrow">perché rifiutare i cookie</p>
     <h1 class="display">Rifiutare i cookie<br>è una buona <span class="px">abitudine</span>.</h1>
-    <p class="lead">Spiegato senza parole tecniche. Non serve essere esperti di computer: basta sapere cosa succede quando clicchi «Accetta», e cosa cambia se clicchi «Rifiuta».</p>
+    <p class="lead">Ogni volta che clicchi «Accetta», aziende che non conosci possono riconoscerti da un sito all'altro. Rifiutare è il modo più semplice per difenderti. Ma non sempre basta: per questo esiste afterNO.</p>
   </div>
+
+  <div class="why-sum">
+    <div class="panel stack"><p class="eyebrow">1 · il problema</p><h2 class="h3">Ti seguono di sito in sito.</h2><p>Con i cookie, aziende pubblicitarie mettono insieme cosa leggi, cosa cerchi e quando.</p></div>
+    <div class="panel stack"><p class="eyebrow">2 · la tua difesa</p><h2 class="h3">Clicca «Rifiuta».</h2><p>Non costa nulla, il sito funziona uguale, e la legge europea è dalla tua parte.</p></div>
+    <div class="panel stack why-ours"><p class="eyebrow">3 · il controllo</p><h2 class="h3">afterNO ti dice se ha funzionato.</h2><p>Alcuni siti continuano a far entrare altre aziende anche dopo il tuo rifiuto. Da fuori non si vede, con afterNO sì.</p><a class="inline-door" href="#">Provala sul sito inventato</a></div>
+  </div>
+  <p class="why-more">Ecco tutto con calma, senza parole tecniche.</p>
 
   <div class="grid2 why-what">
     <div class="panel stack">
@@ -1281,7 +1320,7 @@ html, body { overflow-x: clip; }
     <div class="grid4">
       <div class="panel tile"><span class="k">Prima chiedere</span><span class="v">Senza il tuo sì, un sito può usare solo i cookie che servono a farlo funzionare.</span></div>
       <div class="panel tile"><span class="k">Un tuo gesto</span><span class="v">Le caselle già spuntate non valgono come sì, e nemmeno scorrere la pagina.</span></div>
-      <div class="panel tile"><span class="k">Rifiuta = Accetta</span><span class="v">Quasi tutte le autorità europee chiedono «Rifiuta tutto» accanto ad «Accetta», senza colori che spingono a scegliere uno dei due.</span></div>
+      <div class="panel tile"><span class="k">Alla pari</span><span class="v">Quasi tutte le autorità europee chiedono «Rifiuta tutto» accanto ad «Accetta», senza colori che spingono a scegliere uno dei due.</span></div>
       <div class="panel tile"><span class="k">Cambiare idea</span><span class="v">Ritirare il consenso deve essere facile quanto darlo.</span></div>
     </div>
     <p class="why-note">In Italia, in più, chiudere il banner con la X vale come rifiuto, e dopo un rifiuto il sito di norma non può richiedertelo prima di sei mesi.</p>
@@ -1309,8 +1348,15 @@ html, body { overflow-x: clip; }
   <div class="hero">
     <p class="eyebrow">why reject cookies</p>
     <h1 class="display">Rejecting cookies<br>is a good <span class="px">habit</span>.</h1>
-    <p class="lead">Explained without technical words. You don't need to be good with computers: you only need to know what happens when you click "Accept", and what changes if you click "Reject".</p>
+    <p class="lead">Every time you click "Accept", companies you do not know can recognise you from one site to the next. Rejecting is the simplest way to protect yourself. But it is not always enough: that is why afterNO exists.</p>
   </div>
+
+  <div class="why-sum">
+    <div class="panel stack"><p class="eyebrow">1 · the problem</p><h2 class="h3">They follow you from site to site.</h2><p>With cookies, advertising companies piece together what you read, what you search for and when.</p></div>
+    <div class="panel stack"><p class="eyebrow">2 · your defence</p><h2 class="h3">Click "Reject".</h2><p>It costs nothing, the site works the same, and European law is on your side.</p></div>
+    <div class="panel stack why-ours"><p class="eyebrow">3 · the check</p><h2 class="h3">afterNO tells you if it worked.</h2><p>Some sites keep letting other companies in even after you reject. From the outside you cannot tell, with afterNO you can.</p><a class="inline-door" href="#">Try it on the made-up site</a></div>
+  </div>
+  <p class="why-more">Here is all of it, calmly, without technical words.</p>
 
   <div class="grid2 why-what">
     <div class="panel stack">
@@ -1349,7 +1395,7 @@ html, body { overflow-x: clip; }
     <div class="grid4">
       <div class="panel tile"><span class="k">Ask first</span><span class="v">Without your yes, a site may only use the cookies it needs to work.</span></div>
       <div class="panel tile"><span class="k">Your own act</span><span class="v">Pre-ticked boxes do not count as a yes, and neither does scrolling the page.</span></div>
-      <div class="panel tile"><span class="k">Reject = Accept</span><span class="v">Almost all European authorities want "Reject all" next to "Accept", with no colours nudging you towards one of them.</span></div>
+      <div class="panel tile"><span class="k">Side by side</span><span class="v">Almost all European authorities want "Reject all" next to "Accept", with no colours nudging you towards one of them.</span></div>
       <div class="panel tile"><span class="k">Change your mind</span><span class="v">Withdrawing consent must be as easy as giving it.</span></div>
     </div>
     <p class="why-note">In Italy, on top of this, closing the banner with the X counts as a refusal, and after a refusal the site normally cannot ask again for six months.</p>
