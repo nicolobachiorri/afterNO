@@ -1281,7 +1281,7 @@ html, body { overflow-x: clip; }
     <div class="panel stack"><p class="eyebrow">2 · la tua difesa</p><h2 class="h3">Clicca «Rifiuta».</h2><p>Non costa nulla, il sito funziona uguale, e la legge europea è dalla tua parte.</p></div>
     <div class="panel stack why-ours"><p class="eyebrow">3 · il controllo</p><h2 class="h3">afterNO ti dice se ha funzionato.</h2><p>Alcuni siti continuano a far entrare altre aziende anche dopo il tuo rifiuto. Da fuori non si vede, con afterNO sì.</p><a class="inline-door" href="#">Provala sul sito inventato</a></div>
   </div>
-  <p class="why-more">Ecco tutto con calma, senza parole tecniche.</p>
+  <p class="why-more">Ma andiamo con calma, senza parole tecniche.</p>
 
   <div class="grid2 why-what">
     <div class="panel stack">
@@ -1356,7 +1356,7 @@ html, body { overflow-x: clip; }
     <div class="panel stack"><p class="eyebrow">2 · your defence</p><h2 class="h3">Click "Reject".</h2><p>It costs nothing, the site works the same, and European law is on your side.</p></div>
     <div class="panel stack why-ours"><p class="eyebrow">3 · the check</p><h2 class="h3">afterNO tells you if it worked.</h2><p>Some sites keep letting other companies in even after you reject. From the outside you cannot tell, with afterNO you can.</p><a class="inline-door" href="#">Try it on the made-up site</a></div>
   </div>
-  <p class="why-more">Here is all of it, calmly, without technical words.</p>
+  <p class="why-more">But let's take it slowly, without technical words.</p>
 
   <div class="grid2 why-what">
     <div class="panel stack">
@@ -1631,26 +1631,36 @@ html, body { overflow-x: clip; }
     popup.querySelector('#restart').addEventListener('click', reset);
   }
 
-  // a pixel arrow points at the next thing to click: the reject button, afterNO's icon, "Why?"
+  // A pixel arrow points at the next thing to click. It reads what is on screen every frame
+  // instead of remembering a step, so it cannot go stale after closing the popup, switching
+  // language or visiting another page and coming back:
+  // banner still there -> "Reject all"; banner gone, popup closed -> afterNO's icon (once it has
+  // landed); popup open, "Why?" still closed -> "Why?"; anything else -> no arrow.
+  let arrowKey = '';
   function placeArrow() {
-    const k = state.stage, win = $('window');
+    const win = $('window');
     let target = null, dir = 'down';
-    if (k === 1) target = $('b-reject');
-    else if (k === 2) { target = ext; dir = 'up'; }
-    else if (k === 3 && !popup.querySelector('#why')?.open) { target = popup.querySelector('#why summary'); dir = 'right'; }
-    if (!target || !win.offsetParent) { arrow.hidden = true; return; }
-    const w = win.getBoundingClientRect(), r = target.getBoundingClientRect(), S = 34;
-    let x = r.left + r.width / 2 - w.left - S / 2, y = r.top - w.top - S - 4;
-    if (dir === 'up') y = r.bottom - w.top + 4;
-    if (dir === 'right') { x = r.left - w.left - S - 6; y = r.top + r.height / 2 - w.top - S / 2; if (x < 4) { dir = 'left'; x = r.right - w.left - S - 40; } }
-    arrow.dataset.dir = dir; arrow.style.left = x + 'px'; arrow.style.top = y + 'px'; arrow.hidden = false;
+    const wr = win.offsetParent ? win.getBoundingClientRect() : null;
+    if (wr && wr.bottom > 0 && wr.top < innerHeight) {
+      const svg = ext.querySelector('svg');
+      if (!banner.classList.contains('gone')) target = $('b-reject');
+      else if (popup.hidden) { if (!svg || parseFloat(getComputedStyle(svg).opacity) > 0.95) { target = ext; dir = 'up'; } }
+      else { const why = popup.querySelector('#why'); if (why && !why.open) { target = why.querySelector('summary'); dir = 'right'; } }
+    }
+    const r = target && target.getBoundingClientRect();
+    if (!r || !r.width) { if (!arrow.hidden) { arrow.hidden = true; arrowKey = ''; } return; }
+    const S = 34;
+    let x = r.left + r.width / 2 - wr.left - S / 2, y = r.top - wr.top - S - 4;
+    if (dir === 'up') y = r.bottom - wr.top + 4;
+    if (dir === 'right') { x = r.left - wr.left - S - 6; y = r.top + r.height / 2 - wr.top - S / 2; if (x < 4) { dir = 'left'; x = r.right - wr.left - S - 40; } }
+    const key = dir + Math.round(x) + ',' + Math.round(y);
+    if (key === arrowKey && !arrow.hidden) return;
+    arrowKey = key; arrow.dataset.dir = dir; arrow.style.left = Math.round(x) + 'px'; arrow.style.top = Math.round(y) + 'px'; arrow.hidden = false;
   }
-  window.addEventListener('resize', placeArrow);
-  popup.addEventListener('toggle', placeArrow, true);
+  (function arrowLoop() { placeArrow(); requestAnimationFrame(arrowLoop); })();
 
   function setStage(k) {
     state.stage = k;
-    requestAnimationFrame(placeArrow);
   }
 
   function showPings() {
@@ -1703,7 +1713,6 @@ html, body { overflow-x: clip; }
     if (state.open) renderPopup();
     const note = $('banner-note'); if (!note.hidden) note.hidden = true;
     if (state.choice && !state.open) showPings();
-    requestAnimationFrame(placeArrow);
   };
   var refreshDemo = window.refreshDemo;
 
