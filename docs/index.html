@@ -472,7 +472,7 @@ html, body { overflow-x: clip; }
   .door .arrow { font-size: 12.5px; }
 
   /* the story hands over straight to the demo: no empty screen while the icon flies */
-  .story { margin-bottom: -55svh; }
+  .story { margin-bottom: -28svh; }
   .story-stage { pointer-events: none; }
 }
 
@@ -798,12 +798,13 @@ html, body { overflow-x: clip; }
     qs += (q - qs) * 0.25; if (Math.abs(q - qs) < 0.002) qs = q;
     const fly = p >= 1 || qs > 0;
     if (fly && qs < 1) {
-      const m = D > 0 ? clamp(S / D, 1.05, 3) : 2, e = 1 - Math.pow(1 - qs, m);
+      const m = D > 0 ? clamp(S / D, 1.05, 8) : 2, e = 1 - Math.pow(1 - qs, m);
       const scroll = release + qs * S;                       // the scroll this smoothed progress stands for
       const X0 = sr.left + sr.width / 2, X1 = br.left + br.width / 2;
       const L0 = Math.min(stage.offsetWidth, sh) * 0.72, L1 = br.width * 120 / 128;
       const x = lerp(X0, X1, e), y = lerp(y0, y1, e) - scroll + (scroll - sy);
-      icon(fg, x, y, L0 * Math.pow(L1 / L0, e), time, 1 - seg(qs, .94, 1));
+      const k = qs * qs * (3 - 2 * qs);                       // size shrinks evenly: slow, faster, slow
+      icon(fg, x, y, L0 * Math.pow(L1 / L0, k), time, 1 - seg(qs, .94, 1));
     }
     extSvg.style.opacity = !fly || qs >= 1 ? (p >= 1 ? '' : '0') : String(seg(qs, .94, 1));
     if (qs >= 1 && q >= 1 && !landed) { landed = true; ext.classList.remove('land'); void ext.offsetWidth; ext.classList.add('land'); }
