@@ -17,7 +17,7 @@ it as a short checklist with a cautious conclusion.
 
 **Website:** [nicolobachiorri.github.io/afterNO](https://nicolobachiorri.github.io/afterNO/), with a live demo of the popup.
 
-**Status:** in development, not yet published in any store.
+**Status:** available for Firefox on [Firefox Add-ons](https://addons.mozilla.org/addon/afterno/); the Chrome Web Store version is under review.
 
 ## What it shows
 
