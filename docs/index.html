@@ -553,6 +553,7 @@ html, body { overflow-x: clip; }
 :root[data-theme="dark"] { --btn-px: #2b3590; }
 .install .btn, .menu-install { gap: 8px; }
 .install .btn .px, .menu-install .px { font-family: var(--f-pixel); font-weight: 700; letter-spacing: .02em; color: var(--btn-px); }
+@media (max-width: 760px) { .top-right .menu-install + .menu-install { margin-top: -14px; } }
 
 .site-privacy { flex-basis: 100%; font-size: 13px; max-width: 80ch; }
 </style>
@@ -577,6 +578,7 @@ html, body { overflow-x: clip; }
         <button type="button" data-lang="it" aria-pressed="true" lang="it">IT</button>
         <button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
       </div>
+      <a class="btn menu-install" href="https://chromewebstore.google.com/detail/afterno/ancbhlnmgciehgahppbppeelmcdnjdjk" target="_blank" rel="noopener"><span data-l="it">Installa su <span class="px">Chrome</span></span><span data-l="en">Add to <span class="px">Chrome</span></span></a>
       <a class="btn menu-install" href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener"><span data-l="it">Installa su <span class="px">Firefox</span></span><span data-l="en">Add to <span class="px">Firefox</span></span></a>
       <p class="menu-foot"><span data-l="it">estensione per Chrome e Firefox · gratuita · open source</span><span data-l="en">extension for Chrome and Firefox · free · open source</span></p>
     </div>
@@ -591,14 +593,14 @@ html, body { overflow-x: clip; }
     <p class="eyebrow">cosa succede dopo il tuo rifiuto dei cookie</p>
     <h1 class="display">Hai cliccato <span class="px">Rifiuta</span>.<br>I cookie restano?</h1>
     <p class="lead">afterNO è un'<b>estensione per il browser</b>, per Chrome e Firefox. Clicchi «Rifiuta» sul banner dei cookie di un sito, apri afterNO, e ti dice in poche parole chi può ancora riconoscerti. Provala qui sotto, su un sito inventato.</p>
-    <div class="install"><a class="btn" href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">Installa su <span class="px">Firefox</span></a><span class="install-note">Chrome: in revisione</span></div>
+    <div class="install"><a class="btn" href="https://chromewebstore.google.com/detail/afterno/ancbhlnmgciehgahppbppeelmcdnjdjk" target="_blank" rel="noopener">Installa su <span class="px">Chrome</span></a><a class="btn" href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">Installa su <span class="px">Firefox</span></a></div>
     <p class="hero-hint">scorri per provarla<svg viewBox="0 0 9 9" shape-rendering="crispEdges" aria-hidden="true"><path d="M3 0h3v4h3v1h-1v1h-1v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h3z"/></svg></p>
   </div>
   <div class="hero" data-l="en">
     <p class="eyebrow">what happens after you reject cookies</p>
     <h1 class="display">You clicked <span class="px">Reject</span>.<br>Are the cookies still there?</h1>
     <p class="lead">afterNO is a <b>browser extension</b> for Chrome and Firefox. You click "Reject" on a site's cookie banner, open afterNO, and it tells you in a few words who can still recognise you. Try it below, on a made-up site.</p>
-    <div class="install"><a class="btn" href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">Add to <span class="px">Firefox</span></a><span class="install-note">Chrome: under review</span></div>
+    <div class="install"><a class="btn" href="https://chromewebstore.google.com/detail/afterno/ancbhlnmgciehgahppbppeelmcdnjdjk" target="_blank" rel="noopener">Add to <span class="px">Chrome</span></a><a class="btn" href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">Add to <span class="px">Firefox</span></a></div>
     <p class="hero-hint">scroll to try it<svg viewBox="0 0 9 9" shape-rendering="crispEdges" aria-hidden="true"><path d="M3 0h3v4h3v1h-1v1h-1v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h3z"/></svg></p>
   </div>
 
@@ -942,8 +944,8 @@ html, body { overflow-x: clip; }
       <a class="door" href="#come-ragiona"><span class="arrow">=&gt; if you want to understand</span><span class="t">How it thinks</span><span class="d">From your click to the verdict, one step at a time, on the cookies of this same made-up site.</span></a>
       <a class="door" href="#open-source"><span class="arrow">=&gt; if you want to check</span><span class="t">Why open source</span><span class="d">The code, the cookie database, the licence, and how to reach us.</span></a>
     </div>
-    <p class="facts" data-l="it"><span><a href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">su Firefox</a>, Chrome in arrivo</span><span>Apache 2.0</span></p>
-    <p class="facts" data-l="en"><span><a href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">on Firefox</a>, Chrome coming soon</span><span>Apache 2.0</span></p>
+    <p class="facts" data-l="it"><span>su <a href="https://chromewebstore.google.com/detail/afterno/ancbhlnmgciehgahppbppeelmcdnjdjk" target="_blank" rel="noopener">Chrome</a> e <a href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">Firefox</a></span><span>Apache 2.0</span></p>
+    <p class="facts" data-l="en"><span>on <a href="https://chromewebstore.google.com/detail/afterno/ancbhlnmgciehgahppbppeelmcdnjdjk" target="_blank" rel="noopener">Chrome</a> and <a href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">Firefox</a></span><span>Apache 2.0</span></p>
   </div>
 </section>
 
@@ -1150,8 +1152,8 @@ html, body { overflow-x: clip; }
     </div>
     <div class="panel stack">
       <p class="eyebrow">stato</p>
-      <h2 class="h3">Su Firefox, in arrivo su Chrome.</h2>
-      <p>È pubblicata sul <a href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">sito dei componenti aggiuntivi di Firefox</a>. La versione per Chrome è in revisione da parte di Google.</p>
+      <h2 class="h3">Su Chrome e Firefox.</h2>
+      <p>È pubblicata sul <a href="https://chromewebstore.google.com/detail/afterno/ancbhlnmgciehgahppbppeelmcdnjdjk" target="_blank" rel="noopener">Chrome Web Store</a> e sul <a href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">sito dei componenti aggiuntivi di Firefox</a>. Funziona anche su Edge, Brave, Vivaldi e Opera, che installano le estensioni del Chrome Web Store.</p>
     </div>
   </div>
 
@@ -1370,8 +1372,8 @@ html, body { overflow-x: clip; }
     </div>
     <div class="panel stack">
       <p class="eyebrow">status</p>
-      <h2 class="h3">On Firefox, coming to Chrome.</h2>
-      <p>It is published on <a href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">Firefox Add-ons</a>. The Chrome version is under review by Google.</p>
+      <h2 class="h3">On Chrome and Firefox.</h2>
+      <p>It is published on the <a href="https://chromewebstore.google.com/detail/afterno/ancbhlnmgciehgahppbppeelmcdnjdjk" target="_blank" rel="noopener">Chrome Web Store</a> and on <a href="https://addons.mozilla.org/addon/afterno/" target="_blank" rel="noopener">Firefox Add-ons</a>. It also works on Edge, Brave, Vivaldi and Opera, which install extensions from the Chrome Web Store.</p>
     </div>
   </div>
 

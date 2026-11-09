@@ -17,7 +17,7 @@ it as a short checklist with a cautious conclusion.
 
 **Website:** [nicolobachiorri.github.io/afterNO](https://nicolobachiorri.github.io/afterNO/), with a live demo of the popup.
 
-**Status:** available for Firefox on [Firefox Add-ons](https://addons.mozilla.org/addon/afterno/); the Chrome Web Store version is under review.
+**Status:** available on the [Chrome Web Store](https://chromewebstore.google.com/detail/afterno/ancbhlnmgciehgahppbppeelmcdnjdjk) and [Firefox Add-ons](https://addons.mozilla.org/addon/afterno/). It also works on Edge, Brave, Vivaldi and Opera.
 
 ## What it shows
 
