@@ -27,84 +27,64 @@ Support URL: the GitHub repository
 
 ## Detailed description: English
 
+Plain text: the stores do not render Markdown, and every line break shows. Paste the
+block as it is.
+
+```
 You click "Reject" on a cookie banner. Did anything change?
 
-afterNO compares what you asked for with what your browser can actually observe
-afterwards, and shows it in plain words when you open its popup.
+afterNO compares what you asked for with what your browser can actually observe afterwards, and shows it in plain words when you open its popup.
 
 WHAT IT SHOWS
-- Your choice, read from the site's consent signal (the IAB TCF standard used by most
-  news and ad-funded sites) or, when there is none, from the button you clicked.
-- A short checklist: for example, "3 third-party sites can still recognise you from
-  this page", with their names.
-- A cautious conclusion: "your rejection seems to be respected" or "seems to be only
-  partly respected". It never says that a site is breaking the law.
-- The cookies, grouped by kind, with the company behind them and how long they last.
+• Your choice, read from the site's consent signal (the IAB TCF standard used by most news and ad-funded sites) or, when there is none, from the button you clicked or the X you closed the banner with.
+• A short checklist: for example, "3 third-party sites can still recognise you from this page", with their names.
+• A cautious conclusion: "your rejection seems to be respected" or "seems to be only partly respected". It never says that a site is breaking the law.
+• The cookies, grouped by kind, with the company behind them and how long they last.
 
 HOW SURE IS IT
-Every sentence says where its information comes from: what the browser observed, what
-is technically possible (a cookie a tracker could use to recognise you), or what a
-public database declares (the Open Cookie Database). The information may be incomplete
-or wrong: treat it as a hint, not a verdict.
+Every sentence says where its information comes from: what the browser observed, what is technically possible (a cookie a tracker could use to recognise you), or what a public database declares (the Open Cookie Database). The information may be incomplete or wrong: treat it as a hint, not a verdict.
 
 WHAT IT CANNOT SEE
-Recognition without cookies (fingerprinting), other browser storage, data exchanged
-between companies' servers, and what a company actually does with a cookie.
+Recognition without cookies (fingerprinting), other browser storage, data exchanged between companies' servers, and what a company actually does with a cookie.
 
 DESIGNED FOR BROWSING IN THE EU
-It reads the European consent standard (IAB TCF) and cookie banners in eight EU
-languages (Italian, English, French, German, Spanish, Portuguese, Dutch, Polish). The
-interface is in Italian and English. On sites that show no banner, for example outside the EU, it has less to say.
+It reads the European consent standard (IAB TCF) and cookie banners in eight EU languages (Italian, English, French, German, Spanish, Portuguese, Dutch, Polish). The interface is in Italian and English. On sites that show no banner, for example outside the EU, it has less to say.
 
 PRIVACY
-Everything happens in your browser. No server, no analytics, no account, no network
-requests of its own. What it keeps is deleted when you close the browser. It does not
-block anything and does not click banners for you.
+Everything happens in your browser. No server, no analytics, no account, no network requests of its own. What it keeps is deleted when you close the browser. It does not block anything and does not click banners for you.
 
-Open source (Apache 2.0). Accuracy measured on random samples of Italian and other EU sites, with method and
-data published on GitHub.
+Open source (Apache 2.0). Accuracy measured on random samples of Italian and other EU sites, with method and data published on GitHub.
+```
 
 ---
 
 ## Descrizione dettagliata: italiano
 
+```
 Clicchi «Rifiuta» nel banner dei cookie. È cambiato qualcosa?
 
-afterNO confronta quello che hai chiesto con quello che il browser osserva dopo, e te
-lo spiega in parole semplici quando apri il suo riquadro.
+afterNO confronta quello che hai chiesto con quello che il browser osserva dopo, e te lo spiega in parole semplici quando apri il suo riquadro.
 
 COSA MOSTRA
-- La tua scelta, letta dal segnale di consenso del sito (lo standard IAB TCF, usato
-  dalla maggior parte dei siti di notizie e finanziati dalla pubblicità) oppure, se non
-  c'è, dal pulsante che hai cliccato.
-- Una breve lista di controllo: per esempio «3 siti terzi possono ancora riconoscerti da
-  questa pagina», con i loro nomi.
-- Una conclusione prudente: «il tuo rifiuto sembra rispettato» oppure «sembra rispettato
-  solo in parte». Non dice mai che un sito viola la legge.
-- I cookie, divisi per tipo, con l'azienda che li usa e quanto durano.
+• La tua scelta, letta dal segnale di consenso del sito (lo standard IAB TCF, usato dalla maggior parte dei siti di notizie e finanziati dalla pubblicità) oppure, se non c'è, dal pulsante che hai cliccato o dalla X con cui hai chiuso il banner.
+• Una breve lista di controllo: per esempio «3 siti terzi possono ancora riconoscerti da questa pagina», con i loro nomi.
+• Una conclusione prudente: «il tuo rifiuto sembra rispettato» oppure «sembra rispettato solo in parte». Non dice mai che un sito viola la legge.
+• I cookie, divisi per tipo, con l'azienda che li usa e quanto durano.
 
 QUANTO È SICURO
-Ogni frase dice da dove viene l'informazione: ciò che il browser ha osservato, ciò che è
-tecnicamente possibile (un cookie con cui un tracker potrebbe riconoscerti) o ciò che
-dichiara un database pubblico (l'Open Cookie Database). L'informazione può essere
-incompleta o errata: prendila come un'indicazione, non come un giudizio.
+Ogni frase dice da dove viene l'informazione: ciò che il browser ha osservato, ciò che è tecnicamente possibile (un cookie con cui un tracker potrebbe riconoscerti) o ciò che dichiara un database pubblico (l'Open Cookie Database). L'informazione può essere incompleta o errata: prendila come un'indicazione, non come un giudizio.
 
 COSA NON PUÒ VEDERE
-Il riconoscimento senza cookie (fingerprinting), altre memorie del browser, i dati
-scambiati tra i server delle aziende e ciò che un'azienda fa davvero con un cookie.
+Il riconoscimento senza cookie (fingerprinting), altre memorie del browser, i dati scambiati tra i server delle aziende e ciò che un'azienda fa davvero con un cookie.
 
 PENSATA PER LA NAVIGAZIONE NELL'UE
-Legge lo standard europeo del consenso (IAB TCF) e i banner in otto lingue dell'UE
-(italiano, inglese, francese, tedesco, spagnolo, portoghese, olandese, polacco).
-L'interfaccia è in italiano e in inglese. Sui siti che non mostrano un banner, per esempio fuori dall'UE, ha meno da dire.
+Legge lo standard europeo del consenso (IAB TCF) e i banner in otto lingue dell'UE (italiano, inglese, francese, tedesco, spagnolo, portoghese, olandese, polacco). L'interfaccia è in italiano e in inglese. Sui siti che non mostrano un banner, per esempio fuori dall'UE, ha meno da dire.
 
 PRIVACY
-Tutto avviene nel tuo browser. Nessun server, nessuna statistica, nessun account,
-nessuna richiesta di rete propria. Quello che conserva viene cancellato alla chiusura
-del browser. Non blocca nulla e non clicca i banner al posto tuo.
+Tutto avviene nel tuo browser. Nessun server, nessuna statistica, nessun account, nessuna richiesta di rete propria. Quello che conserva viene cancellato alla chiusura del browser. Non blocca nulla e non clicca i banner al posto tuo.
 
-Open source (Apache 2.0). Accuratezza misurata su campioni casuali di siti italiani e di altri paesi dell'UE, con
-metodo e dati pubblicati su GitHub.
+Open source (Apache 2.0). Accuratezza misurata su campioni casuali di siti italiani e di altri paesi dell'UE, con metodo e dati pubblicati su GitHub.
+```
 
 ---
 
