@@ -1,0 +1,30 @@
+{
+  "host": "www.ministeroturismo.gov.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.ministeroturismo.gov.it/",
+    "lastSeen": {
+      "consent.cookiebot.com": 1794342817491,
+      "consentcdn.cookiebot.com": 1794342817491,
+      "ministeroturismo.gov.it": 1794342815784,
+      "www.ministeroturismo.gov.it": 1794342817700
+    }
+  },
+  "hostsConsidered": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "ministeroturismo.gov.it",
+    "www.ministeroturismo.gov.it"
+  ]
+}

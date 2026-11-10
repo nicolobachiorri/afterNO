@@ -1,0 +1,144 @@
+{
+  "url": "https://www.astroshop.it",
+  "final_url": "https://www.astroshop.it/",
+  "click_at_s": 20.19,
+  "reload_at_s": 25.19,
+  "reject": "labelled: 'Negare' (button, mouse click)",
+  "visible_buttons": [
+    "Accettare tutti",
+    "Negare",
+    "No, aggiusta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "api.cookiefirst.com",
+    "bat.bing.net",
+    "consent.cookiefirst.com",
+    "g.clarity.ms",
+    "production.neocomapp.com",
+    "prompts.api.production.neocomapp.com",
+    "q.clarity.ms",
+    "www.clarity.ms"
+  ],
+  "third_party_hosts_after_reload": [
+    "bat.bing.net",
+    "consent.cookiefirst.com",
+    "production.neocomapp.com",
+    "prompts.api.production.neocomapp.com",
+    "q.clarity.ms",
+    "www.clarity.ms"
+  ],
+  "third_party_timeline": {
+    "api.cookiefirst.com": {
+      "first_s": 20.2,
+      "last_s": 20.2
+    },
+    "bat.bing.com": {
+      "first_s": 19.35,
+      "last_s": 19.68
+    },
+    "bat.bing.net": {
+      "first_s": 19.78,
+      "last_s": 28.62
+    },
+    "consent.cookiefirst.com": {
+      "first_s": 18.65,
+      "last_s": 26.11
+    },
+    "edge.cookiefirst.com": {
+      "first_s": 19.21,
+      "last_s": 19.21
+    },
+    "g.clarity.ms": {
+      "first_s": 20.43,
+      "last_s": 21.47
+    },
+    "production.neocomapp.com": {
+      "first_s": 2.61,
+      "last_s": 26.15
+    },
+    "prompts.api.production.neocomapp.com": {
+      "first_s": 5.52,
+      "last_s": 26.62
+    },
+    "q.clarity.ms": {
+      "first_s": 26.64,
+      "last_s": 35.28
+    },
+    "scripts.clarity.ms": {
+      "first_s": 20.03,
+      "last_s": 20.03
+    },
+    "www.clarity.ms": {
+      "first_s": 19.78,
+      "last_s": 26.34
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.89,
+      "last_s": 18.65
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "bat.bing.com",
+    "consent.cookiefirst.com",
+    "edge.cookiefirst.com",
+    "production.neocomapp.com",
+    "scripts.clarity.ms",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "sid",
+      "domain": ".astroshop.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "tid",
+      "domain": ".astroshop.it",
+      "path": "/",
+      "expires": 1825878862.357789,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "balancer",
+      "domain": "www.astroshop.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".astroshop.it",
+      "path": "/",
+      "expires": 1825878878.581326,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://astroshop.it",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "cookiefirst-consent",
+      "domain": "www.astroshop.it",
+      "path": "/",
+      "expires": 1825446880,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

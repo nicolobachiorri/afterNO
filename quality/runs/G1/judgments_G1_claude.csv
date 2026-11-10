@@ -1,0 +1,41 @@
+visit,order,judge,measurable,items,labels,conclusion,notes
+G1,141,claude (autore del codice),no_banner,,,,Nessun banner cookie presente
+G1,142,claude (autore del codice),no_reject,,,,Al primo livello ci sono solo Accetta tutti (4) e Personalizzare (5)
+G1,143,claude (autore del codice),no_banner,,,,Nessun banner cookie presente
+G1,144,claude (autore del codice),si,ok,0,correct,Nessun cookie di terzi né di marketing del sito dopo il rifiuto.
+G1,145,claude (autore del codice),si,ok,0,correct,Nessun cookie di terzi né di marketing del sito dopo il rifiuto.
+G1,146,claude (autore del codice),no_banner,,,,Nessun banner cookie presente
+G1,147,claude (autore del codice),si,wrong,0,missed,"Corretto dopo il confronto con gli altri giudici: cfz_facebook-pixel (365 giorni) sul dominio del sito è il Meta Pixel caricato da Cloudflare Zaraz, che invia i dati dai server di Cloudflare. È marketing del sito dopo il rifiuto: andava «solo in parte», l'estensione dice «rispettato». Il database non conosceva il nome; aggiunto a overrides.csv dopo la misura."
+G1,148,claude (autore del codice),si,ok,0,correct,"I quattro siti terzi che soddisfano i criteri (blendee, criteo, id5-sync, linkedin) sono quelli nominati; cookie di marketing del sito (Criteo, SAP/Gigya) dopo il rifiuto."
+G1,150,claude (autore del codice),si,ok,0,correct,"I quattro siti terzi che soddisfano i criteri (commander1, nativery, opera, presage) sono quelli nominati."
+G1,151,claude (autore del codice),si,ok,0,correct,"Solo statistiche del sito (Piwik), mostrate come informazione."
+G1,152,claude (autore del codice),no_banner,,,,Nessun banner cookie presente
+G1,153,claude (autore del codice),no_blocked,,,,"Dopo il clic il ricaricamento porta a una pagina anti-robot (Radware, validate.perfdrive.com): la verifica non è possibile."
+G1,154,claude (autore del codice),si,ok,0,correct,Nessun cookie di terzi né di marketing del sito dopo il rifiuto.
+G1,155,claude (autore del codice),si,ok,0,correct,Nessun cookie di terzi né di marketing del sito dopo il rifiuto.
+G1,156,claude (autore del codice),si,ok,0,correct,"TCF registra il rifiuto, 6 finalità su interesse legittimo mostrate come informazione; nessun tracker osservato."
+G1,157,claude (autore del codice),no_reject,,,,Al primo livello solo Gestisci le opzioni (4) e Accetta e chiudi (5)
+G1,3013,claude (autore del codice),si,ok,0,correct,"Solo TESTCOOKIESENABLED di googlesyndication, che dura 0 giorni: non soddisfa i criteri."
+G1,3014,claude (autore del codice),no_reject,,,,"Paywall / Contentpass (Werbefrei für 3,99€ / Monat); 11 rifiuta solo Utiq"
+G1,3016,claude (autore del codice),no_banner,,,,Nessun banner cookie presente
+G1,3513,claude (autore del codice),other,,,,"«Speichern» con i soli cookie necessari attivi (save_defaults): l'estensione non registra nessuna scelta, come previsto per «salva». Riportato a parte."
+G1,3515,claude (autore del codice),no_banner,,,,Nessun banner cookie presente
+G1,3516,claude (autore del codice),no_banner,,,,Nessun banner cookie presente
+G1,4013,claude (autore del codice),si,ok,0,correct,"LinkedIn (bcookie, 365 giorni, SameSite=None) contattato dopo il clic: nominato."
+G1,4014,claude (autore del codice),si,ok,0,correct,Nessun cookie di terzi né di marketing del sito dopo il rifiuto.
+G1,4015,claude (autore del codice),si,ok,0,correct,"cquotient.com (uuid, 395 giorni, marketing) contattato dopo il clic: nominato."
+G1,4512,claude (autore del codice),no_blocked,,,,Pagina vuota / nessun elemento caricato
+G1,4513,claude (autore del codice),no_banner,,,,Nessun banner cookie presente
+G1,4514,claude (autore del codice),no_reject,,,,"Pay or Okay: Rechazar y pagar (3) a pagamento, oppure Configurar (4)"
+G1,5013,claude (autore del codice),si,ok,0,correct,Il sito reindirizza a jobs.teleperformance.pt; _fbp e _gcl_au del sito (90 giorni) dopo il rifiuto: «solo in parte» corretto secondo le regole.
+G1,5014,claude (autore del codice),no_blocked,,,,Bloccato da Google reCAPTCHA
+G1,5015,claude (autore del codice),no_reject,,,,Al primo livello solo Permitir (3) e Configurações de Cookies (4)
+G1,5514,claude (autore del codice),si,ok,0,correct,Nessun cookie di terzi né di marketing del sito dopo il rifiuto.
+G1,5515,claude (autore del codice),no_blocked,,,,Pagina vuota / nessun elemento caricato
+G1,5516,claude (autore del codice),no_banner,,,,Nessun banner cookie di rifiuto (solo avviso informativo con Lees meer)
+G1,6013,claude (autore del codice),other,,,,"«Akceptuj wybrane» con i soli necessari attivi (save_defaults): l'estensione lo registra come accettazione, sbagliando. Riportato a parte; difetto da correggere."
+G1,6014,claude (autore del codice),si,ok,0,correct,_fbp del sito (90 giorni) dopo il rifiuto: «solo in parte» corretto secondo le regole.
+G1,6015,claude (autore del codice),no_reject,,,,Al primo livello solo Akceptuj wszystkie (3) e Ustawienia (4)
+G1,6512,claude (autore del codice),no_click,,,,"Una finestra del sito («stai visitando il sito irlandese, vuoi quello italiano?») copre il banner: il robot non clicca; una persona la chiuderebbe prima. Limite del robot."
+G1,6514,claude (autore del codice),si,ok,0,correct,"adobedc.net (mg, 365 giorni, sconosciuto nel database) contattato dopo il clic: soddisfa i criteri ed è nominato."
+G1,6515,claude (autore del codice),other,,,,«Save selection» con i soli necessari attivi (save_defaults): l'estensione non registra nessuna scelta. Riportato a parte.

@@ -1,0 +1,156 @@
+{
+  "url": "https://www.ual.es",
+  "final_url": "https://www.ual.es/",
+  "click_at_s": 14.78,
+  "reload_at_s": null,
+  "reject": "labelled: no_banner",
+  "visible_buttons": [
+    "Buscar",
+    "Contacta",
+    "Contacta con la UAL",
+    "Quejas y sugerencias"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "6108104.global.siteimproveanalytics.io": {
+      "first_s": 4.97,
+      "last_s": 4.97
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.14,
+      "last_s": 4.18
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 4.39,
+      "last_s": 4.67
+    },
+    "i.ytimg.com": {
+      "first_s": 4.75,
+      "last_s": 4.75
+    },
+    "jnn-pa.googleapis.com": {
+      "first_s": 4.69,
+      "last_s": 4.71
+    },
+    "m.youtube.com": {
+      "first_s": 4.96,
+      "last_s": 4.96
+    },
+    "siteimproveanalytics.com": {
+      "first_s": 3.18,
+      "last_s": 3.18
+    },
+    "static.doubleclick.net": {
+      "first_s": 4.39,
+      "last_s": 4.4
+    },
+    "www.google.com": {
+      "first_s": 4.42,
+      "last_s": 4.45
+    },
+    "www.youtube.com": {
+      "first_s": 3.83,
+      "last_s": 7.08
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "CONCRETE",
+      "domain": "www.ual.es",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiesession1",
+      "domain": "www.ual.es",
+      "path": "/",
+      "expires": 1825879410.891405,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-YNID",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809895411.977042,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ual.es",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ual.es",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809895411.977096,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ual.es",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809895411.977129,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ual.es",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1809895411.977148,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ual.es",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "nmstat",
+      "domain": ".ual.es",
+      "path": "/",
+      "expires": 1828903412.769986,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

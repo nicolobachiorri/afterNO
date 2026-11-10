@@ -1,0 +1,102 @@
+{
+  "url": "https://www.onisep.fr",
+  "final_url": "https://www.onisep.fr/",
+  "click_at_s": 12.2,
+  "reload_at_s": 17.2,
+  "reject": "labelled: 'Tout refuser' (button, mouse click)",
+  "visible_buttons": [
+    "Tout accepter",
+    "Tout refuser",
+    "Personnaliser",
+    "Rechercher",
+    "Formation",
+    "M\u00e9tier",
+    "Orientation",
+    "Inclusion et handicap",
+    "Vers l'emploi",
+    "Voir plus d'articles",
+    "Autoriser"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "b39bcad77094d43e72b4c0e91ad811a7.safeframe.googlesyndication.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "pagead2.googlesyndication.com",
+    "tpc.googlesyndication.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "b39bcad77094d43e72b4c0e91ad811a7.safeframe.googlesyndication.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "pagead2.googlesyndication.com",
+    "tpc.googlesyndication.com"
+  ],
+  "third_party_timeline": {
+    "ade24f5c3edcbdc42e84a01456d01352.safeframe.googlesyndication.com": {
+      "first_s": 4.03,
+      "last_s": 4.03
+    },
+    "b39bcad77094d43e72b4c0e91ad811a7.safeframe.googlesyndication.com": {
+      "first_s": 17.5,
+      "last_s": 17.5
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 4.71,
+      "last_s": 18.69
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 4.93,
+      "last_s": 18.16
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.97,
+      "last_s": 19.03
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.7,
+      "last_s": 3.76
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 4.24,
+      "last_s": 17.74
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "ep2.adtrafficquality.google",
+    "pagead2.googlesyndication.com",
+    "securepubads.g.doubleclick.net"
+  ],
+  "cookies": [
+    {
+      "name": "__eoi",
+      "domain": ".onisep.fr",
+      "path": "/",
+      "expires": 1809895333,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookieseps",
+      "domain": "www.onisep.fr",
+      "path": "/",
+      "expires": 1825879341,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "etuix",
+      "domain": ".onisep.fr",
+      "path": "/",
+      "expires": 1828298547.237356,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

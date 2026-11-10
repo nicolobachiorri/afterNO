@@ -1,0 +1,28 @@
+{
+  "host": "www.inwx.de",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.inwx.de/de",
+    "lastSeen": {
+      "hossa.inwx.com": 1794343230184,
+      "www.inwx.de": 1794343228634,
+      "zammad.inwx.de": 1794343229542
+    }
+  },
+  "hostsConsidered": [
+    "hossa.inwx.com",
+    "www.inwx.de",
+    "zammad.inwx.de"
+  ]
+}

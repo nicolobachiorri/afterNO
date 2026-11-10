@@ -108,6 +108,21 @@ metodo e dati pubblicati su GitHub.
 
 ---
 
+## Release notes (Firefox asks for them at every upload)
+
+**0.1.2**
+EN: Closing a banner with its X is now recognised. "Accept selected" and "save" buttons
+are no longer read as an acceptance. A click made by the site's own script is not taken
+for yours. Site names with public suffixes (co.uk, gov.it) are handled with the Public
+Suffix List. Cookies set through Cloudflare Zaraz are recognised.
+IT: La chiusura del banner con la X ora è riconosciuta. I pulsanti «accetta selezionati»
+e «salva» non valgono più come accettazione. Un clic fatto da uno script del sito non
+viene scambiato per il tuo. I nomi dei siti con suffissi pubblici (co.uk, gov.it) sono
+gestiti con la Public Suffix List. I cookie impostati tramite Cloudflare Zaraz sono
+riconosciuti.
+
+---
+
 ## Chrome Web Store: Privacy practices tab
 
 **Single purpose**
@@ -123,7 +138,7 @@ observes on that site.
 | webRequest | Observes, without blocking or modifying, which third-party hosts the current page contacts, so the popup can list the trackers that are still contacted after a rejection. Only host names and times are kept, in session storage. |
 | storage | Uses storage.session only, to keep the user's banner choice and the list of contacted hosts while the browser is open. Cleared when the browser closes. |
 | Host permissions (<all_urls>) | The user can open the popup on any website, and the browser hides cookies and requests of sites the extension has no access to. Nothing is read until the user visits a page, and nothing leaves the browser. |
-| Content script on all pages | Reads the site's IAB TCF consent signal and recognises clicks on "Reject"/"Accept" in cookie banners. Any other click is discarded immediately. |
+| Content script on all pages | Reads the site's IAB TCF consent signal and recognises clicks on "Reject", "Accept" or the closing X in cookie banners. Any other click is discarded immediately. |
 
 **Remote code**: No, I am not using remote code.
 

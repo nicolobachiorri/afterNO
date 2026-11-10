@@ -1,0 +1,71 @@
+{
+  "host": "www.ubuy.ie",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 2,
+      "names": [
+        "X (twitter.com)",
+        "X (t.co)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.ubuy.ie/en/",
+    "lastSeen": {
+      "analytics.twitter.com": 1794343669793,
+      "bat.bing.com": 1794343659797,
+      "bat.bing.net": 1794343660428,
+      "bzr.openai.com": 1794343661110,
+      "bzrcdn.openai.com": 1794343659593,
+      "connect.facebook.net": 1794343659007,
+      "d24epxax9d77vm.cloudfront.net": 1794343651571,
+      "d2ati23fc66y9j.cloudfront.net": 1794343652548,
+      "d3ulwu8fab47va.cloudfront.net": 1794343651275,
+      "dgv6pipvif46t.cloudfront.net": 1794343651563,
+      "i.clarity.ms": 1794343677800,
+      "news.google.com": 1794343651763,
+      "pagead2.googlesyndication.com": 1794343662178,
+      "play.google.com": 1794343652488,
+      "region1.google-analytics.com": 1794343667203,
+      "scripts.clarity.ms": 1794343659588,
+      "static.ads-twitter.com": 1794343659151,
+      "t.co": 1794343669791,
+      "www.clarity.ms": 1794343659920,
+      "www.googletagmanager.com": 1794343659580,
+      "www.gstatic.com": 1794343652684,
+      "www.ubuy.ie": 1794343658586
+    }
+  },
+  "hostsConsidered": [
+    "analytics.twitter.com",
+    "bat.bing.com",
+    "bat.bing.net",
+    "bzr.openai.com",
+    "bzrcdn.openai.com",
+    "connect.facebook.net",
+    "d24epxax9d77vm.cloudfront.net",
+    "d2ati23fc66y9j.cloudfront.net",
+    "d3ulwu8fab47va.cloudfront.net",
+    "dgv6pipvif46t.cloudfront.net",
+    "i.clarity.ms",
+    "news.google.com",
+    "pagead2.googlesyndication.com",
+    "play.google.com",
+    "region1.google-analytics.com",
+    "scripts.clarity.ms",
+    "static.ads-twitter.com",
+    "t.co",
+    "www.clarity.ms",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "www.ubuy.ie"
+  ]
+}

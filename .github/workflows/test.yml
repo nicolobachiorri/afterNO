@@ -1,4 +1,4 @@
-# Tests and type check on every push and pull request.
+# Tests, type check and the project's integrity check on every push and pull request.
 name: Tests
 
 on:
@@ -22,3 +22,7 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run compile
+      # Translations, store listing, cookie database, website, published numbers:
+      # do they still agree with each other? (tools/check_integrity.py)
+      - run: python3 tools/check_integrity.py
+        working-directory: .

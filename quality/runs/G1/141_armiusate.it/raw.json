@@ -1,0 +1,282 @@
+{
+  "url": "https://www.armiusate.it",
+  "final_url": "https://www.armiusate.it/",
+  "click_at_s": 30.86,
+  "reload_at_s": null,
+  "reject": "labelled: no_banner",
+  "visible_buttons": [
+    "Previous",
+    "Next"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ballistol.shop": {
+      "first_s": 3.01,
+      "last_s": 3.01
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 2.99,
+      "last_s": 3.0
+    },
+    "dkdbo8c81igf8.cloudfront.net": {
+      "first_s": 3.01,
+      "last_s": 3.01
+    },
+    "maxcdn.bootstrapcdn.com": {
+      "first_s": 3.0,
+      "last_s": 3.0
+    },
+    "mcusercontent.com": {
+      "first_s": 3.01,
+      "last_s": 3.01
+    },
+    "region1.analytics.google.com": {
+      "first_s": 23.32,
+      "last_s": 23.32
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 23.32,
+      "last_s": 23.32
+    },
+    "upload.wikimedia.org": {
+      "first_s": 3.01,
+      "last_s": 3.01
+    },
+    "www.google.it": {
+      "first_s": 23.32,
+      "last_s": 23.32
+    },
+    "www.googletagmanager.com": {
+      "first_s": 22.73,
+      "last_s": 23.13
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/b/i",
+      "expires": 1794342810.211945,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/7/m",
+      "expires": 1794342810.291317,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/l/u",
+      "expires": 1794342810.31284,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/3/2",
+      "expires": 1794342810.317803,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/1/7",
+      "expires": 1794342810.446302,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/3/0",
+      "expires": 1794342810.325478,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/7/7",
+      "expires": 1794342810.337957,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/p/a",
+      "expires": 1794342810.446083,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/b/a",
+      "expires": 1794342810.446381,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/r/e",
+      "expires": 1794342810.446476,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/3/9",
+      "expires": 1794342810.469862,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/h/o",
+      "expires": 1794342810.72679,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/l/e",
+      "expires": 1794342810.831605,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/sponsor/newAds/images/cache/c977255f2368abf673e0063d57fa2897/f/a",
+      "expires": 1794342811.115936,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit/images",
+      "expires": 1794342813.319835,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_use_ob",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit",
+      "expires": 1794342809.601486,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_ob_info",
+      "domain": "www.armiusate.it",
+      "path": "/oc-content/themes/titit",
+      "expires": 1794342809.601596,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "osclass",
+      "domain": ".armiusate.it",
+      "path": "/",
+      "expires": 1795638759.872869,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "WMF-Uniq",
+      "domain": ".upload.wikimedia.org",
+      "path": "/",
+      "expires": 1825826385.01713,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".armiusate.it",
+      "path": "/",
+      "expires": 1825878780.187358,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://armiusate.it",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "_ga_174EE2YEYE",
+      "domain": ".armiusate.it",
+      "path": "/",
+      "expires": 1828902780.227157,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".armiusate.it",
+      "path": "/",
+      "expires": 1828902780.227388,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

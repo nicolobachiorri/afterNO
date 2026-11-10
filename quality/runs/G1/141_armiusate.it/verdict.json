@@ -1,0 +1,58 @@
+{
+  "host": "www.armiusate.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 1,
+      "names": [
+        "wikimedia.org"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.armiusate.it/",
+    "lastSeen": {
+      "ballistol.shop": 1794342768203,
+      "cdnjs.cloudflare.com": 1794342759895,
+      "dkdbo8c81igf8.cloudfront.net": 1794342767924,
+      "immagini.armiusate.it": 1794342779658,
+      "maxcdn.bootstrapcdn.com": 1794342759895,
+      "mcusercontent.com": 1794342767859,
+      "region1.analytics.google.com": 1794342780229,
+      "stats.g.doubleclick.net": 1794342780230,
+      "upload.wikimedia.org": 1794342768671,
+      "www.armiusate.it": 1794342789843,
+      "www.google.it": 1794342780230,
+      "www.googletagmanager.com": 1794342780038
+    }
+  },
+  "hostsConsidered": [
+    "ballistol.shop",
+    "cdnjs.cloudflare.com",
+    "dkdbo8c81igf8.cloudfront.net",
+    "immagini.armiusate.it",
+    "maxcdn.bootstrapcdn.com",
+    "mcusercontent.com",
+    "region1.analytics.google.com",
+    "stats.g.doubleclick.net",
+    "upload.wikimedia.org",
+    "www.armiusate.it",
+    "www.google.it",
+    "www.googletagmanager.com"
+  ]
+}

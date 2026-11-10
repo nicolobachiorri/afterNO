@@ -1,0 +1,56 @@
+{
+  "url": "https://www.instyle.de",
+  "final_url": "https://www.instyle.de/",
+  "click_at_s": 11.54,
+  "reload_at_s": null,
+  "reject": "labelled: no_free_reject",
+  "visible_buttons": [
+    "Akzeptieren",
+    "Werbefrei f\u00fcr 3,99\u20ac / Monat",
+    "Speichern von oder Zugriff auf Informationen auf e",
+    "Personalisierte Anzeigen und Inhalte, Anzeigen- un",
+    "Nutzung der Utiq-Technologie, unterst\u00fctzt durch Ih"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 1,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "a.bf-ad.net": {
+      "first_s": 2.92,
+      "last_s": 2.92
+    },
+    "a.bf-tools.net": {
+      "first_s": 2.92,
+      "last_s": 2.92
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 3.5,
+      "last_s": 3.5
+    },
+    "tech-sentry.harpersbazaar.de": {
+      "first_s": 3.62,
+      "last_s": 3.62
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "consentUUID",
+      "domain": ".instyle.de",
+      "path": "/",
+      "expires": 1825879212.064724,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

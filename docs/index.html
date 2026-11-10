@@ -1014,8 +1014,8 @@ html, body { overflow-x: clip; }
   <div class="stack">
     <div class="sec-head">
       <p class="eyebrow">quanto è precisa</p>
-      <h2 class="h2">Misurata su <span class="px">120</span> siti mai visti prima.</h2>
-      <p class="lead">Siti estratti a caso da una lista pubblica, con un metodo scritto prima di vedere i risultati. Un robot clicca «Rifiuta», salva il verdetto e, a parte, tutti i dati grezzi. Poi il verdetto si confronta con i dati.</p>
+      <h2 class="h2">Misurata su <span class="px">160</span> siti mai visti prima.</h2>
+      <p class="lead">Siti estratti a caso da una lista pubblica, con un metodo scritto prima di vedere i risultati. Un robot clicca «Rifiuta», salva il verdetto e, a parte, tutti i dati grezzi. Poi il verdetto si confronta con i dati. Nell'ultimo giro il pulsante da cliccare l'ha segnato una persona, prima della visita.</p>
     </div>
     <div class="defs">
       <div class="panel def"><b>rifiuto registrato</b>Sui siti con un rifiuto gratuito, quante volte l'estensione si accorge che hai cliccato «Rifiuta». Se non se ne accorge, non può controllare nulla.</div>
@@ -1024,26 +1024,28 @@ html, body { overflow-x: clip; }
     </div>
     <div class="table-wrap">
       <table class="data">
-        <thead><tr><th></th><th>Italia</th><th>UE, primo giro</th><th>UE, secondo giro</th></tr></thead>
+        <thead><tr><th></th><th>Italia</th><th>UE, primo giro</th><th>UE, secondo giro</th><th>Giro G, Italia e UE</th></tr></thead>
         <tbody>
-          <tr><td>Siti con un rifiuto gratuito</td><td class="num">24 su 40</td><td class="num">19 su 40</td><td class="num">24 su 40</td></tr>
-          <tr><td class="strong">Rifiuto registrato</td><td class="num">22 su 24 · 92% (74–98%)</td><td class="num">14 su 19 · 74% (51–88%)</td><td class="num">19 su 24 · 79% (60–91%)</td></tr>
-          <tr><td class="strong">Verdetto giusto, se registrato</td><td class="num">22 su 22 · almeno 85%</td><td class="num">14 su 14 · almeno 78%</td><td class="num">19 su 19 · almeno 83%</td></tr>
-          <tr><td>Falsi allarmi</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
-          <tr><td>Problemi non visti</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
-          <tr><td>Accordo del secondo giudice</td><td class="num">21 su 22</td><td class="num">14 su 14</td><td class="num">19 su 19</td></tr>
-          <tr><td class="strong">Stabilità</td><td class="num">non misurata su questa versione</td><td class="num">14 su 14, il giorno dopo</td><td class="num">19 su 19, un'ora dopo</td></tr>
+          <tr><td>Siti con un rifiuto gratuito</td><td class="num">24 su 40</td><td class="num">19 su 40</td><td class="num">24 su 40</td><td class="num">19 su 40, segnati a mano</td></tr>
+          <tr><td class="strong">Rifiuto registrato</td><td class="num">22 su 24 · 92% (74–98%)</td><td class="num">14 su 19 · 74% (51–88%)</td><td class="num">19 su 24 · 79% (60–91%)</td><td class="num">17 su 17 · 100% (82–100%)</td></tr>
+          <tr><td class="strong">Verdetto giusto, se registrato</td><td class="num">22 su 22 · almeno 85%</td><td class="num">14 su 14 · almeno 78%</td><td class="num">19 su 19 · almeno 83%</td><td class="num">16 su 17 · 94% (73–99%)</td></tr>
+          <tr><td>Falsi allarmi</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr><td>Problemi non visti</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td></tr>
+          <tr><td>Accordo del secondo giudice</td><td class="num">21 su 22</td><td class="num">14 su 14</td><td class="num">19 su 19</td><td class="num">16 su 17</td></tr>
+          <tr><td>Giudice alla cieca d'accordo</td><td class="num">–</td><td class="num">–</td><td class="num">–</td><td class="num">10 su 13, 4 «non so»</td></tr>
+          <tr><td class="strong">Stabilità</td><td class="num">non misurata su questa versione</td><td class="num">14 su 14, il giorno dopo</td><td class="num">19 su 19, un'ora dopo</td><td class="num">non ancora misurata</td></tr>
         </tbody>
       </table>
     </div>
     <ul class="list small">
-      <li>Tra parentesi e dopo «almeno», l'intervallo di confidenza al 95% (Wilson): con 19–24 siti l'incertezza è ampia.</li>
-      <li><b>Rifiuti non registrati.</b> Italia: due banner in cui la X vale come rifiuto, che l'estensione non riconosceva. UE: frasi che non conosceva ancora («Alle Dienste ablehnen», «Non merci», «Odmawiam», «Akceptuj tylko niezbędne»…) e, una volta, un rifiuto registrato dove non c'era. Sono stati corretti nella versione successiva, che resta da misurare su siti nuovi.</li>
-      <li><b>Perché prima la tabella diceva solo «100%».</b> Il robot cercava «Rifiuta» con le stesse parole dell'estensione: quando l'estensione non conosceva una frase, nemmeno il robot cliccava, e il sito finiva tra quelli senza nulla da verificare invece che tra gli errori. Lo ha fatto notare una revisione esterna, il 10 novembre 2026. Il prossimo giro userà un robot che trova il pulsante in modo indipendente.</li>
-      <li><b>Chi giudica.</b> Il giudice principale è Claude, l'IA che ha scritto gran parte del codice: un conflitto di interessi, dichiarato. Il giudizio di una persona è stato messo da parte dopo che in sei casi contraddiceva le regole scritte. Il secondo giudice, Gemini, è di un'altra azienda, ma entrambi leggono una pagina con i criteri già calcolati: il loro accordo conferma che il codice applica bene le regole, non che le regole colgano ogni caso. Il prossimo giro avrà un giudice umano esterno, alla cieca.</li>
+      <li>Tra parentesi e dopo «almeno», l'intervallo di confidenza al 95% (Wilson): con 17–24 siti l'incertezza è ampia.</li>
+      <li><b>Rifiuti non registrati.</b> Italia: due banner in cui la X vale come rifiuto, che l'estensione non riconosceva. UE: frasi che non conosceva ancora («Alle Dienste ablehnen», «Non merci», «Odmawiam», «Akceptuj tylko niezbędne»…) e, una volta, un rifiuto registrato dove non c'era. Sono stati corretti prima del giro G.</li>
+      <li><b>Perché prima la tabella diceva solo «100%».</b> Il robot cercava «Rifiuta» con le stesse parole dell'estensione: quando l'estensione non conosceva una frase, nemmeno il robot cliccava, e il sito finiva tra quelli senza nulla da verificare invece che tra gli errori. Lo ha fatto notare una revisione esterna, il 10 novembre 2026. Dal giro G il pulsante lo segna una persona.</li>
+      <li><b>Giro G.</b> 16 siti italiani e 3 per ognuno degli otto paesi, mai visti prima, con la versione 0.1.1. Due siti sono esclusi perché a sbagliare è stato il robot: una pagina anti-robot e una finestra che copriva il banner. Il problema non visto: su concorsando.it il pixel di Meta passa dal server del sito (Cloudflare Zaraz), e resta solo un cookie del sito con un nome che il database non conosceva. Su praca.pl «Akceptuj wybrane» («accetta selezionati», con i soli cookie necessari attivi) è stato registrato come accettazione. Entrambi corretti dopo la misura.</li>
+      <li><b>Chi giudica.</b> Il giudice principale è Claude, l'IA che ha scritto gran parte del codice: un conflitto di interessi, dichiarato. Il giudizio di una persona è stato messo da parte dopo che in sei casi contraddiceva le regole scritte. Il secondo giudice, Gemini, è di un'altra azienda, ma entrambi leggono una pagina con i criteri già calcolati: il loro accordo conferma che il codice applica bene le regole, non che le regole colgano ogni caso. Nel giro G si è aggiunto un giudice alla cieca, ChatGPT, che vedeva solo i dati grezzi: due dei suoi tre disaccordi riguardano le statistiche del sito stesso, che per lui sono tracciamento e per le nostre regole un'informazione. È un'IA, non la persona prevista dal protocollo, che manca ancora.</li>
       <li><b>Solo Chrome.</b> Tutte le misure sono fatte con Chromium. Firefox separa e blocca già molti cookie di terze parti: lì i risultati potrebbero essere diversi, e non sono ancora misurati.</li>
-      <li>La versione negli store contiene correzioni fatte dopo l'ultimo giro, non ancora misurate. Il robot usa un browser nuovo per ogni sito: la misura dice se l'estensione legge bene i dati che ha davanti, non quanto spesso un utente vero vedrà «solo in parte».</li>
-      <li>UE: otto paesi (Germania, Austria, Francia, Spagna, Portogallo, Paesi Bassi, Polonia, Irlanda), cinque siti ciascuno, visitati nella lingua del paese.</li>
+      <li>Le correzioni trovate nel giro G arrivano nella versione successiva, non ancora misurata. Il robot usa un browser nuovo per ogni sito: la misura dice se l'estensione legge bene i dati che ha davanti, non quanto spesso un utente vero vedrà «solo in parte».</li>
+      <li>UE: otto paesi (Germania, Austria, Francia, Spagna, Portogallo, Paesi Bassi, Polonia, Irlanda), cinque siti ciascuno per giro (tre nel giro G), visitati nella lingua del paese.</li>
     </ul>
     <a class="inline-door" href="https://github.com/nicolobachiorri/afterNO/blob/main/quality/PROTOCOL.md" target="_blank" rel="noopener">Il protocollo, i dati e i giudizi, sito per sito</a>
   </div>
@@ -1083,8 +1085,8 @@ html, body { overflow-x: clip; }
     <button type="button" class="step" data-step="4" aria-pressed="false">
       <span class="n">passo 4 · chi può riconoscerti</span>
       <span class="h3">Conta chi può riconoscerti.</span>
-      <p>Un cookie di terzi può riconoscerti se il browser lo rimanda a quell'azienda anche da qui (SameSite=None), se l'azienda viene contattata dopo la tua scelta, e se dura abbastanza da ritrovarti nei giorni successivi.</p>
-      <ul><li>un cookie sconosciuto, di terzi, inviato ovunque e valido almeno 30 giorni è un «identificativo probabile»;</li><li>i cookie del tuo account (Google, Facebook…) esistono perché sei collegato: sono informazione, non colpa del sito.</li></ul>
+      <p>Un'altra azienda può riconoscerti se la pagina la contatta dopo la tua scelta e lei ha nel tuo browser un cookie classificato come marketing o statistica, oppure uno sconosciuto con la forma di un identificativo.</p>
+      <ul><li>«identificativo probabile»: sconosciuto, di terzi, inviato ovunque (SameSite=None) e valido almeno 30 giorni;</li><li>un cookie di marketing del sito conta se dura più di un giorno; le statistiche del sito restano un'informazione;</li><li>30 giorni e un giorno sono scelte nostre: sui siti misurati, qualsiasi valore tra un giorno e sei mesi dà le stesse conclusioni (dettagli nel README);</li><li>i cookie del tuo account (Google, Facebook…) esistono perché sei collegato: sono informazione, non colpa del sito.</li></ul>
     </button>
     <button type="button" class="step" data-step="5" aria-pressed="false">
       <span class="n">passo 5 · le etichette</span>
@@ -1111,10 +1113,10 @@ html, body { overflow-x: clip; }
           <th class="c-same">rimandato da altri siti</th><th class="c-life">dura</th><th class="c-label">etichetta</th><th class="c-out">esito</th>
         </tr></thead>
         <tbody>
-          <tr><td class="c-name">sessione</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">—</td><td class="c-life">fino alla chiusura</td><td class="c-label">necessario</td><td class="c-out"><span class="tag none">non conta</span></td></tr>
-          <tr><td class="c-name">euconsent-v2</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">—</td><td class="c-life">13 mesi</td><td class="c-label">funzionale: ricorda la tua scelta</td><td class="c-out"><span class="tag none">non conta</span></td></tr>
-          <tr><td class="c-name">_pk_id</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">—</td><td class="c-life">13 mesi</td><td class="c-label">statistica</td><td class="c-out"><span class="tag info">informazione</span></td></tr>
-          <tr><td class="c-name">_pn_click</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">—</td><td class="c-life">3 mesi</td><td class="c-label">marketing (Pubblinet)</td><td class="c-out"><span class="tag against">punto contro</span></td></tr>
+          <tr><td class="c-name">sessione</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">–</td><td class="c-life">fino alla chiusura</td><td class="c-label">necessario</td><td class="c-out"><span class="tag none">non conta</span></td></tr>
+          <tr><td class="c-name">euconsent-v2</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">–</td><td class="c-life">13 mesi</td><td class="c-label">funzionale: ricorda la tua scelta</td><td class="c-out"><span class="tag none">non conta</span></td></tr>
+          <tr><td class="c-name">_pk_id</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">–</td><td class="c-life">13 mesi</td><td class="c-label">statistica</td><td class="c-out"><span class="tag info">informazione</span></td></tr>
+          <tr><td class="c-name">_pn_click</td><td class="c-where">quotidiano-immaginario.example</td><td class="c-owner">del sito</td><td class="c-same">–</td><td class="c-life">3 mesi</td><td class="c-label">marketing (Pubblinet)</td><td class="c-out"><span class="tag against">punto contro</span></td></tr>
           <tr><td class="c-name">pn_uid</td><td class="c-where">pubblinet.example</td><td class="c-owner">di terzi</td><td class="c-same">sì, contattato dopo il clic</td><td class="c-life">13 mesi</td><td class="c-label">marketing</td><td class="c-out"><span class="tag against">può riconoscerti</span></td></tr>
           <tr><td class="c-name">sid_x9</td><td class="c-where">seguiid.example</td><td class="c-owner">di terzi</td><td class="c-same">sì, contattato dopo il clic</td><td class="c-life">12 mesi</td><td class="c-label">sconosciuto: identificativo probabile</td><td class="c-out"><span class="tag against">può riconoscerti</span></td></tr>
           <tr><td class="c-name">__cf_bm</td><td class="c-where">cdn-immagini.example</td><td class="c-owner">di terzi</td><td class="c-same">sì</td><td class="c-life">30 minuti</td><td class="c-label">sicurezza</td><td class="c-out"><span class="tag none">non conta</span></td></tr>
@@ -1137,7 +1139,7 @@ html, body { overflow-x: clip; }
 
   <div class="doors">
     <a class="door" href="https://github.com/nicolobachiorri/afterNO" target="_blank" rel="noopener"><span class="arrow">=&gt; tutto il resto</span><span class="t">Il codice su GitHub</span><span class="d">Le regole esatte, i test, il database dei cookie e le sue correzioni.</span></a>
-    <a class="door" href="#fidarmi"><span class="arrow">=&gt; e funziona?</span><span class="t">Quanto è precisa</span><span class="d">Rifiuti registrati, verdetti giusti e stabilità, misurati su 120 siti.</span></a>
+    <a class="door" href="#fidarmi"><span class="arrow">=&gt; e funziona?</span><span class="t">Quanto è precisa</span><span class="d">Rifiuti registrati, verdetti giusti e stabilità, misurati su 160 siti.</span></a>
   </div>
 </section>
 
@@ -1238,8 +1240,8 @@ html, body { overflow-x: clip; }
   <div class="stack">
     <div class="sec-head">
       <p class="eyebrow">how accurate it is</p>
-      <h2 class="h2">Measured on <span class="px">120</span> sites it had never seen.</h2>
-      <p class="lead">Sites drawn at random from a public list, with a method written down before any result. A robot clicks "Reject", saves the verdict and, separately, all the raw data. Then the verdict is checked against the data.</p>
+      <h2 class="h2">Measured on <span class="px">160</span> sites it had never seen.</h2>
+      <p class="lead">Sites drawn at random from a public list, with a method written down before any result. A robot clicks "Reject", saves the verdict and, separately, all the raw data. Then the verdict is checked against the data. In the latest round the button to click was marked by a person, before the visit.</p>
     </div>
     <div class="defs">
       <div class="panel def"><b>rejection recorded</b>On sites with a free rejection, how often the extension notices that you clicked "Reject". If it does not notice, it cannot check anything.</div>
@@ -1248,26 +1250,28 @@ html, body { overflow-x: clip; }
     </div>
     <div class="table-wrap">
       <table class="data">
-        <thead><tr><th></th><th>Italy</th><th>EU, first round</th><th>EU, second round</th></tr></thead>
+        <thead><tr><th></th><th>Italy</th><th>EU, first round</th><th>EU, second round</th><th>Round G, Italy and EU</th></tr></thead>
         <tbody>
-          <tr><td>Sites with a free rejection</td><td class="num">24 of 40</td><td class="num">19 of 40</td><td class="num">24 of 40</td></tr>
-          <tr><td class="strong">Rejection recorded</td><td class="num">22 of 24 · 92% (74–98%)</td><td class="num">14 of 19 · 74% (51–88%)</td><td class="num">19 of 24 · 79% (60–91%)</td></tr>
-          <tr><td class="strong">Right verdict, when recorded</td><td class="num">22 of 22 · at least 85%</td><td class="num">14 of 14 · at least 78%</td><td class="num">19 of 19 · at least 83%</td></tr>
-          <tr><td>False alarms</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
-          <tr><td>Problems not seen</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
-          <tr><td>Second judge agrees</td><td class="num">21 of 22</td><td class="num">14 of 14</td><td class="num">19 of 19</td></tr>
-          <tr><td class="strong">Stability</td><td class="num">not measured on this version</td><td class="num">14 of 14, the next day</td><td class="num">19 of 19, an hour later</td></tr>
+          <tr><td>Sites with a free rejection</td><td class="num">24 of 40</td><td class="num">19 of 40</td><td class="num">24 of 40</td><td class="num">19 of 40, marked by hand</td></tr>
+          <tr><td class="strong">Rejection recorded</td><td class="num">22 of 24 · 92% (74–98%)</td><td class="num">14 of 19 · 74% (51–88%)</td><td class="num">19 of 24 · 79% (60–91%)</td><td class="num">17 of 17 · 100% (82–100%)</td></tr>
+          <tr><td class="strong">Right verdict, when recorded</td><td class="num">22 of 22 · at least 85%</td><td class="num">14 of 14 · at least 78%</td><td class="num">19 of 19 · at least 83%</td><td class="num">16 of 17 · 94% (73–99%)</td></tr>
+          <tr><td>False alarms</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr><td>Problems not seen</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td></tr>
+          <tr><td>Second judge agrees</td><td class="num">21 of 22</td><td class="num">14 of 14</td><td class="num">19 of 19</td><td class="num">16 of 17</td></tr>
+          <tr><td>Blind judge agrees</td><td class="num">–</td><td class="num">–</td><td class="num">–</td><td class="num">10 of 13, 4 "unsure"</td></tr>
+          <tr><td class="strong">Stability</td><td class="num">not measured on this version</td><td class="num">14 of 14, the next day</td><td class="num">19 of 19, an hour later</td><td class="num">not measured yet</td></tr>
         </tbody>
       </table>
     </div>
     <ul class="list small">
-      <li>In brackets and after "at least", the 95% confidence interval (Wilson): with 19 to 24 sites the uncertainty is wide.</li>
-      <li><b>Rejections not recorded.</b> Italy: two banners where the X counts as a refusal, which the extension did not recognise. EU: phrases it did not know yet ("Alle Dienste ablehnen", "Non merci", "Odmawiam", "Akceptuj tylko niezbędne"…) and, once, a rejection recorded where there was none. They were fixed in the next version, which is still to be measured on new sites.</li>
-      <li><b>Why the table used to say only "100%".</b> The robot looked for "Reject" with the same words as the extension: when the extension did not know a phrase, the robot did not click either, and the site ended up among those with nothing to check instead of among the errors. An external review pointed this out on 10 November 2026. The next round will use a robot that finds the button independently.</li>
-      <li><b>Who judges.</b> The main judge is Claude, the AI that wrote most of the code: a conflict of interest, stated openly. A person's judgement was set aside after it contradicted the written rules in six cases. The second judge, Gemini, comes from another company, but both read a page where the criteria are already computed: their agreement confirms that the code applies the rules correctly, not that the rules catch every case. The next round will have an external human judge, blind.</li>
+      <li>In brackets and after "at least", the 95% confidence interval (Wilson): with 17 to 24 sites the uncertainty is wide.</li>
+      <li><b>Rejections not recorded.</b> Italy: two banners where the X counts as a refusal, which the extension did not recognise. EU: phrases it did not know yet ("Alle Dienste ablehnen", "Non merci", "Odmawiam", "Akceptuj tylko niezbędne"…) and, once, a rejection recorded where there was none. They were fixed before round G.</li>
+      <li><b>Why the table used to say only "100%".</b> The robot looked for "Reject" with the same words as the extension: when the extension did not know a phrase, the robot did not click either, and the site ended up among those with nothing to check instead of among the errors. An external review pointed this out on 10 November 2026. From round G the button is marked by a person.</li>
+      <li><b>Round G.</b> 16 Italian sites and 3 for each of the eight countries, never seen before, with version 0.1.1. Two sites are left out because the robot failed: an anti-bot page and a window covering the banner. The problem not seen: on concorsando.it the Meta pixel goes through the site's own server (Cloudflare Zaraz), and only a cookie of the site is left, with a name the database did not know. On praca.pl "Akceptuj wybrane" ("accept selected", with only the necessary cookies on) was recorded as an acceptance. Both fixed after the measurement.</li>
+      <li><b>Who judges.</b> The main judge is Claude, the AI that wrote most of the code: a conflict of interest, stated openly. A person's judgement was set aside after it contradicted the written rules in six cases. The second judge, Gemini, comes from another company, but both read a page where the criteria are already computed: their agreement confirms that the code applies the rules correctly, not that the rules catch every case. Round G added a blind judge, ChatGPT, who saw only the raw data: two of its three disagreements are about the site's own analytics, tracking for it and information under our rules. It is an AI, not the person the protocol planned, who is still missing.</li>
       <li><b>Chrome only.</b> All measurements use Chromium. Firefox already separates and blocks many third-party cookies: results there may differ, and are not measured yet.</li>
-      <li>The version in the stores contains fixes made after the last round, not measured yet. The robot uses a fresh browser for every site: the measurement says whether the extension reads the data in front of it correctly, not how often a real user will see "only partly".</li>
-      <li>EU: eight countries (Germany, Austria, France, Spain, Portugal, the Netherlands, Poland, Ireland), five sites each, visited in the language of the country.</li>
+      <li>The fixes found in round G come in the next version, not measured yet. The robot uses a fresh browser for every site: the measurement says whether the extension reads the data in front of it correctly, not how often a real user will see "only partly".</li>
+      <li>EU: eight countries (Germany, Austria, France, Spain, Portugal, the Netherlands, Poland, Ireland), five sites each per round (three in round G), visited in the language of the country.</li>
     </ul>
     <a class="inline-door" href="https://github.com/nicolobachiorri/afterNO/blob/main/quality/PROTOCOL.md" target="_blank" rel="noopener">The protocol, the data and the judgments, site by site</a>
   </div>
@@ -1307,8 +1311,8 @@ html, body { overflow-x: clip; }
     <button type="button" class="step" data-step="4" aria-pressed="false">
       <span class="n">step 4 · who can recognise you</span>
       <span class="h3">It counts who can recognise you.</span>
-      <p>A third-party cookie can recognise you if the browser sends it back to that company from here too (SameSite=None), if the company is contacted after your choice, and if it lasts long enough to find you again in the following days.</p>
-      <ul><li>an unknown third-party cookie, sent everywhere and valid at least 30 days, is a "likely identifier";</li><li>the cookies of your own account (Google, Facebook…) exist because you are signed in: information, not the site's fault.</li></ul>
+      <p>Another company can recognise you if the page contacts it after your choice and it keeps in your browser a cookie classified as marketing or analytics, or an unknown one shaped like an identifier.</p>
+      <ul><li>"likely identifier": unknown, third-party, sent everywhere (SameSite=None) and valid at least 30 days;</li><li>a marketing cookie of the site counts if it lasts more than a day; the site's own analytics stay information;</li><li>30 days and one day are our choices: on the measured sites, any value between one day and six months gives the same conclusions (details in the README);</li><li>the cookies of your own account (Google, Facebook…) exist because you are signed in: information, not the site's fault.</li></ul>
     </button>
     <button type="button" class="step" data-step="5" aria-pressed="false">
       <span class="n">step 5 · the labels</span>
@@ -1335,10 +1339,10 @@ html, body { overflow-x: clip; }
           <th class="c-same">sent back from other sites</th><th class="c-life">lasts</th><th class="c-label">label</th><th class="c-out">outcome</th>
         </tr></thead>
         <tbody>
-          <tr><td class="c-name">sessione</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">—</td><td class="c-life">until closing</td><td class="c-label">necessary</td><td class="c-out"><span class="tag none">doesn't count</span></td></tr>
-          <tr><td class="c-name">euconsent-v2</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">—</td><td class="c-life">13 months</td><td class="c-label">functional: remembers your choice</td><td class="c-out"><span class="tag none">doesn't count</span></td></tr>
-          <tr><td class="c-name">_pk_id</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">—</td><td class="c-life">13 months</td><td class="c-label">analytics</td><td class="c-out"><span class="tag info">information</span></td></tr>
-          <tr><td class="c-name">_pn_click</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">—</td><td class="c-life">3 months</td><td class="c-label">marketing (Pubblinet)</td><td class="c-out"><span class="tag against">point against</span></td></tr>
+          <tr><td class="c-name">sessione</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">–</td><td class="c-life">until closing</td><td class="c-label">necessary</td><td class="c-out"><span class="tag none">doesn't count</span></td></tr>
+          <tr><td class="c-name">euconsent-v2</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">–</td><td class="c-life">13 months</td><td class="c-label">functional: remembers your choice</td><td class="c-out"><span class="tag none">doesn't count</span></td></tr>
+          <tr><td class="c-name">_pk_id</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">–</td><td class="c-life">13 months</td><td class="c-label">analytics</td><td class="c-out"><span class="tag info">information</span></td></tr>
+          <tr><td class="c-name">_pn_click</td><td class="c-where">imaginary-daily.example</td><td class="c-owner">the site's</td><td class="c-same">–</td><td class="c-life">3 months</td><td class="c-label">marketing (Pubblinet)</td><td class="c-out"><span class="tag against">point against</span></td></tr>
           <tr><td class="c-name">pn_uid</td><td class="c-where">pubblinet.example</td><td class="c-owner">third-party</td><td class="c-same">yes, contacted after the click</td><td class="c-life">13 months</td><td class="c-label">marketing</td><td class="c-out"><span class="tag against">can recognise you</span></td></tr>
           <tr><td class="c-name">sid_x9</td><td class="c-where">seguiid.example</td><td class="c-owner">third-party</td><td class="c-same">yes, contacted after the click</td><td class="c-life">12 months</td><td class="c-label">unknown: likely identifier</td><td class="c-out"><span class="tag against">can recognise you</span></td></tr>
           <tr><td class="c-name">__cf_bm</td><td class="c-where">cdn-images.example</td><td class="c-owner">third-party</td><td class="c-same">yes</td><td class="c-life">30 minutes</td><td class="c-label">security</td><td class="c-out"><span class="tag none">doesn't count</span></td></tr>
@@ -1361,7 +1365,7 @@ html, body { overflow-x: clip; }
 
   <div class="doors">
     <a class="door" href="https://github.com/nicolobachiorri/afterNO" target="_blank" rel="noopener"><span class="arrow">=&gt; everything else</span><span class="t">The code on GitHub</span><span class="d">The exact rules, the tests, the cookie database and its corrections.</span></a>
-    <a class="door" href="#fidarmi"><span class="arrow">=&gt; does it work?</span><span class="t">How accurate it is</span><span class="d">Rejections recorded, right verdicts and stability, measured on 120 sites.</span></a>
+    <a class="door" href="#fidarmi"><span class="arrow">=&gt; does it work?</span><span class="t">How accurate it is</span><span class="d">Rejections recorded, right verdicts and stability, measured on 160 sites.</span></a>
   </div>
 </section>
 

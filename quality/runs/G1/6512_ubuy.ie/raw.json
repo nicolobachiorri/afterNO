@@ -1,0 +1,330 @@
+{
+  "url": "https://www.ubuy.ie",
+  "final_url": "https://www.ubuy.ie/en/",
+  "click_at_s": 27.21,
+  "reload_at_s": null,
+  "reject": "labelled control covered (Reject)",
+  "visible_buttons": [
+    "Download Our App",
+    "Ireland",
+    "English",
+    "Account",
+    "SHOP NOW",
+    "Subscribe",
+    "Add Ubuy as a Preferred Source on Google",
+    "Accept",
+    "Reject"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "i.clarity.ms"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "analytics.twitter.com": {
+      "first_s": 11.32,
+      "last_s": 21.32
+    },
+    "bat.bing.com": {
+      "first_s": 10.68,
+      "last_s": 11.32
+    },
+    "bat.bing.net": {
+      "first_s": 11.44,
+      "last_s": 11.95
+    },
+    "bzr.openai.com": {
+      "first_s": 12.63,
+      "last_s": 12.63
+    },
+    "bzrcdn.openai.com": {
+      "first_s": 10.68,
+      "last_s": 11.12
+    },
+    "connect.facebook.net": {
+      "first_s": 10.24,
+      "last_s": 10.53
+    },
+    "d24epxax9d77vm.cloudfront.net": {
+      "first_s": 2.57,
+      "last_s": 3.09
+    },
+    "d2ati23fc66y9j.cloudfront.net": {
+      "first_s": 2.78,
+      "last_s": 3.47
+    },
+    "d3ulwu8fab47va.cloudfront.net": {
+      "first_s": 2.78,
+      "last_s": 2.81
+    },
+    "dgv6pipvif46t.cloudfront.net": {
+      "first_s": 3.09,
+      "last_s": 3.09
+    },
+    "i.clarity.ms": {
+      "first_s": 11.71,
+      "last_s": 29.32
+    },
+    "news.google.com": {
+      "first_s": 2.81,
+      "last_s": 3.29
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 13.7,
+      "last_s": 13.7
+    },
+    "play.google.com": {
+      "first_s": 4.01,
+      "last_s": 4.01
+    },
+    "region1.google-analytics.com": {
+      "first_s": 13.72,
+      "last_s": 18.72
+    },
+    "scripts.clarity.ms": {
+      "first_s": 11.11,
+      "last_s": 11.11
+    },
+    "static.ads-twitter.com": {
+      "first_s": 10.68,
+      "last_s": 10.68
+    },
+    "t.co": {
+      "first_s": 11.32,
+      "last_s": 21.32
+    },
+    "www.clarity.ms": {
+      "first_s": 10.68,
+      "last_s": 11.44
+    },
+    "www.googletagmanager.com": {
+      "first_s": 10.24,
+      "last_s": 11.11
+    },
+    "www.gstatic.com": {
+      "first_s": 2.81,
+      "last_s": 4.21
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "alreadyShow",
+      "domain": "www.ubuy.ie",
+      "path": "/en",
+      "expires": 1794430056,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": ".www.ubuy.ie",
+      "path": "/",
+      "expires": 1794430051.024043,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ubftpgop",
+      "domain": "www.ubuy.ie",
+      "path": "/",
+      "expires": 1795639651,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "device_type",
+      "domain": "www.ubuy.ie",
+      "path": "/",
+      "expires": 1796935651.759882,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".ubuy.ie",
+      "path": "/",
+      "expires": 1825879651.899775,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ubuy.ie",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".ubuy.ie",
+      "path": "/",
+      "expires": 1794345451.899818,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ubuy.ie",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": 1794345459.552525,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ubuy.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__obref",
+      "domain": ".ubuy.ie",
+      "path": "/",
+      "expires": 1825879659.592931,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_twpid",
+      "domain": ".ubuy.ie",
+      "path": "/",
+      "expires": 1828039669.789783,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "muc_ads",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1828903660.190932,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1794345460.190961,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ubuy.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "guest_id_marketing",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828903660.215228,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "guest_id_ads",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828903660.215242,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "personalization_id",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828903660.215248,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "guest_id",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1828903660.215257,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1794345460.215262,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ubuy.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".bzr.openai.com",
+      "path": "/",
+      "expires": 1794345461.616891,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://ubuy.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".bzr.openai.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_twsid",
+      "domain": ".ubuy.ie",
+      "path": "/",
+      "expires": 1828039669.787558,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "url": "https://impresainungiorno.gov.it",
+  "final_url": "https://www.impresainungiorno.gov.it/",
+  "click_at_s": 13.57,
+  "reload_at_s": null,
+  "reject": "labelled: no_banner",
+  "visible_buttons": [
+    "L'impresa e il comune",
+    "L'impresa e la PA",
+    "L'impresa e l'Europa",
+    "Cerca"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.jsdelivr.net": {
+      "first_s": 2.7,
+      "last_s": 4.51
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 2.7,
+      "last_s": 5.29
+    },
+    "code.jquery.com": {
+      "first_s": 2.75,
+      "last_s": 2.75
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.51,
+      "last_s": 5.29
+    },
+    "ingestion.webanalytics.italia.it": {
+      "first_s": 4.47,
+      "last_s": 4.79
+    },
+    "maxcdn.bootstrapcdn.com": {
+      "first_s": 2.7,
+      "last_s": 2.7
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "domain": "www.impresainungiorno.gov.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "COOKIE_SUPPORT",
+      "domain": "www.impresainungiorno.gov.it",
+      "path": "/",
+      "expires": 1825878899.768781,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "GUEST_LANGUAGE_ID",
+      "domain": "www.impresainungiorno.gov.it",
+      "path": "/",
+      "expires": 1825878899.768808,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TS01ec6913",
+      "domain": "www.impresainungiorno.gov.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_id.9aW3gLmpDR.4311",
+      "domain": "www.impresainungiorno.gov.it",
+      "path": "/",
+      "expires": 1828298102,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.9aW3gLmpDR.4311",
+      "domain": "www.impresainungiorno.gov.it",
+      "path": "/",
+      "expires": 1794344701,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "LFR_SESSION_STATE_20159",
+      "domain": "www.impresainungiorno.gov.it",
+      "path": "/",
+      "expires": 1825878903.14461,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.univpm.it",
+  "final_url": "https://www.univpm.it/Entra/",
+  "click_at_s": 11.45,
+  "reload_at_s": 16.45,
+  "reject": "labelled: 'Rifiuta' (button, mouse click)",
+  "visible_buttons": [
+    "Toggle navigation PI\u00d9 USATI",
+    "Personalizza",
+    "Accetta",
+    "Rifiuta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {},
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": "www.univpm.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cc_cookie",
+      "domain": ".www.univpm.it",
+      "path": "/",
+      "expires": 1810067642,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

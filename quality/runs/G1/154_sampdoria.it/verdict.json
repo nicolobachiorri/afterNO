@@ -1,0 +1,43 @@
+{
+  "host": "www.sampdoria.it",
+  "choice": {
+    "at": 1794343082662,
+    "choice": "rejected",
+    "label": "Nega",
+    "named": true,
+    "site": "sampdoria.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Nega"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.sampdoria.it/",
+    "lastSeen": {
+      "fonts.googleapis.com": 1794343074172,
+      "www.sampdoria.it": 1794343087878
+    }
+  },
+  "hostsConsidered": [
+    "www.sampdoria.it"
+  ]
+}

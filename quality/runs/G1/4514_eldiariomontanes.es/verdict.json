@@ -1,0 +1,105 @@
+{
+  "host": "www.eldiariomontanes.es",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyNoChoice",
+      "count": 3,
+      "names": [
+        "Adobe Audience Manager (demdex.net)",
+        "Adobe Advertising (everesttech.net)",
+        "DoubleClick/Google Marketing (doubleclick.net)"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShared",
+      "count": 2,
+      "names": [
+        "Adobe Analytics",
+        "Adobe Audience Manager"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteMarketingShort",
+      "count": 1,
+      "names": [
+        "Adobe Audience Manager"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.eldiariomontanes.es/",
+    "lastSeen": {
+      "17943434321019c1b3b620566822226202068d08e621980a93e3da4b.trk.sensic.net": 1794343432106,
+      "adobedc.demdex.net": 1794343431708,
+      "assets.adobedtm.com": 1794343432181,
+      "bam.nr-data.net": 1794343433618,
+      "c.amazon-adsystem.com": 1794343431243,
+      "cm.everesttech.net": 1794343431708,
+      "cm.g.doubleclick.net": 1794343432201,
+      "connect.facebook.net": 1794343431330,
+      "data.eldiariomontanes.es": 1794343432040,
+      "device-api.indigitall.com": 1794343442101,
+      "dpm.demdex.net": 1794343432255,
+      "es-config.sensic.net": 1794343432109,
+      "es1-s2s.sensic.net": 1794343443316,
+      "events.newsroom.bi": 1794343448656,
+      "experiences.newsroom.bi": 1794343438626,
+      "fundingchoicesmessages.google.com": 1794343432828,
+      "js-agent.newrelic.com": 1794343432339,
+      "marfeelexperimentsexperienceengine.mrf.io": 1794343433366,
+      "pagead2.googlesyndication.com": 1794343432599,
+      "s1.ppllstatics.com": 1794343431250,
+      "s2.ppllstatics.com": 1794343431250,
+      "s3.ppllstatics.com": 1794343430961,
+      "sadbmetrics.eldiariomontanes.es": 1794343431708,
+      "sdk.mrf.io": 1794343431849,
+      "sdk.privacy-center.org": 1794343431293,
+      "securepubads.g.doubleclick.net": 1794343431174,
+      "service.wemass.com": 1794343432049,
+      "static.adsafeprotected.com": 1794343431461,
+      "static.vocstatic.com": 1794343432390,
+      "vocento.demdex.net": 1794343431708,
+      "vocx.evolok.net": 1794343430919,
+      "www.eldiariomontanes.es": 1794343430972
+    }
+  },
+  "hostsConsidered": [
+    "17943434321019c1b3b620566822226202068d08e621980a93e3da4b.trk.sensic.net",
+    "adobedc.demdex.net",
+    "assets.adobedtm.com",
+    "bam.nr-data.net",
+    "c.amazon-adsystem.com",
+    "cm.everesttech.net",
+    "cm.g.doubleclick.net",
+    "connect.facebook.net",
+    "data.eldiariomontanes.es",
+    "device-api.indigitall.com",
+    "dpm.demdex.net",
+    "es-config.sensic.net",
+    "es1-s2s.sensic.net",
+    "events.newsroom.bi",
+    "experiences.newsroom.bi",
+    "fundingchoicesmessages.google.com",
+    "js-agent.newrelic.com",
+    "marfeelexperimentsexperienceengine.mrf.io",
+    "pagead2.googlesyndication.com",
+    "s1.ppllstatics.com",
+    "s2.ppllstatics.com",
+    "s3.ppllstatics.com",
+    "sadbmetrics.eldiariomontanes.es",
+    "sdk.mrf.io",
+    "sdk.privacy-center.org",
+    "securepubads.g.doubleclick.net",
+    "service.wemass.com",
+    "static.adsafeprotected.com",
+    "static.vocstatic.com",
+    "vocento.demdex.net",
+    "vocx.evolok.net",
+    "www.eldiariomontanes.es"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "url": "https://www.sampdoria.it",
+  "final_url": "https://www.sampdoria.it/",
+  "click_at_s": 11.02,
+  "reload_at_s": 16.03,
+  "reject": "labelled: 'Nega' (button, mouse click)",
+  "visible_buttons": [
+    "Accetta",
+    "Nega",
+    "Visualizza le preferenze"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "fonts.googleapis.com": {
+      "first_s": 2.53,
+      "last_s": 2.53
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "fonts.googleapis.com"
+  ],
+  "cookies": [
+    {
+      "name": "cmplz_banner-status",
+      "domain": "www.sampdoria.it",
+      "path": "/",
+      "expires": 1825879082,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_policy_id",
+      "domain": "www.sampdoria.it",
+      "path": "/",
+      "expires": 1825879082,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_marketing",
+      "domain": "www.sampdoria.it",
+      "path": "/",
+      "expires": 1825879082,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_statistics",
+      "domain": "www.sampdoria.it",
+      "path": "/",
+      "expires": 1825879082,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_preferences",
+      "domain": "www.sampdoria.it",
+      "path": "/",
+      "expires": 1825879082,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_functional",
+      "domain": "www.sampdoria.it",
+      "path": "/",
+      "expires": 1825879082,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_consented_services",
+      "domain": "www.sampdoria.it",
+      "path": "/",
+      "expires": 1825879082,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

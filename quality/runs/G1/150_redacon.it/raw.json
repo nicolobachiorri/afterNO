@@ -1,0 +1,653 @@
+{
+  "url": "https://www.redacon.it",
+  "final_url": "https://www.redacon.it/",
+  "click_at_s": 12.18,
+  "reload_at_s": 17.18,
+  "reject": "labelled: 'Rifiuta' (button, mouse click)",
+  "visible_buttons": [
+    "cookie policy",
+    "terze parti",
+    "finalit\u00e0 pubblicitarie",
+    "Scopri di pi\u00f9 e personalizza",
+    "Rifiuta",
+    "Accetta"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "38fc1e2a524e2877db1fc1bf519f4e33.safeframe.googlesyndication.com",
+    "adx.adform.net",
+    "agos.commander1.com",
+    "ap.lijit.com",
+    "apps.smartadserver.com",
+    "bid.missena.io",
+    "c.4dex.io",
+    "cdn.nativery.com",
+    "cdn.pbstck.com",
+    "cdnimg.nativery.com",
+    "ce.lijit.com",
+    "cms.quantserve.com",
+    "cpl.iubenda.com",
+    "cs.admanmedia.com",
+    "csync-eu.smartadserver.com",
+    "csync-global.smartadserver.com",
+    "d27gtglsu4f4y2.cloudfront.net",
+    "data.adsrvr.org",
+    "dt.adsafeprotected.com",
+    "e64ba4ef1abf21a4a17401888ed2c605.safeframe.googlesyndication.com",
+    "eus.rubiconproject.com",
+    "fast.nexx360.io",
+    "fastlane.rubiconproject.com",
+    "grid-bidder.criteo.com",
+    "gum.criteo.com",
+    "hb-api.omnitagjs.com",
+    "hb.nativery.com",
+    "hb.trustedstack.com",
+    "ib.adnxs.com",
+    "id.a-mx.com",
+    "idb.iubenda.com",
+    "intake.pbstck.com",
+    "jsconfig.adsafeprotected.com",
+    "mp.4dex.io",
+    "ms-cookie-sync.presage.io",
+    "mweb-hb.presage.io",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "prebid-server.pbstck.com",
+    "prebid.a-mo.net",
+    "prebid.videostep.com",
+    "region1.google-analytics.com",
+    "s.seedtag.com",
+    "script.4dex.io",
+    "securepubads.g.doubleclick.net",
+    "shb.richaudience.com",
+    "ssb-global.smartadserver.com",
+    "static.adsafeprotected.com",
+    "sync.adkernel.com",
+    "sync.missena.io",
+    "sync.pmbmonetize.live",
+    "sync.richaudience.com",
+    "t.adx.opera.com",
+    "token.rubiconproject.com",
+    "tpc.googlesyndication.com",
+    "us-u.openx.net",
+    "us4.shb-sync.com",
+    "visitor.omnitagjs.com",
+    "w3.nativery.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "38fc1e2a524e2877db1fc1bf519f4e33.safeframe.googlesyndication.com",
+    "adx.adform.net",
+    "agos.commander1.com",
+    "ap.lijit.com",
+    "apps.smartadserver.com",
+    "bid.missena.io",
+    "c.4dex.io",
+    "cdn.pbstck.com",
+    "ce.lijit.com",
+    "cms.quantserve.com",
+    "cs.admanmedia.com",
+    "csync-eu.smartadserver.com",
+    "csync-global.smartadserver.com",
+    "d27gtglsu4f4y2.cloudfront.net",
+    "data.adsrvr.org",
+    "dt.adsafeprotected.com",
+    "eus.rubiconproject.com",
+    "fast.nexx360.io",
+    "fastlane.rubiconproject.com",
+    "grid-bidder.criteo.com",
+    "gum.criteo.com",
+    "hb-api.omnitagjs.com",
+    "hb.nativery.com",
+    "hb.trustedstack.com",
+    "ib.adnxs.com",
+    "idb.iubenda.com",
+    "intake.pbstck.com",
+    "mp.4dex.io",
+    "ms-cookie-sync.presage.io",
+    "mweb-hb.presage.io",
+    "pagead2.googlesyndication.com",
+    "prebid-server.pbstck.com",
+    "prebid.a-mo.net",
+    "prebid.videostep.com",
+    "region1.google-analytics.com",
+    "s.seedtag.com",
+    "script.4dex.io",
+    "securepubads.g.doubleclick.net",
+    "shb.richaudience.com",
+    "ssb-global.smartadserver.com",
+    "sync.missena.io",
+    "sync.pmbmonetize.live",
+    "sync.richaudience.com",
+    "token.rubiconproject.com",
+    "tpc.googlesyndication.com",
+    "us4.shb-sync.com",
+    "visitor.omnitagjs.com"
+  ],
+  "third_party_timeline": {
+    "38fc1e2a524e2877db1fc1bf519f4e33.safeframe.googlesyndication.com": {
+      "first_s": 18.67,
+      "last_s": 18.67
+    },
+    "adx.adform.net": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "agos.commander1.com": {
+      "first_s": 14.7,
+      "last_s": 19.03
+    },
+    "ap.lijit.com": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "apps.smartadserver.com": {
+      "first_s": 16.97,
+      "last_s": 21.56
+    },
+    "bid.missena.io": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "boot.pbstck.com": {
+      "first_s": 4.08,
+      "last_s": 4.08
+    },
+    "c.4dex.io": {
+      "first_s": 12.86,
+      "last_s": 18.64
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.48,
+      "last_s": 4.25
+    },
+    "cdn.nativery.com": {
+      "first_s": 14.94,
+      "last_s": 14.94
+    },
+    "cdn.pbstck.com": {
+      "first_s": 4.58,
+      "last_s": 17.71
+    },
+    "cdnimg.nativery.com": {
+      "first_s": 15.45,
+      "last_s": 15.45
+    },
+    "cdnjs.cloudflare.com": {
+      "first_s": 4.08,
+      "last_s": 4.08
+    },
+    "ce.lijit.com": {
+      "first_s": 17.08,
+      "last_s": 22.03
+    },
+    "cms.quantserve.com": {
+      "first_s": 21.55,
+      "last_s": 21.55
+    },
+    "cpl.iubenda.com": {
+      "first_s": 12.22,
+      "last_s": 12.22
+    },
+    "cs.admanmedia.com": {
+      "first_s": 16.77,
+      "last_s": 21.55
+    },
+    "cs.iubenda.com": {
+      "first_s": 2.47,
+      "last_s": 4.09
+    },
+    "csync-eu.smartadserver.com": {
+      "first_s": 17.2,
+      "last_s": 17.2
+    },
+    "csync-global.smartadserver.com": {
+      "first_s": 17.01,
+      "last_s": 21.56
+    },
+    "d27gtglsu4f4y2.cloudfront.net": {
+      "first_s": 3.81,
+      "last_s": 17.6
+    },
+    "data.adsrvr.org": {
+      "first_s": 21.55,
+      "last_s": 21.55
+    },
+    "dt.adsafeprotected.com": {
+      "first_s": 17.08,
+      "last_s": 17.53
+    },
+    "e64ba4ef1abf21a4a17401888ed2c605.safeframe.googlesyndication.com": {
+      "first_s": 14.3,
+      "last_s": 14.3
+    },
+    "eus.rubiconproject.com": {
+      "first_s": 17.02,
+      "last_s": 21.56
+    },
+    "fast.nexx360.io": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "fastlane.rubiconproject.com": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.48,
+      "last_s": 2.48
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.85,
+      "last_s": 3.85
+    },
+    "grid-bidder.criteo.com": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "gum.criteo.com": {
+      "first_s": 12.22,
+      "last_s": 17.73
+    },
+    "hb-api.omnitagjs.com": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "hb.nativery.com": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "hb.trustedstack.com": {
+      "first_s": 17.26,
+      "last_s": 17.26
+    },
+    "hbagency.it": {
+      "first_s": 4.08,
+      "last_s": 4.08
+    },
+    "ib.adnxs.com": {
+      "first_s": 21.55,
+      "last_s": 21.55
+    },
+    "id.a-mx.com": {
+      "first_s": 12.22,
+      "last_s": 12.22
+    },
+    "idb.iubenda.com": {
+      "first_s": 4.35,
+      "last_s": 17.77
+    },
+    "intake.pbstck.com": {
+      "first_s": 5.17,
+      "last_s": 18.68
+    },
+    "jsconfig.adsafeprotected.com": {
+      "first_s": 16.92,
+      "last_s": 17.06
+    },
+    "mp.4dex.io": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "ms-cookie-sync.presage.io": {
+      "first_s": 16.75,
+      "last_s": 21.54
+    },
+    "mweb-hb.presage.io": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 14.3,
+      "last_s": 20.04
+    },
+    "pixel.adsafeprotected.com": {
+      "first_s": 16.45,
+      "last_s": 16.45
+    },
+    "prebid-server.pbstck.com": {
+      "first_s": 12.76,
+      "last_s": 17.85
+    },
+    "prebid.a-mo.net": {
+      "first_s": 12.76,
+      "last_s": 21.55
+    },
+    "prebid.videostep.com": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "refresh.pbstck.com": {
+      "first_s": 4.92,
+      "last_s": 4.92
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.16,
+      "last_s": 17.64
+    },
+    "rumcdn.geoedge.be": {
+      "first_s": 4.85,
+      "last_s": 4.85
+    },
+    "s.seedtag.com": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "script.4dex.io": {
+      "first_s": 12.22,
+      "last_s": 17.73
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 18.64,
+      "last_s": 18.68
+    },
+    "services.brid.tv": {
+      "first_s": 4.08,
+      "last_s": 4.08
+    },
+    "shb.richaudience.com": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "ssb-global.smartadserver.com": {
+      "first_s": 12.76,
+      "last_s": 17.86
+    },
+    "static.adsafeprotected.com": {
+      "first_s": 17.07,
+      "last_s": 17.17
+    },
+    "sync.adkernel.com": {
+      "first_s": 16.77,
+      "last_s": 16.77
+    },
+    "sync.missena.io": {
+      "first_s": 16.76,
+      "last_s": 21.55
+    },
+    "sync.pmbmonetize.live": {
+      "first_s": 16.77,
+      "last_s": 17.54
+    },
+    "sync.richaudience.com": {
+      "first_s": 16.76,
+      "last_s": 21.54
+    },
+    "t.adx.opera.com": {
+      "first_s": 16.77,
+      "last_s": 16.77
+    },
+    "token.rubiconproject.com": {
+      "first_s": 17.08,
+      "last_s": 21.56
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 19.03,
+      "last_s": 19.03
+    },
+    "us-u.openx.net": {
+      "first_s": 16.77,
+      "last_s": 16.77
+    },
+    "us4.shb-sync.com": {
+      "first_s": 21.55,
+      "last_s": 21.55
+    },
+    "visitor.omnitagjs.com": {
+      "first_s": 16.76,
+      "last_s": 21.54
+    },
+    "w3.nativery.com": {
+      "first_s": 15.25,
+      "last_s": 16.45
+    },
+    "wrappers.geoedge.be": {
+      "first_s": 4.84,
+      "last_s": 4.84
+    },
+    "www.google.com": {
+      "first_s": 2.48,
+      "last_s": 2.48
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.48,
+      "last_s": 12.22
+    },
+    "www.gstatic.com": {
+      "first_s": 3.79,
+      "last_s": 3.79
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "apps.smartadserver.com",
+    "boot.pbstck.com",
+    "cdn.iubenda.com",
+    "cdn.pbstck.com",
+    "cdnjs.cloudflare.com",
+    "cs.iubenda.com",
+    "eus.rubiconproject.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "hbagency.it",
+    "pagead2.googlesyndication.com",
+    "refresh.pbstck.com",
+    "rumcdn.geoedge.be",
+    "securepubads.g.doubleclick.net",
+    "services.brid.tv",
+    "tpc.googlesyndication.com",
+    "wrappers.geoedge.be",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": "www.redacon.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "presage-ssp",
+      "domain": ".presage.io",
+      "path": "/",
+      "expires": 1809894988.091622,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "capping_prj_prj_300x250_fixed",
+      "domain": "www.redacon.it",
+      "path": "/",
+      "expires": 1794343103,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".redacon.it",
+      "path": "/",
+      "expires": 1809894984,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tc_cj_v2_cmp",
+      "domain": ".agos.commander1.com",
+      "path": "/",
+      "expires": 1825878989.192855,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tc_cj_v2_med",
+      "domain": ".agos.commander1.com",
+      "path": "/",
+      "expires": 1825878989.192875,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TCID",
+      "domain": ".commander1.com",
+      "path": "/",
+      "expires": 1825878989.19289,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ncid",
+      "domain": ".nativery.com",
+      "path": "/",
+      "expires": 1825878985.62205,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "nsid",
+      "domain": ".nativery.com",
+      "path": "/",
+      "expires": 1802118985.622119,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OAU",
+      "domain": ".opera.com",
+      "path": "/",
+      "expires": 1825878987.184726,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "s-249",
+      "domain": ".pmbmonetize.live",
+      "path": "/",
+      "expires": 1794364587.368381,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "admtr",
+      "domain": ".admanmedia.com",
+      "path": "/",
+      "expires": 1794945411.812533,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-s3339941",
+      "domain": ".redacon.it",
+      "path": "/",
+      "expires": 1825878982,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".redacon.it",
+      "path": "/",
+      "expires": 1825804800,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-s3339941-granular",
+      "domain": ".redacon.it",
+      "path": "/",
+      "expires": 1825878987,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".redacon.it",
+      "path": "/",
+      "expires": 1825878987,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "tc_cj_v2",
+      "domain": ".agos.commander1.com",
+      "path": "/",
+      "expires": 1825878989.19281,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ac_r",
+      "domain": ".admanmedia.com",
+      "path": "/",
+      "expires": 1794945411.812572,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "smart_usr",
+      "domain": ".shb-sync.com",
+      "path": "/",
+      "expires": 1795206992.140139,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "smart_r",
+      "domain": ".shb-sync.com",
+      "path": "/",
+      "expires": 1795206992.140261,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

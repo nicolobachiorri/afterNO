@@ -1,0 +1,40 @@
+{
+  "host": "www.instyle.de",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.instyle.de/",
+    "lastSeen": {
+      "a.bf-ad.net": 1794343211005,
+      "a.bf-tools.net": 1794343211005,
+      "consent.instyle.de": 1794343212165,
+      "cp.instyle.de": 1794343216998,
+      "data-d3b795e73c.instyle.de": 1794343212050,
+      "securepubads.g.doubleclick.net": 1794343211578,
+      "static.instyle.de": 1794343211181,
+      "tech-sentry.harpersbazaar.de": 1794343211706,
+      "www.instyle.de": 1794343212102
+    }
+  },
+  "hostsConsidered": [
+    "a.bf-ad.net",
+    "a.bf-tools.net",
+    "consent.instyle.de",
+    "cp.instyle.de",
+    "data-d3b795e73c.instyle.de",
+    "securepubads.g.doubleclick.net",
+    "static.instyle.de",
+    "tech-sentry.harpersbazaar.de",
+    "www.instyle.de"
+  ]
+}

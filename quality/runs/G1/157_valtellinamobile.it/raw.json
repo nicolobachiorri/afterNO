@@ -1,0 +1,126 @@
+{
+  "url": "https://www.valtellinamobile.it",
+  "final_url": "https://valtellinamobile.it/",
+  "click_at_s": 11.86,
+  "reload_at_s": null,
+  "reject": "labelled: second_layer",
+  "visible_buttons": [],
+  "tcf": {
+    "cmpId": 63,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "cdn.pushmaster-cdn.xyz": {
+      "first_s": 3.1,
+      "last_s": 3.98
+    },
+    "clickiocmp.com": {
+      "first_s": 3.09,
+      "last_s": 4.58
+    },
+    "fonts.googleapis.com": {
+      "first_s": 4.83,
+      "last_s": 4.83
+    },
+    "gjigle.com": {
+      "first_s": 3.97,
+      "last_s": 4.85
+    },
+    "notifpush.com": {
+      "first_s": 3.37,
+      "last_s": 4.68
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.82,
+      "last_s": 4.09
+    },
+    "region1.analytics.google.com": {
+      "first_s": 3.41,
+      "last_s": 3.41
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.77,
+      "last_s": 3.77
+    },
+    "s.clickiocdn.com": {
+      "first_s": 3.09,
+      "last_s": 3.09
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 3.41,
+      "last_s": 3.41
+    },
+    "up.clickiocdn.com": {
+      "first_s": 5.16,
+      "last_s": 6.66
+    },
+    "www.google.it": {
+      "first_s": 3.41,
+      "last_s": 3.41
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.1,
+      "last_s": 3.41
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_ga_V04CQ2LC1Z",
+      "domain": ".valtellinamobile.it",
+      "path": "/",
+      "expires": 1828903166.600818,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".valtellinamobile.it",
+      "path": "/",
+      "expires": 1828903166.959661,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_020H5TEDLN",
+      "domain": ".valtellinamobile.it",
+      "path": "/",
+      "expires": 1828903166.959453,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "nadz_dailyVisits",
+      "domain": "valtellinamobile.it",
+      "path": "/",
+      "expires": 1794441599,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "SA",
+      "domain": "valtellinamobile.it",
+      "path": "/",
+      "expires": 1794429567,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

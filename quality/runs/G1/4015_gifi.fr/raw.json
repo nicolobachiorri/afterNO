@@ -1,0 +1,297 @@
+{
+  "url": "https://www.gifi.fr",
+  "final_url": "https://www.gifi.fr/",
+  "click_at_s": 12.7,
+  "reload_at_s": 17.7,
+  "reject": "labelled: 'Continuer sans accepter \u2192' (span, mouse click)",
+  "visible_buttons": [
+    "Continuer sans accepter \u2192",
+    "Voir nos partenaires",
+    "En savoir plus \u2192",
+    "Accepter & Fermer",
+    "MENU",
+    "GIFI",
+    "Vite ! J'en profite !",
+    "Feuilletez le catalogue",
+    "Je d\u00e9couvre la collection",
+    "Je deviens VIP",
+    "Tous les articles",
+    "Tous les articles du catalogue",
+    "Toutes les nouveaut\u00e9s",
+    "D\u00e9couvrez la collection",
+    "Tous les articles de la collection"
+  ],
+  "tcf": {
+    "timeout": true
+  },
+  "third_party_hosts_after_click": [
+    "api.privacy-center.org",
+    "i.clarity.ms",
+    "p.cquotient.com",
+    "q.clarity.ms",
+    "region1.google-analytics.com",
+    "swa.datap.skeepers.io",
+    "www.clarity.ms"
+  ],
+  "third_party_hosts_after_reload": [
+    "i.clarity.ms",
+    "p.cquotient.com",
+    "region1.google-analytics.com",
+    "swa.datap.skeepers.io",
+    "www.clarity.ms"
+  ],
+  "third_party_timeline": {
+    "api.privacy-center.org": {
+      "first_s": 12.71,
+      "last_s": 12.71
+    },
+    "cdn.cquotient.com": {
+      "first_s": 4.45,
+      "last_s": 4.45
+    },
+    "cdn.facil-iti.app": {
+      "first_s": 4.51,
+      "last_s": 4.51
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.95,
+      "last_s": 3.95
+    },
+    "i.clarity.ms": {
+      "first_s": 18.24,
+      "last_s": 32.63
+    },
+    "p.cquotient.com": {
+      "first_s": 5.64,
+      "last_s": 18.98
+    },
+    "q.clarity.ms": {
+      "first_s": 5.21,
+      "last_s": 14.7
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.18,
+      "last_s": 29.32
+    },
+    "scripts.clarity.ms": {
+      "first_s": 4.76,
+      "last_s": 4.76
+    },
+    "sdk.privacy-center.org": {
+      "first_s": 4.08,
+      "last_s": 4.57
+    },
+    "sdk.skeepers.io": {
+      "first_s": 4.51,
+      "last_s": 4.51
+    },
+    "swa.datap.skeepers.io": {
+      "first_s": 4.77,
+      "last_s": 18.0
+    },
+    "www.clarity.ms": {
+      "first_s": 4.51,
+      "last_s": 17.98
+    },
+    "www.facil-iti.fr": {
+      "first_s": 4.51,
+      "last_s": 4.51
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.08,
+      "last_s": 4.54
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.cquotient.com",
+    "cdn.facil-iti.app",
+    "fonts.googleapis.com",
+    "scripts.clarity.ms",
+    "sdk.privacy-center.org",
+    "sdk.skeepers.io",
+    "www.facil-iti.fr",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "dwac_ff0f3bfb0df40a4878cd82d3e6",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cqcid",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cquid",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sid",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "favouriteStore",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": 1809895361.738754,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dw_store",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": 1809895361.738834,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dwanonymous_ab6ece6e8f9d9b191c7a0573950bb7c3",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": 1809895361.738868,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dss",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": 1809895361.738905,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cq_dnt",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dw_dnt",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dwsid",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "welcomePopupShown",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": 1794429762,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sk_gif8bp1hpy",
+      "domain": "www.gifi.fr",
+      "path": "/",
+      "expires": 1828039362,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "uuid",
+      "domain": ".cquotient.com",
+      "path": "/",
+      "expires": 1828471376.906232,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cq_uuid",
+      "domain": ".gifi.fr",
+      "path": "/",
+      "expires": 1828471376.908699,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cq_seg",
+      "domain": ".gifi.fr",
+      "path": "/",
+      "expires": 1796935376.908851,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "didomi_token",
+      "domain": ".gifi.fr",
+      "path": "/",
+      "expires": 1810150970,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".gifi.fr",
+      "path": "/",
+      "expires": 1810150970,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

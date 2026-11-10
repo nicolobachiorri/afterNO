@@ -1,0 +1,37 @@
+{
+  "url": "https://www.vertbaudet.es",
+  "final_url": "https://www.vertbaudet.es/",
+  "click_at_s": 10.71,
+  "reload_at_s": null,
+  "reject": "labelled: blocked",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "challenges.cloudflare.com": {
+      "first_s": 3.25,
+      "last_s": 5.8
+    },
+    "hagen.challenges.cloudflare.com": {
+      "first_s": 5.08,
+      "last_s": 5.08
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".vertbaudet.es",
+      "path": "/",
+      "expires": 1794345194.890903,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://vertbaudet.es",
+        "hasCrossSiteAncestor": false
+      }
+    }
+  ]
+}

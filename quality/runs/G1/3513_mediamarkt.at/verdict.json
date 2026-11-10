@@ -1,0 +1,40 @@
+{
+  "host": "www.mediamarkt.at",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.mediamarkt.at/",
+    "lastSeen": {
+      "59b00ce73e8a.cdn4.forter.com": 1794343245340,
+      "8111b3b2efb14979a46a0c1d8519ffb6-59b00ce73e8a.cdn.forter.com": 1794343260416,
+      "cdn.speedcurve.com": 1794343244568,
+      "cdn0.forter.com": 1794343259602,
+      "cdn3.forter.com": 1794343262420,
+      "cdn6.forter.com": 1794343259916,
+      "cms-images.mmst.eu": 1794343261591,
+      "www.googletagmanager.com": 1794343245590,
+      "www.mediamarkt.at": 1794343261588
+    }
+  },
+  "hostsConsidered": [
+    "59b00ce73e8a.cdn4.forter.com",
+    "8111b3b2efb14979a46a0c1d8519ffb6-59b00ce73e8a.cdn.forter.com",
+    "cdn.speedcurve.com",
+    "cdn0.forter.com",
+    "cdn3.forter.com",
+    "cdn6.forter.com",
+    "cms-images.mmst.eu",
+    "www.googletagmanager.com",
+    "www.mediamarkt.at"
+  ]
+}

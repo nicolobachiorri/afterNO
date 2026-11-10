@@ -1,0 +1,19 @@
+{
+  "url": "https://www.telnetwork.it",
+  "final_url": "https://www.telnet.it/it/home/",
+  "click_at_s": 10.72,
+  "reload_at_s": null,
+  "reject": "labelled: no_banner",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "www.telnetwork.it": {
+      "first_s": 2.06,
+      "last_s": 2.06
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": []
+}

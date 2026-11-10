@@ -1,0 +1,222 @@
+{
+  "url": "https://www.agendaonline.it",
+  "final_url": "https://www.agendaonline.it/",
+  "click_at_s": 10.55,
+  "reload_at_s": 15.55,
+  "reject": "labelled: 'RIFIUTA E CHIUDI' (button, mouse click)",
+  "visible_buttons": [
+    "RIFIUTA E CHIUDI"
+  ],
+  "tcf": {
+    "cmpId": 63,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 6,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "ad.doubleclick.net",
+    "adv.intxr.com",
+    "clickiocmp.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "gjigle.com",
+    "notifpush.com",
+    "pagead2.googlesyndication.com",
+    "region1.analytics.google.com",
+    "statics.pushaddict.com",
+    "tpc.googlesyndication.com",
+    "www.gstatic.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "ad.doubleclick.net",
+    "adv.intxr.com",
+    "clickiocmp.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "notifpush.com",
+    "pagead2.googlesyndication.com",
+    "region1.analytics.google.com",
+    "tpc.googlesyndication.com",
+    "www.gstatic.com"
+  ],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 16.32,
+      "last_s": 16.54
+    },
+    "adv.intxr.com": {
+      "first_s": 2.68,
+      "last_s": 15.94
+    },
+    "cdn.pushmaster-cdn.xyz": {
+      "first_s": 3.23,
+      "last_s": 3.23
+    },
+    "clickiocmp.com": {
+      "first_s": 2.68,
+      "last_s": 15.8
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 4.25,
+      "last_s": 16.97
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 4.43,
+      "last_s": 16.44
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.98,
+      "last_s": 16.15
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.24,
+      "last_s": 16.26
+    },
+    "gjigle.com": {
+      "first_s": 4.07,
+      "last_s": 11.11
+    },
+    "notifpush.com": {
+      "first_s": 3.5,
+      "last_s": 15.82
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 2.68,
+      "last_s": 16.42
+    },
+    "region1.analytics.google.com": {
+      "first_s": 2.92,
+      "last_s": 16.25
+    },
+    "statics.pushaddict.com": {
+      "first_s": 11.09,
+      "last_s": 11.09
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 2.92,
+      "last_s": 2.92
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 4.0,
+      "last_s": 16.23
+    },
+    "www.google.it": {
+      "first_s": 2.92,
+      "last_s": 2.92
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.51,
+      "last_s": 2.68
+    },
+    "www.gstatic.com": {
+      "first_s": 3.99,
+      "last_s": 16.15
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.pushmaster-cdn.xyz",
+    "clickiocmp.com",
+    "ep2.adtrafficquality.google",
+    "pagead2.googlesyndication.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "_lscache_vary",
+      "domain": "www.agendaonline.it",
+      "path": "/",
+      "expires": 1794515939.224895,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".agendaonline.it",
+      "path": "/",
+      "expires": 1828903152.496103,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__eoi",
+      "domain": ".agendaonline.it",
+      "path": "/",
+      "expires": 1809895140,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "nadz_dailyVisits",
+      "domain": "www.agendaonline.it",
+      "path": "/",
+      "expires": 1794441599,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__lxG__consent__v2",
+      "domain": ".agendaonline.it",
+      "path": "/",
+      "expires": 1827964800,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__lxG__consent__v2_daisybit",
+      "domain": ".agendaonline.it",
+      "path": "/",
+      "expires": 1827964800,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__lxG__consent__v2_gdaisybit",
+      "domain": ".agendaonline.it",
+      "path": "/",
+      "expires": 1827964800,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "SA",
+      "domain": "www.agendaonline.it",
+      "path": "/",
+      "expires": 1794429547,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_DQP1WMX14K",
+      "domain": ".agendaonline.it",
+      "path": "/",
+      "expires": 1828903152.949329,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

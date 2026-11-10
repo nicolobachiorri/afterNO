@@ -1,0 +1,68 @@
+{
+  "host": "onebid.pl",
+  "choice": {
+    "at": 1794343614760,
+    "choice": "rejected",
+    "label": "Odrzuć",
+    "named": true,
+    "site": "onebid.pl",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Odrzuć"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Facebook"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://onebid.pl/pl",
+    "lastSeen": {
+      "connect.facebook.net": 1794343606166,
+      "e.clarity.ms": 1794343620126,
+      "fonts.googleapis.com": 1794343605826,
+      "fonts.gstatic.com": 1794343606184,
+      "img1.one.bid": 1794343628044,
+      "k.clarity.ms": 1794343621440,
+      "live43.onebid.eu": 1794343620994,
+      "live534.onebid.eu": 1794343621097,
+      "one.bid": 1794343620449,
+      "onebid.pl": 1794343620744,
+      "region1.google-analytics.com": 1794343620724,
+      "scripts.clarity.ms": 1794343606449,
+      "www.clarity.ms": 1794343620151,
+      "www.googletagmanager.com": 1794343606234,
+      "www.onebid.pl": 1794343603842
+    }
+  },
+  "hostsConsidered": [
+    "e.clarity.ms",
+    "img1.one.bid",
+    "k.clarity.ms",
+    "live43.onebid.eu",
+    "live534.onebid.eu",
+    "one.bid",
+    "onebid.pl",
+    "region1.google-analytics.com",
+    "www.clarity.ms"
+  ]
+}

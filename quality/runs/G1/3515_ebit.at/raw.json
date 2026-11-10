@@ -1,0 +1,14 @@
+{
+  "url": "https://www.ebit.at",
+  "final_url": "https://www.ebit.at/",
+  "click_at_s": 11.06,
+  "reload_at_s": null,
+  "reject": "labelled: no_banner",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {},
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": []
+}

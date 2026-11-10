@@ -366,3 +366,19 @@ test('message check: the new flags are booleans', () => {
   assert.equal(isChoiceMessage({ ...base, record: { ...base.record, closed: true, named: false } }), true);
   assert.equal(isChoiceMessage({ ...base, record: { ...base.record, closed: 'yes' } }), false);
 });
+
+// praca.pl (sample G, visit G1): «Akceptuj wybrane» with only the necessary cookies on
+// was recorded as an acceptance. "Accept selected" saves the toggles, like "save".
+test('"accept selected" is neither accept nor reject, unless its internal name says reject', () => {
+  for (const label of ['Akceptuj wybrane', 'Accetta selezionati', 'Accept selected', 'Allow selection',
+    'Auswahl erlauben', 'Accepter la sélection', 'Aceptar selección', 'Aceitar seleção', 'Selectie accepteren']) {
+    assert.equal(classifyLabel(label), null, label);
+    assert.equal(classifyControl(label, ''), null, label);
+    assert.equal(classifyControl(label, 'btn-accept-selected'), null, label);
+  }
+  assert.equal(classifyControl('Akceptuj wybrane', 'accept-necessary-only'), 'reject');
+  // the plain accept buttons are unchanged
+  assert.equal(classifyLabel('Akceptuj wszystkie'), 'accept');
+  assert.equal(classifyLabel('Accept all'), 'accept');
+  assert.equal(classifyLabel('Accetta'), 'accept');
+});

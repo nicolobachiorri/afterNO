@@ -1,0 +1,70 @@
+{
+  "host": "onbit.pt",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Google"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://onbit.pt/smartphones-android.html",
+    "lastSeen": {
+      "ad.doubleclick.net": 1794343502413,
+      "businesswebvitals.com": 1794343500199,
+      "bzr.openai.com": 1794343501445,
+      "bzrcdn.openai.com": 1794343500189,
+      "cdn.cookiehub.eu": 1794343500490,
+      "cdn.jsdelivr.net": 1794343499863,
+      "consent-eu.cookiehub.net": 1794343500252,
+      "googleads.g.doubleclick.net": 1794343502411,
+      "onbit.pt": 1794343510179,
+      "region1.analytics.google.com": 1794343502399,
+      "static.cloudflareinsights.com": 1794343499440,
+      "stats.g.doubleclick.net": 1794343502400,
+      "to.businesswebvitals.com": 1794343510428,
+      "www.google.com": 1794343502631,
+      "www.google.it": 1794343502631,
+      "www.googleadservices.com": 1794343499858,
+      "www.googletagmanager.com": 1794343499971,
+      "www.onbit.pt": 1794343498005
+    }
+  },
+  "hostsConsidered": [
+    "ad.doubleclick.net",
+    "businesswebvitals.com",
+    "bzr.openai.com",
+    "bzrcdn.openai.com",
+    "cdn.cookiehub.eu",
+    "cdn.jsdelivr.net",
+    "consent-eu.cookiehub.net",
+    "googleads.g.doubleclick.net",
+    "onbit.pt",
+    "region1.analytics.google.com",
+    "static.cloudflareinsights.com",
+    "stats.g.doubleclick.net",
+    "to.businesswebvitals.com",
+    "www.google.com",
+    "www.google.it",
+    "www.googleadservices.com",
+    "www.googletagmanager.com",
+    "www.onbit.pt"
+  ]
+}

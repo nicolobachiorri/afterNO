@@ -1,0 +1,64 @@
+{
+  "host": "www.enac.fr",
+  "choice": {
+    "at": 1794343313446,
+    "choice": "rejected",
+    "label": "Refuser tous les cookies",
+    "named": true,
+    "site": "enac.fr",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Refuser tous les cookies"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "LinkedIn (linkedin.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.enac.fr/fr",
+    "lastSeen": {
+      "a.tile.openstreetmap.org": 1794343318780,
+      "b.tile.openstreetmap.org": 1794343318780,
+      "c.tile.openstreetmap.org": 1794343318780,
+      "cdn.jsdelivr.net": 1794343304923,
+      "connect.facebook.net": 1794343305235,
+      "enac.matomo.cloud": 1794343318764,
+      "px.ads.linkedin.com": 1794343319216,
+      "px4.ads.linkedin.com": 1794343318960,
+      "snap.licdn.com": 1794343304815,
+      "unpkg.com": 1794343305348,
+      "www.enac.fr": 1794343319217,
+      "www.facebook.com": 1794343318773
+    }
+  },
+  "hostsConsidered": [
+    "a.tile.openstreetmap.org",
+    "b.tile.openstreetmap.org",
+    "c.tile.openstreetmap.org",
+    "enac.matomo.cloud",
+    "px.ads.linkedin.com",
+    "px4.ads.linkedin.com",
+    "www.enac.fr",
+    "www.facebook.com"
+  ]
+}

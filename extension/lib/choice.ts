@@ -124,11 +124,18 @@ export function isWeakAccept(label: string): boolean {
 // like a rejection but leads to a second layer; «Einstellungen oder ablehnen» too.
 const SETTINGS = /ändern|einstellungen|anpassen|verwalten|\bmanage|settings|customi[sz]e|preferences|gestisci|personalizza|impostazioni|modifica|param[eé]tr|personnalis|g[eé]rer|configur|gestionar|personaliz|gerir|aanpassen|instellen|instellingen|beheren|zarz[aą]dzaj|ustawieni|dostosuj/i;
 
+// "Accept selected": it accepts whatever the toggles say, like "save". With only the
+// necessary cookies on it is a rejection, with all on an acceptance; the extension
+// cannot see the toggles. praca.pl «Akceptuj wybrane» (sample G, visit G1) was
+// recorded as an acceptance after a rejection.
+const SELECTED = /^\s*(accetta (le |la )?(selezion|scelt)|accept (the |my )?(selected|selection|choices)|allow (the )?selection|auswahl (akzeptieren|erlauben|zulassen|annehmen)|ausgewählte (akzeptieren|erlauben|zulassen)|accepter (la |ma )?s[ée]lection|aceptar (la )?selecci[óo]n|aceptar (los )?seleccionad|aceitar (a )?sele[çc][ãa]o|aceitar selecionad|selectie (accepteren|toestaan)|geselecteerde accepteren|akceptuj (wybrane|zaznaczone)|zaakceptuj (wybrane|zaznaczone)|zezw[óo]l na wyb[óo]r)/i;
+
 export function classifyLabel(label: string): LabelKind | null {
   const text = label.replace(/\s+/g, ' ').trim();
   if (!text || text.length > 60) return null; // a paragraph, not a button
   if (PAYWALL.test(text)) return null;
   if (SETTINGS.test(text)) return null;
+  if (SELECTED.test(text)) return null;
   if (REJECT.test(text)) return 'reject'; // checked first: "continua senza accettare"
   if (ACCEPT.test(text)) return 'accept';
   return null;
@@ -172,7 +179,7 @@ export function classifyControl(label: string, attrs: string): LabelKind | null 
     if (byAttrs === 'accept') return null;
     return byAttrs === 'reject' ? 'reject' : 'close';
   }
-  if (!byText && SAVE.test(label)) return byAttrs === 'reject' ? 'reject' : null;
+  if (!byText && (SAVE.test(label) || SELECTED.test(text))) return byAttrs === 'reject' ? 'reject' : null;
   if (byText && byAttrs && byText !== byAttrs) return null;
   return byText ?? byAttrs;
 }

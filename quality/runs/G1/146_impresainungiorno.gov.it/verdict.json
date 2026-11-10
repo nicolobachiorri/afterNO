@@ -1,0 +1,46 @@
+{
+  "host": "www.impresainungiorno.gov.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.impresainungiorno.gov.it/",
+    "lastSeen": {
+      "cdn.jsdelivr.net": 1794342901667,
+      "cdnjs.cloudflare.com": 1794342902448,
+      "code.jquery.com": 1794342900604,
+      "fonts.gstatic.com": 1794342902448,
+      "impresainungiorno.gov.it": 1794342899202,
+      "ingestion.webanalytics.italia.it": 1794342901948,
+      "maxcdn.bootstrapcdn.com": 1794342899854,
+      "www.impresainungiorno.gov.it": 1794342903422
+    }
+  },
+  "hostsConsidered": [
+    "cdn.jsdelivr.net",
+    "cdnjs.cloudflare.com",
+    "code.jquery.com",
+    "fonts.gstatic.com",
+    "impresainungiorno.gov.it",
+    "ingestion.webanalytics.italia.it",
+    "maxcdn.bootstrapcdn.com",
+    "www.impresainungiorno.gov.it"
+  ]
+}

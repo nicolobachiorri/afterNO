@@ -1,0 +1,110 @@
+{
+  "url": "https://www.oferteo.pl",
+  "final_url": "https://www.oferteo.pl/",
+  "click_at_s": 11.35,
+  "reload_at_s": null,
+  "reject": "labelled: second_layer",
+  "visible_buttons": [
+    "Por\u00f3wnaj oferty",
+    "Poka\u017c podkategorie",
+    "Poka\u017c wi\u0119cej (10)",
+    "Poka\u017c wi\u0119cej (17)",
+    "Poka\u017c wi\u0119cej (2)",
+    "Poka\u017c wi\u0119cej (9)",
+    "Poka\u017c wi\u0119cej (7)",
+    "Poka\u017c wi\u0119cej (15)",
+    "Poka\u017c wi\u0119cej (18)",
+    "Poka\u017c wi\u0119cej (6)",
+    "Poka\u017c wi\u0119cej (16)",
+    "Poka\u017c wi\u0119cej (3)",
+    "Poka\u017c wi\u0119cej (12)",
+    "Poka\u017c wi\u0119cej (14)",
+    "Poka\u017c wi\u0119cej (8)"
+  ],
+  "tcf": {
+    "cmpId": 90,
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "purposesListed": 11,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "bat.bing.com": {
+      "first_s": 3.21,
+      "last_s": 3.57
+    },
+    "bat.bing.net": {
+      "first_s": 3.68,
+      "last_s": 3.74
+    },
+    "cdn.tagcommander.com": {
+      "first_s": 2.5,
+      "last_s": 2.5
+    },
+    "cdn.trustcommander.net": {
+      "first_s": 3.15,
+      "last_s": 3.59
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.21,
+      "last_s": 3.4
+    },
+    "privacy.trustcommander.net": {
+      "first_s": 3.63,
+      "last_s": 3.63
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.92,
+      "last_s": 3.92
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.5,
+      "last_s": 2.8
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.56,
+      "last_s": 2.56
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.48,
+      "last_s": 3.69
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "domain": ".oferteo.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ofe-rfp",
+      "domain": ".oferteo.pl",
+      "path": "/",
+      "expires": 1828903633.913094,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "TCPID",
+      "domain": ".oferteo.pl",
+      "path": "/",
+      "expires": 1828298834,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

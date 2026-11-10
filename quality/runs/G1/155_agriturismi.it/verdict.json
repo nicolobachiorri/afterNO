@@ -1,0 +1,43 @@
+{
+  "host": "www.agriturismi.it",
+  "choice": {
+    "at": 1794343120058,
+    "choice": "rejected",
+    "label": "Solo necessari",
+    "named": false,
+    "site": "agriturismi.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Solo necessari"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.agriturismi.it/",
+    "lastSeen": {
+      "static.cloudflareinsights.com": 1794343101925,
+      "www.agriturismi.it": 1794343125971
+    }
+  },
+  "hostsConsidered": [
+    "www.agriturismi.it"
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "url": "https://www.onbit.pt",
+  "final_url": "https://onbit.pt/",
+  "click_at_s": 11.88,
+  "reload_at_s": null,
+  "reject": "labelled: second_layer",
+  "visible_buttons": [
+    "Permitir",
+    "Configura\u00e7\u00f5es de Cookies",
+    "Minha Conta",
+    "Toggle minicart, Cart is empty Meu Carrinho",
+    "SUBSCREVER"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "to.businesswebvitals.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 6.32,
+      "last_s": 6.32
+    },
+    "businesswebvitals.com": {
+      "first_s": 3.09,
+      "last_s": 4.1
+    },
+    "bzr.openai.com": {
+      "first_s": 5.35,
+      "last_s": 5.35
+    },
+    "bzrcdn.openai.com": {
+      "first_s": 3.88,
+      "last_s": 4.09
+    },
+    "cdn.cookiehub.eu": {
+      "first_s": 3.88,
+      "last_s": 4.39
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 3.78,
+      "last_s": 3.78
+    },
+    "consent-eu.cookiehub.net": {
+      "first_s": 4.16,
+      "last_s": 4.16
+    },
+    "googleads.g.doubleclick.net": {
+      "first_s": 6.32,
+      "last_s": 6.32
+    },
+    "region1.analytics.google.com": {
+      "first_s": 6.3,
+      "last_s": 6.3
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 3.34,
+      "last_s": 3.34
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 6.32,
+      "last_s": 6.32
+    },
+    "to.businesswebvitals.com": {
+      "first_s": 3.82,
+      "last_s": 14.33
+    },
+    "www.google.com": {
+      "first_s": 6.32,
+      "last_s": 6.53
+    },
+    "www.google.it": {
+      "first_s": 6.32,
+      "last_s": 6.54
+    },
+    "www.googleadservices.com": {
+      "first_s": 3.78,
+      "last_s": 3.78
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.09,
+      "last_s": 3.88
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "last_visited_store",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1794347099,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "form_key",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1794347106.929086,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_zaraz_client",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1825879500.034472,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cfzs_google-analytics_v4",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cfz_facebook-pixel",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1825879506.124135,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cfz_google-analytics_v4",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1825879506.124199,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": 1794345300.177433,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://onbit.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__obref",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1825879500.188242,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uxify_group",
+      "domain": "onbit.pt",
+      "path": "/",
+      "expires": 1794429900.198402,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1825879500.339161,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://onbit.pt",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "private_content_version",
+      "domain": "onbit.pt",
+      "path": "/",
+      "expires": 1828903500.463976,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiehub",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1825879500,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1794347106.928969,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".bzr.openai.com",
+      "path": "/",
+      "expires": 1794345301.793429,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://onbit.pt",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".bzr.openai.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_ZY8Y1RTCTK",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1828903502.395033,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1828903502.395333,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".onbit.pt",
+      "path": "/",
+      "expires": 1802119502,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "test_cookie",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1794344402.627235,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "url": "https://www.mediamarkt.at",
+  "final_url": "https://www.mediamarkt.at/",
+  "click_at_s": 10.87,
+  "reload_at_s": 15.87,
+  "reject": "labelled: 'Speichern' (button, mouse click)",
+  "visible_buttons": [
+    "KI-Suche",
+    "Mein Markt Kein Markt ausgew\u00e4hlt",
+    "Men\u00fc",
+    "Weitere Informationen",
+    "Aktivieren",
+    "Aktuell beliebt",
+    "Service",
+    "\u00dcber uns",
+    "Datenschutzeinstellungen",
+    "Notwendig",
+    "Komfort",
+    "Marketing",
+    "Speichern",
+    "Alles zulassen"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "8111b3b2efb14979a46a0c1d8519ffb6-59b00ce73e8a.cdn.forter.com",
+    "cdn0.forter.com",
+    "cdn3.forter.com",
+    "cdn6.forter.com",
+    "cms-images.mmst.eu"
+  ],
+  "third_party_hosts_after_reload": [
+    "8111b3b2efb14979a46a0c1d8519ffb6-59b00ce73e8a.cdn.forter.com",
+    "cdn0.forter.com",
+    "cdn3.forter.com",
+    "cdn6.forter.com",
+    "cms-images.mmst.eu"
+  ],
+  "third_party_timeline": {
+    "59b00ce73e8a.cdn4.forter.com": {
+      "first_s": 3.36,
+      "last_s": 3.36
+    },
+    "8111b3b2efb14979a46a0c1d8519ffb6-59b00ce73e8a.cdn.forter.com": {
+      "first_s": 4.31,
+      "last_s": 18.44
+    },
+    "cdn.speedcurve.com": {
+      "first_s": 2.47,
+      "last_s": 2.47
+    },
+    "cdn0.forter.com": {
+      "first_s": 3.84,
+      "last_s": 17.62
+    },
+    "cdn3.forter.com": {
+      "first_s": 5.27,
+      "last_s": 20.44
+    },
+    "cdn6.forter.com": {
+      "first_s": 4.81,
+      "last_s": 17.94
+    },
+    "cms-images.mmst.eu": {
+      "first_s": 2.47,
+      "last_s": 16.68
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.21,
+      "last_s": 3.62
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "59b00ce73e8a.cdn4.forter.com",
+    "cdn.speedcurve.com",
+    "cms-images.mmst.eu",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "optid",
+      "domain": ".mediamarkt.at",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".mediamarkt.at",
+      "path": "/",
+      "expires": 1794345044.561873,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://mediamarkt.at",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "lux_uid",
+      "domain": "www.mediamarkt.at",
+      "path": "/",
+      "expires": 1794345058.356307,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "ts_id",
+      "domain": ".mediamarkt.at",
+      "path": "/",
+      "expires": 1794346858.671337,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "mm_country_pref",
+      "domain": "www.mediamarkt.at",
+      "path": "/",
+      "expires": 1825879245.270821,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "t_fpd",
+      "domain": ".mediamarkt.at",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "r",
+      "domain": "www.mediamarkt.at",
+      "path": "/",
+      "expires": 1794343845.665637,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "a",
+      "domain": "www.mediamarkt.at",
+      "path": "/",
+      "expires": 1795552845.665678,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pwaconsent",
+      "domain": ".mediamarkt.at",
+      "path": "/",
+      "expires": 1825879252.964457,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_msbps",
+      "domain": ".mediamarkt.at",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "forterToken",
+      "domain": ".mediamarkt.at",
+      "path": "/",
+      "expires": 1828903260,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

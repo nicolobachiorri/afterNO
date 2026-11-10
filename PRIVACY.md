@@ -1,6 +1,6 @@
 # afterNO: privacy policy
 
-*Last updated: 29 October 2026. Applies to version 0.1.0 and later.*
+*Last updated: 10 November 2026. Applies to version 0.1.0 and later.*
 *[Versione italiana più sotto.](#afterno-informativa-sulla-privacy)*
 
 **In short: the extension sends nothing anywhere.** Everything it reads stays in your
@@ -14,7 +14,7 @@ browser. What it keeps is deleted when you close the browser.
 | **The addresses of the requests** a page makes | To know which third-party sites the page contacts, and when | Only the **host name** (for example `criteo.com`) and the time are kept, not the full address |
 | **The address of the page** you are on | To match the list of contacted sites to the page it belongs to | Kept in session storage (see below) |
 | **The consent signal** of the site (IAB TCF), when there is one: whether you consented, how many purposes, "legitimate interest" | To know what the site recorded about your choice | Only the counts and the choice are kept |
-| **What you click on a page**: the text, label and attributes of the clicked element, and the text around it | To recognise a click on "Reject" or "Accept" in a cookie banner | Checked on the spot. Only a click recognised as a banner choice is kept, with the button's label; every other click is discarded at once |
+| **What you click on a page**: the text, label and attributes of the clicked element, and the text around it | To recognise a click on "Reject", "Accept" or the closing X in a cookie banner | Checked on the spot. Only a click recognised as a banner choice is kept, with the button's label; every other click is discarded at once |
 
 ## What it keeps, and for how long
 
@@ -71,7 +71,7 @@ write to afterno.extension@gmail.com.
 
 # afterNO: informativa sulla privacy
 
-*Ultimo aggiornamento: 29 ottobre 2026. Vale per la versione 0.1.0 e successive.*
+*Ultimo aggiornamento: 10 novembre 2026. Vale per la versione 0.1.0 e successive.*
 
 **In breve: l'estensione non invia nulla a nessuno.** Tutto ciò che legge resta nel tuo
 browser. Quello che conserva viene cancellato quando chiudi il browser.
@@ -84,7 +84,7 @@ browser. Quello che conserva viene cancellato quando chiudi il browser.
 | **Gli indirizzi delle richieste** fatte dalla pagina | Per sapere quali siti terzi la pagina contatta, e quando | Si conserva solo il **nome del sito** (per esempio `criteo.com`) e l'ora, non l'indirizzo completo |
 | **L'indirizzo della pagina** su cui sei | Per associare l'elenco dei siti contattati alla pagina giusta | Conservato nella memoria di sessione (vedi sotto) |
 | **Il segnale di consenso** del sito (IAB TCF), se presente: se hai dato il consenso, quante finalità, il «legittimo interesse» | Per sapere cosa ha registrato il sito sulla tua scelta | Si conservano solo i conteggi e la scelta |
-| **Ciò che clicchi in una pagina**: testo, etichetta e attributi dell'elemento cliccato, e il testo intorno | Per riconoscere un clic su «Rifiuta» o «Accetta» in un banner dei cookie | Controllato sul momento. Si conserva solo un clic riconosciuto come scelta nel banner, con l'etichetta del pulsante; ogni altro clic viene scartato subito |
+| **Ciò che clicchi in una pagina**: testo, etichetta e attributi dell'elemento cliccato, e il testo intorno | Per riconoscere un clic su «Rifiuta», «Accetta» o sulla X di chiusura in un banner dei cookie | Controllato sul momento. Si conserva solo un clic riconosciuto come scelta nel banner, con l'etichetta del pulsante; ogni altro clic viene scartato subito |
 
 ## Cosa conserva, e per quanto
 
@@ -125,6 +125,11 @@ a quel sito, per quei pochi istanti, che afterNO è installata.
 | `storage` | La memoria di sessione descritta sopra |
 | Accesso a tutti i siti (`<all_urls>`) | L'estensione deve funzionare su qualunque sito visiti; senza, il browser nasconde cookie e richieste |
 | Script nelle pagine | Leggere il segnale di consenso e riconoscere i clic nei banner dei cookie |
+
+## Chrome Web Store: uso limitato
+
+L'uso delle informazioni ricevute dalle API di Google rispetta la Chrome Web Store User
+Data Policy, compresi i requisiti di uso limitato (Limited Use).
 
 ## Modifiche e contatti
 

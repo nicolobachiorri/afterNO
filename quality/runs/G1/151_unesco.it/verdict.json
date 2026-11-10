@@ -1,0 +1,58 @@
+{
+  "host": "www.unesco.it",
+  "choice": {
+    "at": 1794343010255,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "named": true,
+    "site": "unesco.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Piwik"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.unesco.it/it/",
+    "lastSeen": {
+      "cdn.iubenda.com": 1794343002017,
+      "cpl.iubenda.com": 1794343011117,
+      "cs.iubenda.com": 1794343002272,
+      "idb.iubenda.com": 1794343015635,
+      "ingestion.webanalytics.italia.it": 1794343015519,
+      "www.unesco.it": 1794343015532
+    }
+  },
+  "hostsConsidered": [
+    "cpl.iubenda.com",
+    "idb.iubenda.com",
+    "ingestion.webanalytics.italia.it",
+    "www.unesco.it"
+  ]
+}

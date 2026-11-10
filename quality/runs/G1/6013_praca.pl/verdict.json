@@ -1,0 +1,46 @@
+{
+  "host": "www.praca.pl",
+  "choice": {
+    "at": 1794343585314,
+    "choice": "accepted",
+    "label": "Akceptuj wybrane",
+    "named": true,
+    "site": "praca.pl",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Akceptuj wybrane"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemNoThirdParty"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictAccepted",
+    "tone": "muted"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.praca.pl/",
+    "lastSeen": {
+      "pagead2.googlesyndication.com": 1794343591054,
+      "region1.google-analytics.com": 1794343596074,
+      "static.cloudflareinsights.com": 1794343576731,
+      "static.praca.pl": 1794343577549,
+      "www.google-analytics.com": 1794343577037,
+      "www.googletagmanager.com": 1794343577032,
+      "www.praca.pl": 1794343591145
+    }
+  },
+  "hostsConsidered": [
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "www.praca.pl"
+  ]
+}

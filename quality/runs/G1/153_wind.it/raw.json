@@ -1,0 +1,511 @@
+{
+  "url": "https://www.wind.it",
+  "final_url": "https://validate.perfdrive.com/2548ffee540d5ae734a782a75f0f5f0d/?ssa=a430a5b1-5652-42b7-8d55-acd23997a7f2&ssb=88206348185&ssc=https%3A%2F%2Fwww.windtre.it%2F&ssi=c221b351-cd63-491d-82c2-3d35062473ed&ssk=botmanager_support@radware.com&ssm=23956259236782756160008541268025&ssn=0d96a317ab662b0199a56e435c000d776a8d931a3b00-f040-4b62-a3380f&sso=281ff20d-a84d33908b78f699a74480468d57776baeeeea488dcd8759&ssp=27657224571794315091179435547493624&ssq=29520004305926503581143045024177271382095&ssr=MTUxLjQ0LjYzLjgx&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/156.0.0.0%20Safari/537.36&ssu=d3lza2J3Y2dnQXpOQ3k4Qno3WG00VHdKSXdGN3Jud1gwaGRmMVNQeDlnZz0=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYTE4ZTAxZGQtNzNlNC00MGVhLTlhNGItMDc4OTJjM2U5NzZkMS0xNzk0MzQzMDQ1MjI3MTQ0NjEtMDBkNTkxZjdmNjFhYmJhMGQzNjE2IiwicmQiOiJ3aW5kdHJlLml0IiwiX191em1mIjoiN2Y5MDAwOTMxYTNiMDAtZjA0MC00YjYyLWEyMGQtYTg0ZDMzOTA4Yjc4MS0xNzk0MzQzMDQ1MjI3MTQ0NjEtMDA1NGIxYjY3YTFiZmE0ZjE4NTE2In0=",
+  "click_at_s": 11.83,
+  "reload_at_s": 16.84,
+  "reject": "labelled: 'CONTINUA SENZA ACCETTARE' (button, mouse click)",
+  "visible_buttons": [
+    "CONTINUA SENZA ACCETTARE",
+    "PERSONALIZZA",
+    "ACCETTA",
+    "SCOPRI",
+    "Condizioni d'uso del servizio, limitazioni di traf",
+    "Trasparenza Assicurativa"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "1e561555c7f7.w.hcaptcha.com",
+    "5122751851d7.w.hcaptcha.com",
+    "api.hcaptcha.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "fonts.gstatic.com",
+    "hcaptcha.com",
+    "newassets.hcaptcha.com",
+    "www.windtre.it"
+  ],
+  "third_party_hosts_after_reload": [
+    "1e561555c7f7.w.hcaptcha.com",
+    "5122751851d7.w.hcaptcha.com",
+    "api.hcaptcha.com",
+    "fonts.gstatic.com",
+    "hcaptcha.com",
+    "newassets.hcaptcha.com",
+    "www.windtre.it"
+  ],
+  "third_party_timeline": {
+    "1e561555c7f7.w.hcaptcha.com": {
+      "first_s": 18.69,
+      "last_s": 18.69
+    },
+    "5122751851d7.w.hcaptcha.com": {
+      "first_s": 18.37,
+      "last_s": 18.37
+    },
+    "ade.googlesyndication.com": {
+      "first_s": 5.61,
+      "last_s": 6.12
+    },
+    "api.buy.shop.windtre.it": {
+      "first_s": 3.66,
+      "last_s": 3.66
+    },
+    "api.hcaptcha.com": {
+      "first_s": 18.69,
+      "last_s": 18.69
+    },
+    "api.ipify.org": {
+      "first_s": 3.33,
+      "last_s": 3.33
+    },
+    "cm.everesttech.net": {
+      "first_s": 4.59,
+      "last_s": 4.59
+    },
+    "consent.cookiebot.com": {
+      "first_s": 3.28,
+      "last_s": 11.84
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 3.61,
+      "last_s": 11.97
+    },
+    "cw3hubsec.windtre.it": {
+      "first_s": 4.08,
+      "last_s": 4.08
+    },
+    "dpm.demdex.net": {
+      "first_s": 4.29,
+      "last_s": 5.21
+    },
+    "fonts.googleapis.com": {
+      "first_s": 5.89,
+      "last_s": 5.89
+    },
+    "fonts.gstatic.com": {
+      "first_s": 18.33,
+      "last_s": 18.33
+    },
+    "hcaptcha.com": {
+      "first_s": 5.69,
+      "last_s": 18.14
+    },
+    "newassets.hcaptcha.com": {
+      "first_s": 18.38,
+      "last_s": 18.81
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 5.61,
+      "last_s": 5.61
+    },
+    "region1.google-analytics.com": {
+      "first_s": 5.63,
+      "last_s": 10.64
+    },
+    "windtre.demdex.net": {
+      "first_s": 4.58,
+      "last_s": 4.58
+    },
+    "windtre.omtrdc.net": {
+      "first_s": 4.58,
+      "last_s": 4.58
+    },
+    "windtre.tt.omtrdc.net": {
+      "first_s": 3.23,
+      "last_s": 3.23
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.56,
+      "last_s": 3.35
+    },
+    "www.wind.it": {
+      "first_s": 1.97,
+      "last_s": 1.97
+    },
+    "www.windtre.it": {
+      "first_s": 2.23,
+      "last_s": 16.86
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "fonts.googleapis.com"
+  ],
+  "cookies": [
+    {
+      "name": "__uzma",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1810067845.108502,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmb",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1810067845.108659,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzme",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1810067845.108688,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__ssds",
+      "domain": ".www.windtre.it",
+      "path": "/",
+      "expires": 1809891445,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "at_check",
+      "domain": ".windtre.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "demdex",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1809895047.855122,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__ssuzjsr0",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1809891447,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmaj0",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1809891447,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmbj0",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1809891447,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmcj0",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1809891447,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmdj0",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1809891447,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmlj0",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1809891447,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmfj0",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1809891447,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "uzmxj",
+      "domain": ".windtre.it",
+      "path": "/",
+      "expires": 1809891447,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "everest_g_v2",
+      "domain": ".everesttech.net",
+      "path": "/",
+      "expires": 1825879047.790472,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "dpm",
+      "domain": ".dpm.demdex.net",
+      "path": "/",
+      "expires": 1809895047.855202,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hcaptcha.com",
+      "path": "/",
+      "expires": 1794344848.456945,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://windtre.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1825879054,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmc",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1810067859.532889,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmd",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1810067859.532998,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmf",
+      "domain": "www.windtre.it",
+      "path": "/",
+      "expires": 1810067859.533037,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "uzmx",
+      "domain": ".windtre.it",
+      "path": "/",
+      "expires": 1810067859.533077,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": "validate.perfdrive.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzma",
+      "domain": "validate.perfdrive.com",
+      "path": "/",
+      "expires": 1809895060.68685,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmb",
+      "domain": "validate.perfdrive.com",
+      "path": "/",
+      "expires": 1809895060.686925,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmc",
+      "domain": "validate.perfdrive.com",
+      "path": "/",
+      "expires": 1809895060.687026,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmd",
+      "domain": "validate.perfdrive.com",
+      "path": "/",
+      "expires": 1809895060.687132,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hcaptcha.com",
+      "path": "/",
+      "expires": 1794344860.853327,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://perfdrive.com",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__ssds",
+      "domain": ".perfdrive.com",
+      "path": "/",
+      "expires": 1809891461,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__ssuzjsr2",
+      "domain": ".perfdrive.com",
+      "path": "/",
+      "expires": 1809891461,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmaj2",
+      "domain": ".perfdrive.com",
+      "path": "/",
+      "expires": 1809891461,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmbj2",
+      "domain": ".perfdrive.com",
+      "path": "/",
+      "expires": 1809891461,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmcj2",
+      "domain": ".perfdrive.com",
+      "path": "/",
+      "expires": 1809891461,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmdj2",
+      "domain": ".perfdrive.com",
+      "path": "/",
+      "expires": 1809891461,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cbfm473ed",
+      "domain": "validate.perfdrive.com",
+      "path": "/",
+      "expires": 1794343190,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cbft473ed",
+      "domain": "validate.perfdrive.com",
+      "path": "/",
+      "expires": 1794343190,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cbfcl473ed",
+      "domain": "validate.perfdrive.com",
+      "path": "/",
+      "expires": 1794343190,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

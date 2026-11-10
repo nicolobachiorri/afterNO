@@ -1,0 +1,68 @@
+{
+  "host": "www.omroepflevoland.nl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.omroepflevoland.nl/",
+    "lastSeen": {
+      "adserving.optoutadvertising.com": 1794343561839,
+      "api.smartocto.com": 1794343564185,
+      "cdgccbd.pa-cd.com": 1794343560547,
+      "cdn-eu.readspeaker.com": 1794343559931,
+      "cdn.jsdelivr.net": 1794343559356,
+      "cdn.optoutadvertising.com": 1794343562182,
+      "d5ms27yy6exnf.cloudfront.net": 1794343571346,
+      "end.nmo-ep.nl": 1794343561954,
+      "ingestion.smartocto.com": 1794343564299,
+      "nmorpoendpoint.2cnt.net": 1794343560524,
+      "prd.jwpltx.com": 1794343561816,
+      "proxy.optoutadvertising.com": 1794343572201,
+      "sb.scorecardresearch.com": 1794343561869,
+      "script.omroepflevoland.nl": 1794343559935,
+      "ssl.p.jwpcdn.com": 1794343560858,
+      "tag.aticdn.net": 1794343559356,
+      "tentacles.smartocto.com": 1794343560813,
+      "widget-pixels.outbrainimg.com": 1794343559979,
+      "widgets.teads-xo.com": 1794343559649,
+      "ws-eu.pusher.com": 1794343559923,
+      "www.google.com": 1794343559648,
+      "www.gstatic.com": 1794343560948,
+      "www.omroepflevoland.nl": 1794343561010
+    }
+  },
+  "hostsConsidered": [
+    "adserving.optoutadvertising.com",
+    "api.smartocto.com",
+    "cdgccbd.pa-cd.com",
+    "cdn-eu.readspeaker.com",
+    "cdn.jsdelivr.net",
+    "cdn.optoutadvertising.com",
+    "d5ms27yy6exnf.cloudfront.net",
+    "end.nmo-ep.nl",
+    "ingestion.smartocto.com",
+    "nmorpoendpoint.2cnt.net",
+    "prd.jwpltx.com",
+    "proxy.optoutadvertising.com",
+    "sb.scorecardresearch.com",
+    "script.omroepflevoland.nl",
+    "ssl.p.jwpcdn.com",
+    "tag.aticdn.net",
+    "tentacles.smartocto.com",
+    "widget-pixels.outbrainimg.com",
+    "widgets.teads-xo.com",
+    "ws-eu.pusher.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.omroepflevoland.nl"
+  ]
+}

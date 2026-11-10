@@ -1,0 +1,55 @@
+{
+  "host": "www.concorsando.it",
+  "choice": {
+    "at": 1794342927288,
+    "choice": "rejected",
+    "label": "Usa solo i cookie necessari",
+    "named": true,
+    "site": "concorsando.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Usa solo i cookie necessari"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.concorsando.it/blog/",
+    "lastSeen": {
+      "consent.cookiebot.com": 1794342927942,
+      "consentcdn.cookiebot.com": 1794342932561,
+      "omneres.cermit.it": 1794342927828,
+      "region1.google-analytics.com": 1794342932443,
+      "static.cloudflareinsights.com": 1794342932484,
+      "www.cloudflare.com": 1794342927832,
+      "www.concorsando.it": 1794342932592,
+      "www.googletagmanager.com": 1794342927286
+    }
+  },
+  "hostsConsidered": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "omneres.cermit.it",
+    "region1.google-analytics.com",
+    "static.cloudflareinsights.com",
+    "www.cloudflare.com",
+    "www.concorsando.it"
+  ]
+}

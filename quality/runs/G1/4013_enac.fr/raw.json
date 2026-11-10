@@ -1,0 +1,164 @@
+{
+  "url": "https://www.enac.fr",
+  "final_url": "https://www.enac.fr/fr",
+  "click_at_s": 11.55,
+  "reload_at_s": 16.55,
+  "reject": "labelled: 'REFUSER TOUS LES COOKIES' (button, mouse click)",
+  "visible_buttons": [
+    "G\u00e9rer mes cookies",
+    "En savoir plus",
+    "PERSONNALISER / VALIDER MES CHOIX",
+    "ACCEPTER TOUS LES COOKIES",
+    "REFUSER TOUS LES COOKIES",
+    "OK"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "a.tile.openstreetmap.org",
+    "b.tile.openstreetmap.org",
+    "c.tile.openstreetmap.org",
+    "enac.matomo.cloud",
+    "px.ads.linkedin.com",
+    "px4.ads.linkedin.com",
+    "www.facebook.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "a.tile.openstreetmap.org",
+    "b.tile.openstreetmap.org",
+    "c.tile.openstreetmap.org",
+    "enac.matomo.cloud",
+    "px.ads.linkedin.com",
+    "px4.ads.linkedin.com",
+    "www.facebook.com"
+  ],
+  "third_party_timeline": {
+    "a.tile.openstreetmap.org": {
+      "first_s": 3.45,
+      "last_s": 16.91
+    },
+    "b.tile.openstreetmap.org": {
+      "first_s": 3.45,
+      "last_s": 16.91
+    },
+    "c.tile.openstreetmap.org": {
+      "first_s": 3.45,
+      "last_s": 16.91
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.55,
+      "last_s": 2.6
+    },
+    "connect.facebook.net": {
+      "first_s": 2.57,
+      "last_s": 3.33
+    },
+    "enac.matomo.cloud": {
+      "first_s": 3.56,
+      "last_s": 16.89
+    },
+    "px.ads.linkedin.com": {
+      "first_s": 3.17,
+      "last_s": 17.31
+    },
+    "px4.ads.linkedin.com": {
+      "first_s": 3.57,
+      "last_s": 17.06
+    },
+    "snap.licdn.com": {
+      "first_s": 2.6,
+      "last_s": 2.6
+    },
+    "unpkg.com": {
+      "first_s": 2.55,
+      "last_s": 3.45
+    },
+    "www.facebook.com": {
+      "first_s": 3.73,
+      "last_s": 16.89
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "a.tile.openstreetmap.org",
+    "b.tile.openstreetmap.org",
+    "c.tile.openstreetmap.org",
+    "cdn.jsdelivr.net",
+    "connect.facebook.net",
+    "snap.licdn.com",
+    "unpkg.com"
+  ],
+  "cookies": [
+    {
+      "name": "cookie-agreed-version",
+      "domain": "www.enac.fr",
+      "path": "/",
+      "expires": 1809891713,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1825879305.474148,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1809895305.474182,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1794429705.474194,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookie-agreed-categories",
+      "domain": "www.enac.fr",
+      "path": "/",
+      "expires": 1809891713,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cookie-agreed",
+      "domain": "www.enac.fr",
+      "path": "/",
+      "expires": 1809891713,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1794345119.464798,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://enac.fr",
+        "hasCrossSiteAncestor": true
+      }
+    }
+  ]
+}

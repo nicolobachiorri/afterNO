@@ -1,0 +1,132 @@
+{
+  "url": "https://www.degiro.nl",
+  "final_url": "https://www.degiro.nl/",
+  "click_at_s": 10.87,
+  "reload_at_s": 15.87,
+  "reject": "labelled: 'Alleen noodzakelijke cookies' (button, mouse click)",
+  "visible_buttons": [
+    "Alleen noodzakelijke cookies",
+    "Aanpassen",
+    "Alles accepteren",
+    "DIRECT NAAR DE HOOFDINHOUD",
+    "Inloggen",
+    "Open een rekening",
+    "TARIEVEN",
+    "PRODUCT",
+    "PENSIOEN",
+    "KENNIS",
+    "OVER DEGIRO",
+    "Open je rekening",
+    "Bekijk onze tarieven",
+    "OPMERKINGEN & DISCLAIMERS",
+    "Naar onze webinars"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cfg.moin.ai",
+    "consent.cookiebot.eu",
+    "consentcdn.cookiebot.eu",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "widget.moin.ai",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "cfg.moin.ai",
+    "consent.cookiebot.eu",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "widget.moin.ai"
+  ],
+  "third_party_timeline": {
+    "cdn.jsdelivr.net": {
+      "first_s": 2.78,
+      "last_s": 2.78
+    },
+    "cfg.moin.ai": {
+      "first_s": 4.15,
+      "last_s": 17.64
+    },
+    "consent.cookiebot.eu": {
+      "first_s": 2.34,
+      "last_s": 16.11
+    },
+    "consentcdn.cookiebot.eu": {
+      "first_s": 2.75,
+      "last_s": 11.04
+    },
+    "images-static.trustpilot.com": {
+      "first_s": 3.43,
+      "last_s": 3.43
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 11.04,
+      "last_s": 16.34
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.12,
+      "last_s": 16.19
+    },
+    "widget.moin.ai": {
+      "first_s": 2.34,
+      "last_s": 17.43
+    },
+    "widget.trustpilot.com": {
+      "first_s": 2.34,
+      "last_s": 2.34
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.36,
+      "last_s": 11.04
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.jsdelivr.net",
+    "consentcdn.cookiebot.eu",
+    "images-static.trustpilot.com",
+    "widget.trustpilot.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "__utmzz",
+      "domain": ".degiro.nl",
+      "path": "/",
+      "expires": 1809895529,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__utmzzses",
+      "domain": ".degiro.nl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.degiro.nl",
+      "path": "/",
+      "expires": 1825879524,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": ".degiro.nl",
+      "path": "/",
+      "expires": 1825879524,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

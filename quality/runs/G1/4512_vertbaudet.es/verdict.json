@@ -1,0 +1,28 @@
+{
+  "host": "www.vertbaudet.es",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.vertbaudet.es/",
+    "lastSeen": {
+      "challenges.cloudflare.com": 1794343397265,
+      "hagen.challenges.cloudflare.com": 1794343396547,
+      "www.vertbaudet.es": 1794343394999
+    }
+  },
+  "hostsConsidered": [
+    "challenges.cloudflare.com",
+    "hagen.challenges.cloudflare.com",
+    "www.vertbaudet.es"
+  ]
+}

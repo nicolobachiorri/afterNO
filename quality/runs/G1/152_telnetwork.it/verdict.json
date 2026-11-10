@@ -1,0 +1,24 @@
+{
+  "host": "www.telnet.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.telnet.it/it/home/",
+    "lastSeen": {
+      "www.telnet.it": 1794343029217
+    }
+  },
+  "hostsConsidered": [
+    "www.telnet.it"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "host": "www.agendaonline.it",
+  "choice": {
+    "at": 1794343147253,
+    "choice": "rejected",
+    "legitimateInterests": 6,
+    "legitimatePurposes": [
+      2,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "purposesConsented": 0,
+    "site": "agendaonline.it",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "info",
+      "key": "itemLegitimate",
+      "count": 6,
+      "nameKeys": [
+        "tcfPurpose_2",
+        "tcfPurpose_7",
+        "tcfPurpose_8",
+        "tcfPurpose_9",
+        "tcfPurpose_10",
+        "tcfPurpose_11"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.agendaonline.it/",
+    "lastSeen": {
+      "ad.doubleclick.net": 1794343153162,
+      "adv.intxr.com": 1794343152634,
+      "cdn.pushmaster-cdn.xyz": 1794343152488,
+      "clickiocmp.com": 1794343152499,
+      "ep1.adtrafficquality.google": 1794343153668,
+      "ep2.adtrafficquality.google": 1794343153141,
+      "fonts.googleapis.com": 1794343152844,
+      "fonts.gstatic.com": 1794343152954,
+      "gjigle.com": 1794343147805,
+      "notifpush.com": 1794343152511,
+      "pagead2.googlesyndication.com": 1794343153114,
+      "region1.analytics.google.com": 1794343152950,
+      "statics.pushaddict.com": 1794343147782,
+      "stats.g.doubleclick.net": 1794343139614,
+      "tpc.googlesyndication.com": 1794343152929,
+      "www.agendaonline.it": 1794343153019,
+      "www.google.it": 1794343139615,
+      "www.googletagmanager.com": 1794343152427,
+      "www.gstatic.com": 1794343152844
+    }
+  },
+  "hostsConsidered": [
+    "ad.doubleclick.net",
+    "adv.intxr.com",
+    "cdn.pushmaster-cdn.xyz",
+    "clickiocmp.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "gjigle.com",
+    "notifpush.com",
+    "pagead2.googlesyndication.com",
+    "region1.analytics.google.com",
+    "statics.pushaddict.com",
+    "tpc.googlesyndication.com",
+    "www.agendaonline.it",
+    "www.googletagmanager.com",
+    "www.gstatic.com"
+  ]
+}

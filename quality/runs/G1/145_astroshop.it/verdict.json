@@ -1,0 +1,63 @@
+{
+  "host": "www.astroshop.it",
+  "choice": {
+    "at": 1794342879960,
+    "choice": "rejected",
+    "label": "Negare",
+    "named": true,
+    "site": "astroshop.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Negare"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.astroshop.it/",
+    "lastSeen": {
+      "api.cookiefirst.com": 1794342879962,
+      "bat.bing.com": 1794342879453,
+      "bat.bing.net": 1794342888391,
+      "consent.cookiefirst.com": 1794342886096,
+      "edge.cookiefirst.com": 1794342885972,
+      "g.clarity.ms": 1794342885840,
+      "production.neocomapp.com": 1794342886081,
+      "prompts.api.production.neocomapp.com": 1794342886387,
+      "q.clarity.ms": 1794342895052,
+      "scripts.clarity.ms": 1794342879800,
+      "www.astroshop.it": 1794342892048,
+      "www.clarity.ms": 1794342886110,
+      "www.googletagmanager.com": 1794342878415
+    }
+  },
+  "hostsConsidered": [
+    "api.cookiefirst.com",
+    "bat.bing.net",
+    "consent.cookiefirst.com",
+    "edge.cookiefirst.com",
+    "g.clarity.ms",
+    "production.neocomapp.com",
+    "prompts.api.production.neocomapp.com",
+    "q.clarity.ms",
+    "www.astroshop.it",
+    "www.clarity.ms"
+  ]
+}

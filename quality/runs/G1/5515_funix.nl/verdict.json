@@ -1,0 +1,24 @@
+{
+  "host": "www.funix.nl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.funix.nl/",
+    "lastSeen": {
+      "www.funix.nl": 1794343543375
+    }
+  },
+  "hostsConsidered": [
+    "www.funix.nl"
+  ]
+}

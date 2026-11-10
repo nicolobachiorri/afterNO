@@ -1,0 +1,44 @@
+{
+  "host": "validate.perfdrive.com",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://validate.perfdrive.com/2548ffee540d5ae734a782a75f0f5f0d/?ssa=a430a5b1-5652-42b7-8d55-acd23997a7f2&ssb=88206348185&ssc=https%3A%2F%2Fwww.windtre.it%2F&ssi=c221b351-cd63-491d-82c2-3d35062473ed&ssk=botmanager_support@radware.com&ssm=23956259236782756160008541268025&ssn=0d96a317ab662b0199a56e435c000d776a8d931a3b00-f040-4b62-a3380f&sso=281ff20d-a84d33908b78f699a74480468d57776baeeeea488dcd8759&ssp=27657224571794315091179435547493624&ssq=29520004305926503581143045024177271382095&ssr=MTUxLjQ0LjYzLjgx&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/156.0.0.0%20Safari/537.36&ssu=d3lza2J3Y2dnQXpOQ3k4Qno3WG00VHdKSXdGN3Jud1gwaGRmMVNQeDlnZz0=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYTE4ZTAxZGQtNzNlNC00MGVhLTlhNGItMDc4OTJjM2U5NzZkMS0xNzk0MzQzMDQ1MjI3MTQ0NjEtMDBkNTkxZjdmNjFhYmJhMGQzNjE2IiwicmQiOiJ3aW5kdHJlLml0IiwiX191em1mIjoiN2Y5MDAwOTMxYTNiMDAtZjA0MC00YjYyLWEyMGQtYTg0ZDMzOTA4Yjc4MS0xNzk0MzQzMDQ1MjI3MTQ0NjEtMDA1NGIxYjY3YTFiZmE0ZjE4NTE2In0=",
+    "lastSeen": {
+      "1e561555c7f7.w.hcaptcha.com": 1794343061259,
+      "5122751851d7.w.hcaptcha.com": 1794343060953,
+      "api.hcaptcha.com": 1794343061269,
+      "captcha.perfdrive.com": 1794343060718,
+      "cas.avalon.perfdrive.com": 1794343061123,
+      "cdn.perfdrive.com": 1794343060893,
+      "fonts.gstatic.com": 1794343060906,
+      "hcaptcha.com": 1794343060722,
+      "newassets.hcaptcha.com": 1794343061390,
+      "region1.google-analytics.com": 1794343060730,
+      "validate.perfdrive.com": 1794343061313
+    }
+  },
+  "hostsConsidered": [
+    "1e561555c7f7.w.hcaptcha.com",
+    "5122751851d7.w.hcaptcha.com",
+    "api.hcaptcha.com",
+    "captcha.perfdrive.com",
+    "cas.avalon.perfdrive.com",
+    "cdn.perfdrive.com",
+    "fonts.gstatic.com",
+    "hcaptcha.com",
+    "newassets.hcaptcha.com",
+    "region1.google-analytics.com",
+    "validate.perfdrive.com"
+  ]
+}

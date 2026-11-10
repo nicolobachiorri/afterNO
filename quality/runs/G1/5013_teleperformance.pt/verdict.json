@@ -1,0 +1,72 @@
+{
+  "host": "jobs.teleperformance.pt",
+  "choice": {
+    "at": 1794343461936,
+    "choice": "rejected",
+    "label": "Reject non essential cookies",
+    "named": true,
+    "site": "teleperformance.pt",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Reject non essential cookies"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 2,
+      "names": [
+        "Google",
+        "Facebook"
+      ]
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "warn"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://jobs.teleperformance.pt/",
+    "lastSeen": {
+      "ad.doubleclick.net": 1794343453740,
+      "connect.facebook.net": 1794343453999,
+      "fonts.googleapis.com": 1794343453232,
+      "fonts.gstatic.com": 1794343453372,
+      "jobs.teleperformance.pt": 1794343468890,
+      "region1.analytics.google.com": 1794343473817,
+      "static.addtoany.com": 1794343468783,
+      "stats.g.doubleclick.net": 1794343453974,
+      "unpkg.com": 1794343452850,
+      "www.facebook.com": 1794343468835,
+      "www.google.com": 1794343468798,
+      "www.google.it": 1794343453975,
+      "www.googletagmanager.com": 1794343453737,
+      "www.teleperformance.pt": 1794343451855
+    }
+  },
+  "hostsConsidered": [
+    "jobs.teleperformance.pt",
+    "region1.analytics.google.com",
+    "static.addtoany.com",
+    "www.facebook.com",
+    "www.google.com"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "url": "https://www.omroepflevoland.nl",
+  "final_url": "https://www.omroepflevoland.nl/#1",
+  "click_at_s": 11.01,
+  "reload_at_s": null,
+  "reject": "labelled: no_banner",
+  "visible_buttons": [
+    "Toon NOS nieuws",
+    "Nee dank je"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "d5ms27yy6exnf.cloudfront.net",
+    "proxy.optoutadvertising.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "adserving.optoutadvertising.com": {
+      "first_s": 4.05,
+      "last_s": 4.79
+    },
+    "api.smartocto.com": {
+      "first_s": 3.77,
+      "last_s": 7.14
+    },
+    "cdgccbd.pa-cd.com": {
+      "first_s": 3.5,
+      "last_s": 3.5
+    },
+    "cdn-eu.readspeaker.com": {
+      "first_s": 2.3,
+      "last_s": 2.89
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.3,
+      "last_s": 2.3
+    },
+    "cdn.optoutadvertising.com": {
+      "first_s": 2.3,
+      "last_s": 5.14
+    },
+    "d5ms27yy6exnf.cloudfront.net": {
+      "first_s": 3.95,
+      "last_s": 14.3
+    },
+    "end.nmo-ep.nl": {
+      "first_s": 3.86,
+      "last_s": 4.91
+    },
+    "ingestion.smartocto.com": {
+      "first_s": 3.83,
+      "last_s": 7.25
+    },
+    "nmorpoendpoint.2cnt.net": {
+      "first_s": 3.48,
+      "last_s": 3.48
+    },
+    "prd.jwpltx.com": {
+      "first_s": 3.81,
+      "last_s": 4.77
+    },
+    "proxy.optoutadvertising.com": {
+      "first_s": 4.88,
+      "last_s": 15.15
+    },
+    "sb.scorecardresearch.com": {
+      "first_s": 3.48,
+      "last_s": 4.82
+    },
+    "ssl.p.jwpcdn.com": {
+      "first_s": 3.49,
+      "last_s": 3.81
+    },
+    "tag.aticdn.net": {
+      "first_s": 2.3,
+      "last_s": 2.3
+    },
+    "tentacles.smartocto.com": {
+      "first_s": 3.49,
+      "last_s": 3.77
+    },
+    "widget-pixels.outbrainimg.com": {
+      "first_s": 2.93,
+      "last_s": 2.93
+    },
+    "widgets.teads-xo.com": {
+      "first_s": 2.31,
+      "last_s": 2.31
+    },
+    "www.google.com": {
+      "first_s": 2.3,
+      "last_s": 2.3
+    },
+    "www.gstatic.com": {
+      "first_s": 2.93,
+      "last_s": 3.9
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "pa_privacy",
+      "domain": "www.omroepflevoland.nl",
+      "path": "/",
+      "expires": 1828471559,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cs_fpid",
+      "domain": "www.omroepflevoland.nl",
+      "path": "/",
+      "expires": 1828903559.929367,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pcid",
+      "domain": ".omroepflevoland.nl",
+      "path": "/",
+      "expires": 1828471560,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pctx",
+      "domain": ".omroepflevoland.nl",
+      "path": "/",
+      "expires": 1828471560,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

@@ -453,3 +453,31 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     parte, senza mescolarli ai rifiuti espliciti. Su un sito italiano la X vale come
     rifiuto anche senza dirlo (Garante, 2021); dove c'è anche un pulsante esplicito
     (sampdoria.it), il robot clicca quello.
+41. *Visita G1 e giudizi.* Build 0.1.1, Chromium, clic del mouse sul controllo
+    segnato a mano. Due siti esclusi per limiti del robot, decisi dal giudice
+    principale: wind.it (dopo il clic, pagina anti-robot validate.perfdrive.com,
+    `no_blocked`) e ubuy.ie (finestra di cambio paese sopra il banner, `no_click`).
+    Giudice principale Claude, secondo giudice Gemini con la pagina completa, giudice
+    alla cieca ChatGPT in una conversazione separata con la sola `review_blind.html`.
+    Un primo giudizio «alla cieca» di Gemini, dato nella stessa conversazione in cui
+    aveva visto `review.html`, è scartato e conservato come
+    `judgments_G1_gemini_not_blind.csv`. Dopo il confronto con gli altri due giudici,
+    il giudice principale corregge concorsando.it da *corretta* a *sbagliata*:
+    `cfz_facebook-pixel` (365 giorni) è il pixel di Meta caricato da Cloudflare Zaraz.
+    I tre nomi Zaraz entrano in `overrides.csv` dopo la misura; i numeri di G1 restano
+    quelli della build misurata. In `score_g.py` il tono «warn» conta come «solo in
+    parte» per il confronto con il giudice alla cieca (prima mancava).
+42. *Soglie di tempo, prova di sensibilità.* Le due soglie (30 giorni per
+    l'«identificativo probabile», 1 giorno per il marketing del sito) sono scelte
+    nostre. `sensitivity.py` ricalcola con il codice dell'estensione le conclusioni di
+    tutti i rifiuti registrati da A a G1 (179 su 114 siti), cambiando una soglia alla
+    volta. Identificativo da 1 a 180 giorni: nessuna conclusione cambia (6 a 395
+    giorni). Marketing del sito ignorato entro 0, 1 o 7 giorni: nessuna cambia (4 a
+    30 giorni, 7 a 90). Le soglie restano quelle; il risultato si riporta nel README.
+43. *Dopo G1.* Correzioni nate dal giro G, non misurate: «accetta selezionati»
+    («Akceptuj wybrane», «Accept selected», «Auswahl erlauben»…) vale come «salva» e
+    non registra una scelta; i cookie di Cloudflare Zaraz entrano nel database. La
+    versione misurata resta la 0.1.1 (tag `v0.1.1`); le correzioni escono con la
+    0.1.2. `tools/check_integrity.py` controlla a ogni push che i numeri pubblicati
+    nel README e nel sito siano quelli calcolati da `score_g.py` e che i riepiloghi
+    in `runs/` siano quelli calcolati da `analyze.py`.

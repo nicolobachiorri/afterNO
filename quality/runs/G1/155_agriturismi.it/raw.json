@@ -1,0 +1,58 @@
+{
+  "url": "https://www.agriturismi.it",
+  "final_url": "https://www.agriturismi.it/",
+  "click_at_s": 21.43,
+  "reload_at_s": 26.44,
+  "reject": "labelled: 'Solo necessari' (button, mouse click)",
+  "visible_buttons": [
+    "\u00d7",
+    "Solo necessari",
+    "Accetta",
+    "Gestisci le preferenze",
+    "Esplora",
+    "Accedi",
+    "2 Adulti \u25bc",
+    "Cerca",
+    "Qui vicino",
+    "\u2039",
+    "\u203a",
+    "Iscriviti subito!"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "static.cloudflareinsights.com": {
+      "first_s": 3.3,
+      "last_s": 3.3
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "static.cloudflareinsights.com"
+  ],
+  "cookies": [
+    {
+      "name": "cf_clearance",
+      "domain": ".agriturismi.it",
+      "path": "/",
+      "expires": 1825879116.571143,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://agriturismi.it",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "agri_consenso",
+      "domain": ".agriturismi.it",
+      "path": "/",
+      "expires": 1810067920.570383,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

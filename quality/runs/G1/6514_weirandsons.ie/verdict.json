@@ -1,0 +1,130 @@
+{
+  "host": "weirandsons.ie",
+  "choice": {
+    "at": 1794343693966,
+    "choice": "rejected",
+    "label": "Reject All",
+    "named": true,
+    "site": "weirandsons.ie",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Reject All"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "adobedc.net"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 2,
+      "names": [
+        "ContentSquare"
+      ]
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://weirandsons.ie/",
+    "lastSeen": {
+      "acds-events.adobe.io": 1794343685486,
+      "bam.nr-data.net": 1794343699731,
+      "cdn-cookieyes.com": 1794343700286,
+      "cdn-editor.moosend.com": 1794343699626,
+      "cdn.jsdelivr.net": 1794343699707,
+      "cdn.stat-track.com": 1794343686300,
+      "clock.rolex.com": 1794343699203,
+      "commerce.adobe.io": 1794343699352,
+      "commerce.adobedc.net": 1794343699723,
+      "commerce.adobedtm.com": 1794343686276,
+      "connect.facebook.net": 1794343699277,
+      "content.hotjar.io": 1794343699665,
+      "dc.services.visualstudio.com": 1794343699302,
+      "directory.cookieyes.com": 1794343699665,
+      "embed.tawk.to": 1794343695937,
+      "fonts.googleapis.com": 1794343687072,
+      "fonts.gstatic.com": 1794343687297,
+      "forms.m-pages.com": 1794343699338,
+      "js-agent.newrelic.com": 1794343688165,
+      "js.monitor.azure.com": 1794343699199,
+      "livesearch-autocomplete.magento-ds.com": 1794343685486,
+      "livesearch-metrics.magento-ds.com": 1794343685486,
+      "log.cookieyes.com": 1794343699364,
+      "maxcdn.bootstrapcdn.com": 1794343687469,
+      "media.rolex.com": 1794343699398,
+      "p.typekit.net": 1794343685675,
+      "pagead2.googlesyndication.com": 1794343699267,
+      "recommendations-sdk.adobe.io": 1794343686281,
+      "region1.google-analytics.com": 1794343699265,
+      "retailers.rolex.com": 1794343699338,
+      "script.hotjar.com": 1794343699274,
+      "static.cloudflareinsights.com": 1794343685320,
+      "static.hotjar.com": 1794343699337,
+      "static.rolex.com": 1794343699248,
+      "t.stat-track.com": 1794343699339,
+      "unpkg.com": 1794343686293,
+      "use.typekit.net": 1794343685941,
+      "va.tawk.to": 1794343694462,
+      "vc.hotjar.io": 1794343699547,
+      "vsb80.tawk.to": 1794343695730,
+      "weirandsons.ie": 1794343700224,
+      "ws.hotjar.com": 1794343699547,
+      "www.facebook.com": 1794343699714,
+      "www.google.com": 1794343687186,
+      "www.googletagmanager.com": 1794343686690,
+      "www.gstatic.com": 1794343686693,
+      "www.rolex.com": 1794343699202,
+      "www.weirandsons.ie": 1794343683478
+    }
+  },
+  "hostsConsidered": [
+    "bam.nr-data.net",
+    "cdn-cookieyes.com",
+    "cdn-editor.moosend.com",
+    "cdn.jsdelivr.net",
+    "clock.rolex.com",
+    "commerce.adobe.io",
+    "commerce.adobedc.net",
+    "connect.facebook.net",
+    "content.hotjar.io",
+    "dc.services.visualstudio.com",
+    "directory.cookieyes.com",
+    "embed.tawk.to",
+    "forms.m-pages.com",
+    "js.monitor.azure.com",
+    "log.cookieyes.com",
+    "media.rolex.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "retailers.rolex.com",
+    "script.hotjar.com",
+    "static.hotjar.com",
+    "static.rolex.com",
+    "t.stat-track.com",
+    "va.tawk.to",
+    "vc.hotjar.io",
+    "vsb80.tawk.to",
+    "weirandsons.ie",
+    "ws.hotjar.com",
+    "www.facebook.com",
+    "www.rolex.com"
+  ]
+}

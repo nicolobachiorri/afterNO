@@ -1,0 +1,24 @@
+{
+  "host": "www.ad4m.at",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.ad4m.at/",
+    "lastSeen": {
+      "www.ad4m.at": 1794343288447
+    }
+  },
+  "hostsConsidered": [
+    "www.ad4m.at"
+  ]
+}

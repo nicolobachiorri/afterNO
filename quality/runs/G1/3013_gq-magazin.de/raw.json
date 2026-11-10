@@ -1,0 +1,259 @@
+{
+  "url": "https://www.gq-magazin.de",
+  "final_url": "https://www.gq-magazin.de/",
+  "click_at_s": 11.32,
+  "reload_at_s": 16.32,
+  "reject": "labelled: 'ABLEHNEN' (button, mouse click)",
+  "visible_buttons": [
+    "227",
+    "MEINE EINSTELLUNGEN VERWALTEN",
+    "ABLEHNEN",
+    "AKZEPTIEREN",
+    "MEN\u00dc",
+    "MODE",
+    "BODY & CARE",
+    "MOBILITY",
+    "TECH",
+    "LIFESTYLE",
+    "ENTERTAINMENT",
+    "MEN OF THE YEAR John Travolta: \u201cMir war bewusst, d",
+    "SNEAKER-NEWS Mit Double Laces und in der Trendfarb",
+    "SNEAKER-NEWS Was haben eines der erfolgreichsten V",
+    "SNEAKER-NEWS Diese Gore-Tex Sneaker sind perfekt f"
+  ],
+  "tcf": {
+    "cmpId": 407,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 1,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "8afa3ebf0c3fdca106b106ebeb6fcb66.safeframe.googlesyndication.com",
+    "a.a47b.com",
+    "aam.a47b.com",
+    "ads-static.conde.digital",
+    "bbbd327334b7833f54b056cd603c21cc.safeframe.googlesyndication.com",
+    "bd1cec50-00d1-4ce9-9572-785857419a1e.edge.permutive.app",
+    "dt.adsafeprotected.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fides.condenastdigital.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "jsconfig.adsafeprotected.com",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "static.adsafeprotected.com",
+    "tpc.googlesyndication.com",
+    "www.gstatic.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "a.a47b.com",
+    "aam.a47b.com",
+    "ads-static.conde.digital",
+    "bbbd327334b7833f54b056cd603c21cc.safeframe.googlesyndication.com",
+    "bd1cec50-00d1-4ce9-9572-785857419a1e.edge.permutive.app",
+    "dt.adsafeprotected.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fides.condenastdigital.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "jsconfig.adsafeprotected.com",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "static.adsafeprotected.com",
+    "tpc.googlesyndication.com",
+    "www.gstatic.com"
+  ],
+  "third_party_timeline": {
+    "8afa3ebf0c3fdca106b106ebeb6fcb66.safeframe.googlesyndication.com": {
+      "first_s": 13.91,
+      "last_s": 13.91
+    },
+    "a.a47b.com": {
+      "first_s": 14.5,
+      "last_s": 26.13
+    },
+    "aam.a47b.com": {
+      "first_s": 14.11,
+      "last_s": 17.98
+    },
+    "ads-static.conde.digital": {
+      "first_s": 2.29,
+      "last_s": 16.62
+    },
+    "bbbd327334b7833f54b056cd603c21cc.safeframe.googlesyndication.com": {
+      "first_s": 17.97,
+      "last_s": 17.97
+    },
+    "bd1cec50-00d1-4ce9-9572-785857419a1e.edge.permutive.app": {
+      "first_s": 16.52,
+      "last_s": 16.52
+    },
+    "dcdcsl55x0411.cloudfront.net": {
+      "first_s": 3.37,
+      "last_s": 3.37
+    },
+    "dt.adsafeprotected.com": {
+      "first_s": 14.36,
+      "last_s": 23.05
+    },
+    "ep1.adtrafficquality.google": {
+      "first_s": 12.74,
+      "last_s": 19.97
+    },
+    "ep2.adtrafficquality.google": {
+      "first_s": 13.58,
+      "last_s": 19.44
+    },
+    "fides.condenastdigital.com": {
+      "first_s": 2.88,
+      "last_s": 16.51
+    },
+    "fonts.googleapis.com": {
+      "first_s": 18.94,
+      "last_s": 18.94
+    },
+    "fonts.gstatic.com": {
+      "first_s": 19.12,
+      "last_s": 19.12
+    },
+    "globalservices.conde.digital": {
+      "first_s": 3.3,
+      "last_s": 3.3
+    },
+    "jsconfig.adsafeprotected.com": {
+      "first_s": 14.26,
+      "last_s": 18.1
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 12.76,
+      "last_s": 20.31
+    },
+    "pixel.adsafeprotected.com": {
+      "first_s": 12.47,
+      "last_s": 18.53
+    },
+    "privacy.condenastdigital.com": {
+      "first_s": 2.29,
+      "last_s": 2.29
+    },
+    "rum.condenastdigital.com": {
+      "first_s": 3.38,
+      "last_s": 4.16
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.29,
+      "last_s": 2.78
+    },
+    "static.adsafeprotected.com": {
+      "first_s": 14.36,
+      "last_s": 18.09
+    },
+    "tpc.googlesyndication.com": {
+      "first_s": 13.88,
+      "last_s": 18.96
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.36,
+      "last_s": 3.83
+    },
+    "www.gq.com": {
+      "first_s": 2.9,
+      "last_s": 2.9
+    },
+    "www.gstatic.com": {
+      "first_s": 18.95,
+      "last_s": 18.95
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "8afa3ebf0c3fdca106b106ebeb6fcb66.safeframe.googlesyndication.com",
+    "bbbd327334b7833f54b056cd603c21cc.safeframe.googlesyndication.com",
+    "bd1cec50-00d1-4ce9-9572-785857419a1e.edge.permutive.app",
+    "dcdcsl55x0411.cloudfront.net",
+    "ep2.adtrafficquality.google",
+    "fides.condenastdigital.com",
+    "globalservices.conde.digital",
+    "privacy.condenastdigital.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "TESTCOOKIESENABLED",
+      "domain": "8afa3ebf0c3fdca106b106ebeb6fcb66.safeframe.googlesyndication.com",
+      "path": "/safeframe/1-0-45/html",
+      "expires": 1794343255,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TESTCOOKIESENABLED",
+      "domain": "bbbd327334b7833f54b056cd603c21cc.safeframe.googlesyndication.com",
+      "path": "/safeframe/1-0-45/html",
+      "expires": 1794343258,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CN_geo_country_code",
+      "domain": ".gq-magazin.de",
+      "path": "/",
+      "expires": 1809896084.991432,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CN_journey_bucket",
+      "domain": ".gq-magazin.de",
+      "path": "/",
+      "expires": 1825900783,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "fides_consent",
+      "domain": ".gq-magazin.de",
+      "path": "/",
+      "expires": 1825879192,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CN_visits_m",
+      "domain": "www.gq-magazin.de",
+      "path": "/",
+      "expires": 1796079600,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "CN_in_visit_m",
+      "domain": "www.gq-magazin.de",
+      "path": "/",
+      "expires": 1794344997,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

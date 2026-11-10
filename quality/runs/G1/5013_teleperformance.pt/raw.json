@@ -1,0 +1,204 @@
+{
+  "url": "https://www.teleperformance.pt",
+  "final_url": "https://jobs.teleperformance.pt/",
+  "click_at_s": 12.03,
+  "reload_at_s": 17.04,
+  "reject": "labelled: 'Reject non essential cookies' (button, mouse click)",
+  "visible_buttons": [
+    "Accept",
+    "Reject non essential cookies",
+    "View preferences",
+    "FIND JOB"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "region1.analytics.google.com",
+    "www.facebook.com",
+    "www.google.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "region1.analytics.google.com",
+    "www.facebook.com",
+    "www.google.com"
+  ],
+  "third_party_timeline": {
+    "ad.doubleclick.net": {
+      "first_s": 3.83,
+      "last_s": 3.83
+    },
+    "connect.facebook.net": {
+      "first_s": 3.83,
+      "last_s": 4.09
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.9,
+      "last_s": 3.32
+    },
+    "fonts.gstatic.com": {
+      "first_s": 3.46,
+      "last_s": 3.46
+    },
+    "region1.analytics.google.com": {
+      "first_s": 4.06,
+      "last_s": 23.91
+    },
+    "static.addtoany.com": {
+      "first_s": 2.94,
+      "last_s": 3.76
+    },
+    "stats.g.doubleclick.net": {
+      "first_s": 4.06,
+      "last_s": 4.06
+    },
+    "unpkg.com": {
+      "first_s": 2.94,
+      "last_s": 2.94
+    },
+    "www.facebook.com": {
+      "first_s": 4.41,
+      "last_s": 18.93
+    },
+    "www.google.com": {
+      "first_s": 3.83,
+      "last_s": 18.89
+    },
+    "www.google.it": {
+      "first_s": 4.06,
+      "last_s": 4.06
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.16,
+      "last_s": 3.83
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "connect.facebook.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "static.addtoany.com",
+    "unpkg.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "_gcl_au",
+      "domain": ".teleperformance.pt",
+      "path": "/",
+      "expires": 1802119454,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "wp-wpml_current_language",
+      "domain": "jobs.teleperformance.pt",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".teleperformance.pt",
+      "path": "/",
+      "expires": 1828903468.809785,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".teleperformance.pt",
+      "path": "/",
+      "expires": 1802119468,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_banner-status",
+      "domain": "jobs.teleperformance.pt",
+      "path": "/",
+      "expires": 1825879461,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_policy_id",
+      "domain": "jobs.teleperformance.pt",
+      "path": "/",
+      "expires": 1825879461,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_marketing",
+      "domain": "jobs.teleperformance.pt",
+      "path": "/",
+      "expires": 1825879461,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_statistics",
+      "domain": "jobs.teleperformance.pt",
+      "path": "/",
+      "expires": 1825879461,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_preferences",
+      "domain": "jobs.teleperformance.pt",
+      "path": "/",
+      "expires": 1825879461,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_functional",
+      "domain": "jobs.teleperformance.pt",
+      "path": "/",
+      "expires": 1825879461,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cmplz_consented_services",
+      "domain": "jobs.teleperformance.pt",
+      "path": "/",
+      "expires": 1825879461,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_L99B4DFZ9G",
+      "domain": ".teleperformance.pt",
+      "path": "/",
+      "expires": 1828903468.809691,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

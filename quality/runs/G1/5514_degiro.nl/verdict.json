@@ -1,0 +1,61 @@
+{
+  "host": "www.degiro.nl",
+  "choice": {
+    "at": 1794343524528,
+    "choice": "rejected",
+    "label": "Alleen noodzakelijke cookies",
+    "named": true,
+    "site": "degiro.nl",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Alleen noodzakelijke cookies"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.degiro.nl/",
+    "lastSeen": {
+      "analytics.degiro.nl": 1794343529988,
+      "cdn.jsdelivr.net": 1794343516431,
+      "cfg.moin.ai": 1794343531294,
+      "consent.cookiebot.eu": 1794343529763,
+      "consentcdn.cookiebot.eu": 1794343529988,
+      "images-static.trustpilot.com": 1794343517088,
+      "pagead2.googlesyndication.com": 1794343529995,
+      "region1.google-analytics.com": 1794343529837,
+      "widget.moin.ai": 1794343531081,
+      "widget.trustpilot.com": 1794343515994,
+      "www.degiro.nl": 1794343530007,
+      "www.googletagmanager.com": 1794343524686
+    }
+  },
+  "hostsConsidered": [
+    "analytics.degiro.nl",
+    "cfg.moin.ai",
+    "consent.cookiebot.eu",
+    "consentcdn.cookiebot.eu",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "widget.moin.ai",
+    "www.degiro.nl",
+    "www.googletagmanager.com"
+  ]
+}

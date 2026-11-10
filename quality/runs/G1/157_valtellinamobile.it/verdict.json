@@ -1,0 +1,60 @@
+{
+  "host": "valtellinamobile.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 3,
+      "names": [
+        "Google Analytics"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://valtellinamobile.it/",
+    "lastSeen": {
+      "cdn.pushmaster-cdn.xyz": 1794343166288,
+      "clickiocmp.com": 1794343167775,
+      "fonts.googleapis.com": 1794343168019,
+      "gjigle.com": 1794343168042,
+      "notifpush.com": 1794343167873,
+      "pagead2.googlesyndication.com": 1794343167285,
+      "region1.analytics.google.com": 1794343166604,
+      "region1.google-analytics.com": 1794343166961,
+      "s.clickiocdn.com": 1794343166287,
+      "stats.g.doubleclick.net": 1794343166604,
+      "up.clickiocdn.com": 1794343169855,
+      "valtellinamobile.it": 1794343168651,
+      "www.google.it": 1794343166604,
+      "www.googletagmanager.com": 1794343166602,
+      "www.valtellinamobile.it": 1794343165247
+    }
+  },
+  "hostsConsidered": [
+    "cdn.pushmaster-cdn.xyz",
+    "clickiocmp.com",
+    "fonts.googleapis.com",
+    "gjigle.com",
+    "notifpush.com",
+    "pagead2.googlesyndication.com",
+    "region1.analytics.google.com",
+    "region1.google-analytics.com",
+    "s.clickiocdn.com",
+    "stats.g.doubleclick.net",
+    "up.clickiocdn.com",
+    "valtellinamobile.it",
+    "www.google.it",
+    "www.googletagmanager.com",
+    "www.valtellinamobile.it"
+  ]
+}

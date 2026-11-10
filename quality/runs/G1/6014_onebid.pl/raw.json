@@ -1,0 +1,189 @@
+{
+  "url": "https://www.onebid.pl",
+  "final_url": "https://onebid.pl/pl",
+  "click_at_s": 12.96,
+  "reload_at_s": 17.96,
+  "reject": "labelled: 'ODRZU\u0106' (button, mouse click)",
+  "visible_buttons": [
+    "language Polski",
+    "translate Polski",
+    "local_atm PLN",
+    "Aukcje",
+    "Zako\u0144czone",
+    "Pomoc",
+    "mic",
+    "PIERWSZE KROKI",
+    "4",
+    "arrow_upward",
+    "arrow_downward",
+    "KATALOG",
+    "chat",
+    "Aukcje na OneBid",
+    "Pozw\u00f3l nam pom\u00f3c"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "e.clarity.ms",
+    "img1.one.bid",
+    "k.clarity.ms",
+    "live43.onebid.eu",
+    "live534.onebid.eu",
+    "one.bid",
+    "region1.google-analytics.com",
+    "www.clarity.ms"
+  ],
+  "third_party_hosts_after_reload": [
+    "img1.one.bid",
+    "k.clarity.ms",
+    "live43.onebid.eu",
+    "live534.onebid.eu",
+    "one.bid",
+    "region1.google-analytics.com",
+    "www.clarity.ms"
+  ],
+  "third_party_timeline": {
+    "connect.facebook.net": {
+      "first_s": 4.37,
+      "last_s": 4.37
+    },
+    "e.clarity.ms": {
+      "first_s": 5.08,
+      "last_s": 14.96
+    },
+    "fonts.googleapis.com": {
+      "first_s": 3.37,
+      "last_s": 3.37
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.38,
+      "last_s": 4.38
+    },
+    "img1.one.bid": {
+      "first_s": 3.36,
+      "last_s": 26.25
+    },
+    "k.clarity.ms": {
+      "first_s": 18.63,
+      "last_s": 19.64
+    },
+    "live43.onebid.eu": {
+      "first_s": 4.83,
+      "last_s": 19.19
+    },
+    "live534.onebid.eu": {
+      "first_s": 4.83,
+      "last_s": 19.3
+    },
+    "one.bid": {
+      "first_s": 3.36,
+      "last_s": 18.58
+    },
+    "region1.google-analytics.com": {
+      "first_s": 4.47,
+      "last_s": 18.92
+    },
+    "scripts.clarity.ms": {
+      "first_s": 4.65,
+      "last_s": 4.65
+    },
+    "www.clarity.ms": {
+      "first_s": 4.43,
+      "last_s": 18.35
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.37,
+      "last_s": 4.43
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "connect.facebook.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "img1.one.bid",
+    "one.bid",
+    "scripts.clarity.ms",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": "onebid.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "currency",
+      "domain": ".onebid.pl",
+      "path": "/",
+      "expires": 1828903605.137391,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "translation",
+      "domain": ".onebid.pl",
+      "path": "/",
+      "expires": 1828903604.837218,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "language",
+      "domain": ".onebid.pl",
+      "path": "/",
+      "expires": 1828903604.837249,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cfus",
+      "domain": ".onebid.pl",
+      "path": "/",
+      "expires": 1828903604.837285,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".onebid.pl",
+      "path": "/",
+      "expires": 1802119604.837318,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "auctionsinfo",
+      "domain": ".onebid.pl",
+      "path": "/",
+      "expires": 1828903620.116824,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookiescontest",
+      "domain": ".onebid.pl",
+      "path": "/",
+      "expires": 1795553214,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

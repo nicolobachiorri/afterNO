@@ -1,0 +1,46 @@
+{
+  "host": "www.oferteo.pl",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.oferteo.pl/",
+    "lastSeen": {
+      "bat.bing.com": 1794343635017,
+      "bat.bing.net": 1794343635183,
+      "cdn.tagcommander.com": 1794343633946,
+      "cdn.trustcommander.net": 1794343635034,
+      "pagead2.googlesyndication.com": 1794343634844,
+      "privacy.trustcommander.net": 1794343635079,
+      "region1.google-analytics.com": 1794343635366,
+      "securepubads.g.doubleclick.net": 1794343634250,
+      "static.cloudflareinsights.com": 1794343634007,
+      "static.oferteo.pl": 1794343635133,
+      "www.googletagmanager.com": 1794343635130,
+      "www.oferteo.pl": 1794343635133
+    }
+  },
+  "hostsConsidered": [
+    "bat.bing.com",
+    "bat.bing.net",
+    "cdn.tagcommander.com",
+    "cdn.trustcommander.net",
+    "pagead2.googlesyndication.com",
+    "privacy.trustcommander.net",
+    "region1.google-analytics.com",
+    "securepubads.g.doubleclick.net",
+    "static.cloudflareinsights.com",
+    "static.oferteo.pl",
+    "www.googletagmanager.com",
+    "www.oferteo.pl"
+  ]
+}

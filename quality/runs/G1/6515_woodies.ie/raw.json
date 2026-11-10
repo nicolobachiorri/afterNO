@@ -1,0 +1,473 @@
+{
+  "url": "https://www.woodies.ie",
+  "final_url": "https://www.woodies.ie/",
+  "click_at_s": 11.28,
+  "reload_at_s": 16.28,
+  "reject": "labelled: 'Save selection' (button, mouse click)",
+  "visible_buttons": [
+    "Log In",
+    "0 Cart",
+    "Shop Offers Now",
+    "Add to Cart",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "Accept all cookies",
+    "Save selection",
+    "Manage cookies",
+    "Join Now",
+    "Ask me anything\u2026"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "8026331.fs1.hubspotusercontent-na1.net",
+    "ade.googlesyndication.com",
+    "api.cookiefirst.com",
+    "api.hubapi.com",
+    "api.hubspot.com",
+    "app.hubspot.com",
+    "bat.bing.net",
+    "bzr.openai.com",
+    "cdn-widgetsrepository.yotpo.com",
+    "connect.nosto.com",
+    "consent.cookiefirst.com",
+    "cta-service-cms2.hubspot.com",
+    "eu.klarnaevt.com",
+    "exceptions.hubspot.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "forms-na1.hsforms.com",
+    "js.hubspot.com",
+    "metrics-fe-na1.hubspot.com",
+    "perf-na1.hsforms.com",
+    "static.hsappstatic.net",
+    "static.hubspot.com",
+    "track.hubspot.com",
+    "woodies-8026331.hs-sites.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "8026331.fs1.hubspotusercontent-na1.net",
+    "ade.googlesyndication.com",
+    "api.hubapi.com",
+    "api.hubspot.com",
+    "app.hubspot.com",
+    "bat.bing.net",
+    "bzr.openai.com",
+    "cdn-widgetsrepository.yotpo.com",
+    "connect.nosto.com",
+    "consent.cookiefirst.com",
+    "cta-service-cms2.hubspot.com",
+    "eu.klarnaevt.com",
+    "exceptions.hubspot.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "forms-na1.hsforms.com",
+    "js.hubspot.com",
+    "metrics-fe-na1.hubspot.com",
+    "perf-na1.hsforms.com",
+    "static.hsappstatic.net",
+    "static.hubspot.com",
+    "track.hubspot.com",
+    "woodies-8026331.hs-sites.com"
+  ],
+  "third_party_timeline": {
+    "8026331.fs1.hubspotusercontent-na1.net": {
+      "first_s": 4.68,
+      "last_s": 17.25
+    },
+    "ade.googlesyndication.com": {
+      "first_s": 5.47,
+      "last_s": 16.6
+    },
+    "api.cookiefirst.com": {
+      "first_s": 11.3,
+      "last_s": 11.3
+    },
+    "api.hubapi.com": {
+      "first_s": 3.86,
+      "last_s": 16.56
+    },
+    "api.hubspot.com": {
+      "first_s": 3.85,
+      "last_s": 16.56
+    },
+    "app.hubspot.com": {
+      "first_s": 4.38,
+      "last_s": 17.35
+    },
+    "bat.bing.com": {
+      "first_s": 3.06,
+      "last_s": 3.39
+    },
+    "bat.bing.net": {
+      "first_s": 3.49,
+      "last_s": 16.64
+    },
+    "bzr.openai.com": {
+      "first_s": 4.46,
+      "last_s": 17.73
+    },
+    "bzrcdn.openai.com": {
+      "first_s": 2.95,
+      "last_s": 3.2
+    },
+    "cdn-widgetsrepository.yotpo.com": {
+      "first_s": 2.59,
+      "last_s": 16.45
+    },
+    "connect.nosto.com": {
+      "first_s": 2.59,
+      "last_s": 17.2
+    },
+    "consent.cookiefirst.com": {
+      "first_s": 2.59,
+      "last_s": 17.18
+    },
+    "cta-service-cms2.hubspot.com": {
+      "first_s": 3.53,
+      "last_s": 26.3
+    },
+    "edge.cookiefirst.com": {
+      "first_s": 3.37,
+      "last_s": 4.35
+    },
+    "eu.klarnaevt.com": {
+      "first_s": 4.6,
+      "last_s": 17.49
+    },
+    "exceptions.hubspot.com": {
+      "first_s": 5.5,
+      "last_s": 17.35
+    },
+    "fonts.googleapis.com": {
+      "first_s": 4.68,
+      "last_s": 17.25
+    },
+    "fonts.gstatic.com": {
+      "first_s": 4.89,
+      "last_s": 17.35
+    },
+    "forms-na1.hsforms.com": {
+      "first_s": 4.68,
+      "last_s": 17.25
+    },
+    "js.hs-analytics.net": {
+      "first_s": 3.23,
+      "last_s": 3.23
+    },
+    "js.hs-banner.com": {
+      "first_s": 3.23,
+      "last_s": 3.23
+    },
+    "js.hs-scripts.com": {
+      "first_s": 2.95,
+      "last_s": 2.95
+    },
+    "js.hsadspixel.net": {
+      "first_s": 3.23,
+      "last_s": 3.23
+    },
+    "js.hubspot.com": {
+      "first_s": 3.24,
+      "last_s": 16.93
+    },
+    "js.usemessages.com": {
+      "first_s": 3.24,
+      "last_s": 3.24
+    },
+    "metrics-fe-na1.hubspot.com": {
+      "first_s": 9.38,
+      "last_s": 22.03
+    },
+    "na-library.klarnaservices.com": {
+      "first_s": 4.27,
+      "last_s": 4.45
+    },
+    "osm.klarnaservices.com": {
+      "first_s": 3.98,
+      "last_s": 3.98
+    },
+    "perf-na1.hsforms.com": {
+      "first_s": 3.77,
+      "last_s": 17.24
+    },
+    "script.hotjar.com": {
+      "first_s": 3.1,
+      "last_s": 3.1
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.66,
+      "last_s": 2.66
+    },
+    "static.hotjar.com": {
+      "first_s": 2.95,
+      "last_s": 2.95
+    },
+    "static.hsappstatic.net": {
+      "first_s": 4.86,
+      "last_s": 17.34
+    },
+    "static.hubspot.com": {
+      "first_s": 12.24,
+      "last_s": 26.5
+    },
+    "track.hubspot.com": {
+      "first_s": 5.72,
+      "last_s": 26.59
+    },
+    "woodies-8026331.hs-sites.com": {
+      "first_s": 3.77,
+      "last_s": 17.02
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.95,
+      "last_s": 2.95
+    },
+    "x.klarnacdn.net": {
+      "first_s": 4.6,
+      "last_s": 4.6
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "bat.bing.com",
+    "bzrcdn.openai.com",
+    "cdn-widgetsrepository.yotpo.com",
+    "connect.nosto.com",
+    "consent.cookiefirst.com",
+    "edge.cookiefirst.com",
+    "js.hs-analytics.net",
+    "js.hs-banner.com",
+    "js.hs-scripts.com",
+    "js.hsadspixel.net",
+    "js.hubspot.com",
+    "js.usemessages.com",
+    "na-library.klarnaservices.com",
+    "osm.klarnaservices.com",
+    "script.hotjar.com",
+    "static.cloudflareinsights.com",
+    "static.hotjar.com",
+    "static.hsappstatic.net",
+    "www.googletagmanager.com",
+    "x.klarnacdn.net"
+  ],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": 1794345513.189019,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hs-scripts.com",
+      "path": "/",
+      "expires": 1794345513.239411,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_hjSession_3589114",
+      "domain": ".woodies.ie",
+      "path": "/",
+      "expires": 1794345513,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hs-analytics.net",
+      "path": "/",
+      "expires": 1794345513.518054,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hsadspixel.net",
+      "path": "/",
+      "expires": 1794345513.718022,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hs-banner.com",
+      "path": "/",
+      "expires": 1794345513.720955,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".usemessages.com",
+      "path": "/",
+      "expires": 1794345513.84507,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hs-sites.com",
+      "path": "/",
+      "expires": 1794345514.000324,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hsforms.com",
+      "path": "/",
+      "expires": 1794345514.088908,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hubspot.com",
+      "path": "/",
+      "expires": 1794345514.73309,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".bzr.openai.com",
+      "path": "/",
+      "expires": 1794345514.910671,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_cfuvid",
+      "domain": ".bzr.openai.com",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hsappstatic.net",
+      "path": "/",
+      "expires": 1794345515.110581,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".hubspotusercontent-na1.net",
+      "path": "/",
+      "expires": 1794345515.169294,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://woodies.ie",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "cookiefirst-consent",
+      "domain": "www.woodies.ie",
+      "path": "/",
+      "expires": 1825447721,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_hjSessionUser_3589114",
+      "domain": ".woodies.ie",
+      "path": "/",
+      "expires": 1825879726,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "2c.cId",
+      "domain": ".woodies.ie",
+      "path": "/",
+      "expires": 1828903727.36589,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "url": "https://www.tsunaminutrition.it",
+  "final_url": "https://www.tsunaminutrition.it/",
+  "click_at_s": 14.47,
+  "reload_at_s": null,
+  "reject": "labelled: second_layer",
+  "visible_buttons": [
+    "0",
+    "Leggi tutto",
+    "Iscriviti",
+    "\ud83d\udcac Chatta con Bum \u2192"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "api.amplitude.com",
+    "b2c-cdn.scalapay.com",
+    "cdn.scalapay.com"
+  ],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "api.amplitude.com": {
+      "first_s": 19.43,
+      "last_s": 19.43
+    },
+    "b2c-cdn.scalapay.com": {
+      "first_s": 19.15,
+      "last_s": 19.37
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 2.59,
+      "last_s": 2.59
+    },
+    "cdn.scalapay.com": {
+      "first_s": 6.33,
+      "last_s": 19.1
+    },
+    "connect.facebook.net": {
+      "first_s": 3.79,
+      "last_s": 4.1
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.59,
+      "last_s": 2.97
+    },
+    "media.tsunaminutrition.com": {
+      "first_s": 3.11,
+      "last_s": 3.11
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 4.64,
+      "last_s": 4.64
+    },
+    "tsunami-it.instant.opent.it": {
+      "first_s": 6.31,
+      "last_s": 6.75
+    },
+    "www.facebook.com": {
+      "first_s": 4.2,
+      "last_s": 4.2
+    },
+    "www.googletagmanager.com": {
+      "first_s": 3.79,
+      "last_s": 3.79
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "cookiesplus",
+      "domain": "www.tsunaminutrition.it",
+      "path": "/",
+      "expires": 1825878796.667253,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "jpresta_accept_webp",
+      "domain": "www.tsunaminutrition.it",
+      "path": "/",
+      "expires": 1825878796.091752,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "jpresta_cache_context",
+      "domain": "www.tsunaminutrition.it",
+      "path": "/",
+      "expires": 1794346396.667287,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "PrestaShop-ec1eeed4459918331959be8dc60af722",
+      "domain": ".www.tsunaminutrition.it",
+      "path": "/",
+      "expires": 1796070796.667303,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_fbp",
+      "domain": ".tsunaminutrition.it",
+      "path": "/",
+      "expires": 1802118797,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "chat_session_id",
+      "domain": "www.tsunaminutrition.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cp-popup-last-displayed",
+      "domain": "www.tsunaminutrition.it",
+      "path": "/",
+      "expires": 1828902804.241436,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cp-popup-1",
+      "domain": "www.tsunaminutrition.it",
+      "path": "/",
+      "expires": 1794602004,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "amp_ef712f",
+      "domain": ".tsunaminutrition.it",
+      "path": "/",
+      "expires": 1825878812,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

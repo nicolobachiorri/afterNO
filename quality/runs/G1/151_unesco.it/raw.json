@@ -1,0 +1,113 @@
+{
+  "url": "https://www.unesco.it",
+  "final_url": "https://www.unesco.it/it/",
+  "click_at_s": 11.63,
+  "reload_at_s": 16.63,
+  "reject": "labelled: 'Rifiuta' (button, mouse click)",
+  "visible_buttons": [
+    "Invia voto",
+    "cookie policy",
+    "Scopri di pi\u00f9 e personalizza",
+    "Rifiuta",
+    "Accetta"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "cpl.iubenda.com",
+    "idb.iubenda.com",
+    "ingestion.webanalytics.italia.it"
+  ],
+  "third_party_hosts_after_reload": [
+    "idb.iubenda.com",
+    "ingestion.webanalytics.italia.it"
+  ],
+  "third_party_timeline": {
+    "cdn.iubenda.com": {
+      "first_s": 2.92,
+      "last_s": 3.39
+    },
+    "cpl.iubenda.com": {
+      "first_s": 11.63,
+      "last_s": 12.49
+    },
+    "cs.iubenda.com": {
+      "first_s": 2.92,
+      "last_s": 3.64
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.81,
+      "last_s": 17.01
+    },
+    "ingestion.webanalytics.italia.it": {
+      "first_s": 3.18,
+      "last_s": 16.91
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "ingestion.webanalytics.italia.it"
+  ],
+  "cookies": [
+    {
+      "name": "wp-wpml_current_language",
+      "domain": "www.unesco.it",
+      "path": "/",
+      "expires": 1794429415.515173,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_wpfuuid",
+      "domain": "www.unesco.it",
+      "path": "/",
+      "expires": 1828903002.176033,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_id.40903.f492",
+      "domain": "www.unesco.it",
+      "path": "/",
+      "expires": 1828298202,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_pk_ses.40903.f492",
+      "domain": "www.unesco.it",
+      "path": "/",
+      "expires": 1794344815,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-44919898",
+      "domain": ".unesco.it",
+      "path": "/",
+      "expires": 1825879010,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".unesco.it",
+      "path": "/",
+      "expires": 1825879015,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

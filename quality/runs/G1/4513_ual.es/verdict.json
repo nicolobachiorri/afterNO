@@ -1,0 +1,60 @@
+{
+  "host": "www.ual.es",
+  "choice": null,
+  "items": [
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyPartitioned",
+      "count": 1,
+      "names": [
+        "Youtube (youtube.com)"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    },
+    {
+      "mark": "info",
+      "key": "itemSiteAnalytics",
+      "count": 1,
+      "names": [
+        "Siteimprove"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.ual.es/",
+    "lastSeen": {
+      "6108104.global.siteimproveanalytics.io": 1794343412771,
+      "agenda.ual.es": 1794343411630,
+      "fonts.gstatic.com": 1794343411986,
+      "googleads.g.doubleclick.net": 1794343412472,
+      "i.ytimg.com": 1794343412549,
+      "jnn-pa.googleapis.com": 1794343412514,
+      "m.youtube.com": 1794343412764,
+      "news.ual.es": 1794343411629,
+      "siteimproveanalytics.com": 1794343411632,
+      "static.doubleclick.net": 1794343412202,
+      "www.google.com": 1794343412251,
+      "www.ual.es": 1794343424537,
+      "www.youtube.com": 1794343414878
+    }
+  },
+  "hostsConsidered": [
+    "6108104.global.siteimproveanalytics.io",
+    "agenda.ual.es",
+    "fonts.gstatic.com",
+    "googleads.g.doubleclick.net",
+    "i.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "m.youtube.com",
+    "news.ual.es",
+    "siteimproveanalytics.com",
+    "static.doubleclick.net",
+    "www.google.com",
+    "www.ual.es",
+    "www.youtube.com"
+  ]
+}

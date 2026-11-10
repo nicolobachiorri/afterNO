@@ -2,7 +2,7 @@
 // Run from the extension folder with:  node --test lib/
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { classify, countByCategory, isGenericName, type CookieDb } from './classify.ts';
+import { classify, isGenericName, type CookieDb } from './classify.ts';
 
 const db: CookieDb = {
   exact: {
@@ -37,14 +37,6 @@ test('an unknown cookie is reported as Unknown, not dropped', () => {
 
 test('a category the code does not know becomes Unknown', () => {
   assert.equal(classify('weird', db).category, 'Unknown');
-});
-
-test('counts include every category, also the empty ones', () => {
-  const counts = countByCategory(['Analytics', 'Marketing', 'Marketing']);
-  assert.equal(counts.Marketing, 2);
-  assert.equal(counts.Analytics, 1);
-  assert.equal(counts.Functional, 0);
-  assert.equal(Object.keys(counts).length, 8);
 });
 
 test('owner domains are passed on when the database has them, absent otherwise', () => {

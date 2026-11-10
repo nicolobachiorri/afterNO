@@ -1,0 +1,50 @@
+{
+  "url": "https://www.staples.pt",
+  "final_url": "https://www.staples.pt/",
+  "click_at_s": 10.87,
+  "reload_at_s": null,
+  "reject": "labelled: blocked",
+  "visible_buttons": [
+    "VALIDAR"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "fonts.gstatic.com": {
+      "first_s": 3.11,
+      "last_s": 3.68
+    },
+    "www.google.com": {
+      "first_s": 2.29,
+      "last_s": 5.9
+    },
+    "www.gstatic.com": {
+      "first_s": 2.29,
+      "last_s": 3.9
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1809895483.491447,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "OTZ",
+      "domain": "www.staples.pt",
+      "path": "/",
+      "expires": 1796935483,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

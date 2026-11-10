@@ -1,0 +1,68 @@
+{
+  "host": "www.gifi.fr",
+  "choice": {
+    "at": 1794343370515,
+    "choice": "rejected",
+    "label": "Continuer sans accepter →",
+    "named": true,
+    "site": "gifi.fr",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Continuer sans accepter →"
+      ]
+    },
+    {
+      "mark": "bad",
+      "key": "itemThirdPartyStill",
+      "count": 1,
+      "names": [
+        "cquotient.com"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictPartly",
+    "tone": "alert"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.gifi.fr/",
+    "lastSeen": {
+      "api.privacy-center.org": 1794343370526,
+      "cdn.cquotient.com": 1794343362267,
+      "cdn.facil-iti.app": 1794343362325,
+      "fonts.googleapis.com": 1794343361764,
+      "i.clarity.ms": 1794343390451,
+      "p.cquotient.com": 1794343376799,
+      "q.clarity.ms": 1794343375699,
+      "region1.google-analytics.com": 1794343387137,
+      "scripts.clarity.ms": 1794343362576,
+      "sdk.privacy-center.org": 1794343362387,
+      "sdk.skeepers.io": 1794343362327,
+      "swa.datap.skeepers.io": 1794343375820,
+      "www.clarity.ms": 1794343375794,
+      "www.facil-iti.fr": 1794343362327,
+      "www.gifi.fr": 1794343376612,
+      "www.googletagmanager.com": 1794343362351
+    }
+  },
+  "hostsConsidered": [
+    "api.privacy-center.org",
+    "i.clarity.ms",
+    "p.cquotient.com",
+    "q.clarity.ms",
+    "region1.google-analytics.com",
+    "swa.datap.skeepers.io",
+    "www.clarity.ms",
+    "www.gifi.fr"
+  ]
+}

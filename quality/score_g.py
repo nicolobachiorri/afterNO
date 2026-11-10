@@ -12,11 +12,14 @@ numbers published since 10 November 2026:
 Usage (from the quality folder):
     python3 score_g.py --visit G1
 Reads sites_G.csv, runs/G0/labels_G.csv, runs/<visit>/results.csv and, when present,
-runs/<visit>/judgments_<visit>_claude.csv and judgments_<visit>_blind.csv.
+runs/<visit>/judgments_<visit>_claude.csv (main judge), _gemini.csv (second judge, sees
+everything) and _blind.csv (blind judge). Prints the table and saves it as
+runs/<visit>/score.md.
 """
 
 import argparse
 import csv
+import sys
 from math import sqrt
 from pathlib import Path
 
@@ -56,6 +59,7 @@ def main():
     labels = read(HERE / "runs" / "G0" / "labels_G.csv")
     results = read(run / "results.csv")
     judged = read(run / f"judgments_{args.visit}_claude.csv")
+    second = read(run / f"judgments_{args.visit}_gemini.csv")  # second judge, sees everything
     blind = read(run / f"judgments_{args.visit}_blind.csv")
 
     free = [o for o in sample if labels.get(o, {}).get("answer") == "control"]
@@ -65,15 +69,20 @@ def main():
     saves = [o for o in sample if labels.get(o, {}).get("answer") == "save_defaults"]
     saves_rec = [o for o in saves if results.get(o, {}).get("reject_clicked") == "True"
                  and results[o].get("choice_recorded") == "rejected"]
-    clicked = [o for o in free if results.get(o, {}).get("reject_clicked") == "True"]
-    not_clicked = [o for o in free if o not in clicked]
+    # A click the robot could not make, or a page that blocked the robot after it, says
+    # nothing about the extension: left out, and listed (main judge, "no_click", "no_blocked").
+    robot_limit = [o for o in free if judged.get(o, {}).get("measurable") in ("no_click", "no_blocked")]
+    clicked = [o for o in free if results.get(o, {}).get("reject_clicked") == "True" and o not in robot_limit]
+    not_clicked = [o for o in free if o not in clicked]  # robot limits included
     recorded = [o for o in clicked if results[o].get("choice_recorded") == "rejected"]
     as_accept = [o for o in clicked if results[o].get("choice_recorded") == "accepted"]
     missing = [o for o in clicked if not results[o].get("choice_recorded")]
     spurious = [o for o in sample if o not in free and labels.get(o, {}).get("answer") != "save_defaults"
                 and results.get(o, {}).get("choice_recorded") == "rejected"]
     right = [o for o in recorded if judged.get(o, {}).get("conclusion") == "correct"]
-    tone_to_blind = {"ok": "respected", "alert": "partly"}
+    second_pairs = [o for o in recorded if second.get(o, {}).get("conclusion")]
+    second_agree = [o for o in second_pairs if second[o]["conclusion"] == judged.get(o, {}).get("conclusion")]
+    tone_to_blind = {"ok": "respected", "warn": "partly", "alert": "partly"}
     blind_pairs = [o for o in recorded if blind.get(o, {}).get("conclusion") in ("respected", "partly")]
     blind_agree = [o for o in blind_pairs if tone_to_blind.get(results[o].get("tone")) == blind[o]["conclusion"]]
 
@@ -84,7 +93,7 @@ def main():
 
     print(f"Visit {args.visit}, sample G: {len(sample)} sites")
     print("Labels:", ", ".join(f"{k} {v}" for k, v in sorted(answers.items())))
-    print(f"Free reject marked: {len(free)}; clicked by the robot: {len(clicked)}"
+    print(f"Free reject marked: {len(free)}; clicked and checkable: {len(clicked)}"
           + (f"; not clicked: {', '.join(not_clicked)}" if not_clicked else ""))
     print()
     print("| | sample G |")
@@ -94,12 +103,25 @@ def main():
     print(f"| Rejection recorded where there was none | {len(spurious)} |")
     print(f"| \"Save\" with only necessary on, recorded as rejection | {len(saves_rec)} of {len(saves)} |")
     print(f"| Right verdict, when recorded (main judge) | {share(len(right), len(recorded)) if judged else 'not judged yet'} |")
+    print(f"| Second judge agrees with the main judge | {share(len(second_agree), len(second_pairs)) if second else 'not judged yet'} |")
     print(f"| Blind judge agrees with the conclusion | {share(len(blind_agree), len(blind_pairs)) if blind else 'not judged yet'} |")
+    blind_unsure = [o for o in recorded if blind.get(o, {}).get("conclusion") == "unsure"]
+    if blind_unsure:
+        print(f"| Blind judge unsure (left out above) | {len(blind_unsure)} |")
     for name, rows in (("Not recorded", missing), ("Recorded as acceptance", as_accept), ("Spurious", spurious),
+                       ("Second judge disagreement", [o for o in second_pairs if o not in second_agree]),
                        ("Blind disagreement", [o for o in blind_pairs if o not in blind_agree])):
         if rows:
             print(f"\n{name}: " + ", ".join(f"{o} {results[o]['url']}" for o in rows))
 
 
 if __name__ == "__main__":
-    main()
+    import contextlib
+    import io
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        main()
+    text = buf.getvalue()
+    print(text, end="")
+    visit = sys.argv[sys.argv.index("--visit") + 1] if "--visit" in sys.argv else "G1"
+    (HERE / "runs" / visit / "score.md").write_text(text, encoding="utf-8")

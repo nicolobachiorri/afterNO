@@ -1,0 +1,52 @@
+{
+  "host": "www.tsunaminutrition.it",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "bad",
+      "key": "itemSiteMarketing",
+      "count": 1,
+      "names": [
+        "Facebook"
+      ]
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.tsunaminutrition.it/",
+    "lastSeen": {
+      "api.amplitude.com": 1794342812947,
+      "b2c-cdn.scalapay.com": 1794342812888,
+      "cdn.jsdelivr.net": 1794342796104,
+      "cdn.scalapay.com": 1794342812619,
+      "connect.facebook.net": 1794342797613,
+      "fonts.googleapis.com": 1794342796485,
+      "media.tsunaminutrition.com": 1794342796627,
+      "pagead2.googlesyndication.com": 1794342798159,
+      "tracking.tsunaminutrition.it": 1794342798166,
+      "tsunami-it.instant.opent.it": 1794342800271,
+      "www.facebook.com": 1794342797715,
+      "www.googletagmanager.com": 1794342797304,
+      "www.tsunaminutrition.it": 1794342808908
+    }
+  },
+  "hostsConsidered": [
+    "api.amplitude.com",
+    "b2c-cdn.scalapay.com",
+    "cdn.jsdelivr.net",
+    "cdn.scalapay.com",
+    "connect.facebook.net",
+    "fonts.googleapis.com",
+    "media.tsunaminutrition.com",
+    "pagead2.googlesyndication.com",
+    "tracking.tsunaminutrition.it",
+    "tsunami-it.instant.opent.it",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "www.tsunaminutrition.it"
+  ]
+}

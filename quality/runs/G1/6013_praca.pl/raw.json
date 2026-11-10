@@ -1,0 +1,112 @@
+{
+  "url": "https://www.praca.pl",
+  "final_url": "https://www.praca.pl/",
+  "click_at_s": 11.5,
+  "reload_at_s": 16.5,
+  "reject": "labelled: 'AKCEPTUJ WYBRANE' (button, mouse click)",
+  "visible_buttons": [
+    "Komisjoner (K/M) Operis HR sp. z o.o. \u00b7 12 000\u201315 ",
+    "Kierowca (kat. C) Transgourmet Polska",
+    "Znajd\u017a inaczej BETA",
+    "Warunki korzystania z AI",
+    "Dowolny",
+    "Szukaj",
+    "Oferty tygodnia",
+    "Zdalna",
+    "Z wynagrodzeniem",
+    "Dorywcza",
+    "Sprawdzone firmy",
+    "Obserwuj ofert\u0119 Komisjoner (K/M)",
+    "Poka\u017c opis",
+    "Obserwuj ofert\u0119 Kierowca ds. Zimowego Utrzymania D",
+    "Obserwuj ofert\u0119 Specjalista / Specjalistka ds. Wsp"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com"
+  ],
+  "third_party_timeline": {
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.39,
+      "last_s": 17.24
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.42,
+      "last_s": 22.26
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.91,
+      "last_s": 2.91
+    },
+    "www.google-analytics.com": {
+      "first_s": 3.22,
+      "last_s": 3.22
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.81,
+      "last_s": 3.22
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "static.cloudflareinsights.com",
+    "www.google-analytics.com",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "globalrf",
+      "domain": "www.praca.pl",
+      "path": "/",
+      "expires": 1828903576.598232,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "originalrf",
+      "domain": "www.praca.pl",
+      "path": "/",
+      "expires": 1828903576.598395,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pracapl[euuid]",
+      "domain": ".www.praca.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pracapl[peuuid]",
+      "domain": ".www.praca.pl",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "pp_surface",
+      "domain": "www.praca.pl",
+      "path": "/",
+      "expires": 1794429991.095458,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

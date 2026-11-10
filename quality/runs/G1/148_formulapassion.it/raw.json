@@ -1,0 +1,688 @@
+{
+  "url": "https://www.formulapassion.it",
+  "final_url": "https://www.formulapassion.it/",
+  "click_at_s": 10.94,
+  "reload_at_s": 15.94,
+  "reject": "labelled: 'Continua senza accettare' (button, mouse click)",
+  "visible_buttons": [
+    "Altro",
+    "Continua senza accettare",
+    "cookie policy",
+    "terze parti",
+    "finalit\u00e0 pubblicitarie",
+    "Scegli e personalizza",
+    "Accetta"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "eventStatus": "tcloaded",
+    "gdprApplies": true,
+    "purposesListed": 0,
+    "purposeConsents": 0,
+    "purposeLegitimateInterests": 0,
+    "vendorConsents": 0
+  },
+  "third_party_hosts_after_click": [
+    "adx.adform.net",
+    "c.blendee.com",
+    "cdn.target-video.com",
+    "cdns.eu1.gigya.com",
+    "cpl.iubenda.com",
+    "cyeagnayrz04mbnz1pdslns3gzsjg1794342959.nuid.imrworldwide.com",
+    "did.blendee.com",
+    "eulogin.gedi.it",
+    "eus.rubiconproject.com",
+    "fundingchoicesmessages.google.com",
+    "gum.criteo.com",
+    "ib.adnxs.com",
+    "id5-sync.com",
+    "idb.iubenda.com",
+    "lb.eu-1-id5-sync.com",
+    "lbs.eu-1-id5-sync.com",
+    "match.adsrvr.org",
+    "oasjs.kataweb.it",
+    "onetag-sys.com",
+    "pb-stats.brid.tv",
+    "prebid-server.rubiconproject.com",
+    "pubads.g.doubleclick.net",
+    "px.ads.linkedin.com",
+    "region1.google-analytics.com",
+    "scripts.kataweb.it",
+    "secure-it.imrworldwide.com",
+    "ssp-sync.criteo.com",
+    "stats-dev.brid.tv",
+    "tlh.gedidigital.it",
+    "token.rubiconproject.com",
+    "tra.neodatagroup.com",
+    "vm.target-video.com",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "x.bidswitch.net"
+  ],
+  "third_party_hosts_after_reload": [
+    "adx.adform.net",
+    "cdn.target-video.com",
+    "cdns.eu1.gigya.com",
+    "cyeagnayrz04mbnz1pdslns3gzsjg1794342959.nuid.imrworldwide.com",
+    "eulogin.gedi.it",
+    "eus.rubiconproject.com",
+    "fundingchoicesmessages.google.com",
+    "gum.criteo.com",
+    "ib.adnxs.com",
+    "id5-sync.com",
+    "idb.iubenda.com",
+    "lb.eu-1-id5-sync.com",
+    "lbs.eu-1-id5-sync.com",
+    "match.adsrvr.org",
+    "oasjs.kataweb.it",
+    "onetag-sys.com",
+    "pb-stats.brid.tv",
+    "prebid-server.rubiconproject.com",
+    "pubads.g.doubleclick.net",
+    "px.ads.linkedin.com",
+    "region1.google-analytics.com",
+    "scripts.kataweb.it",
+    "secure-it.imrworldwide.com",
+    "ssp-sync.criteo.com",
+    "stats-dev.brid.tv",
+    "tlh.gedidigital.it",
+    "token.rubiconproject.com",
+    "tra.neodatagroup.com",
+    "vm.target-video.com",
+    "web-video.ads.aps.amazon-adsystem.com",
+    "x.bidswitch.net"
+  ],
+  "third_party_timeline": {
+    "acdn.adnxs.com": {
+      "first_s": 10.11,
+      "last_s": 10.11
+    },
+    "adx.adform.net": {
+      "first_s": 3.65,
+      "last_s": 16.45
+    },
+    "bppb.link": {
+      "first_s": 3.27,
+      "last_s": 3.27
+    },
+    "c.amazon-adsystem.com": {
+      "first_s": 3.28,
+      "last_s": 3.61
+    },
+    "c.blendee.com": {
+      "first_s": 10.99,
+      "last_s": 12.19
+    },
+    "cdn-gl.imrworldwide.com": {
+      "first_s": 4.01,
+      "last_s": 4.34
+    },
+    "cdn.drivek.com": {
+      "first_s": 2.35,
+      "last_s": 2.36
+    },
+    "cdn.id5-sync.com": {
+      "first_s": 3.84,
+      "last_s": 3.84
+    },
+    "cdn.iubenda.com": {
+      "first_s": 2.85,
+      "last_s": 3.7
+    },
+    "cdn.target-video.com": {
+      "first_s": 3.08,
+      "last_s": 16.26
+    },
+    "cdn.yobee.it": {
+      "first_s": 2.31,
+      "last_s": 2.31
+    },
+    "cdns.eu1.gigya.com": {
+      "first_s": 2.87,
+      "last_s": 16.2
+    },
+    "config.aps.amazon-adsystem.com": {
+      "first_s": 3.61,
+      "last_s": 3.61
+    },
+    "cpl.iubenda.com": {
+      "first_s": 10.99,
+      "last_s": 10.99
+    },
+    "cs.iubenda.com": {
+      "first_s": 3.36,
+      "last_s": 3.36
+    },
+    "cyeagnayrz04mbnz1pdslns3gzsjg1794342959.nuid.imrworldwide.com": {
+      "first_s": 16.37,
+      "last_s": 16.37
+    },
+    "did.blendee.com": {
+      "first_s": 11.42,
+      "last_s": 12.0
+    },
+    "dis.criteo.com": {
+      "first_s": 7.34,
+      "last_s": 7.34
+    },
+    "eulogin.gedi.it": {
+      "first_s": 3.42,
+      "last_s": 16.69
+    },
+    "eus.rubiconproject.com": {
+      "first_s": 10.11,
+      "last_s": 17.84
+    },
+    "fonts.googleapis.com": {
+      "first_s": 2.41,
+      "last_s": 2.41
+    },
+    "fonts.gstatic.com": {
+      "first_s": 2.72,
+      "last_s": 3.27
+    },
+    "fundingchoicesmessages.google.com": {
+      "first_s": 3.33,
+      "last_s": 16.86
+    },
+    "gum.criteo.com": {
+      "first_s": 8.67,
+      "last_s": 16.24
+    },
+    "ib.adnxs.com": {
+      "first_s": 3.65,
+      "last_s": 16.45
+    },
+    "id5-sync.com": {
+      "first_s": 8.67,
+      "last_s": 17.04
+    },
+    "idb.iubenda.com": {
+      "first_s": 3.79,
+      "last_s": 16.45
+    },
+    "imasdk.googleapis.com": {
+      "first_s": 2.96,
+      "last_s": 3.28
+    },
+    "lb.eu-1-id5-sync.com": {
+      "first_s": 8.88,
+      "last_s": 16.81
+    },
+    "lbs.eu-1-id5-sync.com": {
+      "first_s": 16.81,
+      "last_s": 16.81
+    },
+    "match.adsrvr.org": {
+      "first_s": 8.67,
+      "last_s": 16.24
+    },
+    "mug.criteo.com": {
+      "first_s": 9.13,
+      "last_s": 9.13
+    },
+    "oasjs.kataweb.it": {
+      "first_s": 12.76,
+      "last_s": 16.89
+    },
+    "oflw9iuligsvxp1lgmqubycp1kg8p1794342947.nuid.imrworldwide.com": {
+      "first_s": 4.5,
+      "last_s": 4.5
+    },
+    "onetag-sys.com": {
+      "first_s": 3.65,
+      "last_s": 19.51
+    },
+    "p.brid.tv": {
+      "first_s": 3.08,
+      "last_s": 3.27
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 3.29,
+      "last_s": 3.37
+    },
+    "pb-stats.brid.tv": {
+      "first_s": 3.65,
+      "last_s": 16.45
+    },
+    "prebid-server.rubiconproject.com": {
+      "first_s": 8.88,
+      "last_s": 16.45
+    },
+    "pubads.g.doubleclick.net": {
+      "first_s": 3.64,
+      "last_s": 16.27
+    },
+    "px.ads.linkedin.com": {
+      "first_s": 7.06,
+      "last_s": 19.51
+    },
+    "region1.google-analytics.com": {
+      "first_s": 3.11,
+      "last_s": 21.19
+    },
+    "s0.2mdn.net": {
+      "first_s": 3.28,
+      "last_s": 3.28
+    },
+    "scripts.kataweb.it": {
+      "first_s": 2.83,
+      "last_s": 16.29
+    },
+    "secure-it.imrworldwide.com": {
+      "first_s": 4.5,
+      "last_s": 18.38
+    },
+    "securepubads.g.doubleclick.net": {
+      "first_s": 2.83,
+      "last_s": 3.17
+    },
+    "services.brid.tv": {
+      "first_s": 2.32,
+      "last_s": 3.09
+    },
+    "ssp-sync.criteo.com": {
+      "first_s": 7.06,
+      "last_s": 19.51
+    },
+    "stats-dev.brid.tv": {
+      "first_s": 3.28,
+      "last_s": 16.22
+    },
+    "storage.googleapis.com": {
+      "first_s": 2.31,
+      "last_s": 4.5
+    },
+    "tags.crwdcntrl.net": {
+      "first_s": 3.84,
+      "last_s": 3.84
+    },
+    "tlh.gedidigital.it": {
+      "first_s": 2.31,
+      "last_s": 16.05
+    },
+    "token.rubiconproject.com": {
+      "first_s": 10.63,
+      "last_s": 17.84
+    },
+    "tra.neodatagroup.com": {
+      "first_s": 12.35,
+      "last_s": 17.02
+    },
+    "vm.target-video.com": {
+      "first_s": 3.28,
+      "last_s": 16.21
+    },
+    "web-video.ads.aps.amazon-adsystem.com": {
+      "first_s": 3.67,
+      "last_s": 16.26
+    },
+    "www.gedistatic.it": {
+      "first_s": 3.84,
+      "last_s": 3.84
+    },
+    "www.googletagmanager.com": {
+      "first_s": 2.31,
+      "last_s": 3.08
+    },
+    "www.repstatic.it": {
+      "first_s": 2.31,
+      "last_s": 3.84
+    },
+    "x.bidswitch.net": {
+      "first_s": 19.75,
+      "last_s": 19.75
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "acdn.adnxs.com",
+    "bppb.link",
+    "c.amazon-adsystem.com",
+    "c.blendee.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.drivek.com",
+    "cdn.id5-sync.com",
+    "cdn.iubenda.com",
+    "cdn.target-video.com",
+    "cdn.yobee.it",
+    "config.aps.amazon-adsystem.com",
+    "cs.iubenda.com",
+    "eulogin.gedi.it",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "imasdk.googleapis.com",
+    "p.brid.tv",
+    "pagead2.googlesyndication.com",
+    "s0.2mdn.net",
+    "securepubads.g.doubleclick.net",
+    "services.brid.tv",
+    "storage.googleapis.com",
+    "tags.crwdcntrl.net",
+    "www.gedistatic.it",
+    "www.googletagmanager.com",
+    "www.repstatic.it"
+  ],
+  "cookies": [
+    {
+      "name": "kw_wtu",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1794429359,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "kw_1pc_enableds",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1828902945.982928,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "kw_sntseg",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1794429345,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "kw_inc",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1825878946,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1828902959.348878,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "gig_canary",
+      "domain": "cdns.eu1.gigya.com",
+      "path": "/",
+      "expires": 1794343546.311794,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://formulapassion.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".cdn.yobee.it",
+      "path": "/",
+      "expires": 1794344746.339714,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://formulapassion.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "gmid",
+      "domain": ".eulogin.formulapassion.it",
+      "path": "/",
+      "expires": 1825878948.313773,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ucid",
+      "domain": ".eulogin.formulapassion.it",
+      "path": "/",
+      "expires": 1825878948.313881,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "hasGmid",
+      "domain": ".eulogin.formulapassion.it",
+      "path": "/",
+      "expires": 1809981348.313918,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "gig_bootstrap_4_ZOaBVDiQZ8R9DcAp2CeFxQ",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1825878947,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "FCCDCF",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1828038947,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1825878951.286721,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1809894951.286864,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1794429351.286917,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__cf_bm",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1794344751.286967,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://formulapassion.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "_sharedid",
+      "domain": "www.formulapassion.it",
+      "path": "/",
+      "expires": 1799526959,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "id5",
+      "domain": ".id5-sync.com",
+      "path": "/",
+      "expires": 1802118952.042891,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "uid",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1828038952.2948,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cto_bundle",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1828038952.829257,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://formulapassion.it",
+        "hasCrossSiteAncestor": true
+      }
+    },
+    {
+      "name": "cto_bundle",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1828042546,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "bldid",
+      "domain": ".blendee.com",
+      "path": "/",
+      "expires": 1825804800,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cP",
+      "domain": "www.formulapassion.it",
+      "path": "/",
+      "expires": 1825878955,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_ga_BG1XV11B68",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1828902959.348754,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_sharedid_cst",
+      "domain": "www.formulapassion.it",
+      "path": "/",
+      "expires": 1799526959,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-23960187",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1810067754,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "euconsent-v2",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1825804800,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_cs-23960187-granular",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1810067759,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_iub_previous_preference_id",
+      "domain": ".formulapassion.it",
+      "path": "/",
+      "expires": 1810067759,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "xpbjs-unifiedid",
+      "domain": "www.formulapassion.it",
+      "path": "/",
+      "expires": 1799526959,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "xpbjs-unifiedid_cst",
+      "domain": "www.formulapassion.it",
+      "path": "/",
+      "expires": 1799526959,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

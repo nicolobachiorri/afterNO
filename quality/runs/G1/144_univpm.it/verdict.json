@@ -1,0 +1,42 @@
+{
+  "host": "www.univpm.it",
+  "choice": {
+    "at": 1794342842676,
+    "choice": "rejected",
+    "label": "Rifiuta",
+    "named": false,
+    "site": "univpm.it",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Rifiuta"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.univpm.it/Entra/",
+    "lastSeen": {
+      "www.univpm.it": 1794342849425
+    }
+  },
+  "hostsConsidered": [
+    "www.univpm.it"
+  ]
+}

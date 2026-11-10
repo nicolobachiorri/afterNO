@@ -1,7 +1,7 @@
 {
   "name": "afterno",
-  "description": "Tells you in plain words what your cookie-banner choice changed and whether the site seems to respect it.",
-  "version": "0.1.1",
+  "description": "What happens after you reject cookies: compares your choice with the cookies and trackers it observes. Nothing leaves your browser.",
+  "version": "0.1.2",
   "license": "Apache-2.0",
   "private": true,
   "type": "module",

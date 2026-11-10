@@ -1,0 +1,98 @@
+{
+  "host": "www.gq-magazin.de",
+  "choice": {
+    "at": 1794343192896,
+    "choice": "rejected",
+    "legitimateInterests": 1,
+    "legitimatePurposes": [
+      7
+    ],
+    "purposesConsented": 0,
+    "site": "gq-magazin.de",
+    "source": "tcf",
+    "trigger": "action",
+    "vendorsConsented": 0
+  },
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemTcfRecordedNoTotal"
+    },
+    {
+      "mark": "info",
+      "key": "itemLegitimate",
+      "count": 1,
+      "nameKeys": [
+        "tcfPurpose_7"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.gq-magazin.de/",
+    "lastSeen": {
+      "8afa3ebf0c3fdca106b106ebeb6fcb66.safeframe.googlesyndication.com": 1794343194657,
+      "a.a47b.com": 1794343206870,
+      "aam.a47b.com": 1794343198725,
+      "ads-static.conde.digital": 1794343197370,
+      "bbbd327334b7833f54b056cd603c21cc.safeframe.googlesyndication.com": 1794343198710,
+      "bd1cec50-00d1-4ce9-9572-785857419a1e.edge.permutive.app": 1794343192882,
+      "dcdcsl55x0411.cloudfront.net": 1794343197535,
+      "dt.adsafeprotected.com": 1794343203794,
+      "ep1.adtrafficquality.google": 1794343200712,
+      "ep2.adtrafficquality.google": 1794343200184,
+      "fides.condenastdigital.com": 1794343197258,
+      "fonts.googleapis.com": 1794343199684,
+      "fonts.gstatic.com": 1794343199868,
+      "globalservices.conde.digital": 1794343184002,
+      "jsconfig.adsafeprotected.com": 1794343198841,
+      "media.gq-magazin.de": 1794343197231,
+      "pagead2.googlesyndication.com": 1794343201057,
+      "pixel.adsafeprotected.com": 1794343199276,
+      "privacy.condenastdigital.com": 1794343183035,
+      "rum.condenastdigital.com": 1794343197164,
+      "securepubads.g.doubleclick.net": 1794343197283,
+      "static.adsafeprotected.com": 1794343198784,
+      "tpc.googlesyndication.com": 1794343199701,
+      "www.googletagmanager.com": 1794343184578,
+      "www.gq-magazin.de": 1794343197627,
+      "www.gq.com": 1794343183635,
+      "www.gstatic.com": 1794343199693
+    }
+  },
+  "hostsConsidered": [
+    "8afa3ebf0c3fdca106b106ebeb6fcb66.safeframe.googlesyndication.com",
+    "a.a47b.com",
+    "aam.a47b.com",
+    "ads-static.conde.digital",
+    "bbbd327334b7833f54b056cd603c21cc.safeframe.googlesyndication.com",
+    "dcdcsl55x0411.cloudfront.net",
+    "dt.adsafeprotected.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "fides.condenastdigital.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "jsconfig.adsafeprotected.com",
+    "media.gq-magazin.de",
+    "pagead2.googlesyndication.com",
+    "pixel.adsafeprotected.com",
+    "rum.condenastdigital.com",
+    "securepubads.g.doubleclick.net",
+    "static.adsafeprotected.com",
+    "tpc.googlesyndication.com",
+    "www.gq-magazin.de",
+    "www.gstatic.com"
+  ]
+}

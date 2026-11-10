@@ -1,0 +1,211 @@
+{
+  "url": "https://ministeroturismo.gov.it",
+  "final_url": "https://www.ministeroturismo.gov.it/",
+  "click_at_s": 11.82,
+  "reload_at_s": null,
+  "reject": "labelled: no_banner",
+  "visible_buttons": [
+    "Il Ministero",
+    "Temi",
+    "Destinatari",
+    "Normative e Studi",
+    "Comunica con noi",
+    "Contatti"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "consent.cookiebot.com": {
+      "first_s": 3.3,
+      "last_s": 3.74
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 3.74,
+      "last_s": 3.74
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "__uzma",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1810067617.017896,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmb",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1810067617.018093,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzme",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1810067617.018143,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmc",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1810067617.018179,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmd",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1810067617.018218,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmf",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1810067617.018248,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "uzmx",
+      "domain": ".ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1810067617.018282,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "pll_language",
+      "domain": ".ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1825878817.018324,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "GCILB",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1794346417.018358,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__ssds",
+      "domain": ".www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1809891217,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__ssuzjsr0",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1809891217,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmaj0",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1809891217,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmbj0",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1809891217,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmcj0",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1809891217,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmdj0",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1809891217,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmlj0",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1809891217,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "__uzmfj0",
+      "domain": "www.ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1809891217,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "uzmxj",
+      "domain": ".ministeroturismo.gov.it",
+      "path": "/",
+      "expires": 1809891217,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    }
+  ]
+}

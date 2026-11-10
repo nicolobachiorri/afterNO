@@ -1,0 +1,52 @@
+{
+  "url": "https://www.inwx.de",
+  "final_url": "https://www.inwx.de/de",
+  "click_at_s": 10.93,
+  "reload_at_s": null,
+  "reject": "labelled: no_banner",
+  "visible_buttons": [
+    "Domains",
+    "Hosting",
+    "Security",
+    "Kundenl\u00f6sungen",
+    "Unternehmen",
+    "Hilfe",
+    "Domain finden",
+    "Domain-Registrierung",
+    "E-Mail-Hosting",
+    "SSL(-Zertifikate)",
+    "Mehr anzeigen"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {
+    "hossa.inwx.com": {
+      "first_s": 2.93,
+      "last_s": 4.9
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": [
+    {
+      "name": "__Host-next-auth.csrf-token",
+      "domain": "www.inwx.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "__Secure-next-auth.callback-url",
+      "domain": "www.inwx.de",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

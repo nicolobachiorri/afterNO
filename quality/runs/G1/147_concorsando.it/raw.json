@@ -1,0 +1,133 @@
+{
+  "url": "https://www.concorsando.it",
+  "final_url": "https://www.concorsando.it/blog/",
+  "click_at_s": 10.9,
+  "reload_at_s": 15.91,
+  "reject": "labelled: 'Usa solo i cookie necessari' (button, mouse click)",
+  "visible_buttons": [
+    "Accetta tutti i cookie",
+    "Acconsenti ai selezionati",
+    "Usa solo i cookie necessari",
+    "Close Welcome Bar"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "omneres.cermit.it",
+    "region1.google-analytics.com",
+    "www.cloudflare.com",
+    "www.googletagmanager.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com"
+  ],
+  "third_party_timeline": {
+    "consent.cookiebot.com": {
+      "first_s": 2.5,
+      "last_s": 16.23
+    },
+    "consentcdn.cookiebot.com": {
+      "first_s": 2.75,
+      "last_s": 16.23
+    },
+    "omneres.cermit.it": {
+      "first_s": 11.44,
+      "last_s": 11.44
+    },
+    "region1.google-analytics.com": {
+      "first_s": 11.56,
+      "last_s": 11.56
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 2.55,
+      "last_s": 3.07
+    },
+    "www.cloudflare.com": {
+      "first_s": 11.45,
+      "last_s": 11.45
+    },
+    "www.googletagmanager.com": {
+      "first_s": 10.91,
+      "last_s": 10.91
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "static.cloudflareinsights.com"
+  ],
+  "cookies": [
+    {
+      "name": "cf_zaraz_client",
+      "domain": ".concorsando.it",
+      "path": "/",
+      "expires": 1825878932.590211,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cfz_facebook-pixel",
+      "domain": ".concorsando.it",
+      "path": "/",
+      "expires": 1825878932.683671,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "CookieConsent",
+      "domain": "www.concorsando.it",
+      "path": "/",
+      "expires": 1825878928,
+      "session": false,
+      "sameSite": null,
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "country_data",
+      "domain": "www.concorsando.it",
+      "path": "/",
+      "expires": 1825878928,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mystickymenuWidget_0",
+      "domain": "www.concorsando.it",
+      "path": "/",
+      "expires": 1794947728,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cfzs_google-analytics_v4",
+      "domain": ".concorsando.it",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cfz_google-analytics_v4",
+      "domain": ".concorsando.it",
+      "path": "/",
+      "expires": 1825878932.683698,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}

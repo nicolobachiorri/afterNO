@@ -21,8 +21,6 @@ export interface Classification {
   owners?: string[];
 }
 
-export const TRACKING: ReadonlySet<Category> = new Set(['Analytics', 'Marketing']);
-
 const KNOWN = new Set<string>([
   'Functional', 'Necessary', 'Preferences', 'Personalization',
   'Analytics', 'Marketing', 'Security',
@@ -76,13 +74,3 @@ export function classify(name: string, db: CookieDb, domain?: string): Classific
 }
 
 const UNKNOWN: Classification = { category: 'Unknown', platform: '' };
-
-// Counts per category, with every category present (also when zero).
-export function countByCategory(categories: Category[]): Record<Category, number> {
-  const counts = {
-    Functional: 0, Necessary: 0, Preferences: 0, Personalization: 0,
-    Analytics: 0, Marketing: 0, Security: 0, Unknown: 0,
-  } satisfies Record<Category, number>;
-  for (const c of categories) counts[c] += 1;
-  return counts;
-}

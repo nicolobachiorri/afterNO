@@ -1,0 +1,14 @@
+{
+  "url": "https://www.funix.nl",
+  "final_url": "https://www.funix.nl/",
+  "click_at_s": 10.94,
+  "reload_at_s": null,
+  "reject": "labelled: blocked",
+  "visible_buttons": [],
+  "tcf": null,
+  "third_party_hosts_after_click": [],
+  "third_party_hosts_after_reload": [],
+  "third_party_timeline": {},
+  "third_party_hosts_served_from_cache_after_click": [],
+  "cookies": []
+}

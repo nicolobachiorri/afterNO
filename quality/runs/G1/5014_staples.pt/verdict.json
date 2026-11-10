@@ -1,0 +1,30 @@
+{
+  "host": "www.staples.pt",
+  "choice": null,
+  "items": [
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": null,
+  "tabRecorded": {
+    "pageUrl": "https://www.staples.pt/",
+    "lastSeen": {
+      "fonts.gstatic.com": 1794343482713,
+      "www.google.com": 1794343485501,
+      "www.gstatic.com": 1794343483501,
+      "www.staples.pt": 1794343483155
+    }
+  },
+  "hostsConsidered": [
+    "fonts.gstatic.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.staples.pt"
+  ]
+}

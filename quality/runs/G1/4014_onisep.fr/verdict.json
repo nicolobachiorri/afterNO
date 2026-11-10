@@ -1,0 +1,57 @@
+{
+  "host": "www.onisep.fr",
+  "choice": {
+    "at": 1794343341643,
+    "choice": "rejected",
+    "label": "Tout refuser",
+    "named": true,
+    "site": "onisep.fr",
+    "source": "click",
+    "trigger": "action"
+  },
+  "items": [
+    {
+      "mark": "info",
+      "key": "itemClickOnly",
+      "subs": [
+        "Tout refuser"
+      ]
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoThirdParty"
+    },
+    {
+      "mark": "ok",
+      "key": "itemNoSiteMarketing"
+    }
+  ],
+  "conclusion": {
+    "key": "verdictRespected",
+    "tone": "ok"
+  },
+  "tabRecorded": {
+    "pageUrl": "https://www.onisep.fr/",
+    "lastSeen": {
+      "ade24f5c3edcbdc42e84a01456d01352.safeframe.googlesyndication.com": 1794343333575,
+      "b39bcad77094d43e72b4c0e91ad811a7.safeframe.googlesyndication.com": 1794343347049,
+      "ep1.adtrafficquality.google": 1794343348234,
+      "ep2.adtrafficquality.google": 1794343347705,
+      "myka.onisep.fr": 1794343347066,
+      "pagead2.googlesyndication.com": 1794343348569,
+      "securepubads.g.doubleclick.net": 1794343346998,
+      "tpc.googlesyndication.com": 1794343347281,
+      "www.onisep.fr": 1794343347577
+    }
+  },
+  "hostsConsidered": [
+    "b39bcad77094d43e72b4c0e91ad811a7.safeframe.googlesyndication.com",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "myka.onisep.fr",
+    "pagead2.googlesyndication.com",
+    "securepubads.g.doubleclick.net",
+    "tpc.googlesyndication.com",
+    "www.onisep.fr"
+  ]
+}

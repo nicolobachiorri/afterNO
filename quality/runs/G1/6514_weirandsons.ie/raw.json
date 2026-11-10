@@ -1,0 +1,581 @@
+{
+  "url": "https://www.weirandsons.ie",
+  "final_url": "https://weirandsons.ie/",
+  "click_at_s": 12.53,
+  "reload_at_s": 17.53,
+  "reject": "labelled: 'Reject All' (button, mouse click)",
+  "visible_buttons": [
+    "Customise",
+    "Reject All",
+    "Accept All",
+    "View Rolex Page",
+    "Toggle Search",
+    "MY ACCOUNT",
+    "PREVIOUS",
+    "CONTINUE",
+    "SIGN UP",
+    "Closed now"
+  ],
+  "tcf": null,
+  "third_party_hosts_after_click": [
+    "bam.nr-data.net",
+    "cdn-cookieyes.com",
+    "cdn-editor.moosend.com",
+    "cdn.jsdelivr.net",
+    "clock.rolex.com",
+    "commerce.adobe.io",
+    "commerce.adobedc.net",
+    "connect.facebook.net",
+    "content.hotjar.io",
+    "dc.services.visualstudio.com",
+    "directory.cookieyes.com",
+    "embed.tawk.to",
+    "forms.m-pages.com",
+    "js.monitor.azure.com",
+    "log.cookieyes.com",
+    "media.rolex.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "retailers.rolex.com",
+    "script.hotjar.com",
+    "static.hotjar.com",
+    "static.rolex.com",
+    "t.stat-track.com",
+    "va.tawk.to",
+    "vc.hotjar.io",
+    "www.facebook.com",
+    "www.rolex.com"
+  ],
+  "third_party_hosts_after_reload": [
+    "bam.nr-data.net",
+    "cdn-cookieyes.com",
+    "cdn-editor.moosend.com",
+    "cdn.jsdelivr.net",
+    "clock.rolex.com",
+    "commerce.adobe.io",
+    "commerce.adobedc.net",
+    "connect.facebook.net",
+    "content.hotjar.io",
+    "dc.services.visualstudio.com",
+    "directory.cookieyes.com",
+    "forms.m-pages.com",
+    "js.monitor.azure.com",
+    "log.cookieyes.com",
+    "media.rolex.com",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com",
+    "retailers.rolex.com",
+    "script.hotjar.com",
+    "static.hotjar.com",
+    "static.rolex.com",
+    "t.stat-track.com",
+    "vc.hotjar.io",
+    "www.facebook.com",
+    "www.rolex.com"
+  ],
+  "third_party_timeline": {
+    "acds-events.adobe.io": {
+      "first_s": 4.05,
+      "last_s": 4.05
+    },
+    "bam.nr-data.net": {
+      "first_s": 7.44,
+      "last_s": 18.29
+    },
+    "cdn-cookieyes.com": {
+      "first_s": 5.25,
+      "last_s": 18.69
+    },
+    "cdn-editor.moosend.com": {
+      "first_s": 5.64,
+      "last_s": 18.19
+    },
+    "cdn.jsdelivr.net": {
+      "first_s": 18.27,
+      "last_s": 18.27
+    },
+    "cdn.stat-track.com": {
+      "first_s": 4.87,
+      "last_s": 4.87
+    },
+    "clock.rolex.com": {
+      "first_s": 4.02,
+      "last_s": 17.83
+    },
+    "commerce.adobe.io": {
+      "first_s": 5.22,
+      "last_s": 18.03
+    },
+    "commerce.adobedc.net": {
+      "first_s": 5.22,
+      "last_s": 18.28
+    },
+    "commerce.adobedtm.com": {
+      "first_s": 4.84,
+      "last_s": 4.84
+    },
+    "connect.facebook.net": {
+      "first_s": 5.25,
+      "last_s": 17.96
+    },
+    "content.hotjar.io": {
+      "first_s": 18.18,
+      "last_s": 18.22
+    },
+    "dc.services.visualstudio.com": {
+      "first_s": 4.95,
+      "last_s": 17.96
+    },
+    "directory.cookieyes.com": {
+      "first_s": 5.9,
+      "last_s": 18.23
+    },
+    "embed.tawk.to": {
+      "first_s": 12.52,
+      "last_s": 14.5
+    },
+    "fonts.googleapis.com": {
+      "first_s": 5.64,
+      "last_s": 5.64
+    },
+    "fonts.gstatic.com": {
+      "first_s": 5.86,
+      "last_s": 5.86
+    },
+    "forms.m-pages.com": {
+      "first_s": 5.23,
+      "last_s": 18.01
+    },
+    "js-agent.newrelic.com": {
+      "first_s": 6.73,
+      "last_s": 6.73
+    },
+    "js.monitor.azure.com": {
+      "first_s": 4.85,
+      "last_s": 17.83
+    },
+    "livesearch-autocomplete.magento-ds.com": {
+      "first_s": 4.05,
+      "last_s": 4.05
+    },
+    "livesearch-metrics.magento-ds.com": {
+      "first_s": 4.05,
+      "last_s": 4.05
+    },
+    "log.cookieyes.com": {
+      "first_s": 5.55,
+      "last_s": 18.07
+    },
+    "maxcdn.bootstrapcdn.com": {
+      "first_s": 5.64,
+      "last_s": 6.03
+    },
+    "media.rolex.com": {
+      "first_s": 5.38,
+      "last_s": 18.08
+    },
+    "p.typekit.net": {
+      "first_s": 4.24,
+      "last_s": 4.24
+    },
+    "pagead2.googlesyndication.com": {
+      "first_s": 6.57,
+      "last_s": 17.95
+    },
+    "recommendations-sdk.adobe.io": {
+      "first_s": 4.85,
+      "last_s": 4.85
+    },
+    "region1.google-analytics.com": {
+      "first_s": 6.57,
+      "last_s": 17.95
+    },
+    "retailers.rolex.com": {
+      "first_s": 4.86,
+      "last_s": 18.01
+    },
+    "script.hotjar.com": {
+      "first_s": 17.96,
+      "last_s": 17.96
+    },
+    "static.cloudflareinsights.com": {
+      "first_s": 3.88,
+      "last_s": 3.88
+    },
+    "static.hotjar.com": {
+      "first_s": 5.25,
+      "last_s": 18.0
+    },
+    "static.rolex.com": {
+      "first_s": 5.38,
+      "last_s": 18.01
+    },
+    "t.stat-track.com": {
+      "first_s": 5.23,
+      "last_s": 18.01
+    },
+    "unpkg.com": {
+      "first_s": 4.05,
+      "last_s": 4.86
+    },
+    "use.typekit.net": {
+      "first_s": 3.83,
+      "last_s": 4.5
+    },
+    "va.tawk.to": {
+      "first_s": 13.0,
+      "last_s": 13.02
+    },
+    "vc.hotjar.io": {
+      "first_s": 18.18,
+      "last_s": 18.18
+    },
+    "www.facebook.com": {
+      "first_s": 18.27,
+      "last_s": 18.27
+    },
+    "www.google.com": {
+      "first_s": 5.03,
+      "last_s": 5.75
+    },
+    "www.googletagmanager.com": {
+      "first_s": 4.84,
+      "last_s": 5.25
+    },
+    "www.gstatic.com": {
+      "first_s": 5.25,
+      "last_s": 5.25
+    },
+    "www.rolex.com": {
+      "first_s": 4.86,
+      "last_s": 17.83
+    }
+  },
+  "third_party_hosts_served_from_cache_after_click": [
+    "acds-events.adobe.io",
+    "cdn-cookieyes.com",
+    "cdn.stat-track.com",
+    "clock.rolex.com",
+    "commerce.adobedtm.com",
+    "connect.facebook.net",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "js-agent.newrelic.com",
+    "livesearch-autocomplete.magento-ds.com",
+    "livesearch-metrics.magento-ds.com",
+    "maxcdn.bootstrapcdn.com",
+    "p.typekit.net",
+    "recommendations-sdk.adobe.io",
+    "static.cloudflareinsights.com",
+    "static.hotjar.com",
+    "static.rolex.com",
+    "unpkg.com",
+    "use.typekit.net",
+    "www.googletagmanager.com"
+  ],
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "domain": ".www.weirandsons.ie",
+      "path": "/",
+      "expires": 1794347284.833899,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "MOOSEND_SITE_ID",
+      "domain": "www.weirandsons.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "sessionid",
+      "domain": "www.weirandsons.ie",
+      "path": "/",
+      "expires": 1794430084.834138,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "MOOSEND_USER_ID",
+      "domain": "www.weirandsons.ie",
+      "path": "/",
+      "expires": 1828903684.834174,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "cf_clearance",
+      "domain": ".weirandsons.ie",
+      "path": "/",
+      "expires": 1825879686.038962,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": {
+        "topLevelSite": "https://weirandsons.ie",
+        "hasCrossSiteAncestor": false
+      }
+    },
+    {
+      "name": "form_key",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794430086,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "mage-cache-storage",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794347286,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "mage-cache-storage-section-invalidation",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794347286,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ai_user",
+      "domain": "clock.rolex.com",
+      "path": "/",
+      "expires": 1825879686.280959,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "mage-banners-cache-storage",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794347286,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "mage-messages",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794347299,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "recently_viewed_product",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794347286,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "recently_viewed_product_previous",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794347286,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "recently_compared_product",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794347286,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "recently_compared_product_previous",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794347286,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "product_data_storage",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794347286,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "PHPSESSID",
+      "domain": ".weirandsons.ie",
+      "path": "/",
+      "expires": 1794347287.2049,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "form_key",
+      "domain": ".weirandsons.ie",
+      "path": "/",
+      "expires": 1794347287.204945,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "sessionid",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794430087.204962,
+      "session": false,
+      "sameSite": null,
+      "secure": false,
+      "partitionKey": null
+    },
+    {
+      "name": "mg",
+      "domain": ".adobedc.net",
+      "path": "/",
+      "expires": 1825879699.880979,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "cookieyes-consent",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1825879693,
+      "session": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "twk_idm_key",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "TawkConnectionTime",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": -1,
+      "session": true,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "twk_uuid_5952722fe9c6d324a47378e9",
+      "domain": ".weirandsons.ie",
+      "path": "/",
+      "expires": 1809895695,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "ai_session",
+      "domain": "clock.rolex.com",
+      "path": "/",
+      "expires": 1794345499.205333,
+      "session": false,
+      "sameSite": "None",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "mage-cache-sessid",
+      "domain": "weirandsons.ie",
+      "path": "/",
+      "expires": 1794347299,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cs_ex",
+      "domain": ".weirandsons.ie",
+      "path": "/",
+      "expires": 1796935699,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "_cs_c",
+      "domain": ".weirandsons.ie",
+      "path": "/",
+      "expires": 1828507699,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rlx-consent",
+      "domain": ".weirandsons.ie",
+      "path": "/",
+      "expires": 1825447700,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    },
+    {
+      "name": "rlx-marketing",
+      "domain": ".weirandsons.ie",
+      "path": "/",
+      "expires": 1825447700,
+      "session": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "partitionKey": null
+    }
+  ]
+}
