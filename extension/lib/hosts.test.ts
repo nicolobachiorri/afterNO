@@ -40,3 +40,16 @@ test('Austrian universities are separate sites (sample E)', () => {
   assert.equal(siteOf('www.meduniwien.ac.at'), 'meduniwien.ac.at');
   assert.equal(siteOf('www.univie.ac.at'), 'univie.ac.at');
 });
+
+test('the Public Suffix List separates sites on shared hosting (external review, 10 November 2026)', () => {
+  assert.equal(siteOf('alice.github.io'), 'alice.github.io');
+  assert.equal(isThirdParty('alice.github.io', 'bob.github.io'), true);
+  assert.equal(siteOf('nicolobachiorri.github.io'), 'nicolobachiorri.github.io');
+  assert.equal(isThirdParty('d1.cloudfront.net', 'd2.cloudfront.net'), true);
+  assert.equal(siteOf('someblog.blogspot.com'), 'someblog.blogspot.com');
+  assert.equal(siteOf('github.io'), 'github.io'); // a suffix is its own site
+  assert.equal(siteOf('.www.example.co.uk'), 'example.co.uk'); // cookie domains start with a dot
+  // wildcard and exception rules: *.ck and !www.ck
+  assert.equal(siteOf('a.b.ck'), 'a.b.ck');
+  assert.equal(siteOf('x.www.ck'), 'www.ck');
+});

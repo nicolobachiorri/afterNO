@@ -18,6 +18,11 @@ sample gives one (samples E and F):
 Before running, build the extension in measurement mode (from the extension folder):
     npm run build:test
 
+From sample G (protocol, modification 38) the reject control is chosen beforehand by a
+person (label_buttons.py), not with the extension's phrases, and clicked with a real
+mouse click: the extension ignores clicks made by scripts (version 0.1.1).
+    python3 measure.py --visit G1 --labels runs/G0/labels_G.csv
+
 Usage (from the quality folder, with the step 1 virtual environment active):
     python3 measure.py --pilot https://www.ilmeteo.it   # try the robot outside the sample
     python3 measure.py --visit F1
@@ -87,10 +92,63 @@ TCF_JS = """
 """
 
 
+# Find the control a person marked (label_buttons.py) in one frame: same tag, same text
+# or accessible name, visible. Returns its centre and whether it is on top at that point
+# (a covered control is not clicked: the click would land on whatever covers it).
+FIND_LABELLED_JS = r"""
+(want) => {
+  const norm = (x) => (x || '').replace(/\s+/g, ' ').trim();
+  for (const el of document.querySelectorAll(want.tag)) {
+    const text = norm((el instanceof HTMLInputElement) ? el.value : el.innerText);
+    const aria = norm(el.getAttribute('aria-label') || el.getAttribute('title'));
+    if (want.text ? text !== want.text : aria !== want.aria) continue;
+    const r0 = el.getBoundingClientRect();
+    if (r0.width < 4 || r0.height < 4) continue;
+    el.scrollIntoView({ block: 'center', inline: 'center' });
+    const r = el.getBoundingClientRect();
+    const cx = r.x + r.width / 2, cy = r.y + r.height / 2;
+    const top = document.elementFromPoint(cx, cy);
+    return { cx, cy, onTop: !!top && (el === top || el.contains(top)) };
+  }
+  return null;
+}
+"""
+
+
+def click_labelled(page, lab):
+    """Click the control marked by a person, with the mouse (a trusted click)."""
+    want = {"tag": lab["tag"], "text": lab["text"], "aria": lab["aria"]}
+    host = urlparse(lab.get("frame_url") or "").hostname or ""
+    frames = sorted(page.frames, key=lambda f: 0 if (urlparse(f.url).hostname or "") == host else 1)
+    for frame in frames:
+        try:
+            hit = frame.evaluate(FIND_LABELLED_JS, want)
+        except Exception:
+            continue
+        if not hit:
+            continue
+        ox = oy = 0
+        if frame != page.main_frame:
+            box = frame.frame_element().bounding_box()
+            if not box:
+                continue
+            ox, oy = box["x"], box["y"]
+        if not hit["onTop"]:
+            return False, f"labelled control covered ({lab['text'] or lab['aria']})"
+        page.mouse.click(ox + hit["cx"], oy + hit["cy"])
+        return True, f"labelled: '{lab['text'] or lab['aria']}' ({lab['tag']}, mouse click)"
+    return False, "labelled control not found"
+
+
+def load_labels(path):
+    with open(path, encoding="utf-8") as f:
+        return {r["order"]: r for r in csv.DictReader(f)}
+
+
 def sample_file(visit):
     """Visits A and B use sample A/B (sites.csv); visits C1, C2... use sample C, and so on."""
     letter = (visit or "")[:1]
-    return HERE / (f"sites_{letter}.csv" if letter in ("C", "D", "E", "F") else "sites.csv")
+    return HERE / (f"sites_{letter}.csv" if letter in ("C", "D", "E", "F", "G") else "sites.csv")
 
 
 def load_sample(path, only):
@@ -224,18 +282,28 @@ def measure_site(p, row, out_dir, headless):
         result["redirected_to_other_site"] = site_domain(page.url) != site_domain(url)
         page.wait_for_timeout(FIRST_WAIT_S * 1000)
 
-        # Reject, with the rules of step 1.
+        # Reject: the control a person marked beforehand (sample G), or else the rules
+        # of step 1.
+        lab = row.get("label")
         t_banner = time.time()
         while True:
             labels = visible_button_labels(page)
             stage("search banner")
-            clicked, how, paywall_seen = find_and_click_reject(page)
+            if lab is not None:
+                if lab.get("answer") not in ("control", "save_defaults"):
+                    clicked, how, paywall_seen = False, f"labelled: {lab.get('answer') or 'no label'}", False
+                    break
+                clicked, how = click_labelled(page, lab)
+                paywall_seen = False
+            else:
+                clicked, how, paywall_seen = find_and_click_reject(page)
             if clicked or paywall_seen or time.time() - t_banner > BANNER_TIMEOUT_S:
                 break
             page.wait_for_timeout(1000)
         t_click = round(time.time() - t_start, 2)
         result.update(reject_clicked=clicked, reject_how=how,
-                      banner_type=banner_type(clicked, labels, paywall_seen),
+                      banner_type=(f"labelled_{lab.get('answer')}" if lab is not None and lab.get("answer") not in ("control", "save_defaults")
+                                   else banner_type(clicked, labels, paywall_seen)),
                       visible_buttons=" | ".join(labels))
 
         page.wait_for_timeout(WAIT_AFTER_CLICK_S * 1000)
@@ -325,7 +393,8 @@ def measure_site(p, row, out_dir, headless):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--visit", choices=["A", "B", "C1", "C2", "D1", "D2", "E1", "E2", "F1", "F2"])
+    ap.add_argument("--visit", choices=["A", "B", "C1", "C2", "D1", "D2", "E1", "E2", "F1", "F2", "G1", "G2"])
+    ap.add_argument("--labels", type=Path, help="labels_<sample>.csv from label_buttons.py (sample G on)")
     ap.add_argument("--pilot", metavar="URL",
                     help="measure one site OUTSIDE the sample, to check the robot works "
                          "without looking at results of the sample (output in runs/pilot/)")
@@ -353,6 +422,15 @@ def main():
         args.visit, args.only = "pilot", None
     else:
         sample = load_sample(args.sites or sample_file(args.visit), args.only)
+        if args.visit.startswith("G") and not args.labels:
+            sys.exit("Sample G is measured with the reject controls marked beforehand: "
+                     "--labels runs/G0/labels_G.csv (see label_buttons.py).")
+        if args.labels:
+            marked = load_labels(args.labels)
+            missing = [r["order"] for r in sample if r["order"] not in marked]
+            if missing:
+                sys.exit(f"No label for: {', '.join(missing)}")
+            sample = [{**r, "label": marked[r["order"]]} for r in sample]
     run_dir = HERE / "runs" / args.visit
     results = []
     # Each site runs in its own process, stopped after SITE_LIMIT_S: a page that hangs

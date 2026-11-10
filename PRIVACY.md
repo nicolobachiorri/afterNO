@@ -33,7 +33,8 @@ keeps that choice (accepted or rejected, the time, the button's label) in the **
 storage of the site you clicked on**, so that it is not lost if the banner reloads the
 page. It is removed as soon as the next page has read it, and ignored after two
 minutes. The site can technically read it, but it only contains the choice you just
-made on that site.
+made on that site. Its presence, under the key `__afterno_choice`, also tells that site,
+for those few moments, that afterNO is installed.
 
 ## What it never does
 
@@ -102,7 +103,8 @@ conserva quella scelta (accettato o rifiutato, l'ora, l'etichetta del pulsante) 
 nella **memoria di sessione del sito su cui hai cliccato**, per non perderla se il banner
 ricarica la pagina. Viene cancellata appena la pagina successiva l'ha letta, e ignorata
 dopo due minuti. Il sito può tecnicamente leggerla, ma contiene solo la scelta che hai
-appena fatto su quel sito.
+appena fatto su quel sito. La sua presenza, con la chiave `__afterno_choice`, dice anche
+a quel sito, per quei pochi istanti, che afterNO è installata.
 
 ## Cosa non fa mai
 

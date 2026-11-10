@@ -1,0 +1,6 @@
+{
+ "order": "149",
+ "url": "https://www.broadspeed.it",
+ "candidates": [],
+ "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.broadspeed.it/\nCall log:\n  - navigating to \"https://www.broadspeed.it/\", waiting until \"domcontentloaded\"\n"
+}

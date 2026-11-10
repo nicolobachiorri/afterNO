@@ -187,3 +187,10 @@ test('other marketing cookies of the site still count', () => {
   assert.equal(marketingKind(r('.x.it', 'Marketing', 'Facebook', { name: '_fbp' }), 0), 'strong');
   assert.equal(marketingKind(r('.x.it', 'Marketing', 'Adobe', { name: 'AMCV_X' }), 0), 'shared');
 });
+
+test('banner closed with the X: a rejection, with the reason stated (external review, 10 November 2026)', () => {
+  const closed: ChoiceRecord = { site: 'ikea.com', source: 'click', choice: 'rejected', at: 0, trigger: 'action', label: '×', closed: true };
+  const v = buildVerdict(closed, [r('.ikea.com', 'Functional')], [], 0);
+  assert.deepEqual(keys(v), ['info:itemClosedX', 'ok:itemNoThirdParty', 'ok:itemNoSiteMarketing']);
+  assert.deepEqual(v.conclusion, { key: 'verdictRespected', tone: 'ok' });
+});

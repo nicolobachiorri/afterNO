@@ -89,57 +89,88 @@ written down before the results: [quality/PROTOCOL.md](quality/PROTOCOL.md).
 
 Three different numbers, not to be mixed up:
 
-- **Coverage**: of the 40 sites, how many offered a rejection that could be checked
-  (a free reject button the robot could click). Where there is no rejection, there is
-  nothing to check.
-- **Accuracy**: of those sites, how many conclusions were right.
-- **Stability**: the same sites visited again the next day with the same version: is
-  the answer the same?
+- **Rejection recorded**: of the sites with a free reject button, how often the
+  extension noticed the click. If it does not notice, it cannot check anything.
+- **Right verdict, when recorded**: of the sites where the rejection was recorded,
+  how many conclusions were right.
+- **Stability**: the same sites visited again with the same version: is the answer
+  the same?
 
 | | Italy | EU, first round | EU, second round |
 | --- | --- | --- | --- |
-| **Coverage**: sites with a rejection to check | **22 of 40** | **14 of 40** | **19 of 40** |
-| **Accuracy**: conclusion correct (95% Wilson interval) | **22 of 22: at least 85%** | **14 of 14: at least 78%** | **19 of 19: at least 83%** |
+| Sites with a free reject button | 24 of 40 | 19 of 40 | 24 of 40 |
+| **Rejection recorded** (95% Wilson interval) | **22 of 24: 92% (74-98%)** | **14 of 19: 74% (51-88%)** | **19 of 24: 79% (60-91%)** |
+| **Right verdict, when recorded** | **22 of 22: at least 85%** | **14 of 14: at least 78%** | **19 of 19: at least 83%** |
 | False alarms ("only partly respected" when the data say otherwise) | 0 | 0 | 0 |
 | Problems not seen ("seems respected" when the data show a tracker) | 0 | 0 | 0 |
-| Choice not recorded (banner closed, extension unaware) | 0 | 0 | 0 |
+| Rejection recorded where there was none | 0 | 0 | 1 |
 | Agreement of the second judge on the conclusion | 21 of 22 | 14 of 14 | 19 of 19 |
 | **Stability**: same conclusion on a second visit | not measured on this version | **14 of 14** (next day) | **19 of 19** (same day, one hour later: an upper bound) |
 
 What to keep in mind:
 
-- **Small samples.** 14 to 22 checkable sites per round give a wide interval: all
-  correct means "at least 78–85%" with reasonable confidence, not "never wrong".
+- **Why this table used to show only 100%.** Until 10 November 2026 the table counted
+  only the sites where the robot clicked "Reject", and the robot looked for the button
+  with the same phrases as the extension (`quality/robot_labels.py`, protocol
+  modification 21). When the extension did not know a phrase, the robot did not click
+  either, and the site was filed as "nothing to check" instead of as an error of the
+  extension, against the rule the protocol had set on 29 October (modification 4).
+  An external review pointed this out; the row "Rejection recorded" counts those sites
+  as errors. The verdict accuracy is unchanged: it is conditional on the rejection
+  being recorded. The next round will use a robot that finds the button independently
+  of the extension.
+- **Rejections not recorded.** Italy (order 98 and 132): two banners where the X
+  counts as a refusal by their own text; the extension did not recognise an X (it does
+  from 0.1.1). A third banner, in German (order 122), had a reject the robot of that
+  round could not click; it is not counted, because we did not check what the
+  extension would have done. EU, first round: "Alle Dienste ablehnen", "Non merci",
+  "Odmawiam", "Nie zgadzam się", "I Do Not Accept", fixed before the second round.
+  EU, second round: "Akceptuj tylko niezbędne" ("accept only the necessary ones")
+  would have been read as an *acceptance*; two word orders were not known; one banner
+  names its button "Cookies : Deny all cookies"; and on one site a link "ablehnen,
+  ändern oder widerrufen", which opens the settings, was recorded as a rejection that
+  never happened (protocol, modifications 24-35). These are fixed in the published
+  version, which is not yet measured on new sites.
+- **Small samples.** 19 to 24 sites per round give wide intervals.
 - **The sites without a rejection to check.** Italy: 7 offered only "accept" or
-  "reject and subscribe", 6 showed no banner, 3 used a reject the robot cannot click,
-  2 blocked the robot. EU, first round: 9 without a free reject, 8 without a banner,
-  3 blocked the robot, 1 with toggles and "save" only, and 5 with a free reject in
-  words neither the robot nor the extension knew yet ("Alle Dienste ablehnen", "Non
-  merci", "Odmawiam", "Nie zgadzam się", "I Do Not Accept"), fixed before the second
-  round. Second round: 10 without a free reject, 6 without a banner, and 5 with
-  defects found and fixed afterwards, to be measured on new sites: "Akceptuj tylko
-  niezbędne" ("accept only the necessary ones") would have been read as an
-  *acceptance*; a link "ablehnen, ändern oder widerrufen", which opens the settings,
-  was recorded as a rejection; two word orders were not known; one banner names its
-  buttons "Cookies : Deny all cookies" (protocol, modifications 24-35). The judges
-  disagreed on whether a site was checkable once in 120 sites (that link).
+  "reject and subscribe", 6 showed no banner, 2 blocked the robot. EU, first round: 9
+  without a free reject, 8 without a banner, 3 blocked the robot, 1 with toggles and
+  "save" only. Second round: 10 without a free reject, 6 without a banner.
 - **Who judged.** The verdicts were judged against the raw data by Claude, the AI that
-  wrote most of the code: a conflict of interest, stated here. Gemini (a model from
-  another company) judged the same sites independently. In Italy it disagreed on one
-  conclusion: on docpeter.it it called a false alarm the warning about a Shopify
-  cookie (`_shop_app_essential`, readable by other sites, valid a year), which Claude
-  judged correct by the protocol's rules. In the other countries it agreed on every
-  conclusion, and in the first round caught a wrong label Claude had missed: Segment's `ajs_anonymous_id`
-  shown as "Trustpilot", now corrected. Cohen's κ is not informative here, because
-  the judges gave the same answer to almost every site.
+  wrote most of the code: a conflict of interest, stated here. A human judge did two
+  rounds on the Italian sample, but in six cases the answers contradicted the written
+  rules, and on the project lead's decision the human judgement was set aside
+  (protocol, modification 9). Gemini (a model from another company) judged the same
+  sites independently. Both judges read a review page where the criteria and the
+  comparison with the extension are already computed (`quality/build_review.py`):
+  their agreement shows that the TypeScript extension and the Python review apply the
+  same rules, not that the rules capture every case of a rejection not respected.
+  Cohen's κ is not informative here, because the judges gave the same answer to almost
+  every site. In Italy Gemini disagreed on one conclusion: on docpeter.it it called a
+  false alarm the warning about a Shopify cookie (`_shop_app_essential`, readable by
+  other sites, valid a year), which Claude judged correct by the protocol's rules. In
+  the first EU round it caught a wrong label Claude had missed: Segment's
+  `ajs_anonymous_id` shown as "Trustpilot", now corrected. The next round will add an
+  external human judge, blind, on raw data without the precomputed comparison.
 - **A new browser profile for each site.** The robot has never visited other sites, so
   trackers have no cookies of it yet. The measurement says whether the extension reads
   correctly the data in front of it; it does not say how often a real user, whose
   browser already holds trackers' cookies, would see "only partly respected".
+- **If you had accepted before.** When you reject on a site where you had accepted
+  earlier, the cookies saved then are still in the browser and still count in the
+  verdict, because a cookie that stays can still be read. The popup also shows what
+  was there at the moment of your choice. This case, the most common for a real user,
+  is not measured: the robot starts each site from a new profile.
 - **From Italy.** The robot connects from Italy: a site may choose its banner from the
   address, not from the browser's language. In practice the banners came in the
   language of each country.
-- **Chromium only.**
+- **Chromium only.** Firefox partitions third-party cookies by site and blocks known
+  trackers, while the extension reasons with Chrome's rules: on Firefox the verdict may
+  differ (probably "respected" more often, partly thanks to the browser). Not measured
+  yet.
+- **Versions.** The measured versions are the commits of each round (see the run
+  folders); the version published in the stores includes fixes made after the last
+  round. From 0.1.1 every release has its own version number and a git tag.
 - **Earlier rounds.** The previous version, on another 40 new Italian sites, gave 15 of
   19 correct (79%), with 3 choices not recorded; those defects were fixed before these
   measurements. A first version gave 14 of 25 (56%). All rounds, data and judgments

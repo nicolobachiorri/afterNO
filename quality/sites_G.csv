@@ -1,0 +1,45 @@
+order,url,source,tranco_rank,role,locale,timezone
+141,https://www.armiusate.it,tranco:ZJ8PG,82930,sample,it-IT,Europe/Rome
+142,https://www.tsunaminutrition.it,tranco:ZJ8PG,211753,sample,it-IT,Europe/Rome
+143,https://ministeroturismo.gov.it,tranco:ZJ8PG,210187,sample,it-IT,Europe/Rome
+144,https://www.univpm.it,tranco:ZJ8PG,34487,sample,it-IT,Europe/Rome
+145,https://www.astroshop.it,tranco:ZJ8PG,156314,sample,it-IT,Europe/Rome
+146,https://impresainungiorno.gov.it,tranco:ZJ8PG,58067,sample,it-IT,Europe/Rome
+147,https://www.concorsando.it,tranco:ZJ8PG,184000,sample,it-IT,Europe/Rome
+148,https://www.formulapassion.it,tranco:ZJ8PG,65303,sample,it-IT,Europe/Rome
+149,https://www.broadspeed.it,tranco:ZJ8PG,188290,replaced: does not load (domain not found),it-IT,Europe/Rome
+150,https://www.redacon.it,tranco:ZJ8PG,188071,sample,it-IT,Europe/Rome
+151,https://www.unesco.it,tranco:ZJ8PG,197811,sample,it-IT,Europe/Rome
+152,https://www.telnetwork.it,tranco:ZJ8PG,202543,sample,it-IT,Europe/Rome
+153,https://www.wind.it,tranco:ZJ8PG,53444,sample,it-IT,Europe/Rome
+154,https://www.sampdoria.it,tranco:ZJ8PG,224320,sample,it-IT,Europe/Rome
+155,https://www.agriturismi.it,tranco:ZJ8PG,110875,sample,it-IT,Europe/Rome
+156,https://www.agendaonline.it,tranco:ZJ8PG,117209,sample,it-IT,Europe/Rome
+157,https://www.valtellinamobile.it,tranco:ZJ8PG,220555,sample,it-IT,Europe/Rome
+3013,https://www.gq-magazin.de,tranco:ZJ8PG,25289,sample,de-DE,Europe/Berlin
+3014,https://www.instyle.de,tranco:ZJ8PG,18257,sample,de-DE,Europe/Berlin
+3015,https://www.ioam.de,tranco:ZJ8PG,1997,replaced: does not load (SSL error),de-DE,Europe/Berlin
+3016,https://www.inwx.de,tranco:ZJ8PG,18858,sample,de-DE,Europe/Berlin
+3513,https://www.mediamarkt.at,tranco:ZJ8PG,41300,sample,de-AT,Europe/Vienna
+3514,https://www.slon6.at,tranco:ZJ8PG,42847,"replaced: does not load (timeout, then domain not found)",de-AT,Europe/Vienna
+3515,https://www.ebit.at,tranco:ZJ8PG,162548,sample,de-AT,Europe/Vienna
+3516,https://www.ad4m.at,tranco:ZJ8PG,24605,sample,de-AT,Europe/Vienna
+4013,https://www.enac.fr,tranco:ZJ8PG,32254,sample,fr-FR,Europe/Paris
+4014,https://www.onisep.fr,tranco:ZJ8PG,31034,sample,fr-FR,Europe/Paris
+4015,https://www.gifi.fr,tranco:ZJ8PG,21650,sample,fr-FR,Europe/Paris
+4512,https://www.vertbaudet.es,tranco:ZJ8PG,78445,sample,es-ES,Europe/Madrid
+4513,https://www.ual.es,tranco:ZJ8PG,37146,sample,es-ES,Europe/Madrid
+4514,https://www.eldiariomontanes.es,tranco:ZJ8PG,18465,sample,es-ES,Europe/Madrid
+5013,https://www.teleperformance.pt,tranco:ZJ8PG,187564,sample,pt-PT,Europe/Lisbon
+5014,https://www.staples.pt,tranco:ZJ8PG,189593,sample,pt-PT,Europe/Lisbon
+5015,https://www.onbit.pt,tranco:ZJ8PG,155854,sample,pt-PT,Europe/Lisbon
+5514,https://www.degiro.nl,tranco:ZJ8PG,64720,sample,nl-NL,Europe/Amsterdam
+5515,https://www.funix.nl,tranco:ZJ8PG,37928,sample,nl-NL,Europe/Amsterdam
+5516,https://www.omroepflevoland.nl,tranco:ZJ8PG,50941,sample,nl-NL,Europe/Amsterdam
+6013,https://www.praca.pl,tranco:ZJ8PG,48703,sample,pl-PL,Europe/Warsaw
+6014,https://www.onebid.pl,tranco:ZJ8PG,46576,sample,pl-PL,Europe/Warsaw
+6015,https://www.oferteo.pl,tranco:ZJ8PG,47421,sample,pl-PL,Europe/Warsaw
+6512,https://www.ubuy.ie,tranco:ZJ8PG,257261,sample,en-IE,Europe/Dublin
+6513,https://www.ns.ie,tranco:ZJ8PG,32994,replaced: does not load (domain not found),en-IE,Europe/Dublin
+6514,https://www.weirandsons.ie,tranco:ZJ8PG,381849,sample,en-IE,Europe/Dublin
+6515,https://www.woodies.ie,tranco:ZJ8PG,77968,sample,en-IE,Europe/Dublin

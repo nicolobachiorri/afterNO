@@ -1,0 +1,6 @@
+{
+ "order": "3514",
+ "url": "https://www.slon6.at",
+ "candidates": [],
+ "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.slon6.at/\nCall log:\n  - navigating to \"https://www.slon6.at/\", waiting until \"domcontentloaded\"\n"
+}

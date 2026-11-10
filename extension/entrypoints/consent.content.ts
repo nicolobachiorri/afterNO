@@ -8,7 +8,7 @@
 // other frames: we use that, so no code of ours runs inside the page itself.
 import { browser } from 'wxt/browser';
 import {
-  choiceFromTcf, classifyControl, classifyLabel, inConsentContext, MAX_LABEL,
+  choiceFromTcf, classifyControl, classifyLabel, clickCounts, isConsentContainer, MAX_LABEL,
   type ChoiceMessage, type ChoiceRecord, type TcData,
 } from '@/lib/choice';
 
@@ -76,6 +76,11 @@ export default defineContentScript({
     // ---------------------------------------------------------------- 2. Clicks
     // Capture phase: we see the click even if the banner stops it from bubbling.
     ctx.addEventListener(document, 'click', (event: Event) => {
+      // Only clicks made by the user. A consent platform may click its own buttons from
+      // a script: meduniwien.ac.at clicked «Einstellungen speichern» by itself right
+      // after the user's «Alle Dienste ablehnen» (sample E). Such clicks are not a choice.
+      // The measurement robot clicks through the browser's input, which counts as real.
+      if (!event.isTrusted) return;
       // composedPath()[0] is the element really clicked, also inside a shadow DOM;
       // event.target would only be the outer host element.
       const first = event.composedPath()[0];
@@ -83,6 +88,8 @@ export default defineContentScript({
       // A real control, or else a short text that reads as a choice: some banners use a
       // clickable <span> or <div> (agriturismo.it). Up to three levels above the click.
       let control = target?.closest('button, a, [role="button"], input[type="button"], input[type="submit"]') ?? null;
+      // An X drawn as a plain element: <span class="close">, <div id="banner-close">.
+      control ??= target?.closest('[class*="close" i], [id*="close" i]') ?? null;
       for (let el: Element | null = target, i = 0; !control && el && i < 3; el = el.parentElement, i++) {
         const text = (el.textContent ?? '').replace(/\s+/g, ' ').trim();
         if (text && text.length <= MAX_LABEL && classifyLabel(text)) control = el;
@@ -110,14 +117,16 @@ export default defineContentScript({
         // Names of the containers, up to (not including) <body>.
         if (el.tagName !== 'BODY' && el.tagName !== 'HTML') names.push(`${el.id} ${el.getAttribute('class') ?? ''}`);
       }
-      if (!inConsentContext(texts, names)) return;
+      if (!clickCounts(kind, label, texts, names)) return;
       const record = {
         source: 'click' as const,
-        choice: kind === 'reject' ? 'rejected' as const : 'accepted' as const,
+        choice: kind === 'accept' ? 'accepted' as const : 'rejected' as const,
         at: Date.now(),
         trigger: 'action' as const,
         // Shown in the popup; for a button recognised only by its attributes, its id.
-        label: (label || control.id || '?').replace(/\s+/g, ' ').trim().slice(0, 50),
+        label: (label || (kind === 'close' ? '×' : control.id) || '?').replace(/\s+/g, ' ').trim().slice(0, 50),
+        named: names.some(isConsentContainer),
+        ...(kind === 'close' ? { closed: true } : {}),
       };
       // Some platforms reload the page right after the choice (arera.it), and the
       // message may be lost with the page. Kept in the page's session storage too, and

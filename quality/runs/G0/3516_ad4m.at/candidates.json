@@ -1,0 +1,77 @@
+{
+ "order": "3516",
+ "url": "https://www.ad4m.at",
+ "candidates": [
+  {
+   "tag": "a",
+   "text": "privacy@advanced-store.com",
+   "aria": "",
+   "names": "",
+   "x": 440,
+   "y": 576.1953125,
+   "w": 450.5390625,
+   "h": 41.5625,
+   "score": 3,
+   "frame_url": "https://www.ad4m.at/",
+   "frame": "main",
+   "n": 1
+  },
+  {
+   "tag": "a",
+   "text": "team-ops@advanced-store.com",
+   "aria": "",
+   "names": "",
+   "x": 496.203125,
+   "y": 648.3828125,
+   "w": 227.3046875,
+   "h": 17.5,
+   "score": 3,
+   "frame_url": "https://www.ad4m.at/",
+   "frame": "main",
+   "n": 2
+  },
+  {
+   "tag": "a",
+   "text": "Company",
+   "aria": "",
+   "names": "",
+   "x": 440,
+   "y": 714.4453125,
+   "w": 66.6796875,
+   "h": 24.0625,
+   "score": 3,
+   "frame_url": "https://www.ad4m.at/",
+   "frame": "main",
+   "n": 3
+  },
+  {
+   "tag": "a",
+   "text": "Privacy",
+   "aria": "",
+   "names": "",
+   "x": 530.6796875,
+   "y": 714.4453125,
+   "w": 51.5625,
+   "h": 24.0625,
+   "score": 3,
+   "frame_url": "https://www.ad4m.at/",
+   "frame": "main",
+   "n": 4
+  },
+  {
+   "tag": "a",
+   "text": "Imprint",
+   "aria": "",
+   "names": "",
+   "x": 606.2421875,
+   "y": 714.4453125,
+   "w": 50.0078125,
+   "h": 24.0625,
+   "score": 3,
+   "frame_url": "https://www.ad4m.at/",
+   "frame": "main",
+   "n": 5
+  }
+ ],
+ "final_url": "https://www.ad4m.at/"
+}

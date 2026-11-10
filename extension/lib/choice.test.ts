@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import {
   inConsentContext, isConsentContainer,
   classifyLabel, classifyAttributes, classifyControl, isConsentContext, inConsentBanner, isChoiceMessage, choiceFromTcf, mergeChoice, TCF_PRIORITY_MS, MAX_BANNER_TEXT,
+  clickCounts, inCookieBanner, isWeakAccept,
   type ChoiceRecord,
 } from './choice.ts';
 
@@ -88,8 +89,8 @@ test('merge: a click right after a TCF record does not replace it', () => {
   assert.equal(mergeChoice(rec('tcf', 0), rec('click', TCF_PRIORITY_MS - 1)).source, 'tcf');
 });
 
-test('merge: a later click replaces an old TCF record', () => {
-  assert.equal(mergeChoice(rec('tcf', 0), rec('click', TCF_PRIORITY_MS)).source, 'click');
+test('merge: a later click in a named banner replaces an old TCF record', () => {
+  assert.equal(mergeChoice(rec('tcf', 0), { ...rec('click', TCF_PRIORITY_MS), named: true }).source, 'click');
 });
 
 test('merge: records of another site are replaced', () => {
@@ -299,4 +300,69 @@ test('sample F: other word orders, and links that open the settings', () => {
     assert.equal(classifyLabel(label), null, label);
   for (const label of ['Akceptuj wszystkie', 'Zgadzam się', 'Alle akzeptieren', 'Cookies : OK, accept all'])
     assert.equal(classifyLabel(label), 'accept', label);
+});
+
+// ------------------------------------------------------------- external review, 10 November 2026
+
+test('the X is recognised as closing the banner', () => {
+  for (const label of ['×', '✕', 'X', 'x', 'Chiudi', 'Close', 'Schließen', 'Fermer', 'Cerrar', 'Fechar', 'Sluiten', 'Zamknij', 'Chiudi il banner', 'Close dialog']) {
+    assert.equal(classifyControl(label, ''), 'close', label);
+  }
+  // an icon-only button named by the platform
+  assert.equal(classifyControl('', 'iubenda-cs-close-btn'), 'close');
+  assert.equal(classifyControl('', 'banner-close'), 'close');
+  // "Chiudi e accetta" is an acceptance, not a close
+  assert.equal(classifyControl('Chiudi e accetta', ''), null);
+  assert.equal(classifyControl('Accetta e chiudi', ''), 'accept');
+  // a close button whose internal name says accept: contradiction, nothing claimed
+  assert.equal(classifyControl('×', 'cmp-accept-all'), null);
+  // a close button whose internal name says reject is a rejection
+  assert.equal(classifyControl('×', 'cookie-reject-close'), 'reject');
+  // a word that merely starts like "close" is not one
+  assert.equal(classifyControl('Closed on Sundays', ''), null);
+});
+
+test('an X or an OK counts only in a banner about cookies', () => {
+  const cookieBanner = ['×', 'Usiamo cookie per migliorare il sito. Rifiuta Accetta ×'];
+  const newsletter = ['×', 'Iscriviti alla newsletter. Leggi la privacy policy. ×'];
+  assert.equal(clickCounts('close', '×', cookieBanner, ['', '']), true);
+  assert.equal(clickCounts('close', '×', newsletter, ['', '']), false);
+  assert.equal(clickCounts('close', '×', newsletter, ['', 'onetrust-banner-sdk']), true); // named by the platform
+  assert.equal(isWeakAccept('OK'), true);
+  assert.equal(isWeakAccept('Accetta tutti'), false);
+  const orderTracker = ['OK', 'Il tuo ordine è in viaggio. Informativa privacy. OK'];
+  assert.equal(clickCounts('accept', 'OK', orderTracker, ['', '']), false);
+  assert.equal(clickCounts('accept', 'OK', cookieBanner, ['', '']), true);
+  // rejections keep the broader context: a banner that only says "privacy" and "partner"
+  assert.equal(clickCounts('reject', 'Rifiuta', ['Rifiuta', 'Rispettiamo la tua privacy e quella dei nostri partner. Rifiuta Accetta'], ['', '']), true);
+  assert.equal(inCookieBanner(['x'.repeat(MAX_BANNER_TEXT + 1) + ' cookie'], ['']), false);
+});
+
+const click = (choice: 'rejected' | 'accepted', at: number, extra: Partial<ChoiceRecord> = {}): ChoiceRecord =>
+  ({ site: 's.it', source: 'click', choice, at, trigger: 'action', ...extra });
+
+test('merge: after a rejection, an accept outside a named banner does not count', () => {
+  // "Accetta e continua" on new terms, "OK" on an order tracker: the rejection stays
+  assert.equal(mergeChoice(click('rejected', 0), click('accepted', 5000)).choice, 'rejected');
+  assert.equal(mergeChoice(rec('tcf', 0), click('accepted', TCF_PRIORITY_MS * 10)).choice, 'rejected');
+  // the user really changes their mind in the consent platform's own banner
+  assert.equal(mergeChoice(click('rejected', 0), click('accepted', 5000, { named: true })).choice, 'accepted');
+  // with no earlier choice, an acceptance is recorded as before
+  assert.equal(mergeChoice(undefined, click('accepted', 0)).choice, 'accepted');
+  // after an acceptance, a rejection always counts
+  assert.equal(mergeChoice(click('accepted', 0), click('rejected', 5000)).choice, 'rejected');
+});
+
+test('merge: closing the banner never replaces a choice made with a button', () => {
+  assert.equal(mergeChoice(click('accepted', 0), click('rejected', 5000, { closed: true })).choice, 'accepted');
+  assert.equal(mergeChoice(click('rejected', 0, { label: 'Rifiuta' }), click('rejected', 5000, { closed: true })).label, 'Rifiuta');
+  assert.equal(mergeChoice(undefined, click('rejected', 0, { closed: true })).closed, true);
+  // a real button after the X replaces it
+  assert.equal(mergeChoice(click('rejected', 0, { closed: true }), click('rejected', 5000, { label: 'Rifiuta' })).closed, undefined);
+});
+
+test('message check: the new flags are booleans', () => {
+  const base = { type: 'choice', record: { source: 'click', choice: 'rejected', at: 1, trigger: 'action', label: '×' } };
+  assert.equal(isChoiceMessage({ ...base, record: { ...base.record, closed: true, named: false } }), true);
+  assert.equal(isChoiceMessage({ ...base, record: { ...base.record, closed: 'yes' } }), false);
 });

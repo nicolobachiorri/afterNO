@@ -16,6 +16,13 @@ export interface ChoiceRecord {
   // 'stored': a choice made earlier, reported again on page load (TCF "tcloaded").
   trigger: 'action' | 'stored';
   label?: string; // click only: the button text, at most 50 characters
+  // click only: the banner was closed with its X, not with "Reject". The Italian
+  // Garante (2021) says closing must keep the defaults, i.e. no consent; elsewhere it
+  // may only mean "decide later". Recorded as a rejection, and said so in the popup.
+  closed?: boolean;
+  // click only: the button sat inside a container a consent platform named as its own
+  // (onetrust-banner-sdk, CybotCookiebotDialog...): the strongest sign of a cookie banner.
+  named?: boolean;
   purposesConsented?: number; // TCF only
   purposesTotal?: number;
   legitimateInterests?: number; // TCF purposes still active on "legitimate interest"
@@ -41,7 +48,9 @@ export function isChoiceMessage(x: unknown): x is ChoiceMessage {
     && (r.choice === 'rejected' || r.choice === 'accepted' || r.choice === 'partial')
     && typeof r.at === 'number'
     && (r.trigger === 'action' || r.trigger === 'stored')
-    && (r.label === undefined || (typeof r.label === 'string' && r.label.length <= 50));
+    && (r.label === undefined || (typeof r.label === 'string' && r.label.length <= 50))
+    && (r.closed === undefined || typeof r.closed === 'boolean')
+    && (r.named === undefined || typeof r.named === 'boolean');
 }
 
 // ------------------------------------------------------------------ button labels
@@ -95,7 +104,20 @@ const ACCEPT = new RegExp(
   'i',
 );
 
-export type LabelKind = 'reject' | 'accept';
+export type LabelKind = 'reject' | 'accept' | 'close';
+
+// The banner's close button: an X, or "Close" in the eight languages, alone or with
+// "banner". On sites without TCF this was not recognised, while the site advised
+// Italian users to close with the X (external review, 10 November 2026).
+const CLOSE = /^\s*(×|✕|✖|╳|x|close|chiudi|schlie(ß|ss)en|fermer|cerrar|fechar|sluiten|zamknij)(\s+(this |the |il |la |el |o |den |het |le )?(banner|bannière|dialog|popup|pop-up|finestra|fenster|venster|okno|message))?\s*$/i;
+const ATTR_CLOSE = /(^|[\s_-])(close|dismiss)([\s_-]|$)|close-?btn|btn-?close|closebutton|close-?button|close-?icon/i;
+
+// Accept labels that say nothing about cookies: "OK" may close any dialog. They count
+// only in a container named by a consent platform or one that talks about cookies.
+const WEAK_ACCEPT = /^\s*(ok(ay)?|va bene|ho capito|got it|d.?accord|verstanden|entendido|entendi|begrepen|rozumiem)\b/i;
+export function isWeakAccept(label: string): boolean {
+  return WEAK_ACCEPT.test(label);
+}
 
 // A label that also talks about changing or managing opens the settings: it is not a
 // choice yet. «ablehnen, ändern oder widerrufen» (kleinanzeigen.de, sample F) starts
@@ -142,6 +164,14 @@ export function classifyControl(label: string, attrs: string): LabelKind | null 
   if (PAYWALL.test(label)) return null;
   const byText = classifyLabel(label);
   const byAttrs = classifyAttributes(attrs);
+  // The X: by its label ("×", "Chiudi", aria-label "Close") or, for an empty label,
+  // by its internal name. If the internal name says accept or reject, that wins only
+  // when it agrees: "Close" named "accept-all" is a contradiction, so nothing is claimed.
+  const text = label.replace(/\s+/g, ' ').trim();
+  if (!byText && (CLOSE.test(text) || (!text && ATTR_CLOSE.test(attrs)))) {
+    if (byAttrs === 'accept') return null;
+    return byAttrs === 'reject' ? 'reject' : 'close';
+  }
   if (!byText && SAVE.test(label)) return byAttrs === 'reject' ? 'reject' : null;
   if (byText && byAttrs && byText !== byAttrs) return null;
   return byText ?? byAttrs;
@@ -185,6 +215,28 @@ export function isConsentContainer(idAndClass: string): boolean {
 // a consent platform named as its own.
 export function inConsentContext(ancestorTexts: string[], ancestorNames: string[]): boolean {
   return inConsentBanner(ancestorTexts) || ancestorNames.some(isConsentContainer);
+}
+
+// A stricter test, for the clicks that could easily belong to something else: an X
+// (every dialog has one) and an "OK". The container must be named by a consent
+// platform, or be short and talk about cookies or consent specifically, not just
+// about "privacy" or "partners".
+const COOKIE_WORDS = /cookie|consent|consens|einwilligung|toestemming|zgod|consentement|consentimiento|consentimento|gdpr|rgpd|dsgvo/i;
+export function inCookieBanner(ancestorTexts: string[], ancestorNames: string[]): boolean {
+  if (ancestorNames.some(isConsentContainer)) return true;
+  for (const text of ancestorTexts) {
+    if (text.length > MAX_BANNER_TEXT) return false;
+    if (COOKIE_WORDS.test(text)) return true;
+  }
+  return false;
+}
+
+// Which clicks are recorded, given the kind of button and where it sits.
+// Other acceptances keep the broader test: a real acceptance that goes unrecorded
+// would make the popup say that trackers run without consent.
+export function clickCounts(kind: LabelKind, label: string, ancestorTexts: string[], ancestorNames: string[]): boolean {
+  if (kind === 'close' || (kind === 'accept' && isWeakAccept(label))) return inCookieBanner(ancestorTexts, ancestorNames);
+  return inConsentContext(ancestorTexts, ancestorNames);
 }
 
 // Longest text that can still be a button label. Also used by the content script for
@@ -257,5 +309,12 @@ export function mergeChoice(existing: ChoiceRecord | undefined, incoming: Choice
   }
   if (incoming.source === 'tcf') return incoming;
   if (existing.source === 'tcf' && incoming.at - existing.at < TCF_PRIORITY_MS) return existing;
+  // Closing the banner never replaces a choice made with a real button.
+  if (incoming.closed && !existing.closed) return existing;
+  // After a rejection, a click on "accept" counts only inside a container named by a
+  // consent platform: an "OK" or "Accetta e continua" elsewhere on the site (an order
+  // tracker, new terms) must not turn the rejection into "you accepted" (external
+  // review, 10 November 2026). On TCF sites a real acceptance arrives through TCF.
+  if (incoming.choice === 'accepted' && existing.choice === 'rejected' && !incoming.named) return existing;
   return incoming;
 }

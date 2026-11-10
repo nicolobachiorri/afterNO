@@ -119,7 +119,9 @@ export function buildVerdict(choice: ChoiceRecord | undefined, own: Row[], track
       });
     }
   } else if (choice?.source === 'click') {
-    items.push({ mark: 'info', key: 'itemClickOnly', subs: [choice.label ?? ''] });
+    items.push(choice.closed
+      ? { mark: 'info', key: 'itemClosedX' }
+      : { mark: 'info', key: 'itemClickOnly', subs: [choice.label ?? ''] });
   }
 
   // 2. Third parties that can recognise the user from this page.

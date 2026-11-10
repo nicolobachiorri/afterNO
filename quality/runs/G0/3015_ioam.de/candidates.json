@@ -1,0 +1,6 @@
+{
+ "order": "3015",
+ "url": "https://www.ioam.de",
+ "candidates": [],
+ "error": "Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://www.ioam.de/\nCall log:\n  - navigating to \"https://www.ioam.de/\", waiting until \"domcontentloaded\"\n"
+}

@@ -1,0 +1,63 @@
+{
+ "order": "3515",
+ "url": "https://www.ebit.at",
+ "candidates": [
+  {
+   "tag": "nav",
+   "text": "Services Produkte Kontakt",
+   "aria": "main navigation",
+   "names": "navbar",
+   "x": 0,
+   "y": 0,
+   "w": 1366,
+   "h": 104.09375,
+   "score": 0,
+   "frame_url": "https://www.ebit.at/",
+   "frame": "main",
+   "n": 1
+  },
+  {
+   "tag": "a",
+   "text": "Services",
+   "aria": "",
+   "names": "",
+   "x": 1010.3515625,
+   "y": 39.2421875,
+   "w": 61.3515625,
+   "h": 25.59375,
+   "score": 0,
+   "frame_url": "https://www.ebit.at/",
+   "frame": "main",
+   "n": 2
+  },
+  {
+   "tag": "a",
+   "text": "Produkte",
+   "aria": "",
+   "names": "",
+   "x": 1103.703125,
+   "y": 39.2421875,
+   "w": 64.0390625,
+   "h": 25.59375,
+   "score": 0,
+   "frame_url": "https://www.ebit.at/",
+   "frame": "main",
+   "n": 3
+  },
+  {
+   "tag": "a",
+   "text": "Kontakt",
+   "aria": "",
+   "names": "",
+   "x": 1199.7421875,
+   "y": 39.2421875,
+   "w": 54.2578125,
+   "h": 25.59375,
+   "score": 0,
+   "frame_url": "https://www.ebit.at/",
+   "frame": "main",
+   "n": 4
+  }
+ ],
+ "final_url": "https://www.ebit.at/"
+}

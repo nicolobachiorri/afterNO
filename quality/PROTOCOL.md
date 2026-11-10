@@ -409,3 +409,47 @@ trovati. Nel README, una frase con la misura principale e il link a questa carte
     impostazioni e non è una scelta; il prefisso «Cookies :» del nome accessibile
     (tarteaucitron, idonate.ie, visto con `inspect_buttons.py`) è ammesso. Da misurare
     su un campione nuovo.
+
+**10 novembre 2026, dopo una revisione esterna.**
+
+36. *Riconteggio dei rifiuti non registrati.* Dalla modifica 21 il robot cerca il
+    pulsante di rifiuto con le stesse formule dell'estensione (`robot_labels.py`):
+    un rifiuto gratuito scritto con parole che l'estensione non conosce non viene
+    cliccato, e il sito finisce tra i non misurabili invece che tra gli errori,
+    contro la modifica 4. Una revisione esterna lo ha segnalato. Da oggi i risultati
+    si riportano con due numeri distinti: **rifiuto registrato** (sui siti con un
+    rifiuto gratuito, quante volte l'estensione registra la scelta) e **verdetto
+    giusto se registrato** (l'accuratezza finora pubblicata, che è condizionata).
+    Ricontati dai file dei giudizi, senza cambiare nessun giudizio: D1 22 su 24
+    (98 e 132, X che vale come rifiuto secondo il testo del banner; 122 non contato,
+    perché non si sa che cosa avrebbe fatto l'estensione), E1 14 su 19 (3503, 4002,
+    6001, 6002, 6505), F1 19 su 24 (3511, 4008, 6007, 6510, più 3011 dove
+    l'estensione ha registrato un rifiuto che non c'era). Intervalli di Wilson al 95%:
+    74-98%, 51-88%, 60-91%.
+37. *Limiti aggiunti alla pubblicazione.* Il giudizio umano messo da parte (modifica
+    9) e il fatto che i giudici leggano una pagina con i criteri già calcolati
+    (`build_review.py`) si dichiarano accanto ai risultati, nel README e nel sito,
+    insieme a «solo Chromium» e alla differenza tra versione misurata e versione
+    pubblicata.
+38. *Prossimo giro (G).* Il pulsante di rifiuto si individua prima della visita,
+    indipendentemente dall'estensione (persona che lo segna sullo screenshot del
+    banner); il robot clicca quello; un rifiuto gratuito non registrato conta come
+    errore, e anche un rifiuto registrato dove non c'era. Un giudice umano esterno
+    giudica alla cieca, su dati grezzi senza il confronto già fatto, un sottoinsieme
+    estratto a caso. Si misura la versione pubblicata, identificata da un tag.
+39. *Campione G, sostituzioni.* Al primo passaggio di `label_buttons.py` non si
+    caricano: broadspeed.it e ns.ie (dominio inesistente), ioam.de (errore SSL).
+    Sostituiti con la riserva successiva dello stesso gruppo (valtellinamobile.it,
+    inwx.de, woodies.ie), registrati in `select_sample_g.py`. slon6.at,
+    teleperformance.pt (tempo scaduto) ed ebit.at (rete) si riprovano una volta,
+    come previsto. L'elenco dei controlli da segnare mette per primi quelli dentro un
+    elemento fisso o modale, in un iframe o vicino a parole sui cookie: cambia solo
+    l'ordine, ogni controllo visibile resta nell'elenco.
+40. *Campione G, etichette.* slon6.at non si carica neanche al secondo tentativo:
+    sostituito. Tre siti hanno al primo livello solo «salva» con i soli cookie
+    necessari attivi (mediamarkt.at «Speichern», praca.pl «Akceptuj wybrane»,
+    woodies.ie «Save selection»): per l'utente è un rifiuto, ma l'estensione non vede
+    gli interruttori. Si misurano con l'etichetta `save_defaults` e si riportano a
+    parte, senza mescolarli ai rifiuti espliciti. Su un sito italiano la X vale come
+    rifiuto anche senza dirlo (Garante, 2021); dove c'è anche un pulsante esplicito
+    (sampdoria.it), il robot clicca quello.

@@ -15,6 +15,14 @@ Usage (from the quality folder):
     python3 build_review.py --visit A                       # writes runs/A/review.html
     python3 build_review.py --visit A --only 4,8 --round 2  # some sites, a new round:
         writes runs/A/review_round2.html, answers exported as judgments_A_round2.csv
+    python3 build_review.py --visit G1 --blind              # for an external judge:
+        writes runs/G1/review_blind.html, exported as judgments_G1_blind.csv
+
+Blind mode (protocol, modification 38): the judge sees the page and the raw data only,
+without the extension's verdict, its popup, the criteria already computed or the
+comparison with the extension, and answers from the data whether a third party can
+still recognise the user after the rejection. score_g.py compares the answers with the
+extension afterwards.
 """
 import re
 
@@ -95,7 +103,7 @@ def esc(x):
     return html.escape(str(x))
 
 
-def site_card(order, row, folder, msgs, db, now):
+def site_card(order, row, folder, msgs, db, now, blind=False):
     vpath, rpath = folder / "verdict.json", folder / "raw.json"
     verdict = json.loads(vpath.read_text(encoding="utf-8")) if vpath.exists() else {"error": "no verdict.json"}
     raw = json.loads(rpath.read_text(encoding="utf-8")) if rpath.exists() else {}
@@ -157,11 +165,34 @@ def site_card(order, row, folder, msgs, db, now):
                f"l'estensione ne nomina <b>{len(named)}</b> come capaci di riconoscerti tra siti."
                + (f" <span class='warn'>Nella tabella ma non nominati: {esc(', '.join(missing))}.</span>" if missing else ""))
 
+    # The parts of the card that show the extension, left out in blind mode.
+    popup_html = "" if blind else f'<a href="{rel}/popup.png" target="_blank"><img src="{rel}/popup.png" alt="popup dell\'estensione"></a>'
+    error_html = ('<br><span class=warn>Errore: ' + esc(verdict['error']) + '</span>') if verdict.get('error') else ''
+    empty_items = "<li class='muted'>nessun punto</li>"
+    verdict_html = "" if blind else (
+        "<h3>Verdetto dell'estensione</h3>"
+        f"<p>Scelta: {choice_txt}</p>"
+        f"<ul class='items'>{items_html or empty_items}</ul>"
+        f"<p>Conclusione: <b>{esc(message(msgs, concl['key']) if concl else '— nessuna')}</b>{error_html}</p>")
+    compare_html = "" if blind else f'<p class="compare">{compare}</p>'
+    third_note = "" if blind else "; in evidenza quelli che soddisfano i criteri"
+    if blind:
+        guide = ("Il robot ha cliccato il controllo di rifiuto segnato prima della visita. Lo screenshot è fatto <b>dopo</b> "
+                 "il clic e il ricaricamento: se il banner non c'è più, il clic ha funzionato."
+                 if str(row.get("reject_clicked")) == "True" else f"Il robot non ha cliccato ({esc(row.get('reject_how', ''))}).")
     tcf = raw.get("tcf")
     tcf_txt = "assente" if not tcf else esc(json.dumps(tcf, ensure_ascii=False))
     q = f"q{order}"
     radios = lambda name, opts: "".join(
         f"<label><input type='radio' name='{q}_{name}' value='{v}'> {t}</label>" for v, t in opts)
+    if blind:
+        questions = ("<p><b>2. Dai dati grezzi, dopo il rifiuto: un sito terzo può ancora riconoscerti?</b> "
+                     + radios('conclusion', [('respected', 'no: il rifiuto sembra rispettato'),
+                                             ('partly', 'sì: rispettato solo in parte'), ('unsure', 'non so')]) + "</p>")
+    else:
+        questions = (f"<p><b>2. Punti della lista</b> {radios('items', [('ok', 'tutti corretti'), ('imprecise', 'almeno uno impreciso'), ('wrong', 'almeno uno sbagliato')])}</p>"
+                     f"<p><b>3. Etichette errate tra i cookie nominati</b> <input type='number' min='0' name='{q}_labels' style='width:4em'></p>"
+                     f"<p><b>4. Conclusione</b> {radios('conclusion', [('correct', 'corretta'), ('debatable', 'discutibile'), ('false_alarm', 'sbagliata: falso allarme'), ('missed', 'sbagliata: problema non visto'), ('not_recorded', 'errore: scelta non registrata')])}</p>")
 
     return f"""
 <section class="site" id="s{order}" data-order="{order}">
@@ -171,20 +202,16 @@ def site_card(order, row, folder, msgs, db, now):
   <div class="cols">
     <div class="shots">
       <a href="{rel}/page.png" target="_blank"><img src="{rel}/page.png" alt="pagina dopo il rifiuto e il ricaricamento"></a>
-      <a href="{rel}/popup.png" target="_blank"><img src="{rel}/popup.png" alt="popup dell'estensione"></a>
+      {popup_html}
     </div>
     <div class="facts">
-      <h3>Verdetto dell'estensione</h3>
-      <p>Scelta: {choice_txt}</p>
-      <ul class="items">{items_html or "<li class='muted'>nessun punto</li>"}</ul>
-      <p>Conclusione: <b>{esc(message(msgs, concl['key']) if concl else '— nessuna')}</b>
-       {('<br><span class=warn>Errore: ' + esc(verdict['error']) + '</span>') if verdict.get('error') else ''}</p>
+      {verdict_html}
       <h3>Dati grezzi (robot)</h3>
       <p>TCF: {tcf_txt}<br>Clic al secondo {esc(raw.get('click_at_s', '-'))}, ricaricamento al {esc(raw.get('reload_at_s', '-'))}.
        Siti terzi contattati dopo il clic: {len(raw.get('third_party_hosts_after_click', []))}.
        {('<br>Serviti dalla cache del browser (non contattati): ' + esc(', '.join(raw['third_party_hosts_served_from_cache_after_click']))) if raw.get('third_party_hosts_served_from_cache_after_click') else ''}</p>
-      <p class="compare">{compare}</p>
-      <details open><summary>Cookie di siti terzi ({len(third)}; in evidenza quelli che soddisfano i criteri)</summary>{table(third, True)}</details>
+      {compare_html}
+      <details open><summary>Cookie di siti terzi ({len(third)}{third_note})</summary>{table(third, not blind)}</details>
       <details><summary>Cookie del sito ({len(own)})</summary>{table(own, False)}</details>
     </div>
   </div>
@@ -192,9 +219,7 @@ def site_card(order, row, folder, msgs, db, now):
     <p class="guide">{guide}</p>
     <p><b>1. Misurabile?</b> {radios('measurable', [('si', 'sì'), ('no_banner', 'no: nessun banner'), ('no_reject', 'no: banner senza rifiuto'), ('no_click', 'no: il clic non ha chiuso il banner'), ('no_blocked', 'no: robot bloccato'), ('other', 'altro')])}</p>
     <div class="if-measurable">
-    <p><b>2. Punti della lista</b> {radios('items', [('ok', 'tutti corretti'), ('imprecise', 'almeno uno impreciso'), ('wrong', 'almeno uno sbagliato')])}</p>
-    <p><b>3. Etichette errate tra i cookie nominati</b> <input type="number" min="0" name="{q}_labels" style="width:4em"></p>
-    <p><b>4. Conclusione</b> {radios('conclusion', [('correct', 'corretta'), ('debatable', 'discutibile'), ('false_alarm', 'sbagliata: falso allarme'), ('missed', 'sbagliata: problema non visto'), ('not_recorded', 'errore: scelta non registrata')])}</p>
+    {questions}
     </div>
     <p><b>Note</b> <span class="need-note warn">(obbligatoria se rispondi «discutibile» o «altro»: spiega perché)</span><br><textarea name="{q}_notes" rows="2"></textarea></p>
   </div>
@@ -277,12 +302,13 @@ def main():
     ap.add_argument("--visit", required=True)
     ap.add_argument("--only", help="comma-separated order numbers")
     ap.add_argument("--round", type=int, default=1, help="judging round (2, 3...): separate page and export")
+    ap.add_argument("--blind", action="store_true", help="page for an external judge, without the extension's verdict")
     args = ap.parse_args()
     only = {x.strip() for x in args.only.split(",")} if args.only else None
     run_dir = HERE / "runs" / args.visit
     msgs = json.loads(MESSAGES.read_text(encoding="utf-8"))
     db = json.loads(COOKIE_DB.read_text(encoding="utf-8"))
-    with open(HERE / (f"sites_{args.visit[0]}.csv" if args.visit[0] in "CDEF" else "sites.csv"), encoding="utf-8") as f:
+    with open(HERE / (f"sites_{args.visit[0]}.csv" if args.visit[0] in "CDEFG" else "sites.csv"), encoding="utf-8") as f:
         sample = {r["order"]: r for r in csv.DictReader(f) if r["role"].startswith("sample")}
     with open(run_dir / "results.csv", encoding="utf-8") as f:
         results = {r["order"]: r for r in csv.DictReader(f)}
@@ -297,8 +323,8 @@ def main():
             cards.append(f"<section class='site' data-order='{order}'><h2>{order}. {esc(row['url'])}</h2>"
                          f"<p class='warn'>Non ancora misurato in questa visita.</p></section>")
             continue
-        cards.append(site_card(order, row, folders[0], msgs, db, now))
-    suffix = "" if args.round == 1 else f"_round{args.round}"
+        cards.append(site_card(order, row, folders[0], msgs, db, now, args.blind))
+    suffix = ("" if args.round == 1 else f"_round{args.round}") + ("_blind" if args.blind else "")
     out = run_dir / f"review{suffix}.html"
     out.write_text(PAGE.format(visit=args.visit, n=len(cards), when=time.strftime("%d/%m/%Y %H:%M"),
                                key=f"{args.visit}{suffix}", export_name=f"judgments_{args.visit}{suffix}.csv",
